@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Prompt Engineering Quiz</title>
+    <style>
+        :root {
+            --primary-bg: #f4f7f9;
+            --secondary-bg: #ffffff;
+            --primary-text: #333;
+            --accent-color: #007bff;
+            --accent-hover: #0056b3;
+            --correct-color: #28a745;
+            --incorrect-color: #dc3545;
+            --border-color: #dee2e6;
+            --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--primary-bg);
+            color: var(--primary-text);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+
+        #app-container {
+            width: 100%;
+            max-width: 800px;
+            background-color: var(--secondary-bg);
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            overflow: hidden;
+        }
+
+        .header {
+            padding: 20px 25px;
+            background-color: var(--accent-color);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+
+        .header-btn {
+            background-color: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 1px solid white;
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .header-btn:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+        
+        #main-menu-container, #quiz-container, #summary-container {
+            padding: 25px;
+        }
+        
+        /* Main Menu Styles */
+        #main-menu-container h2 {
+            text-align: center;
+            margin-bottom: 25px;
+            color: var(--accent-color);
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 15px;
+        }
+
+        .chapter-btn {
+            width: 100%;
+            padding: 18px;
+            font-size: 1.1em;
+            text-align: left;
+            background-color: var(--secondary-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: block;
+            margin-bottom: 15px;
+        }
+
+        .chapter-btn:hover {
+            background-color: #f8f9fa;
+            border-color: var(--accent-color);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        #question-counter {
+            font-size: 0.9em;
+            color: #6c757d;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+
+        #question-text {
+            font-size: 1.25em;
+            margin-top: 0;
+            margin-bottom: 25px;
+            line-height: 1.4;
+        }
+
+        #options-container {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .option-btn {
+            width: 100%;
+            padding: 15px;
+            font-size: 1em;
+            text-align: left;
+            background-color: var(--secondary-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: block;
+        }
+
+        .option-btn:hover:not(:disabled) {
+            background-color: #e9ecef;
+            border-color: var(--accent-color);
+        }
+        
+        .option-btn:disabled {
+            cursor: not-allowed;
+        }
+
+        .option-btn.correct {
+            background-color: #e9f7ec;
+            border-color: var(--correct-color);
+            color: var(--correct-color);
+            font-weight: bold;
+        }
+
+        .option-btn.incorrect {
+            background-color: #fceeed;
+            border-color: var(--incorrect-color);
+            color: var(--incorrect-color);
+            font-weight: bold;
+        }
+
+
+        #feedback-container {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 5px solid;
+        }
+
+        #feedback-text {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+
+        #feedback-text.correct { color: var(--correct-color); }
+        #feedback-text.incorrect { color: var(--incorrect-color); }
+
+        #feedback-container.correct { border-color: var(--correct-color); background-color: #f0fff4; }
+        #feedback-container.incorrect { border-color: var(--incorrect-color); background-color: #fff5f5; }
+        
+        #feedback-container p {
+            margin: 5px 0 10px;
+            line-height: 1.5;
+        }
+
+        #feedback-container p strong {
+            display: block;
+            margin-bottom: 3px;
+            color: #495057;
+        }
+
+        #navigation {
+            display: flex;
+            justify-content: space-between;
+            padding: 25px;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .nav-btn {
+            padding: 12px 24px;
+            font-size: 1em;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            background-color: var(--accent-color);
+            color: white;
+            transition: background-color 0.2s;
+        }
+
+        .nav-btn:hover {
+            background-color: var(--accent-hover);
+        }
+
+        .nav-btn:disabled {
+            background-color: #adb5bd;
+            cursor: not-allowed;
+        }
+
+        /* Summary Styles */
+        #summary-container h2 {
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        
+        #final-score-details {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            padding: 20px;
+            background-color: var(--primary-bg);
+            border-radius: 8px;
+            margin-bottom: 25px;
+        }
+
+        #final-score-details div {
+            font-size: 1.1em;
+        }
+
+        #final-score-details span {
+            display: block;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        
+        #final-score-details .score-correct { color: var(--correct-color); }
+        #final-score-details .score-incorrect { color: var(--incorrect-color); }
+        #final-score-details .score-percentage { color: var(--accent-color); }
+
+        .summary-item, .incorrect-answer-item {
+            background-color: var(--primary-bg);
+            padding: 15px;
+            margin-bottom: 12px;
+            border-radius: 8px;
+            border-left: 5px solid;
+        }
+
+        .summary-item.correct { border-color: var(--correct-color); }
+        .summary-item.incorrect { border-color: var(--incorrect-color); }
+
+        .summary-item p, .incorrect-answer-item p { margin: 5px 0; }
+        .summary-item .question-title, .incorrect-answer-item .question-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .summary-actions {
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="app-container">
+        <div class="header">
+            <h1>Academic Quiz</h1>
+            <div>
+                <button id="view-summary-btn" class="header-btn hidden">View Progress</button>
+                <button id="back-to-menu-btn" class="header-btn hidden">Back to Menu</button>
+            </div>
+        </div>
+        
+        <div id="main-menu-container">
+            <!-- Populated by JS -->
+        </div>
+
+        <div id="quiz-container" class="hidden">
+            <p id="question-counter"></p>
+            <h2 id="question-text"></h2>
+            <div id="options-container"></div>
+            <div id="feedback-container" class="hidden">
+                <p id="feedback-text"></p>
+                <p id="correct-answer-text"></p>
+                <div id="explanations">
+                    <p id="short-explanation"></p>
+                    <p id="long-explanation"></p>
+                </div>
+            </div>
+        </div>
+
+        <div id="summary-container" class="hidden">
+             <!-- Populated by JS -->
+        </div>
+
+        <div id="navigation" class="hidden">
+            <button id="prev-btn" class="nav-btn">Previous</button>
+            <button id="next-btn" class="nav-btn">Next</button>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // DOM Elements
+            const mainMenuContainer = document.getElementById('main-menu-container');
+            const quizContainer = document.getElementById('quiz-container');
+            const summaryContainer = document.getElementById('summary-container');
+            const questionCounterEl = document.getElementById('question-counter');
+            const questionTextEl = document.getElementById('question-text');
+            const optionsContainerEl = document.getElementById('options-container');
+            const feedbackContainerEl = document.getElementById('feedback-container');
+            const feedbackTextEl = document.getElementById('feedback-text');
+            const correctAnswerTextEl = document.getElementById('correct-answer-text');
+            const shortExplanationEl = document.getElementById('short-explanation');
+            const longExplanationEl = document.getElementById('long-explanation');
+            const prevBtn = document.getElementById('prev-btn');
+            const nextBtn = document.getElementById('next-btn');
+            const viewSummaryBtn = document.getElementById('view-summary-btn');
+            const backToMenuBtn = document.getElementById('back-to-menu-btn');
+            const navigationEl = document.getElementById('navigation');
+
+            // State
+            let quizData = {};
+            let allQuestions = [];
+            let currentChapterIndex = -1;
+            let currentQuestions = [];
+            let currentQuestionIndex = 0;
+            let userAnswers = {}; // Using an object for easier lookup by question ID
+
+            // Fetch data and initialize
+            async function initializeQuiz() {
+                try {
+                    const response = await fetch('quiz-data.json');
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    quizData = await response.json();
+                    // Flatten all questions for easy lookup by ID later
+                    allQuestions = quizData.chapters.flatMap(chapter => chapter.questions);
+                    displayMainMenu();
+                } catch (error) {
+                    console.error("Could not fetch quiz data:", error);
+                    mainMenuContainer.innerHTML = `<p style="color: red; text-align: center;">Error: Could not load quiz questions. Please check the console and ensure 'quiz-data.json' is available.</p>`;
+                    navigationEl.classList.add('hidden');
+                }
+            }
+            
+            function displayMainMenu() {
+                mainMenuContainer.innerHTML = '<h2>Select a Chapter</h2>';
+                quizData.chapters.forEach((chapter, index) => {
+                    const chapterBtn = document.createElement('button');
+                    chapterBtn.className = 'chapter-btn';
+                    chapterBtn.textContent = chapter.title;
+                    chapterBtn.dataset.chapterIndex = index;
+                    chapterBtn.addEventListener('click', () => startChapterQuiz(index));
+                    mainMenuContainer.appendChild(chapterBtn);
+                });
+                showMenuView();
+            }
+
+            function startChapterQuiz(index) {
+                currentChapterIndex = index;
+                currentQuestions = quizData.chapters[index].questions;
+                currentQuestionIndex = 0;
+                userAnswers = {};
+                showQuizView();
+                displayQuestion();
+            }
+            
+            function startRetryMode() {
+                const incorrectQuestionIds = Object.values(userAnswers)
+                    .filter(a => !a.isCorrect)
+                    .map(a => a.questionId);
+                
+                // We filter from the master 'allQuestions' list to find the question objects
+                currentQuestions = allQuestions.filter(q => incorrectQuestionIds.includes(q.id));
+                currentQuestionIndex = 0;
+                userAnswers = {}; // Reset answers for the retry round
+                
+                showQuizView();
+                displayQuestion();
+            }
+
+            function displayQuestion() {
+                // Clear previous state
+                feedbackContainerEl.classList.add('hidden');
+                optionsContainerEl.innerHTML = '';
+
+                if (currentQuestionIndex >= currentQuestions.length) {
+                    displayFinalSummary();
+                    return;
+                }
+
+                const question = currentQuestions[currentQuestionIndex];
+                questionCounterEl.textContent = `Question ${currentQuestionIndex + 1} of ${currentQuestions.length}`;
+                questionTextEl.textContent = question.question;
+
+                // Create option buttons
+                for (const key in question.options) {
+                    const optionBtn = document.createElement('button');
+                    optionBtn.className = 'option-btn';
+                    optionBtn.textContent = `${key}. ${question.options[key]}`;
+                    optionBtn.dataset.optionKey = key;
+                    optionBtn.addEventListener('click', handleAnswerSelection);
+                    optionsContainerEl.appendChild(optionBtn);
+                }
+                
+                // Restore previous answer if it exists
+                if(userAnswers[question.id]) {
+                    showFeedback(userAnswers[question.id].selectedOption);
+                }
+
+                updateNavigation();
+            }
+            
+            function handleAnswerSelection(event) {
+                const selectedOption = event.target.dataset.optionKey;
+                const question = currentQuestions[currentQuestionIndex];
+                
+                if(userAnswers[question.id]) return; // Already answered
+
+                const isCorrect = selectedOption === question.answer;
+
+                userAnswers[question.id] = {
+                    questionId: question.id,
+                    selectedOption,
+                    isCorrect,
+                };
+                
+                showFeedback(selectedOption);
+            }
+            
+            function showFeedback(selectedOption) {
+                const question = currentQuestions[currentQuestionIndex];
+                const isCorrect = selectedOption === question.answer;
+
+                // Disable all option buttons
+                optionsContainerEl.querySelectorAll('.option-btn').forEach(btn => {
+                    btn.disabled = true;
+                    const optionKey = btn.dataset.optionKey;
+                    if(optionKey === question.answer) {
+                        btn.classList.add('correct');
+                    } else if (optionKey === selectedOption) {
+                        btn.classList.add('incorrect');
+                    }
+                });
+                
+                // Show feedback text
+                feedbackContainerEl.classList.remove('hidden');
+                feedbackTextEl.textContent = isCorrect ? 'Correct!' : 'Incorrect!';
+                feedbackContainerEl.className = `feedback-container ${isCorrect ? 'correct' : 'incorrect'}`;
+                feedbackTextEl.className = isCorrect ? 'correct' : 'incorrect';
+                
+                correctAnswerTextEl.innerHTML = `<strong>The correct answer is:</strong> ${question.answer}. ${question.options[question.answer]}`;
+                shortExplanationEl.innerHTML = `<strong>Explanation:</strong> ${question.short_explanation}`;
+                longExplanationEl.innerHTML = `<strong>Detailed Explanation:</strong> ${question.long_explanation}`;
+            }
+
+            function updateNavigation() {
+                prevBtn.disabled = currentQuestionIndex === 0;
+                if (currentQuestionIndex === currentQuestions.length - 1) {
+                    nextBtn.textContent = 'Finish';
+                } else {
+                    nextBtn.textContent = 'Next';
+                }
+            }
+
+            function displayFinalSummary() {
+                let correctCount = 0;
+                let incorrectCount = 0;
+
+                Object.values(userAnswers).forEach(answer => {
+                    if(answer.isCorrect) correctCount++;
+                    else incorrectCount++;
+                });
+                
+                const percentage = currentQuestions.length > 0 ? ((correctCount / currentQuestions.length) * 100).toFixed(1) : 0;
+                const chapterTitle = quizData.chapters[currentChapterIndex].title;
+
+                let summaryHTML = `
+                    <h2>Quiz Completed: ${chapterTitle}</h2>
+                    <div id="final-score-details">
+                        <div>Correct<span class="score-correct">${correctCount}</span></div>
+                        <div>Incorrect<span class="score-incorrect">${incorrectCount}</span></div>
+                        <div>Score<span class="score-percentage">${percentage}%</span></div>
+                    </div>
+                `;
+
+                const incorrectAnswers = Object.values(userAnswers).filter(a => !a.isCorrect);
+
+                if (incorrectAnswers.length > 0) {
+                    summaryHTML += `<h3>Review Incorrect Answers</h3>`;
+                    incorrectAnswers.forEach(answer => {
+                        const question = allQuestions.find(q => q.id === answer.questionId);
+                        summaryHTML += `
+                            <div class="incorrect-answer-item">
+                                <p class="question-title">${question.question}</p>
+                                <p><strong>Your answer:</strong> ${answer.selectedOption}. ${question.options[answer.selectedOption]}</p>
+                                <p><strong>Correct answer:</strong> ${question.answer}. ${question.options[question.answer]}</p>
+                                <p><strong>Explanation:</strong> ${question.short_explanation}</p>
+                            </div>
+                        `;
+                    });
+                } else if (Object.keys(userAnswers).length > 0) {
+                     summaryHTML += `<h3>Congratulations! You answered all questions correctly.</h3>`;
+                } else {
+                     summaryHTML += `<h3>You have not answered any questions.</h3>`;
+                }
+
+                summaryHTML += `
+                    <div class="summary-actions">
+                        <button id="retry-wrong-btn" class="nav-btn">Answer Wrong Questions</button>
+                        <button id="restart-btn" class="nav-btn">Restart Chapter</button>
+                    </div>
+                `;
+
+                showSummaryView(summaryHTML);
+                
+                document.getElementById('restart-btn').addEventListener('click', () => startChapterQuiz(currentChapterIndex));
+                const retryBtn = document.getElementById('retry-wrong-btn');
+                if (incorrectAnswers.length === 0) {
+                    retryBtn.disabled = true;
+                } else {
+                    retryBtn.addEventListener('click', startRetryMode);
+                }
+            }
+
+            function displayPartialSummary() {
+                let summaryHTML = `
+                    <h2>Quiz Progress: ${quizData.chapters[currentChapterIndex].title}</h2>
+                    <div id="partial-summary-list">
+                `;
+                
+                if (Object.keys(userAnswers).length === 0) {
+                    summaryHTML += `<p>You haven't answered any questions yet.</p>`;
+                } else {
+                    // Show answered questions in the order they appear in the chapter
+                    currentQuestions.forEach(question => {
+                        if (userAnswers[question.id]) {
+                            const answer = userAnswers[question.id];
+                            const status = answer.isCorrect ? 'correct' : 'incorrect';
+                            summaryHTML += `
+                                <div class="summary-item ${status}">
+                                    <p class="question-title">${question.question}</p>
+                                    <p><strong>Your answer was ${status}:</strong> ${answer.selectedOption}. ${question.options[answer.selectedOption]}</p>
+                                    <p><strong>Correct Answer:</strong> ${question.answer}. ${question.options[question.answer]}</p>
+                                </div>
+                            `;
+                        }
+                    });
+                }
+                
+                summaryHTML += `
+                    </div>
+                    <div class="summary-actions">
+                        <button id="back-to-quiz-btn" class="nav-btn">Back to Quiz</button>
+                    </div>
+                `;
+                showSummaryView(summaryHTML);
+                document.getElementById('back-to-quiz-btn').addEventListener('click', showQuizView);
+            }
+
+            // --- View Management Functions ---
+            function showMenuView() {
+                mainMenuContainer.classList.remove('hidden');
+                quizContainer.classList.add('hidden');
+                summaryContainer.classList.add('hidden');
+                navigationEl.classList.add('hidden');
+                viewSummaryBtn.classList.add('hidden');
+                backToMenuBtn.classList.add('hidden');
+            }
+
+            function showQuizView() {
+                mainMenuContainer.classList.add('hidden');
+                quizContainer.classList.remove('hidden');
+                summaryContainer.classList.add('hidden');
+                navigationEl.classList.remove('hidden');
+                viewSummaryBtn.classList.remove('hidden');
+                backToMenuBtn.classList.remove('hidden');
+            }
+
+            function showSummaryView(htmlContent) {
+                mainMenuContainer.classList.add('hidden');
+                quizContainer.classList.add('hidden');
+                navigationEl.classList.add('hidden');
+                viewSummaryBtn.classList.add('hidden');
+                
+                summaryContainer.innerHTML = htmlContent;
+                summaryContainer.classList.remove('hidden');
+                backToMenuBtn.classList.remove('hidden');
+            }
+
+            // --- Event Listeners ---
+            nextBtn.addEventListener('click', () => {
+                if (currentQuestionIndex >= currentQuestions.length - 1) {
+                    displayFinalSummary();
+                } else {
+                    currentQuestionIndex++;
+                    displayQuestion();
+                }
+            });
+
+            prevBtn.addEventListener('click', () => {
+                if (currentQuestionIndex > 0) {
+                    currentQuestionIndex--;
+                    displayQuestion();
+                }
+            });
+
+            viewSummaryBtn.addEventListener('click', displayPartialSummary);
+            backToMenuBtn.addEventListener('click', displayMainMenu);
+
+            // --- Initial Load ---
+            initializeQuiz();
+        });
+    </script>
+
+</body>
+</html>
