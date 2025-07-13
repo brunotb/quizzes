@@ -3674,6 +3674,531 @@
           "long_explanation": "Grosfoguel's definition explicitly states that the capital gain from extractivism is 'for the benefit of the rich and powerful, particularly in the global North.' This highlights the exploitative and unequal nature of the process, where wealth and power accumulate at one pole, often at the expense of the resource-providing communities."
         }
       ]
+    },
+    {
+      "title": "8. Colonial legacies",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary characteristic that distinguishes the concept of 'AI Empire' from a traditional, nation-state empire like the Roman Empire?",
+          "options": {
+            "A": "Its reliance on military force for expansion.",
+            "B": "Its centralized government and single geographic capital.",
+            "C": "Its nature as a decentralized, networked system of power with no single center.",
+            "D": "Its exclusive focus on political domination rather than economic extraction."
+          },
+          "answer": "C",
+          "short_explanation": "AI Empire is a global network of power, not a single country with borders.",
+          "long_explanation": "The concept of 'AI Empire' describes a modern form of domination that is not tied to a single nation-state. Instead, it's a distributed network of corporations, capital, and data flows that collectively exert global influence. Unlike the Roman Empire, which had a clear center in Rome, AI Empire's power is fluid and operates through technological and economic infrastructure that transcends national boundaries."
+        },
+        {
+          "id": 2,
+          "question": "In the context of FinTech in Western Africa, what is an 'alternative credit score' primarily based on?",
+          "options": {
+            "A": "Formal banking history and property ownership.",
+            "B": "Government-issued identification and employment records.",
+            "C": "Data extracted from a user's mobile phone, including social media activity.",
+            "D": "In-person interviews and character references from community leaders."
+          },
+          "answer": "C",
+          "short_explanation": "Alternative credit scores use digital footprints, like social media data, to judge creditworthiness when formal banking history is absent.",
+          "long_explanation": "For 'unbanked' populations without a traditional financial history, FinTech companies use AI to create credit scores from alternative data sources. The most common source is the user's smartphone, from which the AI extracts information like social media connections, call logs, and app usage to build a profile and predict their likelihood of repaying a loan. This bypasses traditional financial systems entirely."
+        },
+        {
+          "id": 3,
+          "question": "The lecture describes 'heteropatriarchy' as a source of oppression in AI. Which of the following best exemplifies its influence within Silicon Valley culture?",
+          "options": {
+            "A": "The emphasis on open-source collaboration and free access to information.",
+            "B": "The prioritization of long-term, stable growth over rapid, high-risk investments.",
+            "C": "A culture that measures success primarily through aggressive, speculative financial gains, often marginalizing other values.",
+            "D": "The focus on creating technologies that serve diverse, non-binary user groups."
+          },
+          "answer": "C",
+          "short_explanation": "The 'Zuckerman-Musk effect' reflects a culture where aggressive financial success, a traditionally masculine-coded trait, is the ultimate measure of worth.",
+          "long_explanation": "Heteropatriarchy in tech culture manifests as a value system that privileges traits and goals traditionally associated with male dominance. The 'Zuckerman-Musk effect' is an example where success is defined by hyper-competitive, high-risk financial speculation. This culture can lead to the creation of technologies that reflect these narrow values and marginalize or harm women and queer/nonbinary individuals, whose contributions and needs are often devalued."
+        },
+        {
+          "id": 4,
+          "question": "A satellite imagery AI is used to identify villages with tin roofs as a sign of wealth to distribute aid. This method of using one piece of data (roof material) to guess another (poverty level) is best described as:",
+          "options": {
+            "A": "Function Creep",
+            "B": "Proxy Measurement",
+            "C": "Impossible Redress",
+            "D": "Data Extraction"
+          },
+          "answer": "B",
+          "short_explanation": "A proxy measurement is using one type of data as a stand-in or substitute to measure something else.",
+          "long_explanation": "Proxy measurement is the practice of using easily obtainable data to infer information about a more complex, harder-to-measure phenomenon. In this case, the roof material is a 'proxy' for wealth. The danger is that proxies can be inaccurate and biased (e.g., tin roofs might be standard for reasons other than wealth), leading to flawed decisions with no external validation or 'ground truth'."
+        },
+        {
+          "id": 5,
+          "question": "According to the lecture, why is the concept of 'impossible redress' a central problem in AI-powered systems in the Global South?",
+          "options": {
+            "A": "Because the AI systems are too technically complex for local governments to regulate.",
+            "B": "Because users lack the means to appeal or challenge an opaque, automated decision made by a foreign entity with no local accountability.",
+            "C": "Because the companies offer their services for free, so users have no legal standing to complain.",
+            "D": "Because cultural differences prevent users from understanding how to file a formal complaint."
+          },
+          "answer": "B",
+          "short_explanation": "When a black-box AI from a foreign company makes a life-altering decision, there's no clear path to appeal or get an explanation.",
+          "long_explanation": "'Impossible redress' refers to the situation where individuals harmed by an automated system cannot seek recourse. This is particularly acute in the context of AI Empire, where the decision-maker (the AI) is opaque, and its owner (the tech company) is often a foreign entity without legal or social accountability to the local population. If an AI denies you a loan, you can't ask it 'why,' and suing a multinational corporation from a rural village is practically impossible."
+        },
+        {
+          "id": 6,
+          "question": "The required reading 'AI Empire' argues that Big Tech platforms function as 'self-referential decision-making units.' What does this imply about their relationship with nation-states?",
+          "options": {
+            "A": "They work in close partnership with governments to co-create all regulations.",
+            "B": "They operate with a degree of autonomy that rivals or even surpasses that of many countries, often setting their own rules.",
+            "C": "They are entirely dependent on the laws and infrastructure of their home country.",
+            "D": "They refer all major decisions to international bodies like the United Nations for approval."
+          },
+          "answer": "B",
+          "short_explanation": "They act like their own countries, making their own rules and often ignoring national governments.",
+          "long_explanation": "A 'self-referential decision-making unit' is one that looks inward for its rules and legitimacy, rather than outward to a higher authority like a government. The argument is that Big Tech companies have become so powerful in terms of their global reach, economic self-sufficiency, and control over digital infrastructure that they effectively operate with regulatory autonomy, challenging the sovereignty of nation-states."
+        },
+        {
+          "id": 7,
+          "question": "An AI tool is developed to help farmers optimize crop yields. Later, the same tool's data-gathering infrastructure is repurposed by an insurance company to set premium rates for those same farmers. This evolution is a classic example of:",
+          "options": {
+            "A": "Proxy Measurement",
+            "B": "Function Creep",
+            "C": "Modernity/Coloniality",
+            "D": "Impossible Redress"
+          },
+          "answer": "B",
+          "short_explanation": "Function creep is when a technology or data collected for one purpose is used for another, often unintended, purpose.",
+          "long_explanation": "Function creep occurs when the use of a system expands beyond its original purpose. In this scenario, the technology was created for agricultural support (a benevolent function) but 'crept' into a new function of financial assessment and risk management for insurance. This is a common pathway for harm, as the ethical safeguards and user consent from the original purpose may not apply to the new one."
+        },
+        {
+          "id": 8,
+          "question": "What is the core argument of the concept of 'modernity/coloniality' as a source of oppression in AI?",
+          "options": {
+            "A": "That modern AI is inherently more ethical than older technologies.",
+            "B": "That all non-Western cultures should adopt modern technology to progress.",
+            "C": "That the idea of a single, superior path to 'progress' (i.e., the Western model) justifies the control and negation of other cultures and knowledge systems.",
+            "D": "That colonialism was a necessary historical stage to prepare the world for modern AI."
+          },
+          "answer": "C",
+          "short_explanation": "It's the belief that the 'modern' Western way is the only right way, which justifies ignoring or erasing other cultures.",
+          "long_explanation": "The 'modernity/coloniality' framework argues that the very idea of 'modernity' is inseparable from the history of colonialism. It posits that the European colonial project was justified by an ideology of its own superiority—that it was bringing 'progress' and 'civilization' to the rest of the world. This mindset persists in tech, where a Western, data-driven, efficiency-focused model of progress is often imposed globally, negating and devaluing local knowledge, cultures, and values."
+        },
+        {
+          "id": 9,
+          "question": "In the 'What To Do?' discussion scenario, why does the plan to sell the job-finding app to Google significantly change the ethical considerations?",
+          "options": {
+            "A": "Because Google's technical standards are lower, risking a less effective product.",
+            "B": "Because the user data collected by a small app would become part of a massive global data ecosystem, increasing the potential for surveillance and misuse.",
+            "C": "Because Google would likely make the app free for all users, eliminating economic barriers.",
+            "D": "Because the app's development would be slowed down by Google's corporate bureaucracy."
+          },
+          "answer": "B",
+          "short_explanation": "Selling to Google means the app's data gets absorbed into a giant system, dramatically increasing the scale of risk and potential harm.",
+          "long_explanation": "The ethical calculus changes because of scale and intent. A small company has limited capacity to use data, but Google has a global infrastructure for data analysis, advertising, and user profiling. Integrating the app's data into this ecosystem means it could be used for purposes far beyond job-finding, such as targeted advertising, surveillance, or training other AI models, all without the original users' informed consent for these new uses."
+        },
+        {
+          "id": 10,
+          "question": "The lecture suggests that a 'structural' approach is needed to address AI's harms. What does this mean in practice?",
+          "options": {
+            "A": "Focusing exclusively on improving the technical accuracy of algorithms.",
+            "B": "Relying on individual developers to make ethical choices on their own.",
+            "C": "Working to change the underlying systems—like laws, economic models, and corporate accountability—in addition to on-the-ground, user-centered design.",
+            "D": "Educating users to be more critical of the AI they use."
+          },
+          "answer": "C",
+          "short_explanation": "A structural approach means fixing the system (laws, economy), not just the individual product or person.",
+          "long_explanation": "A structural approach recognizes that the problems with AI are not just 'glitches' in the code but are products of the social, economic, and political systems in which the AI is built. Therefore, solutions cannot only be technical fixes (like debiasing an algorithm). They must also involve structural changes, such as advocating for new regulations, supporting tech worker unions, and challenging the economic incentives that drive harmful tech development."
+        },
+        {
+          "id": 11,
+          "question": "Which of the following best describes 'data colonialism'?",
+          "options": {
+            "A": "The practice of tech companies hiring people from their former colonies.",
+            "B": "The appropriation of human life and social experience as data, which is then extracted as a valuable resource for profit, mirroring historical colonialism.",
+            "C": "The use of AI to translate and preserve historical colonial documents.",
+            "D": "The requirement for all data to be stored in its country of origin."
+          },
+          "answer": "B",
+          "short_explanation": "Data colonialism is treating human experience as a natural resource to be extracted for profit, just like historical colonialism took land and minerals.",
+          "long_explanation": "Data colonialism draws a parallel between historical colonialism (the extraction of resources like rubber, gold, and labor from colonized lands) and the modern tech economy's business model. In this view, our social interactions, behaviors, and personal information are the new 'natural resource.' Tech platforms extract this data to refine their algorithms and generate profit, often from populations that do not share equitably in the wealth created."
+        },
+        {
+          "id": 12,
+          "question": "Why is the use of the term 'woke ideology' often considered a dismissive tactic in discussions about AI ethics?",
+          "options": {
+            "A": "Because it accurately describes the political motivations of all AI ethicists.",
+            "B": "Because it reframes a rigorous, structural analysis of systemic harm as a mere political trend or oversensitivity.",
+            "C": "Because it is a term used exclusively by tech developers to describe their own progressive work.",
+            "D": "Because it helps to clarify the complex technical details of algorithmic bias."
+          },
+          "answer": "B",
+          "short_explanation": "Calling critiques 'woke ideology' is a way to avoid engaging with the real, systemic problems being discussed.",
+          "long_explanation": "The lecture points out that labeling critiques of AI's entanglement with racism, sexism, and colonialism as 'woke ideology' is a rhetorical strategy to delegitimize them. It dismisses a deep, evidence-based structural analysis by framing it as a superficial or faddish political stance. This tactic allows those in power to avoid confronting the uncomfortable truths about how technology can perpetuate systemic oppression."
+        },
+        {
+          "id": 13,
+          "question": "In the job-finding app scenario, shifting the pilot from Germany to Rwanda introduces a key neocolonial dynamic known as the:",
+          "options": {
+            "A": "Regulatory alignment problem.",
+            "B": "Market saturation problem.",
+            "C": "'Testing ground' problem.",
+            "D": "Technical infrastructure problem."
+          },
+          "answer": "C",
+          "short_explanation": "The 'testing ground' dynamic is using the Global South to pilot technologies before they are rolled out in the Global North.",
+          "long_explanation": "The 'testing ground' problem is a core feature of neocolonial tech development. It involves using populations in the Global South, who often have fewer consumer protections and less political power, to test and refine a product. The data and insights gathered are then used to perfect the product for more lucrative markets in the Global North. This practice is extractive and perpetuates a power imbalance."
+        },
+        {
+          "id": 14,
+          "question": "Which interlocking system of oppression is most directly related to the 'negation of the other' and the assumption of a single, superior path to progress?",
+          "options": {
+            "A": "Racial Capitalism",
+            "B": "Modernity/Coloniality",
+            "C": "Heteropatriarchy",
+            "D": "Data Colonialism"
+          },
+          "answer": "B",
+          "short_explanation": "Modernity/Coloniality is the ideology that the 'modern' West is superior and has the right to control and erase 'other' ways of being.",
+          "long_explanation": "While all the systems are interlinked, the concept of 'modernity/coloniality' specifically addresses the ideological justification for colonialism. It is rooted in the belief that a 'modern,' rational, and technologically advanced West represents the pinnacle of human achievement. This worldview inherently 'negates the other'—it devalues and seeks to erase non-Western cultures, knowledge systems, and values, framing them as obstacles to a universal, pre-defined 'progress'."
+        },
+        {
+          "id": 15,
+          "question": "What is a major risk of AI systems becoming the 'central node to all forms of labour' within the AI Empire?",
+          "options": {
+            "A": "It will lead to a universal basic income for all workers.",
+            "B": "It creates a totalizing ecosystem where a few tech platforms control the means of work, data, and economic participation.",
+            "C": "It ensures that all labor is fairly compensated and transparently managed.",
+            "D": "It eliminates the need for any human oversight in the workplace."
+          },
+          "answer": "B",
+          "short_explanation": "When AI controls work, a few companies control the entire economic system, creating a 'totalizing' ecosystem.",
+          "long_explanation": "The concern is that as AI becomes the central infrastructure for labor—from gig work platforms to automated management and hiring—it creates a 'totalizing ecosystem.' This means that a handful of powerful tech companies gain unprecedented control over not just one industry, but the very fabric of economic life. This concentration of power can lead to increased precarity for workers, data extraction, and a lack of democratic control over the economy."
+        },
+        {
+          "id": 16,
+          "question": "According to the lecture, the 'unbanked' status of many people in Western Africa is primarily:",
+          "options": {
+            "A": "A personal choice to avoid formal financial systems.",
+            "B": "A recent problem caused by the rise of mobile phones.",
+            "C": "A structural condition of financial vulnerability that creates an opportunity for FinTech intervention.",
+            "D": "A sign that these economies are not ready for digital financial services."
+          },
+          "answer": "C",
+          "short_explanation": "Being 'unbanked' is a structural issue of lacking access, which FinTech companies see as a market opportunity.",
+          "long_explanation": "The lecture frames the 'unbanked' status not as an individual failing or choice, but as a systemic issue rooted in historical and economic factors. This structural vulnerability—the lack of access to traditional banking—is precisely what creates the market opening for AI-powered FinTech companies to enter and offer alternative, data-driven financial services, thereby inserting themselves as critical new intermediaries."
+        },
+        {
+          "id": 17,
+          "question": "The concept of 'Racial Capitalism' suggests that racism is not just a byproduct of capitalism, but is...",
+          "options": {
+            "A": "A temporary flaw that capitalism will eventually correct on its own.",
+            "B": "Fundamentally necessary for the historical development and ongoing function of capitalism.",
+            "C": "An issue confined only to early colonial history and irrelevant to modern tech.",
+            "D": "A problem that can be solved entirely through better, unbiased data."
+          },
+          "answer": "B",
+          "short_explanation": "Racial capitalism argues that capitalism needed racism to create exploitable groups and accumulate wealth.",
+          "long_explanation": "The theory of racial capitalism posits that capitalism and racism are mutually constitutive—you cannot separate them. It argues that capitalism's historical rise was dependent on creating and exploiting racial hierarchies through practices like slavery and colonialism. This logic continues today, where racialized groups are often disproportionately subject to predatory financial products, surveillance, and labor exploitation, all of which are now being amplified by AI systems."
+        },
+        {
+          "id": 18,
+          "question": "If an AI job-finding app consistently recommends lower-paying service jobs to women and higher-paying tech jobs to men, even with identical qualifications, this is a direct manifestation of which source of oppression?",
+          "options": {
+            "A": "Modernity/Coloniality",
+            "B": "Impossible Redress",
+            "C": "Function Creep",
+            "D": "Heteropatriarchy"
+          },
+          "answer": "D",
+          "short_explanation": "This reflects heteropatriarchy, where gendered stereotypes about work and value are encoded into the AI system.",
+          "long_explanation": "This scenario is a clear example of heteropatriarchy embedded in an AI system. The algorithm is reflecting and reinforcing historical, structural sexism that associates certain types of labor with specific genders. It's a manifestation of a patriarchal value system where 'male' work is implicitly coded as more technical and valuable, while 'female' work is coded as supportive or service-oriented, leading to discriminatory outcomes."
+        },
+        {
+          "id": 19,
+          "question": "Why is 'on-the-ground' familiarity and consultation with users considered essential for responsible AI development, according to the lecture?",
+          "options": {
+            "A": "To gather as much training data as possible from users.",
+            "B": "To ensure the technology is designed to address the actual, lived needs and contexts of a community, rather than imposing an external solution.",
+            "C": "To fulfill a basic legal requirement for product launches in most countries.",
+            "D": "To identify the most profitable user segments for future marketing."
+          },
+          "answer": "B",
+          "short_explanation": "You can't build a helpful tool for a community if you don't understand their real needs and context.",
+          "long_explanation": "The lecture emphasizes that responsible AI cannot be built in a vacuum. 'On-the-ground' familiarity and consultation are crucial to move beyond the extractive, top-down model of 'data for development.' By engaging directly with communities, developers can understand their unique historical, social, and cultural contexts. This allows for the co-creation of technology that is genuinely useful and empowering, rather than a solution imposed from the outside that may be irrelevant or even harmful."
+        },
+        {
+          "id": 20,
+          "question": "Which of the following is NOT a characteristic of Big Tech platforms as described within the 'AI Empire' framework?",
+          "options": {
+            "A": "Market dominance at a global level",
+            "B": "Opacity in governance and tech design",
+            "C": "Full transparency and accountability to national governments",
+            "D": "Economic self-sufficiency beyond normal tax regimes"
+          },
+          "answer": "C",
+          "short_explanation": "Big Tech companies in the AI Empire are characterized by a LACK of transparency and accountability to governments.",
+          "long_explanation": "The 'AI Empire' framework explicitly argues that Big Tech companies operate with a high degree of opacity and actively resist or bypass accountability to national governments. They leverage their global scale, complex corporate structures, and economic power to achieve regulatory autonomy. Therefore, full transparency and accountability to governments is the opposite of how they are characterized."
+        },
+        {
+          "id": 21,
+          "question": "The lecture mentions that the FinTech landscape in Africa is a map of 'influence.' What does this 'influence' primarily consist of?",
+          "options": {
+            "A": "The spread of democratic values and political stability.",
+            "B": "The control over critical financial infrastructure and the extraction of valuable data resources by foreign entities.",
+            "C": "The promotion of local entrepreneurship and community-owned banks.",
+            "D": "The sharing of open-source technology to empower local developers."
+          },
+          "answer": "B",
+          "short_explanation": "The 'influence' is the power that comes from controlling a country's financial tools and extracting its data.",
+          "long_explanation": "The 'influence' refers to the neocolonial power dynamic established when foreign companies control a region's essential infrastructure. In this case, by providing the primary means of accessing loans and financial services, these FinTech companies gain significant control over economic life. This control is coupled with the continuous extraction of data, which is a key resource in the digital economy, further solidifying their powerful position."
+        },
+        {
+          "id": 22,
+          "question": "What is the fundamental danger of relying on 'proxy measurements' for high-stakes decisions like poverty assessment?",
+          "options": {
+            "A": "They are too expensive to implement on a large scale.",
+            "B": "They require too much computational power.",
+            "C": "They can be wildly inaccurate and systematically biased, as they are indirect guesses with no external validation.",
+            "D": "They are illegal under international data privacy laws like GDPR."
+          },
+          "answer": "C",
+          "short_explanation": "The danger of proxies is that they are just guesses, and a wrong guess in poverty assessment can lead to real human suffering.",
+          "long_explanation": "The fundamental danger of proxy measurements is their potential for inaccuracy and bias. A proxy is, by definition, an indirect indicator. Using something like 'nighttime light' as a proxy for wealth might seem clever, but it can completely misrepresent reality (e.g., a community could be culturally rich but have limited electricity). When these flawed, unvalidated guesses are used to make critical decisions about aid distribution or policy, they can lead to systematically unfair outcomes, leaving the most needy without help."
+        },
+        {
+          "id": 23,
+          "question": "The interlocking nature of oppression means that...",
+          "options": {
+            "A": "Solving one issue, like sexism, will automatically solve all other issues, like racism.",
+            "B": "Each form of oppression (racism, sexism, colonialism) operates independently of the others.",
+            "C": "These systems of oppression are mutually reinforcing and cannot be understood or solved in isolation.",
+            "D": "Only one form of oppression can be dominant in any given society at one time."
+          },
+          "answer": "C",
+          "short_explanation": "'Interlocking' means that systems like racism and sexism are tangled together and strengthen each other.",
+          "long_explanation": "The concept of interlocking or intersectional oppression is central to the lecture's argument. It holds that systems of power like racial capitalism, heteropatriarchy, and coloniality are not separate, parallel tracks. Instead, they are deeply interconnected and mutually constitutive—they build on and reinforce one another. For example, colonial projects were often justified with both racist and sexist ideologies. Therefore, to effectively challenge the harm done by AI, one must address these systems together, not as isolated problems."
+        },
+        {
+          "id": 24,
+          "question": "Why does the lecture argue that solutions to AI's harms must go beyond 'on-the-ground' work and include 'structural changes'?",
+          "options": {
+            "A": "Because on-the-ground work is ineffective and should be abandoned.",
+            "B": "Because structural change is easier and faster to achieve than local consultation.",
+            "C": "Because individual ethical choices and well-designed products cannot fix a system whose fundamental economic and political incentives promote harm.",
+            "D": "Because only government officials are capable of creating ethical AI."
+          },
+          "answer": "C",
+          "short_explanation": "Even a perfect product can't fix a broken system. You need to change the rules of the game itself.",
+          "long_explanation": "The lecture advocates for a two-level approach because the problems are systemic. While 'on-the-ground' work like user consultation is vital for creating better products, it operates within a larger structure. If the economic model of the tech industry rewards data extraction and the legal system fails to hold companies accountable, even the most ethically-designed product will struggle to prevent harm. Therefore, 'structural changes'—like new laws, different business models, and stronger labor rights—are necessary to change the environment in which technology is built."
+        },
+        {
+          "id": 25,
+          "question": "What is the most significant risk when a single, foreign-owned app becomes the primary source of financial services for an 'unbanked' population?",
+          "options": {
+            "A": "The app might have occasional software bugs or glitches.",
+            "B": "It creates a single point of failure and a dependency on a non-state actor whose motives are primarily profit-driven, not public welfare.",
+            "C": "The app's user interface might not be translated into the local language.",
+            "D": "It might charge slightly higher interest rates than a traditional bank."
+          },
+          "answer": "B",
+          "short_explanation": "The biggest risk is dependency on a single, for-profit company that can make decisions without local accountability.",
+          "long_explanation": "While technical glitches and interest rates are concerns, the most significant risk is systemic dependency. When a population's access to essential services like loans is controlled by a single, foreign, for-profit entity, it creates immense vulnerability. The company's decisions are driven by its shareholders, not the well-being of the users. If the company changes its algorithm, pulls out of the market, or is acquired, it can have devastating consequences for an entire population that has no alternative and no democratic control over this critical infrastructure."
+        },
+        {
+          "id": 26,
+          "question": "The concept of 'data extraction' in the context of AI Empire is analogous to which historical colonial practice?",
+          "options": {
+            "A": "The building of schools and hospitals in colonies.",
+            "B": "The mining of raw materials like diamonds or rubber from colonized lands.",
+            "C": "The establishment of diplomatic treaties between empires.",
+            "D": "The appointment of local leaders to govern colonial territories."
+          },
+          "answer": "B",
+          "short_explanation": "Data extraction is like mining for a resource; in this case, the resource is personal information from human lives.",
+          "long_explanation": "The analogy is central to the idea of data colonialism. Just as historical empires extracted valuable physical resources from their colonies to fuel their industrial economies, the AI Empire extracts data from global populations. This data—our clicks, our photos, our social connections—is the raw material that fuels the modern digital economy. It is processed, refined, and monetized, with the wealth and power accumulating in the centers of the AI Empire."
+        },
+        {
+          "id": 27,
+          "question": "A key feature of the 'modernity/coloniality' ideology is the 'negation of the other.' How might this manifest in the design of an AI system?",
+          "options": {
+            "A": "By designing the system to work equally well across all languages and cultural contexts.",
+            "B": "By creating a system that devalues or completely fails to recognize non-Western names, social structures, or concepts.",
+            "C": "By incorporating feedback from a diverse range of global users during the design phase.",
+            "D": "By making the system's source code open and accessible to everyone."
+          },
+          "answer": "B",
+          "short_explanation": "'Negating the other' means building a system that assumes a Western norm and erases or fails to understand anything outside of it.",
+          "long_explanation": "The 'negation of the other' is an ideological process where anything that doesn't conform to a dominant (in this case, Western) norm is rendered invisible or inferior. In AI design, this can manifest as an algorithm that is trained primarily on data from Western cultures. As a result, it may fail to parse non-English names, misinterpret cultural nuances in social media posts, or enforce a model of 'family' or 'community' that doesn't align with local realities, effectively erasing those other ways of being."
+        },
+        {
+          "id": 28,
+          "question": "In the job-finding app scenario, what is the most critical ethical question the developer must face when deciding to launch in Rwanda first?",
+          "options": {
+            "A": "Whether the app's color scheme is culturally appropriate.",
+            "B": "Whether the potential for harm and exploitation of a vulnerable population outweighs the business benefits of a pilot program.",
+            "C": "How to market the app most effectively to Rwandan users.",
+            "D": "Which programming language is most efficient for handling the data."
+          },
+          "answer": "B",
+          "short_explanation": "The core ethical dilemma is whether it's right to use a vulnerable population as a testbed for a product intended for a different market.",
+          "long_explanation": "While technical and marketing questions are part of the process, the most critical ethical question revolves around the power imbalance and potential for harm. The 'testing ground' dynamic raises fundamental issues of exploitation. The developer must confront whether it is ethically defensible to use a population with fewer resources and protections to work out the kinks in a product, especially when that population may not be the primary beneficiary and the data collected from them will be used for other purposes."
+        },
+        {
+          "id": 29,
+          "question": "The lecture argues that even 'giving' through 'social good' tech initiatives can be extractivist. Why?",
+          "options": {
+            "A": "Because the technologies provided are often faulty and do not work.",
+            "B": "Because these initiatives reconfigure social good as a datafied, probabilistic, and profitable enterprise, creating dependency and extracting data.",
+            "C": "Because the act of giving creates a sense of moral superiority in the developers.",
+            "D": "Because local communities always refuse to accept technological aid."
+          },
+          "answer": "B",
+          "short_explanation": "Even when 'giving' technology, the process can still be about extracting data and creating dependency on a for-profit system.",
+          "long_explanation": "The critique is that 'social good' initiatives often frame problems in ways that can be solved by a data-driven, technological solution provided by a Northern company. In the process of 'helping,' these initiatives collect vast amounts of data, create a dependency on their specific platform, and define the problem and solution in their own terms. The 'giving' becomes a mechanism for market entry and data extraction, thus perpetuating an extractivist logic even under the guise of benevolence."
+        },
+        {
+          "id": 30,
+          "question": "Which of these is the best example of 'opacity in governance and tech design' as a characteristic of AI Empire?",
+          "options": {
+            "A": "A company publishing a detailed annual report on its finances.",
+            "B": "A social media platform's algorithm for promoting content being a secret, with users unable to know why they see what they see.",
+            "C": "A company holding public town halls to discuss future product features.",
+            "D": "The use of simple, easily understandable programming languages."
+          },
+          "answer": "B",
+          "short_explanation": "Opacity means the rules are secret. A secret algorithm that controls what millions see is a perfect example.",
+          "long_explanation": "Opacity, or the 'black box' problem, is a key characteristic of AI Empire's power. It refers to the deliberate concealment of how systems work and how decisions are made. A secret content-promotion algorithm is a prime example because it has immense social and political influence, yet its workings are proprietary and hidden from users, researchers, and regulators. This lack of transparency prevents accountability and makes it impossible to challenge biased or harmful outcomes."
+        },
+        {
+          "id": 31,
+          "question": "What is the primary reason that a solution for AI bias focused solely on 'better data' is considered insufficient from a structural perspective?",
+          "options": {
+            "A": "Because collecting more data is always prohibitively expensive.",
+            "B": "Because the problem is not just in the data, but in the oppressive systems (like racial capitalism and heteropatriarchy) that produce the data and define what is 'good' or 'bad' in the first place.",
+            "C": "Because there is no such thing as 'unbiased' data, so the effort is pointless.",
+            "D": "Because data storage limitations make it impossible to gather a truly representative dataset."
+          },
+          "answer": "B",
+          "short_explanation": "Fixing the data doesn't fix the broken world that created the biased data.",
+          "long_explanation": "A structural critique argues that bias is not simply a technical problem of a 'bad dataset.' The data reflects the inequalities of the real world. For example, historical crime data is not a neutral record; it reflects biased policing practices. Simply feeding more of this data into an AI will not solve the underlying racism. The problem is embedded in the social, economic, and political structures that the data represents, and in the value judgments encoded into the AI model itself."
+        },
+        {
+          "id": 32,
+          "question": "The shift from a 'colonizing nation-state' to a 'networked entity' in the AI Empire model means that power is...",
+          "options": {
+            "A": "More concentrated in a single government than ever before.",
+            "B": "Less effective and easier to resist.",
+            "C": "No longer a relevant concept in the digital age.",
+            "D": "More diffuse, harder to locate, and operates through corporate and technological channels rather than direct political rule."
+          },
+          "answer": "D",
+          "short_explanation": "Power in the AI Empire is spread out through networks of companies, making it harder to pinpoint and fight.",
+          "long_explanation": "This shift is a core element of the AI Empire theory. Power is no longer exercised solely by a government ruling over a territory. Instead, it is exercised by a distributed network of actors, primarily multinational corporations. This power is more fluid and harder to identify. You can't point to a single 'emperor' or 'capital.' It operates through the control of data, platforms, and infrastructure, making traditional forms of political resistance more challenging."
+        },
+        {
+          "id": 33,
+          "question": "Which of the following scenarios best illustrates the interlocking nature of heteropatriarchy and racial capitalism in an AI system?",
+          "options": {
+            "A": "An AI chatbot that is programmed to be polite to all users.",
+            "B": "A facial recognition system that is equally inaccurate for all genders and races.",
+            "C": "A loan-approval AI that offers less favorable terms to businesses owned by women of color, based on historical data reflecting systemic discrimination.",
+            "D": "A navigation app that provides the fastest route regardless of the user's identity."
+          },
+          "answer": "C",
+          "short_explanation": "This shows how bias against both gender (heteropatriarchy) and race (racial capitalism) can combine to create a worse outcome.",
+          "long_explanation": "This scenario perfectly illustrates the concept of intersectionality, or interlocking oppression. The AI is not just sexist or just racist; it is both. It has learned from historical data that reflects a world where both women (heteropatriarchy) and people of color (racial capitalism) have been systematically denied access to capital. By learning these patterns, the AI amplifies this dual discrimination, putting women of color at a compounded disadvantage. This shows how the systems are not separate but work together."
+        },
+        {
+          "id": 34,
+          "question": "The lecture suggests responsible AI development requires a 'sensitivity towards complex historical, social and epistemological dynamics.' What does 'epistemological dynamics' refer to in this context?",
+          "options": {
+            "A": "The different programming languages used to build AI.",
+            "B": "The study of how different cultures understand and value knowledge, and whose knowledge is considered legitimate.",
+            "C": "The financial and economic models that fund AI development.",
+            "D": "The legal regulations governing data privacy in different countries."
+          },
+          "answer": "B",
+          "short_explanation": "Epistemology is about knowledge: who gets to define what is true, and which ways of knowing are respected?",
+          "long_explanation": "Epistemology is the theory of knowledge. In this context, 'epistemological dynamics' refers to the power struggles over what counts as valid knowledge. The dominant Western, scientific, data-driven way of knowing is often privileged by AI systems. A sensitivity to epistemological dynamics means recognizing that there are other valid ways of knowing—such as indigenous knowledge, community wisdom, or lived experience—and that these should not be negated or dismissed by a purely data-centric worldview."
+        },
+        {
+          "id": 35,
+          "question": "A key critique of 'Data for Development' initiatives is that they often focus on humanitarian aid instead of socio-economic capacity. What is the practical difference?",
+          "options": {
+            "A": "Humanitarian aid is more expensive than building socio-economic capacity.",
+            "B": "Humanitarian aid addresses immediate needs but can create dependency, while building capacity aims to empower communities for long-term, independent sustainability.",
+            "C": "Socio-economic capacity building is a form of data extraction, while humanitarian aid is not.",
+            "D": "There is no practical difference; both terms describe the same process of helping communities."
+          },
+          "answer": "B",
+          "short_explanation": "Aid is like giving someone a fish; building capacity is like teaching them how to fish, which creates long-term independence.",
+          "long_explanation": "The distinction is crucial. Humanitarian aid, like providing food or temporary shelter, addresses immediate crises. While necessary, if it's the only approach, it can create a long-term dependency on outside actors. Building socio-economic capacity, on the other hand, focuses on providing the tools, education, and resources (like access to fair credit or business training) that allow a community to build its own sustainable wealth and solve its own problems in the long run. The critique is that many tech initiatives favor the former because it keeps them in a position of power as the 'provider'."
+        },
+        {
+          "id": 36,
+          "question": "If a small German company pilots its job-finding app in Rwanda, what is the most likely form of 'extraction' that will occur?",
+          "options": {
+            "A": "The extraction of money through high subscription fees.",
+            "B": "The extraction of local talent, as the best Rwandan developers will be hired.",
+            "C": "The extraction of user data and behavioral insights, which will be used to refine a product for a more profitable market (Germany).",
+            "D": "The extraction of physical resources needed to run the data centers."
+          },
+          "answer": "C",
+          "short_explanation": "The main thing being 'extracted' in the testing ground scenario is data and user insights.",
+          "long_explanation": "In this neocolonial 'testing ground' dynamic, the primary resource being extracted is not money or physical goods, but intangible data. The Rwandan users, by interacting with the pilot app, generate a wealth of information about user behavior, interface effectiveness, and algorithmic performance. This data is an incredibly valuable asset that the company can use to de-bug and improve its product before launching it in the more lucrative German market, with little of that value being returned to the Rwandan users who generated it."
+        },
+        {
+          "id": 37,
+          "question": "The concept of AI Empire being a 'totalizing ecosystem' implies that:",
+          "options": {
+            "A": "It is open and allows for easy participation from small, independent competitors.",
+            "B": "It is a specialized system that only affects the technology sector.",
+            "C": "It is an all-encompassing system that seeks to integrate and control many aspects of social, economic, and political life.",
+            "D": "It is a temporary phase that will be replaced by government-controlled AI."
+          },
+          "answer": "C",
+          "short_explanation": "A 'totalizing ecosystem' is one that tries to encompass everything, from your work to your social life.",
+          "long_explanation": "The term 'totalizing' suggests a system that aims for comprehensive control, leaving little outside its grasp. An AI-driven 'totalizing ecosystem' is one where the same few platforms mediate our work (gig platforms), our social lives (social media), our consumption (e-commerce), and our access to information (search engines). This integration creates a powerful, self-reinforcing loop where participation in one area often requires participation in others, deepening the system's overall control."
+        },
+        {
+          "id": 38,
+          "question": "Which of the following is the best example of a 'structural change' that could counter the harms of the AI Empire?",
+          "options": {
+            "A": "A single developer adding an 'ethics checklist' to their personal workflow.",
+            "B": "A tech company launching a new marketing campaign focused on its commitment to fairness.",
+            "C": "Passing new international laws that mandate algorithmic transparency and create strong legal liability for automated harms.",
+            "D": "Encouraging users to read the terms and conditions more carefully."
+          },
+          "answer": "C",
+          "short_explanation": "A structural change is one that changes the rules for everyone, like passing a new law.",
+          "long_explanation": "While individual actions and corporate marketing are part of the landscape, a 'structural change' is one that alters the fundamental system. Passing new laws that mandate transparency and create legal accountability is a prime example. This type of change shifts the incentives and constraints for all companies operating in the space. It moves the responsibility from the individual user or developer to the system itself, forcing a change in behavior across the entire industry."
+        },
+        {
+          "id": 39,
+          "question": "The lecture's critique of the 'Zuckerman-Musk effect' is that it represents a culture that:",
+          "options": {
+            "A": "Values collaborative, slow, and careful technological development.",
+            "B": "Prioritizes social impact and community well-being above all else.",
+            "C": "Defines success through a narrow, hyper-masculine lens of financial speculation and market disruption, ignoring other forms of value.",
+            "D": "Is focused on creating long-lasting, sustainable business models."
+          },
+          "answer": "C",
+          "short_explanation": "The 'Zuckerman-Musk effect' is about a culture that idolizes aggressive, speculative wealth as the only true measure of success.",
+          "long_explanation": "This term is used to describe a specific manifestation of heteropatriarchy in Silicon Valley. It points to a culture that lionizes a particular type of male founder—one who is disruptive, aggressive, and focused on rapid, massive financial returns through high-risk ventures. This narrow definition of success devalues other approaches, such as building sustainable, community-focused, or socially responsible enterprises, and can lead to a tech ecosystem that is reckless and socially harmful."
+        },
+        {
+          "id": 40,
+          "question": "Why can 'impossible redress' be seen as a direct consequence of 'opacity' in AI systems?",
+          "options": {
+            "A": "Because if a system is transparent, it is always fair.",
+            "B": "Because if you don't know how a decision was made (opacity), you have no basis upon which to challenge or appeal it (impossible redress).",
+            "C": "Because opaque systems are always run by foreign companies.",
+            "D": "Because only opaque systems are capable of making high-stakes decisions."
+          },
+          "answer": "B",
+          "short_explanation": "You can't argue against a decision if you're not allowed to know how the decision was made.",
+          "long_explanation": "Opacity and impossible redress are directly linked. Redress—the ability to seek a remedy for a wrong—requires understanding what went wrong. If an AI system is a 'black box' (opaque), and it makes a decision that harms you (e.g., denies you a loan or flags you as a risk), you cannot formulate a meaningful appeal because you cannot know the logic or data that led to that outcome. The secrecy of the process makes a fair appeal impossible, thus creating a situation of impossible redress."
+        }
+      ]
     }
   ]
 }
