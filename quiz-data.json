@@ -3149,6 +3149,531 @@
           "long_explanation": "In-practice opacity is fundamentally different from a simple 'black box.' A black box often implies a system whose internal workings are inherently unknowable or deliberately hidden. In contrast, in-practice opacity refers to the *practical* challenges and difficulties in understanding complex AI systems and their data flows, even when all the relevant information is technically available, due to the sheer scale, distributed nature, and intricate transformations involved."
         }
       ]
+    },
+    {
+      "title": "7. Structural Injustice and Extractivism",
+      "questions": [
+        {
+          "id": 1,
+          "question": "According to Ramón Grosfoguel's definition, which of the following is NOT a core characteristic of extractivism?",
+          "options": {
+            "A": "The removal of unprocessed or minimally processed resources.",
+            "B": "The primary benefit flows to the Global South.",
+            "C": "The terms of engagement are set exclusively by the extractivists.",
+            "D": "It involves the looting and appropriation of resources."
+          },
+          "answer": "B",
+          "short_explanation": "Extractivism's primary benefit flows to the Global North, not the Global South.",
+          "long_explanation": "Grosfoguel's definition explicitly states that extractivism involves the appropriation of resources 'for the benefit of the rich and powerful, particularly in the global North.' Therefore, the primary benefit flowing to the Global South would contradict this core aspect of the definition."
+        },
+        {
+          "id": 2,
+          "question": "Which of Alcoff's characteristics of extractivist epistemology is best exemplified when an AI model, developed with diverse community data, is presented as the sole achievement of a single lead researcher, with no mention of community contributions?",
+          "options": {
+            "A": "Ranking",
+            "B": "Exclusive Control",
+            "C": "Denial of Collaboration",
+            "D": "Objective View of Values"
+          },
+          "answer": "C",
+          "short_explanation": "Presenting individual achievement while ignoring community data exemplifies the denial of collaboration.",
+          "long_explanation": "Denial of Collaboration refers to downplaying or denying the collective nature of knowledge production, presenting it as emerging from a single, authoritative source rather than a rich, interconnected web of contributions. This directly aligns with the scenario described, where community contributions are erased from the narrative of achievement."
+        },
+        {
+          "id": 3,
+          "question": "In the context of structural injustice in science, which of the following best describes the 'Opportunity to use resources'?",
+          "options": {
+            "A": "Having sufficient funding to purchase advanced AI hardware.",
+            "B": "Possessing the necessary skills and institutional support to effectively utilize available technologies for research.",
+            "C": "Access to open-source AI models and public datasets.",
+            "D": "Being part of a well-funded research institution."
+          },
+          "answer": "B",
+          "short_explanation": "Opportunity to use resources goes beyond mere access; it includes the skills and support needed for effective utilization.",
+          "long_explanation": "The concept of 'Opportunity to use resources' emphasizes that having access (like funding or open-source tools) is not enough. It specifically refers to whether individuals have the skills, time, institutional freedom, and recognition to effectively *utilize* those resources to pursue their research goals. Options A, C, and D primarily describe 'Access to resources,' which is a distinct, though related, component of structural injustice."
+        },
+        {
+          "id": 4,
+          "question": "A key implication of structural injustice is the 'Exclusion of Methods/Data.' What is the primary consequence of this exclusion?",
+          "options": {
+            "A": "Increased competition for limited research funding.",
+            "B": "A narrower and less comprehensive understanding of complex problems.",
+            "C": "Greater reliance on anecdotal evidence in scientific discourse.",
+            "D": "Reduced publication rates in high-impact journals."
+          },
+          "answer": "B",
+          "short_explanation": "Excluding methods or data leads to an incomplete and biased understanding of research topics.",
+          "long_explanation": "The exclusion of methods and data, such as qualitative studies or traditional knowledge, from global scientific discourse results in a less comprehensive and potentially biased understanding of complex problems. This diminishes the overall quality and reliability of research, as crucial perspectives and evidence are missing. While other options might be indirect consequences, the primary consequence of excluding data/methods is the limited scope of understanding."
+        },
+        {
+          "id": 5,
+          "question": "Which of the following is considered a 'resource' in the context of inequity in resourcing, according to the provided content?",
+          "options": {
+            "A": "Only financial grants for research projects.",
+            "B": "Anything that can serve as a source of power in social interactions, including technology and training.",
+            "C": "Primarily large datasets and advanced computational power.",
+            "D": "Exclusive access to proprietary AI algorithms."
+          },
+          "answer": "B",
+          "short_explanation": "Resources are broadly defined as anything that confers social power, encompassing more than just money or specific technologies.",
+          "long_explanation": "The text explicitly defines a resource as 'anything that can serve as a source of power in social interactions,' and lists examples such as 'technology, infrastructure, training, institutions.' This broad definition highlights that resources are not limited to just financial aspects or specific technological components, but include any asset that grants influence or capability within the social and scientific landscape."
+        },
+        {
+          "id": 6,
+          "question": "The concept of extractivism as defined by Grosfoguel highlights that the process occurs 'exclusively on the extractivists' own terms.' What does this imply?",
+          "options": {
+            "A": "The extracted resources are always physical commodities.",
+            "B": "Local communities are fully compensated for their contributions.",
+            "C": "The powerful entities dictate the rules of collection, use, and valuation of resources.",
+            "D": "The process always involves illegal activities."
+          },
+          "answer": "C",
+          "short_explanation": "Extractivists setting the terms means they control the process of resource collection and use.",
+          "long_explanation": "The phrase 'exclusively on the extractivists' own terms' means that the powerful entities involved in extractivism dictate how resources are collected, used, and valued. This implies a lack of meaningful input, consent, or negotiation from the communities or individuals providing the resources, highlighting the inherent power imbalance in the extractive process. It does not necessarily imply illegality, but rather a unilateral control over the terms of engagement."
+        },
+        {
+          "id": 7,
+          "question": "Which of Alcoff's alternatives to extractivism emphasizes actively recognizing our dependence on others for knowledge and being open to having our own assumptions challenged by those with different lived experiences?",
+          "options": {
+            "A": "Acknowledging the incompleteness of all knowledge.",
+            "B": "Practicing relational epistemic humility.",
+            "C": "Making regular assessments of our epistemic relationships.",
+            "D": "Developing approaches that recognize plural epistemologies."
+          },
+          "answer": "B",
+          "short_explanation": "Relational epistemic humility is about recognizing our dependence on others for knowledge and being open to diverse perspectives.",
+          "long_explanation": "Relational epistemic humility goes beyond simply acknowledging the limits of one's own knowledge. It specifically involves actively recognizing one's dependence on others for knowledge and being open to challenging one's own assumptions through engagement with diverse perspectives and lived experiences. This contrasts with just recognizing incompleteness (A), formal assessments (C), or simply recognizing multiple knowledge systems (D)."
+        },
+        {
+          "id": 8,
+          "question": "The 'Digital Divide as a Divide in Epistemic Power' (Variety 2 of structural injustice) primarily highlights which of the following?",
+          "options": {
+            "A": "Unequal access to high-speed internet and computing devices.",
+            "B": "The inability of individuals to use basic digital tools.",
+            "C": "The disparity in who can shape the research agenda and related technologies versus who cannot.",
+            "D": "The lack of digital literacy among marginalized populations."
+          },
+          "answer": "C",
+          "short_explanation": "Epistemic power relates to who has the authority and influence to shape knowledge and research directions.",
+          "long_explanation": "While unequal access (A) and digital literacy (B, D) are aspects of the digital divide, the concept of 'epistemic power' specifically refers to the deeper issue of who holds the authority and influence to define what counts as important knowledge, set research priorities, and shape the development of technologies. This creates a fundamental power imbalance in knowledge production, beyond just technological access."
+        },
+        {
+          "id": 9,
+          "question": "How does structural injustice typically impact the implementation of Open Science (OS)?",
+          "options": {
+            "A": "It ensures that all research outputs are automatically discoverable.",
+            "B": "It accelerates the adoption of open-source tools in all research environments.",
+            "C": "It can render OS ineffective, as openness alone doesn't overcome underlying barriers like unequal access or opportunity.",
+            "D": "It mandates that all research institutions share their proprietary data."
+          },
+          "answer": "C",
+          "short_explanation": "Openness alone isn't enough to achieve equity if structural barriers remain.",
+          "long_explanation": "The text explicitly states that structural injustice has 'important implications for OS implementation,' and that even when OS is implemented, it can be 'ineffective, with no real increase in visibility and findability of research.' This is because simply making things 'open' doesn't automatically solve underlying structural barriers such as unequal access to infrastructure, training, or time, thus preventing many from truly benefiting from or contributing to open initiatives."
+        },
+        {
+          "id": 10,
+          "question": "In the context of pathways to structural change, 'Engagement across local communities and beyond professional science' means:",
+          "options": {
+            "A": "Scientists should solely focus on theoretical research without practical application.",
+            "B": "Developing AI tools exclusively for academic publication.",
+            "C": "Breaking down the 'ivory tower' by genuinely partnering with diverse groups for co-creation of knowledge.",
+            "D": "Limiting scientific discussions to peer-reviewed journals."
+          },
+          "answer": "C",
+          "short_explanation": "Engagement means active partnership with diverse communities to co-create relevant knowledge.",
+          "long_explanation": "This pathway emphasizes moving beyond traditional academic boundaries. It means genuinely partnering with local communities, practitioners, policymakers, and diverse publics to co-create knowledge that is relevant and useful to real-world problems. This directly contrasts with isolating research (A, B) or limiting discourse (D)."
+        },
+        {
+          "id": 11,
+          "question": "According to Alcoff's extractivist epistemology, when an AI algorithm's design implicitly favors large-scale commercial farming over sustainable local practices, despite claims of neutrality, which characteristic is being demonstrated?",
+          "options": {
+            "A": "Ranking",
+            "B": "Exclusive Control",
+            "C": "Denial of Collaboration",
+            "D": "Objective View of Values"
+          },
+          "answer": "D",
+          "short_explanation": "Claiming neutrality while having inherent biases in design reflects the objective view of values.",
+          "long_explanation": "Objective View of Values refers to the problematic aspect where knowledge is presented as neutral or value-free, even though it is shaped by specific perspectives, interests, or biases. The scenario describes an implicit favoring of commercial farming, which reveals underlying values despite a facade of objectivity, directly aligning with this characteristic."
+        },
+        {
+          "id": 12,
+          "question": "The Leonelli paper describes how molecular data about plants is often treated as more reliable than observational accounts from farmers. This situation primarily exemplifies which of Alcoff's characteristics of extractivist epistemology?",
+          "options": {
+            "A": "Exclusive Control",
+            "B": "Ranking",
+            "C": "Objective View of Values",
+            "D": "Denial of Collaboration"
+          },
+          "answer": "B",
+          "short_explanation": "Prioritizing one type of knowledge (molecular data) over another (farmers' observations) is an act of ranking.",
+          "long_explanation": "Ranking refers to creating hierarchies of knowledge, where some forms (e.g., molecular data) are deemed 'superior' or more 'scientific' than others (e.g., traditional ecological knowledge or observational accounts). The scenario directly illustrates this prioritization and devaluation of certain knowledge forms, which is a core aspect of ranking within extractivist epistemology."
+        },
+        {
+          "id": 13,
+          "question": "Which of Alcoff's alternatives to extractivism is best described by finding ways for different knowledge systems (e.g., traditional ecological knowledge and Western scientific methods) to interact and learn from each other?",
+          "options": {
+            "A": "Acknowledging the incompleteness of all knowledge.",
+            "B": "Practicing relational epistemic humility.",
+            "C": "Developing approaches that recognize plural epistemologies and seek productive, inter-epistemological relationships.",
+            "D": "Making regular assessments of our epistemic relationships."
+          },
+          "answer": "C",
+          "short_explanation": "Encouraging interaction between different knowledge systems is the essence of 'inter-epistemological relationships'.",
+          "long_explanation": "Developing approaches that recognize plural epistemologies and seek productive, inter-epistemological relationships directly addresses the need for different knowledge systems to engage in dialogue and mutual learning. It goes beyond simply acknowledging limits (A) or individual humility (B), focusing on the active creation of bridges between diverse ways of knowing."
+        },
+        {
+          "id": 14,
+          "question": "A research institution consistently prioritizes short-term AI projects that yield quick, publishable results, even if they don't address long-term societal challenges. This scenario primarily illustrates which variety of structural injustice?",
+          "options": {
+            "A": "Inequity in resourcing: allocation, access, deployment and design.",
+            "B": "Misalignment between resourcing and scientific goals.",
+            "C": "Misalignment between scientific goals and labor conditions.",
+            "D": "Exclusion of researchers."
+          },
+          "answer": "B",
+          "short_explanation": "Prioritizing short-term, publishable results over long-term societal challenges reflects a misalignment between available resources/funding mechanisms and broader scientific goals.",
+          "long_explanation": "Misalignment between resourcing and scientific goals occurs when the allocation of resources (e.g., funding for specific types of projects) pushes research in directions that might not be the most scientifically beneficial or aligned with broader societal needs. Prioritizing quick, publishable results over long-term societal challenges directly reflects this tension, as the goals are shaped by resourcing constraints rather than intrinsic scientific or societal priorities."
+        },
+        {
+          "id": 15,
+          "question": "In the context of inequity in resourcing, what does it mean for resourcing to be 'not grounded solely on merit or scientific relevance'?",
+          "options": {
+            "A": "Funding is exclusively determined by peer-review scores.",
+            "B": "Resources are allocated based on factors like existing power, economic interests, or political agendas.",
+            "C": "All research projects receive equal funding regardless of their quality.",
+            "D": "It implies a complete absence of any scientific evaluation."
+          },
+          "answer": "B",
+          "short_explanation": "Resourcing not solely based on merit means external factors like power and politics influence allocation.",
+          "long_explanation": "The text explains that 'Resourcing not grounded solely on merit or scientific relevance' means that factors beyond a project's intrinsic scientific value, such as 'who decides what science is worthy of investment,' 'economic interests,' and 'political agendas,' influence resource allocation. This indicates that existing power structures play a significant role, rather than purely objective scientific evaluation."
+        },
+        {
+          "id": 16,
+          "question": "The Leonelli paper discusses how funding for agricultural AI might be tied to specific, high-yield crops favored by large corporations, rather than diverse, drought-resistant local varieties. This scenario most directly exemplifies which variety of structural injustice?",
+          "options": {
+            "A": "Inequity in resourcing: allocation, access, deployment and design.",
+            "B": "Misalignment between resourcing and scientific goals.",
+            "C": "Misalignment between scientific goals and labor conditions.",
+            "D": "Exclusion of researchers."
+          },
+          "answer": "B",
+          "short_explanation": "Funding priorities dictating what research gets done (e.g., high-yield crops over local varieties) is a misalignment between resources and scientific goals.",
+          "long_explanation": "This scenario directly illustrates the 'Misalignment between resourcing and scientific goals.' The resources (funding) are directed towards specific types of research (high-yield crops for corporations) that may not align with the most pressing needs or broader scientific goals (diverse local varieties for food security). This shows how external factors like funder interests can shape the scientific agenda, creating a disconnect between available resources and equitable research priorities."
+        },
+        {
+          "id": 17,
+          "question": "Which of the following best reflects how 'goals are shaped by expectations around future employment' (Variety 3 of structural injustice)?",
+          "options": {
+            "A": "Researchers prioritize projects that offer the highest immediate financial bonus.",
+            "B": "Scientists choose research topics based on their personal interests alone, disregarding career prospects.",
+            "C": "Early-career researchers select topics based on their potential to secure future jobs or grants, even if not academically 'excellent'.",
+            "D": "Funding bodies exclusively support research that guarantees immediate job creation."
+          },
+          "answer": "C",
+          "short_explanation": "Career progression pressures influence research choices, especially for early-career scientists.",
+          "long_explanation": "Goals shaped by expectations around future employment means that researchers' anxieties about their next job, grant, or tenure review can dictate their research choices. They might pick projects that are 'publishable' or align with specific industry needs, even if not academically 'excellent,' to improve their employment prospects. This is a subtle yet powerful structural pressure influencing scientific direction."
+        },
+        {
+          "id": 18,
+          "question": "One implication of structural injustice is 'Shifts in research content.' What is the primary negative outcome of this shift?",
+          "options": {
+            "A": "An increased focus on basic science over applied research.",
+            "B": "A lack of research effort on topics most relevant to vulnerable contexts and communities.",
+            "C": "Accelerated technological innovation in all fields.",
+            "D": "A global standardization of research priorities."
+          },
+          "answer": "B",
+          "short_explanation": "Research shifts away from vulnerable contexts when driven by structural constraints.",
+          "long_explanation": "Shifts in research content occur because research directions are often picked to comply with existing constraints (e.g., funding, career incentives). The primary negative outcome is a 'lack of research effort spent on topics, domains, and goals most relevant to vulnerable scientists and their contexts,' meaning critical societal needs may be neglected in favor of more 'profitable' or institutionally favored areas."
+        },
+        {
+          "id": 19,
+          "question": "To foster structural change, 'Reform of institutional and material/digital infrastructures' implies:",
+          "options": {
+            "A": "Centralizing all research infrastructure in one global hub.",
+            "B": "Redesigning institutions and technologies to be more inclusive and serve diverse capabilities and goals.",
+            "C": "Eliminating all digital tools in favor of traditional methods.",
+            "D": "Privatizing all publicly funded research infrastructure."
+          },
+          "answer": "B",
+          "short_explanation": "Reforming infrastructures means making them inclusive and suited to diverse needs.",
+          "long_explanation": "This pathway to structural change focuses on redesigning institutions (like universities and funding bodies) and the technologies they use (digital platforms, hardware) to be more inclusive. The goal is to serve 'widely diverse capabilities and goals,' meaning they should be accessible and beneficial to a broader range of researchers and communities, not just a privileged few."
+        },
+        {
+          "id": 20,
+          "question": "According to Alcoff's extractivist epistemology, when an AI system is promoted as value-neutral or purely objective, but its design inherently reflects the biases of its developers, which characteristic is being demonstrated?",
+          "options": {
+            "A": "Ranking",
+            "B": "Exclusive Control",
+            "C": "Denial of Collaboration",
+            "D": "Objective View of Values"
+          },
+          "answer": "D",
+          "short_explanation": "Masking inherent biases with claims of objectivity is the 'Objective View of Values'.",
+          "long_explanation": "Objective View of Values refers to the problematic aspect of extractivism where knowledge is presented as neutral, universal, and free from values, despite being shaped by specific perspectives and interests. The scenario directly illustrates this, as the AI system's design implicitly carries biases, contradicting its supposed objectivity."
+        },
+        {
+          "id": 21,
+          "question": "A core problematic aspect of extractivism, as defined by Grosfoguel, is the lack of acknowledgment or benefits for resource providers. What is the primary consequence of this aspect?",
+          "options": {
+            "A": "The immediate depletion of natural resources.",
+            "B": "The perpetuation of a cycle where contributors' efforts are absorbed without fair return.",
+            "C": "A decrease in the global demand for raw materials.",
+            "D": "An increase in direct financial aid to developing nations."
+          },
+          "answer": "B",
+          "short_explanation": "Lack of acknowledgment means contributors' efforts are exploited without fair return.",
+          "long_explanation": "The text states that resource providers often receive 'no recognition, no credit, and no economic or symbolic benefits.' This consequence perpetuates a cycle where the valuable contributions (whether data, knowledge, or physical resources) of less powerful groups are absorbed into the extractor's system for profit, without a fair return. This is central to the injustice inherent in extractivism."
+        },
+        {
+          "id": 22,
+          "question": "Which of Alcoff's alternatives to extractivism involves actively seeking out and valuing perspectives from marginalized groups, not just as data points, but as co-creators of knowledge?",
+          "options": {
+            "A": "Acknowledging the incompleteness of all knowledge.",
+            "B": "Developing approaches that recognize plural epistemologies.",
+            "C": "Practicing relational epistemic humility.",
+            "D": "Making regular assessments of our epistemic relationships."
+          },
+          "answer": "C",
+          "short_explanation": "Actively valuing diverse perspectives as co-creation is 'relational epistemic humility'.",
+          "long_explanation": "Practicing relational epistemic humility goes beyond merely acknowledging limitations (A) or recognizing multiple knowledge systems (B). It specifically involves actively seeking out and valuing perspectives from marginalized groups, engaging with them as co-creators of knowledge, and being open to having one's own assumptions challenged. This embodies a deeper level of engagement and respect."
+        },
+        {
+          "id": 23,
+          "question": "Why does structural injustice pose a challenge to the effectiveness of Open Science (OS)?",
+          "options": {
+            "A": "OS initiatives primarily benefit proprietary research institutions.",
+            "B": "OS mandates the sharing of all private data, leading to privacy concerns.",
+            "C": "OS alone cannot overcome underlying structural barriers (like unequal access to infrastructure) that prevent full participation.",
+            "D": "OS discourages collaboration among scientists."
+          },
+          "answer": "C",
+          "short_explanation": "Openness alone is insufficient if fundamental inequities in access and opportunity persist.",
+          "long_explanation": "The text explicitly states that structural injustice can make OS 'ineffective' because 'openness alone doesn't overcome underlying structural barriers.' This means that even if research is open, if individuals or institutions lack the infrastructure, training, or time to access and utilize it, the full potential of OS for equitable knowledge creation is not realized. It highlights that OS needs to be accompanied by broader structural reforms."
+        },
+        {
+          "id": 24,
+          "question": "In the context of inequity in resourcing, 'Post factum training and tech adoption' implies:",
+          "options": {
+            "A": "Training and adoption occur before technology design, ensuring user input.",
+            "B": "Training and adoption happen after technology design, limiting user input in its functionality or governance.",
+            "C": "Technology adoption is solely based on user demand and feedback.",
+            "D": "Training is irrelevant once technology is developed."
+          },
+          "answer": "B",
+          "short_explanation": "Post factum means after the fact, so users are trained on existing tech with little say in its design.",
+          "long_explanation": "Post factum training and tech adoption means that training and technology adoption happen *after* the technology has already been designed and deployed. This process inherently limits the input of local users on how the technology works or how it should be governed, thereby perpetuating a top-down model where local needs are not genuinely incorporated into the design process."
+        },
+        {
+          "id": 25,
+          "question": "Which of the following is an example of how the 'divide is sharpened by constraints and expectations on what counts as credit' (Variety 3 of structural injustice)?",
+          "options": {
+            "A": "Researchers receive equal credit for all types of research activities.",
+            "B": "Scientists prioritize securing patents over open-source innovations due to career advancement metrics.",
+            "C": "Funding bodies exclusively support basic science research.",
+            "D": "All academic publications are equally valued for career progression."
+          },
+          "answer": "B",
+          "short_explanation": "Career metrics like patents can push researchers away from open-source work.",
+          "long_explanation": "The 'divide is sharpened by constraints and expectations on what counts as credit' refers to how specific metrics (like patents) can influence researchers' choices, prioritizing activities that advance their careers within the existing system over other valuable contributions (like open-source work) that may not be equally rewarded. This creates a misalignment between individual career goals and broader societal benefits."
+        },
+        {
+          "id": 26,
+          "question": "A consequence of structural injustice is 'Diminished research quality'. What is the primary reason for this outcome?",
+          "options": {
+            "A": "Increased competition among researchers for limited resources.",
+            "B": "A lack of diverse perspectives, crucial data, or alternative methodologies in research.",
+            "C": "Over-specialization of scientific fields, limiting interdisciplinary work.",
+            "D": "Reduced funding for peer review processes."
+          },
+          "answer": "B",
+          "short_explanation": "Lack of diversity in input leads to lower quality research.",
+          "long_explanation": "Diminished research quality is a direct implication because if research is missing 'diverse perspectives, crucial data, or alternative methodologies,' then the resulting understanding is inherently incomplete and potentially biased. This means the 'solution' is less robust and potentially harmful when applied more broadly, directly impacting the quality and reliability of scientific inquiry."
+        },
+        {
+          "id": 27,
+          "question": "To foster structural change, 'Lobbying to reform education and labor markets' implies what kind of action?",
+          "options": {
+            "A": "Promoting traditional academic career paths as the sole option.",
+            "B": "Advocating for curricula that value interdisciplinary work and funding models for impactful research.",
+            "C": "Reducing the number of universities offering science programs.",
+            "D": "Encouraging researchers to work in isolation to avoid market pressures."
+          },
+          "answer": "B",
+          "short_explanation": "Lobbying for reform means advocating for changes in how scientists are trained, hired, and rewarded.",
+          "long_explanation": "Lobbying to reform education and labor markets is a pathway to structural change that involves advocating for changes in how scientists are trained, hired, and rewarded. This includes pushing for curricula that value interdisciplinary and transdisciplinary work, promoting diverse career paths beyond traditional academia, and advocating for funding models that support long-term, collaborative, and socially impactful research, even if it doesn't always lead to high-impact publications or patents."
+        },
+        {
+          "id": 28,
+          "question": "The definition of extractivism includes that it occurs 'exclusively on the extractivists' own terms.' This directly leads to which of the following problematic aspects?",
+          "options": {
+            "A": "The promotion of sustainable resource management.",
+            "B": "A fair and equitable distribution of benefits to all stakeholders.",
+            "C": "A lack of acknowledgment or benefits for the communities providing resources.",
+            "D": "Increased transparency in resource acquisition."
+          },
+          "answer": "C",
+          "short_explanation": "When extractivists set the terms, resource providers are often excluded from benefits.",
+          "long_explanation": "When extractivism operates 'exclusively on the extractivists' own terms,' it implies that the powerful entities dictate the rules without meaningful input from the resource-providing communities. This directly leads to the 'lack of acknowledgment or benefits' for these communities, as their contributions are simply absorbed into the extractor's system without fair return, perpetuating injustice."
+        },
+        {
+          "id": 29,
+          "question": "Which of Alcoff's alternatives to extractivism emphasizes building in continuous feedback loops to ensure that a project remains ethical and equitable throughout its lifecycle?",
+          "options": {
+            "A": "Acknowledging the incompleteness of all knowledge.",
+            "B": "Practicing relational epistemic humility.",
+            "C": "Making regular assessments of our epistemic relationships in projects of knowing.",
+            "D": "Developing approaches that recognize plural epistemologies."
+          },
+          "answer": "C",
+          "short_explanation": "Regular assessments ensure ongoing ethical and equitable practice.",
+          "long_explanation": "Making regular assessments of our epistemic relationships in projects of knowing emphasizes ongoing reflection and evaluation. It means building in continuous feedback loops to ensure that the project remains ethical and equitable throughout its lifecycle, rather than just at the start or end. This contrasts with the more conceptual aspects of acknowledging incompleteness (A) or practicing humility (B), or the broad approach of recognizing plural epistemologies (D)."
+        },
+        {
+          "id": 30,
+          "question": "What does 'reparation beyond affirmative action' imply in the context of fostering structural change?",
+          "options": {
+            "A": "Focusing solely on increasing representation within existing structures.",
+            "B": "Aiming to repair historical harms and transform the structures that created inequities.",
+            "C": "Implementing policies that only benefit historically disadvantaged groups.",
+            "D": "Ignoring the need for diversity in scientific fields."
+          },
+          "answer": "B",
+          "short_explanation": "Reparation goes beyond representation to actively fix the root causes of injustice.",
+          "long_explanation": "Reparation beyond affirmative action means that the goal is not just to increase representation within existing structures (which affirmative action primarily aims for). Instead, it seeks to repair historical harms and fundamentally transform the very structures that created the inequities in the first place. It's about proactive rebuilding and rebalancing of power, addressing the root causes of injustice rather than just its symptoms."
+        },
+        {
+          "id": 31,
+          "question": "Grosfoguel's definition of extractivism emphasizes the removal of resources that are 'unprocessed, or minimally processed.' What is the significance of this aspect?",
+          "options": {
+            "A": "It ensures the maximum value-added stays with the source community.",
+            "B": "It highlights that the transformation and profit occur elsewhere, not at the source.",
+            "C": "It implies that only physical raw materials are subject to extractivism.",
+            "D": "It mandates the immediate consumption of the extracted resource."
+          },
+          "answer": "B",
+          "short_explanation": "Unprocessed resources mean value addition happens away from the source.",
+          "long_explanation": "The emphasis on 'unprocessed, or minimally processed' resources highlights that the significant value-adding activities (processing, manufacturing, analysis) occur *after* the resource has been removed from its source. This means the profits and economic benefits generated from these transformations primarily accrue to the extractor, rather than the original community or provider, which is a core tenet of extractivism."
+        },
+        {
+          "id": 32,
+          "question": "Alcoff's extractivist epistemology, as a whole, aims to explain which of the following?",
+          "options": {
+            "A": "The technological advancements that facilitate data collection.",
+            "B": "The effects of colonialism and imperialism on practices of knowing.",
+            "C": "The economic models underlying global resource trade.",
+            "D": "The psychological biases of individual researchers."
+          },
+          "answer": "B",
+          "short_explanation": "Alcoff's framework analyzes how colonial legacies shape knowledge production.",
+          "long_explanation": "Alcoff's extractivist epistemology specifically aims to explain 'the effects of colonialism and imperialism on practices of knowing.' It provides a framework for understanding how historical power imbalances and dominant paradigms influence how knowledge is produced, valued, and controlled, moving beyond just economic or technological aspects to focus on the epistemic dimension of injustice."
+        },
+        {
+          "id": 33,
+          "question": "Which of the following statements best defines 'structural injustice'?",
+          "options": {
+            "A": "Individual acts of discrimination against a specific group.",
+            "B": "Systemic disadvantages faced by certain groups due to the organization of social systems.",
+            "C": "Legal frameworks that explicitly prohibit equality.",
+            "D": "A temporary imbalance of power between two individuals."
+          },
+          "answer": "B",
+          "short_explanation": "Structural injustice is about systemic disadvantage, not individual acts or temporary imbalances.",
+          "long_explanation": "Structural injustice refers to the 'systemic disadvantages faced by certain groups due to the way our social, economic, and political systems are organized.' It emphasizes that inequalities are 'baked into the very systems and structures' of society, often without explicit individual intent, distinguishing it from isolated acts of discrimination or temporary power imbalances."
+        },
+        {
+          "id": 34,
+          "question": "A university research lab receives significant funding for AI projects, but only if they promise immediate commercial applications, leading them to neglect more fundamental or socially impactful research. This scenario is a clear example of which aspect of inequity in resourcing?",
+          "options": {
+            "A": "Post factum training and tech adoption.",
+            "B": "Short-term availability privileged over capacity-building.",
+            "C": "Resourcing not grounded solely on merit or scientific relevance.",
+            "D": "Exclusive control over resources."
+          },
+          "answer": "C",
+          "short_explanation": "Funding tied to commercial outcomes, not just scientific merit, shows how resourcing isn't solely merit-based.",
+          "long_explanation": "This scenario directly illustrates 'Resourcing not grounded solely on merit or scientific relevance.' The funding is being allocated based on commercial viability rather than solely on the inherent scientific merit or broader societal relevance of the research. This highlights how external factors, such as economic interests, influence resource allocation beyond purely scientific considerations."
+        },
+        {
+          "id": 35,
+          "question": "How does the 'Digital Divide as a Divide in Epistemic Power' (Variety 2) differ from a traditional understanding of the digital divide (e.g., lack of internet access)?",
+          "options": {
+            "A": "It focuses solely on the economic costs of digital technology.",
+            "B": "It emphasizes the ability to shape the research agenda, not just access to technology.",
+            "C": "It is a temporary condition that resolves with increased technology availability.",
+            "D": "It applies only to developed countries with high internet penetration."
+          },
+          "answer": "B",
+          "short_explanation": "Epistemic power is about influencing the knowledge agenda, not just having internet access.",
+          "long_explanation": "While a traditional digital divide focuses on unequal access to internet or devices, the 'Digital Divide as a Divide in Epistemic Power' delves deeper. It highlights the disparity in who has the authority and influence to define what counts as important knowledge, set research priorities, and shape the development of technologies, thereby influencing the 'research agenda,' rather than just having technological access itself."
+        },
+        {
+          "id": 36,
+          "question": "A researcher feels pressured to pursue AI projects that lead to patents rather than open-source innovations, because patents are highly valued for tenure and promotion at their university. This situation directly illustrates which variety of structural injustice?",
+          "options": {
+            "A": "Inequity in resourcing: allocation, access, deployment and design.",
+            "B": "Misalignment between resourcing and scientific goals.",
+            "C": "Misalignment between scientific goals and labor conditions.",
+            "D": "Exclusion of methods/data."
+          },
+          "answer": "C",
+          "short_explanation": "Career incentives (labor conditions) influencing research choices (scientific goals) is a misalignment.",
+          "long_explanation": "This scenario directly illustrates 'Misalignment between scientific goals and labor conditions.' The researcher's scientific goals (e.g., open-source innovation) are being shaped or constrained by the labor conditions and expectations for career progression (e.g., the need for patents for tenure). This highlights how external pressures related to employment and credit can influence the direction of research, even if it deviates from what might be considered a broader societal good."
+        },
+        {
+          "id": 37,
+          "question": "Despite efforts to implement Open Science, a significant portion of research data remains difficult to find or access for researchers in low-resource settings. This primarily indicates which implication of structural injustice?",
+          "options": {
+            "A": "Shifts in research content.",
+            "B": "Exclusion of researchers.",
+            "C": "Diminished research quality.",
+            "D": "Ineffective Open Science."
+          },
+          "answer": "D",
+          "short_explanation": "Open Science initiatives failing to achieve their goal due to underlying issues is 'Ineffective Open Science'.",
+          "long_explanation": "Ineffective Open Science is an implication where, even with OS implementation, there is 'no real increase in visibility and findability of research' for certain groups. This is because structural barriers (like lack of infrastructure or training) prevent them from fully utilizing open resources, rendering the OS efforts less impactful than intended. The scenario directly reflects this failure to achieve the core goals of OS despite its implementation."
+        },
+        {
+          "id": 38,
+          "question": "Which pathway to structural change involves acknowledging our own limitations and biases, and being open to critique and learning from diverse perspectives?",
+          "options": {
+            "A": "Lobbying to reform education and labor markets.",
+            "B": "Embracing vulnerability and community action.",
+            "C": "Reform of institutional and material/digital infrastructures.",
+            "D": "Engagement across local communities and beyond professional science."
+          },
+          "answer": "B",
+          "short_explanation": "Acknowledging limitations and openness to critique defines 'embracing vulnerability'.",
+          "long_explanation": "Embracing vulnerability is a pathway to structural change that involves acknowledging one's own limitations and biases, and being open to critique and learning from diverse perspectives. This fosters a more humble and adaptive approach to knowledge creation, which is crucial for moving away from extractivist epistemologies that often assume unchallenged authority."
+        },
+        {
+          "id": 39,
+          "question": "What is the primary goal of 'reframe the conceptual and institutional grounding of empirical inquiry' in the context of structural change?",
+          "options": {
+            "A": "To increase the quantity of research publications.",
+            "B": "To challenge fundamental assumptions and transform how institutions are built for knowledge production.",
+            "C": "To standardize all research methodologies globally.",
+            "D": "To reduce the cost of scientific research."
+          },
+          "answer": "B",
+          "short_explanation": "Reframing means transforming core assumptions and institutional structures for knowledge production.",
+          "long_explanation": "Reframing the conceptual and institutional grounding of empirical inquiry is a core aspect of structural change. It aims to challenge the fundamental assumptions and transform the very structures that underpin how knowledge is produced, moving beyond mere mitigation to a deeper, more systemic transformation of scientific practices and institutions. This is a more profound goal than simply increasing output or reducing costs."
+        },
+        {
+          "id": 40,
+          "question": "What is the ultimate purpose of 'capital gain' in Ramón Grosfoguel's definition of extractivism?",
+          "options": {
+            "A": "To fund local community development projects.",
+            "B": "To ensure sustainable resource management.",
+            "C": "To benefit the rich and powerful, particularly in the Global North.",
+            "D": "To provide universal access to extracted resources."
+          },
+          "answer": "C",
+          "short_explanation": "Capital gain in extractivism primarily benefits the powerful in the Global North.",
+          "long_explanation": "Grosfoguel's definition explicitly states that the capital gain from extractivism is 'for the benefit of the rich and powerful, particularly in the global North.' This highlights the exploitative and unequal nature of the process, where wealth and power accumulate at one pole, often at the expense of the resource-providing communities."
+        }
+      ]
     }
   ]
 }
