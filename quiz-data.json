@@ -4724,6 +4724,531 @@
           "long_explanation": "Imposed ignorance occurs when public narratives or distortions prevent individuals from recognizing their own experiences. If an AI model is trained on data from a single, dominant cultural perspective, it will likely perpetuate mischaracterizations of conditions or experiences as they manifest in diverse populations. This can lead to individuals from those populations struggling to understand their own realities, effectively imposing ignorance upon them by providing a skewed or incomplete understanding."
         }
       ]
+    },
+    {
+      "title": "10. Data and Model Bias",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which statement best captures the core idea of the 'relational view of data' as presented in the chapter?",
+          "options": {
+            "A": "Data are raw, unprocessed facts that exist independently of human interpretation.",
+            "B": "Data derive their meaning and utility from their connection to phenomena, models, and knowledge in an iterative cycle.",
+            "C": "Data are primarily numerical representations used to quantify observable phenomena.",
+            "D": "Data are static historical records that document past observations without influencing future research."
+          },
+          "answer": "B",
+          "short_explanation": "The relational view emphasizes data's active role in a cycle of knowledge creation, not its static nature.",
+          "long_explanation": "The relational view of data, championed by Sabina Leonelli, posits that data are not isolated entities but gain meaning and utility through their relationships within a dynamic cycle of knowledge creation. This cycle involves interactions with the world, leading to objects, which become data, used in models, and contribute to new knowledge, which then feeds back into further interactions."
+        },
+        {
+          "id": 2,
+          "question": "According to the Functional View of bias, what is the primary purpose or 'function' that biases serve for cognitive systems?",
+          "options": {
+            "A": "To eliminate all uncertainty and achieve perfect objectivity in decision-making.",
+            "B": "To systematically limit the inductive hypothesis space, making reasoning tractable in the face of incomplete information.",
+            "C": "To ensure that all decisions strictly adhere to pre-defined moral and epistemic norms.",
+            "D": "To provide a mechanism for consciously recognizing and correcting all forms of prejudice."
+          },
+          "answer": "B",
+          "short_explanation": "Biases make complex reasoning manageable by narrowing down possibilities.",
+          "long_explanation": "The Functional View of bias argues that biases are non-evidential assumptions that serve a crucial purpose: they systematically limit the vast 'inductive hypothesis space.' This allows cognitive systems (both human and AI) to make decisions and draw conclusions efficiently, even when faced with incomplete or overwhelming information, thereby making reasoning 'tractable' rather than paralyzing."
+        },
+        {
+          "id": 3,
+          "question": "A research team develops an AI model to predict crop yields. They intentionally exclude data from small, independent farms, focusing only on large commercial agricultural operations. This decision is most likely to introduce which type of bias into their dataset?",
+          "options": {
+            "A": "Perceptual Bias",
+            "B": "Explicit Bias",
+            "C": "Sampling Bias",
+            "D": "Algorithmic Bias"
+          },
+          "answer": "C",
+          "short_explanation": "Excluding specific groups from data collection is sampling bias.",
+          "long_explanation": "Sampling bias occurs when the method used to select a sample for study does not accurately represent the larger population from which it is drawn. By intentionally excluding small farms, the team's sample will not be representative of all agricultural operations, leading to predictions that may not be accurate or fair for the excluded group. Algorithmic bias would be the *result* if the model then performs poorly on small farms, but the *cause* in the data is sampling bias."
+        },
+        {
+          "id": 4,
+          "question": "Which of the following best describes the concept of 'Epistemic Objects' as defined in the chapter?",
+          "options": {
+            "A": "The raw, unprocessed phenomena observed in the natural world.",
+            "B": "Theoretical constructs that exist only in the minds of researchers.",
+            "C": "Stabilizations of the research flux, such as data, models, or concepts, used to make phenomena intelligible.",
+            "D": "Pre-existing biases that influence how researchers perceive reality."
+          },
+          "answer": "C",
+          "short_explanation": "Epistemic objects are the concrete tools and representations (like data or models) we create to study phenomena.",
+          "long_explanation": "Epistemic Objects are defined as 'stabilizations of the research flux.' They are the tangible products of reification, including data, models, labels, and concepts, that scientists create to transform complex, dynamic phenomena into manageable forms that can be systematically studied and understood. They are not the raw phenomena themselves, nor are they purely theoretical or solely biases."
+        },
+        {
+          "id": 5,
+          "question": "An AI model, after being deployed, consistently shows a higher error rate for individuals from a particular underrepresented ethnic group, even though the developers claim it was trained on a 'balanced' dataset. This outcome is a direct manifestation of which type of bias?",
+          "options": {
+            "A": "Perceptual Bias",
+            "B": "Explicit Bias",
+            "C": "Credibility Bias",
+            "D": "Algorithmic Bias"
+          },
+          "answer": "D",
+          "short_explanation": "Skewed outcomes from an automated tool indicate algorithmic bias.",
+          "long_explanation": "Algorithmic bias refers to systematic and repeatable errors in a computer system that create unfair or skewed outcomes. Even if the training data was 'balanced' in some general sense, underlying societal biases reflected in the data, or specific design choices within the model, can lead to discriminatory performance for particular groups, which is a hallmark of algorithmic bias."
+        },
+        {
+          "id": 6,
+          "question": "The statement 'Data are, not data is' primarily emphasizes which characteristic of data?",
+          "options": {
+            "A": "Its quantitative nature and statistical robustness.",
+            "B": "Its fixed and unchanging properties once collected.",
+            "C": "Its diverse forms and the active, mediated process of its creation.",
+            "D": "Its inherent objectivity and neutrality in scientific inquiry."
+          },
+          "answer": "C",
+          "short_explanation": "Data is plural and reflects human involvement in its formation.",
+          "long_explanation": "The phrase 'Data are, not data is' highlights that 'data' is a plural term, reflecting its diverse forms (symbols, sounds, text, images, etc.) and the fact that it is not a raw, objective given. Instead, data is the result of 'mediated and situated interactions between researchers and the world,' implying an active, human-shaped process of construction rather than passive reception."
+        },
+        {
+          "id": 7,
+          "question": "According to the Norm-Theoretic Approach, what fundamentally defines a 'bias'?",
+          "options": {
+            "A": "Any cognitive shortcut that allows for efficient decision-making.",
+            "B": "A systematic deviation from what is regarded as a genuine norm or standard of correctness.",
+            "C": "An unconscious attitude that influences judgment without explicit awareness.",
+            "D": "A necessary assumption that enables an AI algorithm to make predictions."
+          },
+          "answer": "B",
+          "short_explanation": "The Norm-Theoretic Approach sees bias as a departure from a standard.",
+          "long_explanation": "The Norm-Theoretic Approach, championed by Thomas Kelly, defines bias as a 'systematic departure from a [genuine] norm or standard of correctness.' Unlike the functional view, this approach inherently assigns a negative connotation to bias, as it represents an error or a failure to adhere to what should be."
+        },
+        {
+          "id": 8,
+          "question": "A medical AI diagnostic tool is trained exclusively on data from patients in high-income urban areas. When used in rural clinics with a more diverse patient population, the tool frequently misdiagnoses conditions. This issue is primarily caused by which type of bias originating in the data?",
+          "options": {
+            "A": "Perceptual Bias",
+            "B": "Credibility Bias",
+            "C": "Sampling Bias",
+            "D": "Algorithmic Bias"
+          },
+          "answer": "C",
+          "short_explanation": "Training on an unrepresentative subset of the population leads to sampling bias.",
+          "long_explanation": "Sampling bias occurs when the data used to train the model does not accurately represent the population on which the model will be deployed. By training only on high-income urban data, the model's 'sample' is unrepresentative of rural or diverse populations, leading to poor performance and unfair outcomes for those groups. Algorithmic bias would describe the model's skewed outcomes, but sampling bias is the root cause in the data."
+        },
+        {
+          "id": 9,
+          "question": "In the context of AI, what is meant by 'Inductive Bias'?",
+          "options": {
+            "A": "The explicit prejudices coded directly into an algorithm by its developers.",
+            "B": "The unconscious attitudes that influence the AI's decision-making process.",
+            "C": "Assumptions a learning algorithm makes to predict outputs for new or unseen data.",
+            "D": "Systematic errors in data collection that lead to unrepresentative datasets."
+          },
+          "answer": "C",
+          "short_explanation": "Inductive bias refers to the assumptions AI makes to generalize to new data.",
+          "long_explanation": "In computer science, inductive biases are the necessary assumptions that a learning algorithm makes to generalize from its training data and predict outputs for new, previously unseen data. Without these assumptions, an AI would be unable to make any predictions, rendering machine learning pointless. This concept is distinct from explicit coding of prejudice or errors in data collection, though those can influence the specific inductive biases learned."
+        },
+        {
+          "id": 10,
+          "question": "Which of the following is NOT a characteristic of data in the 'relational view'?",
+          "options": {
+            "A": "It is treated as potential evidence for claims about phenomena.",
+            "B": "It is formatted and handled to enable circulation for analysis.",
+            "C": "It is inherently objective and free from human interpretation.",
+            "D": "It is part of a dynamic cycle involving knowledge, interactions, objects, and models."
+          },
+          "answer": "C",
+          "short_explanation": "The relational view, like the pluralist view, emphasizes data's constructed nature, not its objectivity.",
+          "long_explanation": "The relational view, along with the emphasis on pluralism, explicitly states that data is not inherently objective or free from human interpretation. Instead, it is the 'result of mediated and situated interactions between researchers and the world,' and its meaning and utility are derived from its role as evidence and its formatted circulation within a dynamic knowledge creation cycle."
+        },
+        {
+          "id": 11,
+          "question": "A historical archive contains numerous documents that consistently use gendered language to describe professions, such as 'fireman' and 'policeman,' even when referring to individuals of any gender. An AI model trained on this text data might then perpetuate these gender stereotypes. This situation primarily illustrates how:",
+          "options": {
+            "A": "Inductive bias is always explicitly coded into AI models.",
+            "B": "Bias in data leads to explicit bias in humans.",
+            "C": "Social biases from the real world can extend to computational systems.",
+            "D": "Algorithmic bias is always intentional and malicious."
+          },
+          "answer": "C",
+          "short_explanation": "AI learns from societal patterns present in its training data.",
+          "long_explanation": "This scenario demonstrates how social biases, such as gender stereotypes prevalent in historical language, get embedded into text data. When an AI model is trained on such data, it learns these patterns and can then perpetuate them, showing how 'social biases will extend to computational systems.' This often happens implicitly, not through intentional coding of malice."
+        },
+        {
+          "id": 12,
+          "question": "A researcher creates a detailed 3D digital model of a specific type of bacterial cell based on electron microscope images. This process, where a living biological entity is represented as a manipulable digital construct for further study, is an example of which mode of reification?",
+          "options": {
+            "A": "Target-reification",
+            "B": "Epistemic Object-reification",
+            "C": "Means-reification",
+            "D": "Phenomenon-reification"
+          },
+          "answer": "C",
+          "short_explanation": "Converting a real-world phenomenon (cell) into an object (digital model) for study is means-reification.",
+          "long_explanation": "Means-reification (phenomenon-to-object) occurs when researchers create objects (like the 3D digital model) that are meant to capture features of the real world (the bacterial cell, a phenomenon) in order to study them more easily. Target-reification would be using the model to infer properties about the actual cell."
+        },
+        {
+          "id": 13,
+          "question": "Which of the following scenarios best illustrates 'Perceptual Bias'?",
+          "options": {
+            "A": "A job recruiter unconsciously favoring candidates from their alma mater.",
+            "B": "An AI system that consistently misidentifies objects in dimly lit environments.",
+            "C": "A person interpreting an ambiguous shadow as a menacing figure due to pre-existing fear.",
+            "D": "A news outlet intentionally publishing only articles that support a specific political agenda."
+          },
+          "answer": "C",
+          "short_explanation": "Perceptual bias is when what we observe is shaped by expectation or prior beliefs.",
+          "long_explanation": "Perceptual bias occurs when what we observe is shaped by expectation. In this example, the person's pre-existing fear (an expectation/belief) influences their visual interpretation of the ambiguous shadow, leading them to 'see' a menacing figure. Option A is implicit bias, B is algorithmic bias (or a technical limitation), and D is explicit bias or media bias."
+        },
+        {
+          "id": 14,
+          "question": "A software engineer explicitly codes a rule into an AI system that gives priority to loan applications from individuals residing in specific, wealthy zip codes. This is a clear example of which type of bias?",
+          "options": {
+            "A": "Implicit Bias",
+            "B": "Explicit Bias",
+            "C": "Algorithmic Bias",
+            "D": "Selection Bias"
+          },
+          "answer": "B",
+          "short_explanation": "Intentionally coding a preference into the system is explicit bias.",
+          "long_explanation": "Explicit bias refers to known, conscious prejudice or intentional preferential treatment. When an engineer deliberately codes a rule that favors certain groups, it is an explicit bias. While this will lead to algorithmic bias (skewed outcomes), the bias at the code level is explicit because it's a conscious decision."
+        },
+        {
+          "id": 15,
+          "question": "Why is it stated that 'Biases often go unnoticed'?",
+          "options": {
+            "A": "Because most biases are too complex for humans to comprehend.",
+            "B": "Because they are always intentionally hidden by those who create them.",
+            "C": "Because humans have a 'bias blind spot' and many biases are implicit or embedded in systems.",
+            "D": "Because AI systems can perfectly filter out all biases from their training data."
+          },
+          "answer": "C",
+          "short_explanation": "Many biases are unconscious or systemic, making them hard to detect without conscious effort.",
+          "long_explanation": "The chapter highlights that 'Biases often go unnoticed' because humans have a 'bias blind spot,' meaning we are rarely aware of our own biases. Furthermore, many biases are implicit (unconscious attitudes) or are deeply embedded in the data and design of complex AI systems, making them difficult to detect without deliberate analysis and external perspective."
+        },
+        {
+          "id": 16,
+          "question": "The process where researchers infer an understanding of the real-world behavior of a virus (a phenomenon) by analyzing its previously sequenced genetic code (an object) is an example of which mode of reification?",
+          "options": {
+            "A": "Means-reification",
+            "B": "Object-to-phenomenon reification",
+            "C": "Phenomenon-to-object reification",
+            "D": "Epistemic object creation"
+          },
+          "answer": "B",
+          "short_explanation": "Inferring about reality from a created object is target-reification (object-to-phenomenon).",
+          "long_explanation": "This process is specifically called 'Target-reification' or 'object-to-phenomenon' reification. It involves using the understanding gained from a created 'object' (the genetic code) to infer or understand the properties and behavior of the original 'phenomenon' (the virus's real-world behavior). Means-reification is the reverse, creating the object from the phenomenon."
+        },
+        {
+          "id": 17,
+          "question": "A company's AI-powered recruitment tool consistently ranks male candidates higher than equally qualified female candidates, even though the tool's code doesn't explicitly mention gender. This is later traced back to the historical hiring data, which disproportionately featured male successful hires. This scenario primarily demonstrates that:",
+          "options": {
+            "A": "All AI models are inherently objective and bias-free.",
+            "B": "Bias only exists in the explicit rules coded by humans.",
+            "C": "Social biases from the real world can extend to and be amplified by computational systems.",
+            "D": "Inductive bias is a negative characteristic that should be entirely eliminated from AI."
+          },
+          "answer": "C",
+          "short_explanation": "AI learns from and reinforces societal patterns present in its training data.",
+          "long_explanation": "This example illustrates how existing social biases (historical hiring patterns favoring males) present in the training data can be learned by an AI model, leading to algorithmic bias even without explicit gender rules in the code. This demonstrates that 'social biases will extend to computational systems' and can be amplified, rather than eliminated."
+        },
+        {
+          "id": 18,
+          "question": "When considering the `health_risk_score` function, the hardcoded `gender_risk` values (`0.8`, `0.5`, `0.9`) are a direct example of which type of bias?",
+          "options": {
+            "A": "Implicit Bias",
+            "B": "Sampling Bias",
+            "C": "Explicit Bias",
+            "D": "Perceptual Bias"
+          },
+          "answer": "C",
+          "short_explanation": "Hardcoding specific values based on gender is a conscious, explicit bias.",
+          "long_explanation": "Explicit bias refers to known, conscious prejudice or intentional preferential treatment. In this code snippet, the assignment of different `gender_risk` values based on `person.gender_score` is a deliberate and visible choice made by the developer, directly embedding a discriminatory assumption into the model. This is not an unconscious bias (implicit) or a data collection issue (sampling/perceptual)."
+        },
+        {
+          "id": 19,
+          "question": "Why is the concept 'data are, not data is' important for understanding bias?",
+          "options": {
+            "A": "It simplifies data analysis by treating all data as uniform.",
+            "B": "It suggests data is always purely objective and free from human influence.",
+            "C": "It highlights that data is actively constructed through human choices, introducing potential for bias from the start.",
+            "D": "It means data is inherently flawed and cannot be trusted for scientific inquiry."
+          },
+          "answer": "C",
+          "short_explanation": "Acknowledging data as constructed helps us see how human choices embed bias.",
+          "long_explanation": "The phrase 'Data are, not data is' emphasizes data's diverse forms and that it's the 'result of mediated and situated interactions between researchers and the world.' This means data is actively shaped by human decisions, perspectives, and tools, rather than being a raw, objective given. This understanding immediately opens the door to recognizing how bias can be introduced or reinforced from the very beginning of the data lifecycle."
+        },
+        {
+          "id": 20,
+          "question": "Which statement accurately reflects the Norm-Theoretic Approach's view on the nature of bias?",
+          "options": {
+            "A": "Bias is fundamentally a neutral concept, serving only to simplify complex realities.",
+            "B": "All instances of bias are inherently bad because they represent a deviation from a norm.",
+            "C": "Bias is solely a human cognitive phenomenon, not applicable to AI systems.",
+            "D": "The primary goal of bias is to help manage uncertainty, even if it leads to some errors."
+          },
+          "answer": "B",
+          "short_explanation": "The Norm-Theoretic Approach views bias as a negative departure from a standard.",
+          "long_explanation": "The Norm-Theoretic Approach, unlike the Functional View, maintains that all bias is inherently bad. It characterizes bias as a 'systematic departure from a [genuine] norm or standard of correctness,' assigning an inherently pejorative (negative) status because it signifies an error or a failure to adhere to what should be."
+        },
+        {
+          "id": 21,
+          "question": "Why does the chapter state that 'Biases can be useful or harmful'?",
+          "options": {
+            "A": "Because all biases are inherently good and necessary for AI to function.",
+            "B": "Because some biases are integral for learning and decision-making, while others perpetuate injustice.",
+            "C": "Because biases are always explicitly chosen by developers for specific outcomes.",
+            "D": "Because useful biases are exclusive to humans, while harmful biases are found only in AI."
+          },
+          "answer": "B",
+          "short_explanation": "Some biases are functional (e.g., inductive), others are discriminatory.",
+          "long_explanation": "The chapter highlights that 'Biases can be useful or harmful' by distinguishing between necessary biases (like inductive biases that are 'integral to learning and decision-making' for AI to generalize) and detrimental biases ('others perpetuate injustice and discrimination'). This reflects the nuanced understanding gained by considering both the functional and norm-theoretic views."
+        },
+        {
+          "id": 22,
+          "question": "A machine learning model is designed to assist in medical diagnoses. Without any form of inductive bias, what would be the likely consequence for this model?",
+          "options": {
+            "A": "It would achieve perfect objectivity and eliminate all diagnostic errors.",
+            "B": "It would be able to make accurate predictions on all new, unseen patient data.",
+            "C": "It would be useless, unable to make any predictions or generalize from its training data.",
+            "D": "It would only be able to diagnose conditions explicitly present in its training dataset."
+          },
+          "answer": "C",
+          "short_explanation": "No inductive bias means no generalization, making the model useless for new data.",
+          "long_explanation": "The chapter explicitly states that 'Without some form of inductive bias, an algorithm would be useless in making any kind of predictions and render machine learning pointless.' Inductive biases are the assumptions that allow an AI to generalize from its training data to new, unseen data. Without them, it cannot infer patterns or make predictions beyond what it has already observed."
+        },
+        {
+          "id": 23,
+          "question": "Which example best illustrates 'Implicit Bias'?",
+          "options": {
+            "A": "A judge consciously handing down harsher sentences to defendants of a specific racial background.",
+            "B": "A person unknowingly associating certain names with negative traits due to societal stereotypes.",
+            "C": "An AI model's code explicitly programmed to favor certain demographics in loan applications.",
+            "D": "A survey intentionally designed to exclude responses from a particular age group."
+          },
+          "answer": "B",
+          "short_explanation": "Implicit bias is an unconscious attitude that influences judgment.",
+          "long_explanation": "Implicit bias involves 'hidden attitudes that influence judgment' often without conscious awareness. Unknowingly associating names with negative traits due to societal stereotypes is a classic example of how these unconscious biases can operate. Option A describes explicit bias, C describes explicit bias in an algorithm, and D describes selection/sampling bias."
+        },
+        {
+          "id": 24,
+          "question": "What is the primary difference between 'Means-reification' and 'Target-reification'?",
+          "options": {
+            "A": "Means-reification applies to physical objects, while Target-reification applies to abstract concepts.",
+            "B": "Means-reification is creating an object from a phenomenon, while Target-reification is inferring a phenomenon from an object.",
+            "C": "Means-reification is about simplifying data, while Target-reification is about complicating it.",
+            "D": "Means-reification is a human process, while Target-reification is an AI process."
+          },
+          "answer": "B",
+          "short_explanation": "Means-reification builds the study object; Target-reification uses the object to understand reality.",
+          "long_explanation": "Means-reification (phenomenon-to-object) is when researchers create objects (like data or models) to capture features of the world for study. Target-reification (object-to-phenomenon) is when researchers infer an understanding of features of the world from the objects they created to study them. They are two complementary stages of the reification process."
+        },
+        {
+          "id": 25,
+          "question": "According to the Norm-Theoretic Approach, why might disagreements arise about whether something is 'biased'?",
+          "options": {
+            "A": "Because all biases are inherently subjective and cannot be objectively measured.",
+            "B": "Because different individuals or groups may disagree on what constitutes the 'correct' underlying norm.",
+            "C": "Because biases are always hidden and impossible to consciously identify.",
+            "D": "Because the functional view of bias contradicts the norm-theoretic view."
+          },
+          "answer": "B",
+          "short_explanation": "Disagreements about bias often stem from differing views on what the 'norm' should be.",
+          "long_explanation": "The Norm-Theoretic Approach posits that bias is a departure from a norm. Therefore, 'if bias is fundamentally a pivot from a particular norm, disagreements often emerge about what should be the correct norm.' What one person considers a 'norm' (e.g., for fairness or correctness) might differ from another's, leading to disputes about whether a behavior or outcome is biased."
+        },
+        {
+          "id": 26,
+          "question": "What is the core argument made by Heather Douglas (2020) regarding inductive bias?",
+          "options": {
+            "A": "Inductive biases are purely technical and should be free from any social or moral considerations.",
+            "B": "We must integrate moral and social values into our evaluation of inductive bias due to its real-world impact.",
+            "C": "Inductive biases are inherently harmful and should be eliminated from all AI models.",
+            "D": "Inductive biases are only relevant for human cognition, not for machine learning algorithms."
+          },
+          "answer": "B",
+          "short_explanation": "Douglas argues that values must guide our assessment of inductive bias because of its societal consequences.",
+          "long_explanation": "Heather Douglas (2020) argues that 'we must integrate moral and social values in our evaluation of inductive bias.' This is because inductive biases, as assumptions that shape AI behavior, have real-world consequences and can affect different groups differently. Therefore, considering 'Whom will this affect? Whom won't this effect?' is a crucial ethical step in AI development."
+        },
+        {
+          "id": 27,
+          "question": "An AI model designed to provide legal advice is trained predominantly on historical case law that reflects past discriminatory practices. As a result, the AI's recommendations tend to reproduce these same discriminatory patterns, even without explicit prejudicial coding. This illustrates that:",
+          "options": {
+            "A": "Algorithmic bias is always easy to identify because it's explicitly coded.",
+            "B": "Social biases from the real world can extend to and be perpetuated by computational systems.",
+            "C": "Data is inherently objective and cannot contain biases.",
+            "D": "The Norm-Theoretic Approach is irrelevant to AI systems."
+          },
+          "answer": "B",
+          "short_explanation": "AI learns from historical patterns in data, perpetuating societal biases.",
+          "long_explanation": "This scenario demonstrates how 'social biases will extend to computational systems.' The historical case law (data) reflects past discriminatory practices (social biases). When the AI learns from this data, it absorbs and perpetuates these biases, leading to algorithmic bias. This highlights that biases can be inherited implicitly, not just explicitly coded."
+        },
+        {
+          "id": 28,
+          "question": "A political campaign uses an AI to analyze voter preferences. The AI's training data disproportionately includes responses from urban, young voters, leading the model to misrepresent the preferences of rural, older demographics. This is an example of which bias in the data?",
+          "options": {
+            "A": "Implicit Bias",
+            "B": "Credibility Bias",
+            "C": "Sampling Bias",
+            "D": "Algorithmic Bias"
+          },
+          "answer": "C",
+          "short_explanation": "An unrepresentative sample in the data is sampling bias.",
+          "long_explanation": "Sampling bias occurs when the method of selecting data for training an AI model results in an unrepresentative subset of the population. In this case, the overrepresentation of urban, young voters and underrepresentation of rural, older voters in the training data leads to sampling bias, causing the model to misrepresent the preferences of the broader population."
+        },
+        {
+          "id": 29,
+          "question": "Which of the following is considered an 'Epistemic Object' in the context of research?",
+          "options": {
+            "A": "A naturally occurring phenomenon, like a lightning strike.",
+            "B": "The raw, unfiltered sensory input received by an observer.",
+            "C": "A statistical model used to analyze a dataset.",
+            "D": "The subjective experience of a researcher during an experiment."
+          },
+          "answer": "C",
+          "short_explanation": "Epistemic objects are constructed tools like models used in research.",
+          "long_explanation": "Epistemic Objects are defined as 'stabilizations of the research flux,' which include data, models, labels, and concepts. A statistical model is a created construct used to analyze data and understand phenomena, fitting this definition. The other options refer to phenomena, raw inputs, or subjective experiences, not constructed tools for study."
+        },
+        {
+          "id": 30,
+          "question": "The statement 'Data are not just numbers or files' emphasizes that data are a diverse range of forms. Which of the following is NOT given as an example of a data form in the chapter?",
+          "options": {
+            "A": "Symbols",
+            "B": "Sounds",
+            "C": "Emotions",
+            "D": "Images"
+          },
+          "answer": "C",
+          "short_explanation": "Emotions are subjective experiences, not a form of data itself in this context.",
+          "long_explanation": "The chapter states that data are a 'diverse range of forms such as: symbols, sounds, text, observations, images, inter alia.' While data might *represent* emotions (e.g., text expressing emotion), 'emotions' themselves are not listed as a *form* of data in the same way as the others."
+        },
+        {
+          "id": 31,
+          "question": "A journalist consciously chooses to only interview sources that align with their personal political views, thereby presenting a one-sided story. This behavior exemplifies which type of bias?",
+          "options": {
+            "A": "Implicit Bias",
+            "B": "Perceptual Bias",
+            "C": "Explicit Bias",
+            "D": "Credibility Bias"
+          },
+          "answer": "C",
+          "short_explanation": "Conscious, intentional selection based on prejudice is explicit bias.",
+          "long_explanation": "Explicit bias refers to known, conscious prejudice or intentional preferential treatment. The journalist's conscious choice to interview only aligned sources demonstrates a deliberate action based on their personal views, making it an explicit bias. While this might also affect credibility (credibility bias), the act of choosing is rooted in an explicit preference."
+        },
+        {
+          "id": 32,
+          "question": "An AI model's health risk score includes a variable for `zipcode_risk`. If higher `zipcode_risk` values are correlated with historically disadvantaged neighborhoods due to systemic inequalities, this model could perpetuate unfair treatment. This primarily illustrates a bias originating from:",
+          "options": {
+            "A": "Explicitly coded bias within the model's logic.",
+            "B": "Unconscious biases of the model's developers.",
+            "C": "Societal biases reflected in the data used to derive `zipcode_risk`.",
+            "D": "The inherent objectivity of geographic data."
+          },
+          "answer": "C",
+          "short_explanation": "Data reflecting historical inequalities introduces societal bias into the model.",
+          "long_explanation": "The `zipcode_risk` variable, if based on data that reflects historical underinvestment or other systemic inequalities in certain neighborhoods, will carry those societal biases into the model. The model then learns and perpetuates these existing inequalities, even if the code itself doesn't explicitly state discriminatory rules. This is a subtle but powerful way social biases extend to computational systems through data."
+        },
+        {
+          "id": 33,
+          "question": "Why is it argued that 'social biases will extend to computational systems'?",
+          "options": {
+            "A": "Because AI algorithms are programmed to intentionally replicate human prejudices.",
+            "B": "Because AI systems are built by humans and trained on data from societies that contain historical and ongoing biases.",
+            "C": "Because computational systems are inherently immune to any form of bias.",
+            "D": "Because social biases are only relevant in human interactions, not in technology."
+          },
+          "answer": "B",
+          "short_explanation": "AI learns from biased human-generated data, reflecting societal patterns.",
+          "long_explanation": "The chapter states that 'Social biases will extend to computational systems' because 'AI systems don't exist in a vacuum. They are built by people, with data collected from our societies. And because our societies have historical and ongoing biases... these biases inevitably get embedded into the data and, consequently, into the AI models.' This is a key reason why AI is not neutral."
+        },
+        {
+          "id": 34,
+          "question": "A loan application AI evaluates applicants. It assigns a higher risk score to individuals who have 'missed appointments,' but fails to account for reasons like lack of childcare or unreliable transportation, which disproportionately affect certain groups. This is an example of bias primarily due to:",
+          "options": {
+            "A": "Explicit bias in the model's code.",
+            "B": "Algorithmic bias resulting from incomplete contextual data.",
+            "C": "Perceptual bias of the AI system.",
+            "D": "Credibility bias in the loan application process."
+          },
+          "answer": "B",
+          "short_explanation": "The model's skewed outcome from incomplete data about a phenomenon leads to algorithmic bias.",
+          "long_explanation": "While the core issue stems from data's limitations (what's included in 'missed appointments'), the question asks about the bias in the *model's* outcome. The model, by using this incomplete variable without accounting for underlying socio-economic factors, produces a skewed or unfair outcome for certain groups. This is a form of algorithmic bias, where the model's logic, based on potentially flawed or insufficient data, leads to discriminatory results."
+        },
+        {
+          "id": 35,
+          "question": "The 'Interactions with the World' cycle illustrates that knowledge is not static but constantly evolving. Which of the following best describes the relationship between 'Models' and 'Knowledge' in this cycle?",
+          "options": {
+            "A": "Models are independent of existing knowledge and create entirely new knowledge.",
+            "B": "Models are merely passive representations of data and do not contribute to new knowledge.",
+            "C": "Models are built from data and help gain new knowledge, which then feeds back into the cycle, influencing future interactions.",
+            "D": "Knowledge solely dictates model design, with no feedback loop from models to knowledge."
+          },
+          "answer": "C",
+          "short_explanation": "Models generate new insights, which update our knowledge in the cycle.",
+          "long_explanation": "In the 'Interactions with the World' cycle, data is used to build 'Models,' and these models then help us 'gain new Knowledge.' This new knowledge then feeds back, influencing future interactions with the world and subsequent data collection and model building, creating a continuous and dynamic loop. This shows models as active contributors to knowledge evolution."
+        },
+        {
+          "id": 36,
+          "question": "A self-driving car's pedestrian detection system consistently performs worse in recognizing individuals with darker skin tones at night. This issue is most likely a result of:",
+          "options": {
+            "A": "Explicit bias in the car's software, intentionally coded by developers.",
+            "B": "Perceptual bias of the human developers involved in the design process.",
+            "C": "Algorithmic bias stemming from unrepresentative training data or model limitations.",
+            "D": "Credibility bias influencing how the car 'trusts' different visual inputs."
+          },
+          "answer": "C",
+          "short_explanation": "Poor performance for a specific group by an automated system is algorithmic bias, often from data.",
+          "long_explanation": "This scenario describes a skewed outcome in an automated tool, which is characteristic of algorithmic bias. Such issues often arise when the training data used to build the pedestrian detection system was not sufficiently diverse (e.g., lacking enough images of darker skin tones in low-light conditions), or if the model itself has limitations in processing certain visual features, leading to an inequitable performance."
+        },
+        {
+          "id": 37,
+          "question": "Which statement about the nature of data is NOT emphasized in the chapter?",
+          "options": {
+            "A": "Data are the result of mediated and situated interactions between researchers and the world.",
+            "B": "Data are just numbers or files, primarily quantitative in nature.",
+            "C": "Data are treated as potential evidence for claims about phenomena.",
+            "D": "Data are formatted and handled to enable its circulation for analysis."
+          },
+          "answer": "B",
+          "short_explanation": "The chapter explicitly states data are NOT just numbers or files, emphasizing diversity.",
+          "long_explanation": "The chapter explicitly refutes the idea that 'Data are just numbers or files,' instead highlighting that data encompasses a 'diverse range of forms such as: symbols, sounds, text, observations, images, inter alia.' It emphasizes the constructed and relational nature of data, not a narrow quantitative definition."
+        },
+        {
+          "id": 38,
+          "question": "According to the Functional View, biases are described as 'non-evidential assumptions.' What does this imply about their role?",
+          "options": {
+            "A": "They are always based on false or misleading evidence.",
+            "B": "They are assumptions that are not directly derived from evidence but help manage uncertainty.",
+            "C": "They are irrelevant to the process of making logical inferences.",
+            "D": "They are only formed when no evidence is available at all."
+          },
+          "answer": "B",
+          "short_explanation": "Non-evidential assumptions are shortcuts not from evidence, but for managing uncertainty.",
+          "long_explanation": "The Functional View describes biases as 'non-evidential assumptions that systematically limit the inductive hypothesis space to a tractable size.' This means they are assumptions that are not directly supported by the available evidence but are used by cognitive systems to navigate situations where information is incomplete or underdetermined, thus making reasoning possible and manageable."
+        },
+        {
+          "id": 39,
+          "question": "What is the primary concern raised by the Norm-Theoretic Approach regarding AI systems?",
+          "options": {
+            "A": "That AI systems cannot have any biases at all.",
+            "B": "That AI systems will always perfectly adhere to all human norms.",
+            "C": "That AI systems may systematically deviate from genuine norms, leading to problematic outcomes.",
+            "D": "That AI systems are too simple to exhibit complex normative behavior."
+          },
+          "answer": "C",
+          "short_explanation": "The Norm-Theoretic Approach is concerned with AI's deviations from desired norms.",
+          "long_explanation": "The Norm-Theoretic Approach defines bias as a 'systematic departure from a [genuine] norm or standard of correctness.' When applied to AI, the concern is that AI systems, by learning from biased data or having certain decision rules, might systematically deviate from desired moral, epistemic, or practical norms, thereby leading to unfair or incorrect results."
+        },
+        {
+          "id": 40,
+          "question": "A government agency uses an AI model to assess citizens' eligibility for social benefits. The model's criteria for 'eligibility' are based on historical data that includes systemic barriers faced by certain marginalized groups, effectively disadvantaging them. This situation highlights that:",
+          "options": {
+            "A": "AI models are inherently objective and eliminate all social biases.",
+            "B": "The Norm-Theoretic Approach is irrelevant to real-world AI applications.",
+            "C": "Social biases embedded in data can lead to algorithmic outcomes that perpetuate injustice.",
+            "D": "Inductive biases are always explicitly chosen by developers for ethical reasons."
+          },
+          "answer": "C",
+          "short_explanation": "AI learns from and reinforces societal biases present in historical data.",
+          "long_explanation": "This scenario demonstrates how 'social biases will extend to computational systems' and how 'biases can be useful or harmful.' The historical data reflects existing systemic barriers (social biases). When the AI learns from this biased data, its output (eligibility assessment) perpetuates those injustices, even if not explicitly coded. This is a critical concern when AI is applied to sensitive social domains."
+        }
+      ]
     }
   ]
 }
