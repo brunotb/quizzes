@@ -4199,6 +4199,531 @@
           "long_explanation": "Opacity and impossible redress are directly linked. Redress—the ability to seek a remedy for a wrong—requires understanding what went wrong. If an AI system is a 'black box' (opaque), and it makes a decision that harms you (e.g., denies you a loan or flags you as a risk), you cannot formulate a meaningful appeal because you cannot know the logic or data that led to that outcome. The secrecy of the process makes a fair appeal impossible, thus creating a situation of impossible redress."
         }
       ]
+    },
+    {
+      "title": "9. Epistemic Injustice",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary focus of 'epistemic injustice' as a concept?",
+          "options": {
+            "A": "Physical harm resulting from a lack of knowledge.",
+            "B": "Unfairness in the realm of knowing and knowledge.",
+            "C": "Financial losses due to incorrect information.",
+            "D": "Emotional distress caused by misinformation."
+          },
+          "answer": "B",
+          "short_explanation": "Epistemic injustice is about unfairness in how knowledge is produced, valued, and distributed.",
+          "long_explanation": "The core definition of epistemic injustice refers to wrongs that happen to people in their capacity as knowers. It's about unfairness related to how knowledge is produced, shared, and valued, and whose knowledge is trusted or ignored in society. This differs from other types of harm like physical, financial, or purely emotional distress, though it can certainly lead to those."
+        },
+        {
+          "id": 2,
+          "question": "In the medical context, when information is withheld from a patient 'for their own good,' leading to their isolation from understanding their care, this is known as:",
+          "options": {
+            "A": "Imposed ignorance.",
+            "B": "Diagnostic nondisclosure.",
+            "C": "Hermeneutical injustice.",
+            "D": "Therapeutic privilege."
+          },
+          "answer": "B",
+          "short_explanation": "Diagnostic nondisclosure involves withholding medical information from patients.",
+          "long_explanation": "Diagnostic nondisclosure, as discussed by Kidd & Carel, specifically refers to situations where medical professionals withhold information from patients, often under the guise of acting 'for the patient's good.' While 'imposed ignorance' is a related concept about public distortions, diagnostic nondisclosure is about the direct withholding of specific information related to one's own diagnosis or care."
+        },
+        {
+          "id": 3,
+          "question": "Which of the following is NOT listed as a manifestation of epistemic harms?",
+          "options": {
+            "A": "Censorship & exclusion.",
+            "B": "Dismissal of valid methods.",
+            "C": "Increased access to diverse information.",
+            "D": "Credibility hierarchies."
+          },
+          "answer": "C",
+          "short_explanation": "Increased access to information is the opposite of an epistemic harm.",
+          "long_explanation": "Epistemic harms are negative consequences related to knowledge. Censorship, dismissal of methods, and credibility hierarchies all restrict or devalue knowledge. Increased access to diverse information is a positive outcome, indicating a reduction or absence of epistemic harm, rather than a manifestation of it."
+        },
+        {
+          "id": 4,
+          "question": "According to Fricker, what are the fundamental root causes of epistemic injustice?",
+          "options": {
+            "A": "Individual cognitive biases and logical fallacies.",
+            "B": "Systemic technological limitations in data processing.",
+            "C": "Social marginalization and prejudice.",
+            "D": "Lack of formal education and academic training."
+          },
+          "answer": "C",
+          "short_explanation": "Fricker emphasizes social marginalization and prejudice as the deep roots of epistemic injustice.",
+          "long_explanation": "Miranda Fricker argues that epistemic injustices are not random but stem from deep, systemic social issues. She emphasizes that existing social marginalization and prejudice (like racism, sexism, ableism) are the fundamental root causes that lead to unfairness in knowledge exchanges, compromising an individual's or group's capacity as knowers."
+        },
+        {
+          "id": 5,
+          "question": "A patient's testimony about their pain being discounted by a doctor, primarily due to the patient's perceived 'emotional' nature, is an example of which type of injustice according to Fricker?",
+          "options": {
+            "A": "Hermeneutical injustice.",
+            "B": "Distributive injustice.",
+            "C": "Testimonial injustice.",
+            "D": "Procedural injustice."
+          },
+          "answer": "C",
+          "short_explanation": "Discounting someone's word due to prejudice is testimonial injustice.",
+          "long_explanation": "Testimonial injustice, as defined by Fricker, occurs when someone's credibility as a speaker is unfairly diminished due to prejudice. In this scenario, the patient's testimony is undervalued because of a biased perception (e.g., 'emotional' nature), directly impacting their credibility. This is distinct from hermeneutical injustice, which concerns a lack of shared concepts."
+        },
+        {
+          "id": 6,
+          "question": "When a society lacks the necessary concepts to understand a shared experience, and marginalized groups who live that experience are excluded from shaping those concepts, this is an example of:",
+          "options": {
+            "A": "Testimonial injustice.",
+            "B": "Diagnostic nondisclosure.",
+            "C": "Hermeneutical injustice.",
+            "D": "Imposed ignorance."
+          },
+          "answer": "C",
+          "short_explanation": "A societal lack of concepts due to marginalization is hermeneutical injustice.",
+          "long_explanation": "Hermeneutical injustice, according to Fricker, is a structural form of injustice where a person or group lacks the necessary concepts or interpretive resources to make sense of their own experience, and this conceptual gap is due to their marginalization from the collective processes where shared meanings are formed. The example of 'sexual harassment' before the term was widely recognized is a classic illustration."
+        },
+        {
+          "id": 7,
+          "question": "How does understanding epistemic injustice directly relate to the development of AI systems?",
+          "options": {
+            "A": "It ensures AI systems comply with international legal frameworks.",
+            "B": "It helps identify how AI might perpetuate or amplify existing knowledge-related harms.",
+            "C": "It provides guidelines for optimizing AI computational efficiency.",
+            "D": "It focuses on the ethical use of AI in military applications."
+          },
+          "answer": "B",
+          "short_explanation": "AI learns from data, so if data reflects epistemic harms, AI will perpetuate them.",
+          "long_explanation": "AI systems are fundamentally built on knowledge, learning from data that often reflects existing social biases and power imbalances. Understanding epistemic injustice allows us to critically examine how these pre-existing harms in knowledge production, access, and sharing can be encoded into AI systems, causing them to perpetuate or even amplify injustices in society."
+        },
+        {
+          "id": 8,
+          "question": "The unacknowledged use of a community's traditional ecological knowledge by a commercial entity without proper credit or compensation best exemplifies which manifestation of epistemic harm?",
+          "options": {
+            "A": "Credibility hierarchies.",
+            "B": "Dismissal of valid methods.",
+            "C": "Unacknowledged exploitation of intellectual labor.",
+            "D": "Censorship and exclusion."
+          },
+          "answer": "C",
+          "short_explanation": "Using knowledge without credit is exploitation of intellectual labor.",
+          "long_explanation": "Unacknowledged exploitation of intellectual labor occurs when someone's ideas, insights, or knowledge are used without proper credit, recognition, or fair compensation. This aligns directly with the example of a commercial entity profiting from traditional knowledge without acknowledging its source, effectively extracting intellectual labor without reciprocity."
+        },
+        {
+          "id": 9,
+          "question": "Which statement accurately describes the scope of epistemic harms?",
+          "options": {
+            "A": "They are limited to intentional acts of intellectual property theft.",
+            "B": "They primarily affect individuals' emotional well-being.",
+            "C": "They damage a person's ability to know, be understood, or contribute to knowledge.",
+            "D": "They are exclusively about physical injuries resulting from lack of information."
+          },
+          "answer": "C",
+          "short_explanation": "Epistemic harms damage our capacity as knowers.",
+          "long_explanation": "Epistemic harms are defined as ethical or knowledge-based injuries tied to how knowledge is produced, accessed, and shared. Their scope encompasses damage to someone's ability to know, to understand, to be understood, or to contribute to collective knowledge, making them distinct from purely physical or emotional harms, though they can certainly lead to those as secondary effects."
+        },
+        {
+          "id": 10,
+          "question": "Public distortions or misconceptions about a condition like PTSD, which prevent individuals from recognizing their own symptoms, primarily align with which concept?",
+          "options": {
+            "A": "Imposed ignorance.",
+            "B": "Diagnostic nondisclosure.",
+            "C": "Testimonial injustice.",
+            "D": "Credibility hierarchy."
+          },
+          "answer": "A",
+          "short_explanation": "Public misconceptions hindering self-recognition are imposed ignorance.",
+          "long_explanation": "Imposed ignorance, as discussed in the medical context by Kidd & Carel, refers to situations where public narratives or medical discourse create distortions or misconceptions about certain conditions, thereby preventing individuals from recognizing their own symptoms or developing a sense of self-agency around their experience. This differs from diagnostic nondisclosure, which is about direct withholding of information by a professional."
+        },
+        {
+          "id": 11,
+          "question": "According to Peña-Guzmán & Reynol, how do ableist norms contribute to medical error and epistemic harm?",
+          "options": {
+            "A": "They encourage over-reliance on patient self-diagnosis.",
+            "B": "They define 'normal' bodies/metrics, leading to skewed assumptions about diverse patients.",
+            "C": "They prioritize qualitative data over quantitative medical measurements.",
+            "D": "They restrict access to medical information based on socio-economic status."
+          },
+          "answer": "B",
+          "short_explanation": "Ableist norms create a narrow definition of 'normal' that excludes diverse bodies.",
+          "long_explanation": "Peña-Guzmán & Reynol argue that ableist norms in medicine define what a 'normal' body or 'normal' biological metrics should be. This creates an implicit standard that can unintentionally exclude or misrepresent the vast diversity of human bodies and experiences, leading to skewed assumptions that result in misunderstanding and mis-treatment of disabled or otherwise non-normative patients."
+        },
+        {
+          "id": 12,
+          "question": "An AI diagnostic tool trained on historical data that reflects outdated, harmful stereotypes about mental health conditions would most likely perpetuate which type of epistemic harm?",
+          "options": {
+            "A": "Diagnostic nondisclosure.",
+            "B": "Unacknowledged exploitation of intellectual labor.",
+            "C": "Imposed ignorance.",
+            "D": "Censorship & exclusion."
+          },
+          "answer": "C",
+          "short_explanation": "AI trained on biased data about conditions can perpetuate imposed ignorance.",
+          "long_explanation": "If an AI model is trained on biased or incomplete medical literature that reflects public distortions about conditions, it might perpetuate misdiagnoses or mischaracterizations. This directly contributes to 'imposed ignorance' by reinforcing outdated, harmful stereotypes, thereby preventing individuals from accurately understanding their own conditions and developing self-agency, similar to how historical narratives about autism or PTSD created misconceptions."
+        },
+        {
+          "id": 13,
+          "question": "Gardiner's concept of 'error-pattern harms' suggests that:",
+          "options": {
+            "A": "All errors are the result of individual negligence.",
+            "B": "Social contexts influence which types of errors are considered plausible.",
+            "C": "AI systems are inherently incapable of making errors.",
+            "D": "Medical errors are exclusively due to lack of technical knowledge."
+          },
+          "answer": "B",
+          "short_explanation": "Error-pattern harms highlight how social patterns shape our perception of possible errors.",
+          "long_explanation": "Gardiner argues that our societies develop 'social patterns' that influence *which* kinds of errors we consider possible or plausible. This means that our social contexts can 'train' us to look for certain types of mistakes while ignoring others, often leading to systematic biases in how errors are perceived and addressed, rather than errors being solely individual or technical."
+        },
+        {
+          "id": 14,
+          "question": "Which of the following is an extension of testimonial injustice within Gardiner's 'error-pattern harms'?",
+          "options": {
+            "A": "Automatically trusting expert testimony without question.",
+            "B": "Demanding that a person prove they are *not* lying or mistaken.",
+            "C": "Prioritizing objective data over subjective patient experience.",
+            "D": "Focusing solely on physical symptoms while ignoring psychological ones."
+          },
+          "answer": "B",
+          "short_explanation": "Shifting the burden of proof to the doubted person is a key extension of testimonial injustice.",
+          "long_explanation": "Gardiner extends testimonial injustice to include situations where the burden of proof is unfairly shifted onto the individual whose testimony is doubted. Instead of simply disbelieving them, the system or dominant narrative demands that the person *prove* they are not lying or mistaken, especially when their account challenges an established power structure. This places an undue and often impossible burden on the individual."
+        },
+        {
+          "id": 15,
+          "question": "The trope of 'crying wolf,' used to dismiss repeated complaints from a marginalized group, is an example of which epistemic harm?",
+          "options": {
+            "A": "Diagnostic nondisclosure.",
+            "B": "Exploitative inclusion.",
+            "C": "Error-pattern harm (specifically, an extension of testimonial injustice).",
+            "D": "First-order exclusion."
+          },
+          "answer": "C",
+          "short_explanation": "'Crying wolf' is a specific error-pattern harm that dismisses valid testimony.",
+          "long_explanation": "The 'crying wolf' trope is explicitly mentioned as an example of an error-pattern harm, which is an extension of testimonial injustice. It dismisses repeated warnings or complaints from marginalized groups as exaggerations or false alarms, thereby undermining their credibility and leading to their genuine concerns being ignored. It fits within Gardiner's framework of how social patterns shape the perception of plausible errors."
+        },
+        {
+          "id": 16,
+          "question": "If an AI system for medical diagnosis is trained predominantly on data from a single, dominant demographic, what specific type of harm is it most likely to perpetuate, according to the discussion on ableism?",
+          "options": {
+            "A": "Unacknowledged exploitation of intellectual labor.",
+            "B": "Misunderstanding and mis-treatment of diverse patients due to skewed assumptions.",
+            "C": "Diagnostic nondisclosure to protect patient privacy.",
+            "D": "Hermeneutical injustice by creating new medical concepts."
+          },
+          "answer": "B",
+          "short_explanation": "Dominant demographic training data leads to skewed assumptions and mis-treatment for others.",
+          "long_explanation": "The discussion on ableism highlights how 'normal' medical standards, often based on a single demographic, lead to skewed assumptions. If an AI is trained predominantly on such data, it will learn these skewed assumptions, leading to a misunderstanding and potential mis-treatment of patients from diverse demographics whose bodies or responses do not fit the 'norm' embedded in the training data, echoing Peña-Guzmán & Reynol's points."
+        },
+        {
+          "id": 17,
+          "question": "In the Curare Case, the dismissal of patient testimony was considered testimonial injustice. Why was it NOT classified as classic hermeneutical injustice in the Goldstein/Alcalay distinction?",
+          "options": {
+            "A": "The concept of 'pain' was entirely missing from medical discourse.",
+            "B": "Physicians deliberately intended to cause harm by obscuring patient experience.",
+            "C": "The concept of 'pain' was understood by both parties, but misapplied or disregarded due to other factors.",
+            "D": "Patients were not marginalized; they were simply non-experts."
+          },
+          "answer": "C",
+          "short_explanation": "Pain was understood, but doctors misapplied or disregarded it due to scientific error and other factors.",
+          "long_explanation": "Goldstein argues that the Curare Case was not classic hermeneutical injustice because the *concept of pain* was not missing from society or from the patients' understanding. Both doctors and patients understood 'pain.' The issue was a misapplication of existing concepts by the medical community, a flawed scientific understanding of Curare, and limitations in monitoring, rather than a global conceptual void or deliberate obscuring of the concept of pain itself. While patients were marginalized, the specific reason it wasn't hermeneutical injustice was the presence of the concept of pain."
+        },
+        {
+          "id": 18,
+          "question": "Which statement best defines 'epistemic disadvantage' (warranted harm) according to Goldstein/Alcalay?",
+          "options": {
+            "A": "Harm resulting from deliberate, identity-based prejudice and wrongful exclusion.",
+            "B": "Harm arising from a non-deliberate context where justified asymmetries in knowledge lead to negative outcomes.",
+            "C": "Harm caused by a global lack of conceptual resources in a society.",
+            "D": "Harm due to the unacknowledged use of intellectual property for profit."
+          },
+          "answer": "B",
+          "short_explanation": "Epistemic disadvantage is non-deliberate harm from justified knowledge asymmetries.",
+          "long_explanation": "Epistemic disadvantage (or warranted harm) is a nuanced concept introduced by Goldstein. It refers to harms that are non-deliberate and arise from justified asymmetries in knowledge or expertise (e.g., layperson vs. expert) or circumstantial 'bad luck,' even when these situations lead to negative outcomes for the less knowledgeable party. This distinguishes it from 'unjust harms' which are rooted in deliberate prejudice or wrongful exclusion."
+        },
+        {
+          "id": 19,
+          "question": "A situation where a research team has poor communication channels, leading to some valuable insights being overlooked, would be categorized by Dotson as a:",
+          "options": {
+            "A": "Third-order exclusion.",
+            "B": "Second-order exclusion.",
+            "C": "First-order exclusion.",
+            "D": "Systemic design flaw."
+          },
+          "answer": "C",
+          "short_explanation": "Inefficient practices are first-order exclusions.",
+          "long_explanation": "Kristie Dotson's framework categorizes structural epistemic oppression. First-order exclusions are the most superficial, arising from inefficient practices or poor execution within a system. These are typically fixable with straightforward solutions like improved communication protocols or training, unlike deeper second or third-order exclusions."
+        },
+        {
+          "id": 20,
+          "question": "Dotson's 'third-order exclusions' require what kind of intervention to fix the epistemic harm?",
+          "options": {
+            "A": "Simple training and improved communication protocols.",
+            "B": "The creation of new conceptual frameworks.",
+            "C": "A complete paradigm shift and restructuring of the system's foundational principles.",
+            "D": "Increased funding for research."
+          },
+          "answer": "C",
+          "short_explanation": "Third-order exclusions demand fundamental systemic change.",
+          "long_explanation": "Third-order exclusions represent the deepest level of structural epistemic oppression. They occur when the very design or foundational principles of a knowledge-producing system are flawed, inherently marginalizing certain knowledge. Addressing these requires a 'paradigm shift' – a complete re-evaluation and restructuring of the system's core principles, not just surface-level adjustments or new concepts."
+        },
+        {
+          "id": 21,
+          "question": "The Curare Case is used to illustrate which key distinction in the provided text?",
+          "options": {
+            "A": "Between diagnostic nondisclosure and imposed ignorance.",
+            "B": "Between first-order and second-order exclusions.",
+            "C": "Between unjust harms and warranted harms.",
+            "D": "Between use-value and exchange-value of knowledge."
+          },
+          "answer": "C",
+          "short_explanation": "The Curare Case highlights the difference between harms rooted in prejudice vs. those from justified asymmetries.",
+          "long_explanation": "The Goldstein/Alcalay analysis of the Curare Case is central to introducing and differentiating between 'unjust harms' (rooted in prejudice and wrongful exclusion, like testimonial injustice) and 'warranted harms' (or epistemic disadvantage, resulting from non-deliberate factors like a lack of specialized knowledge or circumstantial bad luck). This distinction is a core contribution of the reading."
+        },
+        {
+          "id": 22,
+          "question": "If an AI system for hiring is designed with an inherent bias towards quantitative metrics, systematically devaluing qualitative assessments of candidates' potential, this would align with Dotson's concept of a:",
+          "options": {
+            "A": "First-order exclusion.",
+            "B": "Third-order exclusion.",
+            "C": "Second-order exclusion.",
+            "D": "Testimonial injustice."
+          },
+          "answer": "B",
+          "short_explanation": "Bias in foundational design is a third-order exclusion.",
+          "long_explanation": "This scenario describes a systemic design flaw where the very principles of the AI system (prioritizing quantitative over qualitative) inherently marginalize certain types of knowledge or assessment. According to Dotson, such fundamental flaws that require a 'paradigm shift' are characteristic of third-order exclusions, as they are deeply embedded in the system's design."
+        },
+        {
+          "id": 23,
+          "question": "Which of the following conditions is NOT a key characteristic of 'epistemic disadvantage' as defined by Goldstein/Alcalay?",
+          "options": {
+            "A": "Harms are non-deliberate.",
+            "B": "Speakers lack precision or mastery of concepts to effectively communicate.",
+            "C": "Exclusion is primarily based on identity-based prejudice.",
+            "D": "Affected participants are justifiably excluded or subordinated from the practice."
+          },
+          "answer": "C",
+          "short_explanation": "Epistemic disadvantage is specifically *not* primarily based on identity-based prejudice.",
+          "long_explanation": "Goldstein's concept of epistemic disadvantage is specifically designed to categorize harms that are *not* primarily based on identity-based prejudice (which is a core characteristic of unjust epistemic harms). Instead, it focuses on non-deliberate harms arising from justified knowledge asymmetries, where one party lacks the conceptual tools or is justifiably excluded from a specialized domain, even if negative outcomes result."
+        },
+        {
+          "id": 24,
+          "question": "The requirement for a 'paradigm shift' to address certain epistemic harms implies that the problem stems from:",
+          "options": {
+            "A": "Easily fixable inefficiencies.",
+            "B": "A lack of individual training.",
+            "C": "Fundamental flaws in the system's design or underlying principles.",
+            "D": "Insufficient data collection methods."
+          },
+          "answer": "C",
+          "short_explanation": "A paradigm shift is needed for fundamental flaws.",
+          "long_explanation": "As per Dotson's framework, a 'paradigm shift' is required to address third-order exclusions. This indicates that the problem is not superficial or easily corrected, but rather stems from fundamental flaws in the very design, values, or underlying principles of the knowledge-producing system or institution. It's about changing the core way things are conceived and structured."
+        },
+        {
+          "id": 25,
+          "question": "According to Pohlhaus, 'exploitative inclusion' occurs when:",
+          "options": {
+            "A": "Marginalized knowers are completely excluded from collaborations.",
+            "B": "Systems include marginalized knowers but use their knowledge in a non-reciprocal way.",
+            "C": "All knowledge is freely shared without any restrictions.",
+            "D": "Ethical guidelines are strictly followed in all research collaborations."
+          },
+          "answer": "B",
+          "short_explanation": "Exploitative inclusion means inclusion without fair reciprocity.",
+          "long_explanation": "Exploitative inclusion, as theorized by Gaile Pohlhaus, describes situations where systems or collaborations outwardly appear to be inclusive, bringing marginalized knowers into the fold. However, beneath the surface, these systems still exploit them by engaging in non-reciprocal extraction of epistemic labor, where the benefit flows predominantly one way, from the marginalized knower to the powerful entity."
+        },
+        {
+          "id": 26,
+          "question": "When knowledge is primarily valued for what it can be traded for or monetized, rather than its inherent utility in its original context, Alcoff refers to this as:",
+          "options": {
+            "A": "Epistemic commodification.",
+            "B": "Epistemic extractivism.",
+            "C": "Epistemic benevolence.",
+            "D": "Epistemic equity."
+          },
+          "answer": "B",
+          "short_explanation": "Valuing knowledge for monetization over its original context is epistemic extractivism.",
+          "long_explanation": "Linda Martín Alcoff's concept of epistemic extractivism highlights treating knowledge primarily as a commodity. This means valuing it for its 'exchange-value' (what it can be traded for or monetized) rather than its 'use-value' (its inherent utility within its original social and cultural context). This is a core mechanism of extractivism, much like resource extraction."
+        },
+        {
+          "id": 27,
+          "question": "The core harm identified by Alcoff's 'epistemic extractivism' is:",
+          "options": {
+            "A": "The inability to monetize knowledge.",
+            "B": "The disregard for the epistemic agency of the originating community.",
+            "C": "The overemphasis on scientific rigor.",
+            "D": "The accidental loss of data during transfer."
+          },
+          "answer": "B",
+          "short_explanation": "Extractivism undermines the community's right to control its own knowledge.",
+          "long_explanation": "Alcoff argues that the ultimate harm of epistemic extractivism is the profound disregard for the 'epistemic agency' of the originating community. This refers to a community's ability to shape, control, interpret, and benefit from its own knowledge. When extractivism occurs, this agency is undermined or completely ignored, as knowledge is stripped from its context and used for external purposes."
+        },
+        {
+          "id": 28,
+          "question": "In the MIDEQ project, why did lower-resourced partners sometimes refuse to share full datasets, even in an ethically-minded collaboration?",
+          "options": {
+            "A": "They lacked the technical infrastructure to share large files.",
+            "B": "They were unwilling to collaborate with Global North institutions.",
+            "C": "They sought to protect their knowledge from potential misuse, fearing issues of data control, attribution, and contextual integrity.",
+            "D": "They believed their data was not relevant to the broader research goals."
+          },
+          "answer": "C",
+          "short_explanation": "Lower-resourced partners withheld data to protect their agency and prevent misuse.",
+          "long_explanation": "As discussed in Alcalay & VandeKerckhove's work, the persistent refusal of lower-resourced partners in MIDEQ to share full datasets was a deliberate and justified strategy. It stemmed from deep anxieties about maintaining data control, ensuring proper attribution for their intellectual labor, and preserving the contextual integrity of their knowledge, thereby protecting it from potential misuse or exploitation by more powerful collaborators."
+        },
+        {
+          "id": 29,
+          "question": "The term 'epistemically disadvantageous extractivism' (Alcalay & VandeKerckhove) describes a situation where:",
+          "options": {
+            "A": "Knowledge is deliberately stolen from marginalized communities.",
+            "B": "Ethical collaborations entirely eliminate all forms of extractivism.",
+            "C": "Justified protective actions by lower-resourced partners lead to a broader knowledge gap.",
+            "D": "Only use-value of knowledge is considered, neglecting its exchange-value."
+          },
+          "answer": "C",
+          "short_explanation": "It's a nuanced harm where self-protection creates a wider knowledge gap.",
+          "long_explanation": "This term captures a complex scenario: while lower-resourced partners take justified protective actions (like withholding data) to guard against potential exploitation in unequal collaborations, this very act of self-preservation can lead to a broader 'disadvantage' for the overall scientific goal of comprehensive understanding (a knowledge gap). The harm is not necessarily deliberate theft, but the necessity of protective measures in an unequal world."
+        },
+        {
+          "id": 30,
+          "question": "If an AI model is trained on a dataset where rich contextual information about the data's origin has been removed to make it 'cleaner' or 'universal,' this practice aligns with which aspect of epistemic extractivism?",
+          "options": {
+            "A": "Ignoring originating community's epistemic agency.",
+            "B": "Treating knowledge as a commodity.",
+            "C": "Stripping context & relations from data.",
+            "D": "Non-reciprocal extraction of epistemic labor."
+          },
+          "answer": "C",
+          "short_explanation": "Removing context for 'cleanliness' is stripping context.",
+          "long_explanation": "Alcoff explicitly identifies 'stripping context & relations from data' as a core part of epistemic extractivism. When rich social, cultural, and historical context is removed from data to make it seem more universal or manageable for AI training, it fundamentally distorts the knowledge and can lead to injustice, even if done for seemingly benign reasons like 'cleanliness'."
+        },
+        {
+          "id": 31,
+          "question": "The MIDEQ project serves as a case study for understanding:",
+          "options": {
+            "A": "How to completely eliminate all epistemic harms in research.",
+            "B": "The challenges of achieving genuinely equitable knowledge production and sharing.",
+            "C": "The benefits of top-down data governance in international collaborations.",
+            "D": "The superiority of quantitative data over qualitative insights in migration studies."
+          },
+          "answer": "B",
+          "short_explanation": "MIDEQ exemplifies the complexities of equitable knowledge sharing.",
+          "long_explanation": "The MIDEQ project is presented as a living case study that, despite its strong ethical intentions and efforts to 'decentre knowledge,' reveals the persistent and complex challenges of achieving genuinely equitable knowledge production and sharing in international collaborations. It shows that even with best practices, systemic inequalities can lead to nuanced harms."
+        },
+        {
+          "id": 32,
+          "question": "Which of the following is a core anxiety of lower-resourced partners that leads to 'epistemically disadvantageous extractivism' in research collaborations?",
+          "options": {
+            "A": "Fear of excessive data.",
+            "B": "Concerns about data control and proper attribution.",
+            "C": "Desire for immediate financial compensation.",
+            "D": "Disinterest in broader scientific understanding."
+          },
+          "answer": "B",
+          "short_explanation": "Data control and attribution are key anxieties for protecting knowledge.",
+          "long_explanation": "Alcalay & VandeKerckhove specifically identify data control, proper attribution, and contextual integrity as core anxieties that lead lower-resourced partners to strategically restrict data sharing. These concerns reflect a desire to protect their epistemic agency and prevent the misuse or exploitation of their knowledge in potentially unequal power dynamics within collaborations."
+        },
+        {
+          "id": 33,
+          "question": "An AI company collecting vast amounts of user data from developing countries to build profitable models, without adequately compensating or empowering the original data contributors, is an example of:",
+          "options": {
+            "A": "Diagnostic nondisclosure.",
+            "B": "Non-reciprocal extraction of epistemic labor.",
+            "C": "First-order exclusion.",
+            "D": "Hermeneutical injustice."
+          },
+          "answer": "B",
+          "short_explanation": "Taking knowledge without fair exchange is non-reciprocal extraction.",
+          "long_explanation": "This scenario directly aligns with Pohlhaus's concept of 'non-reciprocal extraction of epistemic labor,' which is a core mechanism of exploitative inclusion. It describes how knowledge or the labor involved in producing it is taken or used without a fair exchange or mutual benefit, with the benefit flowing predominantly one way, from the marginalized knower to the powerful entity (the AI company)."
+        },
+        {
+          "id": 34,
+          "question": "What is the main difference between 'use-value' and 'exchange-value' of knowledge in the context of epistemic extractivism?",
+          "options": {
+            "A": "Use-value relates to individual learning, while exchange-value relates to collective learning.",
+            "B": "Use-value is about inherent utility in original context, while exchange-value is about monetizing it elsewhere.",
+            "C": "Use-value is for academic research, while exchange-value is for commercial products.",
+            "D": "Use-value is for local communities, while exchange-value is for global institutions."
+          },
+          "answer": "B",
+          "short_explanation": "Use-value is local utility; exchange-value is global market worth.",
+          "long_explanation": "Alcoff's concept of epistemic extractivism contrasts the 'use-value' of knowledge, which is its inherent utility and meaning within its original social and cultural context, with its 'exchange-value,' which is its worth when treated as a commodity to be traded, monetized, or converted into something else (like data for an AI model) for profit in a different context. Extractivism prioritizes the latter."
+        },
+        {
+          "id": 35,
+          "question": "The fact that the MIDEQ data-sharing protocol took ~2 years to formalize highlights the complexity of:",
+          "options": {
+            "A": "Overcoming first-order exclusions in research.",
+            "B": "Achieving genuine consensus and equity in international knowledge sharing.",
+            "C": "Implementing diagnostic nondisclosure effectively.",
+            "D": "Enforcing strict credibility hierarchies."
+          },
+          "answer": "B",
+          "short_explanation": "Long formalization indicates difficulty in reaching equitable agreements.",
+          "long_explanation": "The extensive two-year negotiation period for the MIDEQ data-sharing protocol, involving PIs and Co-PIs across diverse institutions, underscores the inherent complexity of achieving genuine consensus and equity in international knowledge sharing. It points to the deep-seated power imbalances and anxieties that must be navigated to establish fair and reciprocal practices, rather than simple inefficiencies or enforcing hierarchies."
+        },
+        {
+          "id": 36,
+          "question": "Which concept argues that even efforts to 'include' marginalized groups can be harmful if the inclusion is not genuinely reciprocal and equitable?",
+          "options": {
+            "A": "Hermeneutical injustice.",
+            "B": "Imposed ignorance.",
+            "C": "Exploitative inclusion.",
+            "D": "First-order exclusion."
+          },
+          "answer": "C",
+          "short_explanation": "Exploitative inclusion describes harmful, non-reciprocal inclusion.",
+          "long_explanation": "Exploitative inclusion, introduced by Pohlhaus, specifically addresses this paradox: systems might outwardly appear to include marginalized knowers, but if the inclusion is not genuinely reciprocal and equitable, it can still lead to significant epistemic harms through the non-reciprocal extraction of epistemic labor. It's a nuanced form of harm that goes beyond mere exclusion."
+        },
+        {
+          "id": 37,
+          "question": "When an AI system implicitly assigns lower credibility scores to information originating from historically marginalized groups, it is most directly perpetuating:",
+          "options": {
+            "A": "Hermeneutical injustice.",
+            "B": "Testimonial injustice.",
+            "C": "Diagnostic nondisclosure.",
+            "D": "Third-order exclusion."
+          },
+          "answer": "B",
+          "short_explanation": "Lowering credibility due to group identity is testimonial injustice.",
+          "long_explanation": "Testimonial injustice is defined by Fricker as a credibility deficit experienced by a speaker due to prejudice related to their identity. If an AI system, through its training data or algorithms, learns to devalue information based on the source's group identity, it is directly reproducing this form of epistemic injustice by undermining the credibility of marginalized knowers."
+        },
+        {
+          "id": 38,
+          "question": "According to Dotson, if a system's *foundational principles* are flawed in a way that marginalizes certain knowledge, it requires a 'paradigm shift.' This is characteristic of which order of exclusion?",
+          "options": {
+            "A": "First-order exclusion.",
+            "B": "Second-order exclusion.",
+            "C": "Third-order exclusion.",
+            "D": "Zero-order exclusion."
+          },
+          "answer": "C",
+          "short_explanation": "Fundamental flaws in design are third-order exclusions, requiring a paradigm shift.",
+          "long_explanation": "Dotson's third-order exclusions represent the deepest level of structural epistemic oppression, where the very design or foundational principles of a knowledge-producing system are inherently flawed. Addressing these profound issues necessitates a 'paradigm shift' – a complete re-evaluation and restructuring of the system's core tenets, as mere training or new concepts are insufficient."
+        },
+        {
+          "id": 39,
+          "question": "The Curare Case, as analyzed by Goldstein/Alcalay, primarily illustrates the distinction between:",
+          "options": {
+            "A": "Conscious and unconscious bias in medicine.",
+            "B": "Medical malpractice and ethical medical practice.",
+            "C": "Unjust harms and warranted harms.",
+            "D": "Patient autonomy and physician authority."
+          },
+          "answer": "C",
+          "short_explanation": "The Curare Case is the primary example for distinguishing unjust from warranted harms.",
+          "long_explanation": "The Curare Case is the central example used in the reading to unpack the nuanced distinction between 'unjust harms' (like testimonial injustice, rooted in prejudice) and 'warranted harms' (or epistemic disadvantage, arising from non-deliberate factors such as scientific misunderstanding and justified asymmetries in expertise). This differentiation is a key contribution of Goldstein's work."
+        },
+        {
+          "id": 40,
+          "question": "An AI model trained predominantly on data from a single, dominant cultural perspective might lead to 'imposed ignorance' by:",
+          "options": {
+            "A": "Deliberately withholding medical diagnoses.",
+            "B": "Providing overly complex technical explanations.",
+            "C": "Perpetuating mischaracterizations of conditions for diverse populations.",
+            "D": "Exploiting intellectual labor without attribution."
+          },
+          "answer": "C",
+          "short_explanation": "Biased training data leads to mischaracterizations and imposed ignorance.",
+          "long_explanation": "Imposed ignorance occurs when public narratives or distortions prevent individuals from recognizing their own experiences. If an AI model is trained on data from a single, dominant cultural perspective, it will likely perpetuate mischaracterizations of conditions or experiences as they manifest in diverse populations. This can lead to individuals from those populations struggling to understand their own realities, effectively imposing ignorance upon them by providing a skewed or incomplete understanding."
+        }
+      ]
     }
   ]
 }
