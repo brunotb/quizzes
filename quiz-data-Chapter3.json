@@ -5,388 +5,393 @@
       "questions": [
         {
           "id": 1,
-          "question": "Which of the following best captures Shoshana Zuboff's central concern regarding 'individual sovereignty' in surveillance capitalism?",
+          "question": "According to the lecture, when visions of AI's future are primarily based on 'perceptions' rather than 'empirical studies', who tends to benefit most from the resulting policies and developments?",
           "options": {
-            "A": "The inability of individuals to protect their private data from being collected.",
-            "B": "The diminishing capacity of individuals to make autonomous decisions due to pervasive behavioral prediction and modification.",
-            "C": "The government's loss of control over citizen data to private corporations.",
-            "D": "The economic disadvantage faced by individuals who refuse to participate in digital platforms."
+            "A": "The general public through increased transparency",
+            "B": "Independent academic researchers",
+            "C": "Government regulatory bodies",
+            "D": "Tech companies and powerful stakeholders"
           },
-          "answer": "B",
-          "short_explanation": "Zuboff's core concern is the erosion of individual autonomy and self-determination.",
-          "long_explanation": "Zuboff defines individual sovereignty as 'the right to determine one's future and the right of sanctuary.' Her central concern is not merely data privacy (A) or governmental control (C), but how the constant collection, prediction, and subtle modification of human behavior by surveillance capitalism undermines an individual's fundamental capacity to make free and independent choices about their own life and future. While economic disadvantage (D) can be a consequence, it's not the core conceptual threat to sovereignty itself."
+          "answer": "D",
+          "short_explanation": "Perceptions can be swayed by those with vested interests, benefiting powerful actors.",
+          "long_explanation": "The lecture highlights that when social imaginaries about AI are based more on perceptions and hype, rather than rigorous empirical grounding, the resulting policies often align with the interests of powerful stakeholders, such as tech companies, who can influence these perceptions to their advantage. This contrasts with the idea of public benefit or academic neutrality."
         },
         {
           "id": 2,
-          "question": "Berlinski et al. (2024) identify paradoxical imaginaries structuring generative AI development. Which paradox best describes the tension between the perceived benefit of AI for human work and its actual impact on labor?",
+          "question": "Beyond just concerns about privacy, what does Shoshana Zuboff argue is the fundamental human right threatened by surveillance capitalism?",
           "options": {
-            "A": "The imaginary of unlimited knowledge versus the reality of performative knowledge.",
-            "B": "The imaginary of openness and liberality versus the reality of power centralization.",
-            "C": "The imaginary of work liberation versus the reality of increased precarity and control.",
-            "D": "The imaginary of technological progress versus the reality of environmental degradation."
+            "A": "The right to economic equality",
+            "B": "The right to individual sovereignty and self-determination",
+            "C": "The right to technological employment",
+            "D": "The right to government oversight"
           },
-          "answer": "C",
-          "short_explanation": "AI promises to free workers, but often leads to less secure and more controlled jobs.",
-          "long_explanation": "Berlinski et al. highlight three core paradoxes. Option A relates to the 'epistemic' imaginary, and option B to the 'institutional' imaginary. Option C, however, directly addresses the 'organizational' imaginary. While AI is often presented as making work more interesting and freeing, the authors argue that it instead creates new, more precarious forms of employment relationships and makes knowledge workers more interchangeable and controllable, leading to anxiety."
+          "answer": "B",
+          "short_explanation": "Zuboff emphasizes the erosion of our ability to control our own lives and choices.",
+          "long_explanation": "Zuboff's core argument is that surveillance capitalism is not merely a privacy issue, but a deeper threat to human autonomy. She defines individual sovereignty as 'the right to determine one's future and the right of sanctuary,' arguing that the constant prediction and nudging of behavior undermines our fundamental capacity for self-determination."
         },
         {
           "id": 3,
-          "question": "Cathy O'Neil's critique of 'black box' algorithms primarily highlights which issue?",
+          "question": "When Cathy O'Neil refers to AI models as 'opaque' or 'black boxes,' what is the primary issue she is highlighting?",
           "options": {
-            "A": "Their excessive computational demands, making them too expensive for widespread use.",
-            "B": "Their inherent lack of transparency, which obscures embedded biases and prevents accountability.",
-            "C": "Their inability to process large datasets efficiently, leading to slow decision-making.",
-            "D": "Their reliance on outdated statistical methods, making their predictions unreliable."
+            "A": "They are deliberately kept secret from the public for commercial gain.",
+            "B": "Their internal decision-making processes are difficult to understand, even for experts.",
+            "C": "They are designed to conceal the original data sources they were trained on.",
+            "D": "They can only process data from unverified or 'dark' sources."
           },
           "answer": "B",
-          "short_explanation": "Black boxes hide how algorithms work, making it hard to see and fix biases.",
-          "long_explanation": "O'Neil describes algorithms as 'opaque' and their workings 'invisible,' meaning their lack of transparency is the core problem. This opacity makes it nearly impossible to discern the prejudices and biases encoded within them, preventing effective auditing, challenging their 'verdicts,' and holding creators accountable for harmful outcomes. It's not primarily about technical efficiency (A, C) or outdated methods (D), but about accountability and fairness."
+          "short_explanation": "The 'black box' problem is about the lack of transparency in how complex AI models arrive at their conclusions.",
+          "long_explanation": "Cathy O'Neil emphasizes that the complexity of many AI models, particularly deep learning systems, makes their internal logic and decision-making processes incomprehensible even to the mathematicians and computer scientists who build them. This opacity makes it challenging to identify, understand, and correct biases or errors, thus concentrating power in the hands of a few who operate these systems."
         },
         {
           "id": 4,
-          "question": "According to Srnicek (2017) and the lecture, why has capitalism increasingly turned to data as a primary resource?",
+          "question": "How does platform capitalism, as discussed in the lecture, 'harness' or transform the original 'hacker ethics'?",
           "options": {
-            "A": "Data is a renewable resource, unlike traditional raw materials.",
-            "B": "The decline in profitability of traditional manufacturing sectors necessitated a new source of value.",
-            "C": "Data is easier to transport and store globally than physical goods.",
-            "D": "Data allows for more equitable distribution of wealth across societies."
+            "A": "By strictly adhering to principles of open-source software and free information for all.",
+            "B": "By encouraging users to contribute unpaid 'digital labor' and data that platforms then monetize.",
+            "C": "By decentralizing control over digital infrastructure to a wide community of developers.",
+            "D": "By establishing democratic governance structures for all digital platforms."
           },
           "answer": "B",
-          "short_explanation": "Capitalism sought new profits as manufacturing declined, and found it in data.",
-          "long_explanation": "Srnicek (2017) explicitly states that 'with a long decline in manufacturing profitability, capitalism has turned to data as one way to maintain economic growth and vitality.' This highlights a fundamental shift in the capitalist accumulation strategy. While data has logistical advantages (C) and its renewability (A) is a property, the driving economic impetus was the need for a new profit frontier. The idea that it leads to more equitable distribution (D) is generally contradicted by the lecture's focus on power concentration."
+          "short_explanation": "The original open and sharing ethos is re-purposed for profit through user-generated data and content.",
+          "long_explanation": "The lecture explains that the original 'hacker ethics' emphasized collaboration and free information. However, platform capitalism co-opts this by encouraging users to contribute content, data, and even perform micro-tasks (referred to as 'digital labor') for free or very low pay, which platforms then use as a valuable resource to generate profit. This transforms a collaborative ethos into a mechanism for value extraction."
         },
         {
           "id": 5,
-          "question": "The lecture emphasizes the question 'Visions of the future – whose?' in the context of social imaginaries around AI. What is the main implication of this question?",
+          "question": "What is the primary distinguishing feature that sets Generative AI apart from earlier forms of AI?",
           "options": {
-            "A": "It suggests that only experts should be involved in shaping AI's future.",
-            "B": "It highlights that different groups have conflicting interests and values regarding AI's development and use.",
-            "C": "It implies that a single, unified vision for AI's future is impossible to achieve.",
-            "D": "It focuses on the technical feasibility of different AI futures rather than their societal impact."
+            "A": "Its ability to analyze vast datasets and identify complex patterns quickly.",
+            "B": "Its primary focus on making accurate predictions about future events.",
+            "C": "Its reliance on continuous human oversight for ethical decision-making.",
+            "D": "Its capacity to produce novel and original content like text, images, or audio."
           },
-          "answer": "B",
-          "short_explanation": "Different groups envision AI's future based on their own interests and values.",
-          "long_explanation": "The question 'Visions of the future – whose?' directly probes the power dynamics and diverse perspectives in shaping AI. It's not about limiting involvement to experts (A), nor just about the impossibility of a single vision (C), though that's a consequence. It's about recognizing that tech companies, governments, and citizens will have competing ideas for AI based on their specific values and what they stand to gain or lose. This directly influences how AI is developed and regulated, affecting its societal impact (D is a consequence, not the core implication of 'whose')."
+          "answer": "D",
+          "short_explanation": "GenAI creates new things, unlike older AI that mainly analyzed or predicted.",
+          "long_explanation": "The lecture defines Generative AI by its ability to *generate* new content, such as text (ChatGPT), images (DALL-E), or audio, rather than just analyzing existing data or performing predictive analytics. This creative capacity is what distinguishes it from previous AI systems and opens up new possibilities and challenges."
         },
         {
           "id": 6,
-          "question": "Zuboff (2019) draws a significant analogy between industrial capitalism's threat to the natural world and surveillance capitalism's threat to human nature. What aspect of human nature is primarily threatened by surveillance capitalism, according to her?",
+          "question": "The lecture points out a key contradiction in the 'neoliberal imaginary' concerning AI. Which of the following best describes this contradiction?",
           "options": {
-            "A": "Our physical health and well-being due to excessive screen time.",
-            "B": "Our capacity for artistic expression and creativity.",
-            "C": "Our autonomy and the right to self-determination over our own experience.",
-            "D": "Our ability to form meaningful social relationships in the digital age."
+            "A": "It promises widespread innovation and broad benefits but has led to significant power centralization.",
+            "B": "It advocates for strict government regulation while simultaneously promoting free-market principles.",
+            "C": "It emphasizes public discourse and participation but actively excludes experts from decision-making.",
+            "D": "It prioritizes social well-being and equality over economic growth and technological advancement."
           },
-          "answer": "C",
-          "short_explanation": "Surveillance capitalism attacks our ability to make our own choices.",
-          "long_explanation": "Zuboff's core argument is that surveillance capitalism exploits and damages 'human experience and autonomy' itself. This directly relates to the right to self-determination—the ability to make choices about one's own life free from constant prediction and subtle manipulation. While other options might be secondary concerns related to technology, they are not the primary, foundational threat to 'human nature' that Zuboff identifies with the same gravity as environmental destruction."
+          "answer": "A",
+          "short_explanation": "The neoliberal ideal of open innovation clashes with the reality of power consolidating in a few hands.",
+          "long_explanation": "The 'neoliberal imaginary' suggests that an unregulated environment will inevitably foster innovation and solve problems. However, the lecture argues that evidence points to the contrary, showing that this approach has led to a centralization of power and resources in the hands of a few tech giants, rather than broad, distributed innovation and benefit for all."
         },
         {
           "id": 7,
-          "question": "Berlinski et al. (2024) argue that Generative AI contributes to the 'standardization of knowledge work.' What does this primarily imply?",
+          "question": "According to Nick Srnicek, what new primary resource has capitalism increasingly turned to as a means to maintain economic growth, particularly due to the decline in manufacturing profitability?",
           "options": {
-            "A": "AI makes knowledge work easier to learn and perform for everyone.",
-            "B": "AI reduces the diversity of approaches and outputs in knowledge-based tasks, making workers more interchangeable.",
-            "C": "AI establishes universal ethical standards for knowledge creation.",
-            "D": "AI ensures that all knowledge workers adhere to strict quality control measures."
+            "A": "Renewable energy sources",
+            "B": "Skilled human capital and intellectual property",
+            "C": "Data",
+            "D": "Global financial derivatives"
           },
-          "answer": "B",
-          "short_explanation": "Standardization means less variety and more control in knowledge work.",
-          "long_explanation": "The standardization of knowledge work, as discussed by Berlinski et al., means that AI tools tend to produce more homogeneous answers and approaches. This diminishes professional autonomy and the value of unique professional judgment. The result is that knowledge workers become more interchangeable and controllable, rather than truly empowered or diversified. It's not necessarily about ease of learning (A) or ethics (C) or quality control (D), but about the reduction of individual variation and increased control."
+          "answer": "C",
+          "short_explanation": "Data has become the modern economy's new 'raw material' for growth.",
+          "long_explanation": "Srnicek's core argument in 'Platform Capitalism' is that as traditional manufacturing became less profitable, capitalism shifted its focus. Data, harvested from digital interactions, became the crucial new resource that platforms extract, analyze, and monetize to drive economic growth and vitality in the modern economy."
         },
         {
           "id": 8,
-          "question": "Cathy O'Neil's analysis of algorithmic impact across various sectors (e.g., justice, employment) demonstrates that these systems often:",
+          "question": "Which of Shoshana Zuboff's eight definitions of surveillance capitalism best describes the idea that the core business is not just selling goods, but influencing and modifying human behavior?",
           "options": {
-            "A": "Promote social mobility and reduce systemic barriers for marginalized groups.",
-            "B": "Create entirely new forms of social stratification unrelated to historical inequalities.",
-            "C": "Exacerbate existing social inequalities by embedding and amplifying historical biases.",
-            "D": "Are inherently neutral but become biased only through malicious human intervention."
+            "A": "The foundational framework of a surveillance economy",
+            "B": "A parasitic economic logic",
+            "C": "A new instrumentarian power",
+            "D": "A rogue mutation of capitalism"
           },
-          "answer": "C",
-          "short_explanation": "Algorithms amplify existing unfairness, making it worse.",
-          "long_explanation": "O'Neil argues that algorithms are not neutral; they encode human prejudice and bias from the data they are trained on. Consequently, their application in critical sectors like justice and employment often disproportionately harms vulnerable populations, reinforcing and deepening existing social inequalities rather than promoting social mobility (A) or creating entirely new, unrelated stratifications (B). Her work explicitly refutes the idea of inherent neutrality (D), showing how biases are built into the systems themselves, not just through malicious intent."
+          "answer": "B",
+          "short_explanation": "It's 'parasitic' because it feeds on and manipulates behavior, rather than just exchanging goods.",
+          "long_explanation": "Zuboff describes surveillance capitalism as having a 'parasitic economic logic' because the production of goods and services becomes secondary to the primary goal: extracting data for the purpose of predicting and influencing human behavior. The platforms' business model is deeply intertwined with this behavioral modification."
         },
         {
           "id": 9,
-          "question": "How does platform capitalism 'harness' the 'hacker ethics' according to the lecture?",
+          "question": "In Cathy O'Neil's analysis, which specific area of impact highlights how algorithmic bias can lead to the disproportionate targeting of certain communities for increased scrutiny and policing?",
           "options": {
-            "A": "By promoting open-source software development for all its proprietary platforms.",
-            "B": "By encouraging users to contribute content and data, often for free or low pay, under the guise of community or convenience.",
-            "C": "By strictly adhering to the original principles of free information and anti-commercialism.",
-            "D": "By providing direct financial compensation for all user-generated content and data."
+            "A": "Insurance",
+            "B": "Employment",
+            "C": "Justice",
+            "D": "Education"
           },
-          "answer": "B",
-          "short_explanation": "It takes the spirit of free contribution and turns it into unpaid labor for profit.",
-          "long_explanation": "The lecture explains that platform capitalism transforms the open-source and collaborative spirit of the 'hacker ethics' into a mechanism for extracting 'digital labor' from users. Users contribute data, content, and interactions, often for free or minimal compensation, which generates value for the platforms, effectively harnessing their willingness to participate for commercial gain. This is in direct contrast to fully open-source models (A) or anti-commercial principles (C), and it does not involve direct financial compensation for all user data (D)."
+          "answer": "C",
+          "short_explanation": "Predictive policing and sentencing algorithms can perpetuate biases in the justice system.",
+          "long_explanation": "Cathy O'Neil's work, particularly in the realm of 'Justice,' discusses how algorithms can embed and amplify biases. For example, predictive policing algorithms, when trained on historically biased crime data, can lead to increased surveillance and arrests in certain communities, thus perpetuating existing inequalities and disproportionately targeting specific groups."
         },
         {
           "id": 10,
-          "question": "The 'neoliberal imaginary' discussed in the lecture suggests that an unregulated environment for AI development will:",
+          "question": "In the context of 'social imaginaries,' what does 'anticipatory thinking' in policy-making primarily involve regarding AI?",
           "options": {
-            "A": "Lead to a more equitable distribution of AI's benefits across society.",
-            "B": "Inevitably foster innovation and resolve identified issues through market forces.",
-            "C": "Result in increased government oversight to protect public interests.",
-            "D": "Prioritize ethical considerations over technological advancement."
+            "A": "Developing reactive policies to address AI's negative impacts only after they manifest.",
+            "B": "Focusing solely on predicting AI's technological capabilities without considering societal consequences.",
+            "C": "Envisioning desirable future states for AI and actively shaping policies to achieve those outcomes.",
+            "D": "Imposing strict limitations on AI development to preempt any unforeseen risks."
           },
-          "answer": "B",
-          "short_explanation": "Neoliberalism believes free markets and lack of regulation will naturally fix problems and spur innovation.",
-          "long_explanation": "As stated in the lecture, the neoliberal imaginary is that 'an unregulated environment inevitably will foster innovation and suffice to solve any identified issues.' This is a core tenet of neoliberalism: trust in the market to self-correct and drive progress. The lecture then contrasts this ideal with the actual evidence, which often points to negative consequences like power concentration rather than equitable distribution (A), reduced rather than increased government oversight (C), and a prioritization of technological advancement over ethical considerations (D)."
+          "answer": "C",
+          "short_explanation": "Anticipatory thinking is about proactive shaping of the future, not just reacting.",
+          "long_explanation": "Anticipatory thinking involves proactively imagining potential futures related to AI and then designing policies and interventions in the present to steer development towards desirable outcomes or mitigate undesirable ones. It's about foresight and deliberate shaping, rather than merely waiting for problems to arise or predicting without action."
         },
         {
           "id": 11,
-          "question": "Zuboff's concept of surveillance capitalism as a 'parasitic economic logic' implies that:",
+          "question": "How does platform capitalism generally impact traditional labor rights and protections for workers?",
           "options": {
-            "A": "It relies on a symbiotic relationship between users and platforms for mutual benefit.",
-            "B": "The primary goal of platforms shifts from providing goods/services to extracting data for behavioral modification.",
-            "C": "It exploits open-source code and free software without proper attribution.",
-            "D": "It depends on state subsidies to maintain its profitability."
+            "A": "It strengthens collective bargaining power for gig economy workers.",
+            "B": "It introduces new comprehensive benefits packages for platform-based employment.",
+            "C": "It often bypasses traditional protections by classifying workers as independent contractors.",
+            "D": "It mandates higher minimum wages across all sectors of the digital economy."
           },
-          "answer": "B",
-          "short_explanation": "The core business becomes changing user behavior, not just offering services.",
-          "long_explanation": "Zuboff defines surveillance capitalism as a parasitic logic where 'the production of goods and services is subordinated to a new global architecture of behavioral modification.' This means the ostensible service (e.g., a search engine) becomes a means to an end: collecting data to predict and influence user behavior. It's 'parasitic' because it feeds on user experience for its own growth, rather than a mutually beneficial (symbiotic) relationship (A). Options C and D describe other forms of exploitation or dependency but not the core 'parasitic' nature as defined by Zuboff."
+          "answer": "C",
+          "short_explanation": "Platform capitalism often redefines employment to avoid traditional labor obligations.",
+          "long_explanation": "The lecture highlights that platform capitalism, particularly through the rise of the gig economy, often reclassifies workers as independent contractors. This allows companies to avoid providing traditional labor protections, benefits, and minimum wage requirements that come with full-time employment, leading to increased precarity for workers."
         },
         {
           "id": 12,
-          "question": "Berlinski et al. (2024) characterize the knowledge produced by generative AI as 'doubtful.' What is the primary reason for this characterization?",
+          "question": "A key concern raised about Generative AI is 'deskilling.' What does this concept primarily refer to?",
           "options": {
-            "A": "It is often created by non-experts and lacks academic rigor.",
-            "B": "It prioritizes performativity and prediction over genuine understanding and explanation.",
-            "C": "It is constantly changing, making it unreliable for long-term use.",
-            "D": "It is only accessible to a privileged few, limiting its widespread verification."
+            "A": "The gradual decrease in AI's performance capabilities over time.",
+            "B": "The potential for humans to lose fundamental cognitive or practical skills due to over-reliance on AI.",
+            "C": "The displacement of highly skilled human jobs by advanced AI systems.",
+            "D": "The reduced technical expertise required to operate Generative AI tools."
           },
           "answer": "B",
-          "short_explanation": "AI focuses on working well and predicting, not on true understanding or explaining why.",
-          "long_explanation": "Berlinski et al. argue that Generative AI produces 'predictions without understanding nor explanation' and that 'what matters instead is their performativity.' This means the knowledge is 'doubtful' not because it's from non-experts (A) or constantly changing (C) or inaccessible (D), but because it lacks the depth of genuine comprehension or the ability to explain its own reasoning. It's effective at *what it does*, but not necessarily *why it does it* or whether it's truly accurate or fair."
+          "short_explanation": "Deskilling is about humans losing skills, not AI becoming less capable.",
+          "long_explanation": "Deskilling, in the context of Generative AI, refers to the worry that as AI automates more complex tasks (like writing or summarizing), humans may become overly dependent on these tools and consequently lose their own abilities to perform those tasks or engage in critical thinking, leading to a homogenization of knowledge work."
         },
         {
           "id": 13,
-          "question": "When Srnicek (2017) describes the digital economy as a 'hegemonic model,' he means that platform capitalism:",
+          "question": "What does Shoshana Zuboff mean by describing surveillance capitalism as a 'coup from above'?",
           "options": {
-            "A": "Is a temporary phase that will soon be replaced by a different economic system.",
-            "B": "Has become the dominant and pervasive way economic activity is organized globally.",
-            "C": "Is controlled by a single, monolithic global corporation.",
-            "D": "Primarily benefits a small group of elite hackers."
+            "A": "It's a direct government takeover of major tech corporations.",
+            "B": "It's a subtle, often unnoticed, power grab that erodes human rights and sovereignty without explicit consent.",
+            "C": "It refers to a rebellion by tech elites against traditional economic and political systems.",
+            "D": "It describes the hierarchical management structure within large tech companies."
           },
           "answer": "B",
-          "short_explanation": "Hegemonic means it's the widely accepted and dominant way of doing things.",
-          "long_explanation": "A 'hegemonic model' refers to something that has become the prevailing or dominant paradigm. Srnicek argues that platform capitalism is not just one model among many, but is increasingly setting the terms for economic activity across various sectors and regions. This implies its widespread influence and accepted nature, rather than being temporary (A), controlled by a single entity (C), or solely benefiting hackers (D)."
+          "short_explanation": "It's a silent overthrow of individual control, not a visible revolution.",
+          "long_explanation": "Zuboff characterizes surveillance capitalism as a 'coup from above' to emphasize that it's not a visible, violent revolution, but a gradual and often hidden appropriation of human experience and rights. This 'power grab' occurs subtly through the pervasive collection and monetization of data, undermining individual sovereignty without overt public awareness or consent."
         },
         {
           "id": 14,
-          "question": "The lecture questions how social imaginaries about AI are 'empirically grounded.' This implies a concern about whether these imaginaries are based on:",
+          "question": "Cathy O'Neil argues that algorithms tend to 'punish the poor and the oppressed.' This is primarily because:",
           "options": {
-            "A": "Broad public consensus and democratic participation.",
-            "B": "Statistical models and predictive analytics.",
-            "C": "Data-driven research and objective evidence, rather than just perceptions or political narratives.",
-            "D": "Historical precedents and traditional technological development cycles."
+            "A": "Algorithms are intentionally programmed with discriminatory biases against specific socioeconomic groups.",
+            "B": "They are trained on historical data that reflects existing societal inequalities and prejudices.",
+            "C": "Individuals from lower socioeconomic backgrounds lack access to advanced AI tools for self-improvement.",
+            "D": "The core design principle of algorithms prioritizes efficiency over fairness in all decision-making."
           },
-          "answer": "C",
-          "short_explanation": "It's about whether our ideas of AI are based on facts, not just beliefs.",
-          "long_explanation": "To be 'empirically grounded' means to be based on observation or experience, verifiable by data or evidence. The concern raised in the lecture is whether our collective ideas and visions for AI are actually rooted in robust, data-driven research and objective analysis, or if they are more influenced by subjective perceptions, desires, fears, or political agendas. While public consensus (A) and historical precedents (D) can play a role, the 'empirical grounding' specifically refers to objective, verifiable evidence. Statistical models (B) are a *tool* for empirical grounding, but the question is about the *basis* of the imaginaries themselves."
+          "answer": "B",
+          "short_explanation": "Algorithms learn and perpetuate biases embedded in historical data.",
+          "long_explanation": "O'Neil argues that algorithms are not inherently discriminatory but become so because they are trained on vast datasets that reflect existing human prejudices, historical discrimination, and societal inequalities. By learning from this biased data, algorithms then replicate and even amplify these biases when making decisions about individuals, disproportionately harming vulnerable populations."
         },
         {
           "id": 15,
-          "question": "Cathy O'Neil's assertion that algorithms 'tended to punish the poor and the oppressed' means that:",
+          "question": "If policy decisions regarding AI are predominantly based on 'perceptions' rather than 'empirical studies,' what is the most likely outcome, according to the lecture?",
           "options": {
-            "A": "Algorithms are specifically designed by their creators to target disadvantaged groups.",
-            "B": "Algorithms, due to embedded biases, disproportionately produce negative outcomes for vulnerable populations.",
-            "C": "Algorithms only affect the rich, as they are the primary users of complex digital systems.",
-            "D": "Algorithms are used by governments to enforce punitive measures against low-income communities."
+            "A": "A more inclusive and diverse approach to AI development.",
+            "B": "Policies that align more with popular beliefs or vested interests than with factual impacts or ethical considerations.",
+            "C": "Faster and more efficient technological advancement due to public support.",
+            "D": "Stronger and more universally accepted international AI regulations."
           },
           "answer": "B",
-          "short_explanation": "Algorithms, often unintentionally, make life harder for already disadvantaged groups.",
-          "long_explanation": "O'Neil emphasizes that algorithmic bias, often stemming from the biased data they are trained on, leads to systemic disadvantages for already vulnerable populations. This is not necessarily about malicious intent in design (A) but about the *outcome* of biased systems. Her analysis spans various sectors, showing how these systems reinforce existing inequalities. While governments might use algorithms punitively (D), O'Neil's critique is broader, encompassing private sector applications and the inherent biases of the models themselves. The idea that algorithms only affect the rich (C) is directly contrary to her central thesis."
+          "short_explanation": "Policies based on perception can be less evidence-based and more influenced by opinion or power.",
+          "long_explanation": "The lecture points out that relying on 'perceptions' for AI policy can lead to outcomes where decisions are driven by popular sentiment, hype, or the influence of specific groups, rather than by a rigorous, evidence-based understanding of AI's actual societal impacts. This can result in policies that serve particular interests or perpetuate misconceptions."
         },
         {
           "id": 16,
-          "question": "Berlinski et al. (2024) argue that despite an imaginary of 'openness and liberality,' AI development has led to power centralization. Who are the primary beneficiaries of this centralization?",
+          "question": "The concentration of power in a few giant tech companies within platform capitalism raises concerns about its compatibility with democracy. What is the primary reason for this concern?",
           "options": {
-            "A": "Academic researchers and non-profit organizations.",
-            "B": "Small startups and independent developers.",
-            "C": "A few giant tech companies and governments.",
-            "D": "Individual users who gain more control over their data."
+            "A": "It typically leads to excessive government regulation that stifles innovation.",
+            "B": "It results in an overly equitable distribution of economic benefits across society.",
+            "C": "It centralizes control over information, communication, and decision-making, potentially undermining democratic processes.",
+            "D": "It encourages too much competition in the market, leading to instability."
           },
           "answer": "C",
-          "short_explanation": "Power concentrates in Big Tech and state actors.",
-          "long_explanation": "Berlinski et al. explicitly state that the imaginary of openness and liberality associated with AI 'serve to centralize power and exclude the public from decisions touching upon AI.' They further elaborate that this power concentrates 'in favor of a few giant companies and governments.' This directly contradicts the idea of benefits for small startups (B) or individual users (D), and while academics (A) are involved, they are not the primary beneficiaries of this power centralization."
+          "short_explanation": "Centralized control of information and decision-making by a few entities can threaten democratic principles.",
+          "long_explanation": "The lecture explains that the immense power concentrated in a few platform giants can be problematic for democracy. These companies control vast amounts of data and influence communication, potentially shaping public discourse, limiting diverse voices, and making decisions that impact society without democratic oversight, thus undermining the principles of a distributed and fair democratic system."
         },
         {
           "id": 17,
-          "question": "According to Zuboff's first definition of surveillance capitalism, 'human experience as free raw material' refers to:",
+          "question": "The lecture characterizes knowledge generated by AI as 'performative' rather than deeply explanatory. What does this imply about the nature of this knowledge?",
           "options": {
-            "A": "The creative content users voluntarily share on platforms.",
-            "B": "Our everyday activities, interactions, and behaviors being collected, predicted, and sold.",
-            "C": "The free labor individuals provide to train AI models.",
-            "D": "The public domain knowledge used to build AI systems without cost."
+            "A": "It prioritizes effectiveness in achieving tasks over true understanding or causal explanation.",
+            "B": "It is always objectively accurate and reliably represents reality.",
+            "C": "It is inherently creative and generates truly original insights.",
+            "D": "It is easily comprehensible and transparent to all users, regardless of technical background."
           },
-          "answer": "B",
-          "short_explanation": "Our daily lives become data to be harvested and sold.",
-          "long_explanation": "Zuboff's first definition states: 'A new economic order that claims human experience as free raw material for hidden commercial practices of extraction, prediction, and sales.' This encompasses all our digital behaviors and interactions, which are then commodified. While creative content (A) and free labor (C) can be part of this, the broader concept of 'human experience' as a whole, including seemingly mundane activities, is the raw material. Public domain knowledge (D) is a different concept related to intellectual property."
+          "answer": "A",
+          "short_explanation": "'Performativity' means it works well, but doesn't necessarily 'understand' or explain *why*.",
+          "long_explanation": "When knowledge generated by AI is described as 'performative,' it means that its primary value lies in its utility and effectiveness in performing specific tasks or producing desired outputs, rather than in providing deep understanding, causal explanations, or transparent reasoning. This can lead to an illusion of 'unlimited knowledge' that may lack genuine insight or be difficult to verify."
         },
         {
           "id": 18,
-          "question": "The lecture highlights that platform capitalism leads to 'diminishing guarantees around work and related rights.' This is primarily due to:",
+          "question": "Which specific outcome, highlighted in the lecture, directly contradicts the neoliberal ideal that an unregulated AI environment fosters broad innovation?",
           "options": {
-            "A": "Increased unionization efforts within the tech sector.",
-            "B": "The classification of many workers as independent contractors rather than employees.",
-            "C": "Government regulations that prioritize corporate profits over worker protections.",
-            "D": "A global shift towards fully automated labor with no human involvement."
+            "A": "The emergence of a few dominant tech giants controlling vast digital ecosystems.",
+            "B": "A significant increase in government funding allocated to AI research and development.",
+            "C": "The widespread decentralization of data ownership and control across various entities.",
+            "D": "The establishment of robust international AI regulatory bodies and frameworks."
           },
-          "answer": "B",
-          "short_explanation": "Workers are often deemed 'contractors,' losing employee benefits.",
-          "long_explanation": "The lecture explains that the rise of the 'gig economy' within platform capitalism often classifies workers as independent contractors. This specific legal classification allows companies to circumvent traditional labor laws and protections (like minimum wage, paid leave, benefits), thereby diminishing workers' rights and guarantees. Increased unionization (A) would likely strengthen, not diminish, rights. While government policies (C) can play a role, the *mechanism* highlighted is the contractor classification. Full automation (D) is a future risk, but the current issue is about human labor conditions."
+          "answer": "A",
+          "short_explanation": "Unregulated markets often lead to monopolies, not broad competition.",
+          "long_explanation": "The neoliberal ideal posits that deregulation will lead to open competition and widespread innovation. However, the lecture argues that in the context of AI, the lack of regulation has instead resulted in the centralization of power and resources, with a few dominant tech giants cornering the market, thereby contradicting the promise of broad innovation and open competition."
         },
         {
           "id": 19,
-          "question": "The concept of 'deskilling' in relation to Generative AI primarily concerns:",
+          "question": "Shoshana Zuboff draws a powerful analogy between surveillance capitalism and industrial capitalism. What does she argue surveillance capitalism primarily exploits, in a way similar to how industrial capitalism exploited the natural world?",
           "options": {
-            "A": "The loss of human jobs to automated systems.",
-            "B": "The reduction in complexity and specialized skills required for tasks, making human labor more interchangeable.",
-            "C": "The inability of AI to perform highly skilled tasks.",
-            "D": "The decline in educational standards due to over-reliance on AI for learning."
+            "A": "Human experience and autonomy",
+            "B": "Traditional labor unions and collective bargaining power",
+            "C": "Government resources and public infrastructure",
+            "D": "Non-renewable physical raw materials"
           },
-          "answer": "B",
-          "short_explanation": "Deskilling means jobs become simpler, reducing the need for complex human skills.",
-          "long_explanation": "Deskilling, as discussed in the lecture and Berlinski et al. (2024), refers to AI tools simplifying tasks previously performed by knowledge workers. This reduces the need for specialized human judgment and skills, making workers more easily replaceable and controllable. While job loss (A) is a related concern, 'deskilling' specifically refers to the *nature* of the work itself becoming less complex for humans. It's not about AI's inability (C) or a direct decline in education standards (D), though these can be consequences."
+          "answer": "A",
+          "short_explanation": "Industrial capitalism exploited nature; surveillance capitalism exploits human behavior and choice.",
+          "long_explanation": "Zuboff's analogy highlights that just as industrial capitalism exploited and damaged the natural environment for profit, surveillance capitalism exploits and damages human experience, behavior, and autonomy. It turns our very lives into raw material for data extraction, prediction, and monetization, thus posing a fundamental threat to what it means to be human in the digital age."
         },
         {
           "id": 20,
-          "question": "A key paradox identified in the 'neoliberal showdown' is that despite promoting 'openness,' AI development often leads to:",
+          "question": "Safiya Noble's concept of 'technological redlining' most accurately describes how algorithms:",
           "options": {
-            "A": "Increased public participation in technological governance.",
-            "B": "The exclusion of the public from critical decisions about AI development and regulation.",
-            "C": "Greater transparency in algorithmic decision-making.",
-            "D": "A more diverse range of voices contributing to AI policy."
+            "A": "Improve universal access to digital services across all demographic groups.",
+            "B": "Exacerbate digital divides by restricting internet access in low-income areas.",
+            "C": "Perpetuate discriminatory practices by misrepresenting or limiting opportunities for marginalized groups online.",
+            "D": "Automatically correct and eliminate historical biases present in their training data."
           },
-          "answer": "B",
-          "short_explanation": "The promise of openness hides the reality that the public is shut out of AI decisions.",
-          "long_explanation": "Berlinski et al. (2024) specifically state that 'an imaginary of openness and liberality associated with AI has served to centralize power and exclude the public from decisions touching upon AI.' This is a core contradiction within the neoliberal framework, where rhetorical openness does not translate into actual democratic participation or transparency (C, A, D are contradicted)."
+          "answer": "C",
+          "short_explanation": "Noble shows how algorithms can digitally exclude and stereotype, like historical redlining.",
+          "long_explanation": "Technological redlining, as conceptualized by Safiya Noble, refers to the digital perpetuation of discriminatory practices. Algorithms, influenced by biased data or commercial interests, can systematically misrepresent or limit access to information and opportunities for certain racial, ethnic, or socioeconomic groups, effectively creating digital zones of exclusion and reinforcing social inequalities."
         },
         {
           "id": 21,
-          "question": "'Anticipatory thinking' in the context of social imaginaries about AI is best described as:",
+          "question": "In the context of digital labor and platform capitalism, how is 'surplus value' primarily understood?",
           "options": {
-            "A": "Predicting the exact future trajectory of AI development.",
-            "B": "Focusing solely on the historical evolution of technology.",
-            "C": "Envisioning potential futures to guide policy and actions in the present.",
-            "D": "Avoiding any speculation about the future due to inherent uncertainties."
+            "A": "The profits generated by platforms from unpaid user data and activities.",
+            "B": "The direct monetary wages paid to individuals performing micro-tasks on platforms.",
+            "C": "The increased value added to products through AI automation in manufacturing.",
+            "D": "The cost savings achieved by companies through digital transformation processes."
           },
-          "answer": "C",
-          "short_explanation": "It's about imagining possible futures to inform current decisions.",
-          "long_explanation": "The lecture defines anticipatory thinking as how we 'think about and plan for the future, especially in policy-making.' It's about envisioning desirable or undesirable futures to shape policies and actions *today*. It's not about precise prediction (A), historical focus only (B), or avoiding future thought (D), but about using future scenarios as a guide for present-day governance."
+          "answer": "A",
+          "short_explanation": "Surplus value is the profit extracted from labor (digital or otherwise) that isn't fully compensated.",
+          "long_explanation": "Drawing on Marx's concept, the lecture explains that in platform capitalism, surplus value is generated when platforms extract value from users' online activities and data (their 'digital labor') without direct monetary compensation. This uncompensated value contributes to the platforms' profits, akin to how traditional labor created surplus value in industrial capitalism."
         },
         {
           "id": 22,
-          "question": "Zuboff describes the expropriation of human rights in surveillance capitalism as a 'coup from above.' This metaphor emphasizes that the power grab:",
+          "question": "When considering the implementation of AI amidst inherent uncertainty, how do 'values' play a crucial role?",
           "options": {
-            "A": "Is initiated by international governmental organizations.",
-            "B": "Happens subtly and without the full awareness or consent of the people.",
-            "C": "Is a violent overthrow of existing political regimes.",
-            "D": "Is primarily driven by military and defense interests."
+            "A": "They primarily determine the technical feasibility and efficiency of AI projects.",
+            "B": "They dictate the speed at which new AI technologies can be developed and deployed.",
+            "C": "They influence which societal priorities AI is designed to serve and for whose benefit.",
+            "D": "They are largely irrelevant to the objective and technical design of AI systems."
           },
-          "answer": "B",
-          "short_explanation": "It's a quiet, unnoticed takeover of our rights.",
-          "long_explanation": "Zuboff's 'coup from above' metaphor highlights the insidious nature of surveillance capitalism's power grab. It's not a traditional, overt, or violent overthrow (C), nor is it primarily driven by governments (A) or military (D). Instead, it's a gradual, subtle, and often unnoticed erosion of individual rights and sovereignty, occurring through the pervasive collection and commodification of human experience, largely without explicit consent or even full awareness from the individuals affected."
+          "answer": "C",
+          "short_explanation": "Values guide AI's purpose and its alignment with societal goals.",
+          "long_explanation": "The lecture emphasizes that 'values' are critical in AI implementation, especially given uncertainty. Societal values help determine what problems AI is designed to solve, what outcomes are considered desirable, and which groups should benefit. These values guide policy decisions and ethical frameworks, shaping the direction and impact of AI development."
         },
         {
           "id": 23,
-          "question": "Berlinski et al. (2024) suggest that Generative AI can lead to 'homogenization.' This refers to:",
+          "question": "The lecture suggests that platform capitalism can contribute to 'monocultures.' What does this term primarily refer to in this context?",
           "options": {
-            "A": "The universal adoption of AI technologies across all cultures.",
-            "B": "The reduction of diversity in thought, culture, and language due to standardized AI outputs.",
-            {
-              "id": 24,
-              "question": "Cathy O'Neil's argument that 'many of these models encoded human prejudice... into the software systems' implies that algorithmic bias primarily originates from:",
-              "options": {
-                "A": "Malicious programmers intentionally embedding unfair rules.",
-                "B": "The inherent flaws in computer algorithms themselves.",
-                "C": "The biased or incomplete human-generated data used to train the models.",
-                "D": "The inability of AI to understand complex ethical considerations."
-              },
-              "answer": "C",
-              "short_explanation": "Bias comes from the biased data AI learns from.",
-              "long_explanation": "O'Neil emphasizes that algorithms are trained on human-generated data, which often reflects existing societal prejudices and inequalities. Therefore, the bias is 'encoded' into the system through this historical and societal data, rather than solely from malicious intent (A) or inherent flaws in the algorithms' logic (B). While AI's 'understanding' of ethics (D) is a separate philosophical debate, the practical source of bias O'Neil highlights is the training data."
-            },
-            {
-              "id": 25,
-              "question": "Which of the following is a direct consequence of the concentration of power in the hands of a few giant companies within platform capitalism?",
-              "options": {
-                "A": "Increased competition and market diversity.",
-                "B": "Enhanced individual autonomy and choice.",
-                "C": "Potential undermining of democratic processes and control.",
-                "D": "Greater transparency in data collection and usage."
-              },
-              "answer": "C",
-              "short_explanation": "Concentrated power can threaten how democracy works.",
-              "long_explanation": "The lecture explicitly states that the concentration of power in a few giant companies, often working with governments, raises questions about its compatibility with democracy. This immense power can influence public discourse, control access to information, and shape decision-making in ways that undermine democratic principles. It does not lead to increased competition (A), enhanced individual autonomy (B), or greater transparency (D); in fact, it often leads to the opposite."
-            },
-            {
-              "id": 26,
-              "question": "When the lecture states that Generative AI prioritizes 'performativity' over genuine understanding, it means that AI systems are valued primarily for:",
-              "options": {
-                "A": "Their ability to explain their reasoning and decision-making processes.",
-                "B": "How well they achieve a desired outcome or task, regardless of deeper comprehension.",
-                "C": "Their capacity for self-improvement and learning from mistakes.",
-                "D": "Their adherence to strict ethical guidelines in content generation."
-              },
-              "answer": "B",
-              "short_explanation": "AI is valued for what it does, not necessarily for truly 'knowing' or explaining why.",
-              "long_explanation": "The lecture explains that Generative AI produces 'predictions without understanding nor explanation' and that 'what matters instead is their performativity.' This means the system is primarily judged by its effectiveness in performing a task or producing a desired output, even if it doesn't possess genuine comprehension or the ability to explain its reasoning (A). While self-improvement (C) is a characteristic of AI, and ethical adherence (D) is a goal, 'performativity' specifically refers to the focus on successful execution over deep understanding."
-            },
-            {
-              "id": 27,
-              "question": "Zuboff's concept of the 'right of sanctuary' in surveillance capitalism refers to:",
-              "options": {
-                "A": "The right of individuals to seek legal protection from data breaches.",
-                "B": "The right to a private space (physical or digital) free from constant observation and tracking.",
-                "C": "The right of governments to protect their national data infrastructure.",
-                "D": "The right to be anonymous online at all times."
-              },
-              "answer": "B",
-              "short_explanation": "It's the right to a personal space where you're not always being watched.",
-              "long_explanation": "Zuboff defines the 'right of sanctuary' as part of individual sovereignty, meaning the right to be 'beyond reach of invasive tracking and monitoring.' This refers to a fundamental need for a private domain, whether physical or digital, where one is not constantly observed and recorded. While legal protection (A) and anonymity (D) are related to privacy, 'sanctuary' emphasizes a protected space of non-observation. National data protection (C) is a state concern, not an individual right of sanctuary."
-            },
-            {
-              "id": 28,
-              "question": "In their discussion of 'institutional imaginaries,' Berlinski et al. (2024) highlight a paradox where AI is associated with openness and liberality, but actually serves to:",
-              "options": {
-                "A": "Foster greater public debate on AI's future.",
-                "B": "Decentralize control over data and technology.",
-                "C": "Centralize power and exclude the public from decision-making.",
-                "D": "Promote diverse technological innovation across many small actors."
-              },
-              "answer": "C",
-              "short_explanation": "Despite promises of openness, AI development centralizes power and shuts out the public.",
-              "long_explanation": "Berlinski et al. (2024) state that the 'imaginary of openness and liberality associated with AI has served to centralize power and exclude the public from decisions touching upon AI.' This is a key institutional paradox. It directly contradicts fostering public debate (A), decentralization (B), or promoting diverse small actors (D), instead showing how the rhetoric is used to justify a concentration of power in the hands of a few tech giants and governments."
-            },
-            {
-              "id": 29,
-              "question": "Srnicek's (2017) argument that capitalism 'turned to data as one way to maintain economic growth' implies that data is primarily valued for its potential to:",
-              "options": {
-                "A": "Enhance human communication and connection.",
-                "B": "Generate new forms of surplus value and profit.",
-                "C": "Increase transparency in economic transactions.",
-                "D": "Preserve cultural heritage and historical records."
-              },
-              "answer": "B",
-              "short_explanation": "Data's value to capitalism is its ability to create more profit.",
-              "long_explanation": "Srnicek's analysis is rooted in the economic imperative of capitalism to find new sources of profit when traditional ones decline. Therefore, data's primary value in this context is its ability to be extracted, processed, and monetized to generate 'surplus value' and maintain economic growth. While data can incidentally enhance communication (A), increase transparency (C in some cases), or preserve records (D), these are not its primary drivers of value within Srnicek's framework of platform capitalism."
-            },
-            {
-              "id": 30,
-              "question": "The 'diminishing guarantees around work and related rights' under platform capitalism are most directly impacted by:",
-              "options": {
-                "A": "The rise of traditional labor unions in the tech sector.",
-                "B": "The increasing prevalence of remote work arrangements.",
-                "C": "The reclassification of many workers as independent contractors.",
-                "D": "Global agreements to standardize labor laws across all industries."
-              },
-              "answer": "C",
-              "short_explanation": "Calling workers 'contractors' often removes their employee rights.",
-              "long_explanation": "The lecture explicitly links the 'diminishing guarantees around work and related rights' to the rise of the 'gig economy' and the classification of workers as independent contractors. This legal reclassification allows companies to avoid providing benefits, minimum wage, and other protections typically afforded to employees. The other options are either not the primary cause (B), would counteract this trend (A), or are not yet widespread enough to be the direct cause (D)."
-            }
-          ]
+            "A": "A reduction in the diversity of AI models available to consumers.",
+            "B": "The dominance of a single language or cultural expression on digital platforms.",
+            "C": "The standardization of hardware components used in AI infrastructure.",
+            "D": "A homogenization of ideas, culture, and expression due to reliance on similar AI systems and algorithms."
+          },
+          "answer": "D",
+          "short_explanation": "Monocultures mean less diversity in thought and culture because AI promotes uniformity.",
+          "long_explanation": "The lecture explains that 'monocultures' in platform capitalism refer to a reduction in the diversity of ideas, cultural expressions, and even ways of thinking. This occurs because AI systems, by standardizing knowledge work and personalizing content, can limit exposure to varied perspectives and encourage conformity, leading to a more uniform and less diverse intellectual and cultural landscape."
+        },
+        {
+          "id": 24,
+          "question": "Which type of content generation is Generative AI primarily known for producing?",
+          "options": {
+            "A": "Detailed data analytics reports and statistical summaries from existing datasets.",
+            "B": "Predictive market trends and financial forecasts based on historical data.",
+            "C": "New and original text, images, music, or other media.",
+            "D": "Automated responses for customer service based on predefined scripts."
+          },
+          "answer": "C",
+          "short_explanation": "Generative AI's core function is to create novel content.",
+          "long_explanation": "Generative AI is specifically characterized by its ability to *generate* new, original content that resembles human-created output. This includes writing text (like essays or code), creating images from descriptions, or composing music, distinguishing it from AI systems primarily focused on analysis, prediction, or automation of existing tasks."
+        },
+        {
+          "id": 25,
+          "question": "In Shoshana Zuboff's framework, the aim of 'total certainty' in surveillance capitalism refers to:",
+          "options": {
+            "A": "Guaranteeing absolute data security and privacy for all users.",
+            "B": "Ensuring that AI predictions are always 100% accurate and reliable.",
+            "C": "Achieving universal consensus on ethical guidelines for AI development.",
+            "D": "Eliminating all uncertainty by predicting and controlling human behavior on a mass scale."
+          },
+          "answer": "D",
+          "short_explanation": "Total certainty means controlling human actions by predicting them perfectly.",
+          "long_explanation": "Zuboff argues that a core aim of surveillance capitalism is to achieve 'total certainty' by predicting and, crucially, *controlling* human behavior. By accumulating vast amounts of behavioral data, platforms seek to reduce the unpredictability of human action, allowing them to nudge and modify behavior for commercial or other strategic purposes, thereby eliminating uncertainty."
+        },
+        {
+          "id": 26,
+          "question": "When Cathy O'Neil states that algorithmic verdicts are 'beyond dispute or appeal,' what specific problem is she primarily highlighting?",
+          "options": {
+            "A": "The difficulty for individuals to challenge or understand adverse algorithmic decisions.",
+            "B": "The current lack of comprehensive legal frameworks to regulate AI systems.",
+            "C": "The rapid speed at which algorithms process information, making real-time intervention impossible.",
+            "D": "The universal consensus among AI experts regarding the fairness and accuracy of algorithmic outcomes."
+          },
+          "answer": "A",
+          "short_explanation": "It's about the inability to challenge opaque, seemingly final algorithmic judgments.",
+          "long_explanation": "O'Neil's statement underscores the lack of transparency and accountability in algorithmic decision-making. Because AI models are often 'black boxes,' individuals affected by their decisions (e.g., denied a loan, flagged for policing) find it nearly impossible to understand the reasoning behind the verdict or to effectively appeal it, leading to a sense of powerlessness and injustice."
+        },
+        {
+          "id": 27,
+          "question": "The lecture suggests that the tensions within social imaginaries surrounding AI often serve to justify a 'democratic pause.' What does this 'pause' typically entail in practice?",
+          "options": {
+            "A": "A concerted effort to increase public participation and democratic input into AI governance.",
+            "B": "A temporary halt in AI development to allow for comprehensive ethical review and societal deliberation.",
+            "C": "The temporary suspension of democratic processes to prioritize rapid technological advancement.",
+            "D": "A lack of meaningful regulation, allowing technological capitalism to develop largely unimpeded."
+          },
+          "answer": "D",
+          "short_explanation": "A 'democratic pause' means less regulation, allowing tech to grow freely.",
+          "long_explanation": "The lecture explains that the conflicting narratives and tensions within social imaginaries (e.g., freedom vs. surveillance) can be used to justify a 'democratic pause.' This typically means that genuine democratic debate and robust regulation are delayed or avoided, allowing powerful technological and economic forces to develop AI largely unimpeded by public oversight or stricter ethical controls."
+        },
+        {
+          "id": 28,
+          "question": "How are users typically 'compensated' for their 'digital labor' (e.g., generating data, contributing content) on platform capitalist systems?",
+          "options": {
+            "A": "Through direct monetary payments based on the volume of data they generate.",
+            "B": "Through equity shares or stock options in the platform company.",
+            "C": "Often for free or through indirect benefits like convenience and community, while platforms profit from their data.",
+            "D": "Through formalized profit-sharing agreements based on platform revenue."
+          },
+          "answer": "C",
+          "short_explanation": "Users provide value for free, platforms gain profit.",
+          "long_explanation": "The lecture highlights that in platform capitalism, users often contribute valuable 'digital labor' (their data, content, interactions) without direct monetary compensation. Instead, they receive indirect benefits such as convenience, access to services, or participation in online communities. Meanwhile, platforms monetize this aggregated user data, generating significant profits from this uncompensated labor."
+        },
+        {
+          "id": 29,
+          "question": "In the context of social imaginaries, 'studies of hype' primarily focus on:",
+          "options": {
+            "A": "The rigorous scientific validation of technological predictions.",
+            "B": "How new technologies consistently reduce social excitement and anxiety.",
+            "C": "The long-term, stable trends in technological adoption and diffusion.",
+            "D": "The recurring cycles of inflated enthusiasm and subsequent disillusionment surrounding emerging technologies."
+          },
+          "answer": "D",
+          "short_explanation": "Hype studies look at the boom-and-bust cycle of expectations for new tech.",
+          "long_explanation": "The 'studies of hype' within social imaginaries examine the common pattern where new technologies are initially met with exaggerated promises and widespread enthusiasm (the 'hype' phase), which often leads to inflated expectations. This is frequently followed by a period of disillusionment when the technology fails to meet these unrealistic expectations, creating a predictable cycle of excitement and letdown."
+        },
+        {
+          "id": 30,
+          "question": "Shoshana Zuboff's concept of 'instrumentarian power' describes:",
+          "options": {
+            "A": "A new form of power based on the ability to know and influence human behavior at scale.",
+            "B": "The traditional power wielded by political institutions and governments.",
+            "C": "The economic leverage gained by tech companies through their control over hardware manufacturing.",
+            "D": "The strategic power derived from the military applications of artificial intelligence."
+          },
+          "answer": "A",
+          "short_explanation": "It's a new power to control behavior through data and influence.",
+          "long_explanation": "Zuboff defines 'instrumentarian power' as a novel form of power distinct from traditional state or market power. It refers to the unprecedented capacity, enabled by surveillance capitalism, to know, predict, and ultimately influence human behavior on a mass scale. This power allows for new forms of social control and presents unique challenges to individual autonomy and democratic societies."
         }
       ]
     }
