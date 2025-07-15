@@ -1,0 +1,399 @@
+{
+  "chapters": [
+    {
+      "title": "11. Fairness and Accountability",
+      "questions": [
+        {
+          "id": 1,
+          "question": "The FAIR Principles are widely praised for improving data management. However, a significant limitation highlighted in the text is their primary focus on:",
+          "options": {
+            "A": "Ensuring data is financially viable for commercial use.",
+            "B": "Promoting the commercialization of publicly funded research data.",
+            "C": "Standardizing data formats across all scientific disciplines.",
+            "D": "Addressing the ethical implications of data *use* and potential societal harms."
+          },
+          "answer": "D",
+          "short_explanation": "FAIR principles focus on data availability and technical readiness, not ethical use.",
+          "long_explanation": "While FAIR principles (Findable, Accessible, Interoperable, Reusable) are excellent for making data technically ready for broader use, the text explicitly states that they do not address the ethical implications of *how* that data should be used fairly, especially in sensitive domains like health. This is a crucial gap that 'methodological data fairness' aims to fill, moving beyond mere technical compliance to consider societal impact and justice."
+        },
+        {
+          "id": 2,
+          "question": "A police department uses an AI system to analyze citizen complaints. The system consistently flags complaints from a specific low-income neighborhood as 'less credible' based on historical data patterns, even when the factual content is identical to complaints from other areas. This scenario best exemplifies:",
+          "options": {
+            "A": "Hermeneutical injustice.",
+            "B": "Distributive fairness.",
+            "C": "Testimonial injustice.",
+            "D": "Social fairness."
+          },
+          "answer": "C",
+          "short_explanation": "Credibility deficit due to prejudice is testimonial injustice.",
+          "long_explanation": "This scenario directly aligns with Miranda Fricker's concept of Testimonial Injustice, where a person's testimony (in this case, their complaint) is given less credibility due to a prejudice associated with their identity or group (being from a low-income neighborhood). The AI system, by learning from biased historical data, perpetuates this injustice by devaluing certain voices based on non-relevant characteristics."
+        },
+        {
+          "id": 3,
+          "question": "Which of the following best captures the essence of **methodological fairness** in AI and data research?",
+          "options": {
+            "A": "Ensuring that the research process itself, including data production, gathering, analysis, and interpretation, is conducted with quality and credibility to foster just outcomes.",
+            "B": "Adhering strictly to legal regulations like GDPR regarding data privacy and consent.",
+            "C": "Focusing solely on technical efficiency and algorithmic accuracy to optimize AI performance.",
+            "D": "Engaging external ethics committees to review research proposals before data collection begins."
+          },
+          "answer": "A",
+          "short_explanation": "Methodological fairness focuses on ethical rigor within the research process.",
+          "long_explanation": "Methodological fairness is distinct from legal (B) or purely technical (C) concerns. While external ethics committees (D) contribute to oversight, methodological fairness is about embedding ethical considerations directly into the scientific practices at every stage. It focuses on the intrinsic quality and credibility of how data is handled throughout the research lifecycle to ensure the outputs are not only scientifically sound but also just and equitable."
+        },
+        {
+          "id": 4,
+          "question": "The text argues that the tension between data actionability and accountability is a 'severe challenge' but not necessarily a true 'trade-off.' This is primarily because:",
+          "options": {
+            "A": "Legal frameworks are rapidly evolving to eliminate all conflicts between data utility and ethical concerns.",
+            "B": "True data actionability inherently includes aspects like trustworthy governance and accountability, which enhance long-term utility.",
+            "C": "Accountability is an outdated concept in the age of big data and open science.",
+            "D": "Technical solutions like advanced encryption can resolve all ethical dilemmas without human intervention."
+          },
+          "answer": "B",
+          "short_explanation": "Actionability and accountability are mutually reinforcing for long-term utility.",
+          "long_explanation": "The text refutes the idea of a strict trade-off by arguing that genuine data actionability extends beyond mere technical access. It encompasses elements like trustworthy governance, transdisciplinary expertise, and accountability to users. When data is handled responsibly and ethically, it builds trust, encourages broader participation, and ensures its continued relevance and utility, thereby enhancing its actionability in the long run rather than diminishing it."
+        },
+        {
+          "id": 5,
+          "question": "To address bias *before* an AI model begins its main learning process, a common pre-training mitigation strategy involves:",
+          "options": {
+            "A": "Resampling the dataset to ensure proportional representation of different groups.",
+            "B": "Implementing adversarial training during the model's iterative learning.",
+            "C": "Calibrating equalized odds after the model has been deployed.",
+            "D": "Employing Explainable AI (XAI) techniques to understand model decisions."
+          },
+          "answer": "A",
+          "short_explanation": "Resampling balances the dataset before training.",
+          "long_explanation": "Pre-training bias mitigation strategies occur *before* the AI model is trained. Resampling (A) is a technique used to adjust the dataset composition, for instance, by oversampling underrepresented groups or undersampling overrepresented ones, to create a more balanced input for the model. Adversarial training (B) is a training-phase strategy, while calibrating equalized odds (C) and XAI (D) are post-training or model interpretation techniques."
+        },
+        {
+          "id": 6,
+          "question": "A health AI system designed to identify early signs of a rare, chronic illness fails to detect it in a significant portion of the population because its training data predominantly consists of cases where the illness manifests with *physical* symptoms, while in many individuals, it presents primarily with *cognitive* or *emotional* symptoms that were not historically documented in medical records. This situation illustrates:",
+          "options": {
+            "A": "Testimonial injustice, as the data collection process implicitly devalues certain symptom types.",
+            "B": "Distributive fairness, as the illness is not equally distributed across the population.",
+            "C": "Legal fairness, as the data collection lacked proper consent for cognitive data.",
+            "D": "Hermeneutical injustice, as the collective understanding (reflected in data) lacks the concepts to fully capture the illness's diverse manifestations."
+          },
+          "answer": "D",
+          "short_explanation": "Lack of concepts/data to understand an experience is hermeneutical injustice.",
+          "long_explanation": "This scenario perfectly describes Hermeneutical Injustice, where the collective resources for interpretation (in this case, comprehensive medical documentation and data on diverse symptom presentations) are inadequate. The AI system, by learning from this incomplete 'understanding,' perpetuates the injustice by failing to recognize the illness in its less-documented forms, not because of prejudice against individuals (testimonial), but due to a gap in collective knowledge."
+        },
+        {
+          "id": 7,
+          "question": "In the context of FAIR principles, 'Interoperable' data is best characterized by its ability to:",
+          "options": {
+            "A": "Be easily discovered through standard search engines and metadata.",
+            "B": "Be accessed by authorized users through well-defined protocols.",
+            "C": "Work seamlessly with other datasets and systems using common standards and vocabularies.",
+            "D": "Be repurposed for future research projects with clear licensing."
+          },
+          "answer": "C",
+          "short_explanation": "Interoperable means data can work together across systems.",
+          "long_explanation": "Interoperability (I in FAIR) specifically refers to the ability of data to be combined with other data from different sources or systems. This requires using common formats, vocabularies, and standards so that diverse datasets can 'speak the same language' and be integrated for broader analysis, rather than remaining isolated. Options A, B, and D relate to Findable, Accessible, and Reusable, respectively."
+        },
+        {
+          "id": 8,
+          "question": "Which aspect of fairness focuses on how power relations, public engagement, and trust influence the pooling and analysis of data, often seen by some as external to the scientific process?",
+          "options": {
+            "A": "Legal fairness.",
+            "B": "Epistemic fairness.",
+            "C": "Methodological fairness.",
+            "D": "Social fairness."
+          },
+          "answer": "D",
+          "short_explanation": "Social fairness deals with societal context, power, and trust.",
+          "long_explanation": "Social fairness addresses the broader societal context of data and AI use, including who benefits, who holds power, and how trust is built or eroded. The text notes that despite its growing recognition, social fairness is 'often viewed as largely extraneous to research itself,' implying it's sometimes delegated to external governance rather than being an intrinsic part of the scientific methodology."
+        },
+        {
+          "id": 9,
+          "question": "During the 'Planning and Design' stage of implementing methodological fairness, a crucial step for researchers is to:",
+          "options": {
+            "A": "Immediately begin collecting the largest possible dataset to ensure statistical power.",
+            "B": "Acknowledge and be transparent about their 'ignorance of the population being sampled.'",
+            "C": "Prioritize technical efficiency over all other considerations to speed up development.",
+            "D": "Delegate all ethical considerations to an external ethics committee for review."
+          },
+          "answer": "B",
+          "short_explanation": "Acknowledge what you don't know about your data's source population.",
+          "long_explanation": "The 'Planning and Design' stage emphasizes critical self-awareness. Acknowledging 'ignorance of the population being sampled' is vital because it sets a realistic foundation for the research, prompting researchers to consider potential biases, limitations, and the need for broader consultations from the outset, rather than making unchecked assumptions. This prevents overgeneralization and promotes responsible data use."
+        },
+        {
+          "id": 10,
+          "question": "After an AI model for loan applications has been trained, a post-training bias mitigation strategy involves ensuring that the model's false negative rate (incorrectly denying a loan to someone who would have repaid) is similar across different racial groups. This is an example of:",
+          "options": {
+            "A": "Resampling.",
+            "B": "Equalized odds.",
+            "C": "Adversarial training.",
+            "D": "Fair representation."
+          },
+          "answer": "B",
+          "short_explanation": "Equalized odds balances error rates across groups post-training.",
+          "long_explanation": "Equalized odds is a post-training bias mitigation technique that aims to ensure that the model's true positive rate and false positive rate (or, as described in the question, false negative rate) are equal across different protected groups. Resampling (A) is pre-training, adversarial training (C) is a training-phase technique, and fair representation (D) is typically a pre-training or model design consideration."
+        },
+        {
+          "id": 11,
+          "question": "The concept of **epistemic fairness** is particularly relevant for AI and data because it focuses on:",
+          "options": {
+            "A": "The equal distribution of computational resources among researchers.",
+            "B": "Ensuring all data is freely available for public use without any restrictions.",
+            "C": "The legal compliance of data collection and storage practices.",
+            "D": "The extent to which our *ways of knowing* (through data and AI) enable fair treatment of people."
+          },
+          "answer": "D",
+          "short_explanation": "Epistemic fairness is about fair knowledge production.",
+          "long_explanation": "Epistemic fairness goes beyond just distributing resources (distributive fairness) or technical compliance. It delves into how our methods of knowledge creation and understanding, particularly through data and AI, shape our perception and treatment of different groups. It asks whether our 'ways of knowing' are fair and do not perpetuate biases or misrepresentations, which is critical given AI's role in shaping knowledge and decisions."
+        },
+        {
+          "id": 12,
+          "question": "According to the text, true data actionability, beyond mere technical opportunities, explicitly includes:",
+          "options": {
+            "A": "Maximizing data volume regardless of its source or quality.",
+            "B": "Minimizing external oversight to accelerate discovery.",
+            "C": "Investment in trustworthy governance and transdisciplinary expertise.",
+            "D": "Relying exclusively on automated processes to reduce human bias."
+          },
+          "answer": "C",
+          "short_explanation": "True actionability requires good governance and diverse expertise.",
+          "long_explanation": "The text clarifies that true data actionability is not just about technical functions like linkage or standardization. It fundamentally requires 'investment in trustworthy governance to increase participation and thereby representativeness of data governance accountable to contributors and users' and 'management of transdisciplinary expertise of relevance to data interpretation.' This holistic view ensures data is not only usable but also used responsibly and effectively for broad societal benefit."
+        },
+        {
+          "id": 13,
+          "question": "Which characteristic of data under the FAIR principles focuses on making it easily repurposable for future research, often involving clear licensing and detailed documentation?",
+          "options": {
+            "A": "Findable.",
+            "B": "Accessible.",
+            "C": "Interoperable.",
+            "D": "Reusable."
+          },
+          "answer": "D",
+          "short_explanation": "Reusable data can be repurposed with clear documentation.",
+          "long_explanation": "Reusable (R in FAIR) is about ensuring that data can be effectively used for future research, even by different researchers for different purposes. This goes beyond mere technical availability and includes crucial elements like clear data usage licenses, comprehensive metadata, and detailed documentation to ensure that the context and limitations of the data are well understood, enabling appropriate and ethical repurposing."
+        },
+        {
+          "id": 14,
+          "question": "To counter hermeneutical injustice in AI models, a key strategy involves:",
+          "options": {
+            "A": "Training the AI on a single, authoritative dataset to ensure consistency.",
+            "B": "Leveraging diverse sources of knowledge to expand the AI's understanding of complex phenomena.",
+            "C": "Strictly limiting the AI's scope to easily quantifiable metrics.",
+            "D": "Implementing post-training filters to remove any ambiguous outputs."
+          },
+          "answer": "B",
+          "short_explanation": "Hermeneutical injustice is countered by expanding understanding through diverse knowledge.",
+          "long_explanation": "Hermeneutical injustice stems from a lack of collective interpretive resources to understand certain experiences. To counter this in AI, the text suggests 'AI modelling that leverages diverse sources of knowledge to counter existing prejudice due to ignorance or lack of understanding.' This means actively seeking out and integrating varied data (e.g., social determinants of health alongside physical measures) to build a richer, more nuanced understanding of complex phenomena, rather than relying on narrow or simplistic datasets."
+        },
+        {
+          "id": 15,
+          "question": "The form of AI and data fairness that has been 'long recognized (and feared!) by research communities' primarily focuses on consent and protection from harm, exemplified by regulations like GDPR. This is:",
+          "options": {
+            "A": "Social fairness.",
+            "B": "Methodological fairness.",
+            "C": "Legal fairness.",
+            "D": "Epistemic fairness."
+          },
+          "answer": "C",
+          "short_explanation": "Consent and protection from harm are hallmarks of legal fairness.",
+          "long_explanation": "Legal fairness is the most established and often challenging aspect for researchers to navigate due to strict regulations like GDPR. Its core tenets are informed consent (ensuring individuals agree to data use) and protection from harm (safeguarding privacy and preventing misuse). This form of fairness sets the baseline for ethical data practices but doesn't fully encompass the broader social and methodological dimensions."
+        },
+        {
+          "id": 16,
+          "question": "During the 'Data Processing and Analysis' stage of implementing methodological fairness, a core practice is to:",
+          "options": {
+            "A": "Store all data indefinitely without clear retention policies.",
+            "B": "Actively look for and mitigate biases within the data and algorithms.",
+            "C": "Limit data analysis to only pre-defined, narrow research questions.",
+            "D": "Avoid any human intervention to maintain algorithmic purity."
+          },
+          "answer": "B",
+          "short_explanation": "Bias mitigation is key during data processing.",
+          "long_explanation": "The 'Data Processing and Analysis' stage is where algorithms are applied to raw data. Implementing methodological fairness here means actively engaging in bias detection and mitigation techniques. This is crucial because AI models can learn and amplify biases present in the data if not carefully managed. Options A, C, and D represent practices that would likely lead to unfair or unreliable outcomes."
+        },
+        {
+          "id": 17,
+          "question": "According to the text, a crucial aspect of 'Fair Governance' related to the 'Team' developing AI is:",
+          "options": {
+            "A": "Ensuring the team is composed solely of AI specialists to maximize efficiency.",
+            "B": "Prioritizing individual expertise over collaborative problem-solving.",
+            "C": "Fostering diversity and cross-disciplinary collaboration within the team.",
+            "D": "Minimizing external training to prevent conflicting methodologies."
+          },
+          "answer": "C",
+          "short_explanation": "Diverse, interdisciplinary teams promote fair governance.",
+          "long_explanation": "Fair governance, as part of bias mitigation, emphasizes that fairness is not just a technical problem but also a human and organizational one. The text explicitly states that 'Team' aspects of fair governance include 'Diversity' and 'Cross-disciplinary' collaboration. Diverse teams are more likely to identify and address biases that might be overlooked by a homogenous group, leading to more robust and fair AI systems."
+        },
+        {
+          "id": 18,
+          "question": "Once a dataset is found, the 'Accessible' principle of FAIR primarily concerns:",
+          "options": {
+            "A": "The ease with which data can be understood by non-experts.",
+            "B": "The ability for authorized users to retrieve the data through defined protocols.",
+            "C": "The automatic conversion of data into any required format.",
+            "D": "The public availability of all research data without any restrictions."
+          },
+          "answer": "B",
+          "short_explanation": "Accessible means data can be retrieved, not necessarily open to all.",
+          "long_explanation": "Accessible (A in FAIR) refers to the capability of retrieving the data once it has been located. It doesn't imply open access (D) but rather that data can be accessed under specified conditions or permissions, often via standard communication protocols. Options A and C describe aspects of usability or interoperability, but not the core meaning of accessibility."
+        },
+        {
+          "id": 19,
+          "question": "To counter testimonial injustice in AI modeling, one should:",
+          "options": {
+            "A": "Use only data from sources with established high credibility, regardless of representation.",
+            "B": "Focus on maximizing the speed of data processing to deliver results quickly.",
+            "C": "Rely on the AI's self-correction mechanisms to remove any inherent biases over time.",
+            "D": "Scrutinize input data and ensure fairness-aware algorithms are used to prevent discriminatory interpretations."
+          },
+          "answer": "D",
+          "short_explanation": "Counter testimonial injustice by scrutinizing input and using fair algorithms.",
+          "long_explanation": "Testimonial injustice in AI arises when the model's outputs (interpretations) are biased due to prejudiced input data. To counter this, the text advises 'AI modelling that takes account and actively counters existing prejudice about what counts as appropriate/relevant/adequate evidence and its interpretation.' This means actively examining the training data for biases and employing algorithms designed to produce fair outcomes, thus ensuring the AI's 'testimony' is not prejudiced."
+        },
+        {
+          "id": 20,
+          "question": "The text notes that **methodological fairness** is often 'not well-recognized by researchers.' This oversight is problematic because methodological fairness:",
+          "options": {
+            "A": "Is a purely legal concern that can be delegated to lawyers.",
+            "B": "Is less important than social or legal fairness in practical research.",
+            "C": "Is essential for the scientific soundness and ethical integrity of the research process itself.",
+            "D": "Primarily deals with post-publication data management, which is often an afterthought."
+          },
+          "answer": "C",
+          "short_explanation": "Methodological fairness is fundamental to good, ethical science.",
+          "long_explanation": "Methodological fairness is presented as a critical, yet often overlooked, aspect because it directly impacts the reliability, credibility, and justice of research outputs. It ensures that the core scientific processes—from how data is produced and gathered to how it's analyzed and interpreted—are conducted ethically and without perpetuating biases, thus making the science itself more sound and trustworthy. It is not merely a legal or post-publication concern."
+        },
+        {
+          "id": 21,
+          "question": "The common conceptualization of actionability and accountability as incompatible, leading to a 'trade-off,' implies that:",
+          "options": {
+            "A": "Both qualities are equally undesirable in data governance.",
+            "B": "Increasing one quality will unavoidably decrease the other.",
+            "C": "They are mutually reinforcing, always improving together.",
+            "D": "Only one of them can ever be fully achieved in any given system."
+          },
+          "answer": "B",
+          "short_explanation": "A trade-off means increasing one necessitates decreasing the other.",
+          "long_explanation": "The definition of a 'trade-off' provided in the text (from the Cambridge English Dictionary) is 'A situation in which the achieving of something you want involves the loss of something else which is also desirable, but less so.' This directly translates to option B, where increasing actionability is perceived to unavoidably decrease accountability, and vice versa. The chapter argues against this perception by showing how they can be integrated for better long-term outcomes."
+        },
+        {
+          "id": 22,
+          "question": "Which of the following is a bias mitigation strategy applied *during* the AI model's training process?",
+          "options": {
+            "A": "Resampling the input dataset.",
+            "B": "Calibrating equalized odds.",
+            "C": "Documenting data sources.",
+            "D": "Implementing adversarial training."
+          },
+          "answer": "D",
+          "short_explanation": "Adversarial training is a technique used during the model's learning phase.",
+          "long_explanation": "Adversarial training is a technique where two parts of the AI system are trained in opposition to each other to reduce bias. This occurs as part of the model's learning process. Resampling (A) is a pre-training technique. Calibrating equalized odds (B) is a post-training adjustment. Documenting data sources (C) is a part of fair governance related to data practices, not a direct training strategy."
+        },
+        {
+          "id": 23,
+          "question": "Miranda Fricker's concept of **testimonial injustice** is best described as:",
+          "options": {
+            "A": "The inability to understand an experience due to a lack of shared concepts.",
+            "B": "A deficit in credibility given to someone's testimony due to prejudice.",
+            "C": "The unequal distribution of resources or opportunities in a society.",
+            "D": "A legal requirement for obtaining informed consent from data subjects."
+          },
+          "answer": "B",
+          "short_explanation": "Testimonial injustice is about prejudiced credibility.",
+          "long_explanation": "Testimonial injustice, as defined by Miranda Fricker, refers to the wrong committed when someone's spoken or written account (testimony) is unjustly dismissed or given less weight because of a prejudice held by the hearer(s) against the speaker's social identity. Option A describes hermeneutical injustice, C describes distributive fairness, and D describes a legal requirement."
+        },
+        {
+          "id": 24,
+          "question": "When making 'Data Choices, Sampling, and Acquisition' in methodologically fair research, it is crucial to engage in consultations that go 'well beyond a narrow group of technical experts' to:",
+          "options": {
+            "A": "Speed up the data acquisition process through diverse networks.",
+            "B": "Ensure the technical feasibility of data integration.",
+            "C": "Critically assess if the chosen data is the *fairest* and most representative for the research question.",
+            "D": "Minimize the financial cost of data acquisition."
+          },
+          "answer": "C",
+          "short_explanation": "Consultations ensure data fairness and representativeness.",
+          "long_explanation": "Engaging in broader consultations during data acquisition is a core component of methodological fairness. The goal is not just technical feasibility (B) or efficiency (A, D), but to critically evaluate whether the data being collected is truly representative, avoids perpetuating biases, and is fair to all affected communities. This helps counter testimonial and hermeneutical injustices by ensuring a diverse and appropriate evidence base."
+        },
+        {
+          "id": 25,
+          "question": "John Rawls's 'veil of ignorance' is a thought experiment primarily used to identify fairness from a perspective that is:",
+          "options": {
+            "A": "Deeply contextual and stakeholder-specific.",
+            "B": "Focused on maximizing economic utility for all.",
+            "C": "Determined by existing legal precedents and regulations.",
+            "D": "Abstract, impartial, and context-independent."
+          },
+          "answer": "D",
+          "short_explanation": "Rawls's veil promotes abstract, impartial justice.",
+          "long_explanation": "John Rawls's 'veil of ignorance' is a philosophical tool designed to help determine principles of justice by asking individuals to imagine themselves in an original position where they are unaware of their own social status, abilities, or preferences. This ensures that the chosen principles are fair and impartial, making it an inherently abstract and context-independent approach to fairness, contrasting with the more grounded approach advocated in the chapter."
+        },
+        {
+          "id": 26,
+          "question": "The 'Findable' principle of FAIR data emphasizes:",
+          "options": {
+            "A": "The ease with which data can be altered by users.",
+            "B": "The speed of data transfer between different systems.",
+            "C": "The absolute openness of data to any user without restriction.",
+            "D": "The ability to discover data through unique identifiers and rich metadata."
+          },
+          "answer": "D",
+          "short_explanation": "Findable data is discoverable via identifiers and metadata.",
+          "long_explanation": "Findable (F in FAIR) focuses on making data easy to locate for both humans and machines. This is achieved by assigning globally unique and persistent identifiers to data and by ensuring that rich metadata (data about data) is available and searchable. Options A, B, and C describe aspects unrelated or contrary to the Findable principle, which is about discoverability, not mutability, speed, or absolute openness."
+        },
+        {
+          "id": 27,
+          "question": "Despite its growing recognition, social fairness in AI and data research is often perceived as:",
+          "options": {
+            "A": "A primary driver for technological innovation.",
+            "B": "Largely extraneous to the research process itself, delegated to external governance.",
+            "C": "An integral part of core algorithmic development.",
+            "D": "A simple matter of technical compliance."
+          },
+          "answer": "B",
+          "short_explanation": "Social fairness is often seen as an external, not internal, research concern.",
+          "long_explanation": "The text highlights that while social fairness (which concerns public engagement, power relations, and trust) is gaining recognition, it is 'often viewed as largely extraneous to research itself,' meaning it's frequently delegated to external bodies like ethics committees rather than being integrated into the core design and execution of the research by the researchers themselves. This contrasts with methodological fairness, which advocates for internal integration."
+        },
+        {
+          "id": 28,
+          "question": "Under 'Fair Governance,' the 'Data' aspect emphasizes:",
+          "options": {
+            "A": "Collecting data exclusively from easily accessible public sources.",
+            "B": "Minimizing documentation to protect proprietary methods.",
+            "C": "Ensuring data collection is ethical, and datasets are thoroughly documented and, where appropriate, open access.",
+            "D": "Prioritizing data volume over data quality."
+          },
+          "answer": "C",
+          "short_explanation": "Fair data governance prioritizes ethical collection, documentation, and openness.",
+          "long_explanation": "The 'Data' aspect of 'Fair Governance' (under bias mitigation) explicitly focuses on ensuring ethical data collection, thorough documentation of datasets, and promoting open access where appropriate. This transparency and ethical rigor are crucial for accountability and for others to scrutinize and build upon the data responsibly. Options A, B, and D represent practices that would likely undermine fairness and good governance."
+        },
+        {
+          "id": 29,
+          "question": "Miranda Fricker's concept of **hermeneutical injustice** occurs when:",
+          "options": {
+            "A": "An individual's testimony is dismissed due to their social identity.",
+            "B": "Data is not distributed equally among different research institutions.",
+            "C": "AI models are trained on data that is not fully representative.",
+            "D": "There is a lack of collective interpretive resources to make sense of an experience."
+          },
+          "answer": "D",
+          "short_explanation": "Hermeneutical injustice is a conceptual gap in understanding an experience.",
+          "long_explanation": "Hermeneutical injustice, as defined by Miranda Fricker, is a systemic wrong that occurs when an individual or group experiences a harm or a significant aspect of their reality, but their society lacks the shared concepts or interpretive tools to adequately understand or articulate that experience. Option A describes testimonial injustice. Options B and C describe issues related to distributive fairness or representational bias, but not the core conceptual gap of hermeneutical injustice."
+        },
+        {
+          "id": 30,
+          "question": "In the 'Reporting and Publishing' stage of methodologically fair research, a key practice is to:",
+          "options": {
+            "A": "Present findings in a way that maximizes positive societal impact, even if it means omitting minor limitations.",
+            "B": "Focus solely on presenting statistically significant results to highlight breakthroughs.",
+            "C": "Be transparent about data limitations, methods, and the generalizability of findings.",
+            "D": "Publish raw datasets without any accompanying metadata for maximum accessibility."
+          },
+          "answer": "C",
+          "short_explanation": "Transparent reporting of limitations is crucial for methodological fairness.",
+          "long_explanation": "The 'Reporting and Publishing' stage emphasizes transparency as a core component of methodological fairness. This includes clearly stating the limitations of the data (e.g., who is not represented), detailing the methods used, and being honest about the generalizability of the findings. This practice ensures that others can properly interpret and critique the research, preventing misleading conclusions and fostering greater scientific integrity, rather than selectively presenting results (A, B) or sharing data without context (D)."
+        }
+      ]
+    }
+  ]
+}
