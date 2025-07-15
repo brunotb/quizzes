@@ -392,15 +392,30 @@
             // Function to get all wrong answers from localStorage
             function getAllWrongAnswers() {
                 const wrongAnswers = new Set();
+                const correctAnswers = new Set();
+                
+                // First collect all correct answers
                 quizData.chapters.forEach((_, index) => {
                     const savedProgress = localStorage.getItem(`quiz_progress_chapter_${index}`);
                     if (savedProgress) {
                         const progress = JSON.parse(savedProgress);
                         Object.values(progress.userAnswers)
-                            .filter(a => !a.isCorrect)
+                            .filter(a => a.isCorrect)
+                            .forEach(answer => correctAnswers.add(answer.questionId));
+                    }
+                });
+                
+                // Then collect wrong answers that haven't been answered correctly in any chapter
+                quizData.chapters.forEach((_, index) => {
+                    const savedProgress = localStorage.getItem(`quiz_progress_chapter_${index}`);
+                    if (savedProgress) {
+                        const progress = JSON.parse(savedProgress);
+                        Object.values(progress.userAnswers)
+                            .filter(a => !a.isCorrect && !correctAnswers.has(a.questionId))
                             .forEach(answer => wrongAnswers.add(answer.questionId));
                     }
                 });
+                
                 return Array.from(wrongAnswers);
             }
 
@@ -537,6 +552,11 @@
 
             function startReviewChapter() {
                 const wrongAnswerIds = getAllWrongAnswers();
+                if (wrongAnswerIds.length === 0) {
+                    alert("No questions to review! You've correctly answered all questions you previously got wrong.");
+                    return;
+                }
+                
                 currentQuestions = allQuestions.filter(q => wrongAnswerIds.includes(q.id));
                 currentChapterIndex = -1; // Special value for review chapter
                 currentQuestionIndex = 0;
@@ -546,8 +566,15 @@
                 const savedProgress = localStorage.getItem('quiz_progress_review');
                 if (savedProgress) {
                     const progress = JSON.parse(savedProgress);
-                    userAnswers = progress.userAnswers;
-                    currentQuestionIndex = progress.currentQuestionIndex;
+                    // Only load answers for questions that are still in the review list
+                    const filteredAnswers = {};
+                    Object.entries(progress.userAnswers).forEach(([id, answer]) => {
+                        if (wrongAnswerIds.includes(answer.questionId)) {
+                            filteredAnswers[id] = answer;
+                        }
+                    });
+                    userAnswers = filteredAnswers;
+                    currentQuestionIndex = Math.min(progress.currentQuestionIndex, currentQuestions.length - 1);
                 }
                 
                 // Remove keyboard shortcuts panel before showing questions
