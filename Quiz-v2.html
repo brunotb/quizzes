@@ -393,28 +393,47 @@
             function getAllWrongAnswers() {
                 const wrongAnswers = new Set();
                 const correctAnswers = new Set();
+                const processedAnswers = new Map(); // Store the latest answer for each question
                 
-                // First collect all correct answers
-                quizData.chapters.forEach((_, index) => {
+                // Process all answers from all chapters and review chapter
+                [...Array(quizData.chapters.length)].forEach((_, index) => {
                     const savedProgress = localStorage.getItem(`quiz_progress_chapter_${index}`);
                     if (savedProgress) {
                         const progress = JSON.parse(savedProgress);
-                        Object.values(progress.userAnswers)
-                            .filter(a => a.isCorrect)
-                            .forEach(answer => correctAnswers.add(answer.questionId));
+                        Object.values(progress.userAnswers).forEach(answer => {
+                            const timestamp = progress.timestamp;
+                            if (!processedAnswers.has(answer.questionId) || 
+                                processedAnswers.get(answer.questionId).timestamp < timestamp) {
+                                processedAnswers.set(answer.questionId, { ...answer, timestamp });
+                            }
+                        });
                     }
                 });
-                
-                // Then collect wrong answers that haven't been answered correctly in any chapter
-                quizData.chapters.forEach((_, index) => {
-                    const savedProgress = localStorage.getItem(`quiz_progress_chapter_${index}`);
-                    if (savedProgress) {
-                        const progress = JSON.parse(savedProgress);
-                        Object.values(progress.userAnswers)
-                            .filter(a => !a.isCorrect && !correctAnswers.has(a.questionId))
-                            .forEach(answer => wrongAnswers.add(answer.questionId));
+
+                // Also check review chapter answers
+                const reviewProgress = localStorage.getItem('quiz_progress_review');
+                if (reviewProgress) {
+                    const progress = JSON.parse(reviewProgress);
+                    Object.values(progress.userAnswers).forEach(answer => {
+                        const timestamp = progress.timestamp;
+                        if (!processedAnswers.has(answer.questionId) || 
+                            processedAnswers.get(answer.questionId).timestamp < timestamp) {
+                            processedAnswers.set(answer.questionId, { ...answer, timestamp });
+                        }
+                    });
+                }
+
+                // Process the most recent answers for each question
+                processedAnswers.forEach((answer) => {
+                    if (answer.isCorrect) {
+                        correctAnswers.add(answer.questionId);
+                    } else {
+                        wrongAnswers.add(answer.questionId);
                     }
                 });
+
+                // Remove any wrong answers that have been answered correctly
+                correctAnswers.forEach(id => wrongAnswers.delete(id));
                 
                 return Array.from(wrongAnswers);
             }
@@ -423,7 +442,7 @@
             async function initializeQuiz() {
                 try {
                     // Try to load all chapters from 1 to 12
-                    const totalChapters = 12;
+                    const totalChapters = 13;
                     for (let chapterIndex = 1; chapterIndex <= totalChapters; chapterIndex++) {
                         try {
                             const response = await fetch(`quiz-data-Chapter${chapterIndex}.json`);
@@ -493,7 +512,10 @@
                         quizData.chapters.forEach((_, index) => {
                             localStorage.removeItem(`quiz_progress_chapter_${index}`);
                         });
+                        // Also clear review chapter progress
+                        localStorage.removeItem('quiz_progress_review');
                         alert('All progress has been reset.');
+                        displayMainMenu(); // Refresh the menu
                     }
                 });
                 mainMenuContainer.appendChild(resetBtn);
