@@ -435,6 +435,18 @@
                     chapterBtn.addEventListener('click', () => startChapterQuiz(index));
                     mainMenuContainer.appendChild(chapterBtn);
                 });
+
+                // Show keyboard shortcuts help
+                const shortcuts = document.createElement('div');
+                shortcuts.className = 'keyboard-shortcuts';
+                shortcuts.innerHTML = `
+                    <div>Keyboard Shortcuts:</div>
+                    <div>← Previous Question</div>
+                    <div>→ Next Question</div>
+                    <div>1-4 Select Answer</div>
+                    <div>Space Show/Hide Explanation</div>
+                `;
+                document.body.appendChild(shortcuts);
                 showMenuView();
             }
 
@@ -452,20 +464,14 @@
                     currentQuestionIndex = progress.currentQuestionIndex;
                 }
                 
+                // Remove keyboard shortcuts panel before showing questions
+                const shortcuts = document.querySelector('.keyboard-shortcuts');
+                if (shortcuts) {
+                    shortcuts.remove();
+                }
+                
                 showQuizView();
                 displayQuestion();
-                
-                // Show keyboard shortcuts help
-                const shortcuts = document.createElement('div');
-                shortcuts.className = 'keyboard-shortcuts';
-                shortcuts.innerHTML = `
-                    <div>Keyboard Shortcuts:</div>
-                    <div>← Previous Question</div>
-                    <div>→ Next Question</div>
-                    <div>1-4 Select Answer</div>
-                    <div>Space Show/Hide Explanation</div>
-                `;
-                document.body.appendChild(shortcuts);
             }
             
             function startRetryMode() {
