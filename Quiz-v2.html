@@ -436,6 +436,23 @@
                     mainMenuContainer.appendChild(chapterBtn);
                 });
 
+                // Add reset progress button
+                const resetBtn = document.createElement('button');
+                resetBtn.className = 'nav-btn';
+                resetBtn.style.marginTop = '20px';
+                resetBtn.style.backgroundColor = '#dc3545';
+                resetBtn.textContent = 'Reset All Progress';
+                resetBtn.addEventListener('click', () => {
+                    if (confirm('Are you sure you want to reset all quiz progress? This cannot be undone.')) {
+                        // Clear all chapter progress from localStorage
+                        quizData.chapters.forEach((_, index) => {
+                            localStorage.removeItem(`quiz_progress_chapter_${index}`);
+                        });
+                        alert('All progress has been reset.');
+                    }
+                });
+                mainMenuContainer.appendChild(resetBtn);
+
                 // Show keyboard shortcuts help
                 const shortcuts = document.createElement('div');
                 shortcuts.className = 'keyboard-shortcuts';
