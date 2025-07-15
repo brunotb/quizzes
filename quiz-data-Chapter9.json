@@ -5,485 +5,393 @@
       "questions": [
         {
           "id": 1,
-          "question": "Which of the following best describes the core concept of 'epistemic injustice' as introduced in the lecture?",
+          "question": "What is the primary characteristic that distinguishes 'epistemic harms' from other types of harm, such such as physical or financial harm?",
           "options": {
-            "A": "Harms that occur when individuals are denied access to education.",
-            "B": "Wrongs that happen to people in their capacity as knowers, related to how knowledge is produced, shared, and valued.",
-            "C": "The misinterpretation of scientific data by non-experts.",
-            "D": "Injustices that only affect academic researchers and philosophers."
-          }
+            "A": "They damage a person's or group's capacity to know, be understood, or contribute to knowledge.",
+            "B": "They always involve deliberate malice or intent to cause damage.",
+            "C": "They solely affect individuals, not groups or communities.",
+            "D": "They are primarily concerned with the theft of tangible intellectual property."
+          },
+          "answer": "A",
+          "short_explanation": "Epistemic harms are about damage to one's knowing capacity.",
+          "long_explanation": "Epistemic harms are ethical or knowledge-based injuries that specifically compromise an individual's or group's ability to produce, access, or share knowledge. Unlike physical or financial harms, they target the realm of 'knowing' rather than bodily integrity or material wealth. While they can have physical or financial consequences, their primary nature is epistemic."
         },
         {
           "id": 2,
-          "question": "An AI system that is disproportionately less accurate for certain demographic groups due to biased training data, leading to misdiagnoses, primarily exemplifies which type of epistemic harm manifestation?",
+          "question": "According to Miranda Fricker, what is the core mechanism of testimonial injustice?",
           "options": {
-            "A": "Censorship & Exclusion",
-            "B": "Dismissal of Valid Methods",
-            "C": "Credibility Hierarchies",
-            "D": "Unacknowledged Exploitation of Intellectual Labor"
-          }
+            "A": "The deliberate withholding of information from a speaker.",
+            "B": "The unfair discounting of a speaker's credibility due to prejudice.",
+            "C": "The absence of shared concepts to understand an experience.",
+            "D": "The exploitation of intellectual labor without proper compensation."
+          },
+          "answer": "B",
+          "short_explanation": "Testimonial injustice is about biased credibility judgments.",
+          "long_explanation": "Fricker defines testimonial injustice as occurring when a speaker's credibility is considered deficient by a hearer in virtue of identity prejudice held by the hearer. This leads to their testimony being unfairly dismissed or given less weight, regardless of its truthfulness."
         },
         {
           "id": 3,
-          "question": "According to Fricker, what are the primary root causes of epistemic injustice?",
+          "question": "A research team consistently overlooks valuable insights from junior members because their internal communication tools are outdated and difficult to use. According to Kristie Dotson's framework, what 'order' of exclusion does this best represent?",
           "options": {
-            "A": "Technological advancements and lack of digital literacy.",
-            "B": "Social marginalization and prejudice.",
-            "C": "Individual cognitive biases and logical fallacies.",
-            "D": "Insufficient funding for knowledge production."
-          }
+            "A": "Second-Order Exclusion",
+            "B": "Third-Order Exclusion",
+            "C": "First-Order Exclusion",
+            "D": "Zero-Order Exclusion"
+          },
+          "answer": "C",
+          "short_explanation": "Inefficient tools cause First-Order Exclusion.",
+          "long_explanation": "Dotson's First-Order Exclusions refer to inefficient practices or poor execution within existing systems that lead to knowledge being overlooked. These are often fixable with straightforward solutions like better training, clearer guidelines, or improved tools, distinguishing them from deeper structural issues."
         },
         {
           "id": 4,
-          "question": "In the medical context, 'diagnostic nondisclosure' primarily leads to which of the following outcomes for patients?",
+          "question": "Which of the following best exemplifies Linda Martín Alcoff's concept of 'Epistemic Extractivism'?",
           "options": {
-            "A": "Increased medical literacy and self-advocacy.",
-            "B": "Isolation from understanding and participating in their own care.",
-            "C": "Faster diagnosis and more efficient treatment plans.",
-            "D": "A stronger trust relationship with their healthcare providers."
-          }
+            "A": "A university publishing research without proper peer review.",
+            "B": "A government agency censoring scientific findings that contradict its policies.",
+            "C": "A research team failing to share their full dataset due to internal disagreements.",
+            "D": "A pharmaceutical company patenting a traditional medicinal plant compound without acknowledging or compensating the Indigenous community from which the knowledge originated."
+          },
+          "answer": "D",
+          "short_explanation": "Extractivism is taking knowledge as a commodity without fair return.",
+          "long_explanation": "Epistemic extractivism, as per Alcoff, treats knowledge as a commodity, stripping it from its context and ignoring the epistemic agency of the originating community. Patenting traditional knowledge for profit without acknowledgment or benefit-sharing directly exemplifies this, as the knowledge is extracted for its exchange-value without respecting its original use-value or community ownership."
         },
         {
           "id": 5,
-          "question": "A healthcare system relying on 'normal' physiological responses, which then consistently misinterprets or dismisses symptoms from patients with neurodivergent conditions, is an example of ableist norms leading to which type of harm?",
+          "question": "In the 'Curare Case,' Goldstein argues that the patients' suffering constituted a 'warranted epistemic harm' (epistemic disadvantage) in part because:",
           "options": {
-            "A": "Diagnostic Nondisclosure",
-            "B": "Imposed Ignorance",
-            "C": "Skewed Assumptions",
-            "D": "Testimonial Injustice"
-          }
+            "A": "Patients lacked the specialized medical knowledge to understand the drug's properties, making their exclusion from medical decision-making 'justified' in that specific context.",
+            "B": "Physicians deliberately intended to cause pain to the patients.",
+            "C": "The concept of 'pain' was entirely absent from the medical discourse of the 1940s.",
+            "D": "The patients' testimony was dismissed solely due to identity prejudice against children, with no other contributing factors."
+          },
+          "answer": "A",
+          "short_explanation": "Warranted harm implies justified exclusion due to expertise differences.",
+          "long_explanation": "Goldstein's concept of 'warranted epistemic harm' or 'epistemic disadvantage' applies when harm results from warranted asymmetrical relations that justifiably exclude individuals from hermeneutical participation. In the Curare case, while testimonial injustice (due to prejudice against children) was present, the 'warranted' aspect came from the patients' non-expert status regarding the drug's pharmacological properties, combined with the non-deliberate scientific misunderstanding by the physicians at the time. The exclusion from technical understanding was 'justified' by their lack of medical expertise."
         },
         {
           "id": 6,
-          "question": "Gardiner's concept of 'error-pattern harms' suggests that social patterns primarily influence what aspect of knowledge?",
+          "question": "A large tech company initiates a 'community partnership' to collect data from a low-income neighborhood for an AI project. The community provides significant time and local knowledge, but the company retains full ownership of the data and all future profits, offering the community only token gestures. This scenario best illustrates:",
           "options": {
-            "A": "The speed at which new knowledge is disseminated.",
-            "B": "Which kinds of errors are considered possible or plausible.",
-            "C": "The ethical guidelines for data collection.",
-            "D": "The financial valuation of intellectual property."
-          }
+            "A": "Diagnostic Nondisclosure",
+            "B": "Exploitative Inclusion",
+            "C": "Hermeneutical Injustice",
+            "D": "First-Order Exclusion"
+          },
+          "answer": "B",
+          "short_explanation": "Inclusion without fair return is exploitative.",
+          "long_explanation": "Pohlhaus's 'exploitative inclusion' describes systems that include marginalized knowers but exploit them through non-reciprocal extraction of epistemic labor. The community is 'included' in the data collection, but the benefits flow predominantly to the company, demonstrating a problematic form of inclusion where power dynamics remain skewed and the community's intellectual labor is exploited without equitable return."
         },
         {
           "id": 7,
-          "question": "The Curare Case, as analyzed by Goldstein, is primarily presented as an instance of which specific type of harm?",
-          "options": {
-            "A": "Hermeneutical Injustice due to a missing concept of pain.",
-            "B": "Unjust Epistemic Harm due to deliberate prejudice against children.",
-            "C": "Warranted Epistemic Harm (Epistemic Disadvantage) due to non-deliberate scientific misunderstanding and justified knowledge asymmetry.",
-            "D": "Exploitative Inclusion of patient testimony without proper medical context."
-          }
-        },
-        {
-          "id": 8,
-          "question": "According to Dotson, if a knowledge-producing system suffers from 'inefficient practices' (e.g., poor communication channels), this represents a:",
-          "options": {
-            "A": "Third-Order Exclusion, requiring a paradigm shift.",
-            "B": "First-Order Exclusion, fixable with training or better protocols.",
-            "C": "Second-Order Exclusion, requiring new conceptual frameworks.",
-            "D": "Fundamental design flaw that cannot be easily remedied."
-          }
-        },
-        {
-          "id": 9,
-          "question": "A research collaboration includes community members in data collection but then uses their insights without proper credit or equitable benefit-sharing. This scenario best exemplifies:",
-          "options": {
-            "A": "Diagnostic Nondisclosure",
-            "B": "Epistemic Extractivism",
-            "C": "First-Order Exclusion",
-            "D": "Hermeneutical Injustice"
-          }"
-        },
-        {
-          "id": 10,
-          "question": "Alcoff's concept of 'Epistemic Extractivism' emphasizes a shift in how knowledge is primarily valued. What is this shift?",
-          "options": {
-            "A": "From qualitative to quantitative valuation.",
-            "B": "From use-value to exchange-value.",
-            "C": "From individual ownership to collective ownership.",
-            "D": "From theoretical understanding to practical application."
-          }
-        },
-        {
-          "id": 11,
-          "question": "The MIDEQ project giving its corridor teams full control over what data was shared and with whom was a deliberate attempt to counter which specific type of epistemic harm?",
-          "options": {
-            "A": "Imposed Ignorance",
-            "B": "Testimonial Injustice",
-            "C": "Exploitative Inclusion",
-            "D": "First-Order Exclusion"
-          }
-        },
-        {
-          "id": 12,
-          "question": "Which of the following is a primary manifestation of 'epistemic harms' related to how knowledge is valued?",
-          "options": {
-            "A": "Increased funding for interdisciplinary research.",
-            "B": "The development of new analytical software.",
-            "C": "The establishment of credibility hierarchies.",
-            "D": "Global standardization of academic publishing."
-          }
-        },
-        {
-          "id": 13,
-          "question": "When a society lacks the collective concepts to understand a certain experience, and marginalized groups are excluded from shaping those concepts, Fricker would identify this as:",
+          "question": "When public narratives or medical discourse create distortions about a condition (e.g., autism), preventing individuals from recognizing their own symptoms or developing self-agency, this is termed:",
           "options": {
             "A": "Testimonial Injustice",
             "B": "Diagnostic Nondisclosure",
-            "C": "Hermeneutical Injustice",
-            "D": "Epistemic Disadvantage"
-          }
-        },
-        {
-          "id": 14,
-          "question": "An AI model designed for medical diagnosis is trained predominantly on data from one specific ethnic group, leading to inaccurate diagnoses for other groups. This best illustrates:",
-          "options": {
-            "A": "Diagnostic Nondisclosure",
-            "B": "Imposed Ignorance",
-            "C": "Ableist Norms in AI",
-            "D": "Distributive Epistemic Injustice"
-          }
-        },
-        {
-          "id": 15,
-          "question": "The 'burden of proof' being unfairly placed on a victim to demonstrate they are not lying or mistaken, especially when their testimony challenges a dominant narrative, is an extension of testimonial injustice described by Gardiner as:",
-          "options": {
-            "A": "Gaslighting",
-            "B": "Error-Pattern Harms",
-            "C": "The 'Crying Wolf' trope",
-            "D": "Conspiracy Skepticism"
-          }
-        },
-        {
-          "id": 16,
-          "question": "Goldstein's analysis of the Curare Case argues against it being a classic case of hermeneutical injustice because:",
-          "options": {
-            "A": "The concept of pain was universally understood by both patients and physicians.",
-            "B": "Physicians deliberately intended to mislead patients about the drug's effects.",
-            "C": "Patients had full access to medical literature on Curare.",
-            "D": "The harm was primarily physical, not epistemic."
-          }
-        },
-        {
-          "id": 17,
-          "question": "According to Dotson, a 'paradigm shift' is required to address which level of structural epistemic oppression?",
-          "options": {
-            "A": "First-Order Exclusions",
-            "B": "Second-Order Exclusions",
-            "C": "Third-Order Exclusions",
-            "D": "All orders equally require paradigm shifts."
-          }
-        },
-        {
-          "id": 18,
-          "question": "Pohlhaus's concept of 'Exploitative Inclusion' primarily focuses on the issue of:",
-          "options": {
-            "A": "Outright exclusion of marginalized knowers from collaborations.",
-            "B": "The non-reciprocal extraction of epistemic labor.",
-            "C": "The deliberate misrepresentation of research findings.",
-            "D": "The lack of diverse representation in academic publishing."
-          }
-        },
-        {
-          "id": 19,
-          "question": "When knowledge is treated as a raw commodity, stripped of its context, and its originating community's agency is ignored, Alcoff terms this:",
-          "options": {
-            "A": "Epistemic Disadvantage",
-            "B": "Imposed Ignorance",
-            "C": "Epistemic Extractivism",
-            "D": "Diagnostic Nondisclosure"
-          }
-        },
-        {
-          "id": 20,
-          "question": "The MIDEQ project observed that lower-resourced partners often chose to restrict data sharing. This act, while protective, contributes to a broader knowledge gap and is termed by Alcalay & VandeKerckhove as:",
-          "options": {
-            "A": "Unjust Epistemic Harm",
-            "B": "Deliberate Hermeneutical Injustice",
-            "C": "Epistemically Disadvantageous Extractivism",
-            "D": "Self-inflicted Epistemic Harm"
-          }
-        },
-        {
-          "id": 21,
-          "question": "Which of the following is NOT a general manifestation of epistemic harms?",
-          "options": {
-            "A": "Censorship & Exclusion",
-            "B": "Dismissal of Valid Methods",
-            "C": "Increased Interdisciplinary Collaboration",
-            "D": "Unacknowledged Exploitation of Intellectual Labor"
-          }
-        },
-        {
-          "id": 22,
-          "question": "Fricker's concept of 'testimonial injustice' primarily involves a credibility deficit based on:",
-          "options": {
-            "A": "Lack of formal education.",
-            "B": "Identity prejudice.",
-            "C": "Inability to articulate complex ideas.",
-            "D": "The speaker's emotional state."
-          }
-        },
-        {
-          "id": 23,
-          "question": "The medical concept of 'Imposed Ignorance' highlights how public narratives can lead to which outcome for individuals?",
-          "options": {
-            "A": "Enhanced self-agency and symptom recognition.",
-            "B": "Increased access to specialized medical knowledge.",
-            "C": "Prevention of symptom recognition and self-agency.",
-            "D": "More accurate diagnostic tools for rare diseases."
-          }
-        },
-        {
-          "id": 24,
-          "question": "In the context of ableism and medical error, 'skewed assumptions' refer to:",
-          "options": {
-            "A": "Unintentional biases that lead to misinterpretations of patient data.",
-            "B": "Deliberate attempts by medical professionals to mislead patients.",
-            "C": "The misapplication of medical terminology by patients.",
-            "D": "The sole reliance on anecdotal evidence in diagnosis."
-          }
-        },
-        {
-          "id": 25,
-          "question": "The 'Curare Case' is used by Goldstein to highlight that harm can result from 'warranted' exclusions. A key condition for such warranted harms is that they are:",
-          "options": {
-            "A": "Always deliberate and malicious.",
-            "B": "Primarily caused by identity-based prejudice.",
-            "C": "Non-deliberate, arising in circumstances of 'bad luck'.",
-            "D": "Always fixable through simple training protocols."
-          }
-        },
-        {
-          "id": 26,
-          "question": "Which of the following scenarios best represents a 'Second-Order Exclusion' according to Dotson?",
-          "options": {
-            "A": "A poorly organized database making it hard to find information.",
-            "B": "A community lacking a shared concept to articulate a systemic social problem.",
-            "C": "An institution's foundational values inherently devaluing certain types of research.",
-            "D": "An individual being denied a research grant due to their political views."
-          }
-        },
-        {
-          "id": 27,
-          "question": "The core mechanism of 'Exploitative Inclusion' involves:",
-          "options": {
-            "A": "Complete social and epistemic isolation.",
-            "B": "Non-reciprocal extraction of epistemic labor.",
-            "C": "Mandatory data sharing without consent.",
-            "D": "The equitable distribution of research benefits."
-          }
-        },
-        {
-          "id": 28,
-          "question": "Alcoff’s 'Epistemic Extractivism' is characterized by the stripping of knowledge from its context. This action primarily leads to:",
-          "options": {
-            "A": "Increased global knowledge sharing efficiency.",
-            "B": "A more universal and objective understanding of data.",
-            "C": "The distortion of knowledge and injustice to the originating community.",
-            "D": "Enhanced data security and privacy protocols."
-          }
-        },
-        {
-          "id": 29,
-          "question": "The MIDEQ project's two-year process to formalize data-sharing protocols, despite good intentions, highlights the complexity of achieving equitable knowledge sharing, particularly because:",
-          "options": {
-            "A": "All partners had conflicting personal agendas.",
-            "B": "Lower-resourced partners legitimately feared misuse and loss of agency over their data.",
-            "C": "The project lacked sufficient funding to implement effective protocols.",
-            "D": "The research topics were inherently too sensitive for open sharing."
-          }
-        },
-        {
-          "id": 30,
-          "question": "An AI system that learns to reproduce the 'crying wolf' trope, systematically dismissing repeated warnings from a specific community regardless of their validity, exemplifies which concept?",
-          "options": {
-            "A": "Diagnostic Nondisclosure",
-            "B": "Imposed Ignorance",
-            "C": "Error-Pattern Harms",
-            "D": "Exploitative Inclusion"
-          }
-        }
-      ],
-      "answers": [
-        {
-          "id": 1,
-          "answer": "B",
-          "short_explanation": "Epistemic injustice is about unfairness in how knowledge is handled, impacting people as knowers.",
-          "long_explanation": "Epistemic injustice refers to wrongs that happen to people in their capacity as knowers, specifically in how knowledge is produced, accessed, shared, and valued. It goes beyond simple denial of education to encompass broader issues of credibility, understanding, and participation in knowledge systems. It is not limited to academics but affects anyone whose knowledge or experiences are unjustly devalued."
-        },
-        {
-          "id": 2,
+            "C": "Imposed Ignorance",
+            "D": "Error-Pattern Harm"
+          },
           "answer": "C",
-          "short_explanation": "Biased training data leading to misdiagnosis due to less accuracy for certain groups creates a hierarchy where some groups' data (and thus their experiences) are implicitly valued less by the AI.",
-          "long_explanation": "Credibility hierarchies manifest when some people's knowledge or information is given more weight than others. If an AI system is trained on biased data, it effectively creates an algorithmic credibility hierarchy, where the experiences and data of underrepresented or marginalized groups are less accurately processed, leading to misdiagnoses. This implies their 'knowledge' (their health data) is implicitly given less 'credibility' by the system compared to the dominant group's data."
-        },
-        {
-          "id": 3,
-          "answer": "B",
-          "short_explanation": "Fricker emphasizes that epistemic injustice stems from broader societal issues of marginalization and prejudice.",
-          "long_explanation": "Fricker argues that epistemic injustices are not random but are rooted in systemic social marginalization and prejudice. These underlying societal biases lead to unfairness in how individuals or groups are treated in their capacity as knowers, affecting their credibility and ability to participate in knowledge exchanges. While other factors might contribute, marginalization and prejudice are the primary drivers in her framework."
-        },
-        {
-          "id": 4,
-          "answer": "B",
-          "short_explanation": "Diagnostic nondisclosure keeps patients in the dark about their own health.",
-          "long_explanation": "Diagnostic nondisclosure, as discussed in the medical context of epistemic harms, involves medical professionals withholding information from patients. This practice, even if well-intentioned ('for the patient's good'), ultimately isolates patients by preventing them from fully understanding their condition and actively participating in decisions about their own care. It undermines their epistemic agency regarding their own health."
-        },
-        {
-          "id": 5,
-          "answer": "C",
-          "short_explanation": "Ableist norms define a 'normal' body, leading to assumptions that skew how diverse bodies are understood in medicine.",
-          "long_explanation": "This scenario directly relates to how ableist norms define what a 'normal' body or 'normal' physiological responses (like symptom presentation) should be. When medical practices operate under these skewed assumptions, they can consistently misinterpret or dismiss valid information from patients who do not fit this narrow definition, leading to misunderstanding and mis-treatment. While it can lead to testimonial injustice, 'skewed assumptions' is the underlying ableist mechanism described."
-        },
-        {
-          "id": 6,
-          "answer": "B",
-          "short_explanation": "Error-pattern harms show how society's 'patterns' dictate which errors we even perceive as possible.",
-          "long_explanation": "Gardiner's concept of 'error-pattern harms' focuses on how social patterns influence what kinds of errors are considered plausible or even visible. This means that societal contexts can lead us to overlook certain types of mistakes while disproportionately scrutinizing others, often placing an undue burden on marginalized individuals to prove their truthfulness against ingrained societal assumptions about error."
-        },
-        {
-          "id": 7,
-          "answer": "C",
-          "short_explanation": "The Curare Case highlighted that harm can occur due to scientific misunderstanding and justified knowledge differences, not just prejudice.",
-          "long_explanation": "Goldstein uses the Curare Case to illustrate 'Warranted Epistemic Harm' (or 'Epistemic Disadvantage'). This is distinct from unjust harms because, while patients suffered, the harm was largely non-deliberate, stemming from physicians' genuine (though mistaken) scientific understanding of the drug at the time and the inherent knowledge asymmetry between medical experts and patients. While testimonial injustice (partially rooted in ageism against children) was present, the case's core argument for Goldstein was about harm from 'warranted' exclusion from specialized knowledge, compounded by circumstantial 'bad luck' (the state of medical knowledge)."
+          "short_explanation": "Distorted public narratives lead to imposed ignorance.",
+          "long_explanation": "Kidd and Carel (and Spencer) identify 'imposed ignorance' as a form of epistemic harm where public distortions of medical conditions prevent individuals from self-recognizing symptoms or developing self-agency. This differs from diagnostic nondisclosure (withholding information) and testimonial injustice (credibility deficit)."
         },
         {
           "id": 8,
-          "answer": "B",
-          "short_explanation": "Inefficient practices are the simplest form of exclusion, fixable with basic improvements.",
-          "long_explanation": "According to Dotson, 'First-Order Exclusions' are the most superficial type of structural epistemic oppression. They arise from inefficient or poorly executed practices, such as poor communication channels or disorganized databases. These are typically fixable through straightforward solutions like better training, clearer guidelines, or improved communication protocols, without requiring fundamental shifts in conceptual frameworks or systemic design."
+          "question": "Which of the following is NOT listed as a direct manifestation of epistemic harms?",
+          "options": {
+            "A": "Dismissal of valid methods",
+            "B": "Credibility hierarchies",
+            "C": "Financial exploitation",
+            "D": "Unacknowledged exploitation of intellectual labor"
+          },
+          "answer": "C",
+          "short_explanation": "Financial exploitation is a *consequence*, not a *type* of epistemic harm.",
+          "long_explanation": "While financial exploitation can be a *consequence* of epistemic harms (e.g., unacknowledged exploitation of intellectual labor leading to financial loss for the original knower), it is not itself listed as a *type* or *manifestation* of epistemic harm. The manifestations are directly about how knowledge is treated, valued, or acquired, not the ultimate economic outcome."
         },
         {
           "id": 9,
-          "answer": "B",
-          "short_explanation": "Using insights without proper credit, even when included, is a core aspect of epistemic extractivism.",
-          "long_explanation": "This scenario directly aligns with 'Epistemic Extractivism' (Alcoff) and 'Exploitative Inclusion' (Pohlhaus), both of which describe the non-reciprocal extraction of epistemic labor. The community members are 'included' in the process, but their knowledge is treated as a commodity to be taken and used without fair exchange, recognition, or benefit-sharing, thereby ignoring their epistemic agency. While it is a type of exploitation (Exploitative Inclusion), the term 'Epistemic Extractivism' specifically captures the commodification and stripping of knowledge from its context."
+          "question": "The historical struggle to conceptualize and name 'sexual harassment' as a systemic issue, leading to individuals being unable to make sense of their experiences, is a classic example of:",
+          "options": {
+            "A": "Hermeneutical Injustice",
+            "B": "Testimonial Injustice",
+            "C": "Diagnostic Nondisclosure",
+            "D": "Epistemic Extractivism"
+          },
+          "answer": "A",
+          "short_explanation": "A lack of shared concepts to understand experience is hermeneutical injustice.",
+          "long_explanation": "Fricker's hermeneutical injustice occurs when a person or group is marginalized from the collective processes of meaning-making, leading to a global lack of conceptual resources to understand their experiences. The sexual harassment example perfectly illustrates this, as the concept itself was missing from wider public discourse, making it difficult for individuals to articulate their experiences as a shared systemic problem."
         },
         {
           "id": 10,
-          "answer": "B",
-          "short_explanation": "Extractivism values knowledge for what it can be traded for, not its inherent purpose.",
-          "long_explanation": "Alcoff's concept of 'Epistemic Extractivism' highlights a problematic shift where knowledge is increasingly valued for its 'exchange-value' (what it can be traded for, monetized, or converted into for profit) rather than its 'use-value' (its inherent utility or meaning within its original context). This commodification often leads to knowledge being stripped of its context and the agency of its originating community being ignored, much like raw materials are extracted for market value."
+          "question": "Ableist norms in medicine can contribute to epistemic harms by:",
+          "options": {
+            "A": "Promoting a universal standard for physiological responses that may misinterpret diverse patient experiences.",
+            "B": "Encouraging medical professionals to prioritize patient autonomy above all else.",
+            "C": "Ensuring all data collected is culturally contextualized.",
+            "D": "Focusing primarily on psychological rather than physical symptoms."
+          },
+          "answer": "A",
+          "short_explanation": "Ableist norms create a narrow 'normal' that misinterprets diversity.",
+          "long_explanation": "As discussed by Peña-Guzmán & Reynol, ableist norms define a narrow 'normal' for bodies and responses. This can lead to medical assumptions that skew understanding, causing misunderstanding and mis-treatment of patients whose experiences (e.g., pain, anxiety levels) fall outside this idealized standard, leading to their valid experiences being misinterpreted or dismissed."
         },
         {
           "id": 11,
+          "question": "According to Goldstein's distinction, what is the defining characteristic of 'unjust epistemic harms'?",
+          "options": {
+            "A": "They arise from a justified lack of expertise in a specialized domain.",
+            "B": "They always result from accidental circumstances or 'bad luck.'",
+            "C": "They are fundamentally wrongful and rooted in identity-based prejudice.",
+            "D": "They involve the non-reciprocal sharing of data for protection."
+          },
           "answer": "C",
-          "short_explanation": "Giving control over data sharing directly counters the exploitation inherent in partial inclusion.",
-          "long_explanation": "By giving corridor teams full control over their data, the MIDEQ project aimed to empower the lower-resourced partners and prevent their knowledge from being unilaterally extracted or exploited. This directly addresses the core issue of 'Exploitative Inclusion' (Pohlhaus), where inclusion without genuine control or reciprocity can still lead to harms like unacknowledged exploitation of epistemic labor."
+          "short_explanation": "Unjust harms are wrongful and prejudice-driven.",
+          "long_explanation": "Goldstein's 'unjust epistemic harms' are synonymous with Fricker's epistemic injustices. They are defined by their wrongful nature, stemming directly from identity-based prejudice and deliberate or systemic biases that unjustly disadvantage individuals or groups in their capacity as knowers."
         },
         {
           "id": 12,
-          "answer": "C",
-          "short_explanation": "Credibility hierarchies dictate whose knowledge is valued more, directly impacting how knowledge is handled.",
-          "long_explanation": "Credibility hierarchies are a primary manifestation of epistemic harms because they directly impact how knowledge is valued. When certain individuals or groups are automatically deemed more credible than others (due to social status, profession, etc.), their knowledge is prioritized, while others' knowledge may be dismissed or devalued. This shapes the entire process of knowledge production and acceptance."
+          "question": "A scientific institution's foundational principles are designed in a way that systematically devalues qualitative research in favor of quantitative data, regardless of the research question. Addressing this would require a 'paradigm shift.' This represents:",
+          "options": {
+            "A": "First-Order Exclusion",
+            "B": "Second-Order Exclusion",
+            "C": "Epistemic Disadvantage",
+            "D": "Third-Order Exclusion"
+          },
+          "answer": "D",
+          "short_explanation": "Fundamental design flaws requiring paradigm shifts are Third-Order Exclusions.",
+          "long_explanation": "Kristie Dotson's Third-Order Exclusions refer to systemic design flaws where the very structure or foundational principles of a knowledge-producing system inherently marginalize certain forms of knowledge. These are the most profound and difficult to fix, requiring a 'paradigm shift' to re-evaluate and restructure the system's core tenets."
         },
         {
           "id": 13,
-          "answer": "C",
-          "short_explanation": "Lacking collective concepts due to marginalization is the definition of hermeneutical injustice.",
-          "long_explanation": "Fricker defines 'Hermeneutical Injustice' as occurring when a person or group is marginalized from the collective processes of meaning-making, leading to a global lack of conceptual resources needed to make sense of their experiences. The example of 'sexual harassment' before the concept was widely recognized is a classic illustration of this, where the experience existed but the societal framework to understand it as a systemic wrong was absent due to the marginalization of those experiencing it."
+          "question": "A common trope where repeated warnings or complaints from a marginalized group are dismissed as exaggerations, leading to their genuine concerns being ignored, is best categorized as an example of:",
+          "options": {
+            "A": "'Crying Wolf'",
+            "B": "Gaslighting",
+            "C": "Conspiracy Skepticism",
+            "D": "Diagnostic Nondisclosure"
+          },
+          "answer": "A",
+          "short_explanation": "'Crying Wolf' is dismissing repeated warnings.",
+          "long_explanation": "Gardiner's 'error-pattern harms' include the 'crying wolf' trope, where legitimate and repeated warnings or complaints from marginalized groups are dismissed as exaggerations or false alarms, leading to their genuine concerns being ignored. This is a specific extension of testimonial injustice where the *pattern* of dismissal is the harm."
         },
         {
           "id": 14,
-          "answer": "D",
-          "short_explanation": "When an AI model is biased due to training data that underrepresents or misrepresents certain groups, it creates an unfair distribution of knowledge and its benefits.",
-          "long_explanation": "Distributive epistemic injustice refers to an unfair distribution of epistemic goods, resources, or opportunities within knowledge generation. If an AI model is predominantly trained on data from one ethnic group, it becomes less effective or even harmful for others. This constitutes an unfair distribution of the benefits of knowledge (accurate diagnosis) and implicitly devalues the knowledge (health data) of the underrepresented groups, making it a distributive injustice."
+          "question": "In the MIDEQ project, why did lower-resourced partners sometimes refuse to share their full datasets, even in an ethically-minded collaboration?",
+          "options": {
+            "A": "They feared potential misuse, lack of proper attribution, or decontextualization of their knowledge.",
+            "B": "They lacked the technical infrastructure to upload large datasets.",
+            "C": "They intended to withhold data for future financial gain.",
+            "D": "They disagreed with the overall research goals of the MIDEQ project."
+          },
+          "answer": "A",
+          "short_explanation": "Data restriction was a self-protective measure against misuse.",
+          "long_explanation": "As highlighted by Alcalay & VandeKerckhove, lower-resourced partners in the MIDEQ project deliberately restricted data sharing as a strategy to protect their knowledge. Their core anxieties revolved around data control, ensuring proper attribution, and maintaining the contextual integrity of their information, given historical patterns of exploitative knowledge extraction."
         },
         {
           "id": 15,
+          "question": "Which of the following scenarios is LEAST likely to be considered an 'epistemic harm' as defined in the chapter?",
+          "options": {
+            "A": "A journalist deliberately misquoting a source to fit a narrative.",
+            "B": "A student failing an exam due to insufficient study time.",
+            "C": "A patient experiencing pain that doctors fail to recognize due to a flawed medical understanding.",
+            "D": "A community's traditional knowledge being used in a patent without their consent or credit."
+          },
           "answer": "B",
-          "short_explanation": "Gardiner's 'error-pattern harms' include the specific extension of testimonial injustice where victims are forced to prove non-lying.",
-          "long_explanation": "Gardiner's 'Error-Pattern Harms' describe how social patterns influence which errors are considered plausible. A key extension of testimonial injustice within this framework is the unfair demand that a victim prove they are *not* lying or mistaken, especially when their testimony challenges a dominant narrative. This shifts an impossible burden of proof onto the marginalized individual, as seen in examples like gaslighting or the 'crying wolf' trope, which are specific manifestations of this broader error-pattern harm."
+          "short_explanation": "Failing an exam from lack of study isn't an epistemic harm.",
+          "long_explanation": "Epistemic harms are ethical/knowledge-based injuries tied to how knowledge is produced, accessed, or shared, often involving issues of credibility, exclusion, or exploitation. A student failing due to insufficient study time is a personal academic outcome, not a systemic or ethical harm related to the integrity or distribution of knowledge itself."
         },
         {
           "id": 16,
-          "answer": "A",
-          "short_explanation": "Goldstein argued that the concept of pain was not missing, hence not hermeneutical injustice in the classic sense.",
-          "long_explanation": "Goldstein's analysis of the Curare Case posits that it was not a classic case of hermeneutical injustice because the concept of pain itself was understood by both patients and physicians. The issue was not a global conceptual void, but rather a misapplication of existing concepts, a failure to properly interpret patient experiences within a flawed medical understanding of the drug, and testimonial injustice related to patient credibility. The harm arose from a scientific misunderstanding and justified knowledge asymmetry, not a lack of the concept of pain itself."
+          "question": "According to Fricker, what is the fundamental root cause underlying various forms of epistemic injustice?",
+          "options": {
+            "A": "Individual cognitive biases specific to each person.",
+            "B": "Insufficient funding for academic research.",
+            "C": "Systemic marginalization and prejudice within society.",
+            "D": "Lack of formal education among certain populations."
+          },
+          "answer": "C",
+          "short_explanation": "Prejudice and marginalization are the root causes.",
+          "long_explanation": "Fricker argues that epistemic injustice is not merely about individual biases but stems from deeper, systemic issues of social marginalization and prejudice. These underlying societal inequalities lead to unfairness in how knowledge is valued, produced, and shared."
         },
         {
           "id": 17,
-          "answer": "C",
-          "short_explanation": "Third-order exclusions are fundamental design flaws that require a complete rethinking of the system.",
-          "long_explanation": "Dotson's 'Third-Order Exclusions' represent the deepest level of structural epistemic oppression. These are fundamental flaws in the very design or foundational principles of a knowledge-producing system or institution that inherently marginalize certain forms of knowledge. Addressing these requires a 'paradigm shift' – a complete re-evaluation and restructuring of the system's core principles, unlike the more superficial fixes for first and second-order exclusions."
+          "question": "A physician decides not to fully explain the complexities of a patient's rare condition, believing the patient would be 'overwhelmed' by the details. This action primarily exemplifies:",
+          "options": {
+            "A": "Diagnostic Nondisclosure",
+            "B": "Imposed Ignorance",
+            "C": "Testimonial Injustice",
+            "D": "Exploitative Inclusion"
+          },
+          "answer": "A",
+          "short_explanation": "Withholding information 'for their good' is diagnostic nondisclosure.",
+          "long_explanation": "Kidd and Carel identify diagnostic nondisclosure as the practice of withholding information from patients, often under the guise of acting 'for the patient's good,' which isolates them from understanding and participating in their own care. This differs from imposed ignorance, which is about broader public distortions."
         },
         {
           "id": 18,
+          "question": "If an AI diagnostic tool is primarily trained on data reflecting 'normal' physiological responses from a narrow demographic, what type of epistemic harm is it most likely to perpetuate when used with diverse patient populations?",
+          "options": {
+            "A": "Unacknowledged exploitation of intellectual labor.",
+            "B": "Misunderstanding and mis-treatment due to ableist norms.",
+            "C": "Imposed ignorance by providing too much information.",
+            "D": "Second-order exclusion by creating new conceptual frameworks."
+          },
           "answer": "B",
-          "short_explanation": "Exploitative inclusion means that even when included, epistemic labor is taken without fair return.",
-          "long_explanation": "Pohlhaus's concept of 'Exploitative Inclusion' focuses on the problematic reality where marginalized knowers are 'included' in systems or collaborations, but their knowledge or the labor involved in producing it ('epistemic labor') is extracted without reciprocal benefit or proper recognition. This highlights that inclusion alone is insufficient to prevent harm if power dynamics remain skewed and the exchange is not genuinely fair."
+          "short_explanation": "Narrow 'normal' data leads to ableist mis-treatment.",
+          "long_explanation": "As discussed by Peña-Guzmán & Reynol, ableist norms define 'normal' bodies and metrics. If an AI is trained on such narrow data, it will perpetuate these skewed assumptions, leading to misunderstanding and mis-treatment of diverse patients whose bodies or responses do not fit the 'norm.' This directly reflects the perpetuation of ableist harms through AI."
         },
         {
           "id": 19,
+          "question": "The concept of 'demanding proof of non-lying/mistake' as an extension of testimonial injustice implies:",
+          "options": {
+            "A": "A healthy skepticism necessary for scientific inquiry.",
+            "B": "A focus on verifying objective facts rather than subjective experiences.",
+            "C": "An unfair burden placed on the individual whose testimony challenges a dominant narrative.",
+            "D": "The need for more rigorous data validation protocols in AI."
+          },
           "answer": "C",
-          "short_explanation": "Stripping knowledge of context and ignoring community agency for commodification is epistemic extractivism.",
-          "long_explanation": "Alcoff's 'Epistemic Extractivism' specifically describes the process where knowledge is treated as a raw commodity, valued for its 'exchange-value' rather than its 'use-value.' This involves stripping the knowledge from its rich social, cultural, and historical context, leading to its distortion and ultimately ignoring the epistemic agency of the originating community, which is the key harm."
+          "short_explanation": "It's an unfair burden on the accuser/victim.",
+          "long_explanation": "Gardiner's 'demanding proof of non-lying/mistake' is an extension of testimonial injustice where the burden of proof is unfairly shifted to the individual whose testimony challenges a dominant narrative or power structure. This forces them to prove a negative (that they are not lying or mistaken), which is an undue and often impossible evidentiary burden."
         },
         {
           "id": 20,
-          "answer": "C",
-          "short_explanation": "This specific scenario, where justified self-protection leads to a broader knowledge gap, is the definition of 'epistemically disadvantageous extractivism'.",
-          "long_explanation": "Alcalay & VandeKerckhove coined 'Epistemically Disadvantageous Extractivism' to describe situations like the MIDEQ case. It's when lower-resourced partners are forced to restrict data sharing (a warranted, protective act) due to fears of misuse or exploitation in an unequal world. While understandable and justified from their perspective, this action leads to a collective 'disadvantage' for the overall scientific understanding, creating a knowledge gap not due to malicious intent but due to systemic inequalities."
+          "question": "A community's traditional agricultural practices are not adopted by a national agricultural policy, not because of prejudice, but because the policymakers genuinely lack the scientific framework to integrate traditional knowledge with modern large-scale farming models, leading to a missed opportunity for sustainable innovation. This scenario leans towards:",
+          "options": {
+            "A": "A warranted epistemic harm (epistemic disadvantage), due to conceptual gaps and justified exclusion from expertise.",
+            "B": "An unjust epistemic harm, as it reflects clear prejudice.",
+            "C": "A first-order exclusion, easily fixable with better communication.",
+            "D": "Epistemic extractivism, as the knowledge is being commodified."
+          },
+          "answer": "A",
+          "short_explanation": "Non-prejudiced conceptual gaps leading to harm are warranted.",
+          "long_explanation": "This scenario fits Goldstein's 'warranted epistemic harm' (epistemic disadvantage). The exclusion of traditional knowledge is not rooted in identity prejudice, but in a genuine conceptual gap (lack of framework to integrate different knowledge systems) and a justified asymmetry of expertise (policymakers lacking specific traditional knowledge). While harmful (a missed opportunity), it's not 'unjust' in the sense of deliberate prejudice."
         },
         {
           "id": 21,
-          "answer": "C",
-          "short_explanation": "Increased interdisciplinary collaboration is generally a positive outcome, not a harm.",
-          "long_explanation": "The lecture identifies several manifestations of epistemic harms, including censorship & exclusion, dismissal of valid methods, credibility hierarchies, and unacknowledged exploitation of intellectual labor. Increased interdisciplinary collaboration is generally viewed as a positive development that can help bridge knowledge gaps and foster more holistic understanding, thus it is not a manifestation of epistemic harm."
+          "question": "A society lacks a widely accepted concept to describe a pervasive form of subtle, everyday discrimination experienced by a minority group, making it difficult for individuals to articulate their experiences and for society to address the problem. This is an example of:",
+          "options": {
+            "A": "Second-Order Exclusion",
+            "B": "First-Order Exclusion",
+            "C": "Third-Order Exclusion",
+            "D": "Testimonial Injustice"
+          },
+          "answer": "A",
+          "short_explanation": "Lack of shared concepts is a Second-Order Exclusion.",
+          "long_explanation": "According to Dotson, Second-Order Exclusions occur when there are genuine gaps in the shared conceptual resources or language that a community uses to make sense of experiences. This aligns with Fricker's hermeneutical injustice, where the very concept needed to understand a phenomenon is missing or not widely accepted, requiring new frameworks rather than just procedural fixes."
         },
         {
           "id": 22,
-          "answer": "B",
-          "short_explanation": "Testimonial injustice is about a credibility deficit specifically caused by identity prejudice.",
-          "long_explanation": "Fricker's concept of 'testimonial injustice' specifically refers to a credibility deficit that a speaker suffers in the eyes of a hearer due to identity prejudice (e.g., based on race, gender, class, or age). It's not primarily about their education, articulation skills, or emotional state, though these can sometimes be used as proxies for prejudice."
+          "question": "The core mechanism of exploitative inclusion is described as:",
+          "options": {
+            "A": "Non-reciprocal extraction of epistemic labor.",
+            "B": "Deliberate censorship of information.",
+            "C": "Promoting diverse voices in decision-making.",
+            "D": "The complete exclusion of marginalized knowers from any participation."
+          },
+          "answer": "A",
+          "short_explanation": "Exploitative inclusion means taking knowledge without fair exchange.",
+          "long_explanation": "Pohlhaus defines exploitative inclusion as a situation where marginalized knowers are included, but their 'epistemic labor' (their knowledge, insights, contributions) is taken or used without a fair or mutual exchange. The benefit flows predominantly in one direction, from the included party to the more powerful entity, making the inclusion itself a means of exploitation."
         },
         {
           "id": 23,
-          "answer": "C",
-          "short_explanation": "Imposed ignorance means public narratives prevent individuals from understanding their own conditions.",
-          "long_explanation": "In the medical context, 'Imposed Ignorance' highlights how public distortions or misconceptions about certain conditions (like autism or PTSD) can prevent individuals from recognizing their own symptoms or developing a sense of self-agency around their experience. It hinders their ability to gain knowledge about themselves and their condition, rather than enhancing it."
+          "question": "When Linda Martín Alcoff discusses 'knowledge as commodity' in epistemic extractivism, she highlights a shift in focus from:",
+          "options": {
+            "A": "Use-value to exchange-value.",
+            "B": "Theoretical knowledge to practical knowledge.",
+            "C": "Individual knowledge to collective knowledge.",
+            "D": "Qualitative data to quantitative data."
+          },
+          "answer": "A",
+          "short_explanation": "Knowledge as commodity emphasizes exchange over inherent use.",
+          "long_explanation": "Alcoff argues that epistemic extractivism treats knowledge as a commodity by prioritizing its 'exchange-value' (what it can be traded for, monetized, or converted into for profit) over its 'use-value' (its inherent utility, meaning, and purpose within its original context and community). This shift decontextualizes and devalues the knowledge itself."
         },
         {
           "id": 24,
-          "answer": "A",
-          "short_explanation": "Skewed assumptions in medicine are unintentional biases from 'normal' definitions that lead to misinterpretation.",
-          "long_explanation": "In the context of ableism and medical error, 'skewed assumptions' refer to the unintentional biases that arise when medical norms define a 'normal' body or 'normal' physiological responses. These assumptions can lead to misinterpretations or dismissals of valid information from patients who do not fit these narrow, idealized standards, resulting in misunderstanding and potential mis-treatment. It's about how ingrained biases affect interpretation, not deliberate deception or patient's misapplication of terms."
+          "question": "A primary aim of the MIDEQ project, as described in the chapter, was to:",
+          "options": {
+            "A": "Develop AI tools for border control.",
+            "B": "Decentre knowledge production from the Global North.",
+            "C": "Standardize all migration data globally.",
+            "D": "Promote a single narrative about migration's impact."
+          },
+          "answer": "B",
+          "short_explanation": "MIDEQ aimed to shift knowledge production away from Global North dominance.",
+          "long_explanation": "The MIDEQ project explicitly aimed to 'decentre knowledge' by shifting the focus of knowledge production away from the traditional dominance of the Global North. This involved empowering researchers and communities in the Global South to lead research and define their own narratives about migration and inequality."
         },
         {
           "id": 25,
-          "answer": "C",
-          "short_explanation": "Warranted harms are non-deliberate and often arise from circumstances beyond immediate control.",
-          "long_explanation": "Goldstein defines 'warranted harms' (epistemic disadvantage) as non-deliberate, often arising from circumstantial 'bad luck' or inherent conceptual gaps that are difficult to bridge without specialized knowledge. They are distinct from unjust harms, which are typically rooted in deliberate prejudice or wrongful exclusion. The Curare Case exemplifies this as the harm stemmed from a non-deliberate scientific misunderstanding, not malicious intent."
+          "question": "Which statement accurately captures the essence of 'epistemic harms'?",
+          "options": {
+            "A": "They are ethical or knowledge-based injuries related to the production, access, or sharing of knowledge.",
+            "B": "They are always intentional actions aimed at suppressing truth.",
+            "C": "They primarily involve the physical destruction of knowledge repositories.",
+            "D": "They are synonymous with intellectual property theft in a strictly legal sense."
+          },
+          "answer": "A",
+          "short_explanation": "Epistemic harms are injuries to knowing and knowledge processes.",
+          "long_explanation": "Epistemic harms are broadly defined as ethical or knowledge-based injuries that affect how knowledge is created, made available, or exchanged. While they can sometimes involve intentional acts (like censorship) or resemble intellectual property theft, their definition is broader, encompassing systemic issues, unintentional consequences, and damage to the very capacity to know or be known, not just physical destruction or legal theft."
         },
         {
           "id": 26,
-          "answer": "B",
-          "short_explanation": "A conceptual gap for a social problem is a second-order exclusion.",
-          "long_explanation": "According to Dotson, 'Second-Order Exclusions' occur when there are genuine gaps in the shared concepts or language that a community uses to make sense of experiences. This requires new conceptual frameworks to address, unlike First-Order Exclusions (inefficient practices) or Third-Order Exclusions (systemic design flaws). The example of 'sexual harassment' before the term existed is a classic illustration of a second-order exclusion."
+          "question": "When individuals or groups are prevented from fully developing their abilities to know, understand, or contribute to knowledge (e.g., due to lack of resources or being told their thinking is invalid), this aligns with Fricker's concept of:",
+          "options": {
+            "A": "Undermining credibility.",
+            "B": "Doubt cast on legitimate evidence.",
+            "C": "Wrongful exclusion from participation.",
+            "D": "Restricted development of epistemic capacities."
+          },
+          "answer": "D",
+          "short_explanation": "Hindering learning and contribution is restricting epistemic capacities.",
+          "long_explanation": "Fricker identifies 'restricted development of epistemic capacities' as a harm where individuals or groups are prevented from fully developing their cognitive abilities related to knowing, understanding, and contributing to knowledge. This goes beyond simply not being believed (undermining credibility) or having evidence questioned (doubt cast), focusing on the long-term impact on their potential as knowers."
         },
         {
           "id": 27,
+          "question": "According to Dotson, addressing a 'Third-Order Exclusion' in structural epistemic oppression typically requires:",
+          "options": {
+            "A": "More training for staff.",
+            "B": "A fundamental paradigm shift in the system's design.",
+            "C": "Minor adjustments to existing protocols.",
+            "D": "Increased funding for individual projects."
+          },
           "answer": "B",
-          "short_explanation": "Exploitative inclusion is when knowledge is taken without fair exchange, even if included.",
-          "long_explanation": "The core mechanism of 'Exploitative Inclusion' (Pohlhaus) is the 'non-reciprocal extraction of epistemic labor.' This means that even when marginalized knowers are included in a process, their knowledge or the effort they put into generating it is taken or used without a fair return, proper credit, or equitable benefit-sharing, leading to continued exploitation despite ostensible inclusion."
+          "short_explanation": "Third-Order Exclusions demand fundamental system change.",
+          "long_explanation": "Third-Order Exclusions, as per Dotson, represent the deepest level of structural epistemic oppression, where the very design or foundational principles of a system are flawed. Consequently, addressing them requires a 'paradigm shift'—a complete re-evaluation and restructuring of the system's core assumptions and design, rather than superficial fixes."
         },
         {
           "id": 28,
-          "answer": "C",
-          "short_explanation": "Stripping context distorts knowledge and harms the originating community.",
-          "long_explanation": "Alcoff's 'Epistemic Extractivism' involves treating knowledge as a commodity and stripping it from its rich social, cultural, and historical context. This decontextualization fundamentally distorts the knowledge, leading to misrepresentation and injustice to the originating community, as their epistemic agency and the integrity of their knowledge are undermined."
+          "question": "A key harm identified with epistemic extractivism is the 'stripping context & relations from data.' This specifically leads to:",
+          "options": {
+            "A": "Distortion of knowledge and injustice by devaluing its original meaning.",
+            "B": "Increased efficiency in data processing.",
+            "C": "A more universal and objective understanding of the data.",
+            "D": "Enhanced data privacy for originating communities."
+          },
+          "answer": "A",
+          "short_explanation": "Stripping context distorts meaning and leads to injustice.",
+          "long_explanation": "Alcoff argues that stripping knowledge or data from its rich social, cultural, and historical context is a core act of epistemic extractivism. This decontextualization fundamentally distorts the knowledge, making it a mere raw material, and leads to injustice by devaluing its original meaning and the complex relationships that gave it significance."
         },
         {
           "id": 29,
+          "question": "The term 'epistemically disadvantageous extractivism' coined by Alcalay & VandeKerckhove describes a situation where:",
+          "options": {
+            "A": "Ethical collaborations intentionally exploit lower-resourced partners.",
+            "B": "The necessity for lower-resourced partners to protect their knowledge leads to a broader knowledge gap.",
+            "C": "AI systems are designed to automatically extract data without consent.",
+            "D": "Academic institutions refuse to collaborate with non-academic entities."
+          },
           "answer": "B",
-          "short_explanation": "The fear of misuse drove the lower-resourced partners to restrict data sharing, showing the complexity of trust in unequal collaborations.",
-          "long_explanation": "The MIDEQ project's long protocol formalization and the subsequent restriction of data sharing by lower-resourced partners highlight the complexities of achieving equitable knowledge sharing in unequal contexts. This was primarily driven by their legitimate anxieties regarding data control, proper attribution, and contextual integrity, stemming from historical experiences of epistemic extractivism. Their reluctance was a warranted act of self-protection, contributing to 'epistemically disadvantageous extractivism' rather than a simple lack of cooperation."
+          "short_explanation": "It's a knowledge gap resulting from justified self-protection in unequal contexts.",
+          "long_explanation": "This term refers to a complex scenario where lower-resourced partners, acting with justified caution to protect their knowledge from potential misuse or exploitation in unequal collaborations, choose to restrict data sharing. While this protects them from direct unjust harms, it simultaneously creates a 'disadvantage' for the broader collective knowledge, leading to a less complete understanding in the larger research community."
         },
         {
           "id": 30,
-          "answer": "C",
-          "short_explanation": "The 'crying wolf' trope is an example of an error-pattern harm where valid warnings are systematically dismissed.",
-          "long_explanation": "Gardiner's 'Error-Pattern Harms' describe how societal patterns dictate which errors are considered plausible. The 'crying wolf' trope is a specific manifestation where repeated warnings or complaints from marginalized groups are systematically dismissed as exaggerations or false alarms, regardless of their truth. If an AI system learns to reproduce this pattern, it will perpetuate the epistemic harm of dismissing valid information from specific communities, reflecting a biased understanding of error."
+          "question": "Which of the following is NOT one of the three key conditions separating epistemic disadvantage (warranted harm) from epistemic injustice (unjust harm) as discussed by Goldstein?",
+          "options": {
+            "A": "Affected participants are deliberately and coercively excluded due to identity prejudice.",
+            "B": "Harms are non-deliberate, arising from circumstances of bad luck.",
+            "C": "Speakers lack precision or mastery of concepts to effectively communicate their experience.",
+            "D": "Affected participants are justifiably excluded or subordinated from the practice that could make the concept known."
+          },
+          "answer": "A",
+          "short_explanation": "Deliberate exclusion due to prejudice is characteristic of *unjust* harm, not warranted harm.",
+          "long_explanation": "Goldstein explicitly states that epistemic injustice (unjust harm) *requires* that one's experience is obscured on the basis of identity prejudice, often involving deliberate or coercive exclusion. In contrast, epistemic disadvantage (warranted harm) is characterized by non-deliberate harms, speakers lacking conceptual precision, and justified exclusion from expertise, making option A the key differentiator that does *not* apply to warranted harm."
         }
       ]
     }
