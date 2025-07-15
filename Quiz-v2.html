@@ -269,6 +269,57 @@
         .hidden {
             display: none;
         }
+
+        .option-btn {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .option-btn::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 5px;
+            height: 5px;
+            background: rgba(255, 255, 255, 0.5);
+            opacity: 0;
+            border-radius: 100%;
+            transform: scale(1, 1) translate(-50%);
+            transform-origin: 50% 50%;
+        }
+
+        .option-btn:focus:not(:disabled) {
+            outline: none;
+            box-shadow: 0 0 0 2px var(--accent-color);
+        }
+
+        @keyframes ripple {
+            0% {
+                transform: scale(0, 0);
+                opacity: 0.5;
+            }
+            100% {
+                transform: scale(40, 40);
+                opacity: 0;
+            }
+        }
+
+        .option-btn.clicked::after {
+            animation: ripple 0.6s ease-out;
+        }
+
+        .keyboard-shortcuts {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 0.9em;
+            z-index: 1000;
+        }
     </style>
 </head>
 <body>
@@ -392,8 +443,29 @@
                 currentQuestions = quizData.chapters[index].questions;
                 currentQuestionIndex = 0;
                 userAnswers = {};
+                
+                // Try to load saved progress
+                const savedProgress = localStorage.getItem(`quiz_progress_chapter_${index}`);
+                if (savedProgress) {
+                    const progress = JSON.parse(savedProgress);
+                    userAnswers = progress.userAnswers;
+                    currentQuestionIndex = progress.currentQuestionIndex;
+                }
+                
                 showQuizView();
                 displayQuestion();
+                
+                // Show keyboard shortcuts help
+                const shortcuts = document.createElement('div');
+                shortcuts.className = 'keyboard-shortcuts';
+                shortcuts.innerHTML = `
+                    <div>Keyboard Shortcuts:</div>
+                    <div>← Previous Question</div>
+                    <div>→ Next Question</div>
+                    <div>1-4 Select Answer</div>
+                    <div>Space Show/Hide Explanation</div>
+                `;
+                document.body.appendChild(shortcuts);
             }
             
             function startRetryMode() {
@@ -622,6 +694,18 @@
                 backToMenuBtn.classList.remove('hidden');
             }
 
+            // Save progress after each answer
+            function saveProgress() {
+                if (currentChapterIndex >= 0) {
+                    const progress = {
+                        userAnswers,
+                        currentQuestionIndex,
+                        timestamp: new Date().getTime()
+                    };
+                    localStorage.setItem(`quiz_progress_chapter_${currentChapterIndex}`, JSON.stringify(progress));
+                }
+            }
+
             // --- Event Listeners ---
             nextBtn.addEventListener('click', () => {
                 if (currentQuestionIndex >= currentQuestions.length - 1) {
@@ -629,6 +713,7 @@
                 } else {
                     currentQuestionIndex++;
                     displayQuestion();
+                    saveProgress();
                 }
             });
 
@@ -636,11 +721,52 @@
                 if (currentQuestionIndex > 0) {
                     currentQuestionIndex--;
                     displayQuestion();
+                    saveProgress();
                 }
             });
 
             viewSummaryBtn.addEventListener('click', displayPartialSummary);
-            backToMenuBtn.addEventListener('click', displayMainMenu);
+            backToMenuBtn.addEventListener('click', () => {
+                const shortcuts = document.querySelector('.keyboard-shortcuts');
+                if (shortcuts) {
+                    shortcuts.remove();
+                }
+                displayMainMenu();
+            });
+
+            // Keyboard navigation
+            document.addEventListener('keydown', (e) => {
+                if (!quizContainer.classList.contains('hidden')) {
+                    switch(e.key) {
+                        case 'ArrowLeft':
+                            if (!prevBtn.disabled) prevBtn.click();
+                            break;
+                        case 'ArrowRight':
+                            if (!nextBtn.disabled) nextBtn.click();
+                            break;
+                        case ' ':
+                            if (!feedbackContainerEl.classList.contains('hidden')) {
+                                feedbackContainerEl.classList.add('hidden');
+                            } else {
+                                feedbackContainerEl.classList.remove('hidden');
+                            }
+                            e.preventDefault();
+                            break;
+                        case '1':
+                        case '2':
+                        case '3':
+                        case '4':
+                            const index = parseInt(e.key) - 1;
+                            const options = optionsContainerEl.querySelectorAll('.option-btn');
+                            if (index < options.length && !options[index].disabled) {
+                                options[index].click();
+                                options[index].classList.add('clicked');
+                                setTimeout(() => options[index].classList.remove('clicked'), 600);
+                            }
+                            break;
+                    }
+                }
+            });
 
             // --- Initial Load ---
             initializeQuiz();
