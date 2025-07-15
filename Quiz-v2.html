@@ -392,22 +392,22 @@
             // Fetch data and initialize
             async function initializeQuiz() {
                 try {
-                    // Try to load chapters until we don't find a file
-                    let chapterIndex = 1;
-                    while (true) {
+                    // Try to load all chapters from 1 to 12
+                    const totalChapters = 12;
+                    for (let chapterIndex = 1; chapterIndex <= totalChapters; chapterIndex++) {
                         try {
                             const response = await fetch(`quiz-data-Chapter${chapterIndex}.json`);
-                            if (!response.ok) {
-                                break; // No more chapters found
+                            if (response.ok) {
+                                const chapterData = await response.json();
+                                // Since each file has a chapters array with one chapter, take the first one
+                                if (chapterData.chapters && chapterData.chapters.length > 0) {
+                                    quizData.chapters.push(chapterData.chapters[0]);
+                                }
+                            } else {
+                                console.warn(`Chapter ${chapterIndex} not found or not accessible`);
                             }
-                            const chapterData = await response.json();
-                            // Since each file has a chapters array with one chapter, take the first one
-                            if (chapterData.chapters && chapterData.chapters.length > 0) {
-                                quizData.chapters.push(chapterData.chapters[0]);
-                            }
-                            chapterIndex++;
                         } catch (error) {
-                            break; // Stop if we can't load the next chapter file
+                            console.warn(`Error loading Chapter ${chapterIndex}:`, error);
                         }
                     }
 
