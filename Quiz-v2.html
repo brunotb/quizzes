@@ -594,11 +594,9 @@
                 mainMenuContainer.classList.remove('hidden');
                 quizContainer.classList.add('hidden');
                 summaryContainer.classList.add('hidden');
-                navigationEl.classList.add('hidden');  // Ensure navigation is hidden in menu view
+                navigationEl.classList.add('hidden');
                 viewSummaryBtn.classList.add('hidden');
                 backToMenuBtn.classList.add('hidden');
-                prevBtn.classList.add('hidden');  // Explicitly hide prev button
-                nextBtn.classList.add('hidden');  // Explicitly hide next button
             }
 
             function showQuizView() {
@@ -606,6 +604,8 @@
                 quizContainer.classList.remove('hidden');
                 summaryContainer.classList.add('hidden');
                 navigationEl.classList.remove('hidden');
+                prevBtn.classList.remove('hidden');  // Show navigation buttons
+                nextBtn.classList.remove('hidden');  // Show navigation buttons
                 viewSummaryBtn.classList.remove('hidden');
                 backToMenuBtn.classList.remove('hidden');
             }
