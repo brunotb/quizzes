@@ -1,0 +1,399 @@
+{
+  "chapters": [
+    {
+      "title": "1. AI and Diversity: Introduction to Responsible AI",
+      "questions": [
+        {
+          "id": 1,
+          "question": "According to the lecture, the evolution of AI from optimizing supply chains to personalized chatbots primarily reflects a shift in the type of data being used. Which sequence best represents this evolution?",
+          "options": {
+            "A": "Language data -> Logistical data -> Transactional data",
+            "B": "Logistical data -> Transactional data -> Language data",
+            "C": "Transactional data -> Language data -> Logistical data",
+            "D": "Logistical data -> Language data -> Transactional data"
+          },
+          "answer": "B",
+          "short_explanation": "AI's evolution went from impersonal logistics to personal transactions and finally to human language.",
+          "long_explanation": "The lecture outlines a clear progression. Early large-scale AI, like for Amazon, focused on logistical data. This was followed by systems that used transactional data and personal preferences (e.g., Netflix). Most recently, the rise of Large Language Models (LLMs) like ChatGPT marks a shift to processing vast amounts of human language data. This progression explains why AI feels increasingly personal and integrated into our social lives."
+        },
+        {
+          "id": 2,
+          "question": "The concept of the 'technological imperative' is best described as the assumption that:",
+          "options": {
+            "A": "Technological progress is always socially beneficial and should be pursued for its own sake.",
+            "B": "Technology must be regulated by governments to prevent negative social outcomes.",
+            "C": "Only the most advanced technology can solve complex societal problems like inequality.",
+            "D": "Technology's primary goal should be to replicate and replace human labor."
+          },
+          "answer": "A",
+          "short_explanation": "The 'technological imperative' is the belief that if we *can* build it, we *should*, assuming tech progress is inherently good.",
+          "long_explanation": "The technological imperative is a powerful and often unconscious bias in tech development. It's the idea that technological advancement is an intrinsic good and that the primary goal is to create more powerful technology, often without first asking critical questions about its purpose, context, or potential harm. The other options are either counter-arguments (B), a specific application of the imperative (C), or a different concept entirely (D)."
+        },
+        {
+          "id": 3,
+          "question": "In the required reading, Michael Jordan argues that human trust is 'collective' in a way that current AI systems cannot replicate. What is the key reason for this difference?",
+          "options": {
+            "A": "Humans can explain their reasoning in detail, while AI systems are complete 'black boxes'.",
+            "B": "Humans collaboratively manage and communicate their uncertainty, while AI models can only mimic expressions of confidence from their training data.",
+            "C": "Humans have emotional intelligence, which allows them to build trusting relationships.",
+            "D": "AI systems are designed by corporations with profit motives, making them inherently less trustworthy than humans."
+          },
+          "answer": "B",
+          "short_explanation": "Humans work together to reduce uncertainty, while AI can't genuinely express its own doubt.",
+          "long_explanation": "While all options touch on aspects of trust, Michael Jordan's specific point is about the collective management of uncertainty. Humans signal their level of doubt to others, allowing for collaboration to find a more reliable answer. An AI like ChatGPT, however, might say 'I'm very sure' not because it has performed a reasoned confidence check, but because that phrase appeared frequently in its training data in similar contexts. It mimics confidence without possessing the underlying mechanism for managing uncertainty."
+        },
+        {
+          "id": 4,
+          "question": "The agricultural AI example, where a system favors genetic data over local culinary knowledge, primarily illustrates which core problem in responsible AI?",
+          "options": {
+            "A": "The loss of the user-producer relationship.",
+            "B": "The difficulty of achieving technical accuracy in AI models.",
+            "C": "The tendency to design systems for what best fits the technology, not the people.",
+            "D": "The challenge of legal recourse for small-scale farmers."
+          },
+          "answer": "C",
+          "short_explanation": "The example shows that technology is often designed for what's easy to process (quantifiable data), not for what's culturally relevant (local knowledge).",
+          "long_explanation": "This example is a classic case of the 'technological imperative' leading to cultural disparity. The AI system is optimized for neat, structured, quantifiable data (genetics) because it's easier for an algorithm to handle. It excludes the messy, qualitative, but crucial, knowledge of the local community. This demonstrates a system designed for the convenience of the technology, not the holistic needs of the people it's meant to serve."
+        },
+        {
+          "id": 5,
+          "question": "What is the most significant limitation of focusing solely on 'providing access' to AI tools as a solution for global inequality?",
+          "options": {
+            "A": "It ignores the more fundamental problem of the electricity and internet 'stack of inequality'.",
+            "B": "It fails to address who is involved in the co-design and governance of the AI, leaving power structures unchanged.",
+            "C": "It overlooks the fact that many AI tools require advanced technical skills to use effectively.",
+            "D": "It does not solve the problem of AI 'hallucinations' and misinformation."
+          },
+          "answer": "B",
+          "short_explanation": "Just giving people access isn't enough; true responsibility involves giving them a say in how the AI is designed and what it does.",
+          "long_explanation": "While all the distractors are valid concerns, the lecture emphasizes that the deepest level of responsibility goes beyond mere access. The core issue is power. If the communities meant to benefit from an AI are not involved in its co-design, goal-setting, and governance, the system will likely reflect the values and priorities of its developers, not its users. This perpetuates existing power imbalances, even if access is widespread."
+        },
+        {
+          "id": 6,
+          "question": "The lecture describes a 'stack of inequality' that hinders global AI adoption. Which of the following correctly orders this stack from most to least fundamental?",
+          "options": {
+            "A": "AI Literacy -> Internet Access -> Electricity Access",
+            "B": "Internet Access -> Electricity Access -> AI Software",
+            "C": "Electricity Access -> Internet Access -> AI Access",
+            "D": "Data Availability -> AI Models -> User Interface"
+          },
+          "answer": "C",
+          "short_explanation": "The foundation is electricity, which enables the internet, which in turn enables access to AI.",
+          "long_explanation": "The lecture builds this concept layer by layer. The most fundamental requirement for any modern technology is a reliable source of electricity. Without it, you cannot power the devices or infrastructure needed for internet access. And without internet access, you cannot connect to the cloud-based AI models and services that are becoming central to the global economy. AI literacy (A) and data availability (D) are important but are higher up the stack, dependent on these basic infrastructural layers."
+        },
+        {
+          "id": 7,
+          "question": "How does the case of Wikipedia, as discussed in the lecture, exemplify the 'loss of the user-producer relationship' in the age of AI?",
+          "options": {
+            "A": "AI-generated content is now competing with human-written articles on Wikipedia, reducing its quality.",
+            "B": "Corporations use freely contributed Wikipedia data to train proprietary AI models for profit, without compensating the original contributors.",
+            "C": "Wikipedia's open-source model is being replaced by closed, corporate-owned knowledge bases.",
+            "D": "Users no longer trust Wikipedia because they suspect its content is being manipulated by AI bots."
+          },
+          "answer": "B",
+          "short_explanation": "People gave knowledge freely to a public good, and now companies are taking that knowledge to make private profits.",
+          "long_explanation": "The core of Michael Jordan's argument is about the breakdown of an implicit social contract. People contributed to Wikipedia as a collective, public good (a user-producer relationship). Now, that vast repository of human knowledge is being 'scraped' by large companies to train their commercial LLMs. The value created by the community is extracted for private profit, breaking the original relationship and damaging the incentives for future public contribution."
+        },
+        {
+          "id": 8,
+          "question": "Which of the following scenarios best represents the concept of 'intelligence augmentation' rather than 'standalone replacement'?",
+          "options": {
+            "A": "A conscious AI that serves as a legal judge, delivering final verdicts in court cases.",
+            "B": "An AI system that assists radiologists by highlighting potential anomalies in medical scans for their final review.",
+            "C": "A humanoid robot that completely takes over all nursing duties in a hospital ward.",
+            "D": "An AI that independently runs a multinational corporation without any human oversight."
+          },
+          "answer": "B",
+          "short_explanation": "'Augmentation' means the AI is a tool that helps a human do their job better, not a system that replaces the human entirely.",
+          "long_explanation": "Intelligence augmentation is about creating tools that enhance human capabilities. The radiologist scenario is a perfect example: the AI performs a task (pattern recognition) that it's very good at, but the human expert remains in the loop for the final, critical judgment. The other options (A, C, D) all describe scenarios of 'standalone replacement,' where the AI takes over a role completely, which aligns more with the sci-fi vision of AI than the current engineering reality."
+        },
+        {
+          "id": 9,
+          "question": "According to the lecture, why is developing a universally 'fair' and 'unbiased' AI system a profound challenge?",
+          "options": {
+            "A": "Because there is not enough diverse data available to train the models properly.",
+            "B": "Because the algorithms themselves have inherent mathematical biases that are impossible to remove.",
+            "C": "Because human societies have fundamentally conflicting values about what constitutes 'fairness' in the first place.",
+            "D": "Because corporations prioritize profit over fairness, and their influence cannot be overcome."
+          },
+          "answer": "C",
+          "short_explanation": "AI can't solve fairness because humans themselves don't agree on what 'fair' means.",
+          "long_explanation": "This is a central theme of the course. While data (A) and algorithms (B) are technical aspects of the problem, the most fundamental challenge is social and philosophical. 'Fairness' is not a universal, objective constant. Different cultures and communities have deeply held, conflicting ideas about it (e.g., in university admissions or loan applications). An AI cannot magically resolve these human value conflicts; it can only encode one version of fairness, which will inevitably be seen as unfair by others."
+        },
+        {
+          "id": 10,
+          "question": "A key concern raised about the use of AI as a form of resistance is its potential to 'muddle the waters'. What does this mean in practice?",
+          "options": {
+            "A": "Hacktivists can use AI to create complex cyberattacks that are difficult to trace.",
+            "B": "AI can be used to generate a high volume of 'fake' public comments or voices, drowning out genuine citizen feedback.",
+            "C": "AI-powered encryption can make it impossible for governments to monitor dissident communications.",
+            "D": "AI can create deepfakes of politicians, making it difficult to know what is real."
+          },
+          "answer": "B",
+          "short_explanation": "'Muddling the waters' refers to using AI to flood communication channels with noise, making it hard to find the real signal.",
+          "long_explanation": "While deepfakes (D) are a related issue, the specific concept of 'muddling the waters' discussed in the lecture refers to the practice of using generative AI to flood systems designed for public consultation (like a government's request for comments on a new regulation). By generating thousands of seemingly authentic but fake responses, it becomes nearly impossible for officials to discern genuine public opinion, thereby undermining the democratic process."
+        },
+        {
+          "id": 11,
+          "question": "The course syllabus is structured to move from foundational concepts to potential solutions. Which of the following topics is addressed in the latter half of the course, indicating a focus on solutions and structural issues?",
+          "options": {
+            "A": "Platform Capitalism and Generative AI",
+            "B": "AI for the Public Interest",
+            "C": "The Lure of Convenience",
+            "D": "Introduction to Responsible AI"
+          },
+          "answer": "B",
+          "short_explanation": "'AI for the Public Interest' is a forward-looking topic focused on how to steer AI toward positive societal outcomes.",
+          "long_explanation": "Looking at the module structure, the first half focuses on defining the problems and core concepts (Introductions, Platform Capitalism, Convenience, Explainability). The latter half shifts to deeper structural critiques (Injustice, Colonial Legacies, Bias) and forward-looking, solution-oriented topics like 'Fairness and Accountability' and 'AI for the Public Interest.' This structure is designed to equip students with a critical foundation before exploring potential pathways forward."
+        },
+        {
+          "id": 12,
+          "question": "What is the primary pedagogical reason for having students deliver a 15-minute presentation followed by a 15-minute Q&A?",
+          "options": {
+            "A": "To ensure that every student gets a chance to speak in public during the semester.",
+            "B": "To test students' ability to summarize readings under strict time pressure.",
+            "C": "To encourage deep critical engagement with the texts and foster a collaborative, discussion-based learning environment.",
+            "D": "To reduce the professor's lecture time and shift the workload onto the students."
+          },
+          "answer": "C",
+          "short_explanation": "The format is designed to move beyond summary to critical analysis and interactive discussion.",
+          "long_explanation": "The assessment is not just about summarizing (B) or public speaking (A). The goal is for students to develop their *own take* on the material—a critical argument. The presentation shares this argument, and the Q&A session transforms the classroom from a passive listening space into an active, collaborative environment where ideas are debated and clarified. This pedagogical approach prioritizes deep engagement and dialogue."
+        },
+        {
+          "id": 13,
+          "question": "The panel discussion in the *Harvard Data Science Review* is titled 'Amid Advancement, Apprehension, and Ambivalence'. The term 'ambivalence' in this context best captures the idea that:",
+          "options": {
+            "A": "Most people are indifferent to the development of AI and do not care about its impact.",
+            "B": "The public holds a complex and often contradictory mix of excitement for AI's potential and fear of its consequences.",
+            "C": "AI experts themselves are undecided about whether AI will ultimately be beneficial or harmful.",
+            "D": "There is a lack of clear data on whether the economic benefits of AI outweigh the social costs."
+          },
+          "answer": "B",
+          "short_explanation": "'Ambivalence' refers to the simultaneous feeling of positive and negative emotions—excitement mixed with fear.",
+          "long_explanation": "Ambivalence is not indifference (A) or simple indecision (C). It specifically refers to the state of having mixed feelings or contradictory ideas about something. In the context of AI, it perfectly describes the societal mood: many people are simultaneously hopeful about AI's ability to cure diseases and solve climate change, while also being deeply anxious about job displacement, bias, and loss of control."
+        },
+        {
+          "id": 14,
+          "question": "If an AI system for hiring is criticized for disadvantaging candidates from low-income backgrounds, a focus on 'co-design' as a solution would most likely involve:",
+          "options": {
+            "A": "Hiring more developers from low-income backgrounds to work on the AI.",
+            "B": "Feeding the AI more data about successful employees who came from low-income backgrounds.",
+            "C": "Actively involving representatives from low-income communities and career counselors in the AI's design and goal-setting process.",
+            "D": "Implementing a legal framework that allows rejected candidates to sue the company for discrimination."
+          },
+          "answer": "C",
+          "short_explanation": "Co-design means bringing the affected community into the design process to help define the goals and values of the system.",
+          "long_explanation": "Co-design is a participatory process. While hiring diverse developers (A) and using better data (B) are important steps, co-design goes further by directly involving the end-users and affected communities in the creation of the technology. In this scenario, it would mean consulting with people who understand the barriers faced by low-income candidates to ensure the AI's definition of a 'good candidate' is fair and inclusive. Legal recourse (D) is a form of resistance after the fact, not a part of the initial design process."
+        },
+        {
+          "id": 15,
+          "question": "The lecture suggests that the optimism of organizations like the Gates Foundation about AI should be met with critical inquiry. Which question is most central to this critique?",
+          "options": {
+            "A": "Is the proposed AI technology technically feasible and cost-effective?",
+            "B": "Will the AI generate enough profit to be sustainable in the long term?",
+            "C": "Whose vision of progress is being promoted, and are the intended beneficiaries involved in the decision-making?",
+            "D": "Can the AI be protected from cybersecurity threats and hacking attempts?"
+          },
+          "answer": "C",
+          "short_explanation": "The critical question is about power: who decides what 'progress' looks like and who gets a say?",
+          "long_explanation": "The core of the critical inquiry encouraged by the lecture is socio-political. While technical feasibility (A), profitability (B), and security (D) are important, the central question for a course on 'AI in Diverse Societies' is about power, vision, and inclusion. It asks students to look behind the optimistic narrative and question the underlying assumptions: Who defines the problem? Who designs the solution? And whose values are being embedded in the technology that will be deployed to 'help' others?"
+        },
+        {
+          "id": 16,
+          "question": "The final exam includes '4 closed questions' and '2 open essay questions'. What is the primary difference in the cognitive skills being tested by these two formats?",
+          "options": {
+            "A": "Closed questions test memory, while open questions test creativity.",
+            "B": "Closed questions assess understanding of core concepts, while open questions assess the ability to apply and synthesize those concepts.",
+            "C": "Closed questions are objective and easy to grade, while open questions are subjective.",
+            "D": "Closed questions focus on technical details, while open questions focus on ethical opinions."
+          },
+          "answer": "B",
+          "short_explanation": "The closed questions test if you know the definitions; the open questions test if you can use those definitions to build an argument.",
+          "long_explanation": "This question is about pedagogy. The exam is designed to test different levels of understanding. The closed, short-answer questions test foundational knowledge—can the student accurately define and summarize the key concepts from the course? The open essay questions require a higher-order cognitive skill: synthesis and application. Students must take those concepts and use them to construct a coherent, critical analysis of a real-world problem, demonstrating a deeper level of mastery."
+        },
+        {
+          "id": 17,
+          "question": "Which of the following is NOT one of the marking criteria for the student presentations?",
+          "options": {
+            "A": "The technical accuracy of the code examples provided.",
+            "B": "The clarity and coherence of the argument presented.",
+            "C": "The demonstrated understanding of the required readings.",
+            "D": "The overall structure and clarity of the presentation."
+          },
+          "answer": "A",
+          "short_explanation": "The presentations are about critical analysis of social and ethical issues, not technical implementation.",
+          "long_explanation": "The marking criteria listed on the slide are: understanding, argument, and presentation. This is a course in 'AI in Society,' not a computer science course. Therefore, students are assessed on their ability to critically analyze the societal implications of AI, not on their ability to write or demonstrate code. The focus is on critical thinking and communication about the readings."
+        },
+        {
+          "id": 18,
+          "question": "Why might a country with high internet penetration still face significant 'cultural disparity' issues from AI, according to the lecture's principles?",
+          "options": {
+            "A": "Because the cost of AI software is too high for most of its citizens.",
+            "B": "Because the AI tools are primarily developed in another language, creating a linguistic barrier.",
+            "C": "Because the AI systems, trained on global or foreign data, may promote values and norms that conflict with local culture.",
+            "D": "Because the country's internet infrastructure is too slow to run advanced AI models effectively."
+          },
+          "answer": "C",
+          "short_explanation": "Access to AI isn't the only issue; the AI itself might promote values that don't fit the local culture.",
+          "long_explanation": "This question tests the understanding that disparity is not just about access. Even with full internet access (ruling out D) and no language barrier (ruling out B), a society can experience cultural disparity. If the AI systems they use (for social media, entertainment, news) are trained on data that predominantly reflects the values, social norms, and consumer habits of another culture (e.g., the US), it can lead to a form of cultural erosion or imposition. This is a subtle but powerful form of exclusion."
+        },
+        {
+          "id": 19,
+          "question": "The lecture discusses legal recourse as a 'form of resistance' to AI. What is its primary limitation in creating widespread, systemic change?",
+          "options": {
+            "A": "Courts and judges lack the technical expertise to understand how AI systems work.",
+            "B": "Legal battles are expensive and time-consuming, making them accessible only to a small, privileged portion of the population.",
+            "C": "AI companies use their powerful legal teams to win almost every case brought against them.",
+            "D": "Laws are slow to change and cannot keep up with the rapid pace of AI development."
+          },
+          "answer": "B",
+          "short_explanation": "Going to court is too expensive and complex for most people, so it can't be a solution for everyone.",
+          "long_explanation": "While all the options are valid challenges, the lecture and required reading specifically highlight the issue of accessibility and resources. As Martha Minow points out, for the vast majority of people, especially those from marginalized communities who are often most affected by biased systems, the idea of launching a legal challenge against a major corporation is simply not a viable option. This makes legal recourse a tool for the privileged rather than a mechanism for systemic justice."
+        },
+        {
+          "id": 20,
+          "question": "What distinguishes the 'AI for the Public Interest' topic from 'Introduction to Responsible AI' within the module structure?",
+          "options": {
+            "A": "The introduction is theoretical, while 'Public Interest' focuses on practical case studies.",
+            "B": "'Public Interest' is a proactive, solution-oriented topic, whereas the introduction focuses on defining the problems and challenges.",
+            "C": "The introduction covers global issues, while 'Public Interest' focuses specifically on the European context and the EU AI Act.",
+            "D": "The introduction is taught by the main professor, while 'Public Interest' is a guest lecture."
+          },
+          "answer": "B",
+          "short_explanation": "The introduction asks 'what are the problems?', while 'Public Interest' asks 'how can we use AI to actively do good?'.",
+          "long_explanation": "The course is structured to build knowledge progressively. The 'Introduction to Responsible AI' is about framing the debate, defining key terms, and identifying the core challenges (e.g., bias, trust, inequality). 'AI for the Public Interest,' which comes near the end of the course, is a more proactive and constructive topic. It explores how AI can be intentionally designed and deployed to solve societal problems and serve collective goals, moving the conversation from critique to positive action."
+        },
+        {
+          "id": 21,
+          "question": "The news article 'She helps cheer me up' about AI chatbots highlights which key dimension of AI's societal impact?",
+          "options": {
+            "A": "The economic disruption caused by AI automating jobs in the mental health sector.",
+            "B": "The privacy risks associated with sharing personal emotional data with AI companies.",
+            "C": "The potential for AI to be used as a tool for political manipulation and propaganda.",
+            "D": "The deep emotional and psychological integration of AI into human relationships and well-being."
+          },
+          "answer": "D",
+          "short_explanation": "The article shows that AI is no longer just a tool for work; it's becoming a companion and emotional support system.",
+          "long_explanation": "While privacy risks (B) are a valid and related concern, the central theme of that headline and article is the profound shift in how humans relate to technology. It demonstrates that AI is moving into the most intimate parts of our lives, acting as a friend, a partner, or a therapist. This raises fundamental questions about human connection, dependency, and the nature of relationships, which is a key reason this course exists."
+        },
+        {
+          "id": 22,
+          "question": "Which of the following is the best example of a 'bottom-up market' that, according to the lecture, is threatened by the current model of AI development?",
+          "options": {
+            "A": "The global stock market, where AI is used for high-frequency trading.",
+            "B": "The market for independent musicians and artists who rely on platforms to reach an audience and get paid.",
+            "C": "The enterprise software market, where large corporations buy AI solutions from other large corporations.",
+            "D": "The government contracting market for defense and surveillance AI."
+          },
+          "answer": "B",
+          "short_explanation": "Bottom-up markets are driven by many small, independent creators, like musicians, whose economic model is being disrupted.",
+          "long_explanation": "A 'bottom-up market' is one characterized by a large number of independent producers creating value, as opposed to a 'top-down' market dominated by a few large players. The lecture uses the example of music, where platforms like Spotify can create an environment that makes it economically unviable for smaller, independent artists to survive, thus damaging the creative ecosystem from the bottom up. The other options describe top-down markets dominated by large institutions."
+        },
+        {
+          "id": 23,
+          "question": "The course emphasizes an interdisciplinary approach. Why is this particularly crucial for studying 'Responsible AI'?",
+          "options": {
+            "A": "Because AI technology is too complex for any single person to understand fully.",
+            "B": "Because the challenges of AI are not just technical but also legal, ethical, economic, and social, requiring diverse expertise.",
+            "C": "Because interdisciplinary research receives more funding from government and private foundations.",
+            "D": "Because it allows students from different academic backgrounds to enroll in the same course."
+          },
+          "answer": "B",
+          "short_explanation": "Responsible AI isn't just a coding problem; it's a human problem that needs lawyers, sociologists, and ethicists at the table.",
+          "long_explanation": "The central argument for an interdisciplinary approach is that the problems posed by AI are multifaceted. A computer scientist can build the model, but they may not be an expert in legal liability, economic fairness, or cultural bias. Creating responsible AI requires a conversation between experts in computer science, law, ethics, sociology, and other fields to address the full spectrum of its impact. The panel in the required reading is a perfect example of this necessary collaboration."
+        },
+        {
+          "id": 24,
+          "question": "The marking criteria for the exam's open questions include 'Argument' and 'Background'. What is the key difference between these two criteria?",
+          "options": {
+            "A": "'Argument' is about your personal opinion, while 'Background' is about factual knowledge.",
+            "B": "'Argument' assesses the clarity and originality of your own thinking, while 'Background' assesses your demonstrated knowledge of the course readings.",
+            "C": "'Argument' focuses on ethical considerations, while 'Background' focuses on technical details.",
+            "D": "'Argument' is about structure and style, while 'Background' is about the content of your answer."
+          },
+          "answer": "B",
+          "short_explanation": "'Background' is showing you did the reading; 'Argument' is showing you can use the reading to build your own point.",
+          "long_explanation": "These two criteria evaluate different skills. 'Background' checks if you have done the work—have you read and understood the course materials? It's about demonstrating knowledge. 'Argument,' on the other hand, evaluates what you *do* with that knowledge. It assesses your ability to synthesize information, form a coherent and convincing point of view, and ideally, show some independent or original thought. A paper can have a strong background (lots of facts) but a weak argument (no clear point)."
+        },
+        {
+          "id": 25,
+          "question": "If a government uses an AI to analyze public sentiment on social media, which concept from the lecture best explains why this might not reflect the true opinion of the entire population?",
+          "options": {
+            "A": "The technological imperative.",
+            "B": "The loss of the user-producer relationship.",
+            "C": "The digital divide.",
+            "D": "The problem of conflicting values."
+          },
+          "answer": "C",
+          "short_explanation": "Analyzing social media only captures the opinions of those who have internet access and use those platforms, ignoring everyone else.",
+          "long_explanation": "This is a direct application of the 'digital divide' concept. Social media users are not a representative sample of the entire population. They are, by definition, people with access to the internet and a propensity to use those specific platforms. The elderly, the poor, the rural, and those in regions with low connectivity are systematically underrepresented. Therefore, any analysis based solely on this data will be skewed and will not reflect the views of the whole society."
+        },
+        {
+          "id": 26,
+          "question": "In the context of the course, what is the primary danger of the 'Lure of Convenience'?",
+          "options": {
+            "A": "It makes people physically lazy and less willing to perform manual tasks.",
+            "B": "It encourages users to trade their privacy and data for easy-to-use services without considering the long-term consequences.",
+            "C": "It leads to a decline in critical thinking skills as people rely on AI to do their work for them.",
+            "D": "It drives the development of AI systems that are entertaining but not useful for serious economic or social problems."
+          },
+          "answer": "B",
+          "short_explanation": "The 'lure of convenience' makes us give up important things, like privacy, for the sake of an easy and seamless experience.",
+          "long_explanation": "The 'Lure of Convenience' is a powerful force in the digital economy. We are offered incredibly convenient services (like personalized recommendations or free social media) in exchange for our personal data. The danger is that this transaction is often opaque, and we may not fully understand the long-term implications for our privacy, autonomy, and how that data might be used. It encourages a frictionless experience at a hidden cost."
+        },
+        {
+          "id": 27,
+          "question": "Why is the concept of 'Colonial Legacies' included in a course on AI and diversity?",
+          "options": {
+            "A": "Because many of the raw materials used to build computer hardware are sourced from former colonies.",
+            "B": "Because the global power imbalances in AI development often mirror historical colonial relationships, with technology and values flowing from the Global North to the Global South.",
+            "C": "Because the internet was originally developed by the US military, a modern form of a colonial power.",
+            "D": "Because AI is being used to preserve the languages and cultures of indigenous communities that were harmed by colonialism."
+          },
+          "answer": "B",
+          "short_explanation": "The way powerful countries develop and export AI to the rest of the world can repeat old patterns of colonial power and influence.",
+          "long_explanation": "While all options contain a grain of truth, the core reason for including 'Colonial Legacies' is to analyze the structural power dynamics of global AI development. The lecture argues that there is a risk of 'digital colonialism,' where technology, data practices, and cultural values are developed in a few powerful centers (mostly in the Global North) and exported to the rest of the world. This can create dependencies, reinforce inequalities, and impose foreign norms in a way that echoes historical colonial patterns."
+        },
+        {
+          "id": 28,
+          "question": "Which of the following best describes the problem of 'Epistemic Injustice' in the context of AI?",
+          "options": {
+            "A": "When an AI system provides factually incorrect information or 'hallucinates'.",
+            "B": "When an AI system is used to spread misinformation and propaganda, thus harming public knowledge.",
+            "C": "When an AI system systematically devalues or ignores the knowledge and experiences of marginalized groups because their data is not represented or is deemed 'untrustworthy'.",
+            "D": "When the inner workings of an AI are a 'black box,' making it impossible for humans to know how it reached a decision."
+          },
+          "answer": "C",
+          "short_explanation": "'Epistemic injustice' is when a system unfairly dismisses someone's knowledge, often because of their identity or background.",
+          "long_explanation": "Epistemic injustice is a philosophical concept about who is considered a credible knower. In the context of AI, it occurs when a system, due to biases in its training data or design, systematically discounts the contributions or credibility of certain groups. For example, a medical AI trained primarily on data from white males might perform poorly for women of color, effectively treating their biological reality as less valid. It's a deep form of injustice related to whose knowledge counts."
+        },
+        {
+          "id": 29,
+          "question": "An AI doll that learns a child's personality and becomes their 'best friend' most directly raises concerns related to which two topics from the lecture?",
+          "options": {
+            "A": "The stack of inequality and legal recourse.",
+            "B": "Emotional dependency and the commodification of relationships.",
+            "C": "The loss of the user-producer relationship and platform capitalism.",
+            "D": "Epistemic injustice and the technological imperative."
+          },
+          "answer": "B",
+          "short_explanation": "AI dolls turn relationships into a product and create the risk of unhealthy emotional attachment to a machine.",
+          "long_explanation": "The AI doll trend, as shown in the news article, touches on several issues, but at its core are two intertwined concerns. First, it represents the commodification of relationships—turning friendship and companionship into a product that can be bought and sold. Second, it raises profound questions about emotional dependency, especially for vulnerable users like children. What are the psychological effects of forming a primary emotional bond with a corporate-owned algorithm?"
+        },
+        {
+          "id": 30,
+          "question": "If a student's presentation only summarizes the readings without offering any critical analysis or personal perspective, which marking criterion would they score lowest on?",
+          "options": {
+            "A": "Argument",
+            "B": "Understanding",
+            "C": "Presentation",
+            "D": "Background"
+          },
+          "answer": "A",
+          "short_explanation": "The 'Argument' criterion is specifically about developing your own critical take, not just repeating what you read.",
+          "long_explanation": "A student who accurately summarizes the readings would likely score well on 'Understanding' and 'Background.' However, the 'Argument' criterion explicitly assesses the student's ability to move beyond summary to analysis and to present their *own* coherent, critical point of view. A presentation that lacks this analytical layer, even if well-structured ('Presentation') and factually correct ('Understanding'), would fail to meet the core requirement of the 'Argument' criterion."
+        }
+      ]
+    }
+  ]
+}
