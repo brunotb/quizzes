@@ -1,0 +1,399 @@
+{
+  "chapters": [
+    {
+      "title": "4. The Lure of Convenience",
+      "questions": [
+        {
+          "id": 1,
+          "question": "According to Krohs (2012), what is the defining characteristic of 'convenience experimentation' that likens it to 'industrial prefabrication of meals'?",
+          "options": {
+            "A": "Its primary goal is to generate novel hypotheses through exploratory data analysis.",
+            "B": "It simplifies processes and standardizes outcomes, often with theoretical assumptions embedded in the tools.",
+            "C": "It significantly reduces the cost of experiments compared to traditional methods.",
+            "D": "It requires minimal human oversight due to advanced automation capabilities."
+          },
+          "answer": "B",
+          "short_explanation": "Krohs emphasizes standardization and embedded assumptions, like a pre-made meal.",
+          "long_explanation": "Krohs's analogy of 'convenience experimentation' to 'industrial prefabrication of meals' highlights how the tools and procedures themselves simplify the process and produce standardized, predictable outcomes. Crucially, this often means that theoretical assumptions are already 'enshrined' or built into the technology, rather than being openly tested or generated from scratch, similar to how a convenience meal dictates the final dish."
+        },
+        {
+          "id": 2,
+          "question": "Which of the following is NOT one of the three key characteristics of 'convenience' in AI applications, as defined by Mussgnug and Leonelli?",
+          "options": {
+            "A": "An emphasis on speed and ease of action.",
+            "B": "Its inherently objective and universal quality.",
+            "C": "A comparative element against alternative approaches.",
+            "D": "A subject-dependent and subjective quality."
+          },
+          "answer": "B",
+          "short_explanation": "Convenience is subjective and comparative, not objective or universal.",
+          "long_explanation": "Mussgnug and Leonelli define convenience as having three key characteristics: (i) an emphasis on speed and ease of action, (ii) a comparative element (it's convenient *compared to* something else), and (iii) a subject-dependent and subjective quality (what's convenient for one person may not be for another). Therefore, 'inherently objective and universal quality' is explicitly contradicted by their definition."
+        },
+        {
+          "id": 3,
+          "question": "Beyond automating administrative tasks, which of these is an immediate advantage of AI in scientific research mentioned in the lecture?",
+          "options": {
+            "A": "Eliminating the need for human intuition in experimental design.",
+            "B": "Guaranteeing unbiased data collection in all research fields.",
+            "C": "Facilitating large-scale data analysis and scenario simulation.",
+            "D": "Replacing all human researchers with fully autonomous AI scientists."
+          },
+          "answer": "C",
+          "short_explanation": "AI excels at processing vast data and simulating complex scenarios.",
+          "long_explanation": "The lecture highlights several immediate advantages of AI, including its ability to perform large-scale data analysis and assist in scenario analysis and experimental design. While AI aims to make human input more efficient, it does not claim to eliminate human intuition, guarantee unbiased data (a challenge discussed later), or replace all human researchers."
+        },
+        {
+          "id": 4,
+          "question": "In the context of health-related R&D, what does 'predictive prevention' primarily aim to achieve with AI?",
+          "options": {
+            "A": "Automatically performing complex surgical procedures without human intervention.",
+            "B": "Identifying potential drug candidates from vast chemical libraries.",
+            "C": "Anticipating health risks and managing aftercare through data from wearables and 'digital patients'.",
+            "D": "Streamlining hospital logistics like patient admissions and supply management."
+          },
+          "answer": "C",
+          "short_explanation": "Predictive prevention uses data to foresee and manage health issues proactively.",
+          "long_explanation": "Predictive prevention, as discussed in the health R&D examples, focuses on leveraging data from self-measurement devices (wearables, 'digital patients') to forecast health risks (e.g., Alzheimer's) and manage ongoing care remotely. Options A, B, and D represent other distinct AI applications in health R&D, such as robot-assisted surgery, drug development, and logistics, respectively."
+        },
+        {
+          "id": 5,
+          "question": "Why is 'fact-checking' AI outputs considered 'everything but mechanical' in the lecture?",
+          "options": {
+            "A": "AI models are inherently flawless and do not require external validation.",
+            "B": "General fact-checking principles may not apply, and expert human judgment is crucial for context and nuance.",
+            "C": "The process is too slow for AI, requiring manual human verification for efficiency.",
+            "D": "Fact-checking is a purely creative task that AI is incapable of performing."
+          },
+          "answer": "B",
+          "short_explanation": "Fact-checking AI requires human experts to understand context, not just mechanical rules.",
+          "long_explanation": "The lecture argues that fact-checking AI outputs is far from mechanical because general principles (like flagging incoherence) may not always be appropriate in complex scientific or social contexts. Instead, it demands extensive and expert human judgment to contextualize information, understand nuances, and assess relevance, which AI cannot fully replicate. This makes it a labor-intensive cognitive task, not a simple automated process."
+        },
+        {
+          "id": 6,
+          "question": "What is meant by 'high-resource bias' in the context of AI development and its challenges?",
+          "options": {
+            "A": "AI algorithms are inherently biased towards processing large amounts of data efficiently.",
+            "B": "Well-funded institutions and approaches often set the standards for AI 'excellence,' leading to limited support for low-resource settings.",
+            "C": "AI development primarily benefits only high-income individuals and corporations, excluding smaller businesses.",
+            "D": "The bias originates from AI models being trained exclusively on data from high-achieving individuals."
+          },
+          "answer": "B",
+          "short_explanation": "High-resource bias means AI standards are set by the wealthy, neglecting low-resource contexts.",
+          "long_explanation": "High-resource bias refers to the phenomenon where AI development and its standards of 'excellence' are predominantly shaped by well-funded institutions and approaches. This often results in AI tools optimized for high-bandwidth settings and specific data types, with insufficient support or consideration for low-resource environments, perpetuating existing inequities and making expensive tech a proxy for quality."
+        },
+        {
+          "id": 7,
+          "question": "The lecture argues that 'good for AI' is not necessarily 'good for science.' What is the primary reason for this distinction?",
+          "options": {
+            "A": "AI tools are often too complex for scientists to understand or use effectively.",
+            "B": "An AI model can be technically impressive but still produce biased results or encourage narrow research if its assumptions are flawed.",
+            "C": "Scientific progress fundamentally relies on human intuition, which AI cannot replicate.",
+            "D": "The development of AI for science is excessively slow and inefficient."
+          },
+          "answer": "B",
+          "short_explanation": "Technical excellence in AI doesn't guarantee scientific quality if underlying assumptions are biased.",
+          "long_explanation": "The distinction 'good for AI' vs. 'good for science' highlights that while an AI model might be technically sophisticated (e.g., efficient code, powerful algorithms), it doesn't automatically translate to good scientific outcomes. If the AI's underlying assumptions are flawed, its training data is biased, or it encourages a narrow research focus, it can lead to unreliable or incomplete scientific knowledge, despite its technical prowess."
+        },
+        {
+          "id": 8,
+          "question": "What is a key challenge related to the promise of 'speed and ease of use' in AI, regarding its long-term reliability?",
+          "options": {
+            "A": "AI models are inherently stable and do not require any adjustments after deployment.",
+            "B": "Automation necessitates frequent, labor-intensive human checks and recalibration to maintain trustworthiness.",
+            "C": "The initial setup of AI tools is so complex that it negates any later time savings.",
+            "D": "AI's speed makes it impossible for humans to keep up with its outputs, leading to abandonment."
+          },
+          "answer": "B",
+          "short_explanation": "AI requires continuous human oversight to remain reliable.",
+          "long_explanation": "The lecture explicitly states that automation, despite its promise of ease, requires 'frequent, labor-intensive (human) checks and recalibration to changing targets / knowledge / context.' Without this ongoing human involvement, AI models can become rigid, perpetuate biases, or produce unreliable results over time, indicating that true 'ease' is often contingent on continuous human effort."
+        },
+        {
+          "id": 9,
+          "question": "How does the commercialization of AI tools, particularly regarding Intellectual Property (IP), pose a challenge to 'value compared to other options'?",
+          "options": {
+            "A": "It encourages robust competition, leading to rapid innovation and superior AI solutions.",
+            "B": "It mandates full transparency of algorithms, allowing for easy comparison with alternatives.",
+            "C": "It leads to secrecy and a lack of transparency, making fair, like-for-like comparisons impossible.",
+            "D": "It ensures that AI tools are always developed with ethical considerations as the top priority."
+          },
+          "answer": "C",
+          "short_explanation": "Commercial secrecy hinders objective comparison of AI tools.",
+          "long_explanation": "The lecture explains that commercialization and IP protection often lead to secrecy as the default research mode for AI tools. This lack of transparency means that the inner workings (algorithms, training data) are hidden, making it extremely difficult, if not impossible, to conduct fair, 'like-for-like' comparisons with alternative methods or competing AI solutions. This can result in adopting suboptimal tools based on marketing rather than objective assessment."
+        },
+        {
+          "id": 10,
+          "question": "What is a significant limitation of AI models related to 'massive data absences' in fields like health R&D?",
+          "options": {
+            "A": "AI generates too much data, overwhelming researchers with irrelevant information.",
+            "B": "AI can only process visual data, ignoring other sensory inputs crucial for some research areas.",
+            "C": "AI struggles with incomplete or biased datasets, particularly lacking non-visual information like taste or sound in research.",
+            "D": "AI is unable to synthesize data from different sources, limiting its analytical scope."
+          },
+          "answer": "C",
+          "short_explanation": "AI is limited by the quality and completeness of its training data, especially non-visual inputs.",
+          "long_explanation": "The lecture points out that AI models are constrained by 'massive data absences,' particularly beyond visual senses. This means that while AI might excel with visual data, it struggles with or ignores crucial information like taste, sound, or other non-quantifiable inputs, leading to incomplete or biased analyses if the training data is not comprehensive or representative of all relevant sensory modalities."
+        },
+        {
+          "id": 11,
+          "question": "What is a key implication of AI's 'lure of convenience' concerning human judgment in scientific practice?",
+          "options": {
+            "A": "It empowers human judgment by providing all necessary data for decision-making.",
+            "B": "It leads to the underestimation of the pertinence of human judgment in contextualizing and giving meaning to information.",
+            "C": "It eliminates the need for human judgment by providing definitive, unbiased answers.",
+            "D": "It shifts human judgment entirely towards technical aspects of AI development."
+          },
+          "answer": "B",
+          "short_explanation": "Convenience often devalues human judgment in interpreting AI outputs.",
+          "long_explanation": "A significant implication highlighted in the lecture is that the 'lure of convenience' in AI applications often leads to the underestimation of the crucial role of human judgment. This judgment is essential for contextualizing AI-generated information (e.g., medical diagnoses for individual patients) and for giving it meaning within complex real-world scenarios, tasks that AI cannot fully perform on its own."
+        },
+        {
+          "id": 12,
+          "question": "The 'Philosophy of Open Science' framework, as presented, emphasizes which core values in the context of AI and data science?",
+          "options": {
+            "A": "Speed and efficiency at all costs.",
+            "B": "Profit maximization and intellectual property protection.",
+            "C": "Diversity and Justice.",
+            "D": "Technological superiority and market dominance."
+          },
+          "answer": "C",
+          "short_explanation": "The framework prioritizes inclusivity and fairness in scientific practice.",
+          "long_explanation": "The 'Philosophy of Open Science' framework explicitly positions 'Diversity' and 'Justice' as core, fundamental values guiding how science should be conducted in the age of AI. This contrasts with the narrower focus on convenience, speed, or commercial gain, advocating instead for responsible, inclusive, and equitable scientific practices that consider who benefits and who might be excluded."
+        },
+        {
+          "id": 13,
+          "question": "What is a potential negative consequence of the uncritical adoption of Convenience AI, as summarized in the lecture?",
+          "options": {
+            "A": "It invariably leads to a significant increase in scientific breakthroughs.",
+            "B": "It often simplifies research processes without compromising evidential foundations.",
+            "C": "It can weaken the evidential foundations of science and generate inertia in research planning.",
+            "D": "It guarantees the elimination of all human labor in scientific inquiry."
+          },
+          "answer": "C",
+          "short_explanation": "Uncritical adoption can undermine scientific rigor and adaptability.",
+          "long_explanation": "The lecture warns that the uncritical adoption of Convenience AI, driven solely by the desire to shortcut human labor, can have damaging implications. Specifically, it may 'weaken the evidential foundations of science' and 'generate inertia in how research is planned, set-up and conducted,' leading to potentially compromised knowledge and a lack of critical scrutiny over research processes."
+        },
+        {
+          "id": 14,
+          "question": "Why is the convenience of an AI tool described as 'contextual'?",
+          "options": {
+            "A": "It is universally convenient regardless of the user's background.",
+            "B": "Its convenience is only meaningful when compared to perceived alternative, less comfortable courses of action.",
+            "C": "It adapts its functionality based on the user's geographical location.",
+            "D": "It requires extensive contextual data input to function properly."
+          },
+          "answer": "B",
+          "short_explanation": "Convenience is relative; it's convenient compared to something else.",
+          "long_explanation": "The lecture defines convenience as 'contextual' because it is 'only meaningful given envisaged alternatives.' This means that something is perceived as convenient only in comparison to a more difficult, time-consuming, or less comfortable way of performing the same task. For example, a reference manager is convenient compared to manual citation, not in an absolute sense."
+        },
+        {
+          "id": 15,
+          "question": "How does the lecture critique the common distinction between 'routine' and 'creative' tasks in the context of AI automation?",
+          "options": {
+            "A": "It argues that AI can perform both routine and creative tasks equally well, making the distinction irrelevant.",
+            "B": "It suggests that many tasks labeled 'routine' actually involve significant expertise and judgment, leading to their devaluation.",
+            "C": "It claims that humans should focus solely on routine tasks, leaving creative work to AI.",
+            "D": "It states that the distinction is clear-cut and universally agreed upon, posing no challenge."
+          },
+          "answer": "B",
+          "short_explanation": "Many 'routine' tasks require expertise, and their automation can devalue human skill.",
+          "long_explanation": "The lecture critiques the 'routine' vs. 'creative' distinction by highlighting that many tasks perceived as 'routine' (e.g., data curation, fact-checking) actually require 'extensive and expert (non-automated, case-by-case) judgement.' This common framing risks devaluing essential scientific labor and overlooking the cultivated skill and practical knowledge involved, rather than genuinely freeing up researchers for more creative contributions."
+        },
+        {
+          "id": 16,
+          "question": "How does 'colonial heritage and discrimination' impact AI's development and application, according to the lecture?",
+          "options": {
+            "A": "It limits AI's reach to only former colonial territories, hindering global adoption.",
+            "B": "It ensures diverse representation in datasets, leading to more equitable AI outcomes.",
+            "C": "It contributes to skewed data representation and differential treatment in data governance and analysis, perpetuating biases.",
+            "D": "It primarily affects historical data, having no bearing on contemporary AI models."
+          },
+          "answer": "C",
+          "short_explanation": "Historical biases lead to skewed data and unfair treatment in AI.",
+          "long_explanation": "The lecture explicitly states that 'colonial heritage and discrimination' contribute to 'skewed representation' in datasets and 'differential treatment in data governance and analysis.' This means that AI models trained on such historically biased data can perpetuate and even amplify existing social injustices, leading to unfair or inaccurate outcomes for marginalized groups, thereby making inequity worse rather than better."
+        },
+        {
+          "id": 17,
+          "question": "What is the primary concern regarding the tension between 'top-down, general-purpose AI' and 'bottom-up, context-specific' AI?",
+          "options": {
+            "A": "Top-down AI is always superior and makes bottom-up efforts redundant.",
+            "B": "Context-specific AI is too slow and expensive to be practical for most research.",
+            "C": "The lure of general-purpose AI may lead to adopting solutions that don't perfectly fit nuanced, specific research needs.",
+            "D": "Bottom-up AI lacks the computational power to address large-scale scientific problems."
+          },
+          "answer": "C",
+          "short_explanation": "General-purpose AI, while convenient, may not be suitable for nuanced problems.",
+          "long_explanation": "The lecture highlights a tension where the push for 'top-down, general-purpose AI' (often built by powerful entities) can lead to solutions that are convenient but may not be 'best adapted to their prospective applications within science and medicine.' This risks overlooking the need for 'bottom-up, context-specific' AI tailored to nuanced problems, as the 'lure of convenience' often favors readily available, generalized tools even when they don't perfectly fit the specific research question."
+        },
+        {
+          "id": 18,
+          "question": "How does the focus on 'machine-readable metrics' (e.g., in peer review) present a challenge to the promise of AI's speed and ease?",
+          "options": {
+            "A": "It makes peer review more efficient and objective by standardizing evaluation criteria.",
+            "B": "It leads to a rise of conservatism and entrenchment of digital identities in scientific assessment.",
+            "C": "It causes disastrous consequences for some scientific tasks by focusing on easily quantifiable aspects over true quality.",
+            "D": "It reduces the workload for human peer reviewers, allowing them to focus on core research."
+          },
+          "answer": "C",
+          "short_explanation": "Quantifiable metrics can overlook true quality, leading to poor outcomes.",
+          "long_explanation": "The lecture argues that focusing on 'machine-readable metrics' in the pursuit of speed and ease can have 'disastrous consequences for some scientific tasks.' For example, in peer review, prioritizing metrics like citation counts (which are easy for AI to process) over the actual content or quality of research can lead to superficial assessments and undermine the integrity of scientific evaluation, rather than making it more objective or truly efficient."
+        },
+        {
+          "id": 19,
+          "question": "Which of the following best describes the AI application of 'predictive prevention' in health-related R&D, as discussed in the lecture?",
+          "options": {
+            "A": "Using AI to predict the most effective drug compounds for a specific disease.",
+            "B": "Employing AI to forecast the spread of epidemics and coordinate emergency responses.",
+            "C": "Analyzing data from wearables and 'digital patients' to anticipate health risks like Alzheimer's and manage aftercare.",
+            "D": "Automating surgical procedures with robotic assistance to minimize human error."
+          },
+          "answer": "C",
+          "short_explanation": "Predictive prevention uses personal data to anticipate and manage individual health proactively.",
+          "long_explanation": "The lecture describes 'predictive prevention' in health R&D as an AI application that uses data from 'wearables' and 'digital patients' to anticipate health risks (e.g., early signs of Alzheimer's) and manage aftercare, making healthcare more proactive and home-based. Options A, B, and D refer to drug development, emergency response, and robot-assisted surgery, respectively, which are distinct applications within health R&D."
+        },
+        {
+          "id": 20,
+          "question": "What is the primary intention behind applying AI in instances of 'Convenience AI'?",
+          "options": {
+            "A": "To completely replace human researchers in all scientific discovery processes.",
+            "B": "To increase speed and minimize human effort, making tasks seem less inconvenient.",
+            "C": "To develop entirely new scientific theories without human input.",
+            "D": "To ensure absolute objectivity and eliminate all biases in research outcomes."
+          },
+          "answer": "B",
+          "short_explanation": "Convenience AI aims to make tasks faster and easier for humans.",
+          "long_explanation": "The lecture defines 'Convenience AI' as situations where AI is applied 'with the primary intention to increase speed and minimize human effort.' This is fundamentally about making tasks perceived as boring, 'mere routine,' or inconvenient to researchers, more efficient and manageable, rather than fully replacing human involvement in discovery or guaranteeing absolute objectivity."
+        },
+        {
+          "id": 21,
+          "question": "How do proponents of 'Convenience AI' typically present its 'value compared to other options'?",
+          "options": {
+            "A": "By focusing solely on the internal technical superiority of the AI without external comparisons.",
+            "B": "By explicitly discussing and critiquing previous or alternative approaches as slower or more burdensome.",
+            "C": "By acknowledging that AI offers similar value to existing methods but with a higher cost.",
+            "D": "By promoting AI as a completely novel tool with no historical precedents or alternatives."
+          },
+          "answer": "B",
+          "short_explanation": "Convenience AI often critiques traditional methods to highlight its own value.",
+          "long_explanation": "One of the three defining goals of Convenience AI is its 'value compared to other options.' The lecture explains that proponents of these AI solutions explicitly discuss and critique 'previous or alternative approaches' by portraying them as boring, slow, labor-intensive, or inconvenient, thereby positioning the AI solution as a superior and easier choice. This comparative framing is central to its marketing and adoption."
+        },
+        {
+          "id": 22,
+          "question": "The lecture states that convenience has a 'subjective quality.' What does this primarily imply?",
+          "options": {
+            "A": "AI algorithms can independently determine what is convenient for all users.",
+            "B": "What is considered convenient depends on the individual user's capabilities, skills, and perception of the task.",
+            "C": "Convenience is an objective measure that can be quantified and optimized by AI.",
+            "D": "The subjective quality of convenience is irrelevant to its practical application in science."
+          },
+          "answer": "B",
+          "short_explanation": "Convenience is personal; it varies based on who is using the tool.",
+          "long_explanation": "The 'subjective quality' of convenience means that it is 'subject-dependent and subjective.' What one person considers convenient (e.g., a fast AI tool) depends heavily on their individual capabilities, skills, and their personal perception of the task's difficulty or enjoyability. This contrasts with an objective or universal measure, emphasizing that convenience is perceived rather than inherent, and is influenced by the user's background."
+        },
+        {
+          "id": 23,
+          "question": "Beyond immediate practical benefits, what is a significant environmental challenge associated with AI's 'speed and ease of use' that is often overlooked?",
+          "options": {
+            "A": "AI's development requires rare earth minerals, leading to geopolitical conflicts.",
+            "B": "The massive computational power of AI contributes to high energy consumption and carbon footprint.",
+            "C": "AI-powered robots generate excessive physical waste during experiments.",
+            "D": "AI causes unprecedented levels of digital pollution, corrupting data streams."
+          },
+          "answer": "B",
+          "short_explanation": "AI's computational needs have a large environmental impact.",
+          "long_explanation": "The lecture explicitly mentions 'Environmental/geopolitical challenges' as a factor influencing AI's 'speed and ease of use.' It highlights that the intensive computational power required for AI development and deployment leads to significant energy consumption and a substantial carbon footprint, which are often overlooked when the focus is purely on the AI's efficiency and convenience benefits."
+        },
+        {
+          "id": 24,
+          "question": "What is a potential negative outcome of 'scientific monocultures' fostered by Convenience AI?",
+          "options": {
+            "A": "Increased diversity in research questions and methodologies.",
+            "B": "A greater emphasis on interdisciplinary collaboration across fields.",
+            "C": "Researchers becoming unable to identify when particular uses of AI are misaligned with research questions.",
+            "D": "A reduction in the overall volume of scientific data produced."
+          },
+          "answer": "C",
+          "short_explanation": "Monocultures limit diverse perspectives, making it harder to spot AI's misapplications.",
+          "long_explanation": "Scientific monocultures, where AI tools and their inherent assumptions become dominant, can lead to researchers being 'unable to identify when particular uses of AI are misaligned with the research question explored.' This happens because the proliferation of Convenience AI, by prioritizing certain perspectives and data types, can counter efforts to acknowledge the situated nature of knowledge and diversify standpoints, ultimately hindering critical scrutiny and limiting the range of viable inquiry."
+        },
+        {
+          "id": 25,
+          "question": "The lecture discusses the 'underestimation of the significance (and labor-intensive nature) of relevant expertise' in interpreting AI findings. What kind of labor is often overlooked here?",
+          "options": {
+            "A": "The physical labor of setting up AI hardware in data centers.",
+            "B": "The creative labor of generating new scientific hypotheses from scratch.",
+            "C": "The complex, often multi-expert work required to make sense of and validate AI outputs.",
+            "D": "The purely administrative tasks that AI successfully automates."
+          },
+          "answer": "C",
+          "short_explanation": "Interpreting AI requires varied, skilled human effort.",
+          "long_explanation": "The lecture points out that the 'lure of convenience' often leads to an 'underestimation of the significance (and labor-intensive nature) of relevant (and often multiple!) expertise in interpreting AI findings.' This refers to the complex, often interdisciplinary work performed by human experts to contextualize, validate, and give meaning to AI outputs, a crucial and demanding task that is frequently overlooked or devalued when AI is presented as a simple 'answer-provider.'"
+        },
+        {
+          "id": 26,
+          "question": "Why is it often 'impossible' to make 'like-for-like comparisons' between proprietary AI tools and their alternatives, according to the lecture?",
+          "options": {
+            "A": "The technical complexity of AI models makes direct comparison computationally infeasible.",
+            "B": "The lack of transparency due to commercial secrecy and intellectual property protection prevents proper scrutiny.",
+            "C": "Alternative methods are too outdated to be meaningfully compared with modern AI.",
+            "D": "Researchers lack the necessary training to evaluate AI tools effectively."
+          },
+          "answer": "B",
+          "short_explanation": "Proprietary AI's secrecy prevents fair comparison.",
+          "long_explanation": "The lecture highlights that commercialization and Intellectual Property (IP) lead to 'secrecy as default research mode,' meaning that 'like-for-like comparisons are simply impossible in many cases.' This is because the proprietary nature of many AI tools means their algorithms, training data, and internal workings are not transparent, preventing independent scrutiny and objective comparison with alternative methods or competing AI solutions."
+        },
+        {
+          "id": 27,
+          "question": "The lecture mentions 'ghost work' in the context of AI. What does this term refer to?",
+          "options": {
+            "A": "The automated tasks performed by AI that replace human jobs.",
+            "B": "The invisible, often precarious human labor required to train, clean data for, and maintain AI systems.",
+            "C": "The creative and innovative work that AI frees humans to do.",
+            "D": "The hypothetical future work performed by fully autonomous AI scientists."
+          },
+          "answer": "B",
+          "short_explanation": "Ghost work is the hidden human labor supporting AI.",
+          "long_explanation": "The term 'ghost work' refers to the often invisible, undervalued, and labor-intensive human effort that goes into making AI systems functional and 'convenient.' This includes tasks like data cleaning, annotation, continuous monitoring, and adjustment, which are crucial for AI's performance but are frequently overlooked or under-accounted for when AI's efficiency gains are praised, making the 'ease' seem more effortless than it is."
+        },
+        {
+          "id": 28,
+          "question": "When Krohs states that theoretical hypotheses are 'enshrined' in convenience experimentation, what does he imply?",
+          "options": {
+            "A": "The experiments are designed to rigorously test and potentially falsify existing hypotheses.",
+            "B": "The technology and methods used already incorporate and reinforce specific theoretical assumptions, limiting new inquiry.",
+            "C": "Researchers are encouraged to develop novel hypotheses based on the data generated.",
+            "D": "The experimental setup is flexible enough to accommodate any theoretical framework."
+          },
+          "answer": "B",
+          "short_explanation": "Embedded assumptions in tools limit new theoretical exploration.",
+          "long_explanation": "Krohs's use of 'enshrined' indicates that in convenience experimentation, the very design of the tools and the way data is input or processed already builds in certain theoretical hypotheses. This means the technology itself channels the research, making it difficult to pursue inquiries that challenge these embedded assumptions or to generate truly novel hypotheses outside of the preconditioned lines, thus limiting genuine exploratory or hypothesis-testing research."
+        },
+        {
+          "id": 29,
+          "question": "The lecture notes that the pursuit of convenience through AI can be 'particularly pernicious' in light of misinformation. Why is this the case?",
+          "options": {
+            "A": "AI's convenience makes it inherently resistant to spreading false information.",
+            "B": "The pursuit of convenience often overlooks the need for robust data verification, allowing misinformation to spread more easily.",
+            "C": "AI tools are designed to automatically detect and correct all forms of misinformation.",
+            "D": "Misinformation is only a problem in social media, not in scientific research facilitated by AI."
+          },
+          "answer": "B",
+          "short_explanation": "Convenience can prioritize speed over verification, aiding misinformation spread.",
+          "long_explanation": "The lecture highlights that the pursuit of convenience becomes 'particularly pernicious' when coupled with the issue of misinformation. This is because prioritizing 'speed and ease' can lead to a reduced focus on critical scrutiny and robust data verification. If AI tools are adopted uncritically for their convenience, they may inadvertently facilitate the rapid dissemination of fake or misleading data by bypassing necessary human judgment and fact-checking processes that would otherwise slow down or prevent its spread."
+        },
+        {
+          "id": 30,
+          "question": "What is the overarching conclusion about 'The Trouble With Convenience AI'?",
+          "options": {
+            "A": "It consistently delivers on all its promises, leading to universally improved scientific practice.",
+            "B": "It often fails to deliver true convenience, comparative value, or reliable insights due to hidden labor, commercial biases, and ignored human judgment.",
+            "C": "Its only trouble is the initial high cost of implementation, which is quickly offset by long-term gains.",
+            "D": "It is a temporary phase in AI development that will soon be resolved by more advanced technologies."
+          },
+          "answer": "B",
+          "short_explanation": "Convenience AI often falls short on its promises due to underlying complexities and biases.",
+          "long_explanation": "The overarching conclusion is that 'Convenience AI does not necessarily deliver on its promises.' This is because its perceived ease and speed often mask significant hidden labor (maintenance, interpretation), its comparative value is skewed by commercial interests and lack of transparency, and it tends to underestimate the crucial role of human judgment and diverse background knowledge. These factors mean it can lead to suboptimal solutions, weakened evidential foundations, and the perpetuation of biases, rather than a universally improved scientific practice."
+        }
+      ]
+    }
+  ]
+}

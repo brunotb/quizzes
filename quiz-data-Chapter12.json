@@ -1,0 +1,1309 @@
+{
+  "chapters": [
+    {
+      "title": "All - Exam",
+      "questions": [
+        {
+          "id": 1,
+          "question": "In the 'AI in the Human Ecosystem' panel, what does the concept of a 'human ecosystem' primarily emphasize regarding AI?",
+          "options": {
+            "A": "AI as a purely technical system that can be optimized independently of social factors.",
+            "B": "AI as a biological system that evolves according to natural selection principles.",
+            "C": "AI as a powerful force that interacts with and reshapes all aspects of human life, including social, political, and economic systems.",
+            "D": "AI as a replacement for human cognitive functions in complex decision-making."
+          },
+          "answer": "C",
+          "short_explanation": "The 'human ecosystem' framework views AI not as an isolated technology but as a force deeply integrated with all facets of human society.",
+          "long_explanation": "The correct answer is C. The panel, particularly in the introduction by Fran Berman and discussions by Sabina Leonelli, frames AI within a 'human ecosystem' to stress that it cannot be understood in isolation. It is a socio-technical system with profound impacts on our economy, laws, culture, and relationships. Option A is the opposite of the panel's view. Option B is an incorrect analogy. Option D reflects a classical view of AI that Michael Jordan specifically critiques in the panel discussion."
+        },
+        {
+          "id": 2,
+          "question": "According to the course materials, what is the primary question Sabina Leonelli believes we must ask to ensure 'Responsible AI'?",
+          "options": {
+            "A": "How can we make AI algorithms 100% accurate and free of technical errors?",
+            "B": "Who gets to set the problems that AI algorithms are meant to solve, and who is involved in designing the systems?",
+            "C": "Which programming languages are most secure for developing safe AI systems?",
+            "D": "How can we ensure that all individuals have free access to the most advanced AI tools?"
+          },
+          "answer": "B",
+          "short_explanation": "Leonelli argues that the most fundamental question for 'Responsible AI' is about governance: who defines the problems and who designs the solutions.",
+          "long_explanation": "The correct answer is B. Professor Leonelli's contribution to the introductory panel and the course's narrative arc emphasizes that responsibility in AI begins with the socio-political question of governance. It's not primarily about technical perfection (A) or specific tools (C), or even just access (D). The core issue is who holds the power to define the purpose and values embedded within the AI system, making B the most relevant and critical question."
+        },
+        {
+          "id": 3,
+          "question": "What is 'Collective Trust' in the context of AI, as discussed in the introductory session?",
+          "options": {
+            "A": "The sum total of individual users' confidence in a specific AI application.",
+            "B": "A social phenomenon built through shared norms, transparent processes, and the integration of diverse forms of expertise.",
+            "C": "A legally mandated requirement for AI companies to publish their source code for public review.",
+            "D": "The belief that an AI system has achieved a human-like level of consciousness and can be trusted as a person."
+          },
+          "answer": "B",
+          "short_explanation": "'Collective Trust' is a social confidence in AI systems, established through shared standards and participatory processes, not just individual belief.",
+          "long_explanation": "The correct answer is B. The introductory session frames trust not as an individual feeling (A) but as a collective, social achievement. It is built on processes that foster confidence across society, such as acknowledging multiple forms of expertise and having transparent governance. While publishing code (C) could be part of this, it is not the definition itself. Option D is a misinterpretation of trust and relates to concepts of AGI not central to this definition."
+        },
+        {
+          "id": 4,
+          "question": "In the Zowghi & Bano (2024) reading, what does 'Inclusion' in the context of AI primarily refer to?",
+          "options": {
+            "A": "The state of having a demographically representative group of developers.",
+            "B": "The process of proactively involving and representing the most relevant humans with diverse attributes in the AI ecosystem.",
+            "C": "The technical ability of an AI system to process data from all languages and cultures.",
+            "D": "The legal requirement to include an ethics statement in all AI-related publications."
+          },
+          "answer": "B",
+          "short_explanation": "Inclusion is defined as the active 'process' of proactively involving diverse and relevant people, distinguishing it from the 'state' of diversity.",
+          "long_explanation": "The correct answer is B. The Zowghi & Bano reading, and the lecture, make a clear distinction between Diversity (the state of representation) and Inclusion (the active process). Inclusion is about *doing*—proactively involving relevant stakeholders. A is closer to the definition of diversity. C is a technical capability, and D is a procedural requirement, but neither captures the core definition of inclusion as an active social process."
+        },
+        {
+          "id": 5,
+          "question": "What is the most significant epistemic risk of using 'culture' as a classifier in AI systems, according to the 'Diversity and AI' lecture?",
+          "options": {
+            "A": "It is technically difficult to gather large-scale cultural data.",
+            "B": "It violates the privacy of individuals by revealing their cultural background.",
+            "C": "The concept of 'culture' is ill-defined and using it as a label risks creating and reinforcing harmful stereotypes.",
+            "D": "Most AI models are not powerful enough to understand the nuances of cultural differences."
+          },
+          "answer": "C",
+          "short_explanation": "The lecture warns that 'culture' is not a neat category, and using it as a classifier risks harmful stereotyping and oversimplification.",
+          "long_explanation": "The correct answer is C. The lecture emphasizes that the primary danger of using 'culture' as a classifier is not technical (A, D) or legal (B), but epistemic and ethical. The concept itself is extremely difficult to pin down, and any attempt to use it as a simple label in a dataset risks reducing complex identities to harmful stereotypes, which can then be amplified by the AI system. This is the most significant and relevant risk discussed."
+        },
+        {
+          "id": 6,
+          "question": "The concept of 'Situated Inclusion' is proposed as a response to what problem?",
+          "options": {
+            "A": "The technical difficulty of achieving perfect fairness in algorithms.",
+            "B": "The impossibility and potential harm of trying to 'include everyone' in every AI project.",
+            "C": "The lack of funding for diversity initiatives in the tech industry.",
+            "D": "The need for more women and minorities in AI development roles."
+          },
+          "answer": "B",
+          "short_explanation": "'Situated Inclusion' argues that since including 'everyone' is impossible, we must instead make transparent, context-specific choices about who to include.",
+          "long_explanation": "The correct answer is B. The lecture critiques the vague goal of 'including everyone' as both impossible and not always desirable. 'Situated Inclusion' is the proposed alternative: for any given project, there must be a conscious and defensible process to decide *who* is relevant to include and *why*. It shifts the focus from a universal, abstract goal to a concrete, context-dependent one."
+        },
+        {
+          "id": 7,
+          "question": "According to the lecture on Platform Capitalism, what is the primary source of surplus value for companies like Google and Meta?",
+          "options": {
+            "A": "Subscription fees paid by users for premium services.",
+            "B": "The sale of software licenses to other corporations.",
+            "C": "The extraction and analysis of user data to create prediction products for advertisers.",
+            "D": "Revenue from their hardware divisions, such as phones and smart speakers."
+          },
+          "answer": "C",
+          "short_explanation": "In Platform Capitalism, the core commodity is not the service itself, but the data extracted from users, which is used to create profitable prediction products.",
+          "long_explanation": "The correct answer is C. Drawing on theorists like Zuboff and Srnicek, the lecture defines the business model of platform capitalism as being based on data extraction. The 'behavioral surplus'—data about user behavior—is the raw material that is processed and sold, primarily to advertisers who want to predict and influence future behavior. A, B, and D are revenue streams for some companies, but C describes the fundamental logic of the dominant platform model."
+        },
+        {
+          "id": 8,
+          "question": "Safiya Noble's concept of 'Technological Redlining' primarily describes how AI systems:",
+          "options": {
+            "A": "Create economic inequality by automating jobs.",
+            "B": "Reinforce and create new forms of discrimination, particularly along racial lines.",
+            "C": "Violate user privacy through constant surveillance.",
+            "D": "Suffer from technical glitches and errors that lead to bad outcomes."
+          },
+          "answer": "B",
+          "short_explanation": "'Technological Redlining' refers to the way algorithms encode and amplify societal biases, creating new forms of discrimination.",
+          "long_explanation": "The correct answer is B. Safiya Noble uses the term to draw a parallel with historical redlining, where services were denied to people based on their race. In the digital world, she argues, algorithms do the same thing by, for example, returning biased or demeaning search results that reinforce negative stereotypes. This is distinct from job automation (A), general privacy (C), or technical errors (D)."
+        },
+        {
+          "id": 9,
+          "question": "What is the core argument of the Berlinski et al. (2024) reading on generative AI?",
+          "options": {
+            "A": "Generative AI represents a completely new economic paradigm that has moved beyond capitalism.",
+            "B": "Generative AI is a neutral tool whose impact will depend entirely on how it is regulated.",
+            "C": "Generative AI is an 'advanced form of capitalism' that deepens existing dynamics of power centralization and precarious labor.",
+            "D": "Generative AI will primarily benefit small businesses and individuals by democratizing access to powerful tools."
+          },
+          "answer": "C",
+          "short_explanation": "The reading argues that generative AI is not a break from capitalism but an intensification of it, amplifying existing structures of power and control.",
+          "long_explanation": "The correct answer is C. Berlinski et al. argue against the idea that generative AI is a revolutionary break. Instead, they position it as the latest stage of platform capitalism, one that further centralizes power, creates new forms of digital labor, and operates within a 'neoliberal imaginary' that favors market solutions over public debate. This directly contradicts options A and D, and is more specific than the neutral stance in B."
+        },
+        {
+          "id": 10,
+          "question": "The lecture on 'The Lure of Convenience' defines 'Convenience AI' as having three key characteristics. Which of the following is NOT one of them?",
+          "options": {
+            "A": "An emphasis on speed and ease of action.",
+            "B": "A comparative element, where its value is judged against other options.",
+            "C": "A guarantee of objective, universally correct results.",
+            "D": "A subjective quality, where its value depends on the user's skills and goals."
+          },
+          "answer": "C",
+          "short_explanation": "Convenience AI is defined by its focus on speed, its comparative nature, and its subjective value; it makes no guarantee of objectivity.",
+          "long_explanation": "The correct answer is C. The lecture explicitly defines Convenience AI by its emphasis on speed/ease (A), its comparative nature (B), and its subjective quality (D). The concept of objectivity is contrary to this definition; in fact, the lecture argues that the pursuit of convenience often leads to a *decrease* in critical scrutiny and a disregard for objective quality in favor of what is easy."
+        },
+        {
+          "id": 11,
+          "question": "According to the 'Lure of Convenience' lecture, what is 'high-resource bias'?",
+          "options": {
+            "A": "The tendency for AI models to require large amounts of computational resources to run.",
+            "B": "A systemic bias where well-funded topics and approaches set the standard for 'excellent science', marginalizing other forms of research.",
+            "C": "The preference of researchers to work at wealthy, well-resourced universities.",
+            "D": "An algorithmic error caused by training a model on data from only high-income individuals."
+          },
+          "answer": "B",
+          "short_explanation": "'High-resource bias' is a systemic issue where what is well-funded and uses expensive technology becomes the benchmark for quality, devaluing other approaches.",
+          "long_explanation": "The correct answer is B. This concept describes a structural problem in the scientific community. It's not just about the technical requirements of AI (A) or individual preferences (C). It's a systemic issue where the visibility and prestige of high-cost, high-tech research (often from the Global North) sets the agenda and standards for everyone, making it difficult for low-cost, context-specific, or low-bandwidth research to be seen as valuable. D is an example of sampling bias, whereas high-resource bias is a structural issue about the research environment itself."
+        },
+        {
+          "id": 12,
+          "question": "Why does the pursuit of 'Convenience AI' often underestimate the importance of human judgment?",
+          "options": {
+            "A": "Because it assumes that all 'routine' tasks are purely mechanical and do not require contextual understanding or expertise.",
+            "B": "Because human judgment is known to be slow and full of cognitive biases.",
+            "C": "Because modern AI has become more reliable than human experts in most domains.",
+            "D": "Because the goal of Convenience AI is to create fully autonomous systems that operate without any human intervention."
+          },
+          "answer": "A",
+          "short_explanation": "Convenience AI often mischaracterizes complex tasks requiring nuanced human judgment (like fact-checking) as simple 'routine' work that can be easily automated.",
+          "long_explanation": "The correct answer is A. The lecture argues that a key flaw in the 'convenience' narrative is its dismissal of the expertise required for tasks it labels as 'routine'. Tasks like contextualizing a medical diagnosis or validating a data source are not mechanical; they require deep, situated human judgment. Convenience AI's promise rests on the false assumption that this work is simple and easily automated. While human judgment can be flawed (B), and some AI is very accurate (C), A best captures the core critique made in the lecture."
+        },
+        {
+          "id": 13,
+          "question": "In the context of XAI, what is the primary difference between 'interpretability' and 'explainability'?",
+          "options": {
+            "A": "Interpretability is for developers and answers 'HOW' a model works, while explainability is for users and answers 'WHY' a decision was made.",
+            "B": "Interpretability applies to simple models, while explainability applies only to complex Deep Neural Networks.",
+            "C": "Interpretability provides a mathematical proof of correctness, while explainability provides a natural language summary.",
+            "D": "Interpretability is a legal requirement under GDPR, while explainability is an ethical best practice."
+          },
+          "answer": "A",
+          "short_explanation": "Interpretability is an inherent property of a model (for developers, answering 'how'), while explainability is a post-hoc technique (for users, answering 'why').",
+          "long_explanation": "The correct answer is A. The lecture makes a clear distinction based on audience and purpose. Interpretability is a feature of the model's design, allowing a developer to see *how* it works mechanically for debugging. Explainability is a post-hoc method aimed at providing a justification or reason—the *why*—to an end-user for purposes of fairness and accountability. The other options are either incorrect or less precise."
+        },
+        {
+          "id": 14,
+          "question": "What is the main argument of Baron's (2025) paper, 'Trust, Explainability and AI'?",
+          "options": {
+            "A": "Explainability is always necessary to build any form of trust in an AI system.",
+            "B": "Trust in AI is impossible because machines cannot have moral intentions.",
+            "C": "For the kinds of trust that are appropriate for AI (like reliance), explainability is not a necessary condition.",
+            "D": "Only fully transparent and interpretable AI models can ever be considered trustworthy."
+          },
+          "answer": "C",
+          "short_explanation": "Baron argues that explainability is not necessary for the types of trust that are appropriate for AI, such as reliance on a reliable tool.",
+          "long_explanation": "The correct answer is C. Baron's central thesis is a critique of the common claim that XAI is necessary for trust. He argues that for moderate forms of trust, like relying on a tool that you have good evidence works well, you don't need to know *why* it works. For stronger, interpersonal forms of trust, explainability might be needed, but those forms of trust are inappropriate for current AI systems anyway because they lack the required mental properties. Therefore, for trust that *matters* and is *appropriate* for AI, explainability is not necessary."
+        },
+        {
+          "id": 15,
+          "question": "The XAI technique LIME (Local Interpretable Model-agnostic Explanations) works by:",
+          "options": {
+            "A": "Translating the complex code of a neural network into a simple set of human-readable rules.",
+            "B": "Perturbing an input and observing how the black box model's predictions change to infer which features were important.",
+            "C": "Running a full simulation of the model's training process to find the most influential data points.",
+            "D": "Conducting surveys with users to ask them why they think the model made a certain decision."
+          },
+          "answer": "B",
+          "short_explanation": "LIME explains a black box's local decision by creating variations of an input to see which parts most affect the outcome.",
+          "long_explanation": "The correct answer is B. LIME is a post-hoc, model-agnostic technique. Its core mechanism is to take a single prediction, create many slightly modified versions of the input that led to it (e.g., by hiding parts of an image), and feed these new samples to the model. By seeing how the prediction changes, it builds a simple, local, interpretable model that explains which features of the original input were most influential for that specific decision."
+        },
+        {
+          "id": 16,
+          "question": "What is 'in-practice opacity' as defined by Leonelli in the 'What Makes AI Outputs Reliable?' lecture?",
+          "options": {
+            "A": "The theoretical impossibility of understanding the internal workings of a deep neural network.",
+            "B": "The deliberate hiding of source code and training data by corporations for proprietary reasons.",
+            "C": "The pragmatic difficulty of tracing a dataset's history and modifications within a large, complex data ecosystem, making it undoable for lack of time.",
+            "D": "The lack of clear and standardized metadata for most scientific datasets."
+          },
+          "answer": "C",
+          "short_explanation": "'In-practice opacity' arises from the pragmatic impossibility of tracking data through complex ecosystems, even if the information technically exists.",
+          "long_explanation": "The correct answer is C. Leonelli distinguishes this from 'in-principle opacity' (A). In-practice opacity is not a theoretical problem but a practical one. In a vast data ecosystem, a dataset may be reused, reprocessed, and combined many times. Even if this journey is documented, the sheer scale and complexity make it practically impossible for a researcher to reconstruct the full history and understand all the decisions that shaped the data. It's a problem of tractability and intelligibility, not a lack of information in principle."
+        },
+        {
+          "id": 17,
+          "question": "The 'Process-Oriented Philosophy of Open Science' critiques the 'Object-Oriented View' because the latter:",
+          "options": {
+            "A": "Is too expensive and difficult for most scientists to implement.",
+            "B": "Focuses only on making research objects like data accessible, while ignoring the social processes needed for trustworthy interpretation.",
+            "C": "Leads to significant privacy violations by encouraging unlimited data sharing.",
+            "D": "Is incompatible with the FAIR data principles."
+          },
+          "answer": "B",
+          "short_explanation": "The process-oriented view critiques the object-oriented view for naively assuming that just making data accessible is enough, ignoring the crucial social processes of science.",
+          "long_explanation": "The correct answer is B. The 'object-oriented view' is the simple idea that openness means making things (papers, data) available. The 'process-oriented' critique, central to the lecture, is that this is insufficient. True scientific reliability comes from the *process*—the communication, debate, and situated judgment of a diverse community. Simply dumping data online (the object view) ignores this crucial social and epistemic dimension needed to make the data meaningful and trustworthy."
+        },
+        {
+          "id": 18,
+          "question": "What does Leonelli mean by advocating for 'judicious connection' in Open Science?",
+          "options": {
+            "A": "That all data should be connected into a single, global database for maximum utility.",
+            "B": "That connections between data and people should be carefully considered, situated, and responsive to context, rather than being unlimited.",
+            "C": "That only connections that have been approved by a court of law should be permitted.",
+            "D": "That scientists should prioritize connecting with researchers from their own discipline to ensure high-quality communication."
+          },
+          "answer": "B",
+          "short_explanation": "'Judicious connection' means that data sharing and collaboration should be context-aware and purposeful, not a free-for-all of unlimited access.",
+          "long_explanation": "The correct answer is B. This concept is the core of the process-oriented philosophy. It pushes back against the idea that 'more connections' or 'more openness' is always better. Instead, it argues that connections should be *judicious*—made thoughtfully, with a clear purpose, and with an understanding of the specific context and stakeholders involved. It values quality of connection over quantity of access."
+        },
+        {
+          "id": 19,
+          "question": "In the context of the course, 'extractivism' refers to:",
+          "options": {
+            "A": "The technical process of extracting features from a dataset using a machine learning algorithm.",
+            "B": "The appropriation of resources, data, and knowledge from marginalized groups for the benefit of dominant groups, without due credit or shared value.",
+            "C": "A sustainable method for mining rare earth minerals needed for computer hardware.",
+            "D": "A legal framework for exporting natural resources from one country to another."
+          },
+          "answer": "B",
+          "short_explanation": "Extractivism is the appropriation of data and knowledge from marginalized communities for the benefit of the powerful, echoing colonial dynamics.",
+          "long_explanation": "The correct answer is B. The course expands the traditional definition of extractivism (related to natural resources) to the realm of data and knowledge. It describes a process, often with colonial overtones, where the knowledge of local or Indigenous communities is taken, decontextualized, and used for the commercial or academic benefit of powerful external actors, who do not share the benefits or acknowledge the source of the knowledge."
+        },
+        {
+          "id": 20,
+          "question": "How does the lecture on 'Structural Injustice' critique the vision of a 'global commons' of plant data?",
+          "options": {
+            "A": "It argues the vision is technically unfeasible due to a lack of data standards.",
+            "B": "It argues the vision is financially unsustainable without corporate funding.",
+            "C": "It argues the vision, in practice, often functions as a sophisticated form of bioprospecting and extractivism that harms local communities.",
+            "D": "It argues the vision is a good idea but is being implemented too slowly by international organizations."
+          },
+          "answer": "C",
+          "short_explanation": "The lecture critiques the 'global commons' ideal, arguing it can become a tool for extractivism, where local knowledge is mined for external profit without benefiting the source communities.",
+          "long_explanation": "The correct answer is C. The lecture uses the CRI case study to show the dark side of the 'global commons' vision. While it sounds noble, in a world with vast power asymmetries, making data 'freely available' can mean it becomes freely available for powerful corporations and institutions to exploit. This turns the commons into a site for bioprospecting and extractivism, where value is taken from local communities without their consent or benefit."
+        },
+        {
+          "id": 21,
+          "question": "Which of the following scenarios best exemplifies one of the 'three varieties of structural injustice in science' discussed by Leonelli?",
+          "options": {
+            "A": "A single researcher falsifies their data to get a publication.",
+            "B": "A research lab in the Global South cannot pursue its locally relevant research agenda because funding is overwhelmingly directed towards high-tech, 'universal' solutions favored by Northern funders.",
+            "C": "Two research teams have a legitimate scientific disagreement about the interpretation of an experiment.",
+            "D": "A university fails to provide adequate cybersecurity for its research data."
+          },
+          "answer": "B",
+          "short_explanation": "This scenario exemplifies structural injustice through inequity in resourcing and misalignment between funding and locally relevant scientific goals.",
+          "long_explanation": "The correct answer is B. This is a perfect example of the structural injustices discussed: inequity in resourcing and misalignment between scientific goals and resourcing. The problem is not individual misconduct (A), normal scientific debate (C), or a technical failure (D). The problem is the *structure* of global science funding that systematically disadvantages certain research agendas and locations, forcing them to conform to the priorities of the powerful."
+        },
+        {
+          "id": 22,
+          "question": "What is the central argument of the Tacheva & Ramasubramanian (2023) reading on 'AI Empire'?",
+          "options": {
+            "A": "AI is becoming a tool for a new form of American imperialism that will dominate the globe.",
+            "B": "AI represents a networked, global system of domination that is not tied to a single nation-state and that reinforces interlocking systems of oppression.",
+            "C": "The primary threat from AI is the competition between the US and China for technological supremacy.",
+            "D": "Ethical guidelines and regulations can successfully reform AI to prevent it from becoming an oppressive empire."
+          },
+          "answer": "B",
+          "short_explanation": "The 'AI Empire' is framed as a decentralized, global network of power that reinforces existing, interlocking systems of oppression like racism and colonialism.",
+          "long_explanation": "The correct answer is B. The reading's core concept of 'AI Empire' is specifically defined as a *decentralized* and *networked* global order, not one tied to a single nation like the US (A) or just a bipolar competition (C). Furthermore, its central, radical argument is that this system is fundamentally oppressive and cannot be reformed from within (contradicting D), because it is built on interlocking systems like racial capitalism and heteropatriarchy."
+        },
+        {
+          "id": 23,
+          "question": "Within the 'AI Empire' framework, what does the concept of 'modernity/coloniality' suggest about AI development?",
+          "options": {
+            "A": "That modern AI is a complete break from the colonial past.",
+            "B": "That the logic of AI development continues the colonial project of dominating the 'other' under the guise of 'progress'.",
+            "C": "That AI is a tool that can help former colonies achieve modernity and economic independence.",
+            "D": "That only modern, Western nations have the capacity to build advanced AI systems."
+          },
+          "answer": "B",
+          "short_explanation": "'Modernity/coloniality' posits that AI's narrative of progress continues the historical colonial logic of domination and erasure of the 'other'.",
+          "long_explanation": "The correct answer is B. This concept argues that the Western idea of 'modernity' is inseparable from the logic of colonialism. Applied to AI, it means that the very idea of AI as 'progress' that will 'solve' problems for others can be a continuation of a colonial mindset, where one group imposes its solutions and worldview on another. This is the opposite of A and a direct critique of the optimistic views in C and D."
+        },
+        {
+          "id": 24,
+          "question": "The 'AI Empire' reading argues that attempts to make AI 'fairer' from within the existing system are doomed to fail. Why?",
+          "options": {
+            "A": "Because there is no universally agreed-upon definition of fairness.",
+            "B": "Because the system is fundamentally built on interlocking systems of oppression, and a 'fairer' version of an oppressive system is still oppressive.",
+            "C": "Because corporations lack the financial incentive to invest in fairness.",
+            "D": "Because the technical complexity of AI models makes it impossible to audit them for fairness."
+          },
+          "answer": "B",
+          "short_explanation": "The reading argues that because AI is built on fundamentally oppressive structures, incremental reforms cannot fix it; the entire system must be transformed.",
+          "long_explanation": "The correct answer is B. This is the core of the reading's radical critique. The problem is not a lack of definitions (A), incentives (C), or technical tools (D). The problem is that the entire edifice of AI Empire is built on what the authors see as inherently unjust foundations (racial capitalism, etc.). Therefore, trying to tweak the algorithm for 'fairness' is like trying to make a slave plantation 'fairer'—it doesn't address the fundamental, structural injustice."
+        },
+        {
+          "id": 25,
+          "question": "According to Miranda Fricker, what is 'Testimonial Injustice'?",
+          "options": {
+            "A": "A harm that occurs when a person is unable to testify in court due to a lack of legal representation.",
+            "B": "A harm that occurs when a speaker's testimony is given a deflated level of credibility due to a prejudice held by the hearer.",
+            "C": "A harm that occurs when a person lacks the concepts to describe their own experience, and thus cannot give testimony.",
+            "D": "A harm that occurs when a person's written testimony is misinterpreted by an AI system."
+          },
+          "answer": "B",
+          "short_explanation": "Testimonial injustice is the credibility deficit a speaker suffers due to the hearer's prejudice.",
+          "long_explanation": "The correct answer is B. This is the precise definition provided by Fricker and used in the lecture. It is an interpersonal injustice rooted in a hearer's prejudice (e.g., sexism, racism) that causes them to doubt the speaker's word. C describes hermeneutical injustice. A is a legal harm, and D is a technical error; neither is the specific philosophical concept of testimonial injustice."
+        },
+        {
+          "id": 26,
+          "question": "What is the key difference between Fricker's 'Hermeneutical Injustice' and Goldstein's 'Epistemic Disadvantage'?",
+          "options": {
+            "A": "Hermeneutical injustice applies only to women, while epistemic disadvantage applies to all groups.",
+            "B": "Hermeneutical injustice is caused by a deliberate conspiracy to hide concepts, while epistemic disadvantage is always accidental.",
+            "C": "Hermeneutical injustice stems from an unjust, prejudice-driven gap in collective concepts, while epistemic disadvantage stems from a warranted, expertise-based exclusion from knowledge.",
+            "D": "Hermeneutical injustice is a theoretical concept, while epistemic disadvantage is a practical problem in medicine."
+          },
+          "answer": "C",
+          "short_explanation": "Hermeneutical injustice is an 'unjust' harm from a lack of shared concepts, while epistemic disadvantage is a harm from a 'warranted' exclusion based on expertise.",
+          "long_explanation": "The correct answer is C. This is the central distinction made in the Goldstein reading. Hermeneutical injustice is an *injustice* because the reason for the conceptual gap is a history of prejudice and marginalization. Epistemic disadvantage, in contrast, results from a *warranted* exclusion—one based on a justifiable asymmetry of expertise (e.g., patient vs. doctor). Though it can still cause harm, its source is not prejudice, which makes it a different category of epistemic harm."
+        },
+        {
+          "id": 27,
+          "question": "Which of the following scenarios best illustrates 'Hermeneutical Injustice'?",
+          "options": {
+            "A": "A police officer doesn't believe a witness's account of a crime because the witness is from a racial minority group.",
+            "B": "A person in the 1960s suffers from repeated, unwanted sexual advances at work but struggles to explain the systemic nature of the harm because the concept of 'sexual harassment' is not part of the collective understanding.",
+            "C": "A non-native speaker struggles to describe their medical symptoms to a doctor because they do not know the technical medical terms.",
+            "D": "A scientist's paper is rejected because the peer reviewers hold a different theoretical viewpoint."
+          },
+          "answer": "B",
+          "short_explanation": "The classic example of hermeneutical injustice is the harm suffered before a concept like 'sexual harassment' existed to make that experience intelligible.",
+          "long_explanation": "The correct answer is B. This is the canonical example used by Fricker to define the concept. The harm is structural and hermeneutical because the individual lacks the shared social concepts to name and understand their experience. A is an example of testimonial injustice. C is closer to epistemic disadvantage, as the exclusion is based on a lack of technical, specialized knowledge. D is a normal part of scientific debate."
+        },
+        {
+          "id": 28,
+          "question": "What is the 'functional view of bias' as proposed by Gabbrielle Johnson?",
+          "options": {
+            "A": "A view that bias is always a harmful malfunction of a cognitive or computational system.",
+            "B": "A view that bias is a functional mechanism that helps systems manage uncertainty and make 'best guesses' from incomplete information.",
+            "C": "A view that the function of bias is to maintain social hierarchies and oppress marginalized groups.",
+            "D": "A view that bias only exists in the function of an algorithm, not in the data it is trained on."
+          },
+          "answer": "B",
+          "short_explanation": "The functional view defines bias not as an error, but as a necessary cognitive shortcut that serves the function of resolving uncertainty.",
+          "long_explanation": "The correct answer is B. The functional view, as presented in the lecture and Johnson's reading, reframes bias as a norm-neutral mechanism. Its *function* is to solve the problem of underdetermination by providing a shortcut or assumption. This means bias is not inherently bad (A) or intentionally oppressive (C), although it can have those consequences. It is a fundamental cognitive tool. D is incorrect as the functional view applies to both data and models."
+        },
+        {
+          "id": 29,
+          "question": "The 'norm-theoretic approach' to bias defines bias as:",
+          "options": {
+            "A": "A useful heuristic for making quick decisions.",
+            "B": "A systematic departure from a genuine norm or standard of correctness.",
+            "C": "Any assumption made by a machine learning algorithm.",
+            "D": "A conscious, explicitly held prejudice against a person or group."
+          },
+          "answer": "B",
+          "short_explanation": "The norm-theoretic approach defines bias as an inherently negative concept, representing a systematic failure to adhere to a correct norm (moral, epistemic, etc.).",
+          "long_explanation": "The correct answer is B. This view, contrasted with the functional view, defines bias by its relationship to a norm. It is inherently pejorative because it is a deviation from how one *should* reason or act. This is different from the neutral view in A, the broader definition in C (which would be closer to inductive bias), and the narrow definition in D (which only covers explicit bias)."
+        },
+        {
+          "id": 30,
+          "question": "What is 'reification' in the context of data and models?",
+          "options": {
+            "A": "The process of verifying that a model's outputs are real and accurate.",
+            "B": "The process of treating an abstract concept or social relation as if it were a concrete, fixed object, such as in a dataset.",
+            "C": "The process of making a model's reasoning transparent and explainable.",
+            "D": "The process of ensuring a dataset is representative of the real world."
+          },
+          "answer": "B",
+          "short_explanation": "Reification is the process of turning something abstract, like 'professionalism', into a concrete object, like a set of labeled images, which can encode bias.",
+          "long_explanation": "The correct answer is B. As discussed in the lecture, reification is a key concept for understanding how bias gets into systems. It's the act of taking something fluid and abstract (e.g., a social category, a concept) and treating it as a stable, concrete thing that can be put into a database. This process is where biased assumptions are often made and encoded, which are then learned by AI models."
+        },
+        {
+          "id": 31,
+          "question": "Why do Leonelli et al. (2021) argue for 'methodological data fairness' as a necessary complement to the FAIR principles?",
+          "options": {
+            "A": "Because the FAIR principles are too focused on ethics and ignore technical requirements.",
+            "B": "Because the FAIR principles ensure data is accessible but say nothing about whether the research process using that data is scientifically sound or ethically just.",
+            "C": "Because the FAIR principles are a legal requirement, while methodological fairness is a voluntary best practice.",
+            "D": "Because the FAIR principles only apply to quantitative data, not the qualitative data often found on social media."
+          },
+          "answer": "B",
+          "short_explanation": "Methodological data fairness is proposed because the technical FAIR principles don't address the quality, context, or justice of the research process itself.",
+          "long_explanation": "The correct answer is B. The central argument of the reading is that FAIR is purely technical. It helps you find and access data, but it doesn't help you assess if that data is good, if your sample is biased, or if your conclusions are harmful. Methodological fairness is designed to fill this gap by embedding ethical and epistemic checks into the *entire research method*, from design to publication."
+        },
+        {
+          "id": 32,
+          "question": "Which of the following is an example of an 'essential step' towards methodological data fairness, according to the table in the Leonelli et al. reading?",
+          "options": {
+            "A": "Using the most powerful AI model available to analyze the data.",
+            "B": "Publishing results only in the highest-impact academic journals.",
+            "C": "Having a demonstrable understanding of the population from which the data is sampled, and reporting the limits of this understanding.",
+            "D": "Anonymizing all data so that it falls outside the scope of privacy laws."
+          },
+          "answer": "C",
+          "short_explanation": "A key step in methodological fairness is understanding and transparently reporting on the population being studied and the limitations of the sample.",
+          "long_explanation": "The correct answer is C. This is a direct example from the framework proposed in the reading. It is an 'essential step' because it directly addresses the risk of hermeneutical injustice and over-generalization. It forces researchers to be epistemically humble and transparent about their data's limitations. A, B, and D are not part of the proposed framework and can, in fact, run counter to methodological fairness."
+        },
+        {
+          "id": 33,
+          "question": "The lecture on 'Fairness and Accountability' argues that the tension between data 'actionability' and 'accountability' is not a trade-off. Why?",
+          "options": {
+            "A": "Because perfect accountability makes data impossible to use, so actionability must always be prioritized.",
+            "B": "Because truly actionable and reliable data can only be produced through processes that are accountable to contributors and users.",
+            "C": "Because legal regulations like GDPR have solved the accountability problem, allowing researchers to focus on actionability.",
+            "D": "Because actionability and accountability are completely separate concepts that do not influence each other."
+          },
+          "answer": "B",
+          "short_explanation": "It's not a trade-off because accountability, through trustworthy governance and participation, is what makes data truly actionable and reliable in the long run.",
+          "long_explanation": "The correct answer is B. The lecture refutes the idea of a trade-off by arguing that accountability is a precondition for good actionability. The argument is that investing in accountable governance, such as by increasing participation and being transparent with data contributors, increases the quality and representativeness of the data. This, in turn, makes the data more reliable and therefore more truly 'actionable' for scientific discovery."
+        },
+        {
+          "id": 34,
+          "question": "What is the primary goal of the 'Public Interest AI Framework' proposed by Züger & Asghari?",
+          "options": {
+            "A": "To create a universal ethical code that all AI developers must follow.",
+            "B": "To shift the focus of AI ethics from abstract values to a democratic governance process.",
+            "C": "To accelerate the development of AI for social good through increased funding.",
+            "D": "To prove that AI systems can be more fair and efficient than human decision-makers."
+          },
+          "answer": "B",
+          "short_explanation": "The framework's main goal is to shift the discourse from a focus on values to a focus on designing a legitimate, democratic process for AI governance.",
+          "long_explanation": "The correct answer is B. The reading explicitly states that its aim is to shift the focus from the 'values to the design of a governance process'. The authors argue that instead of debating abstract principles, we should focus on creating a practical, democratic process with elements like public justification and deliberation to ensure AI serves a public interest. This is more specific and foundational than A, C, or D."
+        },
+        {
+          "id": 35,
+          "question": "The CARE principles for Indigenous data governance emphasize:",
+          "options": {
+            "A": "Collective Benefit, Authority to Control, Responsibility, and Ethics.",
+            "B": "Computation, Accessibility, Reliability, and Efficiency.",
+            "C": "Clarity, Accountability, Replicability, and Explainability.",
+            "D": "Collaboration, Automation, Regulation, and Empowerment."
+          },
+          "answer": "A",
+          "short_explanation": "The CARE principles are an acronym for Collective Benefit, Authority to Control, Responsibility, and Ethics, focusing on Indigenous data sovereignty.",
+          "long_explanation": "The correct answer is A. The CARE principles were developed specifically to address the shortcomings of frameworks like FAIR in the context of Indigenous data. They center the collective rights of Indigenous peoples, emphasizing their authority over their data and ensuring that its use provides a collective benefit, which is reflected in the acronym's components."
+        },
+        {
+          "id": 36,
+          "question": "Why was the Dutch SyRI project considered a failure from a public interest perspective, even though its goal was to fight welfare fraud?",
+          "options": {
+            "A": "It was too expensive to maintain and was defunded by the government.",
+            "B": "It was developed opaquely, targeted poor neighborhoods discriminatorily, and lacked a process for public deliberation or validation.",
+            "C": "It was based on an outdated algorithm that was not technically capable of detecting fraud accurately.",
+            "D": "It was opposed by private corporations who saw it as unfair government competition."
+          },
+          "answer": "B",
+          "short_explanation": "The SyRI project failed the public interest test because it lacked a legitimate democratic process, being opaque, discriminatory, and unaccountable.",
+          "long_explanation": "The correct answer is B. The Züger & Asghari reading uses SyRI as a case study to show a failure of public interest. The core issue was not just technical (C) or financial (A), but a failure of process. It violated the key principles of the Public Interest AI framework: it lacked a clear public justification, it was discriminatory (undermining equality), and it was developed opaquely without any meaningful public deliberation or validation mechanism."
+        },
+        {
+          "id": 37,
+          "question": "Michael Jordan, in the introductory panel, argues that focusing on an 'artificially intelligent agent' is often less useful than focusing on what?",
+          "options": {
+            "A": "The moral philosophy that underpins the agent's decisions.",
+            "B": "The overall engineering system, including the humans, that solves a problem at scale.",
+            "C": "The specific neural network architecture used by the agent.",
+            "D": "The raw data used to train the agent."
+          },
+          "answer": "B",
+          "short_explanation": "Jordan argues for a systems-level view, focusing on the entire engineering system (including humans) that solves large-scale problems, rather than on a single 'agent'.",
+          "long_explanation": "The correct answer is B. A key point of Jordan's contribution is to shift the perspective away from the sci-fi notion of a standalone 'AI agent'. He argues that what has been truly achieved is the creation of vast, planetary-scale engineering systems (like logistics chains) that solve real-world problems and that crucially include humans in the loop. This system-level view is more productive than focusing on the specter of a single, god-like AI."
+        },
+        {
+          "id": 38,
+          "question": "The 'AI for all' reading by Zowghi & Bano proposes a D&I framework with five pillars. Which of the following is NOT one of those pillars?",
+          "options": {
+            "A": "Humans",
+            "B": "Data",
+            "C": "Profitability",
+            "D": "Governance"
+          },
+          "answer": "C",
+          "short_explanation": "The five pillars of the D&I in AI framework are Humans, Data, Process, System, and Governance; Profitability is not one of them.",
+          "long_explanation": "The correct answer is C. The framework presented in the reading and the lecture is designed to provide a holistic view of where diversity and inclusion matter in AI. The five pillars identified are Humans, Data, Process, System, and Governance. Profitability is a commercial concern and is explicitly contrasted with ethical and public interest goals throughout the course."
+        },
+        {
+          "id": 39,
+          "question": "What is Shoshana Zuboff's primary critique of 'Surveillance Capitalism'?",
+          "options": {
+            "A": "It is an inefficient economic model that will eventually be replaced by a more open market.",
+            "B": "It is a parasitic logic that claims human experience as a free raw material to predict and control behavior for profit, constituting a 'coup from above'.",
+            "C": "It is a system that primarily benefits state actors and governments for the purpose of social control.",
+            "D": "It is a temporary phase of capitalism that will be corrected by stronger data privacy laws like GDPR."
+          },
+          "answer": "B",
+          "short_explanation": "Zuboff defines surveillance capitalism as a rogue form of capitalism that expropriates human experience to create behavioral prediction markets for profit and control.",
+          "long_explanation": "The correct answer is B. This option captures the essence of Zuboff's strong critique. She frames it as a new, parasitic economic logic, not just an inefficient model (A) or a state-run system (C). She argues it is a fundamental threat to human autonomy—a 'coup from above'—that goes far beyond what simple privacy laws can fix (D). The key is the claim to human experience as a free resource."
+        },
+        {
+          "id": 40,
+          "question": "According to the lecture, the 'neoliberal imaginary' surrounding AI promotes the belief that:",
+          "options": {
+            "A": "Strong government regulation is necessary to steer AI development towards the public good.",
+            "B": "An unregulated environment will inevitably foster innovation and solve any problems that arise.",
+            "C": "AI should be developed primarily through publicly funded, non-profit organizations.",
+            "D": "Technological progress must be slowed down to consider all possible ethical consequences."
+          },
+          "answer": "B",
+          "short_explanation": "The 'neoliberal imaginary' is the belief that an unregulated, free-market environment is the best and most natural way to drive innovation and solve problems.",
+          "long_explanation": "The correct answer is B. The Berlinski et al. reading and the lecture on Platform Capitalism identify this as a core 'social imaginary' that shapes AI policy, particularly in Europe. It is the ideological belief in the power of the unregulated market to self-correct and produce optimal outcomes through innovation, which stands in direct opposition to calls for strong regulation (A), public ownership (C), or a precautionary principle (D)."
+        },
+        {
+          "id": 41,
+          "question": "What is a primary drawback of 'Convenience Experimentation' as described by Ulrich Krohs?",
+          "options": {
+            "A": "It is much more expensive than traditional hypothesis-driven research.",
+            "B": "It requires highly specialized skills that few scientists possess.",
+            "C": "It can lead to intellectual stagnation by channeling research along pre-determined, easy paths and discouraging critical scrutiny of methods.",
+            "D": "It generates datasets that are too small to be useful for training AI models."
+          },
+          "answer": "C",
+          "short_explanation": "Convenience experimentation risks intellectual stagnation because it encourages researchers to follow the path of least resistance rather than critically questioning their tools.",
+          "long_explanation": "The correct answer is C. Krohs's concept, discussed in the 'Lure of Convenience' lecture, warns that when research is driven by what is convenient, it can stifle creativity and critical thought. Scientists may use a standardized kit or tool because it is easy, without questioning its underlying assumptions or exploring more laborious but potentially more fruitful alternatives. This leads to a 'channeling' of research and a risk of stagnation."
+        },
+        {
+          "id": 42,
+          "question": "Which of the following best describes the relationship between interpretability and explainability?",
+          "options": {
+            "A": "All interpretable models are explainable, but not all explainable models are interpretable.",
+            "B": "They are identical concepts, with 'explainability' being the more modern term.",
+            "C": "Interpretability is a post-hoc technique, while explainability is a feature of the model's design.",
+            "D": "All explainable models are interpretable, but not all interpretable models are explainable."
+          },
+          "answer": "A",
+          "short_explanation": "Interpretability is a stronger condition (transparent by design), so interpretable models are also explainable. However, an opaque model can be made explainable post-hoc.",
+          "long_explanation": "The correct answer is A. An interpretable model (like a simple decision tree) is transparent by design, so its reasoning is inherently explainable. However, an opaque model (which is not interpretable) can be made 'explainable' using a post-hoc technique like LIME. Therefore, interpretability implies explainability, but the reverse is not true. C has the relationship backward."
+        },
+        {
+          "id": 43,
+          "question": "Why does Leonelli argue that reproducibility is not a 'silver bullet' for ensuring research quality?",
+          "options": {
+            "A": "Because reproducing experiments is too costly and time-consuming for most labs.",
+            "B": "Because it devalues qualitative research and over-emphasizes a narrow, quantitative view of science, while not addressing systemic issues like research incentives.",
+            "C": "Because perfect reproducibility is theoretically impossible to achieve in any complex system.",
+            "D": "Because it has been superseded by the FAIR principles as the new standard for research quality."
+          },
+          "answer": "B",
+          "short_explanation": "Leonelli critiques reproducibility for promoting a narrow, quantitative view of science and failing to address the deeper, systemic problems of research culture.",
+          "long_explanation": "The correct answer is B. The lecture on reliability argues that a narrow focus on reproducibility can be harmful. It risks enshrining quantitative methods as the only 'gold standard', thus devaluing other valid forms of expertise. More importantly, it doesn't solve the systemic problems that cause a lack of quality in the first place, such as the perverse incentives in academic publishing. A and C are practical/philosophical points, but B captures the core of Leonelli's specific critique in the context of the course."
+        },
+        {
+          "id": 44,
+          "question": "The case of globalizing plant knowledge, as discussed by Leonelli, serves as a primary example of which course concept?",
+          "options": {
+            "A": "AI for the Public Interest",
+            "B": "Convenience AI",
+            "C": "Data Extractivism",
+            "D": "Technological Redlining"
+          },
+          "answer": "C",
+          "short_explanation": "The globalization of plant knowledge is used as a key case study for data extractivism, where local knowledge is appropriated for external benefit.",
+          "long_explanation": "The correct answer is C. The reading for Session 7 uses this case to illustrate how the seemingly positive goal of creating a 'global commons' of data can, in practice, function as extractivism. Local ethnobotanical knowledge is digitized and centralized, where it can be used by powerful corporations, often without credit or benefit flowing back to the source communities. This is the definition of extractivism in a data context."
+        },
+        {
+          "id": 45,
+          "question": "Tacheva & Ramasubramanian argue that AI Empire is built on 'interlocking systems of oppression'. What does this mean?",
+          "options": {
+            "A": "Different oppressive systems (like racism and sexism) operate independently but at the same time.",
+            "B": "AI is a single system that has replaced all previous forms of oppression.",
+            "C": "Multiple systems of oppression (e.g., racial capitalism, heteropatriarchy) are mutually reinforcing and cannot be understood in isolation.",
+            "D": "The AI industry uses a system of 'interlocking directorates' to coordinate its oppressive actions."
+          },
+          "answer": "C",
+          "short_explanation": "This concept means that different forms of oppression, like racism and sexism, are not separate but intersect and mutually reinforce each other within the AI system.",
+          "long_explanation": "The correct answer is C. This is a core tenet of the 'AI Empire' thesis, drawing from intersectional feminist theory. The argument is that you cannot understand the sexism of an AI tool without understanding its relationship to racial capitalism and colonial legacies. The systems are not just parallel (A), they are fundamentally entangled and co-constitutive."
+        },
+        {
+          "id": 46,
+          "question": "In the 'Curare Case' discussed by Goldstein, the fact that doctors dismissed a patient's testimony of pain primarily because they were a child is an example of:",
+          "options": {
+            "A": "Hermeneutical Injustice",
+            "B": "Epistemic Disadvantage",
+            "C": "Testimonial Injustice",
+            "D": "Structural Injustice"
+          },
+          "answer": "C",
+          "short_explanation": "Dismissing testimony due to a prejudice about the speaker's identity (e.g., being a child and thus 'unreliable') is a classic case of testimonial injustice.",
+          "long_explanation": "The correct answer is C. Testimonial injustice occurs when a speaker is given a credibility deficit due to a hearer's prejudice. In this case, the prejudice is against the reliability of children as witnesses to their own pain. It is not hermeneutical injustice because the concept of 'pain' was understood by all parties. It is not merely epistemic disadvantage because the dismissal is rooted in an unjust prejudice, not a warranted exclusion based on expertise."
+        },
+        {
+          "id": 47,
+          "question": "What is the primary reason the 'functional view of bias' considers bias to be a necessary part of cognition?",
+          "options": {
+            "A": "Because bias is a social construct that we cannot escape.",
+            "B": "Because it helps systems solve the problem of underdetermination by providing assumptions to generalize from limited evidence.",
+            "C": "Because evolution has hard-wired humans to be biased for survival.",
+            "D": "Because all data is inherently biased, so any system trained on it will also be biased."
+          },
+          "answer": "B",
+          "short_explanation": "The functional view posits that bias is necessary because all systems (human or AI) have limited data and must make assumptions (biases) to generalize and act in the world.",
+          "long_explanation": "The correct answer is B. This is the central premise of the functional account as explained by Johnson. The world always 'underdetermines' our theories—there are infinite possible interpretations of limited evidence. Bias is the mechanism that allows a cognitive system to select one 'best guess' and move forward. Without this function, the system would be paralyzed by uncertainty. D is a source of bias, but B explains its fundamental cognitive function."
+        },
+        {
+          "id": 48,
+          "question": "The framework of 'methodological data fairness' is primarily concerned with:",
+          "options": {
+            "A": "The final distribution of benefits and harms from a research project.",
+            "B": "The legal compliance of data handling with privacy laws like GDPR.",
+            "C": "The quality, credibility, and justice of the entire research process, from design to interpretation.",
+            "D": "The technical interoperability of datasets across different platforms."
+          },
+          "answer": "C",
+          "short_explanation": "Methodological data fairness focuses on embedding fairness into the scientific method itself, covering the entire research process.",
+          "long_explanation": "The correct answer is C. This concept, proposed by Leonelli et al., argues that fairness is not just about outcomes (A) or legal compliance (B) or technical standards (D). It is about the scientific *method* itself. A fair outcome requires a fair process, which includes fair study design, fair sampling, fair interpretation, and transparent reporting of limitations."
+        },
+        {
+          "id": 49,
+          "question": "The concept of 'private enterprise as public utility' suggests that when tech platforms become critical infrastructure, they should be:",
+          "options": {
+            "A": "Nationalized and run by the government.",
+            "B": "Broken up into smaller companies to increase competition.",
+            "C": "Subject to regulatory control that directs their power toward public ends.",
+            "D": "Allowed to self-regulate to encourage maximum innovation."
+          },
+          "answer": "C",
+          "short_explanation": "This concept suggests that critical tech platforms, like traditional utilities, should be subject to regulation that ensures they serve the public interest.",
+          "long_explanation": "The correct answer is C. This idea, discussed in the 'AI for the Public Interest' session, draws an analogy between critical digital platforms and traditional utilities like water or electricity. While they can remain private, their essential role means they should face specific regulations to constrain market-driven behavior and ensure they serve public goals. This is a middle ground between full nationalization (A) and pure self-regulation (D)."
+        },
+        {
+          "id": 50,
+          "question": "In the introductory panel, Michael Jordan critiques the current state of AI by highlighting the loss of the 'producer/consumer relationship' that existed in platforms like Wikipedia. What problem does this cause?",
+          "options": {
+            "A": "It leads to a decline in the quality of information as there are no longer expert producers.",
+            "B": "It is economically damaging because it destroys the incentives for individuals to contribute to the collective good when their contributions are monetized by others.",
+            "C": "It violates copyright law because LLMs are trained on content without permission.",
+            "D": "It slows down AI development because companies cannot get enough high-quality, free data from consumers."
+          },
+          "answer": "B",
+          "short_explanation": "Jordan argues that when LLMs ingest collective works like Wikipedia, they break the producer/consumer market, which is economically damaging and destroys incentives.",
+          "long_explanation": "The correct answer is B. Jordan's point is fundamentally an economic one. He argues that the Wikipedia model, while not a perfect market, had a producer/consumer relationship that incentivized people to contribute. When large companies absorb this collective work into a proprietary LLM and sell it, they destroy this bottom-up market and its incentives. He sees this as not just unethical, but economically damaging to the ecosystem."
+        },
+        {
+          "id": 51,
+          "question": "The World Economic Forum's 'Blueprint for Equity and Inclusion in Artificial Intelligence' is structured around what central organizing principle?",
+          "options": {
+            "A": "A list of five ethical principles.",
+            "B": "The AI life cycle, from problem identification to deployment and monitoring.",
+            "C": "A geographical analysis of AI development in different countries.",
+            "D": "A legal framework for prosecuting biased algorithms."
+          },
+          "answer": "B",
+          "short_explanation": "The WEF Blueprint organizes its recommendations around the stages of the AI life cycle to provide a practical, end-to-end framework.",
+          "long_explanation": "The correct answer is B. As shown in the diagrams in the 'Diversity and AI' lecture, the WEF report's main contribution is its pragmatic structure. It maps out the AI development process into a cycle (Identify, Data Collection, Model Design, etc.) and provides specific guidance for fostering equity and inclusion at each stage."
+        },
+        {
+          "id": 52,
+          "question": "What is the primary danger of the 'hacker ethic' in the context of Platform Capitalism?",
+          "options": {
+            "A": "It leads to an increase in cybersecurity threats and data breaches.",
+            "B": "It is harnessed by the gig economy to reframe precarious, underpaid work as 'flexible' and 'innovative'.",
+            "C": "It promotes a culture of anti-authoritarianism that resists necessary government regulation.",
+            "D": "It is incompatible with the hierarchical structure of large corporations."
+          },
+          "answer": "B",
+          "short_explanation": "The lecture on Platform Capitalism argues that the 'hacker ethic' of free contribution is co-opted to justify the exploitation of free or underpaid digital labor.",
+          "long_explanation": "The correct answer is B. The lecture argues that the positive ethos of early hacker culture and the Open Source movement (contributing freely for the collective good) has been co-opted by platform capitalism. It is now used as an ideological justification for the gig economy and other models that rely on free or highly underpaid 'digital labor' from users, masking exploitation with the language of freedom and flexibility."
+        },
+        {
+          "id": 53,
+          "question": "The Mussgnug & Leonelli reading on 'Convenience AI' argues that the convenience of a tool is 'subject-dependent and subjective'. What does this imply?",
+          "options": {
+            "A": "A tool that is convenient for one person will be convenient for everyone.",
+            "B": "The convenience of a tool is an objective measure of its efficiency.",
+            "C": "Whether a tool is considered convenient depends on the specific skills, goals, and perceptions of the individual user.",
+            "D": "Only tools that have been subjected to rigorous testing can be considered truly convenient."
+          },
+          "answer": "C",
+          "short_explanation": "The subjectivity of convenience means its value depends on the individual user's specific context, skills, and what they perceive as 'easy' or 'difficult'.",
+          "long_explanation": "The correct answer is C. This is a key part of the definition of Convenience AI. It is not an objective property of the tool (B). What one researcher finds convenient (e.g., a complex command-line tool) another might find impossibly difficult. Convenience is in the eye of the beholder, shaped by their personal skills, goals, and what they are comparing it to. This directly contradicts A."
+        },
+        {
+          "id": 54,
+          "question": "According to the lecture, why is a purely technical approach to 'Explainability' (XAI) often insufficient to build trust?",
+          "options": {
+            "A": "Because technical explanations are usually proprietary and not shared publicly.",
+            "B": "Because trust is a social and institutional phenomenon that depends on accountable processes, not just technical transparency.",
+            "C": "Because most users do not have the mathematical background to understand the explanations.",
+            "D": "Because current XAI techniques are not yet capable of explaining the most complex AI models."
+          },
+          "answer": "B",
+          "short_explanation": "Technical explanations are not enough because trust is fundamentally social and requires accountable processes and governance, not just a window into the model's mechanics.",
+          "long_explanation": "The correct answer is B. This connects the session on Explainability to the course's wider themes. The argument is that even a perfect technical explanation doesn't build trust if the user doesn't trust the institution that built the AI, the process by which it was developed, or the purpose for which it is being used. Trust is built on social and institutional accountability, which a purely technical explanation cannot provide. C and D are practical limits, but B is the more fundamental, conceptual reason."
+        },
+        {
+          "id": 55,
+          "question": "Leonelli's concept of the 'data ecosystem' is used to emphasize that AI reliability is threatened by what?",
+          "options": {
+            "A": "The lack of a single, centralized database for all scientific data.",
+            "B": "The 'in-practice opacity' that comes from complex and often untraceable data journeys and modifications.",
+            "C": "The slow speed of data transfer between different research institutions.",
+            "D": "The use of outdated data storage technologies."
+          },
+          "answer": "B",
+          "short_explanation": "The 'data ecosystem' concept highlights that AI reliability is undermined by 'in-practice opacity'—the practical difficulty of tracing data's complex journey.",
+          "long_explanation": "The correct answer is B. The lecture on reliability uses the metaphor of an 'ecosystem' to describe the complex, messy, and interconnected reality of modern data. The primary threat to reliability in this ecosystem is not a lack of centralization (A) or technology (C, D), but the 'in-practice opacity' that results from data being constantly re-used, re-shaped, and re-interpreted as it moves through this system, making its provenance and quality difficult to assess."
+        },
+        {
+          "id": 56,
+          "question": "The lecture on 'Structural Injustice and Extractivism' uses the case of cassava research at the Crop Research Institute (CRI) to illustrate that:",
+          "options": {
+            "A": "African research institutions are leading the world in AI-driven agriculture.",
+            "B": "Digital tools for data collection are always beneficial for local farmers.",
+            "C": "Even with digital tools, structural issues like funding disparities and a focus on 'elite' breeds can perpetuate extractive dynamics.",
+            "D": "Cassava is an unsuitable crop for large-scale, data-intensive research."
+          },
+          "answer": "C",
+          "short_explanation": "The CRI case study shows how structural issues, like funding that favors 'elite' needs over local ones, can lead to extractive data practices despite technological advances.",
+          "long_explanation": "The correct answer is C. The case study is used to provide a nuanced critique. While digital tools can be helpful, they do not solve underlying structural problems. At CRI, the lack of funding for locally-focused research and the international pressure to focus on high-yield, commercially viable varieties mean that local knowledge risks being extracted for external benefit, rather than being used to support local sustenance farming. This demonstrates how technology operates within, and is shaped by, existing structural injustices."
+        },
+        {
+          "id": 57,
+          "question": "Which of the following is a core mechanism of 'AI Empire' as described by Tacheva & Ramasubramanian?",
+          "options": {
+            "A": "Democratic deliberation",
+            "B": "Open-source collaboration",
+            "C": "Surveillance and containment",
+            "D": "Social welfare"
+          },
+          "answer": "C",
+          "short_explanation": "The 'AI Empire' framework identifies mechanisms like extractivism, automation, essentialism, surveillance, and containment as its key modes of operation.",
+          "long_explanation": "The correct answer is C. The 'AI Empire' reading outlines several core mechanisms through which the system exerts control. Surveillance (the gathering of data for control) and containment (the marginalization and policing of populations) are identified as central to this process. The other options are concepts that stand in opposition to the logic of the AI Empire."
+        },
+        {
+          "id": 58,
+          "question": "Goldstein introduces the concept of 'epistemic disadvantage' to categorize harms that are:",
+          "options": {
+            "A": "Deliberate, unjust, and driven by identity prejudice.",
+            "B": "Non-deliberate and result from a warranted or justifiable exclusion based on expertise.",
+            "C": "Caused by a global lack of conceptual resources available to anyone in society.",
+            "D": "Exclusively found in the medical field and do not apply to other domains."
+          },
+          "answer": "B",
+          "short_explanation": "'Epistemic disadvantage' specifically refers to harms that are non-deliberate and stem from a justifiable exclusion, such as one based on a lack of expertise.",
+          "long_explanation": "The correct answer is B. This is the core of Goldstein's conceptual innovation. It carves out a specific category of harm that is distinct from Fricker's concepts of injustice. It is not driven by prejudice (A) and it is not a case of a universal conceptual gap (C). It is the specific harm that can occur when an exclusion is, in fact, warranted (e.g., a layperson from a technical debate) but leads to a negative outcome due to other systemic failures."
+        },
+        {
+          "id": 59,
+          "question": "According to the 'functional view', what is the role of 'social biases' in human cognition?",
+          "options": {
+            "A": "They are evolutionary remnants that are always irrational and harmful.",
+            "B": "They are conscious beliefs that people choose to adopt.",
+            "C": "They work like shortcuts, guiding us from underdetermined inputs (like appearance) to 'best guesses' based on perceived social regularities.",
+            "D": "They are primarily a product of media and propaganda."
+          },
+          "answer": "C",
+          "short_explanation": "The functional view sees social biases as cognitive shortcuts that use perceived social patterns to make quick judgments based on incomplete information.",
+          "long_explanation": "The correct answer is C. In the functional view, social biases are not fundamentally different from other cognitive biases like perceptual ones. They serve the same function: to resolve uncertainty. They take an underdetermined input (e.g., someone's appearance) and use stereotypes (perceived social regularities) as a shortcut to arrive at a 'best guess' about that person. This is not always conscious (B) or necessarily irrational from a purely functional perspective (A)."
+        },
+        {
+          "id": 60,
+          "question": "What is the primary critique of the FAIR principles (Findable, Accessible, Interoperable, Reusable) presented in the 'Fairness and Accountability' lecture?",
+          "options": {
+            "A": "They are too difficult for researchers in the humanities to implement.",
+            "B": "They are purely technical and fail to consider the ethical and social dimensions of fairness in how data is used.",
+            "C": "They have been made obsolete by the newer CARE and TRUST principles.",
+            "D": "They focus too much on data reuse and not enough on data creation."
+          },
+          "answer": "B",
+          "short_explanation": "The main critique is that the FAIR principles are technically focused on access and reusability, but completely ignore the concept of 'fair use'.",
+          "long_explanation": "The correct answer is B. The lecture and the Leonelli et al. reading argue that the FAIR principles, despite the name, have nothing to say about fairness in the ethical sense. They are a technical framework for data management. They can help you make a biased, unethically-sourced dataset perfectly findable and reusable, but they do not address the justice of its creation or use. This ethical blindness is their key limitation."
+        },
+        {
+          "id": 61,
+          "question": "The 'Public Interest AI Framework' includes the principle of 'openness to validation'. What does this primarily entail?",
+          "options": {
+            "A": "The AI's source code must be made open-source for anyone to inspect.",
+            "B": "The system's mechanisms and outcomes must be able to be scrutinized and validated by third parties and the public.",
+            "C": "The AI must be validated by a government agency before it can be deployed.",
+            "D": "The data used to train the AI must be open data that is publicly available."
+          },
+          "answer": "B",
+          "short_explanation": "'Openness to validation' means the system must be designed so that its claims and outcomes can be scrutinized by others to ensure democratic accountability.",
+          "long_explanation": "The correct answer is B. This principle goes beyond just making code or data open (A, D), although that can be part of it. It is a broader democratic norm. It means that the system's justification, its workings, and its impact must be available for inspection and validation by the public and their representatives. This is crucial for accountability and for building trust in a democratic, rather than a purely technical, way."
+        },
+        {
+          "id": 62,
+          "question": "What fundamental problem in AI development is the World Economic Forum's 'Blueprint for Equity' trying to address by focusing on the entire AI life cycle?",
+          "options": {
+            "A": "That ethical considerations are often treated as an afterthought, applied only at the end of the development process.",
+            "B": "That AI development is too slow and needs to be accelerated.",
+            "C": "That there are not enough trained AI developers to meet industry demand.",
+            "D": "That AI systems are not profitable enough to justify their development costs."
+          },
+          "answer": "A",
+          "short_explanation": "By structuring its guidance around the AI life cycle, the WEF report aims to embed ethical and equity considerations into every stage of development, not just at the end.",
+          "long_explanation": "The correct answer is A. A common failure in tech development is to treat ethics as a final 'compliance' check. The 'Blueprint's' life cycle approach is a direct response to this. By providing guidance for the problem identification stage, the data collection stage, the design stage, and so on, it aims to make equity and inclusion integral to the entire process from start to finish, rather than an add-on."
+        },
+        {
+          "id": 63,
+          "question": "Shoshana Zuboff argues that Surveillance Capitalism represents a 'coup from above'. What does she mean by this?",
+          "options": {
+            "A": "A military coup where tech companies use AI to take over the government.",
+            "B": "An overthrow of the people's sovereignty, where fundamental rights to self-determination are seized by private corporate power.",
+            "C": "A market coup where one company establishes a complete monopoly over its competitors.",
+            "D": "A technical breakthrough so significant that it makes all previous technology obsolete."
+          },
+          "answer": "B",
+          "short_explanation": "The 'coup from above' is Zuboff's term for the seizure of human sovereignty by private corporations, who claim the right to modify our behavior for their profit.",
+          "long_explanation": "The correct answer is B. This is a key phrase from Zuboff's work. The 'coup' is not a literal military takeover (A) or just a market monopoly (C). It is a political overthrow of a fundamental democratic principle: the sovereignty of the individual. She argues that by claiming the right to predict and control our behavior, surveillance capitalists are staging a coup against our autonomy and self-determination."
+        },
+        {
+          "id": 64,
+          "question": "The 'Lure of Convenience' lecture suggests that the automation of scientific tasks through AI can be 'pernicious' in light of what two factors?",
+          "options": {
+            "A": "High costs and slow processing speeds.",
+            "B": "Lack of user-friendly interfaces and poor documentation.",
+            "C": "Misinformation and endemic inequity.",
+            "D": "Government regulation and intellectual property laws."
+          },
+          "answer": "C",
+          "short_explanation": "The convenience of AI becomes particularly dangerous in a context of widespread misinformation and deep-seated inequity, as it can amplify both.",
+          "long_explanation": "The correct answer is C. The lecture argues that the risks of uncritical automation are magnified by our current social context. In an environment rife with misinformation, convenient but unscrutinized AI tools can rapidly spread false claims. In an environment with endemic inequity and digital divides, convenient tools that rely on high-resource data will naturally exacerbate those inequities."
+        },
+        {
+          "id": 65,
+          "question": "In the lecture on Explainability, what is a key problem with using XAI to build 'trust' in an AI?",
+          "options": {
+            "A": "The explanations are often too technical for the average user to understand.",
+            "B": "Many forms of trust do not require explanation, only evidence of reliability, and the forms of trust that do require explanation are inappropriate for AI.",
+            "C": "XAI techniques can be easily fooled by adversarial attacks, making their explanations unreliable.",
+            "D": "Developing explainable AI is significantly more expensive than developing opaque AI."
+          },
+          "answer": "B",
+          "short_explanation": "Baron's argument, central to the lecture, is that there is a mismatch: the trust appropriate for AI (reliance) doesn't need XAI, and the trust that needs XAI (interpersonal) is inappropriate for AI.",
+          "long_explanation": "The correct answer is B. This summarizes the core argument from the Baron (2025) reading. There is a fundamental mismatch. For 'moderate trust' (e.g., relying on a hammer), we just need to know it works, not why. This is appropriate for AI, but doesn't require explainability. For 'strong trust' (e.g., trusting a friend's goodwill), we need an explanation of their motives, but this kind of trust is inappropriate for current AI systems which lack motives. Thus, XAI is either not needed or not appropriate for building trust."
+        },
+        {
+          "id": 66,
+          "question": "Leonelli's 'Process-Oriented Philosophy of Open Science' argues that the primary goal of openness should be to:",
+          "options": {
+            "A": "Ensure all scientific data is made freely available on the internet.",
+            "B": "Accelerate the pace of scientific discovery through automation.",
+            "C": "Foster judicious connections and communication to make research more scrutinizable and into a common good.",
+            "D": "Replace human researchers with more efficient and reliable AI systems."
+          },
+          "answer": "C",
+          "short_explanation": "The process-oriented view redefines openness not as mere access, but as the fostering of judicious connections to improve scrutiny and create a common good.",
+          "long_explanation": "The correct answer is C. This is the central, positive claim of the process-oriented view. It moves beyond the 'object-oriented' view of simply making data available (A). Instead, it argues the goal of openness is to improve the scientific *process* by fostering thoughtful, context-aware communication and collaboration. This makes research more accountable and turns it into a genuine common good, rather than just a collection of freely available objects."
+        },
+        {
+          "id": 67,
+          "question": "The concept of 'epistemic oppression' as used in the course refers to a form of injustice that primarily harms an individual's or group's capacity as:",
+          "options": {
+            "A": "An economic actor",
+            "B": "A legal citizen",
+            "C": "A knower",
+            "D": "A consumer"
+          },
+          "answer": "C",
+          "short_explanation": "Epistemic oppression and injustice are harms that specifically target a person or group's capacity as a knower—their ability to understand, testify, and be heard.",
+          "long_explanation": "The correct answer is C. This is a definitional question central to several lectures (Structural Injustice, Epistemic Injustice). 'Epistemic' refers to knowledge (from the Greek 'episteme'). Therefore, epistemic harms, oppression, and injustice are those that specifically undermine a person's ability to participate in the practices of knowing: to have their testimony valued, to possess the concepts to understand their world, and to contribute to the collective pool of knowledge."
+        },
+        {
+          "id": 68,
+          "question": "What is the primary argument of the 'AI Empire' reading regarding reform?",
+          "options": {
+            "A": "The AI Empire can be reformed through stronger international laws and ethical guidelines.",
+            "B": "The AI Empire is fundamentally oppressive and cannot be reformed; it must be resisted and transformed from the bottom up.",
+            "C": "The best way to reform the AI Empire is to create a competing, publicly owned AI system.",
+            "D": "The AI Empire will eventually reform itself due to market pressures for more ethical products."
+          },
+          "answer": "B",
+          "short_explanation": "The 'AI Empire' reading takes a radical stance, arguing that because the system is built on oppression, it cannot be reformed and must be resisted from the ground up.",
+          "long_explanation": "The correct answer is B. This is the reading's main political and theoretical conclusion. The authors argue that since AI Empire is built on interlocking systems of oppression (colonialism, racial capitalism, etc.), any attempt at internal reform (A, D) is like trying to fix a rotten foundation. They argue the only path forward is radical resistance and the creation of alternatives from the perspective of the most marginalized."
+        },
+        {
+          "id": 69,
+          "question": "Which scenario best illustrates Goldstein's concept of 'Epistemic Disadvantage'?",
+          "options": {
+            "A": "An AI hiring tool systematically down-ranks female candidates due to biased training data.",
+            "B": "A patient is harmed because their doctor dismisses their symptoms due to a racist stereotype.",
+            "C": "A patient is unable to participate in a decision about their treatment because they lack the highly specialized medical knowledge to understand the options, leading to a poor outcome.",
+            "D": "A society in the 1950s lacks the concept of 'post-traumatic stress disorder', preventing veterans from understanding their own condition."
+          },
+          "answer": "C",
+          "short_explanation": "Epistemic disadvantage occurs when a justifiable exclusion based on expertise (patient lacks medical knowledge) still leads to harm.",
+          "long_explanation": "The correct answer is C. This scenario perfectly fits Goldstein's definition. The exclusion is *warranted*—we don't expect patients to have the same expertise as doctors. However, this justifiable exclusion can still lead to harm. This is distinct from A and B, which are driven by unjust prejudice (testimonial injustice), and D, which is a collective lack of concepts (hermeneutical injustice)."
+        },
+        {
+          "id": 70,
+          "question": "The 'functional view of bias' would describe the 'light comes from above' assumption in human visual perception as:",
+          "options": {
+            "A": "A harmful cognitive error that should be corrected.",
+            "B": "A useful and necessary bias that helps the visual system resolve ambiguity and perceive depth.",
+            "C": "An irrational prejudice with no evolutionary advantage.",
+            "D": "A conscious belief that people learn through experience."
+          },
+          "answer": "B",
+          "short_explanation": "From a functional view, the 'light from above' heuristic is a good bias; it's a useful shortcut that helps the brain make sense of an ambiguous 2D retinal image.",
+          "long_explanation": "The correct answer is B. The lecture on bias uses this as a key example of a 'good' bias. From a purely functional perspective, this assumption is a highly effective shortcut. It helps the brain solve the underdetermination problem of how to interpret a 2D image into a 3D world, and it works most of the time because in our environment, light usually does come from above. It is not an error (A) or irrational (C), but a functional adaptation."
+        },
+        {
+          "id": 71,
+          "question": "The table of 'Steps towards achieving methodological data fairness' from Leonelli et al. (2021) is best described as:",
+          "options": {
+            "A": "A legal checklist to ensure GDPR compliance.",
+            "B": "A set of abstract philosophical principles for fairness.",
+            "C": "A practical framework for embedding epistemic and ethical fairness into the day-to-day practice of social media research.",
+            "D": "A technical guide for building unbiased machine learning models."
+          },
+          "answer": "C",
+          "short_explanation": "The table provides a practical, step-by-step framework for researchers to integrate fairness considerations directly into their scientific methods.",
+          "long_explanation": "The correct answer is C. The table is the practical heart of the 'methodological data fairness' concept. It is not just a legal checklist (A) or a set of abstract principles (B), but a concrete set of 'essential' and 'desirable' steps that a researcher can follow throughout their project—from design to reporting—to make their work more scientifically sound and ethically fair."
+        },
+        {
+          "id": 72,
+          "question": "In Züger & Asghari's 'Public Interest AI Framework', the first and most fundamental principle is:",
+          "options": {
+            "A": "Technical safeguards",
+            "B": "Openness to validation",
+            "C": "Public justification",
+            "D": "Emphasis on equality"
+          },
+          "answer": "C",
+          "short_explanation": "The first principle of the framework is 'public justification'—the need to publicly argue why an AI system is necessary to serve a common good.",
+          "long_explanation": "The correct answer is C. The framework is presented as a logical sequence, and the authors argue that before anything else, there must be a public, democratic justification for the AI system's existence. The question of *why* the system should exist at all, and why it serves a public interest rather than a private one, must be addressed before moving on to other principles like equality, safeguards, or validation."
+        },
+        {
+          "id": 73,
+          "question": "What is the core argument of the course regarding the relationship between 'Convenience AI' and 'Platform Capitalism'?",
+          "options": {
+            "A": "Convenience AI is a tool that will ultimately disrupt and dismantle Platform Capitalism.",
+            "B": "The 'lure of convenience' is a key marketing strategy used by Platform Capitalism to encourage the adoption of its data-extracting technologies.",
+            "C": "Platform Capitalism is too inefficient to produce truly convenient AI tools.",
+            "D": "Convenience AI and Platform Capitalism are unrelated phenomena."
+          },
+          "answer": "B",
+          "short_explanation": "The course links these concepts by arguing that 'convenience' is the primary value proposition that Platform Capitalism uses to make its extractive systems appealing to users.",
+          "long_explanation": "The correct answer is B. This is a key synoptic link between sessions 3 and 4. The course argues that Platform Capitalism thrives by offering users apparent convenience (e.g., easy search, free social networking). This 'lure of convenience' makes users willing to adopt the platforms and provide the data that is the true source of value for the companies. Convenience is the bait on the hook of data extraction."
+        },
+        {
+          "id": 74,
+          "question": "How does the concept of 'methodological data fairness' (Session 11) provide a practical response to the problem of 'epistemic injustice' (Session 9)?",
+          "options": {
+            "A": "It proposes new laws to punish those who commit epistemic injustice.",
+            "B": "It provides a set of research practices designed to actively counter testimonial and hermeneutical injustice within the scientific process.",
+            "C": "It argues that epistemic injustice is not a real problem in modern science.",
+            "D": "It suggests that only people who have experienced epistemic injustice should be allowed to conduct research."
+          },
+          "answer": "B",
+          "short_explanation": "Methodological data fairness offers a practical toolkit for researchers to actively combat epistemic injustice by, for example, being transparent about population sampling.",
+          "long_explanation": "The correct answer is B. This is a crucial synoptic link. 'Epistemic injustice' is the philosophical diagnosis of the problem. 'Methodological data fairness' is the proposed practical cure within the research context. For example, to counter hermeneutical injustice (where a group is rendered invisible), a methodologically fair researcher must demonstrate an understanding of their population and report the limits of their sample, thus making the invisible visible."
+        },
+        {
+          "id": 75,
+          "question": "A key theme of the course is the critique of universal, 'one-size-fits-all' solutions for AI ethics. Which concept best represents the proposed alternative?",
+          "options": {
+            "A": "AI for the Public Interest",
+            "B": "Situated Inclusion",
+            "C": "Convenience AI",
+            "D": "Technological Redlining"
+          },
+          "answer": "B",
+          "short_explanation": "'Situated Inclusion' is the concept that best represents the course's alternative to universalism, demanding context-specific decisions about who to include and why.",
+          "long_explanation": "The correct answer is B. Throughout the course, there is a consistent argument against universal principles that ignore context. 'Situated Inclusion' (from Session 2) is the most direct and explicit articulation of the alternative. It argues that instead of a universal rule, we need a process for making responsible, situated decisions about who is relevant for a specific project. A is a framework that uses this logic, but B is the core concept itself."
+        },
+        {
+          "id": 76,
+          "question": "The 'AI Empire' thesis (Session 8) and Zuboff's 'Surveillance Capitalism' (Session 3) both describe systems of power. What is a key difference in their focus?",
+          "options": {
+            "A": "Zuboff focuses on economic extraction by private companies, while the 'AI Empire' thesis incorporates state actors and interlocking systems like colonialism and patriarchy.",
+            "B": "Zuboff's theory is optimistic about reform, while the 'AI Empire' thesis is pessimistic.",
+            "C": "Surveillance Capitalism applies only to the US, while AI Empire is global.",
+            "D": "Zuboff focuses on data, while the 'AI Empire' thesis focuses only on algorithms."
+          },
+          "answer": "A",
+          "short_explanation": "While related, Zuboff's focus is primarily on the economic logic of private corporations, whereas the 'AI Empire' thesis provides a broader, more political framework including state power and historical oppression.",
+          "long_explanation": "The correct answer is A. This is a key analytical distinction. Zuboff's powerful critique is primarily focused on a new *economic logic* of capitalism driven by private companies. The Tacheva & Ramasubramanian reading builds on this but broadens the frame significantly to an 'Empire' that is not just economic but explicitly political, and that is built not just on capitalist logic but on the interlocking historical systems of colonialism, racial capitalism, and heteropatriarchy, including the actions of states."
+        },
+        {
+          "id": 77,
+          "question": "What is the relationship between the 'functional view of bias' (Session 10) and the problem of 'explainability' (Session 5)?",
+          "options": {
+            "A": "The functional view proves that all biases can be easily explained.",
+            "B": "The functional view suggests that since some biases are unconscious shortcuts, they may not be accessible to the kind of conscious reasoning needed for explanation.",
+            "C": "The functional view argues that explainability is the only way to correct harmful biases.",
+            "D": "The functional view and explainability are opposing theories that cannot be reconciled."
+          },
+          "answer": "B",
+          "short_explanation": "The functional view, by framing bias as a non-conscious shortcut, helps explain *why* explainability is hard: the system's 'reasons' may not be accessible to conscious thought.",
+          "long_explanation": "The correct answer is B. This is a subtle but important connection. The functional view posits that biases are often non-obvious, non-conscious, system-level shortcuts (like the 'light from above' rule). This helps to explain why getting a satisfying 'why' explanation from a system (human or AI) can be so difficult. The system might not have a reason in the way we typically think of it; it just has a functional, ingrained shortcut, which complicates the entire project of XAI."
+        },
+        {
+          "id": 78,
+          "question": "The course argues that the reliability of AI outputs is deeply tied to the 'trustworthiness of the data ecosystem'. This view directly challenges what common assumption?",
+          "options": {
+            "A": "That more data always leads to more reliable models.",
+            "B": "That the primary locus of reliability is the sophistication of the AI algorithm itself.",
+            "C": "That data ecosystems are too complex to ever be made trustworthy.",
+            "D": "That only data from randomized controlled trials can be considered trustworthy."
+          },
+          "answer": "B",
+          "short_explanation": "The course's focus on the entire 'data ecosystem' challenges the common, narrow assumption that AI reliability is primarily a feature of the algorithm's technical sophistication.",
+          "long_explanation": "The correct answer is B. Much of the public and technical discourse on AI reliability focuses on the model: its architecture, its accuracy, etc. The argument in Session 6 ('What Makes AI Outputs Reliable?') is a direct challenge to this. It argues that you can have a perfect algorithm, but if you train it on data from a broken, biased, and untrustworthy ecosystem, the output will not be reliable. The locus of reliability must be expanded to include the entire data journey."
+        },
+        {
+          "id": 79,
+          "question": "How does the concept of 'extractivism' (Session 7) challenge the 'convenience' offered by AI-driven poverty mapping (Session 4)?",
+          "options": {
+            "A": "It shows that AI poverty mapping is not actually convenient because it is too technically difficult.",
+            "B": "It reframes the 'convenience' for Northern researchers as being enabled by the extraction of data and value from Southern communities without their consent or benefit.",
+            "C": "It argues that poverty mapping is a form of surveillance that violates individual privacy.",
+            "D": "It proves that traditional survey methods are more convenient and accurate than AI-based methods."
+          },
+          "answer": "B",
+          "short_explanation": "Extractivism critiques AI poverty mapping by revealing that the 'convenience' for the user is often built on the unethical extraction of data from the community being studied.",
+          "long_explanation": "The correct answer is B. This is a powerful synoptic critique. The 'Lure of Convenience' for a researcher or aid organization using AI for poverty mapping is that it's fast and cheap. The concept of 'extractivism' forces us to ask: *why* is it fast and cheap? The answer is often that it uses readily available data (like mobile phone records) from people who have not consented to this use and who may not benefit from it. The convenience for one party is predicated on the extraction from another."
+        },
+        {
+          "id": 80,
+          "question": "A central argument of the course is that 'fairness' in AI cannot be achieved solely through technical bias mitigation. What is the proposed alternative or complement?",
+          "options": {
+            "A": "A focus on creating perfect, unbiased datasets.",
+            "B": "The adoption of robust governance processes, such as those outlined in the Public Interest AI framework and methodological fairness.",
+            "C": "A moratorium on the use of AI in high-stakes decisions until the technology is more advanced.",
+            "D": "The development of a single, universal algorithm for fairness that can be applied to any model."
+          },
+          "answer": "B",
+          "short_explanation": "The course argues that technical fixes are not enough; true fairness requires robust, democratic, and accountable governance processes.",
+          "long_explanation": "The correct answer is B. This is a major narrative arc of the entire course. It consistently moves from a critique of purely technical solutions to advocating for process-based ones. Sessions like 'Fairness and Accountability' and 'AI for the Public Interest' argue that fairness is not a mathematical property to be optimized, but a social and political goal to be achieved through legitimate, participatory, and accountable governance."
+        },
+        {
+          "id": 81,
+          "question": "In the 'Data and Model Bias' lecture, what is 'target-reification'?",
+          "options": {
+            "A": "The process of creating a dataset to represent a real-world phenomenon.",
+            "B": "The process of inferring features of the world based on the analysis of a created object like a model or dataset.",
+            "C": "The process of setting a specific target for an AI model's performance.",
+            "D": "The process of treating a target group unfairly based on biased data."
+          },
+          "answer": "B",
+          "short_explanation": "Target-reification (object-to-phenomenon) is the process of using a created object, like a biased model, to make inferences about the real world.",
+          "long_explanation": "The correct answer is B. The lecture distinguishes between two modes of reification. 'Means-reification' is the creation of the object (A). 'Target-reification' is the subsequent step, where that object (the model or data) is used to draw conclusions about the target phenomenon in the real world. This is where the bias encoded during means-reification becomes actively harmful."
+        },
+        {
+          "id": 82,
+          "question": "The 'Epistemic Injustice' lecture uses the 'Curare Case' to distinguish epistemic disadvantage from testimonial injustice. What was the element of testimonial injustice in the case?",
+          "options": {
+            "A": "The doctors lacked the concept of 'pain under paralysis'.",
+            "B": "The patient's testimony of pain was dismissed due to a prejudice against them as a non-expert and a child.",
+            "C": "The patient was justifiably excluded from the technical discussion about anesthetics.",
+            "D": "The monitoring equipment at the time was not advanced enough to detect the patient's pain."
+          },
+          "answer": "B",
+          "short_explanation": "The testimonial injustice in the Curare Case was the credibility deficit assigned to the patient's report of pain due to prejudice.",
+          "long_explanation": "The correct answer is B. This element of the case is a clear example of testimonial injustice. The patient's testimony was not given due credibility because of a prejudice held by the doctors against the reliability of their class of person (a child, a non-expert). A and D are elements of circumstantial bad luck or hermeneutical gaps that contribute to the overall situation, and C is the element of warranted exclusion that Goldstein labels 'epistemic disadvantage'."
+        },
+        {
+          "id": 83,
+          "question": "What is the primary focus of the TRUST principles for data repositories, as mentioned in the 'AI for the Public Interest' lecture?",
+          "options": {
+            "A": "Ensuring data is technically Findable and Accessible.",
+            "B": "Protecting the data sovereignty of Indigenous peoples.",
+            "C": "Enhancing the accountability and governance of the data repository itself.",
+            "D": "Building trust between humans and AI agents."
+          },
+          "answer": "C",
+          "short_explanation": "The TRUST principles (Transparency, Responsibility, User focus, Sustainability, Technology) are focused on the governance and trustworthiness of data repositories.",
+          "long_explanation": "The correct answer is C. The lecture presents FAIR, CARE, and TRUST as complementary frameworks. FAIR (A) is technical. CARE (B) is for Indigenous data. TRUST is specifically designed to enhance the quality and accountability of the *institutions* that steward data—the repositories. Its principles are aimed at making the repository itself a trustworthy actor in the data ecosystem."
+        },
+        {
+          "id": 84,
+          "question": "The 'Colonial Legacies' lecture discusses 'function creep' in the context of 'data for development'. What does this term refer to?",
+          "options": {
+            "A": "The gradual expansion of an AI's technical capabilities beyond its original design.",
+            "B": "The tendency for AI projects in development to slowly exceed their budget.",
+            "C": "The extension of data use from its original purpose (e.g., humanitarian aid) to other, often commercial, purposes (e.g., fintech).",
+            "D": "The slow degradation of an AI model's performance over time."
+          },
+          "answer": "C",
+          "short_explanation": "'Function creep' is the repurposing of data from its original, often benign, context to a new, potentially exploitative one.",
+          "long_explanation": "The correct answer is C. This is a key risk highlighted in the critique of 'data for development'. A project might be justified on humanitarian grounds (e.g., using mobile data to map poverty for aid distribution). 'Function creep' occurs when that same data is later used or sold for a completely different purpose, such as by the fintech industry to create credit scores, which was not the original, consented-to function."
+        },
+        {
+          "id": 85,
+          "question": "According to the 'functional view of bias', why are social biases often so hard to notice and correct in ourselves?",
+          "options": {
+            "A": "Because they are deeply ingrained moral failings that people are unwilling to admit.",
+            "B": "Because they can be functional abstractions or unconscious perceptual habits, not just explicit beliefs, making them inaccessible to introspection.",
+            "C": "Because society constantly reinforces these biases through media and culture.",
+            "D": "Because there are no objective standards to determine what counts as a bias."
+          },
+          "answer": "B",
+          "short_explanation": "The functional view explains the persistence of bias by showing it can exist as an unconscious, functional habit, not just an explicit belief that can be easily identified and changed.",
+          "long_explanation": "The correct answer is B. The functional view helps explain why biases are so recalcitrant. If a bias is not an explicit belief but a lower-level perceptual habit or a functional shortcut, then simply trying to reason it away won't work. It operates 'below' the level of conscious introspection. While C is true and contributes to the problem, B provides the specific cognitive explanation offered by the functional account."
+        },
+        {
+          "id": 86,
+          "question": "What is the primary reason that the 'AI for the Public Interest' framework emphasizes a 'deliberative and participatory design process'?",
+          "options": {
+            "A": "Because by definition, the public interest cannot be determined by a small group of experts but must be identified through a democratic process.",
+            "B": "Because participation makes users feel more invested in the final product, increasing its adoption.",
+            "C": "Because it is a legal requirement for all government-funded AI projects.",
+            "D": "Because diverse teams are known to be more innovative and produce better technical solutions."
+          },
+          "answer": "A",
+          "short_explanation": "A deliberative process is required because, by definition, the 'public interest' is a democratic concept that must be determined by the public itself, not by experts alone.",
+          "long_explanation": "The correct answer is A. This is a core conceptual point of the framework. The 'public interest' is not a technical problem that experts can solve. It is a political concept that derives its legitimacy from a democratic process. Therefore, a participatory process is not just a nice-to-have for innovation (D) or user buy-in (B); it is a definitional requirement for a project to even be able to claim it is serving the public interest."
+        },
+        {
+          "id": 87,
+          "question": "The lecture on 'What Makes AI Outputs Reliable?' argues that in the current research world, data, models, and software often remain 'second-tier outputs'. What is the consequence of this?",
+          "options": {
+            "A": "It encourages researchers to focus on developing high-quality, reusable data and tools.",
+            "B": "It creates counter-productive incentive systems where the labor of creating good data and models is undervalued, leading to lower quality.",
+            "C": "It ensures that only the most important research findings are published as first-tier articles.",
+            "D": "It leads to a more efficient research system by focusing only on final results."
+          },
+          "answer": "B",
+          "short_explanation": "Because data and models are seen as less valuable than publications, the labor to create them is undervalued, leading to a system-wide decline in the quality of these crucial research components.",
+          "long_explanation": "The correct answer is B. The lecture identifies a key problem in the current scientific 'incentive system'. Academic credit is overwhelmingly given for publications ('first-tier outputs'). The difficult, time-consuming work of creating high-quality data, models, and software is seen as secondary. This disincentivizes researchers from investing time in these crucial tasks, which ultimately harms the reliability of the entire research ecosystem that AI depends on."
+        },
+        {
+          "id": 88,
+          "question": "The 'AI Empire' thesis claims that heteropatriarchy is a root of the system. How is this manifested in AI development?",
+          "options": {
+            "A": "Through the lack of female CEOs in major tech companies.",
+            "B": "Through the 'white male geek culture' of Silicon Valley, which shapes the technology and leads to sexist and exclusionary products.",
+            "C": "Through AI-powered tools that are used to censor feminist viewpoints online.",
+            "D": "Through the historical fact that the first computers were programmed by men."
+          },
+          "answer": "B",
+          "short_explanation": "Heteropatriarchy manifests in AI through the dominant 'white male geek culture' that shapes the values, priorities, and outcomes of technology development.",
+          "long_explanation": "The correct answer is B. The reading argues that the problem is structural. The dominant culture of Silicon Valley, which they characterize as heteropatriarchal, shapes the entire development process. This culture's values and biases get encoded into the AI systems, leading to discriminatory outcomes. This is a deeper structural cause than just the number of female CEOs (A) or specific instances of censorship (C)."
+        },
+        {
+          "id": 89,
+          "question": "What is the primary limitation of the 'norm-theoretic approach' to bias?",
+          "options": {
+            "A": "It cannot explain why bias is a problem.",
+            "B": "It struggles to account for 'good biases', such as useful perceptual heuristics, since it defines all bias as a deviation from a norm.",
+            "C": "It only applies to human biases, not algorithmic ones.",
+            "D": "It requires a complete consensus on what the correct norms are, which is impossible to achieve."
+          },
+          "answer": "B",
+          "short_explanation": "A key challenge for the norm-theoretic approach is explaining 'good biases', as its definition frames all bias as a negative deviation from a norm.",
+          "long_explanation": "The correct answer is B. Since the norm-theoretic view defines bias as a systematic departure from a *genuine norm*, it inherently frames bias as an error or a bad thing. This makes it difficult to account for cases like the 'light comes from above' heuristic, which is a systematic deviation from perfect reasoning but is functionally useful. The functional view, being norm-neutral, handles these 'good biases' more easily."
+        },
+        {
+          "id": 90,
+          "question": "In the context of the course, what is the main problem with the 'technological imperative'?",
+          "options": {
+            "A": "It is the belief that if a technology can be built, it should be built, often without sufficient consideration of its social consequences.",
+            "B": "It is the legal requirement for companies to adopt the latest available technology.",
+            "C": "It is the technical need to constantly update software to fix security vulnerabilities.",
+            "D": "It is the social pressure on individuals to own the latest technological gadgets."
+          },
+          "answer": "A",
+          "short_explanation": "The 'technological imperative' is the often-unquestioned belief that technological progress is always good and that we should build whatever we can, which the course critiques.",
+          "long_explanation": "The correct answer is A. This concept, discussed in several sessions, describes a core ideology driving Silicon Valley and AI development. It is the assumption that technological advancement is an inherent good and an unstoppable force. The course critiques this by arguing that it leads to a lack of critical reflection on whether a technology *should* be built and what its human consequences might be."
+        },
+        {
+          "id": 91,
+          "question": "The concept of 'deskilling' is raised in the lectures on Platform Capitalism and Convenience AI. What does it refer to?",
+          "options": {
+            "A": "The process of automating jobs, leading to unemployment.",
+            "B": "The loss of human expertise and judgment in a task that has been simplified or automated by technology.",
+            "C": "The failure of educational systems to teach the skills needed for the modern workforce.",
+            "D": "The deliberate simplification of a user interface to make it accessible to unskilled users."
+          },
+          "answer": "B",
+          "short_explanation": "'Deskilling' refers to the erosion of valuable human skills and judgment when a task is automated, which can have negative long-term consequences.",
+          "long_explanation": "The correct answer is B. Deskilling is a specific consequence of automation discussed in the course. It's not just about job loss (A). It's about the loss of the subtle, often tacit, skills and judgment that humans develop through practice. When a task is automated, those skills can atrophy, which can be a problem if the automated system fails or if the task required more nuance than the machine could provide."
+        },
+        {
+          "id": 92,
+          "question": "Why is the concept of 'opacity' central to the critique of 'Weapons of Math Destruction' by Cathy O'Neill?",
+          "options": {
+            "A": "Because the opacity of the models makes them impossible for regulators to audit.",
+            "B": "Because the models are so opaque that even their creators do not understand how they work.",
+            "C": "Because their opacity prevents the people affected by their decisions from understanding, questioning, or appealing them.",
+            "D": "Because opacity is a sign of a highly advanced and accurate algorithm."
+          },
+          "answer": "C",
+          "short_explanation": "Opacity is central to O'Neill's critique because it creates a power imbalance, preventing those judged by the 'Weapons of Math Destruction' from appealing or correcting errors.",
+          "long_explanation": "The correct answer is C. Cathy O'Neill's book focuses on the social harm caused by algorithmic systems. A key part of this harm is that the models are opaque 'black boxes'. This opacity means that individuals who are unfairly denied a loan, a job, or parole have no way of understanding the decision or appealing it. The opacity creates a system of unaccountable, unchallengeable power."
+        },
+        {
+          "id": 93,
+          "question": "The 'AI and Diversity' lecture discusses several types of diversity. 'Geopolitical diversity' is presented as being distinct because it is:",
+          "options": {
+            "A": "Primarily a matter of individual self-identification.",
+            "B": "The easiest form of diversity to measure and address.",
+            "C": "Fully determined by external factors like place of birth and citizenship, rather than individual choice.",
+            "D": "Only relevant for AI systems that operate across multiple countries."
+          },
+          "answer": "C",
+          "short_explanation": "Geopolitical diversity is distinct because it's determined by external factors (like citizenship) and is not a matter of personal choice or identity.",
+          "long_explanation": "The correct answer is C. The lecture distinguishes between different forms of diversity to show that they require different solutions. While ethnic or gender diversity involves elements of self-identification (A), geopolitical diversity is determined by external, often unchangeable, factors like where one is born. This is crucial because it means that addressing inequities related to it requires tackling structural issues like infrastructure and national laws, not just representation."
+        },
+        {
+          "id": 94,
+          "question": "The 'process-oriented' view of science, as described by Leonelli, values 'diversity as a starting point'. What does this mean in practice?",
+          "options": {
+            "A": "That research teams must meet a demographic diversity quota.",
+            "B": "That science should acknowledge and support multiple, diverse cultures of openness and exchange, rather than imposing a single, centralized standard.",
+            "C": "That all scientific theories must be diverse and should not converge on a single explanation.",
+            "D": "That AI models should be trained on the most diverse datasets possible, regardless of data quality."
+          },
+          "answer": "B",
+          "short_explanation": "'Diversity as a starting point' means acknowledging that there are many valid ways of doing science and that we should support this plurality rather than imposing a single standard.",
+          "long_explanation": "The correct answer is B. This is a key practical implication of the process-oriented philosophy. It pushes back against the standardizing drive of some Open Science initiatives. Instead of assuming there is one 'best' way to do science or be open, it argues for acknowledging and valuing the diverse methods, standards, and cultures of exchange that already exist in different scientific communities."
+        },
+        {
+          "id": 95,
+          "question": "In the 'Epistemic Injustice' lecture, what distinguishes a 'warranted harm' from an 'unjust harm'?",
+          "options": {
+            "A": "The severity of the harm caused.",
+            "B": "Whether the harm was caused by a human or an AI system.",
+            "C": "Whether the exclusion that led to the harm was driven by prejudice (unjust) or by a non-identity-based, justifiable reason like a lack of expertise (warranted).",
+            "D": "Whether the person who was harmed is a member of a marginalized group."
+          },
+          "answer": "C",
+          "short_explanation": "The key distinction is the cause of the exclusion: if it's driven by prejudice, the resulting harm is 'unjust'; if it's driven by a justifiable reason (like lack of expertise), the harm is 'warranted'.",
+          "long_explanation": "The correct answer is C. This is the central distinction in the Goldstein reading. The moral status of the harm depends on the reason for the exclusion that caused it. An exclusion based on a racist or sexist prejudice is unjust. An exclusion based on a genuine and relevant lack of expertise is warranted. While a warranted exclusion can still lead to harm (an 'epistemic disadvantage'), that harm is not, by its nature, unjust in the same way."
+        },
+        {
+          "id": 96,
+          "question": "The concept of 'means-reification' (phenomenon-to-object) is crucial for understanding bias because:",
+          "options": {
+            "A": "It is the process where a biased model is applied to the real world.",
+            "B": "It is the initial step where biased human assumptions about a phenomenon are encoded into a concrete object like a dataset.",
+            "C": "It is the means by which AI can correct for biases in human perception.",
+            "D": "It refers to the financial means required to build large, unbiased AI systems."
+          },
+          "answer": "B",
+          "short_explanation": "Means-reification is the key step where abstract biases are made concrete, by being encoded into the data and labels used to train a model.",
+          "long_explanation": "The correct answer is B. The 'Data and Model Bias' lecture identifies this as the critical point where bias enters a system. 'Means-reification' is the act of creating the means of study (the data, the model). When we create a dataset to represent an abstract concept like 'creditworthiness', our own biased assumptions about that concept get reified—made concrete—in the data we choose and the labels we apply. The AI then learns from this reified bias."
+        },
+        {
+          "id": 97,
+          "question": "What is the relationship between 'Platform Capitalism' (Session 3) and the 'Lure of Convenience' (Session 4)?",
+          "options": {
+            "A": "The Lure of Convenience is a critique of Platform Capitalism's inefficiency.",
+            "B": "Platform Capitalism's business model relies on the Lure of Convenience to encourage users to adopt its data-extracting services.",
+            "C": "Convenience AI is a grassroots movement designed to challenge the power of Platform Capitalism.",
+            "D": "They are unrelated concepts from different theoretical frameworks."
+          },
+          "answer": "B",
+          "short_explanation": "Platform Capitalism offers 'convenience' as its main value proposition to users, which masks the underlying business model of data extraction.",
+          "long_explanation": "The correct answer is B. This is a synoptic question connecting two key course themes. Platform Capitalism (Session 3) needs vast amounts of user data to function. The 'Lure of Convenience' (Session 4) is the primary mechanism for acquiring this data. By offering services that are easy, fast, and seemingly free, platforms encourage widespread adoption, and the 'convenience' masks the fact that the user's data and behavior are the actual product being sold."
+        },
+        {
+          "id": 98,
+          "question": "How can the framework of 'methodological data fairness' (Session 11) be seen as a practical response to the problem of 'structural injustice' in science (Session 7)?",
+          "options": {
+            "A": "By advocating for governments to redistribute research funding more equitably.",
+            "B": "By providing individual researchers with concrete practices to make their own work more just, even within an unjust system.",
+            "C": "By proving that structural injustice does not actually affect the quality of scientific results.",
+            "D": "By creating a new set of universal standards that all scientists must follow to eliminate injustice."
+          },
+          "answer": "B",
+          "short_explanation": "Methodological fairness offers a bottom-up response to structural injustice by empowering individual researchers with practical steps to make their own work more equitable.",
+          "long_explanation": "The correct answer is B. This question links a macro-level critique with a micro-level solution. 'Structural injustice' (Session 7) describes large-scale, systemic problems like funding disparities. While methodological fairness cannot solve these big problems on its own, it offers a practical, bottom-up response. It gives individual researchers a toolkit of practices (e.g., careful sampling, transparent reporting) to make their own corner of the scientific world more just and reliable, even while operating within a flawed larger structure."
+        },
+        {
+          "id": 99,
+          "question": "The 'AI Empire' thesis (Session 8) describes a global system of oppression. How does 'epistemic injustice' (Session 9) function as a tool of this empire?",
+          "options": {
+            "A": "The AI Empire actively promotes epistemic justice to win the trust of its users.",
+            "B": "Epistemic injustice is an outdated philosophical concept that is not relevant to the modern AI Empire.",
+            "C": "The AI Empire's mechanisms, like extractivism and surveillance, inherently produce epistemic injustices by devaluing the knowledge of marginalized groups and silencing their testimony.",
+            "D": "Epistemic injustice only occurs in face-to-face interactions, not in digital systems like the AI Empire."
+          },
+          "answer": "C",
+          "short_explanation": "Epistemic injustice is a key tool of the AI Empire; by devaluing and extracting the knowledge of marginalized peoples, the Empire maintains its power.",
+          "long_explanation": "The correct answer is C. This question connects the course's macro-critique with a key philosophical concept. The 'AI Empire' maintains its dominance through mechanisms like extractivism. This process is inherently an act of epistemic injustice: it commits testimonial injustice by dismissing the value of local knowledge, and it can create hermeneutical injustice by replacing local ways of knowing with a single, dominant, data-centric worldview. Epistemic injustice is thus not separate from the Empire, but one of its primary instruments of control."
+        },
+        {
+          "id": 100,
+          "question": "How does the 'Public Interest AI' framework (Session 12) challenge the focus on 'explainability' (Session 5) as the primary solution for trustworthy AI?",
+          "options": {
+            "A": "It argues that explainability is technically impossible and should be abandoned.",
+            "B": "It suggests that trustworthiness comes from a legitimate, democratic process (like public justification and deliberation), not from a technical feature like explainability.",
+            "C": "It proves that explainable AI systems are actually less trustworthy than opaque ones.",
+            "D": "It replaces the need for explainability with a need for perfect accuracy."
+          },
+          "answer": "B",
+          "short_explanation": "The Public Interest framework shifts the basis of trust from a technical property (explainability) to the legitimacy of the socio-political process used to develop the AI.",
+          "long_explanation": "The correct answer is B. This is a critical synoptic question about the course's overall argument. While explainability (Session 5) is presented as a technical solution to the trust problem, the Public Interest framework (Session 12) offers a political one. It argues that we trust systems not because we can see inside them, but because we trust the legitimacy of the process that created them. Trustworthiness, in this view, is a product of democratic governance, not just technical transparency."
+        }
+      ]
+    }
+  ]
+}

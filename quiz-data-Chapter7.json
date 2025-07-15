@@ -1,0 +1,399 @@
+{
+  "chapters": [
+    {
+      "title": "7. Structural Injustice and Extractivism",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which of the following is *not* a problematic aspect of extractivism as defined by Ramón Grosfoguel?",
+          "options": {
+            "A": "Mutually beneficial resource exchange.",
+            "B": "Looting and dispossession.",
+            "C": "Appropriation of resources on extractivists' own terms.",
+            "D": "Lack of acknowledgment."
+          },
+          "answer": "A",
+          "short_explanation": "Extractivism is characterized by exploitation, not mutual benefit.",
+          "long_explanation": "Ramón Grosfoguel's definition of extractivism emphasizes the problematic aspects of taking resources (physical, data, knowledge) for capital gain, often involving looting, dispossession, and appropriation on the extractor's own terms, with a distinct lack of acknowledgment or benefits for the source. Mutually beneficial resource exchange is the opposite of this exploitative dynamic."
+        },
+        {
+          "id": 2,
+          "question": "When traditional ecological knowledge from local communities is used to train an AI system without proper acknowledgment or shared benefit, this primarily exemplifies which concept?",
+          "options": {
+            "A": "Algorithmic bias.",
+            "B": "Data privacy violation.",
+            "C": "Epistemic oppression.",
+            "D": "Technological determinism."
+          },
+          "answer": "C",
+          "short_explanation": "Epistemic oppression devalues certain ways of knowing.",
+          "long_explanation": "Epistemic oppression, as highlighted by Tanesini, refers to the marginalization or devaluing of certain forms of knowledge, ways of knowing, or the knowledge-holders themselves. In this scenario, the traditional ecological knowledge is exploited without recognition, which is a core component of epistemic oppression. While algorithmic bias could result from such data, the primary issue described is the oppression of the knowledge itself."
+        },
+        {
+          "id": 3,
+          "question": "Linda Martín Alcoff's extractivist epistemology identifies four characteristics. Which of the following is *not* one of them?",
+          "options": {
+            "A": "Equitable collaboration.",
+            "B": "Ranking.",
+            "C": "Exclusive control.",
+            "D": "Objective view of values."
+          },
+          "answer": "A",
+          "short_explanation": "Alcoff's framework includes denial of collaboration, not equitable collaboration.",
+          "long_explanation": "Alcoff's extractivist epistemology describes how extractivism operates at the level of knowledge, characterized by: Ranking (hierarchies of knowledge), Denial of collaboration (downplaying collective efforts), Objective view of values (pretending neutrality despite inherent biases), and Exclusive control (limiting access to knowledge). Equitable collaboration is precisely what extractivism *undermines*."
+        },
+        {
+          "id": 4,
+          "question": "An AI company develops a cutting-edge facial recognition system using data from various public datasets and community contributions, but presents the final product as the sole achievement of its in-house research team, omitting any mention of external inputs. This scenario best reflects Alcoff's concept of:",
+          "options": {
+            "A": "Exclusive control.",
+            "B": "Denial of collaboration.",
+            "C": "Ranking.",
+            "D": "Objective view of values."
+          },
+          "answer": "B",
+          "short_explanation": "Denial of collaboration erases collective contributions.",
+          "long_explanation": "Alcoff's 'Denial of collaboration' describes how extractivism downplays or denies the collaborative nature of knowledge production, presenting knowledge as emerging from a single, authoritative source. By omitting external inputs, the company is denying the collaborative effort that contributed to the AI system's development."
+        },
+        {
+          "id": 5,
+          "question": "Which statement best defines structural injustice in the context of AI and society?",
+          "options": {
+            "A": "Isolated incidents of discrimination against individuals in tech companies.",
+            "B": "The intentional creation of biased algorithms by malicious developers.",
+            "C": "Systemic disadvantages faced by certain groups due to the inherent organization of social and technological systems.",
+            "D": "Lack of personal access to digital devices and internet connectivity."
+          },
+          "answer": "C",
+          "short_explanation": "Structural injustice is about systemic, baked-in disadvantages.",
+          "long_explanation": "Structural injustice refers to the systemic disadvantages faced by certain groups due to the way our social, economic, and political systems are organized. It's about patterns of disadvantage arising from normal institutional functioning, rather than isolated incidents or intentional malice. While lack of access (D) is a component, it's not the full definition of systemic injustice."
+        },
+        {
+          "id": 6,
+          "question": "Simply making research data 'open access' does not automatically ensure equitable participation if underlying structural injustices persist. This highlights a key challenge for:",
+          "options": {
+            "A": "Data governance frameworks.",
+            "B": "AI model interpretability.",
+            "C": "Open Science (OS) implementation.",
+            "D": "Cybersecurity protocols."
+          },
+          "answer": "C",
+          "short_explanation": "Open Science faces challenges if systemic barriers to participation remain.",
+          "long_explanation": "Open Science aims to make scientific research, data, and publications accessible to everyone. However, if structural injustices in access to resources and opportunity to use them persist (e.g., lack of infrastructure, training, time), then simply making things 'open' doesn't automatically solve the problem of equitable participation, making OS implementation ineffective."
+        },
+        {
+          "id": 7,
+          "question": "According to Giddens, a 'resource' that serves as a source of power in social interactions could encompass all of the following *except*:",
+          "options": {
+            "A": "Advanced computing hardware.",
+            "B": "Specialized training.",
+            "C": "Institutional support.",
+            "D": "Naturally occurring, untouched raw materials without social context."
+          },
+          "answer": "D",
+          "short_explanation": "Giddens' definition of resource emphasizes its role in social power, not just raw existence.",
+          "long_explanation": "Giddens defines a resource as 'anything that can serve as a source of power in social interactions.' This broad definition includes technology, infrastructure, training, and institutions—anything that can confer power within a social system. Raw materials only become a 'resource' in this sense when they are integrated into social processes, e.g., extracted and used within a social context for power or capital gain, as in extractivism."
+        },
+        {
+          "id": 8,
+          "question": "When funding for AI research is primarily directed towards projects that align with the interests of large corporations rather than those addressing critical public health needs in marginalized communities, it exemplifies which aspect of inequity in resourcing?",
+          "options": {
+            "A": "Short-term availability privilege.",
+            "B": "Post factum tech adoption.",
+            "C": "Resourcing not grounded solely on scientific merit or relevance.",
+            "D": "Lack of transparency in resource allocation."
+          },
+          "answer": "C",
+          "short_explanation": "Resources are often allocated based on power/interest, not just scientific merit.",
+          "long_explanation": "This scenario directly reflects the aspect of inequity in resourcing where allocation is not solely based on scientific merit or universal relevance. Instead, it is influenced by factors like investment worthiness and socio-economic disparity, often favoring powerful commercial interests over critical public-good needs, even if those needs are scientifically relevant."
+        },
+        {
+          "id": 9,
+          "question": "A funding agency provides a state-of-the-art AI server for a 2-year research project but does not allocate funds for training local engineers to maintain it or for establishing long-term institutional support for similar projects. This scenario illustrates:",
+          "options": {
+            "A": "Digital divide in epistemic power.",
+            "B": "Misalignment between scientific goals and labor conditions.",
+            "C": "Short-term availability being privileged over capacity-building.",
+            "D": "Denial of collaboration in knowledge production."
+          },
+          "answer": "C",
+          "short_explanation": "Short-term focus on projects over long-term capability development.",
+          "long_explanation": "This scenario highlights the issue of short-term availability being privileged over capacity-building, a key aspect of inequity in resourcing. The immediate project gains are prioritized, but without investment in training and sustainable infrastructure, the long-term ability of the local researchers to continue such work is undermined once the project funding ends."
+        },
+        {
+          "id": 10,
+          "question": "What is the primary characteristic of the 'digital divide' when it acts as a divide in epistemic power?",
+          "options": {
+            "A": "Unequal influence over the global research agenda.",
+            "B": "Lack of access to basic internet connectivity.",
+            "C": "Differences in user interface design preferences.",
+            "D": "The cost of digital devices."
+          },
+          "answer": "A",
+          "short_explanation": "Epistemic power relates to who shapes knowledge and research agendas.",
+          "long_explanation": "The digital divide, when understood as a divide in epistemic power, means that beyond mere access to technology (B, C, D), it separates those who *can* shape the research agenda and the technologies that support it from those who cannot. This unequal influence means that certain perspectives and priorities dominate what counts as important knowledge."
+        },
+        {
+          "id": 11,
+          "question": "Government funding for AI research is heavily skewed towards surveillance technologies due to national security concerns, even if other AI applications might address more pressing social issues like climate change or healthcare. This situation is an example of:",
+          "options": {
+            "A": "Digital divide in epistemic power.",
+            "B": "Local constraints and socio-political agendas shaping research directions.",
+            "C": "Misalignment between scientific goals and labor conditions.",
+            "D": "Denial of collaboration."
+          },
+          "answer": "B",
+          "short_explanation": "External factors, like politics, can steer research away from other important areas.",
+          "long_explanation": "This scenario directly illustrates how local constraints, practical exigencies, and socio-political agendas can shape research directions, sometimes in tension with broader scientific interests or societal needs. This falls under the 'Misalignment between resourcing and scientific goals' variety of structural injustice, where external pressures dictate research priorities."
+        },
+        {
+          "id": 12,
+          "question": "Early-career AI researchers often prioritize publishing in high-impact journals or securing patents over engaging in long-term community-based research, even if the latter has greater societal impact. This behavior is primarily driven by:",
+          "options": {
+            "A": "Personal preferences for theoretical work.",
+            "B": "Misalignment between scientific goals and labor conditions, specifically what counts as credit.",
+            "C": "Lack of interest in applied research.",
+            "D": "Universal agreement on research priorities."
+          },
+          "answer": "B",
+          "short_explanation": "Career incentives dictate research choices.",
+          "long_explanation": "This scenario exemplifies a misalignment between scientific goals and labor conditions, specifically how career progression (what counts as 'credit' like publications and patents) can shape researchers' choices. The pressure to meet specific metrics for employment and advancement often pushes researchers towards certain types of projects, even if they diverge from broader societal needs or personal research interests."
+        },
+        {
+          "id": 13,
+          "question": "A researcher chooses to work on an AI project with immediate commercial potential, despite being more passionate about a public-good AI initiative, because the former offers better prospects for future employment in the industry. This illustrates:",
+          "options": {
+            "A": "An instance of individual career ambition overriding scientific ethics.",
+            "B": "Goals being shaped by expectations around future employment.",
+            "C": "A clear case of scientific merit guiding research priorities.",
+            "D": "The inherent superiority of commercial research."
+          },
+          "answer": "B",
+          "short_explanation": "Career security influences research choices.",
+          "long_explanation": "This scenario directly reflects how scientific goals can be shaped by expectations around future employment, which is a key aspect of the 'Misalignment between scientific goals and labor conditions' variety of structural injustice. The researcher's choice is influenced by systemic pressures related to job prospects, not necessarily by the inherent scientific merit or personal ethical alignment of the project."
+        },
+        {
+          "id": 14,
+          "question": "When AI research focuses on optimizing advertising rather than sustainable energy for remote communities due to funding priorities, this primarily signifies which implication of structural injustice?",
+          "options": {
+            "A": "Exclusion of researchers.",
+            "B": "Diminished research quality.",
+            "C": "Ineffective Open Science.",
+            "D": "Shifts in research content."
+          },
+          "answer": "D",
+          "short_explanation": "Research focus shifts away from critical needs.",
+          "long_explanation": "This is an implication of structural injustice where research directions are picked based on existing constraints (like funding priorities) rather than the actual needs of vulnerable communities. This leads to a lack of research effort spent on topics most relevant to those contexts, causing a 'shift in research content'."
+        },
+        {
+          "id": 15,
+          "question": "When traditional ecological knowledge from indigenous communities is systematically dismissed as 'unscientific' in favor of large-scale quantitative datasets in AI-driven environmental research, it leads to:",
+          "options": {
+            "A": "Algorithmic transparency.",
+            "B": "Exclusion of methods/data.",
+            "C": "Enhanced data interoperability.",
+            "D": "Increased global collaboration."
+          },
+          "answer": "B",
+          "short_explanation": "Certain knowledge forms are marginalized.",
+          "long_explanation": "This scenario directly illustrates the 'Exclusion of methods/data' implication of structural injustice. When certain methodologies or sources of evidence (like traditional knowledge) are deemed inferior or 'unscientific' and excluded from mainstream discourse, it leads to a narrower, less comprehensive understanding of complex problems and limits the richness of knowledge production."
+        },
+        {
+          "id": 16,
+          "question": "An AI model trained solely on data from Western, urban populations performs poorly and causes unintended harm when deployed in diverse rural communities. This is a direct consequence of structural injustice leading to:",
+          "options": {
+            "A": "Increased computational costs.",
+            "B": "Enhanced model robustness.",
+            "C": "Diminished research quality.",
+            "D": "Rapid technological adoption."
+          },
+          "answer": "C",
+          "short_explanation": "Limited data leads to poor model performance.",
+          "long_explanation": "This is an example of 'Diminished research quality,' an implication of structural injustice. When research is conducted with limited diversity in data (due to exclusions of researchers, methods, or resources), the resulting AI models or solutions may not be robust or effective for diverse contexts, leading to a loss of quality and reliability in the outcomes of inquiry."
+        },
+        {
+          "id": 17,
+          "question": "Which of the following is a direct consequence of structural injustice leading to 'ineffective Open Science'?",
+          "options": {
+            "A": "Research data remains largely invisible and unfindable by many who could benefit.",
+            "B": "Increased global collaboration on data sharing.",
+            "C": "Enhanced transparency in AI model development.",
+            "D": "Reduced need for intellectual property protection."
+          },
+          "answer": "A",
+          "short_explanation": "Openness without equity doesn't guarantee visibility or usability.",
+          "long_explanation": "Ineffective Open Science occurs when, despite initiatives to make research open, underlying structural injustices (like lack of infrastructure, training, or time) prevent many potential users, especially in under-resourced settings, from accessing, finding, or utilizing the information. This means the intended benefits of openness are not fully realized, and the data remains 'invisible' to those who could gain from it."
+        },
+        {
+          "id": 18,
+          "question": "'Reparation beyond affirmative action' is a pathway to structural change that explicitly emphasizes:",
+          "options": {
+            "A": "Increasing representation within existing power structures.",
+            "B": "Providing financial compensation for historical injustices.",
+            "C": "Short-term mitigation strategies for inequality.",
+            "D": "Proactively transforming underlying structures and repairing historical harms."
+          },
+          "answer": "D",
+          "short_explanation": "Reparation goes beyond simple representation to fundamental systemic change.",
+          "long_explanation": "'Reparation beyond affirmative action' signifies a deeper approach to structural change. While affirmative action aims for representation within existing systems, reparation seeks to fundamentally transform the very structures that created the inequities in the first place, actively repairing historical harms and rebalancing power dynamics at a foundational level, not just offering compensation or quick fixes."
+        },
+        {
+          "id": 19,
+          "question": "Actively acknowledging one's own limitations and biases in AI development, and being open to critique from diverse communities, is described as embracing:",
+          "options": {
+            "A": "Algorithmic transparency.",
+            "B": "Epistemic humility.",
+            "C": "Data sovereignty.",
+            "D": "Technological neutrality."
+          },
+          "answer": "B",
+          "short_explanation": "Epistemic humility means acknowledging limits and dependence on others for knowledge.",
+          "long_explanation": "Embracing vulnerability, as a pathway to structural change, involves practicing 'epistemic humility.' This means actively acknowledging one's own limitations and biases in knowledge production (including AI development) and being open to critique and learning from diverse perspectives, recognizing that our knowledge is often shaped and enriched by our relationships with different people and communities."
+        },
+        {
+          "id": 20,
+          "question": "Designing digital platforms that are accessible with limited internet and developing AI tools that run on less powerful hardware are examples of:",
+          "options": {
+            "A": "Short-term mitigation strategies.",
+            "B": "Post factum tech adoption.",
+            "C": "Reform of institutional and material/digital infrastructures.",
+            "D": "Exclusive control over resources."
+          },
+          "answer": "C",
+          "short_explanation": "These are changes to the very foundation of technology access.",
+          "long_explanation": "These actions are concrete pathways to structural change by reforming the institutional and material/digital infrastructures. They aim to make technology more inclusive and accessible to serve a wider range of capabilities and goals, directly addressing inequities in resourcing and opportunities to use resources, rather than just short-term fixes or after-the-fact adaptations."
+        },
+        {
+          "id": 21,
+          "question": "A concrete pathway to structural change involves reforming education and labor markets. This is primarily aimed at:",
+          "options": {
+            "A": "Aligning training and career incentives with equitable knowledge production.",
+            "B": "Centralizing control over research funding.",
+            "C": "Reducing the need for transdisciplinary research.",
+            "D": "Eliminating all forms of academic competition."
+          },
+          "answer": "A",
+          "short_explanation": "Reforming education and labor markets targets incentives for equitable knowledge.",
+          "long_explanation": "Reforming education and labor markets is a concrete pathway to structural change that directly tackles the 'Misalignment between scientific goals and labor conditions.' It aims to change how scientists are trained, hired, and rewarded, ensuring that career incentives (like publishing, patenting, and employment prospects) align with broader societal needs and equitable knowledge production, rather than solely traditional academic excellence."
+        },
+        {
+          "id": 22,
+          "question": "An AI algorithm designed to optimize resource allocation for smart cities claims to be purely objective, but its design implicitly prioritizes economic efficiency over the social well-being of marginalized residents. This best illustrates Alcoff's concept of:",
+          "options": {
+            "A": "Denial of collaboration.",
+            "B": "Ranking.",
+            "C": "Objective view of values.",
+            "D": "Exclusive control."
+          },
+          "answer": "C",
+          "short_explanation": "Pretending neutrality when values are embedded.",
+          "long_explanation": "Alcoff's 'Objective view of values' describes how extractivist epistemology presents knowledge as neutral and universal, even when it is shaped by specific values and interests. In this case, the algorithm's claim of objectivity masks its implicit bias towards economic efficiency, which reflects a particular value system over others, leading to structural injustice."
+        },
+        {
+          "id": 23,
+          "question": "The practice of a tech company keeping its AI algorithms and training data completely confidential, thereby limiting external researchers' ability to scrutinize or adapt the platform, is a prime example of Alcoff's concept of:",
+          "options": {
+            "A": "Ranking.",
+            "B": "Denial of collaboration.",
+            "C": "Objective view of values.",
+            "D": "Exclusive control."
+          },
+          "answer": "D",
+          "short_explanation": "Exclusive control means limiting access to knowledge/tools.",
+          "long_explanation": "Alcoff's 'Exclusive control' refers to maintaining tight, often proprietary, control over knowledge, data, or the tools used to create them. By keeping algorithms and data confidential, the company limits who can access, use, or understand the system, centralizing power and preventing broader scrutiny and adaptation."
+        },
+        {
+          "id": 24,
+          "question": "A non-profit organization collects health data from vulnerable populations for an AI diagnostic tool, but the terms of data collection, usage, and sharing are unilaterally dictated by the organization, with no input from the communities themselves. This reflects which problematic aspect of extractivism?",
+          "options": {
+            "A": "Looting and dispossession.",
+            "B": "Exclusively on the extractivists' own terms.",
+            "C": "Lack of acknowledgment.",
+            "D": "Epistemic oppression."
+          },
+          "answer": "B",
+          "short_explanation": "The extractor sets the rules without community input.",
+          "long_explanation": "This scenario directly illustrates the problematic aspect of extractivism operating 'exclusively on the extractivists' own terms.' The powerful entity (the non-profit organization in this case) dictates the rules of engagement, including data collection and usage, without meaningful input, consent, or negotiation from the communities providing the data, highlighting a power imbalance."
+        },
+        {
+          "id": 25,
+          "question": "When a community receives computers with AI software but lacks local trainers or internet to use them, the primary disparity is in:",
+          "options": {
+            "A": "Opportunity to use resources.",
+            "B": "Access to resources.",
+            "C": "Hardware specifications.",
+            "D": "Software licensing."
+          },
+          "answer": "A",
+          "short_explanation": "They have the resource (computers), but cannot effectively utilize it.",
+          "long_explanation": "Structural injustice involves disparities in both 'access to resources' and 'opportunity to use such resources.' In this case, the community *has* the computers (access), but the lack of trainers and internet prevents them from *effectively using* the AI software for their projects. Therefore, the primary disparity highlighted is in the opportunity to utilize the resources they possess."
+        },
+        {
+          "id": 26,
+          "question": "A new AI-driven agricultural drone is introduced to farmers in a region. Training is then provided on how to operate the drone, but the farmers had no input on the drone's design or the types of data it collects. This is an example of:",
+          "options": {
+            "A": "Short-term availability privilege.",
+            "B": "Resourcing not grounded on merit.",
+            "C": "Post factum training and tech adoption.",
+            "D": "Digital divide in epistemic power."
+          },
+          "answer": "C",
+          "short_explanation": "Training occurs after the technology is already fully developed.",
+          "long_explanation": "This scenario directly illustrates 'Post factum training and tech adoption,' where training and technology adoption happen *after* the technology has already been designed and deployed. This leaves local users with little to no say in how the technology works or how it should be governed, perpetuating a top-down, extractive model rather than collaborative design."
+        },
+        {
+          "id": 27,
+          "question": "The reference to 'Haly-ID' in the context of misalignment between resourcing and scientific goals specifically illustrates:",
+          "options": {
+            "A": "The importance of international research collaborations.",
+            "B": "The ethical development of open-source AI tools.",
+            "C": "The need for democratic governance of data.",
+            "D": "Funding disproportionately allocated to national security or identification technologies due to socio-political agendas."
+          },
+          "answer": "D",
+          "short_explanation": "Haly-ID exemplifies how political agendas can skew research funding.",
+          "long_explanation": "The 'Haly-ID' example is used to illustrate how local constraints, practical exigencies, and socio-political agendas can shape research directions. Specifically, it points to situations where national security or identification technologies receive disproportionate funding due to political priorities, even if other AI applications might address more pressing social issues, leading to a misalignment of resources and scientific goals."
+        },
+        {
+          "id": 28,
+          "question": "Which of the following Alcoff's characteristics of extractivist epistemology is exemplified when knowledge is presented as emerging from a single authoritative source, denying the contributions of multiple collaborators?",
+          "options": {
+            "A": "Ranking.",
+            "B": "Denial of collaboration.",
+            "C": "Objective view of values.",
+            "D": "Exclusive control."
+          },
+          "answer": "B",
+          "short_explanation": "Denial of collaboration erases collective contributions.",
+          "long_explanation": "Alcoff's 'Denial of collaboration' describes how extractivism downplays or outright denies the collaborative nature of knowledge production. It presents knowledge as emerging from a single, authoritative source, thereby erasing the contributions of a broader network of collaborators, which is a key aspect of extractivist epistemology."
+        },
+        {
+          "id": 29,
+          "question": "When researchers from less-resourced regions become 'unwilling' to contribute to global scientific endeavors due to persistent systemic barriers that devalue their work, which implication of structural injustice is most evident?",
+          "options": {
+            "A": "Exclusion of researchers.",
+            "B": "Diminished research quality.",
+            "C": "Shifts in research content.",
+            "D": "Ineffective Open Science."
+          },
+          "answer": "A",
+          "short_explanation": "Systemic barriers lead to researchers' disengagement.",
+          "long_explanation": "This scenario directly illustrates the 'Exclusion of researchers' implication of structural injustice. When systemic barriers (like lack of resources, recognition, or fair labor conditions) devalue their work, researchers from less-resourced regions may become unwilling to contribute, leading to a significant portion of the scientific community being excluded from global knowledge production."
+        },
+        {
+          "id": 30,
+          "question": "In the context of Alcoff's extractivist epistemology, which characteristic primarily involves maintaining proprietary control over algorithms and training data, limiting external scrutiny?",
+          "options": {
+            "A": "Ranking.",
+            "B": "Denial of collaboration.",
+            "C": "Objective view of values.",
+            "D": "Exclusive control."
+          },
+          "answer": "D",
+          "short_explanation": "Exclusive control limits access to knowledge and tools.",
+          "long_explanation": "Alcoff's 'Exclusive control' refers to the practice of maintaining tight, often proprietary, control over knowledge, data, or the tools used to create them. This limits who can access, use, or understand the knowledge, centralizing power and preventing broader scrutiny, which is a core characteristic of extractivist epistemology."
+        }
+      ]
+    }
+  ]
+}

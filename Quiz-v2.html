@@ -603,11 +603,12 @@
                 mainMenuContainer.classList.add('hidden');
                 quizContainer.classList.remove('hidden');
                 summaryContainer.classList.add('hidden');
-                navigationEl.classList.remove('hidden');
-                prevBtn.classList.remove('hidden');  // Show navigation buttons
-                nextBtn.classList.remove('hidden');  // Show navigation buttons
                 viewSummaryBtn.classList.remove('hidden');
                 backToMenuBtn.classList.remove('hidden');
+                
+                // Show navigation container and update button visibility
+                navigationEl.classList.remove('hidden');
+                updateNavigation();
             }
 
             function showSummaryView(htmlContent) {
