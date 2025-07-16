@@ -746,6 +746,7 @@
                     <div class="summary-actions">
                         <button id="retry-wrong-btn" class="nav-btn">Answer Wrong Questions</button>
                         <button id="restart-btn" class="nav-btn">Restart Chapter</button>
+                        <button id="finish-btn" class="nav-btn">Finish</button>
                     </div>
                 `;
 
@@ -758,6 +759,10 @@
                 } else {
                     retryBtn.addEventListener('click', startRetryMode);
                 }
+                // Add event for Finish button to go to main menu
+                document.getElementById('finish-btn').addEventListener('click', () => {
+                    displayMainMenu();
+                });
             }
 
             function displayPartialSummary() {

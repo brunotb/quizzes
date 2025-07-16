@@ -5,485 +5,393 @@
       "questions": [
         {
           "id": 1,
-          "question": "Which of the following best differentiates 'Interpretability' from 'Explainability' in the context of XAI?",
+          "question": "Why is opacity considered a significant problem for AI systems in high-stakes domains?",
           "options": {
-            "A": "Interpretability focuses on human-understandable narratives, while Explainability focuses on technical debugging.",
-            "B": "Interpretability addresses 'how' a model works for developers, while Explainability addresses 'why' a decision was made for end-users.",
-            "C": "Interpretability is always post-hoc, while Explainability is always ante-hoc.",
-            "D": "Interpretability is a characteristic of opaque models, while Explainability is exclusive to transparent models."
-          }
+            "A": "It makes AI systems less efficient in processing data.",
+            "B": "It prevents AI from being able to learn from its mistakes.",
+            "C": "It hinders human understanding, accountability, and the ability to contest decisions.",
+            "D": "It reduces the computational power of the AI over time."
+          },
+          "answer": "C",
+          "short_explanation": "Opacity prevents humans from understanding AI decisions, leading to issues with trust, accountability, and challenging outcomes.",
+          "long_explanation": "Opacity is a problem because it creates 'black boxes' where humans cannot see or understand the AI's reasoning. This directly impacts trust, as users are less likely to rely on systems they don't understand. Furthermore, it makes accountability difficult when erroneous decisions occur, and it prevents individuals from effectively contesting AI-driven outcomes, especially in critical sectors like healthcare or finance."
         },
         {
           "id": 2,
-          "question": "According to the 'Trust is All We Need' perspective, why might explainability not be necessary for trust in AI?",
+          "question": "Which AI era is best characterized by systems that were 'naturally transparent' due to explicit programming?",
           "options": {
-            "A": "Because AI systems can inherently declare the truth without human intervention.",
-            "B": "Because trust can be built solely on the AI's consistent reliability and accuracy, without understanding its internal workings.",
-            "C": "Because humans naturally trust machines more than other humans.",
-            "D": "Because explainability introduces too much complexity, hindering trust."
-          }
-        },
-        {
-          "id": 3,
-          "question": "Which AI system type is characterized by being 'naturally transparent' due to its reliance on explicit 'if-then' rules?",
-          "options": {
-            "A": "Deep Neural Networks",
-            "B": "Machine Learning (data-driven)",
+            "A": "Machine Learning",
+            "B": "Expert Systems",
             "C": "Neural Networks",
-            "D": "Expert Systems"
-          }
-        },
-        {
-          "id": 4,
-          "question": "The Genux-B thought experiment primarily highlights which core problem of AI?",
-          "options": {
-            "A": "The challenge of AI bias in military applications.",
-            "B": "The ethical dilemma of AI making life-or-death decisions.",
-            "C": "The problem of AI opacity when high-stakes decisions lack understandable reasoning.",
-            "D": "The difficulty of debugging AI systems that are always correct."
-          }
-        },
-        {
-          "id": 5,
-          "question": "What is a key risk associated with the 'Trust is All We Need' approach to AI, as highlighted by Éric Sadin?",
-          "options": {
-            "A": "It could lead to over-reliance on older, less accurate AI technologies.",
-            "B": "It risks treating AI as an unquestionable 'oracle' that can declare the truth, leading to blind acceptance.",
-            "C": "It might encourage AI systems to prioritize speed over accuracy.",
-            "D": "It could make AI systems too predictable, limiting their innovation."
-          }
-        },
-        {
-          "id": 6,
-          "question": "LIME (Local Interpretable Model-agnostic Explanations) is a post-hoc technique. What does 'post-hoc' mean in this context?",
-          "options": {
-            "A": "The explanation is generated before the AI model makes a prediction.",
-            "B": "The explanation is built directly into the AI model's design from the start.",
-            "C": "The explanation is applied after the AI model has been built and made its prediction.",
-            "D": "The explanation is only applicable to models trained in a specific, historical period."
-          }
-        },
-        {
-          "id": 7,
-          "question": "Which of the following is NOT a primary goal of 'Explainability' (as distinct from Interpretability) in XAI?",
-          "options": {
-            "A": "Responding to ethical concerns.",
-            "B": "Meeting social demands for transparency.",
-            "C": "Debugging and improving the AI's internal code.",
-            "D": "Complying with legal requirements for algorithmic decisions."
-          }
-        },
-        {
-          "id": 8,
-          "question": "Why are Deep Neural Networks (DNNs) often referred to as 'black boxes'?",
-          "options": {
-            "A": "Because their algorithms are patented and kept secret by companies.",
-            "B": "Because they are designed to operate in dark, enclosed server rooms.",
-            "C": "Because their immense complexity, non-linear transformations, and hierarchical abstractions make their internal workings incomprehensible to humans.",
-            "D": "Because they only process dark images and videos."
-          }
-        },
-        {
-          "id": 9,
-          "question": "In the essay grading example, which professor best represents 'Interpretability'?",
-          "options": {
-            "A": "The professor who explains *why* the grade was given in a narrative format.",
-            "B": "The professor who provides a detailed table with clear scoring rules for each aspect of the essay.",
-            "C": "The professor who uses a complex AI to grade the essay without showing any reasoning.",
-            "D": "The professor who prioritizes the student's emotional response over the actual grade."
-          }
-        },
-        {
-          "id": 10,
-          "question": "What is a major challenge faced by XAI when trying to explain Deep Neural Networks (DNNs)?",
-          "options": {
-            "A": "DNNs are too slow to generate explanations in real-time.",
-            "B": "DNNs are fundamentally opaque, meaning XAI methods must infer behavior from the outside rather than directly inspect internal workings.",
-            "C": "DNNs are only compatible with ante-hoc explainability methods.",
-            "D": "DNNs refuse to provide explanations to human users."
-          }
-        },
-        {
-          "id": 11,
-          "question": "According to the 'Practices Over Guidelines' path, what should be an integral part of data science, rather than just an add-on?",
-          "options": {
-            "A": "Advanced machine learning techniques.",
-            "B": "Ethical reasoning and good epistemic practices.",
-            "C": "Automated debugging tools.",
-            "D": "External legal compliance audits."
-          }
-        },
-        {
-          "id": 12,
-          "question": "Which historical period of AI is characterized by the rise of 'data-driven AI' and the introduction of some opaque algorithms like Random Forests?",
-          "options": {
-            "A": "1970-1990 (Expert Systems)",
-            "B": "1990-2000 (Machine Learning)",
-            "C": "2000-2010 (Neural Networks)",
-            "D": "2010-Present (Deep Learning)"
-          }
-        },
-        {
-          "id": 13,
-          "question": "What is the primary goal of Explainable AI (XAI)?",
-          "options": {
-            "A": "To make AI systems faster and more efficient.",
-            "B": "To increase the computational power of AI models.",
-            "C": "To make opaque AI technologies transparent and understandable to humans.",
-            "D": "To replace human decision-making with fully automated AI systems."
-          }
-        },
-        {
-          "id": 14,
-          "question": "The 'proxy problem' in XAI refers to the challenge that:",
-          "options": {
-            "A": "XAI models are too complex to be understood by non-experts.",
-            "B": "Explanations are generated by a simpler, transparent model that approximates the opaque AI, rather than directly from the opaque AI itself.",
-            "C": "AI systems sometimes use proxies for sensitive data, making direct explanation impossible.",
-            "D": "The explanations provided by XAI are often too long and detailed for practical use."
-          }
-        },
-        {
-          "id": 15,
-          "question": "Why might the 'Use Older Technologies' path be appealing for high-stakes domains?",
-          "options": {
-            "A": "Because older technologies are cheaper to develop and maintain.",
-            "B": "Because they offer perfect accuracy in all scenarios.",
-            "C": "Because they are more transparent and understandable, even if slightly less accurate in some cases, reducing the risk of opaque critical decisions.",
-            "D": "Because they are more resistant to cyber-attacks."
-          }
-        },
-        {
-          "id": 16,
-          "question": "Which of the following is a major societal problem caused by AI opacity?",
-          "options": {
-            "A": "Increased competition in the AI development market.",
-            "B": "Reduced public trust and acceptance of AI decisions.",
-            "C": "Slower internet speeds due to complex AI computations.",
-            "D": "AI systems becoming too intelligent for human control."
-          }
-        },
-        {
-          "id": 17,
-          "question": "What is the primary focus of 'Interpretability' in XAI?",
-          "options": {
-            "A": "Answering 'why' a decision was made for end-users.",
-            "B": "Understanding 'how' a model works for developers and debugging purposes.",
-            "C": "Generating human-like narratives for AI decisions.",
-            "D": "Ensuring AI systems are always 100% accurate."
-          }
-        },
-        {
-          "id": 18,
-          "question": "A key challenge within the XAI field itself is the lack of consensus on:",
-          "options": {
-            "A": "The optimal programming language for AI development.",
-            "B": "Whether to prioritize interpretability or explainability, and the definitions of these terms.",
-            "C": "The number of neurons required for a truly intelligent AI.",
-            "D": "The best color scheme for AI user interfaces."
-          }
-        },
-        {
-          "id": 19,
-          "question": "If an AI system makes a decision that negatively impacts an individual, and it's an opaque system, what is a key ethical and legal problem?",
-          "options": {
-            "A": "The individual cannot request a refund for the AI service.",
-            "B": "The individual loses the ability to understand *why* the decision was made, hindering their ability to contest or appeal it.",
-            "C": "The AI developer is automatically held criminally responsible.",
-            "D": "The AI system might become self-aware and refuse to be questioned."
-          }
-        },
-        {
-          "id": 20,
-          "question": "What does 'model-agnostic' mean in the context of XAI methods like LIME?",
-          "options": {
-            "A": "The method is designed only for a specific type of AI model.",
-            "B": "The method can be applied to any AI model, regardless of its internal architecture.",
-            "C": "The method is agnostic to the type of input data it processes.",
-            "D": "The method does not require human supervision during explanation generation."
-          }
-        },
-        {
-          "id": 21,
-          "question": "In the essay grading example, which professor best represents 'Explainability'?",
-          "options": {
-            "A": "The professor who provides a detailed table with clear scoring rules for each aspect of the essay.",
-            "B": "The professor who uses a complex AI to grade the essay without showing any reasoning.",
-            "C": "The professor who explains *why* certain aspects were good or bad in a narrative format.",
-            "D": "The professor who focuses only on grammatical errors and ignores content."
-          }
-        },
-        {
-          "id": 22,
-          "question": "According to the 'Practices Over Guidelines' path, why should ethical concerns NOT be delegated to XAI as an add-on?",
-          "options": {
-            "A": "Because XAI tools are not powerful enough to handle complex ethical dilemmas.",
-            "B": "Because it might lead data scientists to perceive ethical responsibility as belonging to others, rather than being integral to their own work.",
-            "C": "Because ethical guidelines are too rigid and stifle AI innovation.",
-            "D": "Because only philosophers are qualified to address ethical concerns in AI."
-          }
-        },
-        {
-          "id": 23,
-          "question": "What is the primary focus of the 'Trust is All We Need' perspective on AI explainability?",
-          "options": {
-            "A": "To develop AI systems that are inherently transparent from the start.",
-            "B": "To argue that explainability is not a necessary condition for trust in AI, as trust can be based on reliability and accuracy.",
-            "C": "To create AI that can provide emotional support to users.",
-            "D": "To ensure AI systems are always more accurate than human experts."
-          }
-        },
-        {
-          "id": 24,
-          "question": "What is a key difference between 'local' and 'global' scope in XAI methods?",
-          "options": {
-            "A": "Local methods explain a single prediction, while global methods explain the overall model behavior.",
-            "B": "Local methods are used for small datasets, while global methods are for large datasets.",
-            "C": "Local methods are ante-hoc, while global methods are post-hoc.",
-            "D": "Local methods focus on technical details, while global methods focus on human narratives."
-          }
-        },
-        {
-          "id": 25,
-          "question": "Before the rise of Machine Learning, AI systems were 'naturally transparent'. What was the primary reason for this transparency?",
-          "options": {
-            "A": "They were designed with fewer lines of code.",
-            "B": "They relied on explicit 'if-then' rules programmed by humans, making their logic traceable.",
-            "C": "They had advanced self-explanation capabilities.",
-            "D": "They operated on simplified, non-complex data."
-          }
-        },
-        {
-          "id": 26,
-          "question": "Why is the question 'What constitutes a good explanation?' a significant challenge for XAI?",
-          "options": {
-            "A": "Because 'good' explanations are always quantitative and hard to measure.",
-            "B": "Because what constitutes a 'good' explanation is subjective and context-dependent, varying across users and situations.",
-            "C": "Because AI systems can only generate technical explanations, not human-understandable ones.",
-            "D": "Because there is no demand from end-users for 'good' explanations, only for accurate predictions."
-          }
-        },
-        {
-          "id": 27,
-          "question": "Which type of AI system is most commonly referred to as a 'black box' due to its immense complexity and opaque internal workings?",
-          "options": {
-            "A": "Expert Systems",
-            "B": "Decision Trees",
-            "C": "Deep Neural Networks",
-            "D": "Rule-based Systems"
-          }
-        },
-        {
-          "id": 28,
-          "question": "What does the term 'opacity' refer to in the context of AI?",
-          "options": {
-            "A": "The AI's ability to hide its data from users.",
-            "B": "The degree to which an AI system's internal workings and decision-making processes are hidden from human understanding.",
-            "C": "The AI's tendency to give incorrect answers.",
-            "D": "The physical size of the AI's hardware components."
-          }
-        },
-        {
-          "id": 29,
-          "question": "In the Genux-B scenario, what was the core dilemma Joseph Stafford faced regarding the supercomputer's decision?",
-          "options": {
-            "A": "He didn't have enough time to input the correct data.",
-            "B": "The supercomputer was malfunctioning and giving random predictions.",
-            "C": "He knew the decision was wrong but couldn't convince others.",
-            "D": "The supercomputer made a critical decision without providing any understandable reasoning for it."
-          }
-        },
-        {
-          "id": 30,
-          "question": "What is a key advantage of 'model-agnostic' XAI methods like LIME?",
-          "options": {
-            "A": "They are always ante-hoc.",
-            "B": "They can be applied to any AI model, regardless of its internal architecture, offering versatility.",
-            "C": "They provide 100% accurate explanations for all AI systems.",
-            "D": "They are exclusively used for transparent models."
-          }
-        }
-      ],
-      "answers": [
-        {
-          "id": 1,
+            "D": "Deep Learning"
+          },
           "answer": "B",
-          "short_explanation": "Interpretability is about 'how' for developers, Explainability is about 'why' for end-users.",
-          "long_explanation": "Interpretability focuses on the internal mechanisms and logic, aiming to help developers understand 'how' a model works for debugging and improvement. Explainability, on the other hand, focuses on providing human-understandable reasons, answering 'why' a decision was made, primarily for end-users to build trust and ensure accountability. This distinction is fundamental in XAI."
-        },
-        {
-          "id": 2,
-          "answer": "B",
-          "short_explanation": "Trust can be based on reliability, not just understanding.",
-          "long_explanation": "The 'Trust is All We Need' perspective, as outlined by Sam Baron, argues that for many notions of trust, explainability is not a necessary condition. Trust can be built on the AI's consistent reliability and accuracy (i.e., it performs its intended function correctly), without requiring humans to understand its complex internal workings. This is similar to trusting a calculator without knowing its algorithms."
+          "short_explanation": "Expert Systems relied on human-programmed 'if-then' rules, making their logic easy to follow.",
+          "long_explanation": "In the Expert Systems era (1970s-1990s), AI systems were built by explicitly encoding knowledge as rules. This meant their decision-making process was directly traceable and understandable by humans, hence 'naturally transparent.' In contrast, later eras like Machine Learning, Neural Networks, and Deep Learning increasingly relied on data-driven learning, leading to greater opacity."
         },
         {
           "id": 3,
-          "answer": "D",
-          "short_explanation": "Expert Systems used explicit 'if-then' rules, making them transparent.",
-          "long_explanation": "Expert Systems (1970-1990) were built on explicit 'if-then' rules programmed by humans. This design allowed for direct tracing of their decision-making logic, making them inherently transparent. In contrast, Machine Learning, Neural Networks, and Deep Neural Networks progressively introduced more opacity due to their data-driven nature and complex architectures."
+          "question": "A financial institution uses an AI to approve loans. When a loan is denied, the system provides a detailed breakdown of the applicant's financial scores and how each score contributed to the final decision using a weighted formula. This AI is primarily demonstrating:",
+          "options": {
+            "A": "Explainability",
+            "B": "Interpretability",
+            "C": "Transparency by design",
+            "D": "Trustworthiness"
+          },
+          "answer": "B",
+          "short_explanation": "Providing a detailed breakdown of scores and formulas shows 'how' the decision was made, which is interpretability.",
+          "long_explanation": "Interpretability focuses on revealing the internal mechanics and logic ('how') of an AI system, primarily for developers or technically-minded users. The detailed breakdown of scores and the weighted formula directly illustrate the internal workings. Explainability, on the other hand, would focus on the 'why' in a more human-understandable narrative, such as 'why' certain aspects were deemed more important."
         },
         {
           "id": 4,
+          "question": "In the LIME example for image recognition, if the AI correctly identifies a 'cat' in an image, what does LIME primarily highlight to explain this decision?",
+          "options": {
+            "A": "The specific layers and neurons activated within the deep neural network.",
+            "B": "The mathematical formula used by the linear model to approximate the black box.",
+            "C": "The most influential pixels or regions of the image that led to the 'cat' prediction.",
+            "D": "The entire dataset used to train the original AI model."
+          },
           "answer": "C",
-          "short_explanation": "The experiment shows the danger of opaque AI in high-stakes situations.",
-          "long_explanation": "The Genux-B thought experiment directly illustrates the problem of AI opacity. Joseph Stafford faces a military-grade supercomputer making a critical, planet-altering decision (launching nuclear bombs) without providing any understandable reasoning ('no one knows how or why Genux-B arrived at this result'). This highlights the societal danger when high-stakes AI decisions are made by 'black box' systems."
+          "short_explanation": "LIME highlights the specific parts of the input (like pixels in an image) that were most important for the AI's decision.",
+          "long_explanation": "LIME (Local Interpretable Model-agnostic Explanations) is a post-hoc explainability technique that works by perturbing the input and observing changes in the black-box model's output. It then trains a simple, interpretable model to approximate the black box's behavior locally around that specific prediction. The output of LIME is typically a visual highlight of the key input features (e.g., pixels, words) that contributed most to the prediction, rather than internal neural network details or training data."
         },
         {
           "id": 5,
+          "question": "Why is answering 'WHY' questions considered particularly challenging for Explainable AI?",
+          "options": {
+            "A": "AI systems lack the necessary data to formulate comprehensive answers.",
+            "B": " 'Why' questions often require subjective human understanding and context, which is hard for AI to replicate.",
+            "C": "The computational cost of generating 'why' explanations is currently too high.",
+            "D": "AI is fundamentally incapable of reasoning beyond simple correlations."
+          },
           "answer": "B",
-          "short_explanation": "Treating AI as an oracle leads to blind acceptance.",
-          "long_explanation": "Éric Sadin highlights that a key risk of the 'Trust is All We Need' approach is that it might lead to treating AI as an 'oracle'—an unquestionable source of truth. This means blindly accepting AI's outputs without human oversight or critical evaluation, which can be dangerous in high-stakes applications where understanding the reasoning is crucial."
+          "short_explanation": " 'Why' questions demand human-like reasoning and context, which AI struggles to provide in a universally understandable way.",
+          "long_explanation": "While AI can generate outputs based on complex patterns, articulating the 'why' behind those outputs in a way that resonates with human understanding is difficult. This often requires the AI to grasp subjective context, values, and causal narratives that are inherently human-centric. Unlike 'how' questions (interpretability), 'why' delves into intentions, justifications, and broader implications that current AI models are not designed to conceptualize."
         },
         {
           "id": 6,
-          "answer": "C",
-          "short_explanation": "Post-hoc means applied after the prediction.",
-          "long_explanation": "In the context of XAI, 'post-hoc' refers to methods that are applied *after* the AI model has been trained and has already made its prediction. This is in contrast to 'ante-hoc' methods, which are built into the model's design from the start. LIME explains existing predictions of a black-box model, hence it is post-hoc."
+          "question": "The 'Trust is All We Need' path forward in XAI, as discussed by Sam Baron, primarily suggests:",
+          "options": {
+            "A": "That AI systems should prioritize explainability over accuracy to build human trust.",
+            "B": "That trust in AI can be built solely on demonstrated reliability and accuracy, without requiring explainability.",
+            "C": "That all AI systems should be designed to be fully transparent from the outset.",
+            "D": "That humans should simply accept AI decisions without question, regardless of performance."
+          },
+          "answer": "B",
+          "short_explanation": "This path argues that consistent performance and accuracy are sufficient for trust, without needing to understand the internal 'why.'",
+          "long_explanation": "Sam Baron's 'Trust is All We Need' argument posits that for many notions of trust, particularly those relevant to AI, trust is based on demonstrated reliability and accuracy (e.g., trusting a calculator to give the right answer). This perspective suggests that understanding the internal 'how' or 'why' of an AI's decision is not a necessary condition for appropriate trust, challenging the common assumption that XAI is indispensable for building trust."
         },
         {
           "id": 7,
+          "question": "The inherent opacity of Deep Neural Networks (DNNs) is primarily attributed to:",
+          "options": {
+            "A": "Their limited processing power, which prevents detailed internal logging.",
+            "B": "The intentional design choice by developers to hide their internal logic.",
+            "C": "Their immense complexity, non-linear transformations, and hierarchical abstractions.",
+            "D": "The lack of standardized programming languages for AI development."
+          },
           "answer": "C",
-          "short_explanation": "Debugging is a goal of Interpretability, not Explainability.",
-          "long_explanation": "Debugging and improving the AI's internal code is a primary goal of 'Interpretability,' which focuses on 'how' a model works and is geared towards developers. 'Explainability,' on the other hand, focuses on 'why' a decision was made for end-users, addressing ethical, social, and legal concerns by providing human-understandable rationales."
+          "short_explanation": "DNNs are opaque due to their massive scale, complex mathematical functions, and multi-layered processing.",
+          "long_explanation": "DNNs are 'black boxes' because they comprise millions or billions of interconnected neurons and layers, performing complex non-linear calculations. This creates a highly intricate web of interactions that is beyond human capacity to trace or intuitively understand. Hierarchical abstractions mean that information is processed at multiple, increasingly abstract levels, further obscuring the direct causal link between input and output."
         },
         {
           "id": 8,
+          "question": "Which discipline is most concerned with the philosophical concepts of 'explanation,' 'understanding,' and 'trust' within the context of Explainable AI?",
+          "options": {
+            "A": "Computer Science",
+            "B": "Legal Studies",
+            "C": "Philosophy",
+            "D": "Cognitive Science"
+          },
           "answer": "C",
-          "short_explanation": "DNNs are 'black boxes' due to their incomprehensible internal complexity.",
-          "long_explanation": "Deep Neural Networks (DNNs) are often called 'black boxes' because their vast number of layers, non-linear activation functions, and complex interconnections result in internal workings that are virtually impossible for humans to fully comprehend or trace. This opacity makes it challenging to understand how they arrive at their decisions."
+          "short_explanation": "Philosophy delves into the fundamental nature of concepts like explanation, understanding, and trust.",
+          "long_explanation": "While XAI is multidisciplinary, Philosophy specifically contributes by critically examining the core conceptual underpinnings. It questions what constitutes a 'good explanation,' how humans genuinely 'understand' AI decisions, and what it truly means to 'trust' an artificial agent, providing a foundational framework for the field's ethical and epistemological considerations."
         },
         {
           "id": 9,
-          "answer": "B",
-          "short_explanation": "Detailed scoring rules show 'how' the grade was computed.",
-          "long_explanation": "The professor who provides a detailed table with clear scoring rules for each aspect of the essay best represents 'Interpretability.' This approach reveals *how* the grade was precisely calculated, allowing for a step-by-step understanding of the computation. In contrast, 'Explainability' would focus on *why* the grade was given, often through a narrative explanation."
+          "question": "The transition from rule-based Expert Systems to Machine Learning primarily marked a shift from:",
+          "options": {
+            "A": "Human-programmed intelligence to data-driven learning.",
+            "B": "Opaque systems to naturally transparent systems.",
+            "C": "Systems for simple tasks to systems for complex tasks.",
+            "D": "Analog computing to digital computing."
+          },
+          "answer": "A",
+          "short_explanation": "Machine Learning learns from data, unlike Expert Systems which were explicitly programmed with rules.",
+          "long_explanation": "Expert Systems relied on human experts encoding explicit rules, making them 'human-programmed intelligence.' The advent of Machine Learning marked a fundamental shift where systems learned patterns and made decisions autonomously from vast datasets, becoming 'data-driven learning.' This transition also generally led to increased opacity, not transparency."
         },
         {
           "id": 10,
-          "answer": "B",
-          "short_explanation": "DNNs are opaque, requiring inference from outside.",
-          "long_explanation": "A major challenge for XAI in explaining DNNs is their fundamental opacity. Unlike simpler models, DNNs cannot be directly inspected internally. Therefore, XAI methods must resort to inferring their behavior from external inputs and outputs (post-hoc methods), rather than providing direct insights into their complex internal workings, which introduces a layer of approximation."
+          "question": "In the Genux-B thought experiment, the core problem highlighted by the supercomputer's 'Red Alert' without explanation is a direct challenge to:",
+          "options": {
+            "A": "AI's processing speed.",
+            "B": "The concept of AI autonomy.",
+            "C": "Human oversight and the ability to understand critical AI decisions.",
+            "D": "The accuracy of military-grade supercomputers."
+          },
+          "answer": "C",
+          "short_explanation": "Genux-B's unexplained decision challenges human control and comprehension in high-stakes scenarios.",
+          "long_explanation": "The Genux-B scenario highlights the critical need for human understanding and oversight when AI systems make high-stakes decisions. Despite the supercomputer's past accuracy, its opaque 'Red Alert' decision without explanation prevents Joseph Stafford from assessing its validity, thus challenging human ability to intervene responsibly and make informed choices. This underscores the core problem of opacity in critical AI applications."
         },
         {
           "id": 11,
+          "question": "The 'Practices Over Guidelines' path suggests that ethical reasoning in AI development should:",
+          "options": {
+            "A": "Be delegated to specialized XAI tools after the AI is built.",
+            "B": "Be an integral part of the data science practice from design to deployment.",
+            "C": "Focus solely on legal compliance, rather than broader ethical concerns.",
+            "D": "Be handled exclusively by philosophers, separate from engineers."
+          },
           "answer": "B",
-          "short_explanation": "Ethics should be integral to data science practice.",
-          "long_explanation": "The 'Practices Over Guidelines' path advocates for integrating ethical reasoning and good epistemic practices directly into the data science workflow from the start. This approach aims to move beyond simply applying XAI tools as an afterthought, ensuring that ethical considerations are intrinsic to the AI development process itself, rather than being delegated as a separate concern."
+          "short_explanation": "This path advocates for integrating ethics into the entire AI development process, not just as an add-on.",
+          "long_explanation": "The 'Practices Over Guidelines' path argues against treating ethics as an external 'add-on' to AI development. Instead, it proposes that ethical reasoning should be a core, integral part of the data science practice itself, from the initial design phase through to deployment and maintenance. This ensures that those building AI systems are directly responsible for ethical considerations, fostering a culture of responsible AI development."
         },
         {
           "id": 12,
+          "question": "Interpretability is described as a characteristic of the *system itself*. This means:",
+          "options": {
+            "A": "It can be added to any AI system as a post-hoc solution.",
+            "B": "It is an inherent quality related to the model's design, making it inherently understandable or not.",
+            "C": "It is only relevant for human-computer interaction, not for internal debugging.",
+            "D": "It allows the AI to self-correct its own errors without human intervention."
+          },
           "answer": "B",
-          "short_explanation": "Machine Learning (1990-2000) introduced data-driven AI.",
-          "long_explanation": "The period of 1990-2000 saw the rise of Machine Learning, which marked a shift towards 'data-driven AI.' While some ML algorithms like Decision Trees were transparent, others like Random Forests began to introduce opacity because they learned patterns from data rather than relying on explicit, traceable 'if-then' rules, making their internal workings less intuitive."
+          "short_explanation": "Interpretability is about the inherent design of the AI, making it naturally understandable.",
+          "long_explanation": "When interpretability is described as a characteristic of the 'system itself,' it implies that the model's inherent design determines its level of interpretability. For example, a decision tree is inherently interpretable by design. In contrast, explainability often involves applying post-hoc techniques (like proxy models) to *explain* an opaque system, rather than the system being inherently interpretable itself."
         },
         {
           "id": 13,
+          "question": "Which of the following is a primary goal of explainability (as opposed to interpretability)?",
+          "options": {
+            "A": "To optimize the AI's computational efficiency.",
+            "B": "To facilitate faster data processing within the AI model.",
+            "C": "To respond to ethical, social, and legal concerns of end-users.",
+            "D": "To enhance the AI's ability to learn from new data without human input."
+          },
           "answer": "C",
-          "short_explanation": "XAI aims to make opaque AI understandable.",
-          "long_explanation": "The primary goal of Explainable AI (XAI) is to make opaque AI technologies transparent and understandable to humans. This involves developing methods and tools that can reveal how and why complex AI systems arrive at their decisions, addressing concerns related to trust, accountability, and ethical responsibility in high-stakes applications."
+          "short_explanation": "Explainability focuses on justifying AI decisions to end-users for ethical, social, and legal reasons.",
+          "long_explanation": "Explainability aims to answer the 'why' behind an AI's decision, primarily for end-users. Its goals are deeply rooted in societal concerns: ensuring fairness (ethical), building public trust (social), and meeting regulatory requirements like the 'right to explanation' (legal). Interpretability, conversely, is more about the 'how' for developers, focusing on debugging and technological advancement."
         },
         {
           "id": 14,
+          "question": "A key argument for the 'Use Older Technologies' path is that:",
+          "options": {
+            "A": "Older technologies are always more accurate than Deep Learning models.",
+            "B": "They offer comparable accuracy with greater transparency, which is crucial for high-stakes domains.",
+            "C": "They are less expensive to develop and maintain.",
+            "D": "They can solve all AI problems without any need for XAI."
+          },
           "answer": "B",
-          "short_explanation": "Explanations come from a proxy, not the original AI.",
-          "long_explanation": "The 'proxy problem' in XAI refers to the challenge that for opaque AI models (like DNNs), explanations are often generated by a simpler, transparent model that *approximates* the behavior of the original AI. This means the explanation isn't coming directly from the complex black box itself, but from a 'proxy' model, raising questions about the true fidelity of the explanation to the original AI's reasoning."
+          "short_explanation": "This path prioritizes transparency in critical applications, arguing that older models can be accurate enough.",
+          "long_explanation": "The 'Use Older Technologies' path suggests that for high-stakes domains, the transparency offered by simpler models (like decision trees) outweighs the marginal accuracy gains of opaque Deep Learning models. The argument is that in many cases, these older, more understandable technologies can achieve comparable performance, making them a safer choice where human understanding and accountability are paramount."
         },
         {
           "id": 15,
-          "answer": "C",
-          "short_explanation": "Transparent models offer understanding and reduce risk.",
-          "long_explanation": "The 'Use Older Technologies' path is appealing for high-stakes domains because older, more transparent models are understandable. Even if they are slightly less accurate than opaque DNNs in some cases, their transparency allows humans to understand their decision-making process, reducing the risk associated with critical decisions where opacity could be dangerous. This prioritizes human oversight and accountability."
+          "question": "Philip K. Dick's science fiction, exemplified by the Genux-B scenario, is relevant to Explainable AI because it:",
+          "options": {
+            "A": "Predicted the exact technical architecture of modern AI systems.",
+            "B": "Explored the ethical and philosophical dilemmas of trusting opaque AI decades before their widespread emergence.",
+            "C": "Advocated for the exclusive use of rule-based AI systems.",
+            "D": "Provided the first formal definitions of interpretability and explainability."
+          },
+          "answer": "B",
+          "short_explanation": "Dick's work anticipated the complex human-AI trust issues that explainable AI now addresses.",
+          "long_explanation": "Philip K. Dick's science fiction, including the story that inspired the Genux-B scenario, delved into profound questions about humanity's relationship with advanced, autonomous, and often inscrutable machines. His narratives explored themes of trust, reality, and control in the face of technology that operates beyond human comprehension, making his work highly relevant to the philosophical and ethical dimensions of Explainable AI today."
         },
         {
           "id": 16,
+          "question": "Which statement best describes AI opacity according to the chapter?",
+          "options": {
+            "A": "AI opacity refers to the inability of an AI system to connect to the internet.",
+            "B": "It describes the degree to which an AI's internal workings and decision-making processes are hidden from human understanding.",
+            "C": "AI opacity is a measure of how quickly an AI can process information.",
+            "D": "It's a term for AI systems that operate without human supervision."
+          },
           "answer": "B",
-          "short_explanation": "Opacity leads to distrust in AI decisions.",
-          "long_explanation": "A major societal problem caused by AI opacity is the reduced public trust and acceptance of AI decisions. When people cannot understand how an AI system arrives at its conclusions, especially in critical areas like healthcare or finance, their willingness to trust and rely on those decisions diminishes, hindering the beneficial adoption of AI."
+          "short_explanation": "Opacity is about the hidden nature of an AI's internal reasoning.",
+          "long_explanation": "AI opacity directly refers to the 'black box' nature of many AI systems, particularly Deep Learning models. It signifies that while inputs and outputs are visible, the complex internal computations, transformations, and decision logic are not easily discernible or understandable by humans. This lack of transparency is what Explainable AI seeks to address."
         },
         {
           "id": 17,
+          "question": "A car manufacturer is developing a self-driving car. Engineers are using a tool that allows them to visualize the car's internal sensors and processing units, showing the exact algorithm steps it takes to decide to brake. This tool supports:",
+          "options": {
+            "A": "Explainability, by providing a narrative answer for the braking decision.",
+            "B": "Interpretability, by revealing the internal mechanics and logic of the braking system.",
+            "C": "Transparency by end-user design, by simplifying user interface.",
+            "D": "Automated debugging, without human intervention."
+          },
           "answer": "B",
-          "short_explanation": "Interpretability focuses on 'how' for developers.",
-          "long_explanation": "The primary focus of 'Interpretability' in XAI is to understand 'how' a model works. It aims to reveal the internal mechanics and logic of an AI system, primarily for developers to debug, improve, and advance the technology. In contrast, 'Explainability' focuses on 'why' a decision was made for end-users."
+          "short_explanation": "Visualizing internal steps and algorithms to understand 'how' is interpretability.",
+          "long_explanation": "The engineers are looking at the 'how' of the self-driving car's decision to brake—the exact algorithm steps and internal processing. This aligns perfectly with the definition of interpretability, which focuses on making the internal workings and logic of an AI system understandable, primarily for developers and technical users, to aid in debugging and advancement."
         },
         {
           "id": 18,
+          "question": "What is a defining characteristic of 'post-hoc' XAI methods like LIME?",
+          "options": {
+            "A": "They are built into the AI model's design from the start, making them inherently transparent.",
+            "B": "They are applied *after* the AI model has been built and made its prediction to generate explanations.",
+            "C": "They require human experts to manually program all the decision rules.",
+            "D": "They can only explain transparent models, not opaque ones."
+          },
           "answer": "B",
-          "short_explanation": "Consensus on definitions and scope is lacking.",
-          "long_explanation": "A key challenge within the XAI field is the ongoing lack of consensus regarding what the discipline should prioritize (interpretability vs. explainability) and the precise definitions of these terms. This definitional ambiguity can lead to fragmented research efforts and different understandings of what constitutes a 'good' explanation, hindering unified progress in the field."
+          "short_explanation": "Post-hoc methods provide explanations after the AI has already made a decision.",
+          "long_explanation": "Post-hoc XAI methods are designed to generate explanations for AI models that are already built and operating. They work by analyzing the model's inputs and outputs, or by creating approximations of its behavior, rather than being an intrinsic part of the model's initial design. This contrasts with 'ante-hoc' methods, which are built into the model from the outset and are inherently transparent."
         },
         {
           "id": 19,
+          "question": "A significant 'new problem' within XAI is the 'proxy problem,' which refers to:",
+          "options": {
+            "A": "The difficulty of finding suitable real-world datasets for training AI models.",
+            "B": "The challenge of using a simpler, transparent model to approximate and explain an opaque model, potentially losing fidelity.",
+            "C": "The ethical dilemma of AI models making decisions on behalf of human users.",
+            "D": "The high computational cost associated with running complex AI simulations."
+          },
           "answer": "B",
-          "short_explanation": "Opacity prevents understanding the decision's basis.",
-          "long_explanation": "If an AI system makes a decision that negatively impacts an individual and it's an opaque system, a key ethical and legal problem is that the individual loses the ability to understand *why* that decision was made. This lack of transparency directly hinders their ability to contest the decision, seek recourse, or hold the AI or its developers accountable, violating principles of fairness and due process."
+          "short_explanation": "The proxy problem occurs when an interpretable model is used to explain a black-box model, raising questions about the explanation's accuracy.",
+          "long_explanation": "The 'proxy problem' arises when XAI attempts to explain opaque models (like DNNs) by training a simpler, transparent 'proxy' model to mimic their behavior. The explanation is then derived from this proxy. The challenge is that the proxy model is an approximation, and its explanation might not perfectly reflect the true reasoning of the original opaque model, potentially leading to misleading or incomplete insights."
         },
         {
           "id": 20,
-          "answer": "B",
-          "short_explanation": "Model-agnostic means applicable to any model type.",
-          "long_explanation": "In the context of XAI, 'model-agnostic' means that the explanation method can be applied to *any* AI model, regardless of its specific internal architecture or type. This versatility is a significant advantage, as it allows a single method like LIME to be used across a wide range of different AI systems, from traditional machine learning models to complex deep neural networks."
+          "question": "In the context of the 'Trust is All We Need' path, trusting an AI is most akin to:",
+          "options": {
+            "A": "Believing the AI possesses human-like intentions or goodwill.",
+            "B": "Unquestioningly accepting any output from the AI, regardless of its track record.",
+            "C": "Relying on a tool (like a calculator) to perform its function consistently and accurately.",
+            "D": "Understanding the full internal logic behind every AI decision."
+          },
+          "answer": "C",
+          "short_explanation": "This path equates trust with reliable performance, similar to how we trust simple tools.",
+          "long_explanation": "The 'Trust is All We Need' path, as argued by Sam Baron, suggests that trust in AI can be based on its demonstrated reliability and accuracy, similar to how we trust a calculator to give correct answers without understanding its internal algorithms. This view contrasts with the idea that trust requires understanding the AI's internal reasoning or believing it possesses human-like qualities."
         },
         {
           "id": 21,
-          "answer": "C",
-          "short_explanation": "Narrative feedback on 'why' represents Explainability.",
-          "long_explanation": "In the essay grading example, the professor who explains *why* certain aspects were good or bad in a narrative format best represents 'Explainability.' This approach provides the reasoning behind the decision in human-understandable terms, focusing on the justification rather than the precise computational steps. The 'how' (detailed scoring rules) would represent 'Interpretability'."
+          "question": "A primary limitation of the 'Use Older Technologies' path, especially for certain AI applications, is that:",
+          "options": {
+            "A": "Older technologies are always more prone to biases than modern Deep Learning.",
+            "B": "They may not be powerful enough to achieve comparable performance in complex tasks like visual recognition or advanced chatbots.",
+            "C": "They are more difficult to integrate into existing technological infrastructures.",
+            "D": "They require more human supervision than opaque Deep Learning models."
+          },
+          "answer": "B",
+          "short_explanation": "Older technologies might lack the power for complex tasks where DNNs excel.",
+          "long_explanation": "While the 'Use Older Technologies' path promotes transparency, it acknowledges that Deep Learning models often achieve unparalleled performance in specific, highly complex domains such as advanced visual recognition, natural language processing, and complex gaming AI. In these areas, simpler, more transparent older technologies may simply lack the computational power and pattern recognition capabilities to achieve comparable results."
         },
         {
           "id": 22,
-          "answer": "B",
-          "short_explanation": "Delegation can lead to perceived lack of responsibility.",
-          "long_explanation": "According to the 'Practices Over Guidelines' path, if ethical concerns are solely delegated to XAI as an add-on, it might lead data scientists to perceive that ethical responsibility belongs to others (e.g., ethicists or lawyers) rather than being an integral part of their own work. This hinders the proactive integration of ethics throughout the AI development lifecycle and can reduce internal accountability."
+          "question": "Laura Gorrieri's background in Philosophy, Digital Humanities, and as a Data Scientist highlights XAI as a field that benefits from diverse perspectives. Which of the following best represents a contribution from her philosophical background to XAI?",
+          "options": {
+            "A": "Developing new algorithms for more efficient data processing.",
+            "B": "Designing user interfaces for better human-AI interaction.",
+            "C": "Grappling with the fundamental concepts of 'understanding' and 'explanation' in an AI context.",
+            "D": "Optimizing database management systems for large-scale AI projects."
+          },
+          "answer": "C",
+          "short_explanation": "Philosophy critically examines core concepts like understanding and explanation, which are central to XAI.",
+          "long_explanation": "Laura Gorrieri's philosophical background contributes to XAI by engaging with the foundational questions surrounding 'understanding' and 'explanation.' Philosophy provides the tools to critically analyze what constitutes a meaningful explanation from an AI, how humans truly grasp AI decisions, and the ethical implications of these concepts, going beyond the purely technical aspects of AI development."
         },
         {
           "id": 23,
-          "answer": "B",
-          "short_explanation": "The perspective argues explainability isn't necessary for trust.",
-          "long_explanation": "The 'Trust is All We Need' perspective argues that explainability is not a necessary condition for trust in AI. This view posits that trust can be sufficiently established through the AI's consistent reliability and accuracy in performing its intended functions, without requiring humans to understand the complex internal mechanisms that lead to those results. It challenges the conventional wisdom that transparency is a prerequisite for trust."
+          "question": "The 'happy ending' of the Genux-B scenario, where the planet is saved due to XAI, is presented as an ideal outcome that:",
+          "options": {
+            "A": "Is easily achievable with current XAI technologies.",
+            "B": "Highlights the straightforward solution XAI provides to all AI problems.",
+            "C": "Serves as a hopeful fiction contrasting with the complex realities and challenges facing XAI.",
+            "D": "Demonstrates the inherent superiority of AI over human decision-making."
+          },
+          "answer": "C",
+          "short_explanation": "The ideal Genux-B outcome is a simplified view, as XAI faces significant real-world challenges.",
+          "long_long_explanation": "The 'happy ending' of the Genux-B scenario serves as a didactic tool to illustrate the *potential* benefits of XAI. However, the chapter explicitly states that this ideal outcome contrasts with the complex 'new problems' faced by XAI in reality, such as definitional debates, the difficulty of answering 'why' questions, and the proxy problem. It's presented as a hopeful but currently unrealistic vision, highlighting the ongoing challenges in the field."
         },
         {
           "id": 24,
-          "answer": "A",
-          "short_explanation": "Local explains one prediction, global explains overall behavior.",
-          "long_explanation": "In XAI, 'local' methods provide explanations for a *single, specific prediction* made by the AI (e.g., why *this specific image* was classified as a cat). In contrast, 'global' methods aim to explain the *overall behavior* and decision-making patterns of the entire model across multiple predictions, offering a broader understanding of how the AI generally operates."
+          "question": "Explainability vs. Interpretability (Purpose): If a company wants to ensure compliance with a 'right to explanation' law for its AI-driven hiring decisions, it should primarily focus on:",
+          "options": {
+            "A": "Interpretability, to allow engineers to debug the hiring algorithm.",
+            "B": "Explainability, to provide understandable reasons for hiring decisions to applicants.",
+            "C": "Transparency by design, to make the entire system's code public.",
+            "D": "Computational efficiency, to process applications faster."
+          },
+          "answer": "B",
+          "short_explanation": " 'Right to explanation' requires providing understandable reasons to end-users, which is the goal of explainability.",
+          "long_explanation": "The 'right to explanation' is a legal and ethical requirement for end-users to understand why an AI made a decision that affects them. This directly aligns with the goal of explainability, which is to provide human-understandable 'why' explanations for AI outcomes. Interpretability, while useful for engineers, focuses on the internal 'how' and would not directly satisfy a legal requirement for end-user understanding."
         },
         {
           "id": 25,
+          "question": "Which statement accurately describes the general trend in AI development from Expert Systems to Deep Learning regarding transparency?",
+          "options": {
+            "A": "AI systems became consistently more transparent over time.",
+            "B": "The complexity of AI systems increased, leading to a decrease in inherent transparency.",
+            "C": "AI shifted from data-driven learning to rule-based programming.",
+            "D": "The focus moved from practical applications to purely theoretical research."
+          },
           "answer": "B",
-          "short_explanation": "Rule-based systems allowed traceable logic.",
-          "long_explanation": "Before the rise of Machine Learning, AI systems were primarily 'Expert Systems' that relied on explicit 'if-then' rules programmed by humans. This made them 'naturally transparent' because their decision-making logic was directly traceable by simply reviewing the predefined rules, allowing for clear understanding of *how* they arrived at their conclusions."
+          "short_explanation": "AI evolved from transparent rule-based systems to complex, opaque Deep Learning models.",
+          "long_explanation": "The historical timeline shows a clear trend: Expert Systems (rule-based) were naturally transparent. As AI progressed through Machine Learning, Neural Networks, and especially Deep Learning, systems became exponentially more complex. This increased complexity, driven by data-driven learning and intricate architectures, directly resulted in a decrease in inherent transparency, leading to the 'black box' problem."
         },
         {
           "id": 26,
+          "question": "The 'Practices Over Guidelines' path emphasizes good epistemic practices and integrating ethics into data science to:",
+          "options": {
+            "A": "Delegate ethical concerns entirely to specialized XAI tools.",
+            "B": "Ensure that ethical considerations are a core responsibility of those building AI, not an add-on.",
+            "C": "Reduce the computational power needed for AI development.",
+            "D": "Limit the scope of AI applications to avoid ethical dilemmas."
+          },
           "answer": "B",
-          "short_explanation": "What counts as 'good' is subjective and context-dependent.",
-          "long_explanation": "The question 'What constitutes a good explanation?' is a significant challenge for XAI because the definition of 'good' is subjective and context-dependent. What is considered a clear and useful explanation can vary greatly depending on the user's background (e.g., technical vs. non-technical), the specific situation, and the purpose of the explanation. This makes it difficult to design universally effective XAI systems."
+          "short_explanation": "This path promotes embedding ethics directly into the AI development process.",
+          "long_explanation": "The 'Practices Over Guidelines' path critiques the idea of treating ethics as a separate concern. Instead, it advocates for integrating ethical reasoning as a fundamental part of the data science practice itself. This means that ethical considerations should be a core responsibility of AI developers throughout the entire lifecycle, from data collection and model design to deployment, rather than being an afterthought or delegated solely to external XAI tools."
         },
         {
           "id": 27,
-          "answer": "C",
-          "short_explanation": "DNNs are 'black boxes' due to their complexity.",
-          "long_explanation": "Deep Neural Networks (DNNs) are most commonly referred to as 'black boxes.' This term highlights their immense complexity, characterized by numerous layers, non-linear transformations, and hierarchical abstractions, which make their internal workings and decision-making processes virtually incomprehensible to humans. In contrast, Expert Systems and Decision Trees are generally more transparent."
+          "question": "A core 'new problem' identified within the field of XAI is:",
+          "options": {
+            "A": "The lack of powerful enough hardware to run XAI algorithms.",
+            "B": "The absence of a universal consensus on what XAI should aim for or how its core terms are defined.",
+            "C": "The declining interest from researchers in developing new XAI techniques.",
+            "D": "The inability of XAI to work with any type of data."
+          },
+          "answer": "B",
+          "short_explanation": "XAI struggles with a lack of agreement on its fundamental goals and definitions.",
+          "long_explanation": "One of the significant 'new problems' in XAI is the internal disagreement and lack of consensus within the field itself. Researchers and practitioners often hold differing views on what XAI's ultimate goals should be (e.g., interpretability vs. explainability) and even on the precise definitions of key terms. This conceptual fragmentation can hinder unified progress and make it challenging to establish clear standards for what constitutes a 'good' explanation."
         },
         {
           "id": 28,
+          "question": "In the Genux-B thought experiment, Joseph Stafford's core challenge stems from the AI's opacity, specifically his inability to:",
+          "options": {
+            "A": "Debug the supercomputer's hardware.",
+            "B": "Understand the *reasoning* behind the AI's critical 'Red Alert' decision.",
+            "C": "Prevent the supercomputer from launching missiles once activated.",
+            "D": "Access the supercomputer's past performance logs."
+          },
           "answer": "B",
-          "short_explanation": "Opacity is about hidden internal workings.",
-          "long_explanation": "In the context of AI, 'opacity' refers to the degree to which an AI system's internal workings and decision-making processes are hidden from human understanding. An opaque system functions like a 'black box,' where inputs go in and outputs come out, but the exact steps or reasoning behind the output are not discernible by humans. This is the core problem that Explainable AI (XAI) seeks to address."
+          "short_explanation": "Stafford's dilemma is not knowing *why* the AI made its decision, despite its past accuracy.",
+          "long_explanation": "The Genux-B scenario directly illustrates the problem of AI opacity in a high-stakes context. Joseph Stafford is faced with a critical decision from an AI that has never been wrong before, but he has no insight into the *reasoning* or justification behind its 'Red Alert.' This lack of understanding prevents him from evaluating the decision's validity and making an informed choice, highlighting the critical importance of explainability in situations demanding human oversight."
         },
         {
           "id": 29,
-          "answer": "D",
-          "short_explanation": "The AI made a critical decision without understandable reasoning.",
-          "long_explanation": "In the Genux-B scenario, Joseph Stafford's core dilemma was that the supercomputer made a critical, planet-altering decision (launching nuclear bombs) without providing any understandable reasoning for it ('No one knows how or why Genux-B arrived at this result'). This highlights the problem of AI opacity in high-stakes situations, where trust and intervention are impossible without knowing the AI's rationale."
+          "question": "What is a significant risk associated with the 'Trust is All We Need' path to mitigating AI opacity?",
+          "options": {
+            "A": "It could lead to AI systems becoming too slow and inefficient.",
+            "B": "It might encourage treating AI as an unquestionable oracle, fostering blind reliance.",
+            "C": "It would require complex new regulations to enforce AI reliability.",
+            "D": "It would make AI development more expensive."
+          },
+          "answer": "B",
+          "short_explanation": "Relying on AI without understanding its reasoning risks treating it as infallible.",
+          "long_explanation": "While the 'Trust is All We Need' path suggests that trust can be built on reliability without explainability, a major criticism is the potential for humans to treat AI as an 'oracle.' This means blindly accepting AI outputs as infallible truths without critical evaluation or understanding of their underlying rationale. This blind reliance could lead to severe consequences if the AI makes a mistake or operates on flawed assumptions."
         },
         {
           "id": 30,
+          "question": "The 'proxy problem' in XAI implies that when explaining opaque DNNs:",
+          "options": {
+            "A": "Explanations are always perfectly accurate representations of the original model's behavior.",
+            "B": "We are explaining a simpler approximation of the original model, which may not fully capture its true reasoning.",
+            "C": "The original DNN can become transparent after the proxy model is applied.",
+            "D": "Human understanding is no longer necessary for AI decisions."
+          },
           "answer": "B",
-          "short_explanation": "Model-agnostic methods work on any AI model.",
-          "long_explanation": "A key advantage of 'model-agnostic' XAI methods like LIME is their versatility: they can be applied to *any* AI model, regardless of its specific internal architecture or type. This means developers don't need a different explanation method for every new AI model they create, making the process of generating explanations more efficient and widely applicable across diverse AI systems."
+          "short_explanation": "The proxy problem means we explain an approximation, not the opaque AI itself.",
+          "long_explanation": "The 'proxy problem' arises because opaque DNNs cannot be directly inspected. To explain them, XAI often trains a simpler, transparent 'proxy' model to mimic the DNN's behavior. The explanation is then derived from this proxy. The implication is that the explanation is an approximation, and there's a risk that it doesn't perfectly or fully capture the true, complex reasoning of the original opaque DNN, potentially leading to incomplete or misleading insights."
         }
       ]
     }
