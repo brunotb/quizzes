@@ -326,7 +326,7 @@
 
     <div id="app-container">
         <div class="header">
-            <h1>Academic Quiz</h1>
+            <h1 id="quiz-title">Academic Quiz</h1>
             <div>
                 <button id="view-summary-btn" class="header-btn hidden">View Progress</button>
                 <button id="back-to-menu-btn" class="header-btn hidden">Back to Menu</button>
@@ -539,7 +539,11 @@
                 currentQuestions = quizData.chapters[index].questions;
                 currentQuestionIndex = 0;
                 userAnswers = {};
-                
+                // Set the title to the chapter name
+                const quizTitleEl = document.getElementById('quiz-title');
+                if (quizTitleEl) {
+                    quizTitleEl.textContent = quizData.chapters[index].title;
+                }
                 // Try to load saved progress
                 const savedProgress = localStorage.getItem(`quiz_progress_chapter_${index}`);
                 if (savedProgress) {
@@ -547,13 +551,11 @@
                     userAnswers = progress.userAnswers;
                     currentQuestionIndex = progress.currentQuestionIndex;
                 }
-                
                 // Remove keyboard shortcuts panel before showing questions
                 const shortcuts = document.querySelector('.keyboard-shortcuts');
                 if (shortcuts) {
                     shortcuts.remove();
                 }
-                
                 showQuizView();
                 displayQuestion();
             }
@@ -796,6 +798,11 @@
                 navigationEl.classList.add('hidden');
                 viewSummaryBtn.classList.add('hidden');
                 backToMenuBtn.classList.add('hidden');
+                // Restore the title to default
+                const quizTitleEl = document.getElementById('quiz-title');
+                if (quizTitleEl) {
+                    quizTitleEl.textContent = 'Academic Quiz';
+                }
             }
 
             function showQuizView() {
