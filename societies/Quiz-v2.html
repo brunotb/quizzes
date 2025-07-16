@@ -561,15 +561,16 @@
             }
             
             function startRetryMode() {
+                // Only use questions from the current chapter
                 const incorrectQuestionIds = Object.values(userAnswers)
                     .filter(a => !a.isCorrect)
                     .map(a => a.questionId);
-                
-                // We filter from the master 'allQuestions' list to find the question objects
-                currentQuestions = allQuestions.filter(q => incorrectQuestionIds.includes(q.id));
+
+                // Filter from the current chapter's questions only
+                currentQuestions = currentQuestions.filter(q => incorrectQuestionIds.includes(q.id));
                 currentQuestionIndex = 0;
                 userAnswers = {}; // Reset answers for the retry round
-                
+
                 showQuizView();
                 displayQuestion();
             }
