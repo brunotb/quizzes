@@ -561,16 +561,25 @@
             }
             
             function startRetryMode() {
-                // Only use questions from the current chapter
-                // Always use the original chapter questions for filtering
+                // Always use the original chapter questions and the answers from the last completed run
                 let chapterQuestions = [];
+                let lastAnswers = {};
                 if (currentChapterIndex >= 0 && quizData.chapters[currentChapterIndex]) {
                     chapterQuestions = quizData.chapters[currentChapterIndex].questions;
+                    // Try to get the last saved progress for this chapter
+                    const savedProgress = localStorage.getItem(`quiz_progress_chapter_${currentChapterIndex}`);
+                    if (savedProgress) {
+                        const progress = JSON.parse(savedProgress);
+                        lastAnswers = progress.userAnswers || {};
+                    } else {
+                        lastAnswers = userAnswers;
+                    }
                 } else {
-                    // fallback: use currentQuestions (for review mode, etc)
+                    // fallback: use currentQuestions and current userAnswers (for review mode, etc)
                     chapterQuestions = currentQuestions;
+                    lastAnswers = userAnswers;
                 }
-                const incorrectQuestionIds = Object.values(userAnswers)
+                const incorrectQuestionIds = Object.values(lastAnswers)
                     .filter(a => !a.isCorrect)
                     .map(a => a.questionId);
 
