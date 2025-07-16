@@ -698,13 +698,17 @@
             function displayFinalSummary() {
                 let correctCount = 0;
                 let incorrectCount = 0;
-
-                Object.values(userAnswers).forEach(answer => {
-                    if(answer.isCorrect) correctCount++;
-                    else incorrectCount++;
-                });
-                
-                const percentage = currentQuestions.length > 0 ? ((correctCount / currentQuestions.length) * 100).toFixed(1) : 0;
+                // Only consider questions that were actually answered in this session
+                const answeredIds = Object.keys(userAnswers);
+                const incorrectAnswers = answeredIds
+                    .map(id => userAnswers[id])
+                    .filter(a => !a.isCorrect);
+                const correctAnswers = answeredIds
+                    .map(id => userAnswers[id])
+                    .filter(a => a.isCorrect);
+                correctCount = correctAnswers.length;
+                incorrectCount = incorrectAnswers.length;
+                const percentage = (answeredIds.length > 0) ? ((correctCount / answeredIds.length) * 100).toFixed(1) : 0;
                 const chapterTitle = currentChapterIndex === -1 ? 'Review Chapter' : quizData.chapters[currentChapterIndex].title;
 
                 let summaryHTML = `
@@ -716,25 +720,26 @@
                     </div>
                 `;
 
-                const incorrectAnswers = Object.values(userAnswers).filter(a => !a.isCorrect);
-
                 if (incorrectAnswers.length > 0) {
                     summaryHTML += `<h3>Review Incorrect Answers</h3>`;
                     incorrectAnswers.forEach(answer => {
-                        const question = allQuestions.find(q => q.id === answer.questionId);
-                        summaryHTML += `
-                            <div class="incorrect-answer-item">
-                                <p class="question-title">${question.question}</p>
-                                <p><strong>Your answer:</strong> ${answer.selectedOption}. ${question.options[answer.selectedOption]}</p>
-                                <p><strong>Correct answer:</strong> ${question.answer}. ${question.options[question.answer]}</p>
-                                <p><strong>Explanation:</strong> ${question.short_explanation}</p>
-                            </div>
-                        `;
+                        // Find the question in currentQuestions (not allQuestions)
+                        const question = currentQuestions.find(q => q.id === answer.questionId) || allQuestions.find(q => q.id === answer.questionId);
+                        if (question) {
+                            summaryHTML += `
+                                <div class="incorrect-answer-item">
+                                    <p class="question-title">${question.question}</p>
+                                    <p><strong>Your answer:</strong> ${answer.selectedOption}. ${question.options[answer.selectedOption]}</p>
+                                    <p><strong>Correct answer:</strong> ${question.answer}. ${question.options[question.answer]}</p>
+                                    <p><strong>Explanation:</strong> ${question.short_explanation}</p>
+                                </div>
+                            `;
+                        }
                     });
-                } else if (Object.keys(userAnswers).length > 0) {
-                     summaryHTML += `<h3>Congratulations! You answered all questions correctly.</h3>`;
+                } else if (answeredIds.length > 0) {
+                    summaryHTML += `<h3>Congratulations! You answered all questions correctly.</h3>`;
                 } else {
-                     summaryHTML += `<h3>You have not answered any questions.</h3>`;
+                    summaryHTML += `<h3>You have not answered any questions.</h3>`;
                 }
 
                 summaryHTML += `
@@ -745,7 +750,7 @@
                 `;
 
                 showSummaryView(summaryHTML);
-                
+
                 document.getElementById('restart-btn').addEventListener('click', () => startChapterQuiz(currentChapterIndex));
                 const retryBtn = document.getElementById('retry-wrong-btn');
                 if (incorrectAnswers.length === 0) {
