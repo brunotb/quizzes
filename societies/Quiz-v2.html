@@ -852,8 +852,16 @@
                 // Hide navigation buttons (next/prev) on summary page
                 navigationEl.classList.add('hidden');
                 viewSummaryBtn.classList.add('hidden');
-                // Remove any duplicate finish buttons if present
                 summaryContainer.innerHTML = htmlContent;
+                // Remove any duplicate summary-prev-btn and finish-btn (keep only the first of each)
+                const prevBtns = summaryContainer.querySelectorAll('#summary-prev-btn');
+                if (prevBtns.length > 1) {
+                    for (let i = 1; i < prevBtns.length; i++) prevBtns[i].remove();
+                }
+                const finishBtns = summaryContainer.querySelectorAll('#finish-btn');
+                if (finishBtns.length > 1) {
+                    for (let i = 1; i < finishBtns.length; i++) finishBtns[i].remove();
+                }
                 // Remove any navigation buttons from summary (defensive, in case of accidental duplication)
                 const navBtns = summaryContainer.querySelectorAll('.nav-btn');
                 navBtns.forEach(btn => {
