@@ -744,6 +744,7 @@
 
                 summaryHTML += `
                     <div class="summary-actions">
+                        <button id="summary-prev-btn" class="nav-btn">Previous</button>
                         <button id="retry-wrong-btn" class="nav-btn">Answer Wrong Questions</button>
                         <button id="restart-btn" class="nav-btn">Restart Chapter</button>
                         <button id="finish-btn" class="nav-btn">Finish</button>
@@ -762,6 +763,15 @@
                 // Add event for Finish button to go to main menu
                 document.getElementById('finish-btn').addEventListener('click', () => {
                     displayMainMenu();
+                });
+                // Add event for Previous button to go back to last question
+                document.getElementById('summary-prev-btn').addEventListener('click', () => {
+                    // Go back to the last question
+                    if (currentQuestions.length > 0) {
+                        currentQuestionIndex = currentQuestions.length - 1;
+                        showQuizView();
+                        displayQuestion();
+                    }
                 });
             }
 
@@ -830,10 +840,18 @@
             function showSummaryView(htmlContent) {
                 mainMenuContainer.classList.add('hidden');
                 quizContainer.classList.add('hidden');
+                // Hide navigation buttons (next/prev) on summary page
                 navigationEl.classList.add('hidden');
                 viewSummaryBtn.classList.add('hidden');
-                
+                // Remove any duplicate finish buttons if present
                 summaryContainer.innerHTML = htmlContent;
+                // Remove any navigation buttons from summary (defensive, in case of accidental duplication)
+                const navBtns = summaryContainer.querySelectorAll('.nav-btn');
+                navBtns.forEach(btn => {
+                    if (btn.id === 'prev-btn' || btn.id === 'next-btn') {
+                        btn.remove();
+                    }
+                });
                 summaryContainer.classList.remove('hidden');
                 backToMenuBtn.classList.remove('hidden');
             }
