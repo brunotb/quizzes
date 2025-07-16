@@ -562,12 +562,20 @@
             
             function startRetryMode() {
                 // Only use questions from the current chapter
+                // Always use the original chapter questions for filtering
+                let chapterQuestions = [];
+                if (currentChapterIndex >= 0 && quizData.chapters[currentChapterIndex]) {
+                    chapterQuestions = quizData.chapters[currentChapterIndex].questions;
+                } else {
+                    // fallback: use currentQuestions (for review mode, etc)
+                    chapterQuestions = currentQuestions;
+                }
                 const incorrectQuestionIds = Object.values(userAnswers)
                     .filter(a => !a.isCorrect)
                     .map(a => a.questionId);
 
-                // Filter from the current chapter's questions only
-                currentQuestions = currentQuestions.filter(q => incorrectQuestionIds.includes(q.id));
+                // Filter from the original chapter's questions only
+                currentQuestions = chapterQuestions.filter(q => incorrectQuestionIds.includes(q.id));
                 currentQuestionIndex = 0;
                 userAnswers = {}; // Reset answers for the retry round
 
