@@ -1,0 +1,529 @@
+{
+  "chapters": [
+    {
+      "title": "3. Academic Integrity",
+      "questions": [
+        {
+          "id": 1,
+          "question": "According to the DFG Standards Framework, which of the following categories primarily addresses the 'what if' scenarios of academic work, such as handling allegations of rule-breaking?",
+          "options": {
+            "A": "Principles",
+            "B": "Research Process",
+            "C": "Non-compliance with Good Research Practice, Procedures",
+            "D": "Professional Ethics"
+          },
+          "answer": "C",
+          "short_explanation": "The 'Non-compliance' section deals with procedures for when things go wrong, like misconduct allegations.",
+          "long_explanation": "The DFG Standards Framework is structured into three parts: 'Principles' (the 'why,' including professional ethics), 'Research Process' (the 'how,' covering daily practices like design and documentation), and 'Non-compliance with Good Research Practice, Procedures' (the 'what if'). This third pillar, which includes Guideline 19, specifically outlines the procedures for handling alleged research misconduct, making it the correct answer for 'what if' scenarios."
+        },
+        {
+          "id": 2,
+          "question": "A student submits a paper with a comprehensive bibliography. However, an examiner notes that several sources listed in the bibliography are not cited anywhere in the main text. This form of misconduct is best described as:",
+          "options": {
+            "A": "Pawn Sacrifice",
+            "B": "Bibliography Balloon",
+            "C": "Bibliography Amnesia",
+            "D": "Clause Splicing"
+          },
+          "answer": "B",
+          "short_explanation": "Bibliography Balloon refers to padding the reference list with sources that were not actually cited in the text.",
+          "long_explanation": "This is a classic example of 'Bibliography Balloon,' where the reference list is artificially inflated to give the impression of more thorough research. It differs from 'Bibliography Amnesia,' which is forgetting to list a cited source, and 'Pawn Sacrifice,' which involves misusing a legitimately cited source to cover for other plagiarism from that same source. 'Clause Splicing' relates to the construction of text, not the bibliography."
+        },
+        {
+          "id": 3,
+          "question": "Under § 22 of the TUM APSO, the use of Generative AI tools in an exam where they are not explicitly permitted is considered academic misconduct primarily because they fall under the category of:",
+          "options": {
+            "A": "Fraud and deceit",
+            "B": "Falsification of data",
+            "C": "Violation of copyright",
+            "D": "Unauthorized materials or resources"
+          },
+          "answer": "D",
+          "short_explanation": "Generative AI is classified as an 'unauthorized resource' unless specifically allowed by the instructor.",
+          "long_explanation": "Slide 6 explicitly links 'Generative AI tools' to the phrase 'unauthorized materials or resources' from § 22 of the TUM APSO. While using AI could be seen as a form of deceit (A), the most precise classification according to the lecture is that it's an unapproved resource. It is not about falsifying data (B) or necessarily violating copyright (C) in this context."
+        },
+        {
+          "id": 4,
+          "question": "Which of the following scenarios best satisfies all conditions for the 'Right to Citation' (Zitatrecht) under §51 UrhG?",
+          "options": {
+            "A": "Quoting a sentence to critique its argument, using quotation marks, and providing a full reference.",
+            "B": "Paraphrasing a paragraph to avoid using quotation marks but still providing a full reference.",
+            "C": "Using a compelling image from a paper as a decorative element on a title slide, with full citation.",
+            "D": "Quoting an entire chapter of a book because it is highly relevant, with full citation."
+          },
+          "answer": "A",
+          "short_explanation": "Zitatrecht requires a clear purpose (like critique), proper identification (quotes), limited scope, and a full reference.",
+          "long_explanation": "Option A meets all key conditions: there is a purpose (critique), identification (quotation marks), and a reference. Option B fails because Zitatrecht applies to direct quotations, not paraphrasing. Option C fails because the purpose cannot be merely decorative. Option D fails the 'as much as necessary but as little as possible' rule; quoting a whole chapter is excessive."
+        },
+        {
+          "id": 5,
+          "question": "What is the relationship between the DFG Code of Conduct and the TUM Statute on Safeguarding Good Academic Practice (TUM-SGwP)?",
+          "options": {
+            "A": "The TUM-SGwP is an older statute that the DFG Code of Conduct replaced.",
+            "B": "TUM adopted its statute to implement the principles of the DFG Code at the university level.",
+            "C": "The two documents are unrelated and govern different types of research activities.",
+            "D": "The DFG Code is a legal law, while the TUM-SGwP is only an ethical guideline."
+          },
+          "answer": "B",
+          "short_explanation": "TUM's statute is the local implementation of the national DFG guidelines.",
+          "long_explanation": "Slide 20 explicitly states that 'TUM adopted a statute for safeguarding good scientific practices corresponding to the Code of Deutsche Forschungsgemeinschaft (DFG).' This shows that the TUM-SGwP is the university's way of operationalizing the national standards set by the DFG. Both are considered binding ethical frameworks within their respective domains."
+        },
+        {
+          "id": 6,
+          "question": "According to DFG Guideline 14 on Authorship, what is the key distinction between a contribution deserving co-authorship versus one that merits an acknowledgement?",
+          "options": {
+            "A": "A genuine, identifiable intellectual contribution to the content.",
+            "B": "The amount of time spent working on the research project.",
+            "C": "Providing the funding or equipment for the research.",
+            "D": "Being the head of the lab or research group where the work was done."
+          },
+          "answer": "A",
+          "short_explanation": "Authorship is for intellectual contributions, while acknowledgements are for technical or financial support.",
+          "long_explanation": "DFG Guideline 14 states, 'An author is an individual who has made a genuine, identifiable contribution to the content.' This intellectual input is the deciding factor. Providing funding or equipment (C), being a lab head without intellectual input (D), or simply spending time on the project (B) are typically grounds for an acknowledgement, not authorship."
+        },
+        {
+          "id": 7,
+          "question": "Under German Copyright Law (§2 UrhG), which of the following would most likely be protected by copyright due to meeting the 'Schöpfungshöhe' (minimum level of creativity) requirement?",
+          "options": {
+            "A": "A raw dataset of temperature readings from a weather station.",
+            "B": "A government-published law on data privacy.",
+            "C": "A uniquely designed chart visualizing a complex dataset.",
+            "D": "A simple, alphabetical table of contents for a book."
+          },
+          "answer": "C",
+          "short_explanation": "A unique visualization requires creative choices and is therefore protected, unlike raw data or official texts.",
+          "long_explanation": "Schöpfungshöhe requires a work to be an intellectual creation. Raw data (A), official works like laws (B), and simple functional lists like a table of contents (D) typically lack the necessary creativity. A uniquely designed chart (C), however, involves creative choices in color, layout, and representation, thus meeting the threshold for copyright protection."
+        },
+        {
+          "id": 8,
+          "question": "According to §16 of the TUM-SGwP, who can report a case of suspected academic misconduct to the Ombudsperson?",
+          "options": {
+            "A": "Only professors and academic staff at TUM.",
+            "B": "Only the person whose work was directly affected by the misconduct.",
+            "C": "Only individuals from outside TUM to ensure impartiality.",
+            "D": "Anyone, including those who are concerned they may be suspected."
+          },
+          "answer": "D",
+          "short_explanation": "Access to the Ombudsperson is open to anyone with a concern, including the potentially accused.",
+          "long_explanation": "Slide 26 states that access is 'Open to anyone reporting suspected academic misconduct' and explicitly 'Includes individuals concerned they may be suspected.' This broad access ensures that all parties have a channel to address issues of scientific integrity in a structured and confidential manner."
+        },
+        {
+          "id": 9,
+          "question": "The principle of working 'lege artis' in the context of Good Scientific Practice means:",
+          "options": {
+            "A": "Strictly following all legal statutes related to research.",
+            "B": "Working according to the established rules and standards of the specific scientific field.",
+            "C": "Prioritizing artistic and creative expression in scientific reporting.",
+            "D": "Documenting only the results that confirm the initial hypothesis."
+          },
+          "answer": "B",
+          "short_explanation": "'Lege artis' means 'according to the rules of the art,' referring to the standards of one's specific discipline.",
+          "long_explanation": "As explained on Slide 8, 'lege artis' translates to 'according to the rules of the art.' In a scientific context, this means adhering to the state-of-the-art methods, standards, and ethical norms recognized within one's particular field of research. It is broader than just legal statutes (A) and is about rigor, not just creativity (C). It explicitly contradicts the idea of selective reporting (D)."
+        },
+        {
+          "id": 10,
+          "question": "A student asks, 'Have I provided enough information for my reader to find the exact source I used?' Which of the 4 Principles of Citing is the student primarily addressing?",
+          "options": {
+            "A": "Retrievability",
+            "B": "Usability",
+            "C": "Authorship",
+            "D": "Consistency"
+          },
+          "answer": "A",
+          "short_explanation": "Retrievability is about ensuring that a reader can locate the original source based on the citation provided.",
+          "long_explanation": "The 4 Principles of Citing each address a different question. 'Can my reader find my sources?' is the core question of Retrievability (Slide 34). Usability asks 'May I cite this source?'. Authorship asks 'Which ideas are mine?'. Consistency asks 'Did I apply my chosen style consistently?'"
+        },
+        {
+          "id": 11,
+          "question": "According to the definition on Slide 24, plagiarism is fundamentally an issue of:",
+          "options": {
+            "A": "Accidentally using the wrong citation style for a source.",
+            "B": "Failing to meet the required word count for an assignment.",
+            "C": "Concealing external sources and misrepresenting authorship.",
+            "D": "Disagreeing with the conclusions of a cited author."
+          },
+          "answer": "C",
+          "short_explanation": "Plagiarism is about deception—concealing where information came from to claim it as your own.",
+          "long_explanation": "Slide 24 emphasizes that plagiarism is not about minor oversights in citation style (A) but about 'concealing external sources.' It defines plagiarism as the 'unauthorized use or claim of authorship.' The core of the offense is misleading the reader about the origin of the work, which is a serious breach of honesty and trust."
+        },
+        {
+          "id": 12,
+          "question": "Under DFG Guideline 19, what distinguishes a simple breach of good scientific practice from actual research misconduct?",
+          "options": {
+            "A": "Whether the breach was discovered by a peer reviewer or an editor.",
+            "B": "The seniority of the researcher who committed the breach.",
+            "C": "The impact of the breach on the final research findings.",
+            "D": "The action being deliberate or grossly negligent, rather than an honest error."
+          },
+          "answer": "D",
+          "short_explanation": "Misconduct requires intent or gross negligence; honest mistakes are not considered misconduct.",
+          "long_explanation": "Slide 19 clarifies this crucial distinction: 'Not all breaches = misconduct → Only deliberate or grossly negligent actions count.' This means that an honest error, made in good faith, is treated differently from an action where the researcher intentionally cheated or was recklessly careless about following the rules. This element of intent or severe negligence is the key factor in classifying an action as misconduct."
+        },
+        {
+          "id": 13,
+          "question": "A researcher publishes a paper in 2023. In 2024, they submit a new paper to a different journal that reuses significant portions of the 2023 paper's introduction and methods section without citing the original paper. This is a form of:",
+          "options": {
+            "A": "Data fabrication",
+            "B": "Self-plagiarism",
+            "C": "Bibliography balloon",
+            "D": "Research fragmentation"
+          },
+          "answer": "B",
+          "short_explanation": "Self-plagiarism is reusing your own previously published work without acknowledgement, presenting it as new.",
+          "long_explanation": "This scenario describes self-plagiarism, which is addressed under 'Original Work' in TUM-SGwP §11 (Slide 22). Academic publishing requires that publications present new and original results. Reusing one's own prior work without proper citation is deceptive because it presents old work as if it were new. While it could be related to fragmentation (D), the core act of reusing one's own text is self-plagiarism."
+        },
+        {
+          "id": 14,
+          "question": "When is it more appropriate to use paraphrasing instead of direct quoting?",
+          "options": {
+            "A": "When the original author's wording is exceptionally poetic or memorable.",
+            "B": "When citing a legal text or a specific technical standard.",
+            "C": "When integrating a source's idea smoothly into the flow of your own writing.",
+            "D": "When you want to use a source's idea without needing to provide a citation."
+          },
+          "answer": "C",
+          "short_explanation": "Paraphrasing is best for integrating ideas into your own narrative flow, while quoting is for preserving specific wording.",
+          "long_explanation": "Slide 39 explains that paraphrasing is useful 'When integrating a source into the flow of your writing.' Direct quoting is better when the exact wording is crucial, such as in legal texts or definitions (B). Option A describes a reason to quote, not paraphrase. Option D is incorrect because paraphrased ideas always require a citation."
+        },
+        {
+          "id": 15,
+          "question": "Which of the following is NOT one of the six fundamental values of academic integrity as presented in the lecture?",
+          "options": {
+            "A": "Innovation",
+            "B": "Courage",
+            "C": "Respect",
+            "D": "Honesty"
+          },
+          "answer": "A",
+          "short_explanation": "Innovation is a goal of research, but not one of the six core ethical values of academic integrity.",
+          "long_explanation": "Slide 4 presents the six fundamental values from the International Center for Academic Integrity: Honesty, Trust, Fairness, Respect, Responsibility, and Courage. While innovation is a highly valued outcome of academic work, it is not considered one of the foundational ethical values that govern the process itself."
+        },
+        {
+          "id": 16,
+          "question": "In the TUM-SGwP investigation process for academic misconduct, what is the primary goal of the 'Initial Review by Ombudsperson'?",
+          "options": {
+            "A": "To immediately apply sanctions to the accused party.",
+            "B": "To publish the allegation to the wider academic community.",
+            "C": "To act as a legal representative for the person making the complaint.",
+            "D": "To focus on a technical resolution and mediate between the parties."
+          },
+          "answer": "D",
+          "short_explanation": "The Ombudsperson's initial role is to seek a technical, discipline-specific resolution before escalating.",
+          "long_explanation": "As shown in the flowchart on Slide 27, the 'Initial Review by Ombudsperson' stage has a 'Focus on technical resolution.' The goal is to see if the issue can be resolved within the academic field (e.g., through clarification, correction, or mediation) before it needs to be escalated to formal legal or statutory bodies. The Ombudsperson is a neutral mediator, not a legal representative (C) or a punisher (A)."
+        },
+        {
+          "id": 17,
+          "question": "A student reads a novel theory in a paper by Dr. Smith. The student then writes their own paper explaining Smith's theory in completely different words and with a different structure, but without ever mentioning Dr. Smith. This is an example of:",
+          "options": {
+            "A": "Complete plagiarism",
+            "B": "Idea plagiarism / obfuscation",
+            "C": "Translation plagiarism",
+            "D": "Pawn sacrifice"
+          },
+          "answer": "B",
+          "short_explanation": "Idea plagiarism is taking someone's core concept or idea, even in your own words, without giving credit.",
+          "long_explanation": "This scenario perfectly fits the definition of 'Idea plagiarism / obfuscation' from Slide 25: 'Presenting another author's ideas in your own words without citing the source.' Even though the words are different, the intellectual property—the theory itself—belongs to Dr. Smith, and failing to credit him is a serious form of plagiarism."
+        },
+        {
+          "id": 18,
+          "question": "The principle of 'Retrievability' in citation requires that every reference must answer four key questions. Which of the following is NOT one of those four questions?",
+          "options": {
+            "A": "Who created the work?",
+            "B": "When was the work published?",
+            "C": "Why was the work created?",
+            "D": "Where can the reader find it?"
+          },
+          "answer": "C",
+          "short_explanation": "Retrievability is about Who, When, What, and Where, not the 'Why' (the author's motivation).",
+          "long_explanation": "Slide 42 explicitly lists the four questions that every source citation must answer to ensure retrievability: Who (author), What (title), When (date), and Where (publication information). The author's motivation or purpose for creating the work ('Why') is not a standard component of a bibliographic reference."
+        },
+        {
+          "id": 19,
+          "question": "According to the German Copyright Act, for how long does copyright protection for a written work typically continue after the author's death?",
+          "options": {
+            "A": "70 years",
+            "B": "50 years",
+            "C": "100 years",
+            "D": "Perpetually, until the heirs release it"
+          },
+          "answer": "A",
+          "short_explanation": "Copyright protection in Germany generally lasts for 70 years after the author's death.",
+          "long_explanation": "Slide 29 clearly states, 'Copyright protection continues up to 70 years after the author's death. Afterwards the work is copyright-free. § 64 German Copyright Act.' This is a standard duration in the European Union, designed to balance the author's rights with the public's interest in having works eventually enter the public domain."
+        },
+        {
+          "id": 20,
+          "question": "Which of the following is most likely to be considered an 'unprotected work' under German Copyright Law?",
+          "options": {
+            "A": "A feature-length film.",
+            "B": "A novel by a contemporary author.",
+            "C": "A photograph with unique artistic composition.",
+            "D": "A list of measured data from an experiment."
+          },
+          "answer": "D",
+          "short_explanation": "Raw data and facts are not considered creative works and are therefore not protected by copyright.",
+          "long_explanation": "Slide 30 lists 'Measured data' and 'Facts' as examples of unprotected works. The law protects the expression of ideas, not the ideas or facts themselves. A film (A), a novel (B), and an artistic photograph (C) all involve significant creative expression and are therefore protected. A raw list of data (D) lacks the 'Schöpfungshöhe' or creative threshold."
+        },
+        {
+          "id": 21,
+          "question": "Under §13 of the TUM-SGwP, academic misconduct is defined as a violation of good scientific practice committed with:",
+          "options": {
+            "A": "Any level of carelessness, including minor oversights.",
+            "B": "Gross negligence, whether intentional or unintentional.",
+            "C": "Only explicit and documented malicious intent.",
+            "D": "A desire to publish in a high-impact journal."
+          },
+          "answer": "B",
+          "short_explanation": "Misconduct requires 'gross negligence,' a higher standard than a simple mistake, and it covers both intentional and unintentional acts.",
+          "long_explanation": "Slide 23 states that a violation becomes misconduct when someone practices 'gross negligence (whether intentional or unintentional).' This is a key legal and ethical distinction. It means that simple, honest mistakes are not misconduct. However, you don't have to prove malicious intent (C); being recklessly careless (grossly negligent) is enough to constitute misconduct."
+        },
+        {
+          "id": 22,
+          "question": "DFG Guideline 7, 'Cross-phase quality assurance,' emphasizes that researchers should carry out each step of the research process 'lege artis.' This implies a commitment to:",
+          "options": {
+            "A": "Ensuring quality and rigor throughout the entire research lifecycle.",
+            "B": "Only using research methods that have been established for over 50 years.",
+            "C": "Focusing quality control exclusively on the final publication stage.",
+            "D": "Delegating all quality assurance tasks to institutional review boards."
+          },
+          "answer": "A",
+          "short_explanation": "Cross-phase quality assurance means applying high standards at every stage, from planning to post-publication.",
+          "long_explanation": "Guideline 7 (Slide 13) is about maintaining quality continuously. The sub-points, such as 'Adhere to Standards and Methods,' 'Ensure Data Integrity,' and 'Enable Reproducibility,' demonstrate that quality assurance is not a single event but an ongoing process that applies to every phase of the research. It is a proactive responsibility of the researcher, not just a final check."
+        },
+        {
+          "id": 23,
+          "question": "A student includes a long quotation from a famous philosopher in their essay simply because it sounds impressive and helps meet the word count. Why does this violate the 'Right to Citation' (Zitatrecht)?",
+          "options": {
+            "A": "The quoted text was not identified with quotation marks.",
+            "B": "The student did not provide a full reference to the source.",
+            "C": "The citation lacks a purpose; it is for ornament, not substantive discussion.",
+            "D": "The philosopher's work is still under copyright protection."
+          },
+          "answer": "C",
+          "short_explanation": "Zitatrecht requires a substantive purpose for the citation; using it for decoration or workload reduction is not permitted.",
+          "long_explanation": "Slide 32 explicitly states, 'Citation for mere illustration, ornament, or workload reduction is not permitted.' The right to citation is granted so that you can engage with the cited work (e.g., critique it, support your argument with it). If there is no such connection and the quote is just 'for show,' the primary condition of purpose is not met, making the citation illegitimate even if it is formatted correctly."
+        },
+        {
+          "id": 24,
+          "question": "The 'Consistency' principle of citing primarily refers to:",
+          "options": {
+            "A": "Consistently citing sources even when they disagree with your hypothesis.",
+            "B": "Consistently checking that all your sources are from peer-reviewed journals.",
+            "C": "Consistently providing the same amount of detail for every reference.",
+            "D": "Consistently applying a single, uniform citation style throughout a document."
+          },
+          "answer": "D",
+          "short_explanation": "Consistency means picking one citation style (e.g., APA, IEEE) and using it uniformly for all references.",
+          "long_explanation": "Principle 4, Consistency (Slide 43), is about 'Uniform citation style consistency.' It means that if you start with the APA 7 style, for example, every in-text citation and every entry in your reference list must conform to the rules of APA 7. Mixing styles or applying one style inconsistently creates confusion and appears unprofessional. Reference Management Software is the recommended tool to ensure this."
+        },
+        {
+          "id": 25,
+          "question": "According to the principles of co-authorship in TUM-SGwP §11, what is the responsibility of a co-author?",
+          "options": {
+            "A": "They are only responsible for the specific section they wrote.",
+            "B": "They share responsibility for the accuracy and integrity of the entire publication.",
+            "C": "Their responsibility is limited to proofreading the final manuscript for errors.",
+            "D": "They have no responsibility once they have given their consent for publication."
+          },
+          "answer": "B",
+          "short_explanation": "Co-authors have shared responsibility for the entire work, not just their individual parts.",
+          "long_explanation": "Slide 22, under 'Co-author Responsibilities,' states that authors have 'Shared responsibility for accuracy and compliance with academic standards.' This collective responsibility is a cornerstone of collaborative research. It means that all authors are accountable for the validity of the entire work, which encourages thorough vetting and discussion among the research team before publication."
+        },
+        {
+          "id": 26,
+          "question": "A student creates a paragraph by taking one sentence from Source A, another from Source B, and a third from Source C, weaving them together without any citations. This form of plagiarism is known as:",
+          "options": {
+            "A": "Clause splicing / Shake & paste plagiarism",
+            "B": "Complete plagiarism",
+            "C": "Pawn sacrifice",
+            "D": "Idea plagiarism"
+          },
+          "answer": "A",
+          "short_explanation": "'Clause splicing' or 'Shake & paste' involves combining fragments from different texts to form a new, un-cited text.",
+          "long_explanation": "This scenario is the exact definition of 'Clause splicing / Shake & paste plagiarism' provided on Slide 25: 'Combining fragments of different texts or sentences to form a new text without citation.' It is a mosaic of stolen parts presented as an original whole. It differs from complete plagiarism, which usually involves a large block from a single source."
+        },
+        {
+          "id": 27,
+          "question": "DFG Guideline 9 on 'Research design' requires researchers to 'familiarise themselves with existing research in the public domain.' What is the primary purpose of this requirement?",
+          "options": {
+            "A": "To ensure that the new research project is inexpensive to conduct.",
+            "B": "To copy the methods of the most successful papers in the field.",
+            "C": "To identify relevant research questions and avoid duplicating existing work.",
+            "D": "To find collaborators for the new research project."
+          },
+          "answer": "C",
+          "short_explanation": "Reviewing existing research is crucial for identifying knowledge gaps and ensuring your work is original and relevant.",
+          "long_explanation": "According to Slide 14, the purpose of reviewing existing research is 'To identify relevant and suitable research questions.' This literature review process is fundamental to good research design. It ensures that a researcher's work is novel, addresses a genuine gap in knowledge, and builds upon the existing scholarly conversation rather than simply repeating what has already been done."
+        },
+        {
+          "id": 28,
+          "question": "According to TUM-SGwP §13, which of the following actions constitutes academic misconduct?",
+          "options": {
+            "A": "Failing to replicate the results of a famous experiment.",
+            "B": "Publishing results that contradict a widely accepted theory.",
+            "C": "Having a private disagreement with a colleague over data interpretation.",
+            "D": "Being aware of data falsification in a colleague's work and not taking any counter-measures."
+          },
+          "answer": "D",
+          "short_explanation": "Complicity, or knowing about misconduct and doing nothing, is itself a form of academic misconduct.",
+          "long_explanation": "Slide 23 lists several forms of academic misconduct. One of them is being 'aware of falsifications and does not take any counter-measures.' This highlights the shared responsibility within the academic community to uphold standards. Simply looking the other way when misconduct occurs is a breach of good scientific practice. Options A and B are normal parts of the scientific process, and C is a private disagreement, not misconduct."
+        },
+        {
+          "id": 29,
+          "question": "The citation principle of 'Usability' primarily encourages a researcher to consider:",
+          "options": {
+            "A": "The credibility of the source and whether it is appropriate to cite.",
+            "B": "The ease with which the source can be found online by a reader.",
+            "C": "The number of times the source has already been cited by other authors.",
+            "D": "The formatting of the citation according to a specific style guide."
+          },
+          "answer": "A",
+          "short_explanation": "Usability is about the quality and appropriateness of a source, asking 'May I cite this source?'",
+          "long_explanation": "As outlined on Slide 34, the principle of Usability poses the question, 'May I cite this source?' This involves evaluating the source's quality (e.g., is it a peer-reviewed article or a random website?) and your right to use it (as covered in the checklist on Slide 37). While findability (B) relates to Retrievability and formatting (D) relates to Consistency, Usability is the initial gatekeeper focused on source quality and appropriateness."
+        },
+        {
+          "id": 30,
+          "question": "A student finds a quote in German and translates it into English for their paper. To make it fit their sentence structure better, they slightly alter the meaning of the translated phrase. Why is this a violation of the 'Right to Citation' (Zitatrecht)?",
+          "options": {
+            "A": "Because translation of a text always requires explicit permission from the author.",
+            "B": "Because a quotation may not be altered, and this applies to its meaning in translation.",
+            "C": "Because only quotes in their original language can be used under Zitatrecht.",
+            "D": "Because the student did not use a certified translator for the quotation."
+          },
+          "answer": "B",
+          "short_explanation": "A core rule of Zitatrecht is that a quotation may not be altered, which includes altering its meaning during translation.",
+          "long_explanation": "Slide 32 states clearly, 'A quotation may not be altered.' This principle of integrity applies not just to the exact words but also to the meaning. When translating, the goal must be to preserve the original meaning as faithfully as possible. Altering the meaning to fit a narrative is a form of misrepresentation and violates the conditions of Zitatrecht. While translation plagiarism exists, the specific violation here is the alteration of the quote's content."
+        },
+        {
+          "id": 31,
+          "question": "A researcher translates a paragraph from a Japanese paper into English and includes it in their own work without citing the original Japanese source. This specific form of plagiarism is called:",
+          "options": {
+            "A": "Clause splicing",
+            "B": "Idea plagiarism",
+            "C": "Translation plagiarism",
+            "D": "Complete plagiarism"
+          },
+          "answer": "C",
+          "short_explanation": "Translation plagiarism is specifically defined as translating from another language without citing the source.",
+          "long_explanation": "Slide 25 explicitly defines 'Translation plagiarism' as 'Translating an original text from another language without citing the source.' It is a distinct form of misconduct because it conceals the origin of the work by crossing a language barrier, making it harder to detect but no less a violation of intellectual property rights."
+        },
+        {
+          "id": 32,
+          "question": "DFG Guideline 12 on 'Documentation' states that researchers should also document individual results that do not support the research hypothesis. What is the primary ethical reason for this?",
+          "options": {
+            "A": "To provide a complete, unbiased record and prevent the manipulative selection of results.",
+            "B": "To increase the final word count of the research paper and associated documentation.",
+            "C": "To prove that the researcher conducted more experiments than were strictly necessary.",
+            "D": "To have extra data available in case the primary results are found to be flawed."
+          },
+          "answer": "A",
+          "short_explanation": "Documenting all results, including negative ones, prevents 'cherry-picking' and ensures an honest representation of the research.",
+          "long_explanation": "Slide 16 emphasizes that 'The selection of results must be avoided.' Documenting all findings, including those that contradict the hypothesis, is a cornerstone of scientific honesty. It prevents a biased or misleading narrative and allows other researchers to see the full picture of the experimental outcomes. This practice is crucial for the verifiability and integrity of the scientific record."
+        },
+        {
+          "id": 33,
+          "question": "Which scenario describes an honest error rather than academic misconduct?",
+          "options": {
+            "A": "Inventing data points to make a statistical analysis look more significant.",
+            "B": "Knowingly submitting a paper with a falsified chart to a conference.",
+            "C": "Hiring someone to write an essay and submitting it as one's own work.",
+            "D": "Misinterpreting a complex statistical result due to a genuine lack of understanding."
+          },
+          "answer": "D",
+          "short_explanation": "An honest error stems from a genuine mistake or misunderstanding, whereas misconduct involves deliberation or gross negligence.",
+          "long_explanation": "Academic misconduct, as defined by the DFG and TUM-SGwP, requires intent or gross negligence. Inventing data (A), knowingly submitting falsified work (B), and contract cheating (C) are all deliberate acts of deception. In contrast, misinterpreting a result due to a genuine, non-negligent lack of understanding (D) is an honest error. While it needs to be corrected, it does not carry the same ethical weight as deliberate misconduct."
+        },
+        {
+          "id": 34,
+          "question": "According to the lecture, the core reason academic integrity is a 'core underpinning of the scholarly community' is because it fosters:",
+          "options": {
+            "A": "Competition among researchers.",
+            "B": "Trust in the reliability of research.",
+            "C": "A faster pace of publication.",
+            "D": "Uniformity in research topics."
+          },
+          "answer": "B",
+          "short_explanation": "Integrity builds trust, which is the foundation that allows researchers to build upon each other's work.",
+          "long_explanation": "As stated on Slide 3, academic integrity is a 'core underpinning' because science is a cumulative enterprise. Researchers must be able to trust the findings and claims of others to make further progress. Without this trust, the entire system of scholarly communication and knowledge building would collapse. Integrity ensures the reliability that makes this trust possible."
+        },
+        {
+          "id": 35,
+          "question": "DFG Guideline 13 on 'Providing public access to research results' encourages making research data and materials available according to the FAIR Principles. What does 'FAIR' stand for?",
+          "options": {
+            "A": "Factual, Accurate, Independent, Reviewed.",
+            "B": "Frequent, Archived, Indexed, Replicated.",
+            "C": "Findable, Accessible, Interoperable, Reusable.",
+            "D": "Formal, Approved, Institutional, Recorded."
+          },
+          "answer": "C",
+          "short_explanation": "The FAIR Principles are a set of guidelines for making data Findable, Accessible, Interoperable, and Reusable.",
+          "long_explanation": "Slide 17 mentions the use of repositories and FAIR Principles. While the acronym isn't spelled out on the slide, it is a central concept in modern good scientific practice related to data sharing. The FAIR Principles are a well-established set of guiding principles to improve the reusability of research data, and knowing them demonstrates a deeper understanding of the push for open science."
+        },
+        {
+          "id": 36,
+          "question": "What is required for a report of suspected academic misconduct to be formally handled by the TUM Ombudsperson?",
+          "options": {
+            "A": "The report must be submitted in writing.",
+            "B": "The report must be submitted anonymously.",
+            "C": "The report must be accompanied by a legal affidavit.",
+            "D": "The report must first be approved by the department head."
+          },
+          "answer": "A",
+          "short_explanation": "Reports to the Ombudsperson must be in writing; verbal reports will be transcribed into a written note.",
+          "long_explanation": "Slide 26 clearly states, 'Reports must be submitted in writing.' It also clarifies that if a report is made verbally, the 'Ombudsperson must create a written note of complaint and evidence.' This requirement for a written record ensures that the process is formal, documented, and clear from the outset. Anonymity is not a requirement, nor are legal affidavits or prior approvals."
+        },
+        {
+          "id": 37,
+          "question": "A student's paper states, 'The boiling point of water at sea level is 100°C.' Why is a citation generally not required for this statement?",
+          "options": {
+            "A": "Because scientific facts are always in the public domain.",
+            "B": "Because this is considered common knowledge within the field.",
+            "C": "Because the student conducted the experiment themselves to verify it.",
+            "D": "Because sentences under 10 words do not require citation."
+          },
+          "answer": "B",
+          "short_explanation": "Common knowledge—facts that are widely known and undisputed in a field—does not require citation.",
+          "long_explanation": "While facts themselves are unprotected works (Slide 30), the reason for not citing this specific statement is that it is 'common knowledge.' It is a fact that an educated reader is expected to know, and it can be found in countless general sources. In contrast, a specific, non-obvious fact from a particular study (e.g., 'the boiling point of this specific saline solution was 102.4°C') would require a citation to that study."
+        },
+        {
+          "id": 38,
+          "question": "What is the direct consequence stipulated in § 22 of the TUM APSO for a student found to have used unauthorized materials in an examination?",
+          "options": {
+            "A": "A formal warning from the examination board.",
+            "B": "A requirement to retake the course in the following semester.",
+            "C": "A temporary suspension from the university.",
+            "D": "The examination will be graded as 'Fail'."
+          },
+          "answer": "D",
+          "short_explanation": "TUM APSO §22 explicitly states that the consequence for cheating is the examination being graded as 'Fail'.",
+          "long_explanation": "Slide 5 directly quotes the regulation: 'If a student attempts to alter the results of an examination by fraud, deceit, etc. or the use of unauthorized materials or resources, the examination will be graded “Fail”.' While other consequences like suspension (C) might be possible in severe or repeated cases under different regulations, the immediate and stipulated outcome for the exam itself is failure."
+        },
+        {
+          "id": 39,
+          "question": "A researcher conducts a single, comprehensive study but writes three separate, smaller articles from it, each focusing on a minor aspect of the results, to increase their publication count. This practice is known as:",
+          "options": {
+            "A": "Self-plagiarism",
+            "B": "Data fabrication",
+            "C": "Fragmentation",
+            "D": "Idea plagiarism"
+          },
+          "answer": "C",
+          "short_explanation": "Fragmentation, or 'salami-slicing,' is the unethical practice of splitting one study into multiple small publications.",
+          "long_explanation": "Slide 22, under TUM-SGwP §11, lists 'Avoid Fragmentation' as a key principle of scientific publication. It states, 'Do not split investigations to create multiple publications.' This practice is considered unethical because it clutters the scientific literature with minimally incremental papers and can obscure the overall findings of the original, comprehensive study."
+        },
+        {
+          "id": 40,
+          "question": "Standing up for academic integrity by questioning a senior researcher's questionable data, even when it is socially or professionally difficult, best exemplifies which fundamental value?",
+          "options": {
+            "A": "Courage",
+            "B": "Fairness",
+            "C": "Respect",
+            "D": "Responsibility"
+          },
+          "answer": "A",
+          "short_explanation": "Courage is the value of acting on one's principles even in the face of pressure or potential negative consequences.",
+          "long_explanation": "The six fundamental values are listed on Slide 4. While this action also involves responsibility (D) and fairness (B), the core value being demonstrated is Courage. Courage is defined as the willingness to stand up for and act upon these values, especially when there is pressure to do otherwise, such as challenging a superior. It is the value that gives the other values strength in difficult situations."
+        }
+      ]
+    }
+  ]
+}

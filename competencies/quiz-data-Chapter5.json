@@ -1,0 +1,529 @@
+{
+  "chapters": [
+    {
+      "title": "5. Design Thinking",
+      "questions": [
+        {
+          "id": 1,
+          "question": "According to the principles of Design Thinking, a team develops a revolutionary AI product that is technically sound and financially sustainable, but fails in the market because users find it confusing and unnecessary. Which core pillar was most neglected?",
+          "options": {
+            "A": "Feasibility",
+            "B": "Viability",
+            "C": "Desirability",
+            "D": "Integrability"
+          },
+          "answer": "C",
+          "short_explanation": "Desirability is about whether people actually want or need the product; this was the key failure.",
+          "long_explanation": "The three pillars of Design Thinking are Desirability (human need), Feasibility (technical possibility), and Viability (economic sustainability). The product was feasible and viable, but it failed the desirability test. Design Thinking emphasizes starting with the human need (Desirability) before investing heavily in the other two areas."
+        },
+        {
+          "id": 2,
+          "question": "The Double Diamond model is structured around alternating phases of divergent and convergent thinking. What is the primary goal of the very first phase, 'Discover'?",
+          "options": {
+            "A": "To narrow down the problem to a single, manageable statement.",
+            "B": "To brainstorm a wide range of potential solutions for the problem.",
+            "C": "To build and test initial prototypes with a core user group.",
+            "D": "To explore the problem space broadly without premature judgment."
+          },
+          "answer": "D",
+          "short_explanation": "The 'Discover' phase is divergent, meaning its purpose is to explore and gather insights about the problem space widely.",
+          "long_explanation": "The 'Discover' phase is the first divergent stage, focused on understanding the problem space, not defining it. Its goal is to gather as much information and as many perspectives as possible through research and observation. Narrowing down the problem happens in the next convergent phase, 'Define'. Brainstorming solutions occurs in the second diamond ('Develop')."
+        },
+        {
+          "id": 3,
+          "question": "Rittel and Webber's concept of 'wicked problems' critiques linear design models. Which of the following is a key characteristic of a wicked problem?",
+          "options": {
+            "A": "It has a clear stopping point once the optimal solution is found.",
+            "B": "Solutions can be definitively proven as true or false through testing.",
+            "C": "The problem is unique and can be a symptom of a larger issue.",
+            "D": "It has a limited and enumerable set of potential solutions."
+          },
+          "answer": "C",
+          "short_explanation": "Wicked problems are unique, complex, and often symptoms of deeper, interconnected problems.",
+          "long_explanation": "According to the ten properties of wicked problems, they have no definitive formulation, no stopping rule, and solutions are 'good or bad' not 'true or false'. They are also essentially unique, and every wicked problem can be considered a symptom of another problem. The other options describe characteristics of 'tame' or simple problems."
+        },
+        {
+          "id": 4,
+          "question": "How does John Dewey's pragmatic approach to science and technology inform the foundations of Design Thinking?",
+          "options": {
+            "A": "By prioritizing pure scientific research over practical application.",
+            "B": "By defining technology as the 'art of experimental thinking'.",
+            "C": "By establishing a strict hierarchy with Science primary and Art secondary.",
+            "D": "By separating the arts of production from the process of science."
+          },
+          "answer": "B",
+          "short_explanation": "Dewey saw technology not as hardware, but as the process of experimental thinking, which is central to Design Thinking.",
+          "long_explanation": "Dewey's pragmatism shifted the focus from a neo-positivist view (Science first) to a more integrated perspective where technology is the art of experimental thinking (Science as Art → Technology). This aligns with Design Thinking's emphasis on prototyping, testing, and learning through doing, rather than relying solely on abstract theory."
+        },
+        {
+          "id": 5,
+          "question": "In the Stanford d.school's 5-stage model, what is the primary purpose of the 'Prototype' stage?",
+          "options": {
+            "A": "To create a fully functional, market-ready version of the solution.",
+            "B": "To learn quickly and inexpensively by making ideas tangible.",
+            "C": "To finalize the visual design and branding of the product.",
+            "D": "To document all user requirements before development begins."
+          },
+          "answer": "B",
+          "short_explanation": "Prototyping is about building to think and learning fast; it's not about creating a finished product.",
+          "long_explanation": "The 'Prototype' stage is about creating low-fidelity, inexpensive representations of ideas (e.g., sketches, mockups) to test assumptions and gather user feedback. The goal is to learn and iterate, not to build a polished, final product. This 'fail fast, fail cheap' mentality is core to the non-linear, iterative nature of the process."
+        },
+        {
+          "id": 6,
+          "question": "The success of the Khushi Baby necklace, which was designed to be culturally acceptable and work offline in rural India, is a strong testament to the importance of which Design Thinking stage?",
+          "options": {
+            "A": "Ideate",
+            "B": "Empathize",
+            "C": "Prototype",
+            "D": "Test"
+          },
+          "answer": "B",
+          "short_explanation": "The solution's success came from deeply understanding the users' cultural context and practical needs, which is the goal of the Empathize stage.",
+          "long_explanation": "While all stages were important, the core innovation of Khushi Baby came from the deep empathy the team developed for the caregivers and health workers. Understanding their cultural customs (the black thread necklace), their environment (lack of connectivity), and their needs led directly to a solution that was not just functional but also desirable and appropriate."
+        },
+        {
+          "id": 7,
+          "question": "What is the most accurate distinction between the primary focus of Design Thinking and Agile methodology?",
+          "options": {
+            "A": "Design Thinking is for physical products, while Agile is for software.",
+            "B": "Design Thinking is collaborative, while Agile is an individual process.",
+            "C": "Design Thinking is linear, while Agile is iterative and cyclical.",
+            "D": "Design Thinking explores the problem; Agile executes the solution."
+          },
+          "answer": "D",
+          "short_explanation": "Design Thinking is about 'finding the right problem,' whereas Agile is about 'building the solution right.'",
+          "long_explanation": "This is a key distinction. Design Thinking is used in the 'fuzzy front end' of a project to explore, define, and validate the problem and a potential solution concept. Agile is a development methodology used after a solution is defined to build, deliver, and iterate on it efficiently. They are complementary, not competing, processes."
+        },
+        {
+          "id": 8,
+          "question": "Richard Buchanan's 'Four Orders of Design' provides a framework for 'placements'. If a designer is working on improving a company's entire customer onboarding journey, from initial signup to first use, they are primarily operating in which order?",
+          "options": {
+            "A": "Symbols (Communication)",
+            "B": "Objects (Construction)",
+            "C": "Interactions (Action)",
+            "D": "Systems (Thought)"
+          },
+          "answer": "C",
+          "short_explanation": "Designing a process or a service journey falls under the third order: Interactions and Actions.",
+          "long_explanation": "Buchanan's four orders are Symbols (e.g., logos), Objects (e.g., a product), Interactions (e.g., user experience, services), and Systems (e.g., organizational structure). A customer onboarding journey is a sequence of actions and services, placing it squarely in the third order of Interactions."
+        },
+        {
+          "id": 9,
+          "question": "The 'truck stuck under a bridge' puzzle is used to illustrate a core skill in Design Thinking. What is this skill?",
+          "options": {
+            "A": "Root-cause analysis",
+            "B": "Stakeholder mapping",
+            "C": "Reframing the problem",
+            "D": "Prototyping solutions"
+          },
+          "answer": "C",
+          "short_explanation": "The elegant solution (letting air out of the tires) comes from reframing the problem from 'truck is too tall' to 'truck is too high off the ground'.",
+          "long_explanation": "The puzzle highlights the power of reframing. Instead of accepting the initial problem definition ('the truck is too tall for the bridge'), a designer challenges assumptions. By reframing it as a relationship between the truck, its tires, and the road, a simple, non-obvious solution appears. This is a fundamental skill for innovation."
+        },
+        {
+          "id": 10,
+          "question": "According to the lecture, the concept of design has evolved. This evolution is best described as a shift from:",
+          "options": {
+            "A": "A focus on aesthetics to a focus on pure function.",
+            "B": "An individual craft to a collaborative scientific process.",
+            "C": "A specialized trade activity to an integrative discipline.",
+            "D": "An intuitive art form to a data-driven engineering practice."
+          },
+          "answer": "C",
+          "short_explanation": "Design has grown from a specific trade to a broad, integrative discipline that complements arts and sciences.",
+          "long_explanation": "Slide 3 explicitly traces the evolution of design from a 'trade activity' to a 'segmented profession' and finally to a 'new liberal art' and an 'integrative discipline'. This shift is a response to the need to solve complex problems by breaking down knowledge silos, which is the core premise of modern Design Thinking."
+        },
+        {
+          "id": 11,
+          "question": "The failure of Amazon's AI hiring tool was not just a technical glitch. A Design Thinking perspective reveals it was primarily a failure to:",
+          "options": {
+            "A": "Use a sufficiently large training dataset for the algorithm.",
+            "B": "Recognize the problem as a socio-technical issue with historical biases.",
+            "C": "Implement the latest machine learning models for text analysis.",
+            "D": "Automate the entire hiring pipeline to remove human error."
+          },
+          "answer": "B",
+          "short_explanation": "The core failure was viewing the problem as purely technical, ignoring the embedded social and historical biases.",
+          "long_explanation": "The case study on slides 30-33 emphasizes that viewing the problem as a simple technical challenge ('speeding up resume screening') was the initial mistake. A deeper reflection, characteristic of Design Thinking, revealed it as a socio-technical issue rooted in historical biases. The AI didn't create bias; it replicated and amplified existing societal bias present in the data."
+        },
+        {
+          "id": 12,
+          "question": "In the detailed Double Diamond diagram (slide 23), which of the following methods is listed as a 'convergent' activity used in the 'Define' phase?",
+          "options": {
+            "A": "Brainstorming",
+            "B": "Root-cause analysis",
+            "C": "Field research (interviews)",
+            "D": "Rapid prototyping"
+          },
+          "answer": "B",
+          "short_explanation": "Root-cause analysis is a convergent activity used to narrow down and define the core problem.",
+          "long_explanation": "The 'Define' phase is about convergence—making sense of the data gathered in 'Discover' and narrowing it down to a clear problem statement. Root-cause analysis (like the 5 Whys) is a classic convergent technique for digging deeper to find the fundamental issue. Brainstorming, field research, and prototyping are all divergent activities associated with other phases."
+        },
+        {
+          "id": 13,
+          "question": "Don Norman's 'Coffeepot for Masochists' is a classic example of poor design because it lacks discoverability and understanding. What does 'discoverability' mean in this context?",
+          "options": {
+            "A": "The user's ability to find the product for sale in a store.",
+            "B": "The possibility of figuring out what actions are possible with the object.",
+            "C": "The ease with which the object's materials can be identified.",
+            "D": "The product's potential to reveal new, unintended uses over time."
+          },
+          "answer": "B",
+          "short_explanation": "Discoverability is about whether it's obvious what you can do with an object just by looking at it.",
+          "long_explanation": "In Norman's principles, discoverability refers to the user's ability to perceive the possible actions an object affords. For a door, a handle suggests pulling; for a button, its shape suggests pushing. The masochistic coffeepot fails this, as the handle is on the same side as the spout, making its intended action (pouring) unclear and dangerous."
+        },
+        {
+          "id": 14,
+          "question": "The 'Pluralism in design thinking' slide (slide 12) presents it as having multiple facets. Viewing Design Thinking as a 'Discipline & Practice of an Art of Asking and Answering Questions' aligns with which facet?",
+          "options": {
+            "A": "Spirit or Culture",
+            "B": "Imaginative Act",
+            "C": "Cognitive Processes in the Brain",
+            "D": "Creative Inquiry"
+          },
+          "answer": "D",
+          "short_explanation": "Creative Inquiry is the facet that describes Design Thinking as a structured process of asking and answering questions.",
+          "long_explanation": "The slide maps out four facets. 'Spirit or Culture' is about the organization-wide mindset. 'Imaginative Act' is about seeing new possibilities. 'Cognitive Processes' are the mental mechanics. 'Creative Inquiry' specifically frames Design Thinking as a systematic, disciplined art of investigation through questioning, which perfectly matches the description."
+        },
+        {
+          "id": 15,
+          "question": "Why is it crucial that the Stanford d.school's 5-stage process is understood as 'non-linear'?",
+          "options": {
+            "A": "Because some stages can be skipped to save time and resources.",
+            "B": "To allow teams to flexibly revisit stages as new insights emerge.",
+            "C": "Because the stages have no logical connection to one another.",
+            "D": "To ensure that the final solution is radically different from the initial idea."
+          },
+          "answer": "B",
+          "short_explanation": "Non-linearity allows for iteration; for example, a test can lead back to redefining the problem.",
+          "long_explanation": "The non-linear nature is the key to iteration and learning. A finding during the 'Test' phase might reveal a fundamental misunderstanding of the user's need, forcing the team to go back to the 'Empathize' or 'Define' stage. It's a responsive cycle, not a rigid waterfall process where you can't go back."
+        },
+        {
+          "id": 16,
+          "question": "The 'Terms of Service; Didn't Read' project exemplifies legal design thinking by primarily addressing what user-centered problem?",
+          "options": {
+            "A": "The lack of legal recourse for users who agree to unfair terms.",
+            "B": "The technical difficulty of storing large terms of service documents.",
+            "C": "The use of overly simplistic language in legal agreements.",
+            "D": "Information overload and a deliberate lack of transparency."
+          },
+          "answer": "D",
+          "short_explanation": "The project uses design to make complex, opaque legal documents understandable at a glance, tackling information overload.",
+          "long_explanation": "Standard Terms of Service are a classic design failure. They are intentionally long, dense, and full of jargon, which causes information overload and prevents meaningful consent. The ToS;DR project applies design principles (visual hierarchy, summaries, grades) to make this information transparent and digestible for the user."
+        },
+        {
+          "id": 17,
+          "question": "A city government implements a policy to reduce traffic congestion. A year later, they find it has inadvertently increased air pollution in low-income neighborhoods. This outcome illustrates which property of wicked problems?",
+          "options": {
+            "A": "Every solution to a wicked problem is a 'one-shot operation'.",
+            "B": "Wicked problems have no stopping rule.",
+            "C": "Solutions to wicked problems are not true-or-false.",
+            "D": "Every wicked problem can be considered a symptom of another problem."
+          },
+          "answer": "A",
+          "short_explanation": "This reflects the 'one-shot operation' property, where every attempt has significant, often unforeseen, consequences.",
+          "long_explanation": "This scenario perfectly illustrates the 'one-shot operation' property (every attempt counts significantly). Unlike in a lab, you can't test a social policy without real-world consequences. The implementation itself creates new conditions and problems. While it's also related to being a symptom of another problem, the direct cause-and-effect of the intervention highlights the high stakes of each attempt."
+        },
+        {
+          "id": 18,
+          "question": "In Buchanan's framework, what is the primary distinction between the third order (Interactions) and the fourth order (Systems)?",
+          "options": {
+            "A": "Interactions are about services, while Systems are about physical products.",
+            "B": "Interactions involve a single user, while Systems involve multiple users.",
+            "C": "Interactions focus on a process, while Systems focus on the environment or organization.",
+            "D": "Interactions are designed by UX designers, while Systems are designed by engineers."
+          },
+          "answer": "C",
+          "short_explanation": "Interactions are about processes and services; Systems are about the larger context like organizations or ideologies.",
+          "long_explanation": "The third order, Interactions, deals with designing flows, services, and user experiences (the 'how'). The fourth order, Systems, is a step higher in abstraction. It deals with designing the underlying environment, organization, or ideology that shapes those interactions (the 'why' and 'where'). For example, designing a hospital's check-in process is third-order; designing the hospital's entire culture of patient care is fourth-order."
+        },
+        {
+          "id": 19,
+          "question": "The 'Idea Curve' presented by Dev Patnaik suggests that to reach 'brilliant' ideas, teams must often...",
+          "options": {
+            "A": "Focus only on the most logical and feasible ideas from the start.",
+            "B": "Avoid the 'boring' phase by immediately jumping to radical concepts.",
+            "C": "Endure phases of 'boring' and 'absurd' ideas to break past the obvious.",
+            "D": "Quantitatively score all ideas and pursue the highest-rated one."
+          },
+          "answer": "C",
+          "short_explanation": "The curve shows that innovation requires pushing through mediocre and even bad ideas to get to the truly brilliant ones.",
+          "long_explanation": "The 'Idea Curve' illustrates the non-linear nature of creativity. It argues against the tendency to converge too early ('the tough get stupid'). To achieve breakthrough innovation, teams must engage in divergent thinking long enough to explore ideas that may initially seem boring or absurd, as these often serve as stepping stones to brilliant insights."
+        },
+        {
+          "id": 20,
+          "question": "When comparing Design Thinking and Agile, which statement is most accurate regarding their documentation practices?",
+          "options": {
+            "A": "Both rely heavily on extensive, formal documentation at every stage.",
+            "B": "Design Thinking is typically less formal, while Agile requires structured documentation.",
+            "C": "Agile has minimal documentation, while Design Thinking produces detailed specifications.",
+            "D": "Documentation in both methodologies is primarily visual and rarely includes text."
+          },
+          "answer": "B",
+          "short_explanation": "Design Thinking is a fluid, less formal process, while Agile, especially in software, has more structured documentation.",
+          "long_explanation": "Slide 27, 'Differences between Design Thinking and Agile', explicitly states that Design Thinking involves a 'Fluid process, less formal and relatively lesser documentation'. In contrast, Agile is described as a 'Structured and formal process with extensive documentation' (e.g., user stories, backlogs, sprint plans). This reflects their different purposes: exploration vs. execution."
+        },
+        {
+          "id": 21,
+          "question": "What is the key difference between a 'category' and a 'placement' in the context of design methodology?",
+          "options": {
+            "A": "A category is for products, while a placement is for services.",
+            "B": "A category is a fixed label, while a placement is a flexible context for thinking.",
+            "C": "A category is used in science, while a placement is used exclusively in art.",
+            "D": "A category is concrete, while a placement is entirely abstract and theoretical."
+          },
+          "answer": "B",
+          "short_explanation": "Categories are rigid boxes; placements are flexible lenses that allow for innovation and reframing.",
+          "long_explanation": "Slide 11 contrasts these two terms. Categories have 'fixed meanings and boundaries' and are associated with a linear view of design professions. Placements, however, have 'flexible boundaries' and provide a 'context for thinking', allowing for novel approaches and innovation. The lecture emphasizes that in modern design, placements are primary and categories are secondary."
+        },
+        {
+          "id": 22,
+          "question": "The expanded Double Diamond model on slide 24 includes 'Engagement' and 'Leadership' surrounding the core process. What does this imply?",
+          "options": {
+            "A": "Design Thinking can only be practiced by leaders and managers.",
+            "B": "The process is only effective if it engages external consultants.",
+            "C": "Successful innovation requires support from the broader organizational culture.",
+            "D": "Engagement and leadership are the final outputs of the design process."
+          },
+          "answer": "C",
+          "short_explanation": "This model shows that the design process doesn't happen in a vacuum; it needs a supportive culture and leadership.",
+          "long_explanation": "By placing Engagement (connecting with stakeholders) and Leadership (creating the right conditions) around the Double Diamond, the model illustrates that the process itself is not enough. For Design Thinking to thrive and lead to real innovation, it must be embedded in a supportive organizational context that values collaboration, experimentation, and culture change."
+        },
+        {
+          "id": 23,
+          "question": "In the 4P framework (Problem, People, Possibilities, Product), which 'P' is most concerned with deeply understanding the user's needs, motivations, and context?",
+          "options": {
+            "A": "Problem",
+            "B": "People",
+            "C": "Possibilities",
+            "D": "Product"
+          },
+          "answer": "B",
+          "short_explanation": "The 'People' component focuses on the target audience, stakeholders, and their desires.",
+          "long_explanation": "While 'Problem' defines the issue, 'People' is where the human-centered aspect truly comes in. This phase involves identifying the target audience (TA), understanding who is affected, and discovering what they are looking for. This aligns directly with the 'Empathize' stage of other frameworks."
+        },
+        {
+          "id": 24,
+          "question": "The AIGA's 'Head, Heart, and Hand' framework describes a holistic approach to design. A designer who creates a technically perfect and logical solution that fails to connect with users emotionally is lacking in which area?",
+          "options": {
+            "A": "Head",
+            "B": "Heart",
+            "C": "Hand",
+            "D": "Holism"
+          },
+          "answer": "B",
+          "short_explanation": "The 'Heart' represents the emotional and empathetic aspect of the creative process.",
+          "long_explanation": "The framework breaks down the process into: Head (intellectual/strategic), Heart (emotional/empathetic), and Hand (practical/execution). A logical but emotionally sterile solution demonstrates strong 'Head' and 'Hand' but is deficient in 'Heart', the element that builds a connection with the user."
+        },
+        {
+          "id": 25,
+          "question": "Which of the following is NOT one of the ten properties of wicked problems as described by Rittel and Webber?",
+          "options": {
+            "A": "Every wicked problem is essentially unique.",
+            "B": "Solutions can only be good-or-bad, not true-or-false.",
+            "C": "There is no immediate test of a solution.",
+            "D": "They can be solved by breaking them into smaller, independent parts."
+          },
+          "answer": "D",
+          "short_explanation": "Wicked problems cannot be broken down and solved piece by piece because their factors are highly interdependent.",
+          "long_explanation": "A key feature of wicked problems is the interconnectedness of their factors, making a reductionist approach ineffective. Trying to solve one part in isolation often creates unintended negative consequences elsewhere. The other three options are all explicitly listed as properties of wicked problems on slide 8."
+        },
+        {
+          "id": 26,
+          "question": "The IDEO framework of 'Inspire, Ideate, Implement' is shown as a continuous, overlapping loop. What does this cyclical representation emphasize?",
+          "options": {
+            "A": "That the three phases must always be completed in a strict order.",
+            "B": "That design thinking is a continuous process of learning and refinement.",
+            "C": "That inspiration is the most important and time-consuming phase.",
+            "D": "That implementation is a final, one-time event at the end of a project."
+          },
+          "answer": "B",
+          "short_explanation": "The looping, cyclical nature of the IDEO model highlights that design is an ongoing process, not a linear one.",
+          "long_explanation": "The diagram on slide 21 shows the three activities as interconnected and cyclical. This visualizes the iterative nature of design thinking, where insights from implementation can lead to new inspiration, which in turn sparks new ideation. It's a perpetual cycle of learning and improving, not a one-way street."
+        },
+        {
+          "id": 27,
+          "question": "The concept of 'indeterminacy' in design, as opposed to 'determinacy' in science, means that the subject matter of design is:",
+          "options": {
+            "A": "Objective and can be measured with complete accuracy.",
+            "B": "Based on clear, unchangeable conditions and rules.",
+            "C": "Open-ended, evolving, and shaped by the design process itself.",
+            "D": "Too complex for scientific methods to ever be applied."
+          },
+          "answer": "C",
+          "short_explanation": "Indeterminacy means the problem is not fixed; it's open-ended and evolves as you work on it.",
+          "long_explanation": "Slide 7 contrasts Determinacy (clear conditions, objective knowledge, like in Science) with Indeterminacy (open-ended, evolving subject matter, like in Design). For wicked problems, the act of trying to solve the problem changes your understanding of it, meaning the subject matter itself is not stable or fixed from the start."
+        },
+        {
+          "id": 28,
+          "question": "The 'Common Elements of Design Thinking Frameworks' on slide 28 synthesizes the core activities. Which activity directly addresses the need to explore a wide range of possibilities before making a decision?",
+          "options": {
+            "A": "Start with empathy",
+            "B": "Iterate",
+            "C": "Employ a divergent style of thinking",
+            "D": "Reframe the problem"
+          },
+          "answer": "C",
+          "short_explanation": "Divergent thinking is the specific element focused on generating a broad set of ideas and options.",
+          "long_explanation": "While all the elements are important, employing a divergent style of thinking is the explicit activity of opening up and exploring possibilities. This is the 'go wide' part of the process, which is then balanced by convergent thinking to 'narrow down'. It's the engine of ideation and exploration in any framework."
+        },
+        {
+          "id": 29,
+          "question": "The Whatsapp 'deleted message' feature is a subtle design choice that primarily affects what aspect of the user experience?",
+          "options": {
+            "A": "The technical reliability and uptime of the service.",
+            "B": "The data storage efficiency on the user's device.",
+            "C": "The social dynamics and emotional context of a conversation.",
+            "D": "The discoverability of the app's core messaging functions."
+          },
+          "answer": "C",
+          "short_explanation": "Leaving a 'message deleted' trace impacts the social and emotional layer of communication, not just the technical function.",
+          "long_explanation": "This example (slide 17) illustrates that design is not just about function but also about shaping interactions. By choosing to leave a notification instead of making the message vanish silently, the design introduces social elements like curiosity, suspicion, or transparency into the conversation, directly impacting the emotional and social context for users."
+        },
+        {
+          "id": 30,
+          "question": "According to the lecture, the emergence of Design Thinking as an integrative discipline is a response to what problem in modern knowledge?",
+          "options": {
+            "A": "A decline in the quality of traditional arts and crafts.",
+            "B": "The slow pace of academic research in science and technology.",
+            "C": "Advanced but very fragmented knowledge from specialization.",
+            "D": "A lack of funding for liberal arts programs in universities."
+          },
+          "answer": "C",
+          "short_explanation": "Design Thinking aims to bridge the gaps created by over-specialization, leading to fragmented knowledge.",
+          "long_explanation": "Slide 3 explicitly states that while 'Liberal arts today' has 'advanced' knowledge, it is also 'very fragmented'. The emergence of Design Thinking is presented as a 'call for new integrative discipline' to move 'from silos of specialization to a generalized approach of research', thereby complementing arts and science."
+        },
+        {
+          "id": 31,
+          "question": "A designer is tasked with creating a logo for a new startup. According to Buchanan's Four Orders of Design, they are primarily working within which order?",
+          "options": {
+            "A": "First Order: Symbols",
+            "B": "Second Order: Objects",
+            "C": "Third Order: Interactions",
+            "D": "Fourth Order: Systems"
+          },
+          "answer": "A",
+          "short_explanation": "Logos, signs, and graphic design fall into the First Order, which deals with communication through symbols.",
+          "long_explanation": "The Four Orders of Design (slide 10) clearly categorize the fields. The first order, 'communications (signs + symbols)', includes activities like graphic design, visual design, and information design. Creating a logo is a quintessential example of designing symbolic communication."
+        },
+        {
+          "id": 32,
+          "question": "In the Amazon AI case study, the proposal to 'Include human-in-the-loop validation, especially in final stages' falls under which part of the 4P framework?",
+          "options": {
+            "A": "Problem",
+            "B": "People",
+            "C": "Possibilities",
+            "D": "Product"
+          },
+          "answer": "C",
+          "short_explanation": "This is a potential solution or a 'how to solve it' idea, which belongs in the Possibilities phase.",
+          "long_explanation": "The 'Possibilities' section of the 4P framework (slide 32) is where potential solutions are generated. It answers the question 'How will you solve it?'. Including a human-in-the-loop is a specific strategy or method for solving the problem of AI bias and lack of accountability, making it a key part of the Possibilities exploration."
+        },
+        {
+          "id": 33,
+          "question": "What is a key similarity between Design Thinking and Agile methodologies?",
+          "options": {
+            "A": "Both prioritize extensive upfront planning and documentation.",
+            "B": "Both originated from manufacturing and project management.",
+            "C": "Both are highly structured and follow a rigid sequence of phases.",
+            "D": "Both are iterative processes that value user feedback and collaboration."
+          },
+          "answer": "D",
+          "short_explanation": "Both methodologies are iterative, user-centered, and collaborative at their core.",
+          "long_explanation": "Slide 26 explicitly lists the similarities between Design Thinking and Agile. The key shared values are being Iterative, User-Centered, involving Collaboration and Teamwork, and allowing for Flexibility and Adaptability. The other options describe characteristics that are either untrue for both or specific to only one (or neither)."
+        },
+        {
+          "id": 34,
+          "question": "One of the ten properties of wicked problems is that there is 'no definitive formula'. What is the most direct implication of this property for a designer?",
+          "options": {
+            "A": "The designer must rely solely on intuition rather than any structured process.",
+            "B": "The designer cannot fully specify the problem before attempting to solve it.",
+            "C": "The designer must create a new mathematical formula for every project.",
+            "D": "The designer's solution will inevitably be incorrect and need to be discarded."
+          },
+          "answer": "B",
+          "short_explanation": "Having no definitive formula means the problem itself is ill-defined and cannot be fully understood at the start.",
+          "long_explanation": "The property 'no definitive formula for a wicked problem' means you cannot write a complete, exhaustive specification of the problem before you start. The problem's nature is revealed through the process of trying to solve it. This is why iterative frameworks like the Double Diamond are necessary—they allow the problem definition to emerge and evolve."
+        },
+        {
+          "id": 35,
+          "question": "The end product of a Design Thinking process, especially in its early cycles, is most likely to be:",
+          "options": {
+            "A": "A tangible, working piece of software shipped to end users.",
+            "B": "A comprehensive business plan with detailed financial projections.",
+            "C": "An idea or solution, often represented by a low-fidelity prototype.",
+            "D": "A formal academic paper published in a peer-reviewed journal."
+          },
+          "answer": "C",
+          "short_explanation": "The output of Design Thinking is often an idea or a simple prototype, not a finished product.",
+          "long_explanation": "As stated on slide 27, the end product of Design Thinking 'may not be tangible' and is often 'an idea or solution, usually with a prototype'. This contrasts with Agile, whose end product is a 'tangible, working product'. The goal of Design Thinking is learning and problem-definition, not final execution."
+        },
+        {
+          "id": 36,
+          "question": "The user-centered design cycle shown on slide 14 ('Understand context', 'Specify requirements', etc.) is depicted with arrows looping back. This visual representation primarily emphasizes the principle of:",
+          "options": {
+            "A": "Specialization",
+            "B": "Finality",
+            "C": "Automation",
+            "D": "Iteration"
+          },
+          "answer": "D",
+          "short_explanation": "The looping arrows show that the process is iterative, cycling back to earlier stages based on evaluation.",
+          "long_explanation": "The diagram shows a cycle where 'Evaluate against requirements' feeds back into 'Understand context of use' and 'Specify user requirements'. This is the visual definition of an iterative process, where feedback from evaluation is used to continuously refine the understanding of the problem and the proposed solutions."
+        },
+        {
+          "id": 37,
+          "question": "In the Khushi Baby case study, identifying the primary target audience as 'Infants (0–5 years) and their caregivers' and the secondary audience as 'Community health workers' is a key activity within which part of the 4P framework?",
+          "options": {
+            "A": "Product",
+            "B": "Problem",
+            "C": "People",
+            "D": "Possibilities"
+          },
+          "answer": "C",
+          "short_explanation": "Identifying and understanding the target audience (TA) and stakeholders is the central task of the 'People' phase.",
+          "long_explanation": "The 'People' section of the 4P framework (slide 35) directly addresses the questions: 'Who is getting affected by this problem? Who is the Target Audience (TA)?'. This activity is crucial for grounding the entire project in a human-centered perspective, ensuring the final solution meets the needs of the actual users."
+        },
+        {
+          "id": 38,
+          "question": "A key reason Design Thinking is valuable for complex challenges like AI ethics is that it:",
+          "options": {
+            "A": "Provides a mathematical formula to calculate the most ethical outcome.",
+            "B": "Guarantees a single, universally correct solution to any problem.",
+            "C": "Encourages a holistic view that integrates diverse human values and perspectives.",
+            "D": "Allows for the complete automation of the decision-making process."
+          },
+          "answer": "C",
+          "short_explanation": "Its strength lies in integrating diverse human perspectives to tackle complex, value-laden problems like AI ethics.",
+          "long_explanation": "AI ethics problems are wicked problems, full of conflicting values and unforeseen consequences. Design Thinking's emphasis on empathy, stakeholder engagement, and integrating diverse perspectives (from its nature as an 'integrative discipline') makes it an ideal approach. It doesn't promise a single 'correct' answer but provides a process for navigating the complexity responsibly."
+        },
+        {
+          "id": 39,
+          "question": "The first diamond in the Double Diamond model is referred to as the 'problem space'. What is its primary objective?",
+          "options": {
+            "A": "To build and deliver the final, tested solution to the market.",
+            "B": "To diverge and explore as many technical solutions as possible.",
+            "C": "To ensure the team settles on the right problem to solve.",
+            "D": "To converge on a single prototype for user testing."
+          },
+          "answer": "C",
+          "short_explanation": "The first diamond's goal is to go from a vague challenge to a well-defined problem statement.",
+          "long_explanation": "The Double Diamond (slide 22) is split into two parts: the problem space and the solution space. The entire first diamond (Discover and Define) is dedicated to exploring the initial challenge and converging on a specific, well-understood problem statement. This ensures the team doesn't waste time developing an excellent solution to the wrong problem."
+        },
+        {
+          "id": 40,
+          "question": "A designer has a brilliant idea but struggles to create a simple sketch or model to explain it to others. According to the AIGA 'Head, Heart, Hand' framework, which aspect is underdeveloped?",
+          "options": {
+            "A": "Head (Intellectual)",
+            "B": "Heart (Emotional)",
+            "C": "Hand (Practical)",
+            "D": "Spirit (Cultural)"
+          },
+          "answer": "C",
+          "short_explanation": "The 'Hand' represents the practical skills of execution and making ideas tangible.",
+          "long_explanation": "The 'Head, Heart, Hand' framework (slide 20) divides the creative process into three parts. 'Head' is the thinking and strategy. 'Heart' is the passion and empathy. 'Hand' is the practical skill of execution—crafting, building, and making ideas real. The inability to create a sketch or model indicates a weakness in the 'Hand' aspect of the process."
+        }
+      ]
+    }
+  ]
+}

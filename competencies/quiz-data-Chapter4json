@@ -1,0 +1,529 @@
+{
+  "chapters": [
+    {
+      "title": "4. Technology Assessment",
+      "questions": [
+        {
+          "id": 1,
+          "question": "According to Lawrence Lessig's 'Code is Law' framework, which modality of regulation best describes a social media platform's algorithm promoting certain content over others?",
+          "options": {
+            "A": "Law, as it is a rule set by a governing body.",
+            "B": "Norms, as it reflects community preferences.",
+            "C": "Market, as it responds to economic incentives.",
+            "D": "Architecture, as it is a structural constraint built into the system."
+          },
+          "answer": "D",
+          "short_explanation": "The algorithm's design is part of the platform's 'architecture,' which structurally shapes user experience and behavior.",
+          "long_explanation": "In Lessig's model, 'Architecture' refers to the physical or digital structures that constrain behavior. An algorithm that prioritizes content is a core part of the digital architecture, functioning like a law within that specific environment by making some actions (seeing certain content) easier and others harder. While it's influenced by Market forces and can shape Norms, its fundamental classification in this framework is Architecture."
+        },
+        {
+          "id": 2,
+          "question": "Which statement most accurately reflects the concept of 'Reflexive Modernity' as described by Anthony Giddens?",
+          "options": {
+            "A": "Society is primarily defined by the invisible, manufactured risks it creates for itself.",
+            "B": "Society is increasingly self-aware of the complex risks its own technologies create.",
+            "C": "Modern risks are so complex that they cannot be overcome by existing social systems.",
+            "D": "Active risk-taking should be eliminated in favor of the precautionary principle."
+          },
+          "answer": "B",
+          "short_explanation": "Reflexive modernity is about society's self-awareness of the limits and contradictions of its own progress and technology.",
+          "long_explanation": "Giddens' 'Reflexive Modernity' is characterized by a growing self-awareness ('reflexivity') about the consequences of modernity, including the risks from technology. Option A better describes Ulrich Beck's 'Risk Society'. Option C is a consequence Beck highlights, not the core of Giddens' concept. Option D contradicts Giddens' positive approach, which sees disciplined risk-taking as vital for innovation."
+        },
+        {
+          "id": 3,
+          "question": "Under the EU AI Act, who holds the primary obligation to conduct a Fundamental Rights Impact Assessment (FRIA) for a high-risk AI system?",
+          "options": {
+            "A": "The provider of the AI system, before placing it on the market.",
+            "B": "The deployer of the AI system, before putting it into service.",
+            "C": "The national supervisory authority responsible for AI oversight.",
+            "D": "An independent third-party auditor certified by the EU."
+          },
+          "answer": "B",
+          "short_explanation": "The deployer must conduct the FRIA because risks often materialize in the specific context of use.",
+          "long_explanation": "While the provider must supply information, Article 27 of the AI Act places the obligation to conduct the FRIA on the deployer (especially public bodies or those providing public services). The logic is that many fundamental rights impacts are context-dependent and only become apparent when the system is deployed for a specific purpose, which is the deployer's domain."
+        },
+        {
+          "id": 4,
+          "question": "What is the primary purpose of the 'Politics of Assessment' critique, as summarized in the lecture?",
+          "options": {
+            "A": "To ensure that all assessments are purely quantitative and objective.",
+            "B": "To advocate for replacing human assessments with automated systems.",
+            "C": "To highlight that assessments are not neutral and can reinforce power structures.",
+            "D": "To standardize all impact assessment methodologies into a single global framework."
+          },
+          "answer": "C",
+          "short_explanation": "This critique argues that assessments are socially constructed and political, not neutral or objective.",
+          "long_explanation": "The 'Politics of Assessment' perspective, drawing on thinkers like Jasanoff, argues that assessments are inherently political. The choices of what to measure, who to include, and what counts as 'acceptable' risk are value-laden. The critique warns against viewing assessments as simple technical exercises and points out the danger of 'inclusion without redistribution,' where assessments create an illusion of fairness without changing underlying inequities."
+        },
+        {
+          "id": 5,
+          "question": "A hospital plans to use an AI tool to analyze patient scans to detect early-stage cancer. This tool processes sensitive health data on a large scale. Which assessment is most likely required under the GDPR?",
+          "options": {
+            "A": "A Fundamental Rights Impact Assessment (FRIA)",
+            "B": "A Data Protection Impact Assessment (DPIA)",
+            "C": "An Algorithmic Impact Assessment (AIA)",
+            "D": "A Human Rights AI Impact Assessment (HRAIIA)"
+          },
+          "answer": "B",
+          "short_explanation": "Processing sensitive health data on a large scale is a clear trigger for a mandatory DPIA under GDPR.",
+          "long_explanation": "According to Article 35 of the GDPR and the criteria provided by the EDPS, processing special categories of data (like health data) on a large scale necessitates a DPIA. While a FRIA might also be required for such a system under the AI Act, the question specifically asks about the GDPR requirement. AIA and HRAIIA are non-regulatory frameworks and not legally mandatory in this context."
+        },
+        {
+          "id": 6,
+          "question": "The feedback loop model ('Humans shape technology' -> 'Technology changes society' -> 'Society shapes humans') primarily illustrates that:",
+          "options": {
+            "A": "Technology is the primary driver of all societal change.",
+            "B": "Human values are becoming less important in technological design.",
+            "C": "Technology's impact on society is a one-way, linear process.",
+            "D": "Technology and society co-construct each other in a dynamic cycle."
+          },
+          "answer": "D",
+          "short_explanation": "The model shows a cyclical, co-constructive relationship, refuting the idea of technology as a neutral or external force.",
+          "long_explanation": "This model directly counters the idea of technology determinism (Option A) and linear impact (Option C). It emphasizes the central role of human values, incentives, and biases in shaping technology, which in turn reshapes society and its norms, thus influencing future humans. This cyclical process demonstrates that technology and society are deeply intertwined and mutually constitutive."
+        },
+        {
+          "id": 7,
+          "question": "Which of the following best captures the essence of Langdon Winner's concept 'Artifacts have politics'?",
+          "options": {
+            "A": "Technological objects can be used for political purposes by governments.",
+            "B": "The design of a technology can inherently favor certain social outcomes.",
+            "C": "All technology developers have explicit political motivations.",
+            "D": "Public debate about technology is inherently political in nature."
+          },
+          "answer": "B",
+          "short_explanation": "Winner's concept is that the design of an artifact itself can embody political values and produce social consequences.",
+          "long_explanation": "Winner argues that technologies can be inherently political, not just in how they are used, but in their very design. His famous example of Robert Moses' low bridges on Long Island illustrates how a physical artifact was designed to achieve a social and political outcome (keeping buses, and thus poorer citizens, away from certain parks). This is a more profound claim than simply stating technology can be used for political ends (A) or that developers have political views (C)."
+        },
+        {
+          "id": 8,
+          "question": "In Donald Rumsfeld's typology of uncertainty, a financial crisis triggered by a novel and unforeseen interaction between high-frequency trading algorithms would be classified as an:",
+          "options": {
+            "A": "Known known",
+            "B": "Known unknown",
+            "C": "Unknown unknown",
+            "D": "Unknown known"
+          },
+          "answer": "C",
+          "short_explanation": "'Unknown unknowns' are unanticipated risks that emerge from complexity, which perfectly describes this scenario.",
+          "long_explanation": "A 'known known' is a risk we understand and can plan for. A 'known unknown' is a risk we are aware of but lack data on. An 'unknown unknown' is a risk we didn't even know we needed to worry about, often arising from complex, interacting systems. A crisis from an unforeseen algorithmic interaction falls squarely into this category, representing the most challenging type of risk to manage."
+        },
+        {
+          "id": 9,
+          "question": "What is the primary function of 'TA as a medium of participation'?",
+          "options": {
+            "A": "To provide expert advice directly to policymakers and legislators.",
+            "B": "To improve the market correlation between supply and demand of technology.",
+            "C": "To involve citizens and civil society in technology governance processes.",
+            "D": "To embed ethical considerations directly into the R&D cycle."
+          },
+          "answer": "C",
+          "short_explanation": "Participatory TA is about bringing diverse public voices into the decision-making process through methods like citizens' juries.",
+          "long_explanation": "While other branches of TA focus on advising policymakers (A), influencing markets (B), or guiding R&D (D), the specific goal of Participatory TA is to democratize technology governance. It uses methods like consensus conferences and focus groups to ensure that the values and concerns of the public, not just experts, are considered when making decisions about new technologies."
+        },
+        {
+          "id": 10,
+          "question": "The EU AI Act's definition of 'risk' differs from the ISO 31000 definition in that the AI Act's definition is:",
+          "options": {
+            "A": "Focused exclusively on positive opportunities and threats.",
+            "B": "Concerned only with the probability of an event, not its severity.",
+            "C": "Specifically focused on the combination of probability and severity of harm.",
+            "D": "A broader concept concerning any deviation from expected objectives."
+          },
+          "answer": "C",
+          "short_explanation": "The AI Act defines risk as 'probability of harm' + 'severity of harm,' a specific, harm-focused definition.",
+          "long_explanation": "The ISO 31000 definition is broad: 'effect of uncertainty on objectives,' which can be positive or negative (D). The AI Act's definition in Article 3(2) is much more specific and aligned with safety legislation: 'the combination of the probability of an occurrence of harm and the severity of that harm.' It is explicitly about negative outcomes, making C the correct answer."
+        },
+        {
+          "id": 11,
+          "question": "According to the lecture, what is the correct relationship between a DPIA and a FRIA for a deployer of a high-risk AI system?",
+          "options": {
+            "A": "They are redundant, and a deployer can choose to complete either one.",
+            "B": "A FRIA replaces the need for a DPIA entirely for all AI systems.",
+            "C": "They are complementary; a FRIA builds upon and extends the scope of a DPIA.",
+            "D": "A DPIA is for public sector deployers, while a FRIA is for private sector deployers."
+          },
+          "answer": "C",
+          "short_explanation": "They are complementary. A FRIA addresses a broader range of rights, building on the privacy focus of a DPIA.",
+          "long_explanation": "Slide 24 explicitly states they have 'Regulatory synergy' and are 'Complementary, not redundant'. A DPIA covers data protection and privacy risks. A FRIA covers the full spectrum of fundamental rights. Article 27(4) of the AI Act clarifies that if a DPIA has already been done, the FRIA shall complement it, addressing the additional rights. This makes them a linked, two-part compliance process for many systems."
+        },
+        {
+          "id": 12,
+          "question": "Which of the following is NOT listed as a mandatory component of a DPIA under Article 35 of the GDPR?",
+          "options": {
+            "A": "A systematic description of the envisaged processing operations.",
+            "B": "An assessment of the risks to the rights and freedoms of data subjects.",
+            "C": "A cost-benefit analysis of the processing for the organization.",
+            "D": "The measures envisaged to address the risks, including safeguards."
+          },
+          "answer": "C",
+          "short_explanation": "A DPIA focuses on risks to individuals, not the financial benefits to the organization.",
+          "long_explanation": "Slide 20 lists the mandatory components of a DPIA. These include a description of the processing, an assessment of necessity and proportionality, an assessment of risks to data subjects, and the measures to address those risks. A cost-benefit analysis for the company is a business consideration, not a legal requirement of the DPIA, which is oriented towards protecting individuals' rights."
+        },
+        {
+          "id": 13,
+          "question": "The historical evolution of Technology Assessment (TA) into Constructive Technology Assessment (CTA) signifies a shift towards:",
+          "options": {
+            "A": "Assessing technology only after it has been fully developed and deployed.",
+            "B": "Focusing solely on the economic impacts of new technologies.",
+            "C": "Integrating assessment during the technology development process itself.",
+            "D": "Limiting the participation of non-experts in the assessment process."
+          },
+          "answer": "C",
+          "short_explanation": "CTA is about integrating assessment 'during' the R&D process to proactively shape technology.",
+          "long_explanation": "The evolution described on slide 8 shows a move from a reactive 'early-warning' function to a proactive 'shaping' function, which culminates in Constructive Technology Assessment (CTA). The core idea of CTA is to move assessment 'upstream' into the design and innovation phases to build better technology from the start, rather than trying to fix problems after deployment (A)."
+        },
+        {
+          "id": 14,
+          "question": "Ruha Benjamin's principle 'Design for justice, not just efficiency' serves as a critical reminder to:",
+          "options": {
+            "A": "Prioritize speed and cost-reduction in all technological development.",
+            "B": "Ensure that technological systems are legally compliant above all else.",
+            "C": "Focus on equitable outcomes and challenge embedded biases in technology.",
+            "D": "Collaborate exclusively with law and tech professionals in the design process."
+          },
+          "answer": "C",
+          "short_explanation": "This principle calls for prioritizing fairness, equity, and challenging injustice over purely technical or economic goals.",
+          "long_explanation": "This quote, highlighted on slide 28, encapsulates the critical and ethical stance of modern Technology Assessment. It argues against a narrow focus on optimization and efficiency (A) and pushes practitioners to consider the deeper social justice implications of their work. It encourages a broader view than just legal compliance (B) and calls for collaboration with the community, not just professionals (D)."
+        },
+        {
+          "id": 15,
+          "question": "The Algorithmic Impact Assessment (AIA) toolkit from New Zealand is notable for its specific focus on:",
+          "options": {
+            "A": "Compliance with the EU's General Data Protection Regulation (GDPR).",
+            "B": "Partnership with Māori and indigenous data sovereignty.",
+            "C": "Assessing algorithms used exclusively in the private financial sector.",
+            "D": "A purely quantitative risk categorization based on financial harm."
+          },
+          "answer": "B",
+          "short_explanation": "The NZ AIA toolkit is unique in its explicit inclusion of partnership with the indigenous Māori population.",
+          "long_explanation": "As shown on slide 26, one of the key 'Focus Areas' of the Stats NZ AIA toolkit is 'Partnership with Māori'. This reflects a commitment to co-governance and addressing the specific rights and interests of the indigenous population, making it a powerful example of how impact assessments can be tailored to specific national and cultural contexts. The other options are incorrect descriptions of this specific framework."
+        },
+        {
+          "id": 16,
+          "question": "What does the term 'normative effects' of technology refer to?",
+          "options": {
+            "A": "The technology's adherence to established industry norms and standards.",
+            "B": "The influence technology has on shaping social expectations and rules of behavior.",
+            "C": "The average or 'normal' performance level of a technological system.",
+            "D": "The financial valuation of a technology based on market norms."
+          },
+          "answer": "B",
+          "short_explanation": "Normative effects are how technology influences our norms—the shared expectations about how we should behave.",
+          "long_explanation": "Slide 5 defines normative effects as the influence that norms (shared expectations or rules about appropriate behavior) have on individuals or groups. Technology produces these effects by shaping how we think, feel, and act. For example, social media's design creates implicit norms around communication and self-presentation. This is distinct from adhering to technical standards (A) or its performance (C)."
+        },
+        {
+          "id": 17,
+          "question": "Which of these scenarios best exemplifies the concept of a 'known unknown'?",
+          "options": {
+            "A": "A car manufacturer plans for a certain percentage of tires to fail based on historical data.",
+            "B": "A pharmaceutical company knows a new drug may have long-term side effects but lacks the data to specify them.",
+            "C": "The internet's creators did not foresee its future impact on global political movements.",
+            "D": "A software company is fully aware of a specific security vulnerability and has a patch ready for deployment."
+          },
+          "answer": "B",
+          "short_explanation": "A 'known unknown' is a risk you are aware of but cannot quantify due to a lack of data.",
+          "long_explanation": "In Rumsfeld's typology, a 'known unknown' is a recognized uncertainty. The company knows there is a risk of long-term side effects, but the nature and probability of these effects are the 'unknown' part. Option A is a 'known known' (a quantifiable risk). Option C is an 'unknown unknown' (an unanticipated risk). Option D is a 'known known' that has been addressed."
+        },
+        {
+          "id": 18,
+          "question": "The primary goal of a risk characterization, as the output of a risk assessment, is to:",
+          "options": {
+            "A": "Provide a single, definitive number representing the total risk.",
+            "B": "Eliminate all uncertainties associated with the technology.",
+            "C": "Prove that the technology is completely safe for public use.",
+            "D": "Present a range of estimates that quantify hazards, confidence, and uncertainties."
+          },
+          "answer": "D",
+          "short_explanation": "Risk characterization is a comprehensive summary of risk, including estimates, confidence levels, and uncertainties.",
+          "long_explanation": "As described on slide 11, risk assessment generates a risk characterization. This is not a single number (A) but a nuanced statement that includes a range of estimates, the degree of confidence in them, and an explicit acknowledgment of uncertainties and assumptions. Its purpose is to inform decision-making with a realistic picture of the risk, not to eliminate uncertainty (B) or prove absolute safety (C)."
+        },
+        {
+          "id": 19,
+          "question": "A key tenet of Ulrich Beck's 'Risk Society' is that risks are the predominant product, not just a side-effect, of industrial society. This implies that:",
+          "options": {
+            "A": "Risks are an acceptable price for the economic benefits of modernization.",
+            "B": "The primary output of our modern systems is now the creation of systemic hazards.",
+            "C": "Pre-industrial societies faced greater and more unmanageable risks than we do today.",
+            "D": "Technological risks can always be managed and overcome by further technological innovation."
+          },
+          "answer": "B",
+          "short_explanation": "This means risk is no longer an accidental byproduct but a central, defining output of our modern way of life.",
+          "long_explanation": "Beck's statement is a radical claim. It suggests that our systems of production (industrial and technological) are now so powerful and complex that their main output is no longer just goods and services, but also systemic, often invisible risks (like climate change or nuclear waste). This refutes the idea that risk is just an acceptable side-effect (A) or that it can always be solved by more technology (D), which is a view Beck critiques."
+        },
+        {
+          "id": 20,
+          "question": "When conducting a Technology Assessment, asking 'What values are encoded?' prompts an inquiry into:",
+          "options": {
+            "A": "The market price and monetary value of the technology.",
+            "B": "The cryptographic keys and security values embedded in the code.",
+            "C": "The underlying priorities and principles reflected in the technology's design.",
+            "D": "The numerical values used to train the machine learning model."
+          },
+          "answer": "C",
+          "short_explanation": "This question asks what priorities (e.g., efficiency, privacy, safety) are embedded in the technology's design choices.",
+          "long_explanation": "As shown on slide 7, 'What values are encoded?' is one of the three core questions of TA. It pushes the assessor to look beyond function and ask about purpose and priority. For example, does a social media feed's design value user engagement over mental well-being? Does a self-driving car's algorithm value passenger safety over pedestrian safety? These are the 'encoded values' in question, not monetary (A), cryptographic (B), or numerical training values (D)."
+        },
+        {
+          "id": 21,
+          "question": "Which of the three roles for practitioners ('Observer', 'Critic', 'Co-creator') is most aligned with conducting empirical research on how impact assessments are used in real-world organizations?",
+          "options": {
+            "A": "Observer",
+            "B": "Critic",
+            "C": "Co-creator",
+            "D": "Regulator"
+          },
+          "answer": "A",
+          "short_explanation": "The 'Observer' role is defined by conducting empirical research on real-world assessments.",
+          "long_explanation": "Slide 28 outlines three roles. The 'Observer' is explicitly defined as conducting 'Empirical research on real-world assessments.' The 'Critic' role involves uncovering hidden assumptions and exclusions, while the 'Co-creator' role involves active collaboration in building new systems. 'Regulator' is not one of the three roles listed for practitioners in this context."
+        },
+        {
+          "id": 22,
+          "question": "The requirement for 'Human Oversight Measures' in a FRIA (slide 23) primarily addresses which concern?",
+          "options": {
+            "A": "The need to have humans manually review every single decision made by the AI.",
+            "B": "The risk of automation bias and ensuring meaningful human control over the system.",
+            "C": "The importance of employing a diverse team of humans to develop the AI system.",
+            "D": "The necessity of human users to provide constant feedback to improve the AI."
+          },
+          "answer": "B",
+          "short_explanation": "This requirement is about implementing meaningful human oversight to counter risks like automation bias and ensure human agency.",
+          "long_explanation": "The 'Human Oversight Measures' component of a FRIA is designed to ensure that the AI system does not operate with complete autonomy in high-stakes situations. It's about establishing mechanisms for monitoring, intervention, and control to mitigate risks stemming from the AI's decisions. This directly addresses the dangers of over-reliance on automated systems (automation bias) and ensures a human remains 'in the loop' or 'on the loop' in a meaningful way."
+        },
+        {
+          "id": 23,
+          "question": "Why is a deployer of a high-risk AI system, rather than the provider, required to conduct a FRIA?",
+          "options": {
+            "A": "Because providers lack the technical expertise to assess fundamental rights.",
+            "B": "Because deployers are always public bodies, while providers are private companies.",
+            "C": "Because fundamental rights impacts are highly dependent on the specific use context.",
+            "D": "Because the AI Act places all legal liability for AI systems exclusively on the deployer."
+          },
+          "answer": "C",
+          "short_explanation": "Risks to fundamental rights often emerge from how and where a system is deployed, which is the deployer's specific context.",
+          "long_explanation": "The logic behind making the deployer responsible for the FRIA is that a provider creates a general-purpose tool, but the risks to rights like non-discrimination or due process often only become clear in a specific application. For example, a facial recognition tool (from a provider) might have different rights implications when used by police for surveillance versus by a school for attendance (by deployers). The deployer's context is therefore the appropriate place for the assessment."
+        },
+        {
+          "id": 24,
+          "question": "The concept of 'affordances' (Gibson) helps explain why technology is not neutral by highlighting that:",
+          "options": {
+            "A": "Users can only afford technologies that are priced within their budget.",
+            "B": "A technology's design suggests and encourages certain uses over others.",
+            "C": "All technologies can be adapted for any purpose the user can imagine.",
+            "D": "The cost of technology determines its ultimate social impact."
+          },
+          "answer": "B",
+          "short_explanation": "Affordances are the possibilities for action that an object's properties suggest to a user.",
+          "long_explanation": "The concept of affordances, mentioned on slide 5, is crucial for understanding technology's non-neutrality. A chair 'affords' sitting, a button 'affords' pushing. In digital design, a 'like' button affords quick validation, and a timeline affords endless scrolling. These design choices aren't neutral; they guide and shape user behavior by making certain actions feel natural and intuitive, thereby embedding values and influencing norms."
+        },
+        {
+          "id": 25,
+          "question": "Which branch of Technology Assessment is most focused on correcting the mismatch between what technology companies build and what society actually needs?",
+          "options": {
+            "A": "TA as policy advice",
+            "B": "TA as medium of participation",
+            "C": "TA for shaping technology directly",
+            "D": "TA in innovation processes"
+          },
+          "answer": "D",
+          "short_explanation": "TA in innovation processes aims to improve the correlation between the 'supply side' (tech) and societal 'demand'.",
+          "long_explanation": "As stated on slide 10, the goal of 'TA in innovation processes' is to 'Improve the correlation between ‘supply side’ of technology and societal ‘demand’'. This branch specifically looks at the market and innovation ecosystem to better align technological development with genuine social needs and values, distinguishing it from the other branches that focus on policy, public engagement, or direct R&D intervention."
+        },
+        {
+          "id": 26,
+          "question": "The 'early-warning function' of TA, originating in the 1970s, was primarily a response to what prevailing idea?",
+          "options": {
+            "A": "Social constructivism",
+            "B": "Technology determinism",
+            "C": "Reflexive modernity",
+            "D": "Civic epistemology"
+          },
+          "answer": "B",
+          "short_explanation": "Early TA was created to counter 'technology determinism'—the idea that society must passively adapt to technology.",
+          "long_explanation": "Slide 8 explicitly states that TA originated in the 1970s in response to the 'notion of ‘technology determinism’'. This was the belief that technological development follows its own inevitable logic and that society has no choice but to adjust. The 'early-warning function' was designed to give political actors the foresight needed to intervene and manage technology's impacts, rather than just accepting them."
+        },
+        {
+          "id": 27,
+          "question": "Jasanoff's concept of 'civic epistemologies' suggests that for a technology assessment to be seen as legitimate, it must:",
+          "options": {
+            "A": "Rely exclusively on quantitative data from certified experts.",
+            "B": "Be conducted rapidly to keep pace with technological innovation.",
+            "C": "Achieve legitimacy through processes of public reasoning and deliberation.",
+            "D": "Be approved by a national government's legislative body."
+          },
+          "answer": "C",
+          "short_explanation": "Civic epistemology is about how a society comes to know things; legitimacy comes from public reasoning.",
+          "long_explanation": "Mentioned on slide 27, 'civic epistemologies' refers to the processes through which societies validate knowledge claims for collective purposes. Jasanoff argues that in a democracy, technical or expert-driven assessments (A) are not enough for legitimacy. The assessment must be debated and validated through public reasoning and participation, making it a socio-political process, not just a technical one."
+        },
+        {
+          "id": 28,
+          "question": "A social media company introduces a feature that shows users when their message has been read. This creates social pressure to reply quickly. This is an example of an:",
+          "options": {
+            "A": "Explicit normative effect",
+            "B": "Implicit normative effect",
+            "C": "Economic incentive",
+            "D": "Explicit cognitive bias"
+          },
+          "answer": "B",
+          "short_explanation": "This is an implicit effect because it creates an unwritten social expectation, not a formal rule.",
+          "long_explanation": "Slide 5 distinguishes between explicit and implicit normative effects. An explicit effect is like a formal rule (e.g., a speed limiter in a car). An implicit effect works through cultural expectations and peer pressure. The 'read receipt' feature doesn't have a formal rule attached, but it creates a powerful social norm for quick replies, making it a perfect example of an implicit normative effect."
+        },
+        {
+          "id": 29,
+          "question": "The Dutch SyRI case, where an algorithm for detecting welfare fraud was ruled unlawful, is a key example motivating the need for which type of assessment?",
+          "options": {
+            "A": "Data Protection Impact Assessment (DPIA)",
+            "B": "Fundamental Rights Impact Assessment (FRIA)",
+            "C": "A purely technical cybersecurity assessment",
+            "D": "An economic cost-benefit analysis"
+          },
+          "answer": "B",
+          "short_explanation": "The SyRI case was decided on broad human rights grounds (privacy, non-discrimination), which is the scope of a FRIA.",
+          "long_explanation": "The SyRI case (mentioned on slide 21) is a landmark example of a court striking down an algorithmic system not just on narrow data protection grounds, but on broader fundamental rights principles, including the right to privacy under the ECHR and the risk of discrimination. This highlights the need for an assessment that goes beyond data protection to consider the full spectrum of fundamental rights, which is precisely the purpose of the FRIA."
+        },
+        {
+          "id": 30,
+          "question": "What does the concept 'DPIA as governance, not just compliance' (Gellert 2018) imply?",
+          "options": {
+            "A": "DPIAs are only useful for government agencies, not private companies.",
+            "B": "The DPIA process should be a bureaucratic checkbox exercise.",
+            "C": "The DPIA is a tool for ongoing, reflective risk management and ethical deliberation.",
+            "D": "Completing a DPIA provides complete legal immunity from any data breach."
+          },
+          "answer": "C",
+          "short_explanation": "This view frames the DPIA as a dynamic governance tool for ethical reflection, not just a one-time compliance task.",
+          "long_explanation": "The phrase 'governance, not just compliance' (slide 18) suggests that the DPIA should be more than a static, one-off task to satisfy a legal requirement (compliance). Instead, it should be viewed as a dynamic process of governance—a structured way for an organization to continuously reflect on, discuss, and manage the privacy risks and ethical implications of its data processing activities."
+        },
+        {
+          "id": 31,
+          "question": "The risk of 'inclusion without redistribution' in the context of Technology Assessment refers to the danger that:",
+          "options": {
+            "A": "Assessments may include too many stakeholders, making the process inefficient.",
+            "B": "Assessments may give the appearance of fairness while failing to change underlying power imbalances.",
+            "C": "The costs of conducting assessments are not redistributed fairly among companies.",
+            "D": "Including the public in assessments will inevitably lead to the rejection of all new technology."
+          },
+          "answer": "B",
+          "short_explanation": "This is the risk that assessments become 'ethics-washing,' including voices but not redistributing power or resources.",
+          "long_explanation": "This critical concept, mentioned on slide 27, warns against proceduralism for its own sake. It is the danger that participatory processes (inclusion) can be used to legitimize a technology or decision without actually altering the fundamental distribution of benefits, harms, or power (redistribution). The process becomes a performance of fairness rather than a mechanism for achieving it."
+        },
+        {
+          "id": 32,
+          "question": "When a FRIA requires an assessment of 'Affected Natural Persons and Groups,' what is it primarily asking the deployer to do?",
+          "options": {
+            "A": "List every single individual who will interact with the system by name.",
+            "B": "Consider potential impacts on specific communities, including vulnerable populations.",
+            "C": "Calculate the exact number of people who will be affected by the AI system.",
+            "D": "Focus only on the direct users of the system, not on indirectly affected people."
+          },
+          "answer": "B",
+          "short_explanation": "This requires identifying specific groups, especially those with potential vulnerabilities, that might be impacted.",
+          "long_explanation": "As part of the FRIA requirements on slide 23, this component pushes the deployer beyond a generic analysis. It requires them to think specifically about which communities or demographics might be affected, paying special attention to potential vulnerabilities. This could include groups based on race, gender, economic status, or disability, and considers both direct and indirect impacts, moving beyond a simple user count."
+        },
+        {
+          "id": 33,
+          "question": "Which of the following best describes the main task of Technology Assessment as it was conceived in the 1980s?",
+          "options": {
+            "A": "Providing a final, quantitative risk score for new technologies.",
+            "B": "Actively 'shaping of technology' according to social needs and values.",
+            "C": "Functioning solely as an 'early-warning' system for political actors.",
+            "D": "Focusing exclusively on the economic efficiency of innovation processes."
+          },
+          "answer": "B",
+          "short_explanation": "The 1980s saw a shift from just 'warning' to proactively 'shaping' technology based on social values.",
+          "long_explanation": "According to slide 8, the 1970s were characterized by the 'early-warning function' (C). The 1980s marked a significant evolution towards a more proactive stance, described as the 'shaping of technology' according to social needs and values (e.g., Bijker et al.). This was a move from a reactive posture to an active, interventionist one."
+        },
+        {
+          "id": 34,
+          "question": "A core feature of the Human Rights Artificial Intelligence Impact Assessment (HRAIIA) from Ontario is its focus on:",
+          "options": {
+            "A": "Strict compliance with EU data protection law.",
+            "B": "Evaluating potential discrimination and differential treatment.",
+            "C": "The environmental impact of training large AI models.",
+            "D": "Ensuring the profitability of AI systems for public sector organizations."
+          },
+          "answer": "B",
+          "short_explanation": "The HRAIIA is specifically designed to evaluate AI systems for compliance with human rights laws, focusing on discrimination.",
+          "long_explanation": "As outlined on slide 25, the key features of the HRAIIA developed in Ontario include evaluating 'potential discrimination and differential treatment' and considering 'accessibility and accommodation for diverse populations'. This frames the assessment through the lens of human rights and equality law, which is its primary purpose and distinguishing feature."
+        },
+        {
+          "id": 35,
+          "question": "The principle of 'Data Protection by Design and by Default' (Art. 25 GDPR) is practically implemented through which of the following actions?",
+          "options": {
+            "A": "Reporting a data breach within 72 hours of its discovery.",
+            "B": "Conducting a DPIA for high-risk processing activities.",
+            "C": "Appointing a Data Protection Officer (DPO) for the organization.",
+            "D": "Obtaining explicit consent from users for all data processing."
+          },
+          "answer": "B",
+          "short_explanation": "A DPIA is a key tool for operationalizing 'Data Protection by Design' by proactively assessing and mitigating risks.",
+          "long_explanation": "While all options are related to GDPR compliance, 'Data Protection by Design' is about embedding data protection principles into technology and processes from the start. As slide 19 indicates, conducting a DPIA is a structured way of thinking through and implementing principles like data minimization and purpose limitation before processing begins, making it a core practical application of the 'by Design' concept."
+        },
+        {
+          "id": 36,
+          "question": "What is a primary reason for the 'feedback loop' of technology and society to be considered a cycle of non-neutrality?",
+          "options": {
+            "A": "Because technology always improves society in a linear fashion.",
+            "B": "Because human biases and incentives are embedded in technology, which then reshapes society.",
+            "C": "Because market forces are the only factor that determines which technologies succeed.",
+            "D": "Because technology evolves independently of human values or social norms."
+          },
+          "answer": "B",
+          "short_explanation": "The cycle is non-neutral because human biases get encoded into tech, which then reinforces or changes social norms.",
+          "long_explanation": "The feedback loop on slide 4 demonstrates non-neutrality precisely because it starts with 'Humans shape technology'. Our incentives, values, and cognitive biases are built into the systems we create. These non-neutral systems then go on to change society, which in turn shapes the next generation of humans. The entire cycle is propelled by subjective human and social factors, not objective or independent evolution (D)."
+        },
+        {
+          "id": 37,
+          "question": "According to Giddens' positive approach to risk, what is the role of risk-taking in a modern society?",
+          "options": {
+            "A": "It is an unfortunate byproduct that should be minimized at all costs.",
+            "B": "It is a core element of a dynamic economy and innovative society.",
+            "C": "It is a problem that can only be solved by government regulation.",
+            "D": "It is a sign of societal decay and a failure of modernization."
+          },
+          "answer": "B",
+          "short_explanation": "Giddens argues that active, though disciplined, risk-taking is essential for innovation and economic dynamism.",
+          "long_explanation": "Unlike Beck's more cautionary tone, Giddens (slide 13) presents a 'positive approach to risk'. He argues that while risk needs to be disciplined, a society that tries to eliminate all risk would stagnate. Therefore, 'active risk-taking is a core element of a dynamic economy and an innovative society.' This view frames risk not just as a danger to be avoided, but as a necessary component of progress."
+        },
+        {
+          "id": 38,
+          "question": "When a FRIA requires a description of 'Risk Mitigation Measures,' what is it asking for?",
+          "options": {
+            "A": "A plan for how the organization will respond if and when identified risks materialize.",
+            "B": "A legal guarantee that no risks will ever occur during the system's operation.",
+            "C": "A list of all the benefits the AI system is expected to produce for society.",
+            "D": "A technical description of the algorithm's mathematical functions."
+          },
+          "answer": "A",
+          "short_explanation": "This component requires a concrete plan of action to manage and respond to risks if they happen.",
+          "long_explanation": "The 'Risk Mitigation Measures' section of a FRIA (slide 23) is the practical, forward-looking part of the assessment. After identifying risks, the deployer must outline specific responses and controls. This includes outlining governance structures, complaint mechanisms, and concrete steps to be taken if a risk materializes, demonstrating a proactive approach to risk management rather than just identification."
+        },
+        {
+          "id": 39,
+          "question": "The shift from 'Technology Assessment' to 'Constructive Technology Assessment' (CTA) mirrors a change in perspective from:",
+          "options": {
+            "A": "Critic to Co-creator",
+            "B": "Observer to Critic",
+            "C": "Co-creator to Observer",
+            "D": "Regulator to Critic"
+          },
+          "answer": "A",
+          "short_explanation": "The shift is from criticizing technology after the fact (Critic) to helping build it better from the start (Co-creator).",
+          "long_explanation": "This question connects the history of TA (slide 8) with the practitioner roles (slide 28). Traditional TA often acted as a 'Critic,' analyzing and warning about technology after it was designed. CTA, by embedding assessment within the design process, embodies the 'Co-creator' role—actively collaborating with tech teams to shape technology for better social outcomes from the beginning."
+        },
+        {
+          "id": 40,
+          "question": "What is the primary focus of a risk assessment as a component of Technology Assessment?",
+          "options": {
+            "A": "To produce quantitative estimates of the probability and magnitude of potential harms.",
+            "B": "To conduct a broad philosophical inquiry into the nature of technology.",
+            "C": "To engage the public in a wide-ranging dialogue about their values and concerns.",
+            "D": "To ensure the technology aligns with the company's strategic business objectives."
+          },
+          "answer": "A",
+          "short_explanation": "Risk assessment is the technical component that seeks to quantify the probability and magnitude of potential harms.",
+          "long_explanation": "As defined on slide 11, risk assessment is a central component of TA that 'seeks to produce quantitative estimates of the probability and magnitude of potential harms'. While broader TA may involve philosophical inquiry (B) or public dialogue (C), the specific task of risk assessment is the more technical, data-driven effort to quantify hazards based on available data."
+        }
+      ]
+    }
+  ]
+}
