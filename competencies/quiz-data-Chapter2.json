@@ -1,0 +1,529 @@
+{
+  "chapters": [
+    {
+      "title": "2. Literature Review",
+      "questions": [
+        {
+          "id": 1,
+          "question": "A researcher is exploring the emerging field of 'AI-driven art generation' and wants to map the key concepts, themes, and types of evidence available without assessing the quality of each study. Which type of literature review is most suitable for this objective?",
+          "options": {
+            "A": "Systematic Review",
+            "B": "Meta-Analysis",
+            "C": "Scoping Review",
+            "D": "Hermeneutic Review"
+          },
+          "answer": "C",
+          "short_explanation": "A Scoping Review is used to map the terrain of an emerging field, identifying concepts and evidence without a deep quality assessment.",
+          "long_explanation": "The key purpose described is 'mapping' an emerging field to understand its breadth, which is the primary goal of a Scoping Review. A Systematic Review would answer a specific question and assess quality. A Meta-Analysis requires quantitative data to combine statistically. A Hermeneutic Review would focus on deep, interpretive understanding of concepts, not just mapping the types of evidence."
+        },
+        {
+          "id": 2,
+          "question": "According to the lecture, the process of moving from a tentative topic to a refined research problem is described as an 'iterative process'. What is the primary driver of this iterative cycle?",
+          "options": {
+            "A": "The availability of funding for the research topic.",
+            "B": "The researcher's personal interest in the subject.",
+            "C": "The feedback received from peer reviewers after submission.",
+            "D": "The insights and gaps discovered during the literature review."
+          },
+          "answer": "D",
+          "short_explanation": "The literature review is the engine of the iterative process, helping you refine your ideas based on existing knowledge.",
+          "long_explanation": "Slide 3 illustrates that the literature review is the central step that allows a researcher to reframe their initial question. It's the critical engagement with existing work that transforms a vague idea into a focused, researchable problem by identifying a specific gap. While personal interest initiates the process, the literature review drives its refinement."
+        },
+        {
+          "id": 3,
+          "question": "Which of the following best represents a 'Practical-Knowledge Gap'?",
+          "options": {
+            "A": "Two major studies present contradictory findings on the effectiveness of an AI tool.",
+            "B": "While research proves an AI teaching method is effective, most educators are not using it in practice.",
+            "C": "All previous studies on an AI system have used surveys, but none have used in-depth interviews.",
+            "D": "A theory about AI adoption has been tested in large corporations but not in small startups."
+          },
+          "answer": "B",
+          "short_explanation": "A Practical-Knowledge Gap is a conflict between what is known (theory/research) and what is done (practice).",
+          "long_explanation": "This type of gap, also called an 'action-knowledge conflict,' arises when the behavior of practitioners in the field differs from what research or theory suggests is optimal. Option A is an Evidence Gap. Option C is a Methodological Gap. Option D is a Population Gap."
+        },
+        {
+          "id": 4,
+          "question": "A literature review that begins with a detailed description of one extremely important study and then discusses how subsequent research has confirmed, challenged, or extended its findings is using which organizational approach?",
+          "options": {
+            "A": "Topical",
+            "B": "Chronological",
+            "C": "Seminal Study",
+            "D": "Debate"
+          },
+          "answer": "C",
+          "short_explanation": "The 'Seminal Study' approach structures the review around one foundational piece of research.",
+          "long_explanation": "As described on Slide 31, the Seminal Study approach is most useful when one study is clearly central to the field. It uses that study as an anchor to organize and discuss all related literature. This differs from a Chronological approach, which follows time, or a Topical approach, which is organized by themes."
+        },
+        {
+          "id": 5,
+          "question": "What is the primary function of a thesis statement within a literature review chapter?",
+          "options": {
+            "A": "To summarize the abstract of every source being reviewed.",
+            "B": "To state the overall argument or claim being made about the literature.",
+            "C": "To present the final conclusion of the researcher's entire study.",
+            "D": "To list the research questions that the literature review will answer."
+          },
+          "answer": "B",
+          "short_explanation": "The thesis statement of a literature review is its central argument about the state of the field.",
+          "long_explanation": "As per Slide 27, a literature review's thesis statement offers an argument about the literature itself (e.g., pointing out a gap, critiquing a trend). It is not the thesis of the entire dissertation, but rather the controlling idea for the review chapter, guiding the reader on the point you are proving about the existing research."
+        },
+        {
+          "id": 6,
+          "question": "In the 'Four Objectives of the Literature Review' taxonomy (Slide 18), which activity represents the highest level of cognitive processing?",
+          "options": {
+            "A": "Describing the methodology used in a key paper.",
+            "B": "Assessing the validity of a study's conclusions.",
+            "C": "Applying a theory from one paper to explain another's findings.",
+            "D": "Integrating findings from multiple sources to propose a new framework."
+          },
+          "answer": "D",
+          "short_explanation": "Synthesizing information to create something new is the highest cognitive objective in a literature review.",
+          "long_explanation": "The taxonomy, based on Bloom's, places 'Synthesize' at the highest level. This involves creating a new whole by arranging and combining pieces from various sources, such as proposing a new framework. Describing is 'Summarize' (lowest level), Assessing is 'Evaluate' (high level), and Applying is 'Analyze' (mid-level)."
+        },
+        {
+          "id": 7,
+          "question": "A researcher finds that all existing studies on the usability of a new AI software were conducted on university students. She decides to conduct her research on elderly users. What type of research gap is she primarily addressing?",
+          "options": {
+            "A": "Theoretical Gap",
+            "B": "Evidence Gap",
+            "C": "Methodological Gap",
+            "D": "Population Gap"
+          },
+          "answer": "D",
+          "short_explanation": "A Population Gap exists when research has not been conducted on a specific, relevant population.",
+          "long_explanation": "As defined on Slide 42, a Population Gap relates to a population that is under-researched or not represented in the existing evidence base. Since the prior research is limited to one demographic (students), extending it to another (elderly users) directly addresses this gap."
+        },
+        {
+          "id": 8,
+          "question": "The key difference between a Narrative Review and a Systematic Review lies in the latter's emphasis on:",
+          "options": {
+            "A": "Providing a comprehensive historical overview of a topic.",
+            "B": "Using a reproducible methodology to minimize selection bias.",
+            "C": "Focusing exclusively on qualitative research findings.",
+            "D": "Presenting the information in a compelling, story-like format."
+          },
+          "answer": "B",
+          "short_explanation": "Systematic reviews are defined by their rigorous, explicit, and reproducible methodology to minimize bias.",
+          "long_explanation": "While a narrative review tells a story and can be useful for context, its main weakness is the potential for bias because the author's method for selecting sources isn't explicit. A systematic review's core strength is its transparent, pre-specified, and rigorous methodology, which aims to find all relevant evidence and minimize bias."
+        },
+        {
+          "id": 9,
+          "question": "Which of the following is NOT a primary goal of a literature review as outlined in the lecture (Slides 8-11)?",
+          "options": {
+            "A": "To identify gaps and trends in existing research.",
+            "B": "To synthesize findings and contribute to theory building.",
+            "C": "To provide a definitive and final answer to the research question.",
+            "D": "To enhance the rigor and credibility of the researcher's own study."
+          },
+          "answer": "C",
+          "short_explanation": "A literature review justifies and informs new research; it doesn't provide the final answer itself.",
+          "long_explanation": "A literature review serves to understand the current state of knowledge, find gaps, and build a foundation for new research. The new research (the researcher's own study) is what attempts to answer the research question. The literature review frames the question but does not answer it definitively."
+        },
+        {
+          "id": 10,
+          "question": "A 'Literature Review Matrix' (Slide 25) is a tool primarily used during which step of the writing process?",
+          "options": {
+            "A": "Planning and Identification, to brainstorm keywords.",
+            "B": "Organising and Drafting, to create the final outline.",
+            "C": "Evaluating and Synthesizing, to compare and connect sources.",
+            "D": "Locating Sources, to track database search results."
+          },
+          "answer": "C",
+          "short_explanation": "The matrix is a tool for synthesis, helping you analyze and find patterns across multiple sources.",
+          "long_explanation": "The matrix is used in Step 4: Evaluating and Synthesizing. By systematically extracting key information (methods, findings, weaknesses) from each source into a table, the researcher can easily compare them side-by-side. This facilitates the identification of themes, debates, and gaps, which is the core of synthesis."
+        },
+        {
+          "id": 11,
+          "question": "What does the lecture mean by the advice to 'be strategic in selecting key papers'?",
+          "options": {
+            "A": "You should only cite papers that agree with your own hypothesis.",
+            "B": "You must read and summarize every single paper related to your topic.",
+            "C": "You should prioritize a deep analysis of the most relevant papers over a shallow review of all papers.",
+            "D": "You must select papers based on the prestige of the journal they were published in."
+          },
+          "answer": "C",
+          "short_explanation": "Being strategic means focusing your analytical energy on the most important papers for your topic.",
+          "long_explanation": "As stated on Slide 38, it is not feasible to cover every paper in depth. Being strategic means identifying the seminal and most directly relevant works and analyzing them thoroughly, while perhaps only briefly mentioning less central studies. This ensures the review has depth and focus rather than being a superficial list."
+        },
+        {
+          "id": 12,
+          "question": "A researcher wants to statistically combine the results of 15 quantitative studies that all measured the effect of a specific AI intervention on user engagement. Which type of review is required?",
+          "options": {
+            "A": "Meta-Analysis",
+            "B": "Systematic Review",
+            "C": "Scoping Review",
+            "D": "Narrative Review"
+          },
+          "answer": "A",
+          "short_explanation": "A Meta-Analysis is the specific method used to statistically combine results from multiple quantitative studies.",
+          "long_explanation": "While a Meta-Analysis is a type of systematic review, the key action here is 'statistically combines the results'. This defines it as a Meta-Analysis. A Systematic Review could summarize the findings without statistical combination, and Scoping or Narrative reviews would be inappropriate for this specific quantitative goal."
+        },
+        {
+          "id": 13,
+          "question": "When evaluating a source's trustworthiness, the lecture suggests asking, 'Is the source current?'. Why is this question particularly important in a field like 'AI in Society'?",
+          "options": {
+            "A": "Because older theories are always incorrect and should be discarded.",
+            "B": "Because the field is rapidly evolving, and older findings may be outdated by new technology.",
+            "C": "Because journals have a policy of only accepting articles published in the last two years.",
+            "D": "Because seminal, foundational studies are less important than recent ones."
+          },
+          "answer": "B",
+          "short_explanation": "In fast-moving fields like AI, currency is crucial as technology and its societal impact change quickly.",
+          "long_explanation": "The lecture advises balancing seminal works with current research. In a field like AI, technological advancements can happen so fast that research from even five years ago might not reflect the current state of technology or its implications. Therefore, assessing currency is vital to ensure the review is relevant to the present context."
+        },
+        {
+          "id": 14,
+          "question": "The concept of the 'hermeneutic circle' in a Hermeneutic Literature Review refers to:",
+          "options": {
+            "A": "A group of researchers who meet to discuss and interpret texts together.",
+            "B": "The process of searching through a circular list of predefined keywords.",
+            "C": "The iterative process of understanding parts of the literature to understand the whole, and vice-versa.",
+            "D": "A software tool that graphically maps connections between different authors."
+          },
+          "answer": "C",
+          "short_explanation": "The hermeneutic circle is the continuous, circular process of interpreting between the parts and the whole.",
+          "long_explanation": "As mentioned on Slide 17, the hermeneutic circle is the core philosophical process of this review type. It describes the idea that one's understanding of a single text (a part) is shaped by their understanding of the broader context (the whole), and the understanding of the whole is continually refined by analyzing its individual parts. This creates a continuous, interpretive loop."
+        },
+        {
+          "id": 15,
+          "question": "Which of the following research questions is most likely to have emerged from identifying an 'Empirical Gap'?",
+          "options": {
+            "A": "How can the conflicting findings on AI's impact on employment be reconciled?",
+            "B": "What is the lived experience of gig workers managed by algorithmic systems?",
+            "C": "How can the theory of planned behavior be adapted to explain AI adoption?",
+            "D": "Does the theoretical framework for 'algorithmic fairness' hold up when tested with real-world hiring data?"
+          },
+          "answer": "D",
+          "short_explanation": "An Empirical Gap exists when a theory or concept has not been tested with real-world data.",
+          "long_explanation": "An Empirical Gap (or Evaluation Void Gap, Slide 42) addresses a topic that has been discussed theoretically but lacks empirical evaluation. The question in option D directly proposes to test a theoretical framework with empirical, real-world data, thus filling that specific type of gap. Option A addresses an Evidence Gap. Option B addresses a Knowledge Gap. Option C addresses a Theoretical Gap."
+        },
+        {
+          "id": 16,
+          "question": "A key piece of advice for writing a literature review is to 'Maintain objectivity'. How is this best achieved?",
+          "options": {
+            "A": "By only including studies that have been published in the last year.",
+            "B": "By basing the review on facts from research and avoiding personal opinions or emotional language.",
+            "C": "By interviewing the authors of the papers to understand their personal views.",
+            "D": "By presenting only the strengths of the studies that support your argument."
+          },
+          "answer": "B",
+          "short_explanation": "Objectivity is maintained by focusing on evidence and analysis, not personal feelings or biased presentation.",
+          "long_explanation": "Slide 37 advises maintaining an objective tone by basing the review on facts from existing research. This means critically analyzing and presenting the findings, including strengths and weaknesses, without letting one's own un-argued opinions or emotional language color the review. It requires a balanced and evidence-based approach."
+        },
+        {
+          "id": 17,
+          "question": "In Step 5: Drafting and Presenting, what is the crucial role of the 'Conclusion' section of a literature review?",
+          "options": {
+            "A": "To introduce new evidence that was not discussed in the main body.",
+            "B": "To summarize key findings, explain their significance ('so what'), and connect them to the current study.",
+            "C": "To provide a detailed biography of the most important authors in the field.",
+            "D": "To list all the sources alphabetically, which serves as the bibliography."
+          },
+          "answer": "B",
+          "short_explanation": "The conclusion summarizes, explains the implications ('so what'), and explicitly links the review to your own research.",
+          "long_explanation": "According to Slide 32, the conclusion is not just a summary. Its critical functions are to explain the significance of the findings (the 'so what'), state the implications for future research (highlighting the gap), and make a clear connection to the researcher's own study, thereby justifying it."
+        },
+        {
+          "id": 18,
+          "question": "A student organizes their literature review into sections titled 'AI in Education: Early Theories', 'The Rise of Machine Learning Models (2010-2018)', and 'Current Trends in Generative AI (2019-Present)'. Which organizational approach is being used?",
+          "options": {
+            "A": "Topical",
+            "B": "Chronological",
+            "C": "Methodological",
+            "D": "Debate"
+          },
+          "answer": "B",
+          "short_explanation": "This structure is organized by time periods, which is a chronological approach.",
+          "long_explanation": "The headings clearly divide the literature based on historical development and time periods. This is the definition of a Chronological approach, which is useful when a field displays clear development over time, as described on Slide 31."
+        },
+        {
+          "id": 19,
+          "question": "Which of the following best describes the act of 'synthesis' in a literature review?",
+          "options": {
+            "A": "Accurately summarizing each article one by one in the order they were read.",
+            "B": "Creating a table that lists the methodologies of all reviewed studies.",
+            "C": "Drawing connections between different studies to identify patterns, themes, or debates.",
+            "D": "Checking each source for proper grammar and citation style before including it."
+          },
+          "answer": "C",
+          "short_explanation": "Synthesis is about making connections and building a new, integrated understanding from multiple sources.",
+          "long_explanation": "As emphasized on Slides 24 and 34, synthesis is the opposite of a disconnected list of summaries. It involves higher-order thinking to connect ideas from various sources, thereby creating a coherent argument about the state of the field, identifying trends, and revealing gaps that aren't visible from a single paper."
+        },
+        {
+          "id": 20,
+          "question": "Why is a peer-reviewed journal article generally considered a more trustworthy source than a blog post by an industry expert?",
+          "options": {
+            "A": "Because journal articles are always written in a more formal and academic style.",
+            "B": "Because journal articles have been vetted for quality, rigor, and validity by other experts in the field.",
+            "C": "Because blog posts are always biased, whereas journal articles are always completely objective.",
+            "D": "Because journal articles are typically longer and contain more detailed information."
+          },
+          "answer": "B",
+          "short_explanation": "Peer review is a quality control process where experts vet a study's validity before publication.",
+          "long_explanation": "Slide 22 highlights that peer-reviewed articles require an editorial board to review, critique, and correct the work. This process of expert scrutiny is designed to ensure the research is methodologically sound and the conclusions are justified by the evidence. A blog post, even by an expert, does not undergo this rigorous, independent validation process."
+        },
+        {
+          "id": 21,
+          "question": "A 'Methodological Gap' is identified when:",
+          "options": {
+            "A": "A researcher lacks the skills to apply a specific research method.",
+            "B": "The methods of prior studies are flawed or limited, and a new approach is needed.",
+            "C": "A study's methodology section is poorly written and difficult to understand.",
+            "D": "Different studies use the same methodology but arrive at different conclusions."
+          },
+          "answer": "B",
+          "short_explanation": "A Methodological Gap addresses conflicts or limitations in the research methods of prior studies.",
+          "long_explanation": "As defined on Slide 41, this gap occurs when you critique the methods used in the existing literature and propose that a different research method could provide new or better insights. It's about the limitations of the field's current methodological toolkit, not just a single poorly written paper or a researcher's skill level."
+        },
+        {
+          "id": 22,
+          "question": "The primary reason for conducting a literature review is to 'carve out a space' for further research. This is achieved mainly by:",
+          "options": {
+            "A": "Proving that all previous research on the topic is fundamentally wrong.",
+            "B": "Demonstrating the researcher's superior knowledge of the subject matter.",
+            "C": "Identifying a specific, unanswered question or unaddressed problem (a gap).",
+            "D": "Summarizing the history of the research field from its inception."
+          },
+          "answer": "C",
+          "short_explanation": "'Carving out a space' means identifying a research gap that your own study will fill.",
+          "long_explanation": "This phrase, from Slide 7, is a metaphor for the ultimate purpose of a literature review. By systematically mapping what is known, you can precisely identify what is *not* known. This identified gap becomes the 'space' or justification for your own research project, allowing you to make an original contribution."
+        },
+        {
+          "id": 23,
+          "question": "What is a key difference between a Scoping Review and a Systematic Review?",
+          "options": {
+            "A": "Scoping reviews are quantitative, while systematic reviews are qualitative.",
+            "B": "Scoping reviews are often precursors to systematic reviews and do not typically assess study quality.",
+            "C": "Systematic reviews can only be conducted in medical fields, while scoping reviews are for social sciences.",
+            "D": "Systematic reviews are less structured, while scoping reviews follow a rigorous, pre-specified protocol."
+          },
+          "answer": "B",
+          "short_explanation": "Scoping reviews map the extent of literature without quality assessment and can precede a more focused systematic review.",
+          "long_explanation": "Slide 15 explicitly states that a scoping review 'does not typically assess quality of included studies' and is 'often precursor to systematic review'. Its goal is breadth (mapping a field), while a systematic review's goal is depth (answering a specific question with high-quality evidence). The other options are incorrect generalizations."
+        },
+        {
+          "id": 24,
+          "question": "A good research question should be manageable. What does this primarily refer to?",
+          "options": {
+            "A": "The question should be simple enough for a non-expert to understand.",
+            "B": "The question can be realistically answered within the available time and resources.",
+            "C": "The question has already been partially answered by previous research.",
+            "D": "The question should be broad enough to allow for many different possible answers."
+          },
+          "answer": "B",
+          "short_explanation": "A manageable question is one that is feasible to research given your practical constraints (time, resources, access).",
+          "long_explanation": "As stated on Slide 43, a research question must be manageable. This is a practical consideration. A brilliant question is useless if you don't have the time, funding, access to data, or skills to answer it. Therefore, scope and feasibility are critical components of a well-formed research question."
+        },
+        {
+          "id": 25,
+          "question": "Which quality of a good literature review ensures that it presents a fair and multi-faceted view of the topic, including conflicting findings?",
+          "options": {
+            "A": "Comprehensive coverage",
+            "B": "Clear organization",
+            "C": "Balanced perspective",
+            "D": "Methodological awareness"
+          },
+          "answer": "C",
+          "short_explanation": "A 'Balanced perspective' means fairly presenting all sides of a debate, including contradictory evidence.",
+          "long_explanation": "Slide 35 highlights 'Balanced perspective' as a key quality. This involves engaging with complex and conflicting evidence rather than just presenting studies that support one viewpoint. It demonstrates a researcher's ability to handle nuance and shows intellectual honesty, which strengthens the credibility of the review."
+        },
+        {
+          "id": 26,
+          "question": "A 'primary source' in the context of a literature review is best described as:",
+          "options": {
+            "A": "The first source a researcher reads on a new topic.",
+            "B": "A textbook or encyclopedia that provides a broad overview of a field.",
+            "C": "An original report of research providing firsthand information, like a scientific paper.",
+            "D": "A review article that synthesizes the findings of many other studies."
+          },
+          "answer": "C",
+          "short_explanation": "A primary source is an original, firsthand report of new research.",
+          "long_explanation": "As defined on Slide 22, a primary source is the original report of research, such as an article where scientists describe their own experiment and results. In contrast, a secondary source (like a textbook or review article) discusses, analyzes, or summarizes information from primary sources. It's crucial to rely on primary sources for detailed, accurate information."
+        },
+        {
+          "id": 27,
+          "question": "According to the lecture, what is the relationship between finding a research gap and crafting a research question?",
+          "options": {
+            "A": "A research question must be formulated before a research gap can be identified.",
+            "B": "Finding a research gap leads to the formulation or reformulation of the research question.",
+            "C": "The research gap and the research question are identical and interchangeable concepts.",
+            "D": "A research gap is only relevant for quantitative studies, while a research question is for qualitative studies."
+          },
+          "answer": "B",
+          "short_explanation": "You find the gap first, and then you formulate a question to address that specific gap.",
+          "long_explanation": "Slide 43 explicitly states, 'Finding a research gap leads to the reformulation of the research question.' The gap is the problem or the missing piece of knowledge identified in the literature. The research question is the specific, actionable query you pose to try and fill that gap. The gap justifies the question."
+        },
+        {
+          "id": 28,
+          "question": "A review that is highly interpretive, acknowledges the researcher's role in creating meaning, and aims for a holistic understanding of concepts is a:",
+          "options": {
+            "A": "Systematic Review",
+            "B": "Scoping Review",
+            "C": "Hermeneutic Review",
+            "D": "Meta-Analysis"
+          },
+          "answer": "C",
+          "short_explanation": "A Hermeneutic Review is defined by its interpretive, philosophical, and holistic approach.",
+          "long_explanation": "The characteristics described—interpretive focus, acknowledging the researcher's role, and holistic understanding—are the defining features of a Hermeneutic Literature Review, as detailed on Slide 17. This contrasts sharply with the objective, structured approaches of Systematic, Scoping, or Meta-Analytic reviews."
+        },
+        {
+          "id": 29,
+          "question": "Which of the following is an example of a 'Debate' organizational approach for a literature review?",
+          "options": {
+            "A": "Section 1 covers studies from 1990-2000; Section 2 covers 2001-2010.",
+            "B": "The review analyzes one foundational paper by Turing and discusses its impact.",
+            "C": "Section 1 discusses 'Proponents of AI Determinism'; Section 2 discusses 'Critics and Advocates of Social Shaping'.",
+            "D": "Section 1 covers 'AI in Healthcare'; Section 2 covers 'AI in Finance'."
+          },
+          "answer": "C",
+          "short_explanation": "A Debate structure organizes the review around clear opposing positions or arguments in the literature.",
+          "long_explanation": "Slide 31 describes the Debate approach as one that 'emphasizes various strands of research in which proponents of various models openly criticize one another.' Option C perfectly illustrates this by structuring the review around two opposing schools of thought, which is the essence of a debate."
+        },
+        {
+          "id": 30,
+          "question": "The lecture emphasizes that a literature review 'is never just a list of studies—it always offers an argument'. What does this imply about the writer's task?",
+          "options": {
+            "A": "The writer must aggressively criticize every study to show its flaws.",
+            "B": "The writer's main goal is to persuade the reader to adopt their personal opinion.",
+            "C": "The writer must synthesize the literature to support a specific claim about the state of the field.",
+            "D": "The writer should only include studies that fit into a single, coherent narrative."
+          },
+          "answer": "C",
+          "short_explanation": "Offering an argument means making and supporting a claim about the literature's overall state, trends, or gaps.",
+          "long_explanation": "This statement from Slide 24 underscores that a literature review is an analytical work. The 'argument' is the thesis statement of the review (e.g., 'the field has overlooked X,' or 'a new synthesis of Y and Z is needed'). The writer's task is to use the evidence from the literature to build and support this central claim in a balanced and critical way."
+        },
+        {
+          "id": 31,
+          "question": "In STEP 1: Planning and Identification, why is it important to define the 'Scope' of your review early on?",
+          "options": {
+            "A": "To ensure the review is long enough to meet the word count requirement.",
+            "B": "To create manageable boundaries for your search and prevent information overload.",
+            "C": "To choose the citation style (e.g., APA, MLA) you will use for the final paper.",
+            "D": "To finalize the conclusion of your research before you begin the review."
+          },
+          "answer": "B",
+          "short_explanation": "Defining the scope (keywords, databases, time period) sets clear boundaries to make the search manageable.",
+          "long_explanation": "As shown on Slide 20, defining the scope involves developing a search strategy. This is crucial for efficiency and focus. Without clear boundaries (e.g., specific keywords, date ranges, included disciplines), a researcher could drown in an ocean of irrelevant information. A well-defined scope makes the task of locating relevant sources achievable."
+        },
+        {
+          "id": 32,
+          "question": "Which of the following would be considered a 'secondary source'?",
+          "options": {
+            "A": "An interview transcript with an AI developer about their design process.",
+            "B": "A scientific article detailing the results of a new experiment on algorithmic bias.",
+            "C": "A patent filing for a new machine learning algorithm.",
+            "D": "A textbook chapter that summarizes major theories of technology adoption."
+          },
+          "answer": "D",
+          "short_explanation": "A secondary source, like a textbook, summarizes or analyzes information from original (primary) sources.",
+          "long_explanation": "Slide 22 defines secondary sources as 'second-hand accounts' or 'an assembled review of primary sources'. A textbook chapter fits this perfectly, as it synthesizes existing knowledge for educational purposes. The other options (interview transcript, scientific article with new results, patent filing) are all forms of primary sources because they present original, firsthand information."
+        },
+        {
+          "id": 33,
+          "question": "A 'Theoretical Gap' is best described as a situation where:",
+          "options": {
+            "A": "A theory exists but has not been tested with empirical data.",
+            "B": "The existing theories are insufficient to explain a phenomenon or are in conflict.",
+            "C": "A researcher has not read enough theoretical literature.",
+            "D": "Two studies using the same theory produce contradictory results."
+          },
+          "answer": "B",
+          "short_explanation": "A Theoretical Gap points to a flaw or inadequacy in the existing theories themselves.",
+          "long_explanation": "As per Slide 42, a Theoretical Gap involves 'gaps in theory with the prior research or theoretical conflict.' This means the problem lies with the explanatory power of the existing theoretical frameworks—they either don't fully explain what's being observed, or different theories offer conflicting explanations. This is distinct from an Empirical Gap (Option A), which is about a lack of testing."
+        },
+        {
+          "id": 34,
+          "question": "What is the main purpose of using 'clear headings and subheadings' in a literature review?",
+          "options": {
+            "A": "To increase the overall word count of the document.",
+            "B": "To show the reviewer that you have read a large number of sources.",
+            "C": "To guide the audience through the review's logical structure and organization.",
+            "D": "To separate the summary of each article from the next."
+          },
+          "answer": "C",
+          "short_explanation": "Headings and subheadings serve as signposts, making the review's structure clear and easy to follow.",
+          "long_explanation": "Slide 33 lists 'Clear organization' as a hallmark of a good review and mentions using headings and subheadings to guide the audience. This is a fundamental principle of good academic writing. Headings make the thematic or chronological structure explicit, improving readability and helping the reader understand how different parts of your argument connect."
+        },
+        {
+          "id": 35,
+          "question": "A student's literature review thesis statement is: 'This article will review scholarship on AI-driven education.' Why is this considered a weak thesis statement?",
+          "options": {
+            "A": "It is too long and complex for a thesis statement.",
+            "B": "It is a statement of intent, not an argument or critical claim about the literature.",
+            "C": "It focuses on a topic that is too new to have sufficient literature.",
+            "D": "It should include a list of the specific authors that will be reviewed."
+          },
+          "answer": "B",
+          "short_explanation": "A strong thesis must make an argument or a claim, not just state what you are going to do.",
+          "long_explanation": "A good thesis statement offers an argument, points out a gap, or provides a critical assessment (Slide 27). The example 'This article will review...' is merely descriptive; it announces the topic but makes no claim about it. A stronger version would be like the one on Slide 30: 'In this article, we review and *critique* scholarship... to *consider the components of a critical AI-based pedagogy*,' which presents a clear argument and purpose."
+        },
+        {
+          "id": 36,
+          "question": "The quality of 'Methodological awareness' in a literature review means the author:",
+          "options": {
+            "A": "Only includes studies that use the same methodology as their own planned research.",
+            "B": "Can expertly apply all the research methods discussed in the literature.",
+            "C": "Understands and discusses the strengths and limitations of the methods used in the reviewed studies.",
+            "D": "Provides a separate chapter dedicated to explaining different research methods."
+          },
+          "answer": "C",
+          "short_explanation": "Methodological awareness is the ability to critically evaluate the methods of the studies you review.",
+          "long_explanation": "As stated on Slide 34, this quality involves demonstrating an understanding of the research methods used in the studies. This isn't just about listing the methods; it's about discussing their strengths and limitations and how those choices impact the findings. This critical perspective adds depth to the review."
+        },
+        {
+          "id": 37,
+          "question": "An 'Evidence Gap' is characterized by:",
+          "options": {
+            "A": "A complete lack of any studies on a particular topic.",
+            "B": "Conflicting findings from different studies on the same question.",
+            "C": "The use of outdated evidence in most of the literature.",
+            "D": "A lack of theoretical grounding for the empirical evidence."
+          },
+          "answer": "B",
+          "short_explanation": "An Evidence Gap arises when research findings contradict each other.",
+          "long_explanation": "Slide 40 defines the 'Contradictory evidence gap' as occurring when 'research findings contradict'. This creates uncertainty about a topic because the evidence points in different directions. A researcher might then try to investigate why these contradictions exist. This is different from a Knowledge Gap (Option A), where there is no evidence at all."
+        },
+        {
+          "id": 38,
+          "question": "When writing a research question, the lecture suggests it should not be 'too broad or too narrow'. Which of the following is an example of a question that is likely 'too broad'?",
+          "options": {
+            "A": "What is the impact of AI on society?",
+            "B": "How do nurses at St. Mary's Hospital perceive the new AI-powered scheduling system?",
+            "C": "What is the effect of using the Duolingo app on vocabulary acquisition among German-speaking learners of English?",
+            "D": "Does the color of a website's 'buy' button affect click-through rates on e-commerce sites?"
+          },
+          "answer": "A",
+          "short_explanation": "A question like 'What is the impact of AI on society?' is too broad because it covers a vast, unmanageable scope.",
+          "long_explanation": "As discussed on Slide 43, a good research question must be focused. 'The impact of AI on society' is a topic for an entire library, not a single research project. It lacks specificity regarding what kind of AI, what aspect of society, and what kind of impact. The other options are all more focused and manageable for a research study."
+        },
+        {
+          "id": 39,
+          "question": "Which of the following actions is a crucial part of STEP 4: Evaluating and Synthesizing?",
+          "options": {
+            "A": "Choosing the academic databases you will use for your search.",
+            "B": "Asking if a source is scholarly work and relevant to the topic.",
+            "C": "Identifying loopholes, benefits, and limitations in the existing body of research.",
+            "D": "Developing a clear outline with headings and subheadings before writing."
+          },
+          "answer": "C",
+          "short_explanation": "Step 4 is about deep analysis, which involves finding loopholes and evaluating the strengths and weaknesses of the literature.",
+          "long_explanation": "Slide 24 outlines the key questions for Step 4, which include asking 'Are there loopholes in existing research?' and 'What are the benefits of existing studies, and will a new study add to the literature?'. This critical evaluation of the entire body of research is the essence of synthesis. Option A is Step 1 (Planning), Option B is Step 2 (Locating/Evaluating), and Option D is part of Step 5 (Drafting)."
+        },
+        {
+          "id": 40,
+          "question": "The lecture states, 'You cannot find a promising research gap until you stop trusting the literature and approach it more critically.' This implies that a research gap is most often found by:",
+          "options": {
+            "A": "Finding an article that explicitly states what the next research question should be.",
+            "B": "Identifying the weaknesses, contradictions, or unexamined assumptions in existing studies.",
+            "C": "Simply looking for topics that have not been written about at all.",
+            "D": "Trusting the conclusions of the most highly cited authors in the field."
+          },
+          "answer": "B",
+          "short_explanation": "A critical approach means you actively search for flaws, contradictions, and assumptions to find a gap.",
+          "long_explanation": "This quote from Slide 2 gets at the heart of what it means to do a literature review. A gap isn't usually a neatly labeled hole. It is revealed through critical analysis—by questioning the methods, challenging the assumptions, comparing contradictory findings, and noticing what has been overlooked. It is an active process of interrogation, not passive acceptance."
+        }
+      ]
+    }
+  ]
+}
