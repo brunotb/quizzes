@@ -5,162 +5,565 @@
       "questions": [
         {
           "id": 1,
-          "question": "What is the primary purpose of a literature review according to the provided slides?",
+          "question": "According to the lecture, what is the primary purpose of conducting a literature review in the research process?",
           "options": {
-            "A": "To provide a simple list of summaries of existing articles.",
-            "B": "To critically analyze, evaluate, and synthesize research to identify a research gap.",
+            "A": "To provide a simple list of all publications in a field.",
+            "B": "To find a promising research gap by critically approaching the literature.",
             "C": "To prove that the researcher's initial hypothesis is correct.",
-            "D": "To only include research that supports a specific viewpoint."
+            "D": "To only summarize the most famous studies without critique."
           },
           "answer": "B",
-          "short_explanation": "A literature review is a systematic and critical examination of scholarly literature to reveal gaps in current knowledge.",
-          "long_explanation": "The slides (e.g., slide 5) define a literature review as a systematic examination that critically analyzes, evaluates, and synthesizes findings to reveal gaps. It is not merely a list of summaries but an argument about the state of research that helps 'carve out a space' for further work."
+          "short_explanation": "A literature review's main goal is to critically analyze existing work to identify a research gap.",
+          "long_explanation": "Slide 2 emphasizes that you cannot craft a good research question until you find a promising research gap, which requires you to stop trusting the literature and approach it more critically. The process is not about simple summarization but about systematic and critical analysis to justify new research."
         },
         {
           "id": 2,
-          "question": "The process of identifying a topic, conducting a literature review, and then reframing the research question is described as what kind of process?",
-          "options": {
-            "A": "A linear process",
-            "B": "A conclusive process",
-            "C": "An iterative process",
-            "D": "A deductive process"
-          },
-          "answer": "C",
-          "short_explanation": "The slides depict the research process as iterative, where the literature review helps refine the initial research question.",
-          "long_explanation": "Slide 3 illustrates the research journey as an iterative process. A researcher starts with a tentative topic, conducts a literature review, and uses the findings to reframe the research question based on an identified research gap. This cycle can be repeated."
-        },
-        {
-          "id": 3,
-          "question": "Which type of literature review is described as a traditional, less systematic approach that provides a broad overview but can be prone to bias?",
+          "question": "Which type of literature review is described as being less systematic, providing a broad overview, and being prone to bias in source selection?",
           "options": {
             "A": "Systematic Review",
             "B": "Meta-Analysis",
-            "C": "Scoping Review",
-            "D": "Narrative Review"
+            "C": "Narrative Review",
+            "D": "Scoping Review"
           },
-          "answer": "D",
+          "answer": "C",
           "short_explanation": "A Narrative Review is the traditional, less structured approach to reviewing literature.",
-          "long_explanation": "As per slide 13, a Narrative Review is a traditional approach that gives a broad overview. However, its methodology is less systematic and structured, making it potentially prone to bias in the selection of sources."
+          "long_explanation": "Slide 13 defines a narrative review as a traditional approach that is less systematic and can be prone to bias. In contrast, a systematic review is highly structured, a meta-analysis is statistical, and a scoping review maps broad topics."
+        },
+        {
+          "id": 3,
+          "question": "What is the key characteristic of a Systematic Review?",
+          "options": {
+            "A": "It is limited to quantitative data only.",
+            "B": "It follows an interpretive and circular process.",
+            "C": "It is highly structured with explicit, pre-specified methods to minimize bias.",
+            "D": "It primarily provides a broad, non-critical overview of a topic."
+          },
+          "answer": "C",
+          "short_explanation": "A Systematic Review is defined by its highly structured and rigorous methodology designed to be comprehensive and minimize bias.",
+          "long_explanation": "Slide 14 highlights that a systematic review uses a rigorous and reproducible methodology. It is distinct from a meta-analysis which is quantitative, a hermeneutic review which is interpretive, and a narrative review which is a broad overview."
         },
         {
           "id": 4,
-          "question": "A Systematic Review is characterized by its aim to do what?",
+          "question": "A 'knowledge void gap' is a type of research gap where:",
           "options": {
-            "A": "Provide a subjective interpretation of the literature.",
-            "B": "Be comprehensive and minimize bias using explicit, pre-specified methods.",
-            "C": "Focus only on qualitative data and researcher opinions.",
-            "D": "Explore emerging fields without assessing study quality."
+            "A": "Research findings from different studies contradict each other.",
+            "B": "The actual behavior in practice is different from the expected behavior.",
+            "C": "Knowledge does not exist in the actual field or a study's results differ from what was expected.",
+            "D": "A specific population is not adequately represented in the research."
           },
-          "answer": "B",
-          "short_explanation": "Systematic reviews use a highly structured and rigorous methodology to be comprehensive and minimize bias.",
-          "long_explanation": "Slide 14 highlights that a Systematic Review uses a highly structured methodology, follows explicit methods, and aims to be comprehensive to minimize bias. Its results are intended to be reproducible by others."
+          "answer": "C",
+          "short_explanation": "A knowledge void gap occurs when knowledge is missing in a field or when study results are unexpected.",
+          "long_explanation": "Slide 40 defines a knowledge gap (specifically a knowledge void gap) as a situation where knowledge may not exist in the field or the results of a study differ from expectations. Contradictory findings refer to an evidence gap, and under-represented populations refer to a population gap."
         },
         {
           "id": 5,
-          "question": "What is the main function of a Scoping Review?",
+          "question": "What is the relationship between a research gap and a research question?",
           "options": {
-            "A": "To statistically combine results from multiple quantitative studies.",
-            "B": "To provide a definitive answer to a very specific research question.",
-            "C": "To map key concepts and types of evidence in an emerging or complex field.",
-            "D": "To critically assess the quality of every included study."
+            "A": "A research question is formulated first, and the research gap is found later to support it.",
+            "B": "Finding a research gap leads to the formulation or reformulation of the research question.",
+            "C": "The research gap and research question are independent of each other.",
+            "D": "A good research question can exist without addressing any specific research gap."
           },
-          "answer": "C",
-          "short_explanation": "A Scoping Review is used to map key concepts and evidence, especially in new or complex topics.",
-          "long_explanation": "According to slide 15, a Scoping Review maps key concepts and evidence on a topic. It is particularly useful for emerging fields, is less focused on specific questions, and often serves as a precursor to a systematic review."
+          "answer": "B",
+          "short_explanation": "Identifying a research gap is the crucial step that justifies and helps formulate a relevant research question.",
+          "long_explanation": "Slide 43 explicitly states that 'Finding a research gap leads to the reformulation of the research question.' Slide 44 reinforces this by stating, 'A good research question is related to a current research gap.'"
         },
         {
           "id": 6,
-          "question": "A Meta-Analysis is a powerful tool for determining the effectiveness of interventions because it does what?",
+          "question": "Which of the following is NOT one of the six fundamental values of academic integrity identified by the International Center for Academic Integrity?",
           "options": {
-            "A": "It exclusively uses qualitative data.",
-            "B": "It statistically combines results from multiple quantitative studies to estimate an overall effect.",
-            "C": "It focuses on the historical development of a research topic.",
-            "D": "It allows for the inclusion of studies with very different methodologies."
+            "A": "Honesty",
+            "B": "Courage",
+            "C": "Innovation",
+            "D": "Respect"
           },
-          "answer": "B",
-          "short_explanation": "A Meta-Analysis statistically combines results of multiple quantitative studies to provide a precise estimate of an overall effect.",
-          "long_explanation": "Slide 16 defines Meta-Analysis as a method that statistically combines the results of multiple quantitative studies. This provides a precise estimate of the overall effect, making it powerful for determining the effectiveness of interventions, but it is limited to quantitative data."
+          "answer": "C",
+          "short_explanation": "Innovation is not listed as one of the six fundamental values of academic integrity.",
+          "long_explanation": "Slide 4 displays the six fundamental values of academic integrity: Honesty, Trust, Fairness, Respect, Responsibility, and Courage. Innovation, while valued in academia, is not one of these core ethical principles."
         },
         {
           "id": 7,
-          "question": "What is a 'research gap' in the context of a literature review?",
+          "question": "According to §13 of the TUM-SGwP, academic misconduct is defined as an act of:",
           "options": {
-            "A": "A topic that has already been extensively studied and is well understood.",
-            "B": "A topic for which a missing or insufficient body of knowledge limits the ability to reach a conclusion.",
-            "C": "A disagreement between two prominent researchers.",
-            "D": "The time difference between when research was conducted and when it was published."
+            "A": "Minor oversight in citation style.",
+            "B": "Gross negligence, whether intentional or unintentional.",
+            "C": "Any disagreement with a supervisor's opinion.",
+            "D": "Publishing research that is not groundbreaking."
           },
           "answer": "B",
-          "short_explanation": "A research gap is a topic or subject where insufficient existing knowledge limits reaching a conclusion.",
-          "long_explanation": "Slide 39 defines a research gap as a topic or subject for which a missing or insufficient body of knowledge limits the ability to reach a conclusion or provide a sufficient solution to a problem. Identifying this gap is a key outcome of a literature review."
+          "short_explanation": "The TUM-SGwP defines academic misconduct as practicing gross negligence, which can be either intentional or unintentional.",
+          "long_explanation": "Slide 23 states, 'The code of good scientific practice is in violation when someone practices gross negligence (whether intentional or unintentional) in any of the following ways...' This indicates that the severity of the act (gross negligence) is key, not just minor errors."
         },
         {
           "id": 8,
-          "question": "A 'Contradictory evidence gap' is a type of which broader category of research gap?",
+          "question": "What is 'Bibliography Amnesia' as a form of plagiarism?",
           "options": {
-            "A": "Knowledge Gap",
-            "B": "Methodological Gap",
-            "C": "Evidence Gap",
-            "D": "Population Gap"
+            "A": "Translating a text from another language without citing the source.",
+            "B": "Listing references in the bibliography that were not cited in the text.",
+            "C": "Giving in-text citations but failing to list the complete reference in the bibliography.",
+            "D": "Using another author's text unchanged without any citation."
           },
           "answer": "C",
-          "short_explanation": "A contradictory evidence gap occurs when research findings contradict each other and falls under the category of an Evidence Gap.",
-          "long_explanation": "Slide 40 categorizes research gaps. An 'Evidence Gap' includes the 'Contradictory evidence gap,' which arises when different research findings on a topic are in conflict with one another."
+          "short_explanation": "'Bibliography Amnesia' is when a source is cited in the text, but the full reference is omitted from the reference list.",
+          "long_explanation": "Slide 25 defines 'Bibliography amnesia' as 'giving in-text citations without listing the complete reference in the reference list.' This is contrasted with 'Bibliography balloon,' where sources are listed but not cited."
         },
         {
           "id": 9,
-          "question": "Which type of research gap addresses conflicts with the research methods used in prior studies?",
+          "question": "Under German Copyright Law (§51 UrhG), what is a key condition for the 'right to citation' (Zitatrecht) to apply?",
           "options": {
-            "A": "Practical-Knowledge Gap",
-            "B": "Theoretical Gap",
-            "C": "Empirical Gap",
-            "D": "Methodological Gap"
+            "A": "The citation must be for ornamental or illustrative purposes.",
+            "B": "The citation must have a purpose and a content-related connection to your own work.",
+            "C": "You can alter the quotation to better fit your argument.",
+            "D": "You only need to mention the author's name without a full reference."
           },
-          "answer": "D",
-          "short_explanation": "A Methodological Gap addresses conflicts or issues with the research methods of previous studies.",
-          "long_explanation": "As per slide 41, a 'Methodological Gap' (specifically, a Method and Research Design Gap) addresses conflicts with the research methods in prior studies and may propose a new line of research using different methods."
+          "answer": "B",
+          "short_explanation": "The right to citation requires a clear, content-related purpose and connection between the cited work and your own.",
+          "long_explanation": "Slide 32 explicitly states, 'The citations must have a purpose. This means, there has to be a content-related connection between your work and the cited work.' It also specifies that citation for mere illustration or ornament is not permitted."
         },
         {
           "id": 10,
-          "question": "What is the relationship between a research gap and a research question?",
+          "question": "What is the principle of 'Retrievability' in citing sources?",
           "options": {
-            "A": "A research question is formulated first, and then a research gap is created to fit it.",
-            "B": "Finding a research gap leads to the formulation or reformulation of the research question.",
-            "C": "Research gaps and research questions are unrelated concepts in academic writing.",
-            "D": "A research question is a summary of all existing research gaps."
+            "A": "Ensuring you have permission to use the source.",
+            "B": "Clearly distinguishing your own ideas from those of others.",
+            "C": "Providing enough information for the reader to find the original source.",
+            "D": "Using the same citation style throughout your document."
           },
-          "answer": "B",
-          "short_explanation": "The identification of a research gap is the foundation for formulating a relevant and focused research question.",
-          "long_explanation": "Slide 43 explicitly states that 'Finding a research gap leads to the reformulation of the research question.' This highlights the logical progression from critically reviewing literature to identifying a gap and then framing a question to address that gap."
+          "answer": "C",
+          "short_explanation": "Retrievability means your citation must enable the reader to locate the source you used.",
+          "long_explanation": "Slide 34 defines the principle of Retrievability with the questions: 'Where does my information come from? Can my reader find my sources?' This highlights the importance of providing a clear path back to the original work for verification and further reading."
         },
         {
           "id": 11,
-          "question": "According to the 'Four Objectives of the Literature Review' (Onwuegbuzie's taxonomy), which objective is at the highest level?",
+          "question": "The concept of 'Code is Law' by Lawrence Lessig suggests that:",
           "options": {
-            "A": "Summarize",
-            "B": "Analyze",
-            "C": "Evaluate",
-            "D": "Synthesize"
+            "A": "All software code should be regulated by international treaties.",
+            "B": "The architecture of a system (the code) regulates behavior in a way similar to legal statutes.",
+            "C": "Technology is a neutral tool, and only its users can be regulated.",
+            "D": "Legal professionals should learn how to write computer code."
           },
-          "answer": "D",
-          "short_explanation": "In the taxonomy of literature review objectives, 'Synthesize' represents the highest level of cognitive and affective processing.",
-          "long_explanation": "Slide 18 presents a taxonomy of literature review objectives mapped to Bloom's taxonomy. 'Synthesize' is at the top, involving integrating different concepts, theories, and findings into a new, coherent whole, which is a more complex task than summarizing, analyzing, or evaluating."
+          "answer": "B",
+          "short_explanation": "'Code is Law' argues that the architecture of cyberspace and software acts as a form of regulation on user behavior.",
+          "long_explanation": "Slide 6 presents 'Code is Law' as a key concept demonstrating that technology is not neutral. It explains that constraints and freedoms built into the code (architecture) of a system function like laws, norms, and market forces to regulate what is possible for a user to do."
         },
         {
           "id": 12,
-          "question": "What is a key characteristic of a thesis statement in a literature review?",
+          "question": "Which of the four branches of Technology Assessment (TA) focuses on involving citizens, consumers, and stakeholders in technology governance?",
           "options": {
-            "A": "It must be a neutral statement of fact with no argument.",
-            "B": "It offers an argument or a critical assessment about the literature.",
-            "C": "It is always a question posed to the reader.",
-            "D": "It only summarizes the main finding of a single seminal study."
+            "A": "TA as policy advice",
+            "B": "TA as medium of participation (Participatory TA)",
+            "C": "TA for shaping technology directly",
+            "D": "TA in innovation processes"
           },
           "answer": "B",
-          "short_explanation": "A thesis statement in a literature review is not neutral; it presents an argument or claim about the body of literature.",
-          "long_explanation": "Slide 27 defines a thesis statement as offering an argument about the literature. It can do this by making a claim, pointing out gaps, or relating the literature to the larger study, moving beyond simple summary to critical assessment."
+          "short_explanation": "Participatory TA is the branch that explicitly involves the public and other stakeholders in the assessment process.",
+          "long_explanation": "Slide 9 defines 'TA as medium of participation' or Participatory TA as the branch that 'Involves citizens, consumers and users, actors of civil society, stakeholders, the media, and the public' in governance. Examples include consensus conferences and citizens' juries."
         },
         {
           "id": 13,
+          "question": "According to Ulrich Beck's concept of 'Risk Society', what kind of risks characterize modern society?",
+          "options": {
+            "A": "Natural disasters and external threats that are easily understood.",
+            "B": "Risks that are always visible, predictable, and equally distributed.",
+            "C": "Manufactured, invisible, and unequally distributed risks introduced by modernization itself.",
+            "D": "Risks that can always be overcome by the system of industrial society."
+          },
+          "answer": "C",
+          "short_explanation": "Beck's 'Risk Society' is characterized by dealing with manufactured, invisible, and unequally distributed risks created by modernization.",
+          "long_explanation": "Slide 12 explains that a 'risk society' is a 'systematic way of dealing with hazards and insecurities induced and introduced by modernisation itself.' It highlights that these risks are manufactured (e.g., from genetic engineering), invisible, and unequally distributed, and cannot be overcome by the existing industrial system."
+        },
+        {
+          "id": 14,
+          "question": "What is the primary focus of a Data Protection Impact Assessment (DPIA) as required by the GDPR?",
+          "options": {
+            "A": "Assessing the financial viability of a new technology.",
+            "B": "Assessing a broad range of fundamental human rights concerns.",
+            "C": "Assessing and mitigating risks to the rights and freedoms of data subjects, specifically concerning privacy.",
+            "D": "Assessing the environmental impact of data centers."
+          },
+          "answer": "C",
+          "short_explanation": "A DPIA is a process under the GDPR to identify and minimize the data protection risks of a project.",
+          "long_explanation": "Slides 18, 19, and 24 clarify that a DPIA is a rights-based risk assessment focused on data protection and privacy risks. Its goal is to provide assurance that controllers adequately address these specific risks to data subjects. This is narrower than an FRIA, which covers a broader range of fundamental rights."
+        },
+        {
+          "id": 15,
+          "question": "Under the EU AI Act, who is primarily required to complete a Fundamental Rights Impact Assessment (FRIA)?",
+          "options": {
+            "A": "All developers of any AI system.",
+            "B": "End-users who interact with low-risk AI systems.",
+            "C": "Deployers of high-risk AI systems who are public bodies or providing public services.",
+            "D": "Independent auditors who are not involved in the AI's deployment."
+          },
+          "answer": "C",
+          "short_explanation": "FRIAs are required for deployers of high-risk AI systems, specifically those that are public bodies or private entities providing public services.",
+          "long_explanation": "Slide 22 specifies that not all deployers of high-risk AI systems must complete a FRIA. The obligation falls on 'deployers that are bodies governed by public law, or are private entities providing public services' for specific high-risk systems listed in Annex III."
+        },
+        {
+          "id": 16,
+          "question": "What is the relationship between a DPIA and a FRIA according to the lecture?",
+          "options": {
+            "A": "They are redundant and cover the exact same risks.",
+            "B": "A FRIA is a mandatory prerequisite for conducting a DPIA.",
+            "C": "A DPIA can serve as a foundation for a FRIA, which then addresses additional fundamental rights.",
+            "D": "They are completely separate processes with no interaction or overlap."
+          },
+          "answer": "C",
+          "short_explanation": "A DPIA is complementary to a FRIA; it can form the basis, but the FRIA must cover a broader range of rights.",
+          "long_explanation": "Slide 24 explains the regulatory synergy between the two. A DPIA covers data protection and privacy risks, while a FRIA covers a broader range of fundamental rights concerns. The AI Act allows for a DPIA to be used as a foundation, which the FRIA then complements by addressing the additional rights."
+        },
+        {
+          "id": 17,
+          "question": "Which of the following is a key element of the Design Thinking process, often visualized in a Venn diagram?",
+          "options": {
+            "A": "Profitability (Business)",
+            "B": "Desirability (Human)",
+            "C": "Scalability (Technical)",
+            "D": "Legality (Compliance)"
+          },
+          "answer": "B",
+          "short_explanation": "Desirability (Human) is one of the three core, intersecting elements of Design Thinking, alongside Feasibility and Viability.",
+          "long_explanation": "Slide 5 shows a Venn diagram with three circles: Desirability (human), Feasibility (technical), and Viability (economic). The process starts with human desirability, exploring the real human need behind a problem."
+        },
+        {
+          "id": 18,
+          "question": "What kind of problems is Design Thinking most useful for tackling?",
+          "options": {
+            "A": "Simple, well-defined problems with a single correct answer.",
+            "B": "Problems that can be solved with a linear, step-by-step methodology.",
+            "C": "Ill-defined or unknown problems, also known as 'wicked problems'.",
+            "D": "Purely technical problems that require no user input."
+          },
+          "answer": "C",
+          "short_explanation": "Design Thinking is most effective for addressing complex, ill-defined 'wicked problems' that lack a clear solution path.",
+          "long_explanation": "Slide 6 explicitly states that Design Thinking 'is most useful to tackle ill-defined or unknown problems.' It then defines 'wicked problems' as those with many interdependent factors that seem impossible to solve through traditional, linear approaches."
+        },
+        {
+          "id": 19,
+          "question": "In the five-stage Design Thinking model from Stanford, what is the primary activity in the 'Empathize' stage?",
+          "options": {
+            "A": "Brainstorming a wide range of creative solutions.",
+            "B": "Building a low-fidelity version of the solution.",
+            "C": "Learning about the audience for whom you are designing through observation and engagement.",
+            "D": "Defining a clear problem statement based on assumptions."
+          },
+          "answer": "C",
+          "short_explanation": "The 'Empathize' stage is focused on understanding the user's experiences, needs, and motivations.",
+          "long_explanation": "Slide 18 outlines the five stages of Design Thinking. The 'Empathize' stage is the first step, where teams 'Learn about users through testing' and observation to gain a deep understanding of their perspective. This empathy is what informs the subsequent 'Define' stage."
+        },
+        {
+          "id": 20,
+          "question": "The Double Diamond model of design consists of two main spaces. What are they?",
+          "options": {
+            "A": "The Ideation Space and the Prototyping Space.",
+            "B": "The Research Space and the Testing Space.",
+            "C": "The Problem Space and the Solution Space.",
+            "D": "The Divergent Space and the Convergent Space."
+          },
+          "answer": "C",
+          "short_explanation": "The Double Diamond model is structured around exploring the Problem Space first, then exploring the Solution Space.",
+          "long_explanation": "Slide 22 explicitly states that the Double Diamond model 'consists of two diamonds: one for the problem space and, the other for the solution space.' The activities of diverging and converging happen within each of these two main spaces."
+        },
+        {
+          "id": 21,
+          "question": "What is the key difference between Design Thinking and Agile methodology?",
+          "options": {
+            "A": "Design Thinking is iterative, while Agile is linear.",
+            "B": "Design Thinking focuses on efficient product delivery, while Agile focuses on exploring the problem.",
+            "C": "Design Thinking is for software, while Agile is for physical products.",
+            "D": "Design Thinking is about defining the right problem, while Agile is about efficiently building the product."
+          },
+          "answer": "D",
+          "short_explanation": "Design Thinking explores the problem to find the right solution, whereas Agile efficiently executes and delivers that solution.",
+          "long_explanation": "Slide 27 provides a detailed comparison. It states, 'Design thinking is more about exploring and defining the right problem and solution, whereas agile is about efficiently executing and delivering a product.' Design Thinking typically precedes Agile in a project lifecycle."
+        },
+        {
+          "id": 22,
+          "question": "A 'methodological gap' in research refers to a situation where:",
+          "options": {
+            "A": "There is a conflict with the research methods used in prior studies, suggesting a new approach is needed.",
+            "B": "No study has attempted to evaluate a topic from an empirical approach.",
+            "C": "Research findings from different studies are contradictory.",
+            "D": "A theory has not yet been applied to a specific field or context."
+          },
+          "answer": "A",
+          "short_explanation": "A methodological gap addresses conflicts or shortcomings in the research methods of previous studies.",
+          "long_explanation": "Slide 41 defines the 'Method and Research Design Gap' as one that 'addresses the conflicts with the research methods in the prior studies and offers a new line of research that is different from those research methods.' It is about the 'how' of the research, not just the 'what'."
+        },
+        {
+          "id": 23,
+          "question": "According to the DFG Code of Conduct (Guideline 14), who qualifies as an 'author' of a research publication?",
+          "options": {
+            "A": "Anyone who provided funding for the research.",
+            "B": "The head of the department where the research was conducted.",
+            "C": "An individual who has made a genuine, identifiable contribution to the content.",
+            "D": "Anyone who proofread the final manuscript."
+          },
+          "answer": "C",
+          "short_explanation": "Authorship under DFG guidelines requires a genuine and identifiable contribution to the research content.",
+          "long_explanation": "Slide 18 specifies the DFG's definition from Guideline 14: 'An author is an individual who has made a genuine, identifiable contribution to the content of a research publication of text, data or software.' This excludes contributions that are purely financial, administrative, or technical support without intellectual input."
+        },
+        {
+          "id": 24,
+          "question": "What does the German legal term 'Schöpfungshöhe' refer to in the context of copyright law?",
+          "options": {
+            "A": "The duration of copyright protection after an author's death.",
+            "B": "The minimum level of creativity necessary for a work to be protected by copyright.",
+            "C": "The right to cite a work for academic purposes.",
+            "D": "The penalty for copyright infringement."
+          },
+          "answer": "B",
+          "short_explanation": "'Schöpfungshöhe' is the threshold of originality or creativity a work must meet to qualify for copyright protection.",
+          "long_explanation": "Slide 29 explains that works like written texts, images, and music are protected by copyright, but they must meet a 'Minimum level of creativity necessary (Schöpfungshöhe).' Works that do not meet this threshold, like simple lists or raw data, are not protected."
+        },
+        {
+          "id": 25,
+          "question": "According to Giddens' concept of 'Reflexive Modernity', how does society approach risk?",
+          "options": {
+            "A": "By ignoring future risks and focusing only on the past.",
+            "B": "By being increasingly preoccupied with the future and safety, which generates the notion of risk.",
+            "C": "By eliminating all forms of risk-taking to create a static but safe economy.",
+            "D": "By believing that all risks are external and have no connection to societal actions."
+          },
+          "answer": "B",
+          "short_explanation": "Giddens argues that in reflexive modernity, society's preoccupation with the future and safety is what creates the modern concept of risk.",
+          "long_explanation": "Slide 13 defines a risk society in Giddens' terms as 'a society increasingly preoccupied with the future (and also with safety), which generates the notion of risk.' This self-awareness (reflexivity) about the consequences of our own actions is central to the concept."
+        },
+        {
+          "id": 26,
+          "question": "What is the primary goal of the 'Develop' phase in the Double Diamond model?",
+          "options": {
+            "A": "To conduct broad research into the problem.",
+            "B": "To narrow down and define the core problem to be solved.",
+            "C": "To develop, test, and iterate potential solutions.",
+            "D": "To finalize and launch the single best solution."
+          },
+          "answer": "C",
+          "short_explanation": "The 'Develop' phase is a period of divergent thinking where potential solutions are created and tested.",
+          "long_explanation": "Slide 22 shows the 'Develop' phase is the first part of the second diamond (the Solution Space). It is a phase of divergence where teams develop and test potential solutions, such as through prototyping and user testing, before converging on a final solution in the 'Deliver' phase."
+        },
+        {
+          "id": 27,
+          "question": "The IDEO framework for design thinking is a cyclical three-step process. What are the three steps?",
+          "options": {
+            "A": "Discover, Define, Deliver",
+            "B": "Head, Heart, Hand",
+            "C": "Problem, People, Product",
+            "D": "Inspiration, Ideation, Implementation"
+          },
+          "answer": "D",
+          "short_explanation": "IDEO's design thinking process involves the three core activities of Inspiration, Ideation, and Implementation.",
+          "long_explanation": "Slide 21 presents the IDEO model as a cyclical process involving three steps. Inspiration is the problem or opportunity that motivates the search for solutions; Ideation is the process of generating, developing, and testing ideas; and Implementation is the path that leads from the project stage into people’s lives."
+        },
+        {
+          "id": 28,
+          "question": "What is the 'iterative process' mentioned as a key part of the research cycle on slide 3?",
+          "options": {
+            "A": "A one-time, linear process of writing a research paper.",
+            "B": "A cycle where the researcher reframes the research question based on findings from the literature review.",
+            "C": "The process of getting a paper peer-reviewed.",
+            "D": "A process of only citing sources that agree with your initial topic."
+          },
+          "answer": "B",
+          "short_explanation": "The iterative process involves cycling between identifying a problem, reviewing literature, and reframing the question based on the identified gap.",
+          "long_explanation": "Slide 3 visually depicts the research process as an iterative cycle. It starts with a 'Tentative topic,' moves to a 'Literature review,' and then 'Reframe the research question' based on the research gap found. This cycle can be repeated to refine the research focus."
+        },
+        {
+          "id": 29,
+          "question": "Which of the following is NOT a goal of a literature review according to the lecture slides?",
+          "options": {
+            "A": "To identify gaps in existing knowledge.",
+            "B": "To provide evidence-based recommendations.",
+            "C": "To avoid any mention of conflicting studies to present a clear narrative.",
+            "D": "To guide methodological choices for your own research."
+          },
+          "answer": "C",
+          "short_explanation": "A good literature review should highlight, not avoid, controversy and debate to critically evaluate the field.",
+          "long_explanation": "Slides 8-11 list numerous goals of a literature review, including identifying gaps, informing practice, and guiding research. A key aspect of critical analysis (Slide 33) is 'highlighting areas of controversy or debate within the field,' which is the opposite of avoiding conflicting studies."
+        },
+        {
+          "id": 30,
+          "question": "A 'population gap' is a type of research gap that relates to:",
+          "options": {
+            "A": "A conflict between theoretical frameworks.",
+            "B": "A lack of empirical data for a specific topic.",
+            "C": "A population that is not adequately represented or is under-researched.",
+            "D": "A conflict between expected and actual outcomes in practice."
+          },
+          "answer": "C",
+          "short_explanation": "A population gap exists when a particular group of people is under-researched in the evidence base.",
+          "long_explanation": "Slide 42 defines a Population Gap as one that 'relates to the population that is not adequately represented or under-researched in the evidence base or prior research.' This highlights the need for research to be inclusive and applicable to diverse groups."
+        },
+        {
+          "id": 31,
+          "question": "According to §11(5) of the TUM-SGwP, what does 'Balanced Findings' in a scientific publication mean?",
+          "options": {
+            "A": "Only publishing results that strongly support the initial hypothesis.",
+            "B": "Communicating both supporting and challenging findings.",
+            "C": "Ensuring the number of authors is balanced with the length of the paper.",
+            "D": "Citing an equal number of old and new research papers."
+          },
+          "answer": "B",
+          "short_explanation": "'Balanced Findings' requires researchers to honestly report all results, including those that challenge their hypothesis.",
+          "long_explanation": "Slide 22 outlines the principles of scientific publication under TUM-SGwP § 11(5). 'Balanced Findings' is defined as the need to 'Communicate both supporting and challenging findings,' promoting honesty and a complete view of the research outcomes."
+        },
+        {
+          "id": 32,
+          "question": "What is 'Pawn Sacrifice' as a form of plagiarism?",
+          "options": {
+            "A": "Falsely accusing another researcher of plagiarism.",
+            "B": "Only marking part of the cited content as a citation, making the rest appear original.",
+            "C": "Using a ghostwriter to produce academic work.",
+            "D": "Combining fragments from many different texts to create a new one."
+          },
+          "answer": "B",
+          "short_explanation": "'Pawn Sacrifice' is a deceptive form of citation where only a portion of the borrowed material is properly attributed.",
+          "long_explanation": "Slide 25 defines 'Pawn sacrifice' as a form of plagiarism where 'only part of the cited content is marked as a citation.' This misleads the reader into believing that the uncited portion of the borrowed text is the author's own work."
+        },
+        {
+          "id": 33,
+          "question": "What is the primary purpose of §16 of the TUM-SGwP regarding the Ombudsperson?",
+          "options": {
+            "A": "To provide legal representation for students in court.",
+            "B": "To offer a confidential point of contact for anyone to report suspected academic misconduct.",
+            "C": "To review and grade all final theses at TUM.",
+            "D": "To secure research funding for academic departments."
+          },
+          "answer": "B",
+          "short_explanation": "The Ombudsperson serves as an impartial and confidential authority for reporting and investigating concerns about academic integrity.",
+          "long_explanation": "Slide 26 explains that § 16 'Access to the Ombudsperson' is open to 'anyone reporting suspected academic misconduct.' This body handles initial reviews of allegations in a confidential manner, focusing on technical resolution before escalating if necessary."
+        },
+        {
+          "id": 34,
+          "question": "Which of the following works is generally NOT protected by German Copyright Law?",
+          "options": {
+            "A": "A novel published last year.",
+            "B": "A feature film.",
+            "C": "Governmental publications such as laws.",
+            "D": "A photograph with a high degree of creativity."
+          },
+          "answer": "C",
+          "short_explanation": "Official works like laws and governmental publications are explicitly excluded from copyright protection to ensure public access.",
+          "long_explanation": "Slide 30 lists 'Unprotected works.' Among these are 'Governmental publications (e.g. laws).' This is a statutory exception to ensure that the rules governing society are freely available to everyone, unlike creative works which are granted protection."
+        },
+        {
+          "id": 35,
+          "question": "What does Donald Rumsfeld's 'unknown unknowns' typology refer to in risk assessment?",
+          "options": {
+            "A": "Risks we understand and have a plan for.",
+            "B": "Risks we are aware of but for which we lack sufficient data.",
+            "C": "Risks that are fully documented in historical records.",
+            "D": "Unanticipated risks that arise from complexity and are difficult to spot beforehand."
+          },
+          "answer": "D",
+          "short_explanation": "'Unknown unknowns' are risks that we do not know we do not know, representing unanticipated threats from complex systems.",
+          "long_explanation": "Slide 14 outlines Donald Rumsfeld's typology of uncertainty. 'Unknown unknowns' are defined as 'Unanticipated risks from complexity.' These are the most challenging risks to manage because they are not foreseen and pose 'knowledge problems'."
+        },
+        {
+          "id": 36,
+          "question": "According to the lecture, technology produces 'normative effects'. What does this mean?",
+          "options": {
+            "A": "Technology only affects the norms of a few select individuals.",
+            "B": "Technology influences shared expectations and rules about appropriate behavior in society.",
+            "C": "Technology is always a positive force for normalizing social interactions.",
+            "D": "Technology has no influence on societal laws or formal rules."
+          },
+          "answer": "B",
+          "short_explanation": "Normative effects are the influence that technology has on norms, which are the shared expectations and rules that shape how people think and act.",
+          "long_explanation": "Slide 5 defines 'Normative effects' as 'The influence that norms—shared expectations or rules about appropriate behavior—have on individuals or groups.' The slide argues that technology is not neutral because it produces these effects, shaping social contexts through both implicit (peer pressure) and explicit (laws) means."
+        },
+        {
+          "id": 37,
+          "question": "When is a Data Protection Impact Assessment (DPIA) typically required under GDPR?",
+          "options": {
+            "A": "For any project that uses a computer.",
+            "B": "Only after a data breach has occurred.",
+            "C": "For processing operations likely to result in a high risk to the rights and freedoms of natural persons.",
+            "D": "For all non-profit organizations, regardless of their data processing activities."
+          },
+          "answer": "C",
+          "short_explanation": "A DPIA is a mandatory risk assessment under GDPR for any data processing that is likely to pose a high risk to individuals.",
+          "long_explanation": "Slide 18 specifies the conditions that trigger a DPIA, which include 'systematic and extensive evaluation of personal aspects' (like profiling), processing of special categories of data on a large scale, or 'systematic monitoring of a publicly accessible area on a large scale.' These are all examples of high-risk processing."
+        },
+        {
+          "id": 38,
+          "question": "What is the key purpose of the 'Prototype' stage in the Design Thinking process?",
+          "options": {
+            "A": "To finalize the product for mass production.",
+            "B": "To create a tangible representation of an idea that can be tested with users.",
+            "C": "To write the final technical documentation for the solution.",
+            "D": "To conduct initial market research before any ideas are generated."
+          },
+          "answer": "B",
+          "short_explanation": "Prototyping involves creating early, low-cost versions of a solution to gather feedback and test assumptions.",
+          "long_explanation": "Slide 18 describes the 'Prototype' stage as the point where teams 'Tests create new ideas for projects' by building tangible artifacts. These prototypes are not the final product but are tools for learning, allowing designers to test their ideas with real users before investing significant resources."
+        },
+        {
+          "id": 39,
+          "question": "What does 'divergent thinking' in the context of the Double Diamond model refer to?",
+          "options": {
+            "A": "Narrowing down options to make a single decision.",
+            "B": "Critiquing and eliminating flawed ideas.",
+            "C": "Exploring an issue as widely as possible without judgment.",
+            "D": "Following a strict, linear process to reach a conclusion."
+          },
+          "answer": "C",
+          "short_explanation": "Divergent thinking is the process of generating a wide variety of ideas and exploring many possible solutions.",
+          "long_explanation": "Slides 22 and 23 illustrate that the Double Diamond model alternates between divergent and convergent activities. Divergence, seen in the 'Discover' and 'Develop' phases, involves expanding the scope to explore user needs or potential solutions broadly, using techniques like brainstorming and mind mapping."
+        },
+        {
+          "id": 40,
+          "question": "In the 4P framework, what does the 'People' component focus on?",
+          "options": {
+            "A": "The technical feasibility of the product.",
+            "B": "The business model and profitability.",
+            "C": "The development team's skills and expertise.",
+            "D": "The target audience, their needs, and who is affected by the problem."
+          },
+          "answer": "D",
+          "short_explanation": "The 'People' component of the 4P framework centers on understanding the users and stakeholders involved in a problem.",
+          "long_explanation": "Slide 29 breaks down the 4P framework. The 'People' section asks questions like 'Who is getting affected by this problem? Who is the target audience? What are they looking for?' This aligns with the human-centered approach of Design Thinking."
+        },
+        {
+          "id": 41,
+          "question": "What is the primary function of a Meta-Analysis in research?",
+          "options": {
+            "A": "To provide a qualitative, narrative summary of a field.",
+            "B": "To statistically combine the results from multiple quantitative studies to get a precise estimate of an effect.",
+            "C": "To map out the key concepts in a new or emerging field of study.",
+            "D": "To develop a new theoretical framework through interpretive analysis."
+          },
+          "answer": "B",
+          "short_explanation": "A Meta-Analysis is a quantitative technique for synthesizing data from several studies on the same topic.",
+          "long_explanation": "Slide 16 defines Meta-Analysis as a method that 'Statistically combines results of multiple quantitative studies.' Its power lies in providing a precise estimate of an overall effect and determining the effectiveness of interventions, but it is limited to quantitative data."
+        },
+        {
+          "id": 42,
+          "question": "A literature review is described as an 'argument about a body of research'. What does this imply?",
+          "options": {
+            "A": "The review should only include studies that argue for a single viewpoint.",
+            "B": "The review is simply a chronological list of studies.",
+            "C": "The review must present a thesis or a claim about the state of the literature, such as identifying a key debate or gap.",
+            "D": "The review should be an aggressive critique of all previous work."
+          },
+          "answer": "C",
+          "short_explanation": "A literature review makes an argument by synthesizing information to present a specific perspective or claim about the field.",
+          "long_explanation": "Slide 24 states, 'A literature review is never just a list of studies—it always offers an argument about a body of research.' This means the author must analyze and synthesize sources to build a case, for example, by pointing out loopholes, limitations, or trends in the existing research."
+        },
+        {
+          "id": 43,
+          "question": "What is the main purpose of a thesis statement in a literature review?",
+          "options": {
+            "A": "To state the author's personal feelings about the topic.",
+            "B": "To offer an argument or critical assessment about the literature being reviewed.",
+            "C": "To list the research questions of the studies being reviewed.",
+            "D": "To provide a detailed summary of one seminal study."
+          },
+          "answer": "B",
+          "short_explanation": "A thesis statement in a literature review presents the central argument or claim about the body of literature.",
+          "long_explanation": "Slide 27 defines a thesis statement as offering 'an argument about the literature.' It can do this by making a claim, providing an overview of scholarly conversations, pointing out gaps, or relating the literature to the larger aim of the study. Slides 28-30 provide examples of such thesis statements."
+        },
+        {
+          "id": 44,
           "question": "Which organizational approach for a literature review is most useful when one study is clearly central in laying the groundwork for future research?",
           "options": {
             "A": "Topical",
@@ -169,1139 +572,736 @@
             "D": "Seminal Study"
           },
           "answer": "D",
-          "short_explanation": "The 'Seminal Study' approach organizes the review around a single, extremely important study.",
-          "long_explanation": "Slide 31 describes common approaches to organizing findings. The 'Seminal Study' approach begins with a detailed description of an extremely important study and is most useful when one such study is central to the field."
-        },
-        {
-          "id": 14,
-          "question": "What is a key quality of a 'good' literature review, as outlined in the slides?",
-          "options": {
-            "A": "Presenting a series of disconnected summaries.",
-            "B": "Avoiding any mention of methodological limitations of the studies reviewed.",
-            "C": "Synthesizing information to draw connections and identify patterns.",
-            "D": "Only including studies from the last two years."
-          },
-          "answer": "C",
-          "short_explanation": "A good literature review synthesizes information from various sources rather than just presenting disconnected summaries.",
-          "long_explanation": "Slide 34 emphasizes that a good literature review should synthesize information, drawing connections between different studies and identifying patterns or trends. This is a core element that distinguishes a strong review from a weak one."
-        },
-        {
-          "id": 15,
-          "question": "What is a 'Population Gap' in research?",
-          "options": {
-            "A": "A gap in the total number of studies conducted on a topic.",
-            "B": "A conflict between a theory and its practical application.",
-            "C": "A gap related to a population that is not adequately represented or is under-researched.",
-            "D": "A gap where no empirical evaluation has been attempted."
-          },
-          "answer": "C",
-          "short_explanation": "A Population Gap refers to the under-representation or lack of research on a specific demographic or group.",
-          "long_explanation": "Slide 42 defines a 'Population Gap' as a gap that 'relates to the population that is not adequately represented or under-researched in the evidence base or prior research.' This highlights the need for research to be inclusive of diverse groups."
-        },
-        {
-          "id": 16,
-          "question": "What is the core principle of Academic Integrity?",
-          "options": {
-            "A": "A system for grading students based on effort rather than results.",
-            "B": "A core underpinning of the scholarly community promoting ethical and honest behavior.",
-            "C": "A set of rules exclusive to scientific laboratory research.",
-            "D": "A guideline for ensuring all research is profitable."
-          },
-          "answer": "B",
-          "short_explanation": "Academic integrity is the fundamental ethical code of the scholarly community.",
-          "long_explanation": "Slide 3 of the 'Academic Integrity' lecture states that academic integrity is a 'core underpinning of the scholarly community.' It serves to promote ethical and honest behavior and to recognize others' intellectual property."
-        },
-        {
-          "id": 17,
-          "question": "Which of the following is NOT listed as one of the fundamental values of academic integrity by the International Center for Academic Integrity?",
-          "options": {
-            "A": "Honesty",
-            "B": "Trust",
-            "C": "Courage",
-            "D": "Innovation"
-          },
-          "answer": "D",
-          "short_explanation": "Innovation is not one of the six fundamental values of academic integrity; the values are Honesty, Trust, Fairness, Respect, Responsibility, and Courage.",
-          "long_explanation": "Slide 4 displays a wheel diagram showing the six fundamental values of academic integrity as defined by the International Center for Academic Integrity in 1999. These are Honesty, Trust, Fairness, Respect, Responsibility, and Courage. Innovation, while valued in academia, is not one of these core ethical principles."
-        },
-        {
-          "id": 18,
-          "question": "According to TUM APSO § 22, what is the consequence of attempting to alter exam results through the use of unauthorized resources like Generative AI tools?",
-          "options": {
-            "A": "A warning is issued for the first offense.",
-            "B": "The student receives a reduced grade.",
-            "C": "The examination will be graded 'Fail'.",
-            "D": "The student must attend a workshop on academic integrity."
-          },
-          "answer": "C",
-          "short_explanation": "Using unauthorized resources, including GenAI, in an examination constitutes academic misconduct and results in a 'Fail' grade.",
-          "long_explanation": "Slides 5 and 6 of the 'Academic Integrity' lecture explicitly cite TUM APSO § 22. It states that if a student uses unauthorized materials or resources (with GenAI tools highlighted as an example), the examination will be graded 'Fail'."
-        },
-        {
-          "id": 19,
-          "question": "What does the principle of 'lege artis' mean in the context of good scientific practice?",
-          "options": {
-            "A": "According to the law of the land.",
-            "B": "According to the rules of the art.",
-            "C": "For the good of the arts.",
-            "D": "Artistically and creatively."
-          },
-          "answer": "B",
-          "short_explanation": "'Lege artis' is a Latin phrase meaning 'according to the rules of the art,' referring to established standards in a field.",
-          "long_explanation": "Slide 8 defines 'lege artis' as 'according to the rules of the art.' In scientific practice, this means every academic must work according to the established standards and best practices recognized in their specific field."
-        },
-        {
-          "id": 20,
-          "question": "The DFG Code of Conduct provides a standards framework. Which of the following guidelines falls under the 'Research Process' category?",
-          "options": {
-            "A": "Guideline 2: Professional Ethics",
-            "B": "Guideline 19: Procedures in cases of alleged research misconduct",
-            "C": "Guideline 14: Authorship",
-            "D": "All of the above"
-          },
-          "answer": "C",
-          "short_explanation": "Guideline 14 on Authorship is part of the 'Research Process' category in the DFG Standards Framework.",
-          "long_explanation": "Slide 11 organizes the DFG guidelines into three categories. 'Guideline 14: Authorship' is listed under 'Research Process,' along with guidelines on quality assurance, research design, documentation, and others. Guideline 2 is under 'Principles,' and Guideline 19 is under 'Non-compliance.'"
-        },
-        {
-          "id": 21,
-          "question": "Under DFG Guideline 14, who qualifies as an author of a research publication?",
-          "options": {
-            "A": "Anyone who provided funding for the research.",
-            "B": "The head of the department where the research was conducted.",
-            "C": "An individual who has made a genuine, identifiable contribution to the content.",
-            "D": "Anyone who proofread the final manuscript."
-          },
-          "answer": "C",
-          "short_explanation": "Authorship is granted to individuals who have made a genuine and identifiable contribution to the research content.",
-          "long_explanation": "Slide 18 specifies the criteria for authorship according to DFG Guideline 14. An author is someone who made a 'genuine, identifiable contribution to the content of a research publication of text, data or software.' This excludes contributions like funding or general supervision alone."
-        },
-        {
-          "id": 22,
-          "question": "What does TUM-SGwP § 13 define as academic misconduct?",
-          "options": {
-            "A": "Any minor error in citation format.",
-            "B": "A violation of good scientific practice through gross negligence, whether intentional or not.",
-            "C": "Disagreeing with a supervisor's opinion.",
-            "D": "Failing to publish research results within one year."
-          },
-          "answer": "B",
-          "short_explanation": "Academic misconduct under TUM-SGwP § 13 is a violation of good scientific practice resulting from gross negligence.",
-          "long_explanation": "Slide 23 clearly states that under § 13 of the TUM-SGwP, academic misconduct occurs when someone violates the code of good scientific practice through 'gross negligence (whether intentional or unintentional).' Examples include falsifying data and plagiarism."
-        },
-        {
-          "id": 23,
-          "question": "Which of the following is considered a form of plagiarism known as 'Bibliography balloon'?",
-          "options": {
-            "A": "Translating a text from another language without citation.",
-            "B": "Using small fragments from different texts to form a new one.",
-            "C": "Presenting another author's ideas in your own words without a source.",
-            "D": "Listing references in the reference list that were not actually cited in the text."
-          },
-          "answer": "D",
-          "short_explanation": "'Bibliography balloon' is the practice of padding a reference list with sources that were not cited in the work.",
-          "long_explanation": "Slide 25 defines various forms of plagiarism. 'Bibliography balloon' is described as 'Listing references in the reference list that have not been cited in the text,' which can be done to make the work appear more thoroughly researched than it is."
-        },
-        {
-          "id": 24,
-          "question": "What is the role of the Ombudsperson at TUM regarding academic misconduct, according to § 16 TUM-SGwP?",
-          "options": {
-            "A": "To immediately punish anyone accused of misconduct.",
-            "B": "To act as a confidential point of contact for anyone reporting suspected academic misconduct.",
-            "C": "To only handle cases reported by senior professors.",
-            "D": "To publicly announce all allegations of misconduct."
-          },
-          "answer": "B",
-          "short_explanation": "The Ombudsperson is a confidential contact for reporting and addressing suspected academic misconduct.",
-          "long_explanation": "Slide 26 outlines the role of the Ombudsperson under § 16 TUM-SGwP. They are open to 'anyone reporting suspected academic misconduct,' including those who are concerned they may be suspected. The process is confidential and aims for resolution."
-        },
-        {
-          "id": 25,
-          "question": "Under German Copyright Law (UrhG), which of the following is generally NOT a protected work?",
-          "options": {
-            "A": "A novel (written work).",
-            "B": "A musical composition.",
-            "C": "A table of contents.",
-            "D": "A technical drawing with creative elements."
-          },
-          "answer": "C",
-          "short_explanation": "A table of contents typically does not meet the required level of creativity (Schöpfungshöhe) to be protected by copyright.",
-          "long_explanation": "Slide 30 lists examples of unprotected works. Items like a table of contents, instruction manuals, and raw facts are generally not protected because they lack the 'minimum level of creativity necessary (Schöpfungshöhe)' required by German Copyright Law (§2 UrhG)."
-        },
-        {
-          "id": 26,
-          "question": "The 'Right to citation' or 'Zitatrecht' (§51 UrhG) is a statutory exception to copyright law. When does it NOT apply?",
-          "options": {
-            "A": "When the citation has a clear, content-related purpose.",
-            "B": "When the citation is used for mere illustration, ornament, or workload reduction.",
-            "C": "When the source is fully referenced.",
-            "D": "When only as much as necessary is quoted."
-          },
-          "answer": "B",
-          "short_explanation": "The right to citation does not permit using a quote for decoration or to avoid doing your own work; it must have a substantive purpose.",
-          "long_explanation": "Slide 32 specifies the conditions for applying 'Zitatrecht'. A key condition is that 'The citations must have a purpose.' The slide explicitly states that 'Citation for mere illustration, ornament, or workload reduction is not permitted.' There must be a substantive, content-related connection."
-        },
-        {
-          "id": 27,
-          "question": "What are the '4 Principles of Citing' presented in the lecture?",
-          "options": {
-            "A": "Speed, Brevity, Accuracy, Format",
-            "B": "Author, Year, Title, Publisher",
-            "C": "Usability, Authorship, Retrievability, Consistency",
-            "D": "Honesty, Trust, Respect, Responsibility"
-          },
-          "answer": "C",
-          "short_explanation": "The four core principles guiding proper citation are Usability, Authorship, Retrievability, and Consistency.",
-          "long_explanation": "Slide 34 introduces the '4 Principles of Citing.' These are: 1. Usability (Can I cite this source?), 2. Authorship (Whose idea is this?), 3. Retrievability (Can my reader find it?), and 4. Consistency (Is my style consistent?)."
-        },
-        {
-          "id": 28,
-          "question": "What is the difference between direct quoting and paraphrasing?",
-          "options": {
-            "A": "Only direct quotes need a citation.",
-            "B": "Direct quoting uses the exact words of the source, while paraphrasing restates the idea in your own words.",
-            "C": "Paraphrasing is used for legal texts, while quoting is for scientific data.",
-            "D": "Direct quoting does not require quotation marks."
-          },
-          "answer": "B",
-          "short_explanation": "Quoting uses the source's exact words, whereas paraphrasing involves expressing the source's ideas in your own words.",
-          "long_explanation": "Slide 39 distinguishes between the two methods. Direct quoting (verbatim) uses the exact words and requires quotation marks. Paraphrasing involves restating the idea clearly in your own sentence structure and vocabulary. Both methods require a citation."
-        },
-        {
-          "id": 29,
-          "question": "According to the 'Retrievability' principle of citation, what must every source citation be able to do?",
-          "options": {
-            "A": "Answer the four questions: Who, What, When, and Where.",
-            "B": "Be available online for free.",
-            "C": "Be approved by a librarian before use.",
-            "D": "Be less than 10 years old."
-          },
-          "answer": "A",
-          "short_explanation": "To be retrievable, a source citation must provide enough information to answer who created it, what it is, when it was published, and where it can be found.",
-          "long_explanation": "Slide 42, under the umbrella of Principle 3: Retrievability, states that 'Every source citation must answer these four questions: Who created the work? What kind of work is it? When was the work published? Where was the work published or where can the reader find it?'"
-        },
-        {
-          "id": 30,
-          "question": "In the context of TUM's regulations, which body adopted a statute for safeguarding good scientific practices that corresponds to the DFG's Code of Conduct?",
-          "options": {
-            "A": "The German Federal Government",
-            "B": "The International Center for Academic Integrity (ICAI)",
-            "C": "The Technical University of Munich (TUM) itself",
-            "D": "The European Union Commission"
-          },
-          "answer": "C",
-          "short_explanation": "In 2021, TUM adopted its own statute (TUM-SGwP) which corresponds to the DFG Code of Conduct.",
-          "long_explanation": "Slide 20 of the 'Academic Integrity' lecture states, 'In 2021, TUM adopted a statute for safeguarding good scientific practices corresponding to the Code of Deutsche Forschungsgemeinschaft (DFG).' This shows TUM's formal commitment to these principles."
-        },
-        {
-          "id": 31,
-          "question": "The statement 'Technology is not neutral' implies that technology:",
-          "options": {
-            "A": "Always has negative consequences for society.",
-            "B": "Is inherently flawed and cannot be trusted.",
-            "C": "Produces normative effects that influence people and society.",
-            "D": "Can only be understood by technical experts."
-          },
-          "answer": "C",
-          "short_explanation": "Technology is not neutral because it produces normative effects, shaping societal rules, expectations, and behaviors.",
-          "long_explanation": "Slide 5 of the 'Technology Assessment' lecture explains that 'Technology produces normative effects that influence people and society.' These effects can be explicit (like laws) or implicit (like cultural expectations), meaning technology is value-laden and shapes our world."
-        },
-        {
-          "id": 32,
-          "question": "What is the central idea behind Lawrence Lessig's concept 'Code is Law'?",
-          "options": {
-            "A": "All software code should be regulated by international law.",
-            "B": "The architecture of a technology (its code) constrains and regulates behavior, much like legal statutes do.",
-            "C": "Writing code is a political act that should be done by legislators.",
-            "D": "Only lawyers should be allowed to write software code for critical systems."
-          },
-          "answer": "B",
-          "short_explanation": "'Code is Law' means that the architecture of technology regulates behavior just as traditional law does.",
-          "long_explanation": "Slide 6 illustrates that 'Code is Law' is one of the four modalities regulating behavior, alongside law, social norms, and the market. The idea is that the way a system is designed and coded (its architecture) inherently enables certain actions and forbids others, thus acting as a form of regulation."
-        },
-        {
-          "id": 33,
-          "question": "What was the original main task of Technology Assessment (TA) when it emerged in the 1970s?",
-          "options": {
-            "A": "To promote technology development at all costs.",
-            "B": "To serve as an early-warning function to prevent or compensate for negative impacts of technology.",
-            "C": "To ensure all new technologies were profitable for businesses.",
-            "D": "To replace political decision-making with technical expertise."
-          },
-          "answer": "B",
-          "short_explanation": "TA's original purpose was to act as an early-warning system for political actors regarding the negative impacts of technology.",
-          "long_explanation": "Slide 8 describes the origins of TA in the 1970s. Its 'main task' was an 'early-warning function to enable political actors to undertake measures to, for example, compensate or prevent anticipated negative impacts of technology.'"
-        },
-        {
-          "id": 34,
-          "question": "Which of the four branches of Technology Assessment involves citizens, consumers, and the public in technology governance?",
-          "options": {
-            "A": "TA as policy advice",
-            "B": "TA as a medium of participation (Participatory TA)",
-            "C": "TA for shaping technology directly",
-            "D": "TA in innovation processes"
-          },
-          "answer": "B",
-          "short_explanation": "Participatory TA is the branch that focuses on involving the public and various stakeholders in technology governance.",
-          "long_explanation": "Slide 9 defines 'TA as a medium of participation' or 'Participatory TA' as the branch that 'involves citizens, consumers and users, actors of civil society, stakeholders, the media, and the public' through methods like consensus conferences and focus groups."
-        },
-        {
-          "id": 35,
-          "question": "The concept of 'Risk Society', as described by Ulrich Beck, refers to a society that:",
-          "options": {
-            "A": "Has successfully eliminated all forms of risk.",
-            "B": "Deals with hazards and insecurities induced and introduced by modernization itself.",
-            "C": "Only faces natural, external risks like earthquakes and floods.",
-            "D": "Rejects all forms of modern technology to avoid risk."
-          },
-          "answer": "B",
-          "short_explanation": "Ulrich Beck's 'Risk Society' is one that systematically deals with risks created by its own process of modernization.",
-          "long_explanation": "Slide 12 explains that a risk society is 'a systematic way of dealing with hazards and insecurities induced and introduced by modernisation itself.' These are 'manufactured, invisible, unequally distributed risks' like those from industrial processes, not just natural disasters."
-        },
-        {
-          "id": 36,
-          "question": "How does Anthony Giddens' view on risk differ from Ulrich Beck's?",
-          "options": {
-            "A": "Giddens believes risk is always negative and should be eliminated entirely.",
-            "B": "Giddens sees active risk-taking as a core and positive element of a dynamic, innovative society.",
-            "C": "Giddens argues that risk only exists in pre-modern societies.",
-            "D": "Giddens focuses exclusively on financial risks, ignoring social risks."
-          },
-          "answer": "B",
-          "short_explanation": "Giddens takes a more positive approach, viewing active risk-taking as a necessary component of an innovative economy.",
-          "long_explanation": "Slide 13 contrasts different views on risk. Giddens, while acknowledging risk needs to be disciplined, has a 'positive approach to risk.' He argues that 'active risk-taking is a core element of a dynamic economy and an innovative society.'"
-        },
-        {
-          "id": 37,
-          "question": "In Donald Rumsfeld's typology of uncertainty, what is an 'unknown unknown'?",
-          "options": {
-            "A": "A risk that we understand and can plan for.",
-            "B": "A risk we are aware of but for which we lack sufficient data.",
-            "C": "An unanticipated risk that emerges from complexity.",
-            "D": "A risk that has been successfully mitigated."
-          },
-          "answer": "C",
-          "short_explanation": "'Unknown unknowns' are unanticipated risks that arise from complex systems, which we are not even aware of.",
-          "long_explanation": "Slide 14 presents Rumsfeld's typology. 'Known knowns' are understood risks. 'Known unknowns' are risks we are aware of but lack data for. 'Unknown unknowns' are the most difficult to handle, as they are 'unanticipated risks from complexity.'"
-        },
-        {
-          "id": 38,
-          "question": "How does the ISO 31000 standard define 'risk'?",
-          "options": {
-            "A": "The combination of the probability of harm and its severity.",
-            "B": "The effect of uncertainty on objectives.",
-            "C": "Any event that could lead to financial loss.",
-            "D": "A failure in a technological system."
-          },
-          "answer": "B",
-          "short_explanation": "ISO 31000 defines risk as the 'effect of uncertainty on objectives,' which can be positive, negative, or both.",
-          "long_explanation": "Slide 15 provides the statutory definition from ISO 31000, 3.1, which is 'effect of uncertainty on objectives.' The notes clarify that this effect can be a positive or negative deviation from the expected, encompassing both opportunities and threats."
-        },
-        {
-          "id": 39,
-          "question": "A Data Protection Impact Assessment (DPIA) under GDPR is required for which type of processing?",
-          "options": {
-            "A": "Any processing of personal data, regardless of risk.",
-            "B": "Only processing involving financial data.",
-            "C": "Processing that is likely to result in a high risk to the rights and freedoms of individuals.",
-            "D": "Processing done by government agencies only."
-          },
-          "answer": "C",
-          "short_explanation": "A DPIA is mandatory under Article 35 of the GDPR for data processing operations that pose a high risk to individuals' rights and freedoms.",
-          "long_explanation": "Slide 18 explains that a DPIA is a 'rights-based risk assessment' for high-risk operations. Examples include systematic evaluation of personal aspects (profiling), large-scale processing of sensitive data, or systematic monitoring of a public area."
-        },
-        {
-          "id": 40,
-          "question": "What is the primary purpose of a Fundamental Rights Impact Assessment (FRIA) as proposed in the AI Act?",
-          "options": {
-            "A": "To assess the financial viability of an AI system.",
-            "B": "To ensure an AI system is technologically feasible.",
-            "C": "To assess the potential impact of a high-risk AI system on fundamental rights like equality and non-discrimination.",
-            "D": "To replace the need for a Data Protection Impact Assessment (DPIA)."
-          },
-          "answer": "C",
-          "short_explanation": "An FRIA is designed to evaluate the impact of high-risk AI systems on the fundamental rights of individuals.",
-          "long_explanation": "Slide 21 describes the FRIA (Article 27, AI Act) as an assessment for High-Risk AI Systems. Its purpose is to analyze the 'potential impact on the rights of any individual (equality, non-discrimination, access to justice) that might be affected by the operation of AI system.'"
-        },
-        {
-          "id": 41,
-          "question": "How do FRIA and DPIA interact according to the lecture?",
-          "options": {
-            "A": "They are redundant, and a deployer only needs to complete one of them.",
-            "B": "DPIA is for AI systems, and FRIA is for all other data processing.",
-            "C": "They are complementary; a DPIA can serve as a foundation for the FRIA, which addresses a broader range of rights.",
-            "D": "FRIA must always be completed before a DPIA."
-          },
-          "answer": "C",
-          "short_explanation": "FRIA and DPIA are complementary, with the DPIA's privacy focus providing a foundation for the FRIA's broader fundamental rights scope.",
-          "long_explanation": "Slide 24 explains the interaction between FRIA and DPIA. They are 'Complementary, not redundant.' A DPIA may already cover privacy aspects, and the FRIA builds on this by addressing additional fundamental rights. The AI Act itself suggests the FRIA shall complement an existing DPIA."
-        },
-        {
-          "id": 42,
-          "question": "Who is required to complete a Fundamental Rights Impact Assessment (FRIA) for a high-risk AI system?",
-          "options": {
-            "A": "All developers of AI systems.",
-            "B": "All deployers of high-risk AI systems, without exception.",
-            "C": "Only deployers that are bodies governed by public law or private entities providing public services.",
-            "D": "End-users of the AI system."
-          },
-          "answer": "C",
-          "short_explanation": "The obligation to complete an FRIA applies specifically to public-sector deployers and private entities providing public services.",
-          "long_explanation": "Slide 22 clarifies who needs to complete an FRIA. It states that 'not all deployers are obliged.' The obligation falls on 'deployers that are bodies governed by public law, or are private entities providing public services' for certain high-risk AI systems."
-        },
-        {
-          "id": 43,
-          "question": "The Algorithmic Impact Assessment (AIA) toolkit developed by Stats NZ includes which of the following components?",
-          "options": {
-            "A": "A mandatory legal review by a judge.",
-            "B": "An Algorithm Threshold Assessment to screen for the need for a full AIA.",
-            "C": "A public vote on whether to deploy the algorithm.",
-            "D": "A financial audit to ensure profitability."
-          },
-          "answer": "B",
-          "short_explanation": "The Stats NZ AIA toolkit begins with an Algorithm Threshold Assessment, an initial screening to see if a full assessment is needed.",
-          "long_explanation": "Slide 26 outlines the key components of the AIA toolkit. The process starts with an 'Algorithm Threshold Assessment,' which is an 'initial screening to determine the need for a full AIA,' followed by a more detailed questionnaire if required."
-        },
-        {
-          "id": 44,
-          "question": "What does Jasanoff's concept of 'civic epistemologies' suggest about technology assessments?",
-          "options": {
-            "A": "Assessments gain legitimacy through technical accuracy alone.",
-            "B": "Assessments gain legitimacy through public reasoning and participation.",
-            "C": "Assessments are always neutral and objective.",
-            "D": "Only civic leaders should be allowed to conduct assessments."
-          },
-          "answer": "B",
-          "short_explanation": "'Civic epistemologies' emphasizes that legitimacy for assessments comes from public reasoning and engagement.",
-          "long_explanation": "Slide 27 touches on the 'Politics of Assessment.' Jasanoff's concept of 'civic epistemologies' is presented as achieving 'legitimacy through public reasoning,' highlighting that assessments are not just technical exercises but are also politically and socially constructed."
+          "short_explanation": "The 'Seminal Study' approach organizes the review around one extremely important or foundational study.",
+          "long_explanation": "Slide 31 describes several approaches to organizing findings. The 'Seminal Study' approach 'Begins with detailed description of extremely important study' and is most useful 'when one study is clearly most important or central in laying the groundwork for future research.'"
         },
         {
           "id": 45,
-          "question": "The phrase 'Design for justice, not just efficiency' by Ruha Benjamin suggests that technology assessment should:",
+          "question": "According to the DFG Standards Framework, in which category does 'Authorship' fall?",
           "options": {
-            "A": "Prioritize speed and cost-reduction above all else.",
-            "B": "Focus on uncovering hidden assumptions and collaborating with the community to promote fairness.",
-            "C": "Be conducted only by engineers to ensure maximum efficiency.",
-            "D": "Ignore real-world impacts in favor of theoretical models."
+            "A": "Principles",
+            "B": "Research Process",
+            "C": "Non-compliance with Good Research Practice, Procedures",
+            "D": "Professional Ethics"
           },
           "answer": "B",
-          "short_explanation": "Ruha Benjamin's quote advocates for a technology assessment practice that prioritizes justice and fairness over mere efficiency.",
-          "long_explanation": "Slide 28 presents technology assessment as a legal and ethical practice. The quote 'Design for justice, not just efficiency' encapsulates the roles of the critic (uncovering hidden assumptions) and co-creator (collaborating with the community) to ensure technology serves equitable outcomes."
+          "short_explanation": "Authorship (Guideline 14) is considered a key part of the 'Research Process' in the DFG Standards Framework.",
+          "long_explanation": "Slide 11 visually organizes the DFG guidelines into three categories. 'Authorship' (Guideline 14) is listed under the central column, 'Research Process,' along with other steps like research design, documentation, and quality assurance."
         },
         {
           "id": 46,
-          "question": "What is the foundation of Design Thinking, according to the lecture?",
+          "question": "What is the core principle of 'Good Scientific Practice' as described in the lecture?",
           "options": {
-            "A": "A single, universally accepted definition and method.",
-            "B": "The idea that design is a segmented profession focused only on aesthetics.",
-            "C": "A diversity of ideas and methods, leading to its emergence as a new integrative discipline.",
-            "D": "A focus on technical research in isolated silos of specialization."
+            "A": "Working 'lege artis', meaning 'according to the rules of the art'.",
+            "B": "Prioritizing speed over accuracy in research.",
+            "C": "Keeping all research findings private and confidential.",
+            "D": "Avoiding collaboration to ensure individual credit."
           },
-          "answer": "C",
-          "short_explanation": "Design Thinking is founded on a diversity of ideas and methods, and it emerged as an integrative discipline to complement arts and science.",
-          "long_explanation": "Slide 3 of the 'Design Thinking' lecture explains that there is 'No single definition of design thinking,' which reflects its 'diversity of ideas and methods.' It is presented as a 'new integrative discipline' that moves away from specialized silos toward a more generalized approach to research."
+          "answer": "A",
+          "short_explanation": "Good Scientific Practice requires academics to work 'lege artis,' which means following the established rules and standards of their field.",
+          "long_explanation": "Slide 8 states, 'The principles of good scientific practice require every academic to work ‘lege artis’ → ‘according to the rules of the art’.' This includes documenting findings, being honest about contributions, and avoiding misconduct."
         },
         {
           "id": 47,
-          "question": "Dewey's pragmatic approach views technology as:",
+          "question": "What is 'idea plagiarism' or 'obfuscation'?",
           "options": {
-            "A": "A particular hardware that one must learn to operate.",
-            "B": "The art of experimental thinking.",
-            "C": "Secondary to both Science and Art.",
-            "D": "A linear process from science to application."
+            "A": "Using another author's exact words without quotation marks.",
+            "B": "Presenting another author's ideas in your own words without citing the source.",
+            "C": "Failing to include a cited source in the final reference list.",
+            "D": "Citing a source you have not actually read."
           },
           "answer": "B",
-          "short_explanation": "Dewey's pragmatic approach defines technology not as hardware, but as the art of experimental thinking.",
-          "long_explanation": "Slide 4 explains Dewey's pragmatic approach, where he states, 'Technology is not a particular hardware... instead, technology is the art of experimental thinking.' This shifts the focus from the tool itself to the process of inquiry and problem-solving."
+          "short_explanation": "Idea plagiarism involves taking someone else's concepts or ideas and presenting them as your own, even if rephrased.",
+          "long_explanation": "Slide 25 defines 'Idea plagiarism / obfuscation' as 'Presenting another author's ideas in your own words without citing the source.' This is a serious form of academic misconduct because it appropriates the intellectual work of another person."
         },
         {
           "id": 48,
-          "question": "Design Thinking is described as a human-centered approach that balances which three core elements or lenses?",
+          "question": "Which principle of good design, according to Don Norman, relates to figuring out what actions are possible with an object or system?",
           "options": {
-            "A": "Aesthetics, Cost, and Speed",
-            "B": "Data, Algorithms, and Hardware",
-            "C": "Past, Present, and Future",
-            "D": "Desirability (human), Feasibility (technical), and Viability (economic)"
+            "A": "Aesthetics",
+            "B": "Affordance",
+            "C": "Discoverability",
+            "D": "Understanding"
           },
-          "answer": "D",
-          "short_explanation": "Design Thinking balances human Desirability, technical Feasibility, and economic Viability.",
-          "long_explanation": "Slide 5 presents the Venn diagram of Design Thinking's three core lenses. A successful solution lies at the intersection of what is desirable to humans, what is technically feasible to create, and what is economically viable as a business model. The process starts with Desirability."
+          "answer": "C",
+          "short_explanation": "Discoverability is the design principle concerned with making the possible actions of a system clear to the user.",
+          "long_explanation": "Slide 13 lists the two important design principles from Don Norman as 'Discoverability' and 'Understanding.' Discoverability is about what actions are possible, while understanding is about what it all means. These are fundamental to creating usable products."
         },
         {
           "id": 49,
-          "question": "What kind of problems is Design Thinking most useful for tackling?",
+          "question": "What is the primary characteristic of a 'wicked problem' in design theory?",
           "options": {
-            "A": "Simple problems with clear, known solutions.",
-            "B": "Problems that can be solved with a mathematical formula.",
-            "C": "Ill-defined or unknown problems, also known as 'wicked problems'.",
-            "D": "Purely technical problems with no human element."
+            "A": "It has a clear, simple solution that is easy to implement.",
+            "B": "It is a purely technical challenge with no social dimension.",
+            "C": "It is ill-formulated, with confusing information and conflicting values among stakeholders.",
+            "D": "It can be solved permanently with a single, 'one-shot' operation."
           },
           "answer": "C",
-          "short_explanation": "Design Thinking is most useful for tackling 'ill-defined or unknown problems,' which are often called wicked problems.",
-          "long_explanation": "Slide 6 explicitly states that Design Thinking 'is most useful to tackle ill-defined or unknown problems.' It then defines 'wicked problems' as those with many interdependent factors that seem impossible to solve, which is the ideal territory for the Design Thinking process."
+          "short_explanation": "A wicked problem is characterized by its ill-formulated nature, confusing information, and conflicting stakeholder values.",
+          "long_explanation": "Slide 7 provides a definition from Rittel and Webber, describing a wicked problem as a 'class of social system problems that are ill-formulated, where the information is confusing, where there are many clients and decision-makers with conflicting values...'. This complexity distinguishes it from tame or well-defined problems."
         },
         {
           "id": 50,
-          "question": "Which of the following is a property of a 'wicked problem' as described by Rittel and Webber?",
+          "question": "In the context of the 'Orders of Design' (Doctrine of placement), what do designers constantly reposition?",
           "options": {
-            "A": "Solutions to wicked problems are true-or-false.",
-            "B": "Wicked problems have a definitive formula for their solution.",
-            "C": "Wicked problems have a clear stopping rule, so you know when the solution is final.",
-            "D": "Every solution to a wicked problem is a 'one-shot operation' with significant consequences."
+            "A": "Their job titles and roles within a company.",
+            "B": "Their problems, moving among signs, things, actions, and thoughts.",
+            "C": "The furniture in their office to enhance creativity.",
+            "D": "The budget allocations for their projects."
           },
-          "answer": "D",
-          "short_explanation": "A key property of wicked problems is that every solution attempt is a 'one-shot operation' because there is no opportunity for trial-and-error.",
-          "long_explanation": "Slide 8 lists ten properties of wicked problems. One property is that 'Every solution to a wicked problem is a \"one-shot operation\"; because there is no opportunity to learn by trial-and-error, every attempt counts significantly.' Other options are contradicted by the properties listed."
+          "answer": "B",
+          "short_explanation": "The doctrine of placement suggests that designers work by constantly repositioning their problems across four orders: signs, things, actions, and thoughts.",
+          "long_explanation": "Slide 10 explains the 'Doctrine of placement' as a 'dynamic logic of placements.' It states that 'Designers constantly reposition their problems' and 'They move among signs, things, actions, and thoughts.' This framework helps explain the integrative and holistic nature of design work."
         },
         {
           "id": 51,
-          "question": "In Buchanan's 'Four Orders of Design,' what does the first order, 'communications,' primarily deal with?",
+          "question": "How does a Scoping Review differ from a Systematic Review?",
           "options": {
-            "A": "Objects and artifacts",
-            "B": "Interactions, activities, and services",
-            "C": "Signs and symbols (words & images)",
-            "D": "Systems, organizations, and environments"
+            "A": "A Scoping Review is more focused on a specific question than a Systematic Review.",
+            "B": "A Scoping Review typically assesses the quality of included studies, while a Systematic Review does not.",
+            "C": "A Scoping Review maps key concepts on a broad topic and is often a precursor to a Systematic Review.",
+            "D": "A Scoping Review is always quantitative, while a Systematic Review is always qualitative."
           },
           "answer": "C",
-          "short_explanation": "The first of Buchanan's Four Orders of Design is communications, which involves the use of signs and symbols.",
-          "long_explanation": "Slide 10 presents Buchanan's framework. The first and innermost layer is 'communications (signs + symbols),' which corresponds to the field of 'Symbols (words & images).' This order deals with communicating meaning through visual and verbal language."
+          "short_explanation": "A Scoping Review is broader, mapping concepts in an emerging field, and often precedes a more focused Systematic Review.",
+          "long_explanation": "Slide 15 describes a Scoping Review as a method that 'Maps key concepts and types of evidence on a topic' and is 'Useful for emerging fields or complex topics.' It is explicitly mentioned as being 'Often precursor to systematic review' and is less focused on specific questions."
         },
         {
           "id": 52,
-          "question": "What is the concept of 'placements' in design thinking, as contrasted with 'categories'?",
+          "question": "What is a 'contradictory evidence gap'?",
           "options": {
-            "A": "Placements have fixed meanings and boundaries, while categories are flexible.",
-            "B": "Placements are flexible and provide a context for thinking, allowing for innovation beyond rigid categories.",
-            "C": "Placements refer to the physical location of the design team.",
-            "D": "Categories are primary, and placements are secondary."
+            "A": "A gap where no research on a topic exists at all.",
+            "B": "A gap where research findings from different studies conflict with one another.",
+            "C": "A gap where a specific population has not been studied.",
+            "D": "A gap where the methods used in previous studies are flawed."
           },
           "answer": "B",
-          "short_explanation": "Placements are flexible conceptual frameworks that provide context and foster innovation, unlike rigid categories.",
-          "long_explanation": "Slide 11 contrasts categories and placements. While categories have fixed meanings, 'Placements have flexible boundaries: they provide a context for thinking and generate a new perception of a situation: Innovation.' Placements are considered primary, allowing designers to approach problems in novel ways."
+          "short_explanation": "A contradictory evidence gap occurs when the findings of existing research studies are in disagreement.",
+          "long_explanation": "Slide 40 defines an 'Evidence Gap' and its sub-type, the 'Contradictory evidence gap,' which occurs 'If research findings contradict.' This points to an area of debate or uncertainty in the literature that warrants further investigation."
         },
         {
           "id": 53,
-          "question": "According to Don Norman's 'The Design of Everyday Things,' what are the two most important principles of good design?",
+          "question": "According to § 22 of the TUM APSO, what is the consequence of using unauthorized materials like Generative AI tools in an examination?",
           "options": {
-            "A": "Aesthetics and Cost",
-            "B": "Innovation and Complexity",
-            "C": "Discoverability and Understanding",
-            "D": "Speed and Efficiency"
+            "A": "The student receives a warning but can retake the exam.",
+            "B": "The examination will be graded 'Fail'.",
+            "C": "The student is given extra time to complete the exam without the tool.",
+            "D": "The grade is reduced by one level."
           },
-          "answer": "C",
-          "short_explanation": "Don Norman identifies Discoverability and Understanding as two of the most important principles of good design.",
-          "long_explanation": "Slide 13 directly sources Don Norman's 'Design of Everyday Things' to list two important design principles: 1. Discoverability (figuring out what is possible) and 2. Understanding (figuring out what it means and how it works)."
+          "answer": "B",
+          "short_explanation": "Using unauthorized resources, including Generative AI, during an exam constitutes academic misconduct and results in a failing grade.",
+          "long_explanation": "Slides 5 and 6 of the Academic Integrity lecture explicitly cite § 22 of the TUM APSO. It states that if a student attempts to alter results 'by fraud, deceit, etc. or the use of unauthorized materials or resources, the examination will be graded “Fail”.' Slide 6 specifically points to Generative AI tools as an example of such unauthorized resources."
         },
         {
           "id": 54,
-          "question": "The five stages of the Design Thinking process from the Stanford d.school are:",
+          "question": "In the context of technology, 'affordances' refer to:",
           "options": {
-            "A": "Plan, Design, Build, Test, Launch",
-            "B": "Discover, Define, Develop, Deliver, Debrief",
-            "C": "Empathize, Define, Ideate, Prototype, Test",
-            "D": "Research, Analyze, Synthesize, Evaluate, Implement"
+            "A": "The cost of acquiring a new technology.",
+            "B": "The perceived and actual properties of a thing that determine how it could possibly be used.",
+            "C": "The legal regulations governing a technology's use.",
+            "D": "The marketing materials used to promote a technology."
           },
-          "answer": "C",
-          "short_explanation": "The five stages of the Stanford d.school design thinking process are Empathize, Define, Ideate, Prototype, and Test.",
-          "long_explanation": "Slide 18 explicitly lists the five phases of the design process from Stanford University's Hasso Plattner Institute of Design as: Empathize, Define, Ideate, Prototype, and Test. The slide also notes that these stages are not always sequential."
+          "answer": "B",
+          "short_explanation": "Affordances are the possibilities for action that an object or environment offers to a user.",
+          "long_explanation": "Slide 5 of the Technology Assessment lecture lists 'Affordances (Gibson, 2015)' as one of the key concepts demonstrating that technology is not neutral. An affordance is a property of an object that suggests how it can be used; for example, a button affords pushing. Designers can create affordances that guide user behavior."
         },
         {
           "id": 55,
-          "question": "In the five-stage Design Thinking model, what is the primary activity in the 'Empathize' stage?",
-          "options": {
-            "A": "Building a functional version of the product.",
-            "B": "Brainstorming a wide range of creative ideas.",
-            "C": "Gaining a deep understanding of the users' needs, thoughts, and feelings.",
-            "D": "Defining a clear and actionable problem statement."
-          },
-          "answer": "C",
-          "short_explanation": "The 'Empathize' stage is focused on understanding the user's experience and perspective.",
-          "long_explanation": "The 'Empathize' stage is the foundation of the human-centered design process (Slide 18). It involves observing, engaging, and immersing oneself in the user's context to understand their experiences and motivations on a deep, empathetic level."
-        },
-        {
-          "id": 56,
-          "question": "Which Design Thinking framework is described as a cyclical three-step process involving Inspiration, Ideation, and Implementation?",
-          "options": {
-            "A": "The Double Diamond by the Design Council",
-            "B": "Head, Heart and Hand by AIGA",
-            "C": "The Five Stages by Stanford d.school",
-            "D": "The process by IDEO"
-          },
-          "answer": "D",
-          "short_explanation": "IDEO's design thinking process consists of the three cyclical core activities: Inspiration, Ideation, and Implementation.",
-          "long_explanation": "Slide 21 presents the IDEO framework. It is described as a 'cyclical three-step process that involves Inspiration, Ideation an Implementation.' Inspiration is the problem/opportunity, Ideation is the process of generating ideas, and Implementation is the path to market."
-        },
-        {
-          "id": 57,
-          "question": "The Double Diamond model consists of two diamonds. What do these two diamonds represent?",
-          "options": {
-            "A": "The design team and the client team.",
-            "B": "The problem space and the solution space.",
-            "C": "The divergent phase and the convergent phase.",
-            "D": "The internal process and the external process."
-          },
-          "answer": "B",
-          "short_explanation": "The two diamonds in the Double Diamond model represent the problem space and the solution space.",
-          "long_explanation": "Slide 22 explains that the Double Diamond model consists of two diamonds: 'one for the problem space and, the other for the solution space.' The first diamond is about finding the right problem (Discover, Define), and the second is about finding the right solution (Develop, Deliver)."
-        },
-        {
-          "id": 58,
-          "question": "In the context of the Double Diamond model, what does 'divergent thinking' involve?",
-          "options": {
-            "A": "Narrowing down options to make a final decision.",
-            "B": "Focusing on a single, well-defined problem.",
-            "C": "Exploring a wide range of possibilities and generating many ideas without judgment.",
-            "D": "Analyzing and critiquing a proposed solution."
-          },
-          "answer": "C",
-          "short_explanation": "Divergent thinking is the process of exploring many different possibilities and ideas, or 'going wide'.",
-          "long_explanation": "The Double Diamond model (Slides 22-23) is built on the alternating activities of diverging and converging. Divergent phases, like 'Discover' and 'Develop,' involve opening up the thinking process to explore many options and generate a broad set of ideas."
-        },
-        {
-          "id": 59,
-          "question": "What is a key difference between Design Thinking and Agile methodology?",
-          "options": {
-            "A": "Agile is iterative, while Design Thinking is linear.",
-            "B": "Design Thinking is more about exploring and defining the right problem, while Agile is about efficiently executing and delivering a product.",
-            "C": "Design Thinking is used for software, while Agile is used for hardware.",
-            "D": "Agile is user-centered, while Design Thinking is technology-centered."
-          },
-          "answer": "B",
-          "short_explanation": "Design Thinking focuses on finding the right problem, whereas Agile focuses on efficiently building the solution.",
-          "long_explanation": "Slide 27 provides a table comparing the two methodologies. It states, 'Design thinking is more about exploring and defining the right problem and solution, whereas agile is about efficiently executing and delivering a product.' Design Thinking typically happens at the beginning of a project, while Agile is used after a clear solution is defined."
-        },
-        {
-          "id": 60,
-          "question": "The '4P framework' for Design Thinking includes Problem, People, Possibilities, and which fourth 'P'?",
-          "options": {
-            "A": "Process",
-            "B": "Prototype",
-            "C": "Product",
-            "D": "Plan"
-          },
-          "answer": "C",
-          "short_explanation": "The 4P framework consists of Problem, People, Possibilities, and Product.",
-          "long_explanation": "Slide 29 outlines the 4P framework. The four components are: Problem (what is the issue?), People (who is affected?), Possibilities (how can we solve it?), and Product (what is the representation of the solution?)."
-        },
-        {
-          "id": 61,
-          "question": "In the Amazon Hiring Algorithm case study, the AI tool discriminated against women because:",
-          "options": {
-            "A": "It was explicitly programmed to do so by the engineers.",
-            "B": "The training data reflected a historical, male-dominated hiring history.",
-            "C": "Women applied with less qualified resumes on average.",
-            "D": "The algorithm was a perfect, neutral tool that revealed existing biases."
-          },
-          "answer": "B",
-          "short_explanation": "The algorithm learned to discriminate from biased training data that reflected historical hiring patterns.",
-          "long_explanation": "Slide 30 explains that the Amazon AI hiring tool discriminated against women because it was trained on historical data. This 'training data reflected male-dominated hiring history,' and the algorithm learned to replicate and amplify the biases present in that data."
-        },
-        {
-          "id": 62,
-          "question": "In the 'Khushi Baby' case study, what was the 'Product' or representation of the solution?",
-          "options": {
-            "A": "A centralized hospital database system.",
-            "B": "A waterproof, culturally acceptable necklace with an embedded NFC tag.",
-            "C": "A smartphone app for parents to track vaccinations.",
-            "D": "A paper-based record-keeping book."
-          },
-          "answer": "B",
-          "short_explanation": "The solution, Khushi Baby, was a wearable necklace containing an NFC tag to store a child's digital health data.",
-          "long_explanation": "Slide 37 describes the product for the Khushi Baby project. The solution is the 'Khushi Baby Necklace,' which is a 'waterproof, culturally acceptable necklace with an embedded NFC tag' that 'stores the child's digital health data' and is worn like a traditional black thread."
-        },
-        {
-          "id": 63,
-          "question": "A Hermeneutic Literature Review is characterized by being:",
-          "options": {
-            "A": "A rigid, one-time analysis of a fixed set of texts.",
-            "B": "An iterative and circular process of continuous engagement with literature.",
-            "C": "A statistical summary of quantitative findings.",
-            "D": "A method that avoids any interpretation from the researcher."
-          },
-          "answer": "B",
-          "short_explanation": "A Hermeneutic Literature Review involves an iterative, circular process (the hermeneutic circle) of re-interpreting literature.",
-          "long_explanation": "Slide 17 describes the Hermeneutic Literature Review. It is defined by its 'Iterative and circular process (hermeneutic circle)' and 'Continuous engagement with literature.' This approach is flexible, adaptive, and acknowledges the researcher's interpretive role."
-        },
-        {
-          "id": 64,
-          "question": "Which of the following is an example of a 'Practical-Knowledge Gap'?",
-          "options": {
-            "A": "Two scientific studies presenting conflicting results about a drug's efficacy.",
-            "B": "A situation where the actual behavior of professionals in a field differs from the expected behavior described in theory.",
-            "C": "A lack of research on the effects of a new policy on elderly populations.",
-            "D": "A theory from sociology has never been applied to the field of computer science."
-          },
-          "answer": "B",
-          "short_explanation": "A Practical-Knowledge Gap is a conflict between what theory says should happen and what actually happens in practice.",
-          "long_explanation": "Slide 41 defines the 'Practical-Knowledge Gap' (or 'action-knowledge conflict gap') as a conflict that 'arises when the actual behaviour in practice is different from the expected behaviour.' Research would then seek to understand the scope and reasons for this discrepancy."
-        },
-        {
-          "id": 65,
-          "question": "What is the primary function of the 'Conclusion' section in a literature review's structure?",
-          "options": {
-            "A": "To introduce the topic and scope for the first time.",
-            "B": "To present the detailed literature review itself.",
-            "C": "To introduce new evidence not previously discussed.",
-            "D": "To summarize key findings, explain their significance ('so what'), and state implications for future research."
-          },
-          "answer": "D",
-          "short_explanation": "The conclusion summarizes findings, explains their significance, and outlines implications for future research.",
-          "long_explanation": "Slide 32 outlines the structure of drafting and presenting a literature review. The 'Conclusion' section's role is to 'Summarise your key findings,' 'Explain so what',' state 'Implications for future research,' and make 'Connections to the current study.'"
-        },
-        {
-          "id": 66,
-          "question": "According to the TUM-SGwP, which action constitutes a violation of intellectual property rights?",
-          "options": {
-            "A": "Citing a source using the wrong citation style.",
-            "B": "Disagreeing with the conclusions of a published paper.",
-            "C": "Plagiarism or theft of ideas.",
-            "D": "Failing to thank a colleague in the acknowledgements."
-          },
-          "answer": "C",
-          "short_explanation": "Plagiarism and theft of ideas are direct violations of intellectual property rights under the TUM-SGwP.",
-          "long_explanation": "Slide 23, defining academic misconduct under § 13 TUM-SGwP, explicitly lists 'violates intellectual property rights (e.g. through plagiarism or theft of ideas)' as a form of misconduct committed through gross negligence."
-        },
-        {
-          "id": 67,
-          "question": "Why is it important to use high-quality sources like peer-reviewed journal articles in a literature review?",
-          "options": {
-            "A": "They are always shorter and easier to read.",
-            "B": "They are the only sources available in the library.",
-            "C": "To ensure the credibility and reliability of your review.",
-            "D": "They do not require citation."
-          },
-          "answer": "C",
-          "short_explanation": "Using high-quality, peer-reviewed sources ensures the credibility and reliability of the literature review.",
-          "long_explanation": "Slide 36 provides advice for writing a literature review. The first point is to 'Use high-quality sources,' specifying a focus on 'peer-reviewed journal articles and books from reputable academic publishers to ensure the credibility and reliability of your review.'"
-        },
-        {
-          "id": 68,
-          "question": "What does 'Schöpfungshöhe' refer to in German Copyright Law?",
-          "options": {
-            "A": "The height of the author's reputation.",
-            "B": "The price at which a work of art is sold.",
-            "C": "The minimum level of creativity necessary for a work to be protected by copyright.",
-            "D": "The official registration process for a copyright."
-          },
-          "answer": "C",
-          "short_explanation": "'Schöpfungshöhe' is the German legal term for the threshold of creativity a work must meet to qualify for copyright protection.",
-          "long_explanation": "Slide 29 of the 'Academic Integrity' lecture explains that for works like tables, images, and pictures to be protected, a 'Minimum level of creativity necessary (Schöpfungshöhe)' is required. This is a key concept in determining what is and isn't copyrightable."
-        },
-        {
-          "id": 69,
-          "question": "The evolution of Technology Assessment in the 1980s shifted from an 'early-warning' function towards what concept?",
-          "options": {
-            "A": "Technology determinism",
-            "B": "The 'shaping of technology' according to social needs and values",
-            "C": "A complete ban on all new technologies",
-            "D": "Focusing only on the economic benefits of technology"
-          },
-          "answer": "B",
-          "short_explanation": "In the 1980s, TA evolved to focus on the 'shaping of technology' based on social needs and values.",
-          "long_explanation": "Slide 8 outlines the history of TA. After its origins as an 'early-warning' function, the 1980s saw a shift towards the ''shaping of technology' according to social needs and values,' a more proactive and constructive approach."
-        },
-        {
-          "id": 70,
-          "question": "Constructive Technology Assessment (CTA) is an example of which branch of TA?",
+          "question": "Which branch of Technology Assessment is associated with the framework of social constructivism and the work of Bijker et al.?",
           "options": {
             "A": "TA as policy advice",
-            "B": "TA as a medium of participation",
+            "B": "Participatory TA",
             "C": "TA for shaping technology directly",
             "D": "TA in innovation processes"
           },
           "answer": "C",
-          "short_explanation": "Constructive Technology Assessment (CTA) is a key method within the branch of TA for shaping technology directly.",
-          "long_explanation": "Slide 10 categorizes 'Constructive Technology Assessment or Social Shaping of Technology' under the branch of 'TA for shaping technology directly.' Its aim is to increase reflexivity in the development process to create a 'better technology in a better society.'"
+          "short_explanation": "The branch of TA for shaping technology directly is rooted in social constructivism, which posits that technology is shaped by social values.",
+          "long_explanation": "Slide 10 explicitly links 'TA for shaping technology directly' to the 'Framework of social constructivism' and the work of 'Bijker et al. 1987'. This approach focuses on shaping technology according to social expectations and values to create a 'better technology in a better society'."
+        },
+        {
+          "id": 56,
+          "question": "What is a major requirement for the content of a Fundamental Rights Impact Assessment (FRIA) under the AI Act?",
+          "options": {
+            "A": "A detailed financial cost-benefit analysis.",
+            "B": "A description of human oversight measures.",
+            "C": "A marketing plan for the AI system.",
+            "D": "A list of all competing AI systems on the market."
+          },
+          "answer": "B",
+          "short_explanation": "A FRIA must include a description of the human oversight measures designed to monitor the AI system's behavior.",
+          "long_explanation": "Slide 23 lists the specific requirements for a FRIA under Article 27 of the AI Act. One of the key components is 'Human Oversight Measures,' which includes describing oversight mechanisms and ensuring adherence to ethical standards."
+        },
+        {
+          "id": 57,
+          "question": "What is a 'one-shot operation' property of a wicked problem?",
+          "options": {
+            "A": "The problem can be solved with a single, simple action.",
+            "B": "There is no opportunity to learn by trial-and-error, so every attempt counts significantly.",
+            "C": "The solution is not true-or-false, but good-or-bad.",
+            "D": "The problem is a symptom of another, deeper problem."
+          },
+          "answer": "B",
+          "short_explanation": "This property means that for wicked problems, every intervention has real consequences, and there are no low-stakes practice runs.",
+          "long_explanation": "Slide 8 lists the ten properties of wicked problems. One property is that 'Every solution to a wicked problem is a “one-shot operation”; because there is no opportunity to learn by trial-and-error, every attempt counts significantly.' This highlights the high stakes involved in addressing such problems."
+        },
+        {
+          "id": 58,
+          "question": "The AIGA 'Head, Heart, and Hand' framework integrates which three aspects of the creative process?",
+          "options": {
+            "A": "Technical, Financial, and Legal",
+            "B": "Past, Present, and Future",
+            "C": "Intellectual, Emotional, and Practical",
+            "D": "Discover, Develop, and Deliver"
+          },
+          "answer": "C",
+          "short_explanation": "This framework provides a holistic perspective on design by integrating the intellectual (Head), emotional (Heart), and practical (Hand) aspects.",
+          "long_explanation": "Slide 20 explains the Head, Heart, and Hand approach by the American Institute of Graphic Arts (AIGA). It explicitly states that this holistic perspective 'integrates the intellectual, emotional, and practical aspects of the creative process'."
+        },
+        {
+          "id": 59,
+          "question": "In the five-stage Design Thinking model, what is the primary purpose of the 'Define' stage?",
+          "options": {
+            "A": "To brainstorm as many ideas as possible.",
+            "B": "To create a clear and actionable problem statement based on user insights from the Empathize stage.",
+            "C": "To test a prototype with real users.",
+            "D": "To select the final materials for manufacturing the product."
+          },
+          "answer": "B",
+          "short_explanation": "The 'Define' stage involves synthesizing findings from the empathy stage to create a focused problem statement.",
+          "long_explanation": "Slide 18 shows the 'Define' stage following 'Empathize.' This is a convergent phase where the team analyzes their observations and synthesizes them to define the core problems that have been identified. This problem statement (or point of view) then guides the 'Ideate' stage."
+        },
+        {
+          "id": 60,
+          "question": "What is the key characteristic of a Hermeneutic Literature Review?",
+          "options": {
+            "A": "It follows a strict, linear, and pre-specified methodology.",
+            "B": "It is a statistical analysis of quantitative data from multiple studies.",
+            "C": "It is an iterative and circular process of continuous engagement with literature to build a holistic understanding.",
+            "D": "It maps out literature on a broad topic without assessing quality."
+          },
+          "answer": "C",
+          "short_explanation": "A Hermeneutic Review is defined by its iterative, interpretive, and circular engagement with texts (the hermeneutic circle).",
+          "long_explanation": "Slide 17 describes the Hermeneutic Literature Review as an 'Iterative and circular process (hermeneutic circle)' involving 'Continuous engagement with literature.' It is flexible, adaptive, and acknowledges the researcher's interpretive role in developing an argument."
+        },
+        {
+          "id": 61,
+          "question": "A 'practical-knowledge' or 'action-knowledge' conflict gap arises when:",
+          "options": {
+            "A": "Research findings from different studies are contradictory.",
+            "B": "A theory has not been applied in a specific context.",
+            "C": "The actual behavior in practice is different from the expected behavior based on theory.",
+            "D": "A topic has not been studied using empirical methods."
+          },
+          "answer": "C",
+          "short_explanation": "This gap highlights a discrepancy between professional theory/knowledge and what actually occurs in practice.",
+          "long_explanation": "Slide 41 defines the 'Action-knowledge conflict gap' as a conflict that 'arises when the actual behaviour in practice is different from the expected behaviour.' This type of gap calls for research to uncover the reasons for this discrepancy between theory and practice."
+        },
+        {
+          "id": 62,
+          "question": "What is a core component of a good literature review's 'Critical Analysis'?",
+          "options": {
+            "A": "Simply summarizing the sources without evaluation.",
+            "B": "Only including studies published in the last year.",
+            "C": "Assessing the strengths and weaknesses of different studies and identifying gaps.",
+            "D": "Ensuring every source is cited in APA style."
+          },
+          "answer": "C",
+          "short_explanation": "Critical analysis goes beyond summary to evaluate the strengths, weaknesses, and gaps in the existing research.",
+          "long_explanation": "Slide 33 emphasizes that a strong literature review 'critically evaluates the existing research.' This 'involves assessing the strengths and weaknesses of different studies, identifying gaps in the current knowledge, and highlighting areas of controversy or debate within the field.'"
+        },
+        {
+          "id": 63,
+          "question": "What is the primary mechanism that DFG Guideline 19 ('Procedures in cases of alleged research misconduct') seeks to establish?",
+          "options": {
+            "A": "A system for automatically detecting plagiarism in all submitted papers.",
+            "B": "A set of procedures within institutions to handle allegations of misconduct in a fair, timely, and transparent manner.",
+            "C": "A national fund to compensate victims of research misconduct.",
+            "D": "A mandatory ethics course for all researchers in Germany."
+          },
+          "answer": "B",
+          "short_explanation": "Guideline 19 requires research institutions to establish their own fair and clear procedures for handling misconduct allegations.",
+          "long_explanation": "Slide 19 outlines the requirements of Guideline 19. It states that research institutions must 'establish procedures to handle allegations of research misconduct' that are based on a sufficient legal foundation and include a fair process, timely procedure, and transparent outcomes."
+        },
+        {
+          "id": 64,
+          "question": "Under German Copyright Law, how long does copyright protection for a work typically last?",
+          "options": {
+            "A": "50 years after the work is published.",
+            "B": "Forever, as long as the author's estate exists.",
+            "C": "70 years after the author's death.",
+            "D": "25 years from the date of creation."
+          },
+          "answer": "C",
+          "short_explanation": "Copyright protection in Germany generally extends for 70 years after the death of the author.",
+          "long_explanation": "Slide 29 explicitly states, 'Copyright protection continues up to 70 years after the author's death. Afterwards the work is copyright-free. § 64 German Copyright Act.' This defines the standard term of protection for creative works."
+        },
+        {
+          "id": 65,
+          "question": "What is the primary difference between direct quoting and paraphrasing?",
+          "options": {
+            "A": "Direct quoting requires a citation, while paraphrasing does not.",
+            "B": "Direct quoting uses the exact words of the source, while paraphrasing restates the idea in your own words.",
+            "C": "Direct quoting is for short phrases, while paraphrasing is for entire paragraphs.",
+            "D": "Direct quoting is used in humanities, while paraphrasing is used in sciences."
+          },
+          "answer": "B",
+          "short_explanation": "Direct quoting uses the source's exact words in quotation marks, whereas paraphrasing expresses the source's idea using your own sentence structure and vocabulary.",
+          "long_explanation": "Slide 39 contrasts the two methods. 'Direct quoting (verbatim)' is for using 'exact words,' which must be enclosed in quotation marks and cited. 'Paraphrasing (own words)' involves restating ideas clearly, and while it doesn't use quotation marks (unless retaining exact phrases), it must always be cited."
+        },
+        {
+          "id": 66,
+          "question": "In the Technology Assessment lecture, what is the significance of the Dutch SyRI case (2020)?",
+          "options": {
+            "A": "It was a successful example of a participatory TA process.",
+            "B": "It is used as an example case for the application of a Fundamental Rights Impact Assessment (FRIA).",
+            "C": "It led to the creation of the GDPR.",
+            "D": "It demonstrated that AI systems are always neutral and unbiased."
+          },
+          "answer": "B",
+          "short_explanation": "The Dutch SyRI case is presented as a key example related to the need for and application of FRIAs for high-risk systems.",
+          "long_explanation": "Slide 21 mentions the 'Case: Dutch SyRI case (2020)' in the context of the Fundamental Rights Impact Assessment (FRIA). The SyRI system, used for welfare fraud detection, was ruled unlawful by a Dutch court for violating human rights, highlighting the need for such impact assessments for high-risk AI."
+        },
+        {
+          "id": 67,
+          "question": "Which of these is NOT a specific requirement for a FRIA mentioned on slide 23?",
+          "options": {
+            "A": "Deployment Context and Intended Purpose",
+            "B": "Specific Risks of Harm",
+            "C": "Risk Mitigation Measures",
+            "D": "Project Budget and Funding Sources"
+          },
+          "answer": "D",
+          "short_explanation": "The specific requirements for a FRIA focus on rights, risks, and oversight, not on the financial aspects of the project.",
+          "long_explanation": "Slide 23 lists six specific requirements for a FRIA: Deployment Context and Intended Purpose, Operational Duration and Usage Frequency, Affected Natural Persons and Groups, Specific Risks of Harm, Human Oversight Measures, and Risk Mitigation Measures. Financial details are not part of this rights-focused assessment."
+        },
+        {
+          "id": 68,
+          "question": "What is the defining characteristic of the 'Deliver' phase in the Double Diamond model?",
+          "options": {
+            "A": "A period of divergent thinking to generate many new ideas.",
+            "B": "A period of convergent thinking to refine and finalize a solution for launch.",
+            "C": "The initial research phase to understand user needs.",
+            "D": "The creation of multiple, low-fidelity prototypes."
+          },
+          "answer": "B",
+          "short_explanation": "The 'Deliver' phase is the final, convergent stage where a chosen solution is finalized and prepared for release.",
+          "long_explanation": "As shown on slide 22, the 'Deliver' phase is the second half of the solution space diamond. It is a convergent phase that follows the divergent 'Develop' phase. Here, the team refines the chosen solution, performs final testing, and prepares it for launch or delivery."
+        },
+        {
+          "id": 69,
+          "question": "What does the 'doctrine of placements' in design thinking suggest about categories and placements?",
+          "options": {
+            "A": "Categories have flexible boundaries, while placements are fixed.",
+            "B": "Placements are primary and provide a context for thinking, while categories are secondary.",
+            "C": "Designers should only work within one fixed category for their entire career.",
+            "D": "Placements and categories are identical concepts."
+          },
+          "answer": "B",
+          "short_explanation": "The doctrine holds that placements are the primary, flexible contexts for design thinking, while fixed categories are secondary.",
+          "long_explanation": "Slide 11 contrasts categories and placements. It states that categories have fixed meanings, while placements have flexible boundaries that provide a context for thinking and innovation. The slide concludes, 'Placements are primarily, and categories are secondary'."
+        },
+        {
+          "id": 70,
+          "question": "In the context of the Amazon Hiring Algorithm case study, how was the problem initially interpreted by the company?",
+          "options": {
+            "A": "As a socio-technical issue rooted in historical biases.",
+            "B": "As a technical challenge of speeding up resume screening.",
+            "C": "As a legal compliance issue related to GDPR.",
+            "D": "As a public relations opportunity to promote diversity."
+          },
+          "answer": "B",
+          "short_explanation": "The problem was initially viewed narrowly as a technical challenge to improve efficiency in resume screening.",
+          "long_explanation": "Slide 30 explains that the initial interpretation was 'Viewing the problem as a technical challenge—speeding up resume screening.' A deeper reflection, however, revealed it was a socio-technical issue where the AI replicated and amplified historical discrimination."
         },
         {
           "id": 71,
-          "question": "Which of these is a key requirement of a Data Protection Impact Assessment (DPIA) according to the slides?",
+          "question": "What is a 'thesis statement' in a literature review designed to do?",
           "options": {
-            "A": "An assessment of the necessity and proportionality of the processing operations.",
-            "B": "A plan for monetizing the collected data.",
-            "C": "A list of all employees involved in the project.",
-            "D": "A guarantee that no risks exist."
+            "A": "Summarize every single source mentioned in the review.",
+            "B": "Offer an argument, critical assessment, or point out a gap in the literature.",
+            "C": "Provide the author's biography and credentials.",
+            "D": "State the hypothesis of the author's own planned study."
           },
-          "answer": "A",
-          "short_explanation": "A DPIA must contain an assessment of the necessity and proportionality of the data processing in relation to its purposes.",
-          "long_explanation": "Slide 20 lists what a DPIA shall contain. One of the core requirements is an 'assessment of the necessity and proportionality of the processing operations in relation to the purposes,' ensuring that the data processing is justified and not excessive."
+          "answer": "B",
+          "short_explanation": "A thesis statement for a literature review makes a claim about the body of work being reviewed.",
+          "long_explanation": "Slide 27 clearly states that 'A thesis statement offers an argument about the literature.' It can achieve this by offering a critical assessment (topic + claim), providing an overview of scholarly conversations, or pointing out gaps or weaknesses."
         },
         {
           "id": 72,
-          "question": "When should a Fundamental Rights Impact Assessment (FRIA) be conducted?",
+          "question": "What does the principle of 'verifiability' in scientific publication, as per TUM-SGwP, require?",
           "options": {
-            "A": "After the AI system has been deployed for one year.",
-            "B": "Only if a major incident occurs.",
-            "C": "Before the deployment of the high-risk AI system.",
-            "D": "At the discretion of the system's end-users."
+            "A": "That all data must be kept private.",
+            "B": "That methods and outcomes must be clearly described and understandable.",
+            "C": "That the findings must be verified by a government agency before publication.",
+            "D": "That only positive, verifiable results should be published."
           },
-          "answer": "C",
-          "short_explanation": "An FRIA must be conducted before the deployment of a high-risk AI system to proactively assess potential harms.",
-          "long_explanation": "Slide 22 addresses the timing of an FRIA, stating it should be conducted 'before the deployment of those systems.' The logic is to capture potential harms at the deployment phase, as many risks only materialize in specific downstream use cases."
+          "answer": "B",
+          "short_explanation": "Verifiability means that methods and outcomes must be described clearly enough for others to understand and potentially replicate the work.",
+          "long_explanation": "Slide 22, under § 11(5) TUM-SGwP, defines 'Verifiability' as the requirement that 'Methods and outcomes must be clearly described and understandable.' This is a cornerstone of scientific practice, enabling scrutiny and building upon previous research."
         },
         {
           "id": 73,
-          "question": "In the context of design thinking, 'placements' are described as significant tools because they:",
+          "question": "Which of the following is an example of 'clause splicing' or 'shake & paste' plagiarism?",
           "options": {
-            "A": "Provide a rigid and unchangeable definition of a problem.",
-            "B": "Allow the designer to position and reposition the problems and issues.",
-            "C": "Are only relevant for the final stage of product delivery.",
-            "D": "Eliminate the need for a designer's worldview or philosophy."
+            "A": "Submitting another person's entire essay as your own.",
+            "B": "Combining fragments of different texts or sentences to form a new text without citation.",
+            "C": "Translating a paragraph from a foreign source without attribution.",
+            "D": "Presenting a colleague's spoken idea as your own in a paper."
           },
           "answer": "B",
-          "short_explanation": "Placements are tools that allow a designer to flexibly position and reposition problems, fostering new perspectives.",
-          "long_explanation": "Slide 9 explains that designers operate on two levels. 'Placements' are significant tools at the particular level because 'They allow the designer to position and reposition the problems and issues,' enabling a dynamic approach to problem framing."
+          "short_explanation": "'Shake & paste' plagiarism involves creating a mosaic of text from various uncited sources.",
+          "long_explanation": "Slide 25 defines 'Clause splicing / Shake & paste plagiarism' as 'Combining fragments of different texts or sentences to form a new text without citation, thus presenting it as one's own line of thought.' It is a more complex form of copy-paste plagiarism."
         },
         {
           "id": 74,
-          "question": "Which of Buchanan's Four Orders of Design encompasses 'Interactions, activities, services, processes'?",
+          "question": "Which of the following is NOT a core principle of direct quoting?",
           "options": {
-            "A": "The first order (Symbols)",
-            "B": "The second order (Objects)",
-            "C": "The third order (Interaction)",
-            "D": "The fourth order (Systems)"
+            "A": "The quote must be accurate and word-for-word.",
+            "B": "The quote should be used sparingly.",
+            "C": "You can integrate your own interpretation within the quotation marks.",
+            "D": "The quote must be accurately cited."
           },
           "answer": "C",
-          "short_explanation": "The third order of design is Interaction, which includes the design of activities, services, and processes.",
-          "long_explanation": "Slide 10 presents the 'Four Orders of Design' in a diagram. The third order, labeled 'Interaction,' is shown to correspond to the field of 'Interactions, activities, services, processes.' This moves beyond static objects to the design of dynamic experiences."
+          "short_explanation": "A direct quote must be a verbatim reproduction of the source; your own interpretation should come before or after it, not within it.",
+          "long_explanation": "Slide 39 provides guidelines for both quoting and paraphrasing. For paraphrasing, it explicitly states, 'Do not include your own interpretation or assessment.' The same principle applies to direct quoting, which must be a faithful, unaltered reproduction of the original text."
         },
         {
           "id": 75,
-          "question": "What is the primary focus of the 'Define' stage in the five-stage Design Thinking model?",
+          "question": "According to the lecture, what is the role of Technology Assessment today?",
           "options": {
-            "A": "To generate as many solutions as possible.",
-            "B": "To build a physical prototype of an idea.",
-            "C": "To analyze observations from the Empathize stage and synthesize them into a clear problem statement.",
-            "D": "To test the final product with a large group of users."
+            "A": "To stop all technological development.",
+            "B": "To provide knowledge for better-informed and well-reflected decisions concerning new technologies.",
+            "C": "To exclusively focus on the economic benefits of technology.",
+            "D": "To act as a marketing tool for technology companies."
           },
-          "answer": "C",
-          "short_explanation": "The 'Define' stage focuses on synthesizing observations to create a clear, actionable problem statement.",
-          "long_explanation": "In the five-stage model (Slide 18), the 'Define' stage follows 'Empathize.' Its purpose is to process the information gathered about the user and formulate a well-defined problem statement (or 'point of view') that the team can focus on solving."
+          "answer": "B",
+          "short_explanation": "Modern Technology Assessment aims to provide interdisciplinary knowledge to support informed decision-making about technology.",
+          "long_explanation": "Slide 8 describes the evolution of TA, concluding that today it is 'an interdisciplinary research field aiming at, generally speaking, providing knowledge for better-informed and well-reflected decisions concerning new technologies (Grunwald 2009a).'"
         },
         {
           "id": 76,
-          "question": "The 'Head, Heart and Hand' approach by AIGA is described as a holistic perspective because it:",
+          "question": "What is the 'risk characterization' generated by a risk assessment?",
           "options": {
-            "A": "Focuses only on the practical, hands-on aspects of design.",
-            "B": "Integrates the intellectual, emotional, and practical aspects of the creative process.",
-            "C": "Is a framework designed exclusively for managers (the 'head' of the company).",
-            "D": "Separates thinking, feeling, and doing into distinct, non-overlapping phases."
+            "A": "A single number representing the certainty of a risk.",
+            "B": "A legal document assigning blame for potential harms.",
+            "C": "A range of estimates that quantify hazards, confidence, and uncertainties.",
+            "D": "A public statement that no risk exists."
           },
-          "answer": "B",
-          "short_explanation": "The 'Head, Heart, and Hand' framework is holistic because it integrates intellectual, emotional, and practical aspects of design.",
-          "long_explanation": "Slide 20 explains the 'Head, Heart and Hand' approach by AIGA. It is described as a 'holistic perspective on design' precisely because 'It integrates the intellectual (Head), emotional (Heart), and practical (Hand) aspects of the creative process.'"
+          "answer": "C",
+          "short_explanation": "Risk characterization is the output of a risk assessment, providing a quantitative range of estimates about the identified hazards.",
+          "long_explanation": "Slide 11 explains that a risk assessment 'Generates a risk characterization → range of estimates to quantify identified hazards, degree of confidence, uncertainties, underlying assumptions.' It is a comprehensive summary of the potential risk."
         },
         {
           "id": 77,
-          "question": "What is the key characteristic of the 'Ideate' stage of Design Thinking?",
+          "question": "In the context of Design Thinking, the term 'Feasibility' refers to:",
           "options": {
-            "A": "Narrowing down to one final solution.",
-            "B": "Conducting user interviews.",
-            "C": "Generating a large quantity of diverse ideas (divergent thinking).",
-            "D": "Creating a detailed business plan."
+            "A": "What is desirable to users.",
+            "B": "What is financially viable for the business.",
+            "C": "What is technically and functionally possible to create.",
+            "D": "What is legally compliant."
           },
           "answer": "C",
-          "short_explanation": "The 'Ideate' stage is a divergent phase focused on generating a wide range of creative ideas.",
-          "long_explanation": "Following the 'Define' stage, 'Ideate' (Slide 18) is where the team brainstorms and generates a broad spectrum of potential solutions to the problem statement. It is a phase of 'going wide' to explore possibilities before moving to prototyping and testing."
+          "short_explanation": "'Feasibility' addresses the technical aspects of a solution, determining if it can actually be built and made to work.",
+          "long_explanation": "Slide 5 presents the three core elements of Design Thinking. 'Feasibility (technical)' is the circle that represents the technical capabilities required to bring a solution to life. It answers the question of whether the technology and infrastructure exist to make the idea a reality."
         },
         {
           "id": 78,
-          "question": "In the Double Diamond model, the 'Develop' and 'Deliver' phases make up which part of the process?",
+          "question": "What is the main goal of the 'Ideate' stage in Design Thinking?",
           "options": {
-            "A": "The Problem Space",
-            "B": "The Solution Space",
-            "C": "The Research Space",
-            "D": "The Empathy Space"
+            "A": "To analyze user data and define a problem.",
+            "B": "To generate a large quantity of diverse ideas and solutions.",
+            "C": "To build a functional, high-fidelity prototype.",
+            "D": "To test the final product with the target market."
           },
           "answer": "B",
-          "short_explanation": "The 'Develop' and 'Deliver' phases constitute the second diamond, which is the solution space.",
-          "long_explanation": "As shown on slides 22 and 23, the Double Diamond is divided into the problem space (Discover, Define) and the solution space. The solution space begins after the problem is defined and consists of 'Develop' (exploring solutions) and 'Deliver' (finalizing and launching a solution)."
+          "short_explanation": "The 'Ideate' stage is a divergent phase focused on brainstorming and generating a wide range of potential solutions.",
+          "long_explanation": "Slide 18 places 'Ideate' after 'Define.' Having a clear problem statement allows the team to engage in brainstorming and other ideation techniques to explore a vast array of possible solutions without premature judgment. The focus is on quantity and creativity."
         },
         {
           "id": 79,
-          "question": "Which of the following is listed as a similarity between Design Thinking and Agile methodologies?",
+          "question": "What is the primary characteristic of the 'Problem Space' in the Double Diamond model?",
           "options": {
-            "A": "They are both highly structured and formal processes.",
-            "B": "They both primarily originate from software development.",
-            "C": "They are both iterative and user-centered.",
-            "D": "They both result in a tangible, working software product."
+            "A": "It involves developing and delivering a final solution.",
+            "B": "It focuses on understanding, researching, and defining the problem correctly.",
+            "C": "It is a purely convergent process of narrowing down solutions.",
+            "D": "It is where the budget and project timeline are finalized."
           },
-          "answer": "C",
-          "short_explanation": "Both Design Thinking and Agile are iterative, user-centered, collaborative, and flexible.",
-          "long_explanation": "Slide 26 shows a diagram of similarities between Design Thinking and Agile. The common elements highlighted are that both are Iterative, User-Centered, promote Collaboration and Teamwork, and value Flexibility and Adaptability."
+          "answer": "B",
+          "short_explanation": "The Problem Space (the first diamond) is dedicated to ensuring the team is tackling the right problem through discovery and definition.",
+          "long_explanation": "Slide 23 clearly labels the first diamond as the 'PROBLEM SPACE.' This space includes the 'Discover' (divergent) and 'Define' (convergent) phases, where the goal is to explore user needs and then synthesize those findings into a clear problem definition before moving to the Solution Space."
         },
         {
           "id": 80,
-          "question": "What is the purpose of the 'Prototype' stage in Design Thinking?",
+          "question": "In the Khushi Baby case study, what was the 'Product' or representation of the solution?",
           "options": {
-            "A": "To create a final, market-ready product.",
-            "B": "To generate inexpensive, scaled-down versions of solutions to test and learn from.",
-            "C": "To write the final documentation for the project.",
-            "D": "To define the initial problem statement."
+            "A": "A centralized hospital database system.",
+            "B": "A paper-based vaccination card with a better design.",
+            "C": "A waterproof, culturally acceptable necklace with an embedded NFC tag.",
+            "D": "A smartphone app for parents to self-report vaccinations."
           },
-          "answer": "B",
-          "short_explanation": "Prototyping involves creating low-cost, experimental versions of a solution to test ideas and assumptions.",
-          "long_explanation": "The 'Prototype' stage (Slide 18) is not about creating the final product. It is an experimental phase where the team produces a number of inexpensive, scaled-down versions of the product or specific features to investigate the solutions generated in the Ideate stage. This allows for quick learning and feedback."
+          "answer": "C",
+          "short_explanation": "The solution was the Khushi Baby Necklace, a wearable device with an NFC tag to store a child's digital health data.",
+          "long_explanation": "Slide 37 describes the 'Product' in the Khushi Baby case. The 'representation of your solution' is the 'Khushi Baby Necklace,' which is detailed as a 'Waterproof, culturally acceptable necklace with an embedded NFC tag' that 'Stores the child’s digital health data.'"
         },
         {
           "id": 81,
-          "question": "A 'Population Gap' is a type of which broader category of research gap?",
+          "question": "According to the professor's transcript, a literature review is not just an instance of literature but a...",
           "options": {
-            "A": "Evidence Gap",
-            "B": "Knowledge Gap",
-            "C": "Methodological Gap",
-            "D": "This is a standalone category."
+            "A": "creative writing exercise.",
+            "B": "personal opinion piece.",
+            "C": "systematic organisation.",
+            "D": "collection of anecdotes."
           },
-          "answer": "D",
-          "short_explanation": "In the provided slides, 'Population Gap' is presented as its own distinct category of research gap.",
-          "long_explanation": "Slides 40-42 categorize different types of research gaps. 'Population Gap' is listed on slide 42 as a distinct type, alongside Empirical and Theoretical gaps, separate from Evidence, Knowledge, and Methodological gaps."
+          "answer": "C",
+          "short_explanation": "The professor emphasized that a literature review is a systematic organisation, not just a random collection of literature.",
+          "long_explanation": "In the exam review transcript (00:10 --> 00:58), the professor states, 'And keep in mind that literature review is not just a instance of the literature but it is a systematic organisation.' This highlights the importance of structure, rigor, and purpose."
         },
         {
           "id": 82,
-          "question": "What is the primary difference between a 'Systematic Review' and a 'Scoping Review'?",
+          "question": "Which organizational approach for a literature review emphasizes various strands of research where proponents openly criticize one another?",
           "options": {
-            "A": "Systematic reviews answer specific questions, while scoping reviews map out broader topics.",
-            "B": "Scoping reviews are more rigorous and less prone to bias.",
-            "C": "Systematic reviews are only for qualitative data, and scoping reviews are for quantitative data.",
-            "D": "There is no difference; the terms are interchangeable."
+            "A": "Chronological",
+            "B": "Topical",
+            "C": "Seminal Study",
+            "D": "Debate"
           },
-          "answer": "A",
-          "short_explanation": "Systematic reviews are focused on specific questions, while scoping reviews are broader and map out literature on a topic.",
-          "long_explanation": "Comparing slides 14 and 15, a Systematic Review is 'often used to answer specific research questions' with a rigorous methodology. In contrast, a Scoping Review 'maps key concepts and types of evidence on a topic' and is 'less focused on specific questions.'"
+          "answer": "D",
+          "short_explanation": "The 'Debate' approach is structured around the conflicting positions and criticisms present in the literature.",
+          "long_explanation": "Slide 31 describes the 'Debate' approach as one that 'Emphasizes various strands of research in which proponents of various models openly criticize one another.' It is most useful when clear opposing positions are present."
         },
         {
           "id": 83,
-          "question": "Under TUM-SGwP § 11(5), what is the principle of 'Balanced Findings' in scientific publication?",
+          "question": "What is the core idea of 'Scientific Integrity' as described on slide 9?",
           "options": {
-            "A": "Only publishing findings that support the initial hypothesis.",
-            "B": "Communicating both supporting and challenging findings.",
-            "C": "Ensuring the number of authors is balanced with the length of the paper.",
-            "D": "Balancing text with an equal number of images."
+            "A": "It is the legal requirement for all scientists to join a professional union.",
+            "B": "It forms the basis for trustworthy research and promotes public trust in science.",
+            "C": "It is completely different from and unrelated to academic integrity.",
+            "D": "It focuses solely on the organizational and procedural regulations of an institution."
           },
           "answer": "B",
-          "short_explanation": "'Balanced Findings' requires researchers to communicate both supporting and challenging findings honestly.",
-          "long_explanation": "Slide 22 of the 'Academic Integrity' lecture outlines the principles of scientific publication from TUM-SGwP § 11(5). 'Balanced Findings' is defined as the need to 'Communicate both supporting and challenging findings.'"
+          "short_explanation": "Scientific integrity is the foundation of trustworthy research and is essential for maintaining public trust.",
+          "long_explanation": "Slide 9 states that 'Scientific integrity forms the basis for trustworthy research' and 'strengthens and promotes vital public trust in research.' It is presented as the application of academic integrity principles to the act of research."
         },
         {
           "id": 84,
-          "question": "What does 'plagiarism by obfuscation' or 'idea plagiarism' involve?",
+          "question": "According to § 13 of the TUM-SGwP, which of the following is considered academic misconduct?",
           "options": {
-            "A": "Copying a text word-for-word without citation.",
-            "B": "Listing a source in the bibliography that was not used.",
-            "C": "Presenting another author's ideas in your own words without citing the source.",
-            "D": "Translating a text and claiming it as original."
+            "A": "Having a respectful disagreement with a peer's research findings.",
+            "B": "Violating intellectual property rights through plagiarism or theft of ideas.",
+            "C": "Failing to achieve statistically significant results in an experiment.",
+            "D": "Choosing a research topic that is not popular."
           },
-          "answer": "C",
-          "short_explanation": "Idea plagiarism is the act of taking someone else's idea and presenting it as your own without giving credit.",
-          "long_explanation": "Slide 25 defines 'Idea plagiarism / obfuscation' as 'Presenting another author's ideas in your own words without citing the source.' This is a serious form of academic misconduct because it appropriates the core intellectual contribution of another person."
+          "answer": "B",
+          "short_explanation": "Violating intellectual property rights, such as through plagiarism, is explicitly listed as a form of academic misconduct.",
+          "long_explanation": "Slide 23 lists the ways in which gross negligence constitutes academic misconduct under § 13 TUM-SGwP. The second bullet point is 'violates intellectual property rights (e.g. through plagiarism or theft of ideas).'"
         },
         {
           "id": 85,
-          "question": "Which of the following is a key aspect of the 'politics of assessment' as discussed in the TA lecture?",
+          "question": "What is the key difference between 'convergent' and 'divergent' thinking in the Double Diamond model?",
           "options": {
-            "A": "Assessments are always neutral, objective, and value-free.",
-            "B": "Assessments are politically and socially constructed, and therefore not neutral.",
-            "C": "Only politicians should be allowed to conduct assessments.",
-            "D": "The primary goal of assessment is to win political debates."
+            "A": "Convergent thinking is creative, while divergent thinking is analytical.",
+            "B": "Convergent thinking expands possibilities, while divergent thinking narrows them down.",
+            "C": "Divergent thinking expands possibilities, while convergent thinking narrows them down and focuses on a solution.",
+            "D": "There is no difference; the terms are used interchangeably."
           },
-          "answer": "B",
-          "short_explanation": "A key theme in the 'Politics of Assessment' is that assessments are not neutral but are politically and socially constructed.",
-          "long_explanation": "Slide 27 on the 'Politics of Assessment' explicitly states that 'Assessments are not neutral, politically, socially constructed.' This idea is supported by concepts from Jasanoff, Veale & Edwards, highlighting that the process and outcomes are shaped by values and power structures."
+          "answer": "C",
+          "short_explanation": "Divergent thinking generates options, while convergent thinking analyzes and chooses from those options.",
+          "long_explanation": "The Double Diamond model (Slides 22-23) is built on the principle of alternating between these two modes of thinking. Divergence ('Discover', 'Develop') is about exploring widely and creating choices. Convergence ('Define', 'Deliver') is about synthesizing information and making decisions to move forward."
         },
         {
           "id": 86,
-          "question": "What is the role of a 'working hypothesis' in design thinking according to the lecture?",
+          "question": "What is the 'politics of assessment' according to the lecture?",
           "options": {
-            "A": "It is a final, unchangeable truth that guides the entire project.",
-            "B": "It has a guiding role, acting as a principle of relevance to prioritize questions and values.",
-            "C": "It is a scientific hypothesis that must be proven with quantitative data.",
-            "D": "It is irrelevant to the design process."
+            "A": "Assessments like DPIA and FRIA are neutral, objective, and purely technical tools.",
+            "B": "Assessments are not neutral; they are politically and socially constructed and can have unintended consequences.",
+            "C": "Only politicians are allowed to conduct technology assessments.",
+            "D": "The politics of assessment refers to the budget allocation for conducting them."
           },
           "answer": "B",
-          "short_explanation": "A working hypothesis in design serves as a guiding principle of relevance, helping to prioritize what to focus on.",
-          "long_explanation": "Slide 9 explains that a 'Working hypothesis' has a 'guiding role.' It acts as a 'principle of relevance' that 'talks about what knowledge to seek out, what questions to prioritize, and what values to foreground,' providing direction for the design exploration."
+          "short_explanation": "The 'politics of assessment' refers to the idea that assessment methods are not neutral but are shaped by and shape social and political values.",
+          "long_explanation": "Slide 27 presents the 'Politics of Assessment,' summarizing that 'Assessments are not neutral, politically, socially constructed.' It references scholars like Jasanoff, who discusses legitimacy through public reasoning, and Veale & Edwards, who advocate for embedded assessments, acknowledging their non-neutral nature."
         },
         {
           "id": 87,
-          "question": "In the IDEO design thinking model, which phase corresponds to the problem or opportunity that motivates the search for solutions?",
+          "question": "The definition of risk in the EU AI Act is:",
           "options": {
-            "A": "Ideation",
-            "B": "Implementation",
-            "C": "Inspiration",
-            "D": "Integration"
+            "A": "The effect of uncertainty on objectives.",
+            "B": "Any potential for financial loss.",
+            "C": "The combination of the probability of an occurrence of harm and the severity of that harm.",
+            "D": "A purely subjective feeling of insecurity."
           },
           "answer": "C",
-          "short_explanation": "The 'Inspiration' phase in IDEO's model is the starting point, representing the problem or opportunity.",
-          "long_explanation": "Slide 21 illustrates IDEO's three-step process. 'Inspiration' is the first part of the cycle, representing the challenge or opportunity that sparks the creative process, leading into Ideation and Implementation."
+          "short_explanation": "The AI Act defines risk as a combination of the probability and severity of harm.",
+          "long_explanation": "Slide 15 provides the statutory definitions of risk. It explicitly quotes Art. 3(2) of the AI Act: ''risk' means the combination of the probability of an occurrence of harm and the severity of that harm.' This is a more specific definition than the broader one from ISO 31000."
         },
         {
           "id": 88,
-          "question": "What is the primary risk of not having a 'clear organization' in a literature review?",
+          "question": "What is the 'Define' phase in the Double Diamond model?",
           "options": {
-            "A": "The review may be too long.",
-            "B": "The audience may find it difficult to follow the argument and understand the key themes.",
-            "C": "The researcher might use too many sources.",
-            "D": "The review will automatically be considered plagiarized."
+            "A": "A divergent phase to explore all possible problems.",
+            "B": "A convergent phase to synthesize research and create a clear problem definition.",
+            "C": "A divergent phase to brainstorm all possible solutions.",
+            "D": "A convergent phase to finalize and launch the product."
           },
           "answer": "B",
-          "short_explanation": "A lack of clear organization makes the literature review confusing and difficult for the audience to follow.",
-          "long_explanation": "Slide 33 lists 'Clear organization' as a key characteristic of a good literature review. It suggests using a logical structure (chronological, thematic, etc.) and clear headings to 'guide your audience through the review,' ensuring the content is coherent and understandable."
+          "short_explanation": "The 'Define' phase is the convergent part of the first diamond, where insights from the 'Discover' phase are synthesized into a clear problem statement.",
+          "long_explanation": "Slide 22 shows the 'Define' phase as the second part of the first diamond (Problem Space). It follows the divergent 'Discover' phase and serves to bring focus and clarity by defining the area to focus upon, often resulting in a design brief or problem statement."
         },
         {
           "id": 89,
-          "question": "Veale & Edwards' concept of 'embedded assessments' suggests that impact assessments should be:",
+          "question": "Which common element of design thinking frameworks involves starting with an understanding of the user's needs and context?",
           "options": {
-            "A": "Conducted by a separate, external body long after a product is launched.",
-            "B": "A one-time event at the very beginning of a project.",
-            "C": "Integrated into the development cycles of a technology.",
-            "D": "Focused only on legal compliance."
+            "A": "Reframe the problem",
+            "B": "Iterate",
+            "C": "Start with empathy",
+            "D": "Employ a convergent style of thinking"
           },
           "answer": "C",
-          "short_explanation": "'Embedded assessments' refers to integrating assessments directly and continuously within the development cycles.",
-          "long_explanation": "Slide 27 of the TA lecture presents the idea of 'Embedded assessments within development cycles' from Veale & Edwards. This contrasts with traditional, one-off assessments, advocating for a more agile and integrated approach to considering impacts throughout the design and development process."
+          "short_explanation": "Starting with empathy is a foundational element in most design thinking frameworks, emphasizing a human-centered approach.",
+          "long_explanation": "Slide 28 displays a diagram of 'Common Elements of Design Thinking Frameworks.' The starting point in this cyclical diagram is the heart icon labeled 'Start with empathy,' underscoring the importance of understanding the user first."
         },
         {
           "id": 90,
-          "question": "What is meant by 'methodological awareness' in the context of a good literature review?",
+          "question": "What is one of the key characteristics of Dewey's pragmatic approach to science and technology?",
           "options": {
-            "A": "The ability to use many different research methods in your own study.",
-            "B": "Demonstrating an understanding of the research methods used in the studies you review, including their strengths and limitations.",
-            "C": "Only reviewing studies that use the same methodology as your own.",
-            "D": "Creating a new research methodology."
+            "A": "Science is primary, and Art (production) is secondary.",
+            "B": "Technology is the art of experimental thinking, not just hardware.",
+            "C": "Understanding a problem is always given precedent over making a better solution.",
+            "D": "There is a linear, one-way relationship from science to technology."
           },
           "answer": "B",
-          "short_explanation": "Methodological awareness means understanding and critically discussing the research methods of the studies being reviewed.",
-          "long_explanation": "Slide 34 lists 'Methodological awareness' as a quality of a good literature review. It involves demonstrating 'an understanding of the research methods used in the studies you review,' which includes 'discussing the strengths and limitations of different methodological approaches.'"
+          "short_explanation": "Dewey's pragmatic approach views technology as the art of experimental thinking, shifting focus from hardware to process.",
+          "long_explanation": "Slide 4 on Design Thinking explains Dewey's pragmatic approach. It states, 'Technology is not a particular hardware and learning how to operate it; instead, technology is the art of experimental thinking.' This perspective emphasizes a circular relationship between production and science."
         },
         {
           "id": 91,
-          "question": "In the 4P framework, the 'People' component asks which key question?",
+          "question": "What is the purpose of using a Literature Review Matrix as shown on slide 25?",
           "options": {
-            "A": "What is the root cause of the problem?",
-            "B": "Who is getting affected by this problem? Who is the target audience?",
-            "C": "How will you solve the problem?",
-            "D": "What is the representation of your solution?"
+            "A": "To automatically write the literature review.",
+            "B": "To organize and synthesize information from multiple sources in a structured way.",
+            "C": "To check for plagiarism in your own writing.",
+            "D": "To create a list of keywords for a database search."
           },
           "answer": "B",
-          "short_explanation": "The 'People' component of the 4P framework focuses on identifying who is affected and who the target audience is.",
-          "long_explanation": "Slide 29 breaks down the 4P framework. The 'People' box asks questions like, 'Who is getting affected by this problem? Who is the target audience?' and 'What does the customer want?' It is the human-centered part of the framework."
+          "short_explanation": "A literature review matrix is a tool to systematically summarize, compare, and analyze multiple research articles.",
+          "long_explanation": "Slide 25, under 'STEP 4: Evaluating and Synthesizing,' shows a Literature Review Matrix. Its columns (Author, Purpose, Method, Findings, etc.) are designed to help a researcher 'Read and critically analyze the selected sources' and 'Identify themes, debates, gaps, and connections among the different works' in a structured format."
         },
         {
           "id": 92,
-          "question": "Under the DFG Code of Conduct, Guideline 7 on 'Cross-phase quality assurance' requires researchers to do what when new methods are developed?",
+          "question": "When evaluating the trustworthiness of a source, which question is LEAST relevant?",
           "options": {
-            "A": "Keep the new methods secret to maintain a competitive advantage.",
-            "B": "Always explain the quality assurance mechanisms used.",
-            "C": "Only use methods that have been established for over a decade.",
-            "D": "Avoid publishing any findings from new methods."
+            "A": "Is the author an expert?",
+            "B": "Is the source current?",
+            "C": "Is the source biased or unbiased?",
+            "D": "Is the source's website well-designed?"
           },
-          "answer": "B",
-          "short_explanation": "When new methods are used, Guideline 7 requires that the quality assurance mechanisms behind them are always explained.",
-          "long_explanation": "Slide 13 summarizes DFG Guideline 7. It states that when findings are made public, 'the quality assurance mechanisms used are always explained. This applies especially when new methods are developed,' ensuring transparency and rigor."
+          "answer": "D",
+          "short_explanation": "While a well-designed website can be a positive sign, it is the least relevant factor for judging the trustworthiness of the content compared to author expertise, currency, and bias.",
+          "long_explanation": "Slide 22 lists several questions to consider when examining a source's trustworthiness. These include the author's expertise, the source's currency, completeness, bias, and logical accuracy. The aesthetic design of a website is not a primary criterion for academic credibility."
         },
         {
           "id": 93,
-          "question": "Which form of plagiarism involves combining fragments of different texts to form a new text without citation, presenting it as one's own thought?",
+          "question": "What is the primary difference between primary and secondary sources?",
           "options": {
-            "A": "Complete plagiarism",
-            "B": "Pawn sacrifice",
-            "C": "Bibliography amnesia",
-            "D": "Clause splicing / Shake & paste plagiarism"
+            "A": "Primary sources are always more trustworthy than secondary sources.",
+            "B": "Primary sources are original reports of research, while secondary sources are reviews or summaries of primary sources.",
+            "C": "Primary sources are journal articles, while secondary sources are books.",
+            "D": "Primary sources are found online, while secondary sources are in physical libraries."
           },
-          "answer": "D",
-          "short_explanation": "'Clause splicing' or 'Shake & paste' plagiarism is the act of mixing sentences or fragments from various sources without citation.",
-          "long_explanation": "Slide 25 defines 'Clause splicing / Shake & paste plagiarism' as 'Combining fragments of different texts or sentences to form a new text without citation, thus presenting it as one's own line of thought.' It is a mosaic-style of copying."
+          "answer": "B",
+          "short_explanation": "Primary sources provide firsthand accounts or original data, whereas secondary sources analyze, interpret, or summarize information from primary sources.",
+          "long_explanation": "Slide 22 defines Primary Sources as the 'original report of research providing firsthand information' and Secondary Sources as an 'assembled review of primary sources.' This distinction is crucial for understanding the nature of evidence in a literature review."
         },
         {
           "id": 94,
-          "question": "The investigation process for academic misconduct at TUM (§ 18 TUM-SGwP) is intended to:",
+          "question": "According to the lecture, what is the role of a researcher as a 'co-creator' in Technology Assessment?",
           "options": {
-            "A": "Replace all legal, civil service, or academic procedures.",
-            "B": "Focus initially on a technical resolution with the Ombudsperson before escalating.",
-            "C": "Be a public trial to shame the accused.",
-            "D": "Only be initiated by the university president."
+            "A": "To only observe and document real-world assessments without involvement.",
+            "B": "To only critique and uncover hidden assumptions in existing technologies.",
+            "C": "To collaborate with law, tech, and community stakeholders to shape technology.",
+            "D": "To focus solely on empirical research and data collection."
           },
-          "answer": "B",
-          "short_explanation": "The TUM misconduct investigation process starts with an initial review by the Ombudsperson focusing on technical resolution.",
-          "long_explanation": "Slide 27 illustrates the process for investigating academic misconduct at TUM. It begins with an 'Initial Review by Ombudsperson' that 'Focus[es] on technical resolution.' The issue is only escalated to legal/statutory bodies if it cannot be resolved at this level. The slide also notes this process does not replace formal legal procedures."
+          "answer": "C",
+          "short_explanation": "The 'co-creator' role involves active collaboration with diverse stakeholders to proactively shape technology for justice and ethics.",
+          "long_explanation": "Slide 28 of the Technology Assessment lecture outlines three roles for researchers. The 'Co-creator' is one who actively 'Collaborate[s] with law, tech, community.' This role aligns with Ruha Benjamin's call to 'Design for justice, not just efficiency,' moving beyond passive observation or critique."
         },
         {
           "id": 95,
-          "question": "What is a key feature of the Human Rights Artificial Intelligence Impact Assessment (HRAIIA) developed by OHRC & LCO?",
+          "question": "What is the key takeaway from the question 'Is technology neutral?'",
           "options": {
-            "A": "It is designed only for government organizations.",
-            "B": "It focuses solely on data privacy risks.",
-            "C": "It evaluates potential discrimination and provides a risk-based categorization system.",
-            "D": "It is a legally binding assessment under international law."
+            "A": "Yes, technology is always a neutral tool and only its use can be good or bad.",
+            "B": "No, technology is not neutral because it raises social, ethical, and legal issues and has normative effects.",
+            "C": "The question is irrelevant to the field of technology assessment.",
+            "D": "Only some technologies, like software, are not neutral, while hardware is always neutral."
           },
-          "answer": "C",
-          "short_explanation": "The HRAIIA evaluates potential discrimination and includes a categorization system based on risk levels.",
-          "long_explanation": "Slide 25 describes the HRAIIA. Its key features include that it 'Evaluates potential discrimination and differential treatment' and 'Provides a categorization system (Categories I-VI) based on risk levels.' It is designed for both public and private sector organizations."
+          "answer": "B",
+          "short_explanation": "The lecture firmly establishes that technology is not neutral, as it inherently shapes and is shaped by society, raising complex issues.",
+          "long_explanation": "Slide 3 of the Technology Assessment lecture poses the question 'Is technology neutral?' and immediately answers by stating it '→ raises social, ethical, and legal issues.' Subsequent slides (4, 5, 6) build on this, explaining that technology has 'normative effects' and that 'Code is Law,' demonstrating its non-neutrality."
         },
         {
           "id": 96,
-          "question": "In the 'Test' stage of Design Thinking, what is the primary goal?",
+          "question": "What is the purpose of the 'Test' stage in the five-stage Design Thinking model?",
           "options": {
-            "A": "To sell the product to the first batch of customers.",
-            "B": "To gather feedback on prototypes to refine solutions and better understand users.",
-            "C": "To finalize the design and begin mass production.",
-            "D": "To give a final presentation to stakeholders."
+            "A": "To get feedback on prototypes from users to learn more and refine solutions.",
+            "B": "To conduct a final quality assurance check before the product launch.",
+            "C": "To test the designer's knowledge of the subject matter.",
+            "D": "To define the problem statement."
           },
-          "answer": "B",
-          "short_explanation": "The 'Test' stage is for gathering feedback on prototypes to refine the solution and deepen user understanding.",
-          "long_explanation": "The 'Test' stage (Slide 18) is a crucial feedback loop in the Design Thinking process. Teams test their prototypes with users to see what works and what doesn't. This feedback is used to refine the prototypes and can even lead back to the Define or Empathize stages for a deeper understanding of the user and problem."
+          "answer": "A",
+          "short_explanation": "The 'Test' stage is crucial for gathering user feedback on prototypes, which informs the next iteration of the design.",
+          "long_explanation": "Slide 18 shows the 'Test' stage as the final part of the initial cycle. Its purpose is to solicit feedback on the prototypes created in the previous stage. This feedback can be used to refine the solution or even to better understand the user, leading back to the 'Empathize' or 'Ideate' stages in a non-linear fashion."
         },
         {
           "id": 97,
-          "question": "Which of the following describes the 'Topical' approach to organizing a literature review?",
+          "question": "Which of the following describes the ten properties of wicked problems?",
           "options": {
-            "A": "Organizing the review based on the chronological development of the field.",
-            "B": "Organizing the review around different strands of a debate or opposing positions.",
-            "C": "Organizing the review by discussing each sub-topic or theme individually.",
-            "D": "Organizing the review by starting with general studies and moving to specific ones."
+            "A": "They have a definitive formula and a clear stopping rule.",
+            "B": "Solutions are true-or-false and can be immediately tested.",
+            "C": "They are essentially unique, have no definitive formula, and solutions are 'one-shot operations'.",
+            "D": "They always have a single, clear explanation and a limited number of potential solutions."
           },
           "answer": "C",
-          "short_explanation": "The Topical approach organizes a literature review by discussing different sub-topics or themes one by one.",
-          "long_explanation": "Slide 31 describes the 'Topical' approach as one that 'Discusses each subsection individually, sometimes with critiques of each.' It is most useful for a large body of literature that doesn't have a clear chronological development or a single seminal study."
+          "short_explanation": "Wicked problems are unique, lack clear formulas, and their solutions have significant, irreversible consequences.",
+          "long_explanation": "Slide 8 lists ten properties of wicked problems. Key properties include having no definitive formula, no stopping rule, being essentially unique, and every solution being a 'one-shot operation.' This contrasts sharply with 'tame' problems that have clear, testable solutions."
         },
         {
           "id": 98,
-          "question": "According to DFG Guideline 13, what is the general rule for researchers regarding public access to research results?",
+          "question": "What does the 'Pluralism in design thinking' slide suggest?",
           "options": {
-            "A": "Researchers should keep all results private to protect intellectual property.",
-            "B": "Researchers should make all results available as part of scientific/academic discourse.",
-            "C": "Researchers must get permission from third parties before publishing anything.",
-            "D": "Researchers should only publish positive results that support their hypotheses."
+            "A": "There is only one correct way to practice design thinking.",
+            "B": "Design thinking can be understood in multiple ways: as a culture, an imaginative act, a cognitive process, or a creative inquiry.",
+            "C": "Design thinking is only a cognitive process that happens in the brain.",
+            "D": "Design thinking is a rigid, unchangeable methodology."
           },
           "answer": "B",
-          "short_explanation": "DFG Guideline 13 states that, as a rule, researchers should make all results publicly available to contribute to academic discourse.",
-          "long_explanation": "Slide 17 summarizes DFG Guideline 13, stating, 'As a rule, researchers make all results available as part of scientific/academic discourse.' The decision to disseminate rests with the researcher, and if made public, the results should be described clearly and in full."
+          "short_explanation": "The concept of pluralism indicates that design thinking is not a single entity but can be viewed from multiple valid perspectives.",
+          "long_explanation": "Slide 12, 'Pluralism in design thinking,' shows that 'Design Thinking' is at the center of four different interpretations: Spirit or Culture (organizational), Imaginative Act (creative), Cognitive Processes (mental), and Creative Inquiry (methodological). This demonstrates its multifaceted nature."
         },
         {
           "id": 99,
-          "question": "What is the primary characteristic of the 'Distant to close' approach for organizing a literature review?",
+          "question": "What is the primary goal of the 'discoverability' principle in good design?",
           "options": {
-            "A": "It begins with a detailed description of the most important study.",
-            "B": "It starts by describing studies with general similarities and ends with studies most relevant to the specific topic.",
-            "C": "It is organized by the timeline of when the studies were published.",
-            "D": "It emphasizes the debate between opposing viewpoints in the literature."
+            "A": "To make the product look aesthetically pleasing.",
+            "B": "To ensure the user can understand the meaning and function of the product.",
+            "C": "To make it possible for the user to figure out what actions are possible and how to perform them.",
+            "D": "To make the product affordable for the target audience."
           },
-          "answer": "B",
-          "short_explanation": "The 'Distant to close' approach moves from general studies to those most specifically relevant to the research topic.",
-          "long_explanation": "Slide 31 defines the 'Distant to close' organizational approach. It 'Starts by describing studies with general similarities to current research and ends with studies most relevant to the specific topic.' This method is particularly useful for studies of methods or models."
+          "answer": "C",
+          "short_explanation": "Discoverability is about making the functions and operations of a product evident to the user.",
+          "long_explanation": "Slide 13, referencing Don Norman, lists 'Discoverability' as one of two important design principles. It is the aspect of design that allows a user to perceive what actions they can take with an object or interface. It is a prerequisite for the second principle, 'Understanding'."
         },
         {
           "id": 100,
-          "question": "In the five-stage Design Thinking model, what is the relationship between the stages?",
+          "question": "In the Amazon hiring algorithm case, what was identified as the root cause of the problem?",
           "options": {
-            "A": "They are always sequential and must be completed in order from Empathize to Test.",
-            "B": "They are not always sequential; they can be run in parallel, out of order, and repeated as needed.",
-            "C": "The first three stages are for planning, and the last two are for execution.",
-            "D": "A team must choose only one stage to focus on for the entire project."
+            "A": "The algorithm was not powerful enough to process all the resumes.",
+            "B": "The training data reflected historical, male-dominated hiring patterns, and no fairness audits were built in.",
+            "C": "The job candidates were not qualified for the positions.",
+            "D": "The user interface for HR professionals was poorly designed."
           },
           "answer": "B",
-          "short_explanation": "The five stages of Design Thinking are not always sequential and can be repeated or run in parallel.",
-          "long_explanation": "Slide 18 of the 'Design Thinking' lecture explicitly states, 'These stages are not always sequential -> run them in parallel, out of order, and repeat them as needed.' This highlights the flexible, non-linear nature of the process, allowing teams to adapt to what they learn along the way."
+          "short_explanation": "The root cause of the bias was the discriminatory historical data used to train the AI, combined with a lack of fairness checks.",
+          "long_explanation": "Slide 30 of the Design Thinking lecture analyzes the 'root cause of the problem.' It lists 'Training data reflected male-dominated hiring history,' the algorithm learning from these biased patterns, and the fact that 'No fairness, accountability, or transparency (FAT) audits were built in.'"
         }
       ]
     }
