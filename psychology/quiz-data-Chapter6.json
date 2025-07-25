@@ -1,0 +1,269 @@
+{
+  "chapters": [
+    {
+      "title": "6. Motivation & Emotion (2)",
+      "questions": [
+        {
+          "id": 1,
+          "question": "A student aims to get the highest grade in their psychology class primarily to impress a potential employer. According to Achievement Goal Theory, this motivation is best described as:",
+          "options": {
+            "A": "Mastery-Approach",
+            "B": "Performance-Approach",
+            "C": "Mastery-Avoidance",
+            "D": "Performance-Avoidance"
+          },
+          "answer": "B",
+          "short_explanation": "This is Performance-Approach because the goal is to demonstrate superior ability relative to others for an external reward.",
+          "long_explanation": "Achievement Goal Theory categorizes goals based on two dimensions: mastery vs. performance and approach vs. avoidance. 'Performance' orientation focuses on demonstrating competence relative to others, while 'Approach' orientation focuses on moving toward a positive outcome. Since the student's goal is to outperform others (get the highest grade) to achieve a positive result (impress an employer), it clearly falls under Performance-Approach. It is not Mastery-Approach because the focus isn't on learning for its own sake. It's not avoidance because the student is striving for a positive outcome, not trying to avoid a negative one."
+        },
+        {
+          "id": 2,
+          "question": "According to the Schachter-Singer Two-Factor Theory, what is the critical element that transforms non-specific physiological arousal into a specific emotional experience?",
+          "options": {
+            "A": "The perception of a distinct bodily change unique to the emotion.",
+            "B": "The simultaneous firing of the thalamus to the cortex and body.",
+            "C": "The intensity and duration of the physiological response.",
+            "D": "The cognitive label applied to the state of arousal."
+          },
+          "answer": "D",
+          "short_explanation": "The 'two factors' are arousal and a cognitive label; the label is what defines the specific emotion.",
+          "long_explanation": "The Schachter-Singer theory posits that emotion is a product of both physiological arousal and a cognitive interpretation or 'label' for that arousal. The arousal itself is seen as general and non-specific. It is the cognitive act of looking at the external context and labeling the arousal that creates the subjective experience of a specific emotion like 'fear' or 'joy'. Option A is closer to the James-Lange theory. Option B describes the Cannon-Bard theory. Option C relates to the dimension of arousal but isn't the transforming factor in this theory."
+        },
+        {
+          "id": 3,
+          "question": "A manager feels intense frustration after a difficult client meeting but decides to focus on organizing their files for the next hour to calm down. Which emotion regulation strategy is being used?",
+          "options": {
+            "A": "Cognitive Reappraisal",
+            "B": "Situation Selection",
+            "C": "Attention Deployment",
+            "D": "Response Suppression"
+          },
+          "answer": "C",
+          "short_explanation": "This is Attention Deployment because the manager is shifting their focus to a neutral task to change their emotional state.",
+          "long_explanation": "Emotion regulation strategies involve managing emotional states. In this case, the manager isn't changing their thoughts about the client meeting (Cognitive Reappraisal), nor are they hiding their feelings (Suppression), or avoiding the situation (Situation Selection). Instead, they are actively shifting their attention away from the source of frustration and onto a different, non-emotional task. This is the definition of Attention Deployment."
+        },
+        {
+          "id": 4,
+          "question": "Which of the following scenarios best illustrates the concept of 'misattribution of arousal' as demonstrated in the Dutton and Aron (1974) 'creaky bridge' study?",
+          "options": {
+            "A": "After a scary movie, a person feels anxious and on-edge for the rest of the evening.",
+            "B": "After an intense workout, a person interprets their racing heart as anxiety about an upcoming exam.",
+            "C": "A person smiles at a party to hide their sadness, and eventually starts to feel a little happier.",
+            "D": "A person avoids public speaking because the thought of it makes their palms sweat."
+          },
+          "answer": "B",
+          "short_explanation": "Misattribution of arousal is incorrectly labeling physiological arousal from one source (exercise) as being caused by another (the exam).",
+          "long_explanation": "The core of misattribution of arousal is mistaking the cause of one's physiological state. In option B, the arousal from the workout (a pounding heart) is incorrectly labeled as anxiety about the exam. This is analogous to the bridge study, where fear-induced arousal was mislabeled as attraction. Option A is a normal emotional response. Option C relates to the facial feedback hypothesis. Option D is an example of a phobic response, not misattribution."
+        },
+        {
+          "id": 5,
+          "question": "In Cognitive-Behavioral Therapy (CBT) for a spider phobia, what is the primary therapeutic purpose of creating a 'fear hierarchy'?",
+          "options": {
+            "A": "To identify and challenge the client's irrational beliefs about spiders.",
+            "B": "To provide a structured, gradual roadmap for exposure therapy.",
+            "C": "To educate the client on the evolutionary origins of their fear.",
+            "D": "To determine which relaxation techniques will be most effective."
+          },
+          "answer": "B",
+          "short_explanation": "The fear hierarchy is a ranked list used to guide the process of systematic desensitization (exposure) from least to most scary.",
+          "long_explanation": "While CBT involves all the elements mentioned, the specific function of the fear hierarchy is to structure the exposure component of the therapy. It allows the therapist and client to approach the feared stimulus in a stepwise, manageable fashion, starting with low-anxiety situations (e.g., looking at a picture of a spider) and progressing to high-anxiety ones (e.g., holding a spider). This process is called systematic desensitization. Identifying beliefs (A) is cognitive restructuring, education (C) is psychoeducation, and choosing techniques (D) is part of the overall treatment plan, but not the primary purpose of the hierarchy itself."
+        },
+        {
+          "id": 6,
+          "question": "How does Self-Determination Theory's (Deci & Ryan) model of basic psychological needs primarily differ from Maslow's Hierarchy of Needs?",
+          "options": {
+            "A": "SDT's needs are considered parallel and co-acting, whereas Maslow's are sequential and hierarchical.",
+            "B": "SDT focuses on deficit-based needs, while Maslow's model is growth-oriented.",
+            "C": "SDT includes the need for safety, while Maslow's model emphasizes autonomy.",
+            "D": "SDT is a descriptive theory, while Maslow's has stronger empirical support in modern psychology."
+          },
+          "answer": "A",
+          "short_explanation": "SDT's needs (Autonomy, Competence, Relatedness) are all essential at once, unlike Maslow's pyramid structure.",
+          "long_explanation": "The fundamental structural difference is that Maslow proposed a hierarchy where lower-level needs (like safety) must be met before higher-level needs (like esteem) become primary motivators. In contrast, Self-Determination Theory posits that the needs for Autonomy, Competence, and Relatedness are all essential for psychological well-being simultaneously. Option B has it backward; SDT is growth-oriented, and Maslow's is deficit-oriented. Option C incorrectly lists the needs. Option D is also incorrect, as SDT has garnered more robust empirical support in contemporary research."
+        },
+        {
+          "id": 7,
+          "question": "A key diagnostic distinction between a phobic anxiety disorder (F40) and panic disorder (F41) in the ICD-10 is:",
+          "options": {
+            "A": "The intensity of the physiological symptoms experienced during an episode of anxiety.",
+            "B": "The presence of cognitive symptoms, such as fear of dying or losing control.",
+            "C": "The predictability of the anxiety-provoking trigger.",
+            "D": "The effectiveness of CBT as a therapeutic intervention."
+          },
+          "answer": "C",
+          "short_explanation": "Phobias are tied to specific, predictable triggers, while panic attacks in panic disorder are characteristically unpredictable.",
+          "long_explanation": "According to the ICD-10 descriptions, the defining feature of phobic anxiety disorders is that the anxiety is evoked by 'well-defined situations that are not currently dangerous.' The trigger is specific and predictable. In contrast, panic disorder is characterized by recurrent panic attacks that are 'not restricted to any particular situation' and are therefore 'unpredictable.' While both can involve intense physical symptoms (A) and cognitive fears (B), and both can be treated with CBT (D), the predictability of the trigger is the core diagnostic differentiator."
+        },
+        {
+          "id": 8,
+          "question": "According to Ekman and Friesen's cross-cultural research, which of the following conclusions is most accurate?",
+          "options": {
+            "A": "The rules for when and how to display emotions are universal across all cultures.",
+            "B": "All complex emotions, like jealousy or shame, have universally recognizable facial expressions.",
+            "C": "The recognition of basic emotions from facial expressions is largely consistent across cultures.",
+            "D": "Facial expressions are entirely learned behaviors shaped by one's social environment."
+          },
+          "answer": "C",
+          "short_explanation": "Ekman's research showed high overlap in how people from different cultures recognized basic emotions like happiness, sadness, and anger.",
+          "long_explanation": "Ekman's landmark studies provided strong evidence for the universality of facial expressions for a set of basic emotions. While there is some cultural variation, the overall finding was high agreement in recognition rates. Option A is incorrect; these are 'display rules,' which are highly culture-specific. Option B is incorrect; the research focused on basic emotions, not more complex ones. Option D is the opposing viewpoint (cultural relativism), which Ekman's research largely refuted."
+        },
+        {
+          "id": 9,
+          "question": "Which of the following statements most accurately reflects the James-Lange theory of emotion?",
+          "options": {
+            "A": "I see a snake, my heart pounds, and I feel fear, all at the same instant.",
+            "B": "I am trembling because I feel afraid of the snake.",
+            "C": "I see a snake, my heart pounds, and I recognize that this feeling is fear.",
+            "D": "I feel fear because I perceive my body's physiological response to the snake."
+          },
+          "answer": "D",
+          "short_explanation": "James-Lange theory states we feel emotion *because* we perceive our own bodily changes. Arousal comes first, then the emotion.",
+          "long_explanation": "The James-Lange theory famously inverted the common-sense view of emotion. It argues that the subjective experience of emotion is the perception of our own physiological arousal. Therefore, 'I feel fear *because* I am trembling' or '...*because* my heart is pounding' is the correct formulation. Option A describes the Cannon-Bard theory. Option B represents the common-sense view. Option C is closer to the Schachter-Singer theory, as it implies a cognitive labeling step."
+        },
+        {
+          "id": 10,
+          "question": "A student who is terrified of public speaking decides to take a different course that requires written essays instead of presentations. This action is an example of which type of emotion regulation strategy?",
+          "options": {
+            "A": "Cognitive Reappraisal",
+            "B": "Attention Deployment",
+            "C": "Response Suppression",
+            "D": "Situation Selection"
+          },
+          "answer": "D",
+          "short_explanation": "Situation Selection is an antecedent-focused strategy where you avoid a situation that you know will cause an unwanted emotion.",
+          "long_explanation": "This is a clear case of Situation Selection, an antecedent-focused strategy. The student proactively avoids the emotion-provoking situation (public speaking) by choosing an alternative. It is not Cognitive Reappraisal, as they are not changing their thoughts about public speaking. It is not Attention Deployment, which would involve shifting focus during the speech. It is not Suppression, which would involve hiding their fear while giving the speech."
+        },
+        {
+          "id": 11,
+          "question": "A person experiencing a 'depressive episode' (F32) and a person feeling 'sadness' can both be described as having a low-arousal, negative-valence state. What is a key clinical differentiator between the two?",
+          "options": {
+            "A": "A depressive episode is a mood, whereas sadness is an emotion.",
+            "B": "The presence of somatic symptoms like changes in sleep and appetite.",
+            "C": "The existence of a specific, identifiable trigger for the feeling.",
+            "D": "The person's ability to express their feelings to others."
+          },
+          "answer": "A",
+          "short_explanation": "Sadness is a short-term emotion tied to a cause, while a depressive episode is a long-lasting, diffuse mood state causing impairment.",
+          "long_explanation": "The distinction between emotion and mood is crucial here. Sadness is typically an emotion—a shorter-term reaction to a specific event (e.g., failing a test). A depressive episode is a mood disorder—a persistent, pervasive, long-lasting state that may not have a clear, single trigger and significantly impairs functioning. While somatic symptoms (B) are a feature of depression, the core difference is the nature of the state itself (mood vs. emotion). Option C is more characteristic of an emotion (sadness), not a mood disorder. Option D is not a reliable differentiator."
+        },
+        {
+          "id": 12,
+          "question": "A perfectionistic musician practices a piece for weeks, not to win a competition, but out of a deep-seated fear that they will fail to meet their own high standards of technical mastery. This is a prime example of:",
+          "options": {
+            "A": "Performance-Avoidance",
+            "B": "Mastery-Approach",
+            "C": "Performance-Approach",
+            "D": "Mastery-Avoidance"
+          },
+          "answer": "D",
+          "short_explanation": "This is Mastery-Avoidance because the drive is to avoid failing to achieve internal standards of competence, not to avoid looking bad to others.",
+          "long_explanation": "This scenario is a classic example of Mastery-Avoidance. The motivation is rooted in 'mastery' because it's about achieving a high level of skill based on internal standards. However, it is 'avoidance' because the primary driver is the fear of *not* achieving that mastery, rather than the positive striving *for* it. It is not Performance-Avoidance because the fear is not about how others will perceive them, but about their own internal judgment of their competence."
+        },
+        {
+          "id": 13,
+          "question": "The Cannon-Bard theory of emotion was proposed as a direct critique of the James-Lange theory. What was a primary criticism it addressed?",
+          "options": {
+            "A": "Physiological arousal is too general to account for the variety of distinct emotional states.",
+            "B": "Cognitive appraisal is a necessary component for any emotional experience to occur.",
+            "C": "Facial expressions can influence emotional states, which James-Lange ignores.",
+            "D": "Emotional experiences happen much faster than physiological responses can be perceived."
+          },
+          "answer": "A",
+          "short_explanation": "Cannon and Bard argued that different emotions (like fear and anger) have very similar physiological patterns, so arousal alone can't define the emotion.",
+          "long_explanation": "A central argument from Walter Cannon was that the physiological responses associated with different emotions are too similar. For example, both fear and rage involve increased heart rate and adrenaline. If emotions were simply the perception of these bodily changes (as James-Lange proposed), it would be difficult to distinguish between them. Therefore, Cannon and Bard argued that the physiological response could not be the sole determinant of the specific emotional experience. Option B is a criticism from appraisal theorists like Schachter. Option D was another of Cannon's arguments, but A is the more fundamental critique about the non-specificity of arousal."
+        },
+        {
+          "id": 14,
+          "question": "Which of the following best describes the 'valence' dimension of emotion?",
+          "options": {
+            "A": "The physiological intensity or energy level of the emotional experience.",
+            "B": "The subjective evaluation of an emotional experience as pleasant or unpleasant.",
+            "C": "The degree to which an emotion is expressed outwardly through behavior.",
+            "D": "The duration of an emotional state, distinguishing it from a mood."
+          },
+          "answer": "B",
+          "short_explanation": "Valence is simply the positive (pleasant) or negative (unpleasant) quality of an emotion.",
+          "long_explanation": "In the dimensional model of emotion, 'valence' refers to the affective quality on a continuum from positive to negative. It is the cognitive assessment of whether the feeling is good or bad. Option A describes the 'arousal' dimension. Option C relates to expressive behavior, one of the three components of emotion but not a core dimension for mapping. Option D relates to the distinction between emotion and mood."
+        },
+        {
+          "id": 15,
+          "question": "According to the lecture's toolbox for applying motivation concepts, what is a 'utility-value intervention' designed to do?",
+          "options": {
+            "A": "Increase a person's sense of autonomy by giving them more choices.",
+            "B": "Help a person understand the personal relevance and usefulness of a task.",
+            "C": "Reduce performance-avoidance goals by removing social comparison.",
+            "D": "Build competence by breaking a complex task into smaller, manageable steps."
+          },
+          "answer": "B",
+          "short_explanation": "A utility-value intervention promotes interest and mastery motivation by showing how a task is valuable to the individual.",
+          "long_explanation": "A utility-value intervention is a strategy aimed at increasing motivation by explicitly connecting a task to a person's life and goals. By illustrating the value or usefulness ('utility') of an activity, it can shift a person's motivation from extrinsic (e.g., 'I have to do this for a grade') to more intrinsic and mastery-oriented (e.g., 'This is important for my future career'). While the other options are also good motivational strategies, they describe different concepts like supporting autonomy (A), changing goal structures (C), or scaffolding for competence (D)."
+        },
+        {
+          "id": 16,
+          "question": "A person with Bipolar Affective Disorder (F31) experiences episodes of hypomania. According to the ICD-10, which symptom is characteristic of a hypomanic state?",
+          "options": {
+            "A": "A pervasive loss of interest and capacity for enjoyment.",
+            "B": "Persistent feelings of anxiety and fear of losing control.",
+            "C": "An elevated mood and increased energy and activity levels.",
+            "D": "Recurrent, unpredictable attacks of severe physical discomfort."
+          },
+          "answer": "C",
+          "short_explanation": "Hypomania is defined by a persistent mild elevation of mood, increased energy, and feelings of well-being.",
+          "long_explanation": "The core feature of hypomania, as described in the ICD-10 (F30 and as part of F31), is a distinct period of elevated or irritable mood, accompanied by increased energy, talkativeness, and a decreased need for sleep. Option A describes a depressive episode. Option B and D are more characteristic of anxiety and panic disorders, respectively."
+        },
+        {
+          "id": 17,
+          "question": "Which of the following is an example of an 'antecedent-focused' emotion regulation strategy?",
+          "options": {
+            "A": "Taking deep breaths to calm down during a stressful exam.",
+            "B": "Smiling to try to feel better after receiving bad news.",
+            "C": "Deciding to view a stressful project as a learning opportunity rather than a threat.",
+            "D": "Apologizing to a friend after an angry outburst."
+          },
+          "answer": "C",
+          "short_explanation": "Antecedent-focused strategies, like cognitive reappraisal, occur *before* the emotion is fully formed.",
+          "long_explanation": "Antecedent-focused strategies intervene early in the emotion-generative process. Cognitive reappraisal (Option C) is a prime example, as it involves changing your interpretation of a situation *before* the emotional response has fully taken hold. The other options are 'response-focused' strategies, which manage an emotion that is already being experienced. Taking deep breaths (A) manages arousal, smiling (B) modulates expression, and apologizing (D) is a behavioral response after the fact."
+        },
+        {
+          "id": 18,
+          "question": "The 'expressive behavior' component of an emotion refers to:",
+          "options": {
+            "A": "The subjective, conscious interpretation of a feeling, such as 'I feel happy.'",
+            "B": "The hormonal and neurological changes that occur within the body.",
+            "C": "The observable, physical manifestation of the emotion, such as a smile or frown.",
+            "D": "The long-term, diffuse affective state that has no specific trigger."
+          },
+          "answer": "C",
+          "short_explanation": "Expressive behavior is the motor level—the outward, visible sign of what you are feeling.",
+          "long_explanation": "The three-component model of emotion consists of physiological arousal, cognitive experience, and expressive behavior. Expressive behavior (or the 'motor level') is the way the emotion is physically demonstrated to the outside world, most notably through facial expressions, but also through body language and actions. Option A describes the cognitive component. Option B describes the physiological component. Option D describes a mood, not an emotion."
+        },
+        {
+          "id": 19,
+          "question": "A person with Social Phobia (Social Anxiety Disorder) often experiences an intense fear of:",
+          "options": {
+            "A": "Being in open or crowded spaces from which escape might be difficult.",
+            "B": "Experiencing an unexpected panic attack in a public setting.",
+            "C": "Scrutiny and negative judgment from other people.",
+            "D": "Specific objects or animals that pose no real threat."
+          },
+          "answer": "C",
+          "short_explanation": "The core fear in social phobia is being watched and judged negatively by others, leading to avoidance of social situations.",
+          "long_explanation": "According to the ICD-10 (F40.1), the central feature of social phobias is the 'fear of scrutiny by other people.' This fear often leads to low self-esteem and a fear of criticism, causing individuals to avoid social interactions. Option A describes agoraphobia. Option B is characteristic of panic disorder (the fear of having another attack). Option D describes specific phobias (e.g., arachnophobia)."
+        },
+        {
+          "id": 20,
+          "question": "The primary goal of 'exposure therapy' in CBT is to achieve:",
+          "options": {
+            "A": "Habituation, where the fear response diminishes with repeated exposure.",
+            "B": "Cognitive restructuring, where irrational beliefs are replaced with rational ones.",
+            "C": "Self-efficacy, where the client builds confidence in their coping skills.",
+            "D": "Psychoeducation, where the client understands the nature of their anxiety."
+          },
+          "answer": "A",
+          "short_explanation": "Exposure works through habituation—by repeatedly facing the feared stimulus safely, the brain learns that it is not dangerous, and the fear response fades.",
+          "long_explanation": "Exposure therapy is a behavioral technique designed to break the cycle of fear and avoidance. Its primary mechanism is habituation. When a person is repeatedly exposed to a feared stimulus without any negative consequences, the conditioned fear response gradually extinguishes. While exposure therapy also leads to cognitive restructuring (B) and increased self-efficacy (C), and is preceded by psychoeducation (D), its direct and most fundamental goal is to achieve habituation of the fear response."
+        }
+      ]
+    }
+  ]
+}

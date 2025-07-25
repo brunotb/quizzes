@@ -1,0 +1,269 @@
+{
+  "chapters": [
+    {
+      "title": "5. Motivation & Emotion (1)",
+      "questions": [
+        {
+          "id": 1,
+          "question": "A student flosses their teeth every night, not because a dentist told them to or because they enjoy it, but because they would feel immense personal guilt and anxiety if they skipped it. According to the continuum in Self-Determination Theory, this behavior is driven by:",
+          "options": {
+            "A": "External Regulation",
+            "B": "Introjection",
+            "C": "Identification",
+            "D": "Integration"
+          },
+          "answer": "B",
+          "short_explanation": "Introjection is motivation driven by internal pressures like guilt, shame, or ego-involvement, rather than external rewards or punishments.",
+          "long_explanation": "This is a classic example of introjection. The motivation is internal (coming from the student's own feelings), but it is still 'controlled' because it's a pressure to be avoided (guilt) rather than a personally valued goal. It is not External Regulation because there is no direct external reward or punishment. It is not Identification because the student doesn't necessarily value flossing as important for their health, they just want to avoid the bad feeling. It is not Integration because it hasn't been synthesized into their core identity."
+        },
+        {
+          "id": 2,
+          "question": "A talented programmer generally believes she is an 'intelligent and capable person.' However, after struggling for hours with a novel and complex algorithm, she thinks, 'I just can't solve this specific problem.' This scenario highlights a distinction between:",
+          "options": {
+            "A": "A high self-concept and a low task-specific self-efficacy.",
+            "B": "A high self-efficacy and a low self-concept.",
+            "C": "High attainment value and low utility value.",
+            "D": "A stable attribution and a variable attribution."
+          },
+          "answer": "A",
+          "short_explanation": "Self-concept is a broad belief about who you are ('I am intelligent'), while self-efficacy is a specific belief about your ability to perform a particular task ('I can't solve this').",
+          "long_explanation": "The programmer's belief that she is an 'intelligent and capable person' reflects her general self-concept. Her belief that she 'cannot solve this specific problem' reflects her low self-efficacy for that particular task. This illustrates that a person can have a positive overall view of themselves while still lacking confidence in their ability to handle a specific, new challenge. The other options refer to different motivational theories (Expectancy-Value and Attribution) that do not fit the scenario as precisely."
+        },
+        {
+          "id": 3,
+          "question": "After winning a difficult chess tournament, Alex attributes the success to 'months of rigorous practice and strategy refinement.' According to Weiner's model of causal attribution, this explanation is best categorized as:",
+          "options": {
+            "A": "External and Stable",
+            "B": "External and Variable",
+            "C": "Internal and Variable",
+            "D": "Internal and Stable"
+          },
+          "answer": "C",
+          "short_explanation": "Effort and practice are 'internal' (coming from the self) and 'variable' (can be changed for the next task).",
+          "long_explanation": "In Weiner's model, the 'locus' of the cause is internal because practice and effort come from Alex himself. The 'stability' of the cause is variable because the amount of effort can change from one tournament to the next. Attributing success to internal, variable factors like effort is highly adaptive as it reinforces the idea that future success is within one's control."
+        },
+        {
+          "id": 4,
+          "question": "A student decides against enrolling in an advanced physics course. They find the topic fascinating and believe they could pass the exam, but they are concerned about the sleepless nights, high stress levels, and giving up their social life. According to Expectancy-Value Theory, which factor most likely drove this decision?",
+          "options": {
+            "A": "Low utility value",
+            "B": "Low attainment value",
+            "C": "Low expectancy of success",
+            "D": "High psychological cost"
+          },
+          "answer": "D",
+          "short_explanation": "Cost, including psychological factors like stress and anxiety, is the negative component of a task's value that is weighed against its benefits.",
+          "long_explanation": "The student has high intrinsic value ('fascinating topic') and high expectancy ('could pass'). Their decision is therefore not based on a lack of value or confidence. The key determinant is the perceived negative consequences—the stress, time, and effort required. This falls under the category of 'Cost' in the Expectancy-Value model, which can outweigh the positive value components and lead to task avoidance."
+        },
+        {
+          "id": 5,
+          "question": "Which of the following scenarios is LEAST likely to result in a state of 'flow'?",
+          "options": {
+            "A": "A data entry clerk mindlessly typing familiar numbers into a spreadsheet.",
+            "B": "A surgeon performing a routine but complex operation.",
+            "C": "A professional musician sight-reading a challenging new piece.",
+            "D": "A rock climber attempting a route at the very edge of their ability."
+          },
+          "answer": "A",
+          "short_explanation": "Flow requires a balance between high challenge and high skill. A mindless, low-challenge task leads to boredom, not flow.",
+          "long_explanation": "The state of flow, as described by Csikszentmihalyi, occurs when a high level of skill is met with a high level of challenge. The scenarios with the surgeon, musician, and rock climber all fit this description. The data entry task, however, is characterized by low challenge. Even if the clerk is skilled, the lack of challenge would lead to boredom or apathy, which are the opposite of the deep, effortless engagement found in flow."
+        },
+        {
+          "id": 6,
+          "question": "A student who was the valedictorian at their small high school enrolls at a highly competitive university. Despite maintaining good grades, their confidence in their academic abilities declines. This 'Big-Fish-Little-Pond' effect is best explained by:",
+          "options": {
+            "A": "A decrease in their objective mastery experiences.",
+            "B": "A shift in the social reference group used for comparison.",
+            "C": "A failure of social persuasion from their new professors.",
+            "D": "A transition from autonomous to controlled motivation."
+          },
+          "answer": "B",
+          "short_explanation": "The 'Big-Fish-Little-Pond' effect occurs when a person's self-concept changes due to comparing themselves to a new, higher-achieving peer group.",
+          "long_explanation": "This effect is a core concept in the development of self-concept. The student's actual ability and performance ('mastery experiences') have not decreased. What has changed is the standard of comparison. By moving from a 'little pond' (their old school) to a 'big pond' (the university), their relative standing has shifted, causing their self-concept to adjust downwards. This highlights how self-concept is socially constructed, not just based on objective performance."
+        },
+        {
+          "id": 7,
+          "question": "A manager wants to foster more autonomous motivation in their team. They redesign workflows to give each member significant choice over how they approach their tasks and manage their schedules. This intervention primarily targets which basic psychological need from Self-Determination Theory?",
+          "options": {
+            "A": "Competence",
+            "B": "Relatedness",
+            "C": "Autonomy",
+            "D": "Self-actualization"
+          },
+          "answer": "C",
+          "short_explanation": "Autonomy is the fundamental need to feel a sense of volition, choice, and control over one's actions.",
+          "long_explanation": "According to Self-Determination Theory, providing choice and control is the most direct way to support the need for Autonomy. While this might indirectly boost Competence (by allowing people to work in ways they are good at) or Relatedness (if it involves teamwork), the primary target of giving choice is to make employees feel like the originators of their own behavior. Self-actualization is a concept from Maslow's hierarchy of needs, not SDT."
+        },
+        {
+          "id": 8,
+          "question": "A novice public speaker watches a video of a close friend, who used to be equally nervous, giving a confident and successful presentation. The novice subsequently feels more confident about their own upcoming speech. This boost in self-efficacy comes from which source?",
+          "options": {
+            "A": "Mastery experience",
+            "B": "Social persuasion",
+            "C": "Physiological state management",
+            "D": "Vicarious experience"
+          },
+          "answer": "D",
+          "short_explanation": "Vicarious experience involves building confidence by observing a similar other (a model) succeed at a task.",
+          "long_explanation": "This is a prime example of vicarious experience (or modeling), one of Bandura's four sources of self-efficacy. The effect is strongest when the observer perceives the model as being similar to themselves. It is not a mastery experience, as the novice has not yet succeeded themselves. It is not social persuasion, as no one is verbally encouraging them. And it is not about interpreting their own physiological state."
+        },
+        {
+          "id": 9,
+          "question": "A student continues to study for a difficult exam even after performing poorly on a practice test and feeling discouraged. According to the comprehensive definition of motivation (Heckhausen & Heckhausen), which component is this student most clearly demonstrating?",
+          "options": {
+            "A": "Intensity",
+            "B": "Direction",
+            "C": "Persistence",
+            "D": "Initiation"
+          },
+          "answer": "C",
+          "short_explanation": "Persistence is the component of motivation that involves continuing a behavior despite obstacles, setbacks, or difficulties.",
+          "long_explanation": "The four key components of motivation are: Initiation (starting the behavior), Direction (choosing what to do), Intensity (how much effort is applied), and Persistence (how long one keeps going). By continuing to study despite a discouraging result, the student is demonstrating persistence in the face of a challenge. Their initiation was starting to study in the first place, their direction was choosing this subject, and their intensity would be how hard they study per hour."
+        },
+        {
+          "id": 10,
+          "question": "A painter spends hours working on a detailed landscape painting. They have no intention of ever selling it or even showing it to anyone; the process of creating it is the sole reward. This painter's motivation is best described as:",
+          "options": {
+            "A": "Intrinsic",
+            "B": "Extrinsic",
+            "C": "Integrated",
+            "D": "Introjected"
+          },
+          "answer": "A",
+          "short_explanation": "Intrinsic motivation is defined by doing an activity for the inherent satisfaction and enjoyment it provides, separate from any external outcomes.",
+          "long_explanation": "Since the reward for the painter is the act of painting itself, this is the definition of intrinsic motivation. It cannot be extrinsic, as there is no external reward (like money or praise). While the action might be part of an 'integrated' identity as a painter, the most precise and fundamental description of motivation based on enjoyment of the activity itself is 'intrinsic'. There is no evidence of guilt or internal pressure, so it is not 'introjected'."
+        },
+        {
+          "id": 11,
+          "question": "A pre-med student genuinely dislikes their organic chemistry class but studies diligently for it. When asked why, they state, 'A high grade in this specific class is absolutely essential for my medical school applications.' This student's motivation is primarily driven by:",
+          "options": {
+            "A": "High intrinsic value",
+            "B": "High utility value",
+            "C": "High attainment value",
+            "D": "High expectancy of success"
+          },
+          "answer": "B",
+          "short_explanation": "Utility value refers to how useful a task is for achieving a separate, future goal, even if the task itself is not enjoyable.",
+          "long_explanation": "In Expectancy-Value Theory, this is a clear case of high utility value. The task (studying chemistry) is a means to an end (getting into medical school). The student has low intrinsic value because they dislike the class. While it may have some attainment value (being a doctor is part of their identity), the most direct reason given is its usefulness for a future goal. Expectancy of success refers to their belief in their ability to pass, not their reason for trying."
+        },
+        {
+          "id": 12,
+          "question": "Which of the following scenarios describes the MOST autonomous form of motivation according to Self-Determination Theory's continuum?",
+          "options": {
+            "A": "A student studies hard to avoid feeling guilty about wasting their parents' tuition money.",
+            "B": "An employee works late primarily to earn a significant overtime bonus.",
+            "C": "A teenager cleans their room because they have come to personally value having an organized space.",
+            "D": "A lawyer regularly does pro-bono work because serving the community is a core, unquestioned part of their personal and professional identity."
+          },
+          "answer": "D",
+          "short_explanation": "Integration, the most autonomous form of extrinsic motivation, occurs when a behavior is fully synthesized with one's core values and sense of self.",
+          "long_explanation": "Let's place these on the SDT continuum: A is Introjection (controlled). B is External Regulation (controlled). C is Identification (autonomous). D is Integration (most autonomous). While Identification (C) is autonomous, Integration (D) represents a deeper level of self-determination where the value behind the behavior is no longer just 'important' but is a fundamental part of who the person is."
+        },
+        {
+          "id": 13,
+          "question": "Motivation is often referred to as a 'latent psychological construct.' What does this mean in practical terms for researchers?",
+          "options": {
+            "A": "Motivation's effects on behavior are often unconscious and cannot be reported by individuals.",
+            "B": "Motivation is a fixed trait that does not change, making it easy to measure over time.",
+            "C": "Motivation must be inferred from observable indicators like effort, choice, and persistence.",
+            "D": "Motivation can only be studied in laboratory settings, not in the real world."
+          },
+          "answer": "C",
+          "short_explanation": "A latent construct is a hidden variable that cannot be directly observed, so we must measure its visible effects or indicators.",
+          "long_explanation": "The term 'latent' means hidden or not directly observable. Unlike height or weight, you cannot see 'motivation.' Therefore, psychologists must operationalize it by measuring manifest (observable) indicators. They infer the level of motivation based on behaviors such as how long a person works on a puzzle (persistence), which task they choose (choice), or how quickly they work (intensity). This is a fundamental challenge in psychological measurement."
+        },
+        {
+          "id": 14,
+          "question": "A student performs poorly on an exam and thinks, 'The professor just doesn't like me and always grades me unfairly.' According to Weiner's model, this attribution is:",
+          "options": {
+            "A": "Internal, variable, and controllable.",
+            "B": "External, stable, and uncontrollable.",
+            "C": "Internal, stable, and uncontrollable.",
+            "D": "External, variable, and controllable."
+          },
+          "answer": "B",
+          "short_explanation": "Attributing failure to a professor's perceived bias is external (about someone else), stable (unlikely to change), and uncontrollable by the student.",
+          "long_explanation": "Breaking this down: The cause (professor's bias) is 'external' to the student. The student perceives this bias as 'stable,' meaning it will likely be the same on the next test. Finally, the professor's attitude is 'uncontrollable' from the student's perspective. This type of attribution is particularly damaging as it fosters a sense of helplessness and removes any incentive for the student to change their own behavior."
+        },
+        {
+          "id": 15,
+          "question": "According to the flow model, what is the most likely emotional state for a person whose skill level is very high, but the challenge of the task is very low?",
+          "options": {
+            "A": "Boredom",
+            "B": "Anxiety",
+            "C": "Apathy",
+            "D": "Flow"
+          },
+          "answer": "A",
+          "short_explanation": "In the flow model, a mismatch of high skill and low challenge leads to boredom, as the task is not engaging enough.",
+          "long_explanation": "Csikszentmihalyi's model maps emotional states based on the relationship between challenge and skill. Flow occurs at high challenge/high skill. Anxiety occurs at high challenge/low skill. Apathy occurs at low challenge/low skill. Boredom is the state experienced when one is overqualified for a simple task—high skill/low challenge."
+        },
+        {
+          "id": 16,
+          "question": "The 'Big-Fish-Little-Pond' effect primarily impacts an individual's ______, whereas a school environment that offers no choice in coursework primarily thwarts their need for ______.",
+          "options": {
+            "A": "self-efficacy; competence",
+            "B": "self-esteem; relatedness",
+            "C": "self-concept; competence",
+            "D": "self-concept; autonomy"
+          },
+          "answer": "D",
+          "short_explanation": "The BFLP effect is about social comparison's impact on self-concept, while lack of choice directly undermines the psychological need for autonomy.",
+          "long_explanation": "This question tests the ability to differentiate between related concepts. The BFLP effect specifically describes how social comparison shapes our broad beliefs about ourselves (self-concept). Self-Determination Theory posits that a lack of choice or volition in one's environment is a direct threat to the basic psychological need for autonomy. The other pairings are incorrect or less precise."
+        },
+        {
+          "id": 17,
+          "question": "A person begins recycling household waste only after their city implements a fine for not doing so. Years later, they continue to recycle diligently, explaining that they now believe it is a personally important action for protecting the environment. This motivational shift is best described as moving from:",
+          "options": {
+            "A": "Introjection to Integration",
+            "B": "External Regulation to Identification",
+            "C": "External Regulation to Introjection",
+            "D": "Identification to Integration"
+          },
+          "answer": "B",
+          "short_explanation": "The motivation shifted from being controlled by an external consequence (a fine) to being driven by a personally held value (protecting the environment).",
+          "long_explanation": "The initial motivation was a fine, which is a classic example of External Regulation (the least autonomous form). The later motivation is based on a personally endorsed value ('it is important'), which is the definition of Identification. This represents a significant shift along the continuum toward more autonomous motivation. It is not yet Integration, which would imply recycling is a core, synthesized part of their entire identity."
+        },
+        {
+          "id": 18,
+          "question": "A manager wants to boost a new employee's self-efficacy for a complex data analysis task. Which of the following interventions is based on the principle of 'mastery experience'?",
+          "options": {
+            "A": "Assigning them a series of smaller, progressively more difficult parts of the task to complete successfully.",
+            "B": "Telling the employee, 'I have seen your work, and I have full confidence in your abilities.'",
+            "C": "Showing them a video of a top-performing colleague executing the full analysis flawlessly.",
+            "D": "Teaching them relaxation techniques to manage their stress before starting the task."
+          },
+          "answer": "A",
+          "short_explanation": "Mastery experiences, the most powerful source of self-efficacy, involve building confidence through one's own successful performance of a task.",
+          "long_explanation": "Option A allows the employee to build a track record of success on manageable sub-tasks, which is the definition of a mastery experience. Option B is social persuasion. Option C is vicarious experience. Option D is focused on managing physiological and emotional states. While all can influence self-efficacy, only A is a direct application of mastery experience."
+        },
+        {
+          "id": 19,
+          "question": "In Expectancy-Value Theory, the concept of 'intrinsic value' is most analogous to which core concept from Self-Determination Theory?",
+          "options": {
+            "A": "The need for competence",
+            "B": "Autonomous motivation",
+            "C": "Intrinsic motivation",
+            "D": "The need for autonomy"
+          },
+          "answer": "C",
+          "short_explanation": "Both 'intrinsic value' and 'intrinsic motivation' refer to the enjoyment and satisfaction derived directly from performing an activity.",
+          "long_explanation": "This question tests the ability to see parallels between different theories. 'Intrinsic value' in EVT is the enjoyment one gets from a task. This is functionally identical to the definition of 'intrinsic motivation' in SDT, which is doing an activity for its inherent satisfaction. While related to the basic needs and the broader category of autonomous motivation, the most direct and precise parallel is with intrinsic motivation itself."
+        },
+        {
+          "id": 20,
+          "question": "Which of the following attributions for failing an important exam is most likely to preserve a student's motivation for a future attempt?",
+          "options": {
+            "A": "'I'm just not a math person; I've never been good at it.'",
+            "B": "'The test was ridiculously unfair and didn't cover the material.'",
+            "C": "'I was just unlucky with the specific questions that came up.'",
+            "D": "'I see now that I didn't use the most effective study strategies this time.'"
+          },
+          "answer": "D",
+          "short_explanation": "Attributing failure to a controllable, variable factor like 'strategy' or 'effort' empowers the individual to change their approach and expect a different outcome next time.",
+          "long_explanation": "Let's analyze the options based on Weiner's model. A is an internal, stable attribution (ability), which is highly demotivating. B is an external, stable attribution (task difficulty), which leads to helplessness. C is an external, variable attribution (luck), which is better than A or B but still removes personal agency. D is an internal, variable, and controllable attribution (strategy/effort). This is the most adaptive attribution because it implies that by changing one's own actions, a different, more successful outcome is possible."
+        }
+      ]
+    }
+  ]
+}
