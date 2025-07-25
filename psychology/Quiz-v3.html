@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Prompt Engineering Quiz</title>
+    <style>
+        :root {
+            --primary-bg: #f4f7f9;
+            --secondary-bg: #ffffff;
+            --primary-text: #333;
+            --accent-color: #007bff;
+            --accent-hover: #0056b3;
+            --correct-color: #28a745;
+            --incorrect-color: #dc3545;
+            --border-color: #dee2e6;
+            --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--primary-bg);
+            color: var(--primary-text);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+
+        #app-container {
+            width: 100%;
+            max-width: 800px;
+            background-color: var(--secondary-bg);
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            overflow: hidden;
+        }
+
+        .header {
+            padding: 20px 25px;
+            background-color: var(--accent-color);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+
+        .header-btn {
+            background-color: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 1px solid white;
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .header-btn:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+        
+        #main-menu-container, #quiz-container, #summary-container {
+            padding: 25px;
+        }
+        
+        /* Main Menu Styles */
+        #main-menu-container h2 {
+            text-align: center;
+            margin-bottom: 25px;
+            color: var(--accent-color);
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 15px;
+        }
+
+        .chapter-btn {
+            width: 100%;
+            padding: 18px;
+            font-size: 1.1em;
+            text-align: left;
+            background-color: var(--secondary-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: block;
+            margin-bottom: 15px;
+        }
+
+        .chapter-btn:hover {
+            background-color: #f8f9fa;
+            border-color: var(--accent-color);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        #question-counter {
+            font-size: 0.9em;
+            color: #6c757d;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+
+        #question-text {
+            font-size: 1.25em;
+            margin-top: 0;
+            margin-bottom: 25px;
+            line-height: 1.4;
+        }
+
+        #options-container {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .option-btn {
+            width: 100%;
+            padding: 15px;
+            font-size: 1em;
+            text-align: left;
+            background-color: var(--secondary-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: block;
+        }
+
+        .option-btn:hover:not(:disabled) {
+            background-color: #e9ecef;
+            border-color: var(--accent-color);
+        }
+        
+        .option-btn:disabled {
+            cursor: not-allowed;
+        }
+
+        .option-btn.correct {
+            background-color: #e9f7ec;
+            border-color: var(--correct-color);
+            color: var(--correct-color);
+            font-weight: bold;
+        }
+
+        .option-btn.incorrect {
+            background-color: #fceeed;
+            border-color: var(--incorrect-color);
+            color: var(--incorrect-color);
+            font-weight: bold;
+        }
+
+
+        #feedback-container {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 5px solid;
+        }
+
+        #feedback-text {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+
+        #feedback-text.correct { color: var(--correct-color); }
+        #feedback-text.incorrect { color: var(--incorrect-color); }
+
+        #feedback-container.correct { border-color: var(--correct-color); background-color: #f0fff4; }
+        #feedback-container.incorrect { border-color: var(--incorrect-color); background-color: #fff5f5; }
+        
+        #feedback-container p {
+            margin: 5px 0 10px;
+            line-height: 1.5;
+        }
+
+        #feedback-container p strong {
+            display: block;
+            margin-bottom: 3px;
+            color: #495057;
+        }
+
+        #navigation {
+            display: flex;
+            justify-content: space-between;
+            padding: 25px;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .nav-btn {
+            padding: 12px 24px;
+            font-size: 1em;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            background-color: var(--accent-color);
+            color: white;
+            transition: background-color 0.2s;
+        }
+
+        .nav-btn:hover {
+            background-color: var(--accent-hover);
+        }
+
+        .nav-btn:disabled {
+            background-color: #adb5bd;
+            cursor: not-allowed;
+        }
+
+        /* Summary Styles */
+        #summary-container h2 {
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        
+        #final-score-details {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            padding: 20px;
+            background-color: var(--primary-bg);
+            border-radius: 8px;
+            margin-bottom: 25px;
+        }
+
+        #final-score-details div {
+            font-size: 1.1em;
+        }
+
+        #final-score-details span {
+            display: block;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        
+        #final-score-details .score-correct { color: var(--correct-color); }
+        #final-score-details .score-incorrect { color: var(--incorrect-color); }
+        #final-score-details .score-percentage { color: var(--accent-color); }
+
+        .summary-item, .incorrect-answer-item {
+            background-color: var(--primary-bg);
+            padding: 15px;
+            margin-bottom: 12px;
+            border-radius: 8px;
+            border-left: 5px solid;
+        }
+
+        .summary-item.correct { border-color: var(--correct-color); }
+        .summary-item.incorrect { border-color: var(--incorrect-color); }
+
+        .summary-item p, .incorrect-answer-item p { margin: 5px 0; }
+        .summary-item .question-title, .incorrect-answer-item .question-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .summary-actions {
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .option-btn {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .option-btn::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 5px;
+            height: 5px;
+            background: rgba(255, 255, 255, 0.5);
+            opacity: 0;
+            border-radius: 100%;
+            transform: scale(1, 1) translate(-50%);
+            transform-origin: 50% 50%;
+        }
+
+        .option-btn:focus:not(:disabled) {
+            outline: none;
+            box-shadow: 0 0 0 2px var(--accent-color);
+        }
+
+        @keyframes ripple {
+            0% {
+                transform: scale(0, 0);
+                opacity: 0.5;
+            }
+            100% {
+                transform: scale(40, 40);
+                opacity: 0;
+            }
+        }
+
+        .option-btn.clicked::after {
+            animation: ripple 0.6s ease-out;
+        }
+
+        .keyboard-shortcuts {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 0.9em;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="app-container">
+        <div class="header">
+            <h1 id="quiz-title">Academic Quiz</h1>
+            <div>
+                <button id="view-summary-btn" class="header-btn hidden">View Progress</button>
+                <button id="back-to-menu-btn" class="header-btn hidden">Back to Menu</button>
+            </div>
+        </div>
+        
+        <div id="main-menu-container">
+            <!-- Populated by JS -->
+        </div>
+
+        <div id="quiz-container" class="hidden">
+            <p id="question-counter"></p>
+            <h2 id="question-text"></h2>
+            <div id="options-container"></div>
+        </div>
+
+        <div id="navigation" class="hidden">
+            <button id="prev-btn" class="nav-btn">Previous</button>
+            <button id="next-btn" class="nav-btn">Next</button>
+        </div>
+
+        <div id="feedback-container" class="hidden">
+            <p id="feedback-text"></p>
+            <p id="correct-answer-text"></p>
+            <div id="explanations">
+                <p id="short-explanation"></p>
+                <p id="long-explanation"></p>
+            </div>
+        </div>
+
+        <div id="summary-container" class="hidden">
+             <!-- Populated by JS -->
+        </div>
+
+        <div id="navigation" class="hidden">
+            <button id="prev-btn" class="nav-btn">Previous</button>
+            <button id="next-btn" class="nav-btn">Next</button>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // DOM Elements
+            const mainMenuContainer = document.getElementById('main-menu-container');
+            const quizContainer = document.getElementById('quiz-container');
+            const summaryContainer = document.getElementById('summary-container');
+            const questionCounterEl = document.getElementById('question-counter');
+            const questionTextEl = document.getElementById('question-text');
+            const optionsContainerEl = document.getElementById('options-container');
+            const feedbackContainerEl = document.getElementById('feedback-container');
+            const feedbackTextEl = document.getElementById('feedback-text');
+            const correctAnswerTextEl = document.getElementById('correct-answer-text');
+            const shortExplanationEl = document.getElementById('short-explanation');
+            const longExplanationEl = document.getElementById('long-explanation');
+            const prevBtn = document.getElementById('prev-btn');
+            const nextBtn = document.getElementById('next-btn');
+            const viewSummaryBtn = document.getElementById('view-summary-btn');
+            const backToMenuBtn = document.getElementById('back-to-menu-btn');
+            const navigationEl = document.getElementById('navigation');
+
+            // State
+            let quizData = { chapters: [] };
+            let allQuestions = [];
+            let currentChapterIndex = -1;
+            let currentQuestions = [];
+            let currentQuestionIndex = 0;
+            let userAnswers = {}; // Using an object for easier lookup by question ID
+            
+            // Function to get all wrong answers from localStorage
+            function getAllWrongAnswers() {
+                const wrongAnswers = new Set();
+                const correctAnswers = new Set();
+                const processedAnswers = new Map(); // Store the latest answer for each question
+                
+                // Process all answers from all chapters and review chapter
+                [...Array(quizData.chapters.length)].forEach((_, index) => {
+                    const savedProgress = localStorage.getItem(`quiz_progress_chapter_${index}`);
+                    if (savedProgress) {
+                        const progress = JSON.parse(savedProgress);
+                        Object.values(progress.userAnswers).forEach(answer => {
+                            const timestamp = progress.timestamp;
+                            if (!processedAnswers.has(answer.questionId) || 
+                                processedAnswers.get(answer.questionId).timestamp < timestamp) {
+                                processedAnswers.set(answer.questionId, { ...answer, timestamp });
+                            }
+                        });
+                    }
+                });
+
+                // Also check review chapter answers
+                const reviewProgress = localStorage.getItem('quiz_progress_review');
+                if (reviewProgress) {
+                    const progress = JSON.parse(reviewProgress);
+                    Object.values(progress.userAnswers).forEach(answer => {
+                        const timestamp = progress.timestamp;
+                        if (!processedAnswers.has(answer.questionId) || 
+                            processedAnswers.get(answer.questionId).timestamp < timestamp) {
+                            processedAnswers.set(answer.questionId, { ...answer, timestamp });
+                        }
+                    });
+                }
+
+                // Process the most recent answers for each question
+                processedAnswers.forEach((answer) => {
+                    if (answer.isCorrect) {
+                        correctAnswers.add(answer.questionId);
+                    } else {
+                        wrongAnswers.add(answer.questionId);
+                    }
+                });
+
+                // Remove any wrong answers that have been answered correctly
+                correctAnswers.forEach(id => wrongAnswers.delete(id));
+                
+                return Array.from(wrongAnswers);
+            }
+
+            // Fetch data and initialize
+            async function initializeQuiz() {
+                try {
+                    // Try to load all chapters from 1 to 12
+                    const totalChapters = 13;
+                    for (let chapterIndex = 1; chapterIndex <= totalChapters; chapterIndex++) {
+                        try {
+                            const response = await fetch(`quiz-data-Chapter${chapterIndex}.json`);
+                            if (response.ok) {
+                                const chapterData = await response.json();
+                                // Since each file has a chapters array with one chapter, take the first one
+                                if (chapterData.chapters && chapterData.chapters.length > 0) {
+                                    quizData.chapters.push(chapterData.chapters[0]);
+                                }
+                            } else {
+                                console.warn(`Chapter ${chapterIndex} not found or not accessible`);
+                            }
+                        } catch (error) {
+                            console.warn(`Error loading Chapter ${chapterIndex}:`, error);
+                        }
+                    }
+
+                    if (quizData.chapters.length === 0) {
+                        throw new Error('No chapter files found');
+                    }
+
+                    // Flatten all questions for easy lookup by ID later
+                    allQuestions = quizData.chapters.flatMap(chapter => chapter.questions);
+                    displayMainMenu();
+                } catch (error) {
+                    console.error("Could not fetch quiz data:", error);
+                    mainMenuContainer.innerHTML = `<p style="color: red; text-align: center;">Error: Could not load quiz questions. Please check that quiz-data-Chapter1.json and other chapter files are available.</p>`;
+                    navigationEl.classList.add('hidden');
+                }
+            }
+            
+            function displayMainMenu() {
+                mainMenuContainer.innerHTML = '<h2>Select a Chapter</h2>';
+                
+                // Add regular chapters
+                quizData.chapters.forEach((chapter, index) => {
+                    const chapterBtn = document.createElement('button');
+                    chapterBtn.className = 'chapter-btn';
+                    chapterBtn.textContent = chapter.title;
+                    chapterBtn.dataset.chapterIndex = index;
+                    chapterBtn.addEventListener('click', () => startChapterQuiz(index));
+                    mainMenuContainer.appendChild(chapterBtn);
+                });
+
+                // Add Review Chapter if there are wrong answers
+                const wrongAnswerIds = getAllWrongAnswers();
+                if (wrongAnswerIds.length > 0) {
+                    const reviewBtn = document.createElement('button');
+                    reviewBtn.className = 'chapter-btn';
+                    reviewBtn.style.backgroundColor = '#fff5f5';
+                    reviewBtn.style.borderColor = '#dc3545';
+                    reviewBtn.style.color = '#dc3545';
+                    reviewBtn.textContent = `Review Chapter (${wrongAnswerIds.length} questions to review)`;
+                    reviewBtn.addEventListener('click', startReviewChapter);
+                    mainMenuContainer.appendChild(reviewBtn);
+                }
+
+                // Add reset progress button
+                const resetBtn = document.createElement('button');
+                resetBtn.className = 'nav-btn';
+                resetBtn.style.marginTop = '20px';
+                resetBtn.style.backgroundColor = '#dc3545';
+                resetBtn.textContent = 'Reset All Progress';
+                resetBtn.addEventListener('click', () => {
+                    if (confirm('Are you sure you want to reset all quiz progress? This cannot be undone.')) {
+                        // Clear all chapter progress from localStorage
+                        quizData.chapters.forEach((_, index) => {
+                            localStorage.removeItem(`quiz_progress_chapter_${index}`);
+                        });
+                        // Also clear review chapter progress
+                        localStorage.removeItem('quiz_progress_review');
+                        alert('All progress has been reset.');
+                        displayMainMenu(); // Refresh the menu
+                    }
+                });
+                mainMenuContainer.appendChild(resetBtn);
+
+                // Show keyboard shortcuts help
+                const shortcuts = document.createElement('div');
+                shortcuts.className = 'keyboard-shortcuts';
+                shortcuts.innerHTML = `
+                    <div>Keyboard Shortcuts:</div>
+                    <div>← Previous Question</div>
+                    <div>→ Next Question</div>
+                    <div>1-4 Select Answer</div>
+                    <div>Space Show/Hide Explanation</div>
+                `;
+                document.body.appendChild(shortcuts);
+                showMenuView();
+            }
+
+            function startChapterQuiz(index) {
+                currentChapterIndex = index;
+                currentQuestions = quizData.chapters[index].questions;
+                currentQuestionIndex = 0;
+                userAnswers = {};
+                // Set the title to the chapter name
+                const quizTitleEl = document.getElementById('quiz-title');
+                if (quizTitleEl) {
+                    quizTitleEl.textContent = quizData.chapters[index].title;
+                }
+                // Try to load saved progress
+                const savedProgress = localStorage.getItem(`quiz_progress_chapter_${index}`);
+                if (savedProgress) {
+                    const progress = JSON.parse(savedProgress);
+                    userAnswers = progress.userAnswers;
+                    currentQuestionIndex = progress.currentQuestionIndex;
+                }
+                // Remove keyboard shortcuts panel before showing questions
+                const shortcuts = document.querySelector('.keyboard-shortcuts');
+                if (shortcuts) {
+                    shortcuts.remove();
+                }
+                showQuizView();
+                displayQuestion();
+            }
+            
+            function startRetryMode() {
+                // Always use the original chapter questions and the answers from the last completed run
+                let chapterQuestions = [];
+                let lastAnswers = {};
+                if (currentChapterIndex >= 0 && quizData.chapters[currentChapterIndex]) {
+                    chapterQuestions = quizData.chapters[currentChapterIndex].questions;
+                    // Try to get the last saved progress for this chapter
+                    const savedProgress = localStorage.getItem(`quiz_progress_chapter_${currentChapterIndex}`);
+                    if (savedProgress) {
+                        const progress = JSON.parse(savedProgress);
+                        lastAnswers = progress.userAnswers || {};
+                    } else {
+                        lastAnswers = userAnswers;
+                    }
+                } else {
+                    // fallback: use currentQuestions and current userAnswers (for review mode, etc)
+                    chapterQuestions = currentQuestions;
+                    lastAnswers = userAnswers;
+                }
+                const incorrectQuestionIds = Object.values(lastAnswers)
+                    .filter(a => !a.isCorrect)
+                    .map(a => a.questionId);
+
+                // Filter from the original chapter's questions only
+                currentQuestions = chapterQuestions.filter(q => incorrectQuestionIds.includes(q.id));
+                currentQuestionIndex = 0;
+                userAnswers = {}; // Reset answers for the retry round
+
+                showQuizView();
+                displayQuestion();
+            }
+
+            function startReviewChapter() {
+                const wrongAnswerIds = getAllWrongAnswers();
+                if (wrongAnswerIds.length === 0) {
+                    alert("No questions to review! You've correctly answered all questions you previously got wrong.");
+                    return;
+                }
+                
+                currentQuestions = allQuestions.filter(q => wrongAnswerIds.includes(q.id));
+                currentChapterIndex = -1; // Special value for review chapter
+                currentQuestionIndex = 0;
+                userAnswers = {};
+
+                // Try to load saved progress for review chapter
+                const savedProgress = localStorage.getItem('quiz_progress_review');
+                if (savedProgress) {
+                    const progress = JSON.parse(savedProgress);
+                    // Only load answers for questions that are still in the review list
+                    const filteredAnswers = {};
+                    Object.entries(progress.userAnswers).forEach(([id, answer]) => {
+                        if (wrongAnswerIds.includes(answer.questionId)) {
+                            filteredAnswers[id] = answer;
+                        }
+                    });
+                    userAnswers = filteredAnswers;
+                    currentQuestionIndex = Math.min(progress.currentQuestionIndex, currentQuestions.length - 1);
+                }
+                
+                // Remove keyboard shortcuts panel before showing questions
+                const shortcuts = document.querySelector('.keyboard-shortcuts');
+                if (shortcuts) {
+                    shortcuts.remove();
+                }
+                
+                showQuizView();
+                displayQuestion();
+            }
+
+            function displayQuestion() {
+                // Clear previous state
+                feedbackContainerEl.classList.add('hidden');
+                optionsContainerEl.innerHTML = '';
+
+                if (currentQuestionIndex >= currentQuestions.length) {
+                    displayFinalSummary();
+                    return;
+                }
+
+                const question = currentQuestions[currentQuestionIndex];
+                questionCounterEl.textContent = `Question ${currentQuestionIndex + 1} of ${currentQuestions.length}`;
+                questionTextEl.textContent = question.question;
+
+                // Create option buttons
+                for (const key in question.options) {
+                    const optionBtn = document.createElement('button');
+                    optionBtn.className = 'option-btn';
+                    optionBtn.textContent = `${key}. ${question.options[key]}`;
+                    optionBtn.dataset.optionKey = key;
+                    optionBtn.addEventListener('click', handleAnswerSelection);
+                    optionsContainerEl.appendChild(optionBtn);
+                }
+                
+                // Restore previous answer if it exists
+                if(userAnswers[question.id]) {
+                    showFeedback(userAnswers[question.id].selectedOption);
+                }
+
+                updateNavigation();
+            }
+            
+            function handleAnswerSelection(event) {
+                const selectedOption = event.target.dataset.optionKey;
+                const question = currentQuestions[currentQuestionIndex];
+                
+                if(userAnswers[question.id]) return; // Already answered
+
+                const isCorrect = selectedOption === question.answer;
+
+                userAnswers[question.id] = {
+                    questionId: question.id,
+                    selectedOption,
+                    isCorrect,
+                };
+                
+                showFeedback(selectedOption);
+            }
+            
+            function showFeedback(selectedOption) {
+                const question = currentQuestions[currentQuestionIndex];
+                const isCorrect = selectedOption === question.answer;
+
+                // Disable all option buttons
+                optionsContainerEl.querySelectorAll('.option-btn').forEach(btn => {
+                    btn.disabled = true;
+                    const optionKey = btn.dataset.optionKey;
+                    if(optionKey === question.answer) {
+                        btn.classList.add('correct');
+                    } else if (optionKey === selectedOption) {
+                        btn.classList.add('incorrect');
+                    }
+                });
+                
+                // Show feedback text
+                feedbackContainerEl.classList.remove('hidden');
+                feedbackTextEl.textContent = isCorrect ? 'Correct!' : 'Incorrect!';
+                feedbackContainerEl.className = `feedback-container ${isCorrect ? 'correct' : 'incorrect'}`;
+                feedbackTextEl.className = isCorrect ? 'correct' : 'incorrect';
+                
+                correctAnswerTextEl.innerHTML = `<strong>The correct answer is:</strong> ${question.answer}. ${question.options[question.answer]}`;
+                shortExplanationEl.innerHTML = `<strong>Explanation:</strong> ${question.short_explanation}`;
+                longExplanationEl.innerHTML = `<strong>Detailed Explanation:</strong> ${question.long_explanation}`;
+            }
+
+            function updateNavigation() {
+                prevBtn.disabled = currentQuestionIndex === 0;
+                if (currentQuestionIndex === currentQuestions.length - 1) {
+                    nextBtn.textContent = 'Finish';
+                } else {
+                    nextBtn.textContent = 'Next';
+                }
+            }
+
+            function displayFinalSummary() {
+                let correctCount = 0;
+                let incorrectCount = 0;
+                // Only consider questions that were actually answered in this session
+                const answeredIds = Object.keys(userAnswers);
+                const incorrectAnswers = answeredIds
+                    .map(id => userAnswers[id])
+                    .filter(a => !a.isCorrect);
+                const correctAnswers = answeredIds
+                    .map(id => userAnswers[id])
+                    .filter(a => a.isCorrect);
+                correctCount = correctAnswers.length;
+                incorrectCount = incorrectAnswers.length;
+                const percentage = (answeredIds.length > 0) ? ((correctCount / answeredIds.length) * 100).toFixed(1) : 0;
+                const chapterTitle = currentChapterIndex === -1 ? 'Review Chapter' : quizData.chapters[currentChapterIndex].title;
+
+                let summaryHTML = `
+                    <h2>Quiz Completed: ${chapterTitle}</h2>
+                    <div id="final-score-details">
+                        <div>Correct<span class="score-correct">${correctCount}</span></div>
+                        <div>Incorrect<span class="score-incorrect">${incorrectCount}</span></div>
+                        <div>Score<span class="score-percentage">${percentage}%</span></div>
+                    </div>
+                `;
+
+                if (incorrectAnswers.length > 0) {
+                    summaryHTML += `<h3>Review Incorrect Answers</h3>`;
+                    incorrectAnswers.forEach(answer => {
+                        // Find the question in currentQuestions (not allQuestions)
+                        const question = currentQuestions.find(q => q.id === answer.questionId) || allQuestions.find(q => q.id === answer.questionId);
+                        if (question) {
+                            summaryHTML += `
+                                <div class="incorrect-answer-item">
+                                    <p class="question-title">${question.question}</p>
+                                    <p><strong>Your answer:</strong> ${answer.selectedOption}. ${question.options[answer.selectedOption]}</p>
+                                    <p><strong>Correct answer:</strong> ${question.answer}. ${question.options[question.answer]}</p>
+                                    <p><strong>Explanation:</strong> ${question.short_explanation}</p>
+                                </div>
+                            `;
+                        }
+                    });
+                } else if (answeredIds.length > 0) {
+                    summaryHTML += `<h3>Congratulations! You answered all questions correctly.</h3>`;
+                } else {
+                    summaryHTML += `<h3>You have not answered any questions.</h3>`;
+                }
+
+                summaryHTML += `
+                    <div class="summary-actions">
+                        <button id="summary-prev-btn" class="nav-btn">Previous</button>
+                        <button id="retry-wrong-btn" class="nav-btn">Answer Wrong Questions</button>
+                        <button id="restart-btn" class="nav-btn">Restart Chapter</button>
+                        <button id="finish-btn" class="nav-btn">Finish</button>
+                    </div>
+                `;
+
+                showSummaryView(summaryHTML);
+
+                document.getElementById('restart-btn').addEventListener('click', () => startChapterQuiz(currentChapterIndex));
+                const retryBtn = document.getElementById('retry-wrong-btn');
+                if (incorrectAnswers.length === 0) {
+                    retryBtn.disabled = true;
+                } else {
+                    retryBtn.addEventListener('click', startRetryMode);
+                }
+                // Add event for Finish button to go to main menu
+                document.getElementById('finish-btn').addEventListener('click', () => {
+                    displayMainMenu();
+                });
+                // Add event for Previous button to go back to last question
+                document.getElementById('summary-prev-btn').addEventListener('click', () => {
+                    // Go back to the last question
+                    if (currentQuestions.length > 0) {
+                        currentQuestionIndex = currentQuestions.length - 1;
+                        showQuizView();
+                        displayQuestion();
+                    }
+                });
+            }
+
+            function displayPartialSummary() {
+                let summaryHTML = `
+                    <h2>Quiz Progress: ${quizData.chapters[currentChapterIndex].title}</h2>
+                    <div id="partial-summary-list">
+                `;
+                
+                if (Object.keys(userAnswers).length === 0) {
+                    summaryHTML += `<p>You haven't answered any questions yet.</p>`;
+                } else {
+                    // Show answered questions in the order they appear in the chapter
+                    currentQuestions.forEach(question => {
+                        if (userAnswers[question.id]) {
+                            const answer = userAnswers[question.id];
+                            const status = answer.isCorrect ? 'correct' : 'incorrect';
+                            summaryHTML += `
+                                <div class="summary-item ${status}">
+                                    <p class="question-title">${question.question}</p>
+                                    <p><strong>Your answer was ${status}:</strong> ${answer.selectedOption}. ${question.options[answer.selectedOption]}</p>
+                                    <p><strong>Correct Answer:</strong> ${question.answer}. ${question.options[question.answer]}</p>
+                                </div>
+                            `;
+                        }
+                    });
+                }
+                
+                summaryHTML += `
+                    </div>
+                    <div class="summary-actions">
+                        <button id="back-to-quiz-btn" class="nav-btn">Back to Quiz</button>
+                    </div>
+                `;
+                showSummaryView(summaryHTML);
+                document.getElementById('back-to-quiz-btn').addEventListener('click', showQuizView);
+            }
+
+            // --- View Management Functions ---
+            function showMenuView() {
+                mainMenuContainer.classList.remove('hidden');
+                quizContainer.classList.add('hidden');
+                summaryContainer.classList.add('hidden');
+                navigationEl.classList.add('hidden');
+                viewSummaryBtn.classList.add('hidden');
+                backToMenuBtn.classList.add('hidden');
+                // Restore the title to default
+                const quizTitleEl = document.getElementById('quiz-title');
+                if (quizTitleEl) {
+                    quizTitleEl.textContent = 'Academic Quiz';
+                }
+            }
+
+            function showQuizView() {
+                mainMenuContainer.classList.add('hidden');
+                quizContainer.classList.remove('hidden');
+                summaryContainer.classList.add('hidden');
+                viewSummaryBtn.classList.remove('hidden');
+                backToMenuBtn.classList.remove('hidden');
+                
+                // Show navigation container and update button visibility
+                navigationEl.classList.remove('hidden');
+                updateNavigation();
+            }
+
+            function showSummaryView(htmlContent) {
+                mainMenuContainer.classList.add('hidden');
+                quizContainer.classList.add('hidden');
+                // Hide navigation buttons (next/prev) on summary page
+                navigationEl.classList.add('hidden');
+                viewSummaryBtn.classList.add('hidden');
+                summaryContainer.innerHTML = htmlContent;
+                // Remove any duplicate summary-prev-btn and finish-btn (keep only the first of each)
+                const prevBtns = summaryContainer.querySelectorAll('#summary-prev-btn');
+                if (prevBtns.length > 1) {
+                    for (let i = 1; i < prevBtns.length; i++) prevBtns[i].remove();
+                }
+                const finishBtns = summaryContainer.querySelectorAll('#finish-btn');
+                if (finishBtns.length > 1) {
+                    for (let i = 1; i < finishBtns.length; i++) finishBtns[i].remove();
+                }
+                // Remove any navigation buttons from summary (defensive, in case of accidental duplication)
+                const navBtns = summaryContainer.querySelectorAll('.nav-btn');
+                navBtns.forEach(btn => {
+                    if (btn.id === 'prev-btn' || btn.id === 'next-btn') {
+                        btn.remove();
+                    }
+                });
+                summaryContainer.classList.remove('hidden');
+                backToMenuBtn.classList.remove('hidden');
+            }
+
+            // Save progress after each answer
+            function saveProgress() {
+                const progress = {
+                    userAnswers,
+                    currentQuestionIndex,
+                    timestamp: new Date().getTime()
+                };
+                
+                if (currentChapterIndex >= 0) {
+                    // Save progress for regular chapters
+                    localStorage.setItem(`quiz_progress_chapter_${currentChapterIndex}`, JSON.stringify(progress));
+                } else {
+                    // Save progress for review chapter
+                    localStorage.setItem('quiz_progress_review', JSON.stringify(progress));
+                }
+            }
+
+            // --- Event Listeners ---
+            nextBtn.addEventListener('click', () => {
+                if (currentQuestionIndex >= currentQuestions.length - 1) {
+                    displayFinalSummary();
+                } else {
+                    currentQuestionIndex++;
+                    displayQuestion();
+                    saveProgress();
+                }
+            });
+
+            prevBtn.addEventListener('click', () => {
+                if (currentQuestionIndex > 0) {
+                    currentQuestionIndex--;
+                    displayQuestion();
+                    saveProgress();
+                }
+            });
+
+            viewSummaryBtn.addEventListener('click', displayPartialSummary);
+            backToMenuBtn.addEventListener('click', () => {
+                const shortcuts = document.querySelector('.keyboard-shortcuts');
+                if (shortcuts) {
+                    shortcuts.remove();
+                }
+                displayMainMenu();
+            });
+
+            // Keyboard navigation
+            document.addEventListener('keydown', (e) => {
+                if (!quizContainer.classList.contains('hidden')) {
+                    switch(e.key) {
+                        case 'ArrowLeft':
+                            if (!prevBtn.disabled) prevBtn.click();
+                            break;
+                        case 'ArrowRight':
+                            if (!nextBtn.disabled) nextBtn.click();
+                            break;
+                        case ' ':
+                            if (!feedbackContainerEl.classList.contains('hidden')) {
+                                feedbackContainerEl.classList.add('hidden');
+                            } else {
+                                feedbackContainerEl.classList.remove('hidden');
+                            }
+                            e.preventDefault();
+                            break;
+                        case '1':
+                        case '2':
+                        case '3':
+                        case '4':
+                            const index = parseInt(e.key) - 1;
+                            const options = optionsContainerEl.querySelectorAll('.option-btn');
+                            if (index < options.length && !options[index].disabled) {
+                                options[index].click();
+                                options[index].classList.add('clicked');
+                                setTimeout(() => options[index].classList.remove('clicked'), 600);
+                            }
+                            break;
+                    }
+                }
+            });
+
+            // --- Initial Load ---
+            initializeQuiz();
+        });
+    </script>
+
+</body>
+</html>
