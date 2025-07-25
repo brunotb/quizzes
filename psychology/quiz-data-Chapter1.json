@@ -5,328 +5,263 @@
       "questions": [
         {
           "id": 1,
-          "question": "In Wilhelm Wundt's 1879 experiment, the critical difference in instructions between the two groups was designed to isolate and measure what?",
+          "question": "What was the primary achievement of Wilhelm Wundt's 1879 experiment, distinguishing it as the start of scientific psychology?",
           "options": {
-            "A": "The physical speed of auditory nerve transmission",
-            "B": "The time required for conscious awareness of a perception",
-            "C": "The variation in participants' hearing abilities",
-            "D": "The effect of motivation on reaction time"
+            "A": "It was the first attempt to measure a mental process objectively.",
+            "B": "It proved the existence of the unconscious mind through reaction times.",
+            "C": "It identified the specific brain regions responsible for hearing.",
+            "D": "It demonstrated how behavior is learned through environmental conditioning."
           },
-          "answer": "B",
-          "short_explanation": "Wundt's experiment measured the delay caused by the mental process of becoming consciously aware of a sound.",
-          "long_explanation": "Wundt's experiment is considered the birth of scientific psychology because it was the first attempt to measure a mental process. By comparing a simple reaction (Group 1: 'press when you hear it') with a more complex one (Group 2: 'press when you are aware of hearing it'), he isolated the time it took for the brain to engage in the act of conscious awareness. This demonstrated that internal mental events, while not directly visible, could be studied and measured objectively."
+          "answer": "A",
+          "short_explanation": "Wundt's experiment was significant because it moved the study of the mind from philosophy to science by measuring a mental process (conscious awareness).",
+          "long_explanation": "Wilhelm Wundt's experiment measured the time difference between simply hearing a sound and being consciously aware of hearing it. This subtle delay was interpreted as the duration of a mental process. This marked a pivotal shift by applying scientific measurement to the internal world of the mind, which had previously been the domain of philosophical speculation. The other options are incorrect: B relates to Freud's psychoanalysis, C relates to neurobiology which was not possible then, and D describes the core idea of behaviorism, which emerged later."
         },
         {
           "id": 2,
-          "question": "A psychologist studying why individuals from collectivist cultures conform more to group norms than those from individualistic cultures is primarily focusing on which level of the biopsychosocial approach?",
+          "question": "How does the modern definition of psychology primarily differ from the strict behaviorist view that was dominant from the 1920s to 1960s?",
           "options": {
-            "A": "Biological influences",
-            "B": "Psychological influences",
-            "C": "Social-cultural influences",
-            "D": "Cognitive-behavioral influences"
+            "A": "It exclusively focuses on internal mental processes rather than behavior.",
+            "B": "It reincorporates the study of mental processes alongside observable behavior.",
+            "C": "It defines psychology purely as the science of social and cultural interaction.",
+            "D": "It prioritizes biological and genetic influences over all other factors."
           },
-          "answer": "C",
-          "short_explanation": "This analysis focuses on how societal and cultural expectations shape behavior, which is the core of the social-cultural level.",
-          "long_explanation": "The biopsychosocial approach posits that behavior is influenced by three interacting levels. Biological influences relate to genetics and physiology. Psychological influences relate to learned fears, emotions, and cognitive processing. Social-cultural influences, as in this example, pertain to the impact of societal norms, cultural background, and group dynamics on behavior. Comparing collectivist and individualistic cultures falls squarely within this domain."
+          "answer": "B",
+          "short_explanation": "Modern psychology integrates the study of the mind (mental processes) back into the field, which behaviorism had excluded.",
+          "long_explanation": "The behaviorist movement, led by figures like B.F. Skinner, argued that psychology could only be a true science if it studied observable, measurable actions (behavior). The 'cognitive revolution' of the 1960s brought the mind back, leading to the current definition: 'the science of behavior and mental processes.' Therefore, the key difference is the inclusion of mental processes, not the exclusion of behavior (A), a narrowing to social psychology (C), or a sole focus on biology (D)."
         },
         {
           "id": 3,
-          "question": "Which statement best captures the primary focus of the behaviorist approach to psychology?",
+          "question": "A psychologist studying why an individual is prone to addiction considers their family history of substance abuse, their belief that they need substances to cope with stress, and the influence of their peer group. This comprehensive approach is best described as:",
           "options": {
-            "A": "Unconscious conflicts from childhood are the primary drivers of adult behavior.",
-            "B": "Maladaptive behaviors stem from irrational and distorted thought patterns.",
-            "C": "Behavior is shaped and maintained by environmental stimuli and consequences.",
-            "D": "Human actions are a direct result of underlying neurochemical processes."
+            "A": "Psychoanalytic",
+            "B": "Cognitive-Behavioral",
+            "C": "Neurobiological",
+            "D": "Biopsychosocial"
           },
-          "answer": "C",
-          "short_explanation": "Behaviorism asserts that behavior is learned through interaction with the environment, focusing on observable stimuli and responses.",
-          "long_explanation": "The behaviorist approach, championed by figures like B.F. Skinner, deliberately avoids focusing on internal mental states (thoughts, unconscious conflicts) because they are not directly observable. Instead, it posits that behaviors are learned responses to environmental triggers. A behavior that is followed by a reward (reinforcement) is more likely to be repeated, while one followed by a punishment is less likely. This environmental shaping is the central tenet of behaviorism."
+          "answer": "D",
+          "short_explanation": "This approach combines biological (family history), psychological (beliefs), and social (peer group) factors, which is the definition of the biopsychosocial model.",
+          "long_explanation": "The biopsychosocial approach posits that behavior and mental processes are influenced by an interplay of three forces. In this case: family history represents the 'bio' (genetic predisposition), the belief about coping represents the 'psycho' (cognitive processes), and the peer group influence represents the 'social.' The other options are too narrow; a neurobiological approach would focus on brain chemistry, a cognitive approach on the beliefs, and a psychoanalytic approach on unconscious conflicts."
         },
         {
           "id": 4,
-          "question": "A therapist helps a client identify and challenge their thought, 'If I don't get this promotion, I am a complete failure.' This intervention is most characteristic of which psychological approach?",
+          "question": "From a strict behaviorist perspective, why does Max (from the case study) continue to avoid studying for his exams?",
           "options": {
-            "A": "Psychoanalytic",
-            "B": "Behaviorist",
-            "C": "Neurobiological",
-            "D": "Cognitive"
+            "A": "He has an unconscious fear of success that stems from a childhood trauma.",
+            "B": "Avoiding studying provides immediate relief from anxiety, which reinforces the behavior.",
+            "C": "He has a genetic predisposition that makes him less tolerant of academic stress.",
+            "D": "He holds the irrational belief that he is incapable of passing the exam."
           },
-          "answer": "D",
-          "short_explanation": "The cognitive approach focuses on changing dysfunctional behavior by identifying and modifying distorted thinking patterns.",
-          "long_explanation": "This scenario is a classic example of Cognitive-Behavioral Therapy (CBT), which is rooted in the cognitive approach. The core idea is that our emotions and behaviors are not caused by events themselves, but by our interpretation (cognition) of those events. The therapist is helping the client address a 'cognitive distortion' (catastrophic thinking). A behaviorist would focus on changing the client's actions, a psychoanalyst on unconscious fears, and a neurobiologist on brain chemistry."
+          "answer": "B",
+          "short_explanation": "Behaviorism explains behavior through learning; avoiding studying is rewarding (reinforcing) because it immediately reduces the unpleasant feeling of anxiety.",
+          "long_explanation": "A behaviorist focuses on how environmental consequences shape behavior. In this case, the act of avoiding studying (the behavior) is followed by a pleasant consequence: the reduction of anxiety. This is an example of negative reinforcement, where a behavior is strengthened by the removal of an unpleasant stimulus. A is psychoanalytic, C is neurobiological, and D is cognitive."
         },
         {
           "id": 5,
-          "question": "The modern definition of psychology as 'the science of behavior and mental processes' represents a synthesis of which two historical perspectives?",
+          "question": "A therapist helps Max identify his thought, 'If I fail this exam, my entire career is ruined,' and then works with him to challenge this overstatement. This intervention is most characteristic of which approach?",
           "options": {
-            "A": "Psychoanalysis and the neurobiological approach",
-            "B": "Wundt's focus on mental life and the behaviorist focus on observable action",
-            "C": "Social-cultural psychology and cognitive psychology",
-            "D": "Engineering psychology and organizational psychology"
+            "A": "Cognitive",
+            "B": "Psychoanalytic",
+            "C": "Behaviorist",
+            "D": "Humanistic"
           },
-          "answer": "B",
-          "short_explanation": "The modern definition combines the early focus on internal 'mental life' with the behaviorist focus on external, 'observable behavior'.",
-          "long_explanation": "Psychology's history shows a pendulum swing. Early psychology (Wundt) focused on introspection and 'mental life.' Then, Behaviorism (from the 1920s) rejected this, arguing that only observable 'behavior' was scientifically valid. The cognitive revolution (1960s) brought the mind back. Our current definition honors both traditions, acknowledging that a complete understanding requires studying both outward actions (behavior) and internal experiences (mental processes)."
+          "answer": "A",
+          "short_explanation": "The cognitive approach focuses on identifying and changing dysfunctional or irrational thought patterns that lead to negative emotions and behaviors.",
+          "long_explanation": "This technique is a cornerstone of Cognitive-Behavioral Therapy (CBT). The core idea is that our interpretations of events, not the events themselves, cause our emotional reactions. The therapist is helping Max address a 'cognitive distortion' (catastrophic thinking). A behaviorist would focus on changing the avoidance behavior directly, a psychoanalyst would explore its unconscious roots, and a humanist (not covered in detail) would focus on self-actualization and personal growth."
         },
         {
           "id": 6,
-          "question": "According to the case study of Max's test anxiety, a psychoanalytic psychologist would be most interested in exploring...",
+          "question": "The psychoanalytic approach would be most interested in which aspect of a person's psychological problem?",
           "options": {
-            "A": "whether a chemical imbalance in Max's brain is triggered by stress.",
-            "B": "the specific negative thoughts Max has about failing the exam.",
-            "C": "how avoiding studying provides Max with immediate, short-term relief from anxiety.",
-            "D": "if the fear of the exam symbolizes an unresolved childhood conflict about failure."
+            "A": "The maladaptive thought patterns the person currently holds.",
+            "B": "The environmental triggers that precede the problematic behavior.",
+            "C": "Unresolved conflicts from early life experiences that shape current actions.",
+            "D": "Hormonal imbalances that might be contributing to mood swings."
           },
-          "answer": "D",
-          "short_explanation": "The psychoanalytic approach looks for unconscious conflicts and past experiences that shape current behavior.",
-          "long_explanation": "While other approaches focus on the present, the psychoanalytic perspective, developed by Freud, emphasizes the role of the unconscious mind and early life experiences. A psychoanalyst would hypothesize that Max's intense, seemingly irrational fear is not about the test itself, but is a manifestation of a deeper, unresolved issue from his past (e.g., fear of disappointing a parent, past trauma related to performance). The other options represent the neurobiological (A), cognitive (B), and behaviorist (C) approaches, respectively."
+          "answer": "C",
+          "short_explanation": "Psychoanalysis, founded by Freud, emphasizes how our past, particularly unconscious conflicts from childhood, influences our present behavior.",
+          "long_explanation": "The central tenet of the psychoanalytic approach is that our present difficulties are often symptoms of deeper, unresolved issues from our past that reside in the unconscious mind. A relates to the cognitive approach, B to the behaviorist approach, and D to the neurobiological approach."
         },
         {
           "id": 7,
-          "question": "Which of the following scenarios is the BEST example of a 'mental process' as defined in psychology?",
+          "question": "A researcher investigating the biological underpinnings of severe anxiety is most likely to use which of the following methods?",
           "options": {
-            "A": "A student raising their hand in class.",
-            "B": "A person's heart rate increasing during a presentation.",
-            "C": "Remembering the name of your first-grade teacher.",
-            "D": "A manager writing a performance review."
+            "A": "In-depth clinical interviews about childhood experiences.",
+            "B": "Self-report questionnaires focused on thought patterns.",
+            "C": "Systematic observation of behavior in a controlled setting.",
+            "D": "Brain imaging techniques like fMRI or EEG."
           },
-          "answer": "C",
-          "short_explanation": "A mental process is an internal, subjective experience, like memory, which cannot be directly observed.",
-          "long_explanation": "Psychology distinguishes between 'behavior' (observable actions) and 'mental processes' (internal experiences). Raising a hand (A) and writing a review (D) are observable behaviors. Increased heart rate (B) is a physiological response that can be measured, but it is an indicator, not the internal experience itself. Remembering (C) is a purely internal cognitive activity—a classic example of a mental process that we can only infer from subsequent behavior (like saying the name aloud)."
+          "answer": "D",
+          "short_explanation": "The neurobiological approach connects psychological states to brain activity and body chemistry, making brain imaging a primary tool.",
+          "long_explanation": "The neurobiological approach seeks to understand the mind by studying the brain and nervous system. Techniques like functional Magnetic Resonance Imaging (fMRI) and Electroencephalography (EEG) allow researchers to observe brain activity associated with psychological states like anxiety. A is a psychoanalytic method, B is a cognitive method, and C is a behaviorist method."
         },
         {
           "id": 8,
-          "question": "A researcher proposes that a person's chronic shyness is caused by a genetic predisposition that affects the levels of serotonin in the brain. This explanation aligns with which psychological approach?",
+          "question": "A key distinction between the cognitive and psychoanalytic approaches is that the cognitive approach emphasizes _____, while the psychoanalytic approach emphasizes _____.",
           "options": {
-            "A": "Neurobiological",
-            "B": "Social-cultural",
-            "C": "Cognitive",
-            "D": "Psychoanalytic"
+            "A": "observable behaviors; internal mental states",
+            "B": "conscious thoughts; unconscious conflicts",
+            "C": "genetic predispositions; learned fears",
+            "D": "social influences; emotional responses"
           },
-          "answer": "A",
-          "short_explanation": "The neurobiological approach attributes behavior and mental states to underlying biological factors like genetics and brain chemistry.",
-          "long_explanation": "This approach, also known as biopsychology or neuroscience, focuses on the body's role in psychological phenomena. By linking shyness to genetics and neurotransmitters (serotonin), the researcher is providing a purely biological explanation. A social-cultural approach would look at family or cultural norms about social interaction, a cognitive approach would examine shy thoughts, and a psychoanalytic approach would explore unconscious fears of social judgment."
+          "answer": "B",
+          "short_explanation": "Cognitive therapy deals with thoughts you are aware of, while psychoanalysis delves into conflicts you are not aware of (unconscious).",
+          "long_explanation": "This question tests the core focus of each theory. The cognitive approach primarily works with the thoughts, beliefs, and interpretations that are accessible to our conscious mind. In contrast, the psychoanalytic approach's central premise is that much of our motivation and distress stems from conflicts buried in the unconscious mind. Option A contrasts behaviorism with general psychology, C contrasts neurobiology with behaviorism/cognition, and D contrasts social psychology with general psychology."
         },
         {
           "id": 9,
-          "question": "The primary reason for having multiple psychological approaches (e.g., cognitive, behaviorist, neurobiological) is that...",
+          "question": "According to the syllabus presented in the first lecture, how does this 'Introduction to Psychology' lecture fit within the larger module structure?",
           "options": {
-            "A": "only one approach is correct, and psychologists are still trying to determine which one it is.",
-            "B": "each approach is best suited for studying different, non-overlapping types of behavior.",
-            "C": "human behavior is complex and can be understood more fully by viewing it from different perspectives.",
-            "D": "older approaches like psychoanalysis are being phased out in favor of modern, scientific ones."
+            "A": "It is a standalone 6 ECTS course covering all required topics.",
+            "B": "It is the practical, application-based component of a theoretical seminar.",
+            "C": "It serves as the 3 ECTS theoretical foundation for a 3 ECTS seminar on teamwork.",
+            "D": "It is an optional course with no direct connection to other required modules."
           },
           "answer": "C",
-          "short_explanation": "Different approaches act as complementary lenses, each providing unique insights into the complexity of human behavior.",
-          "long_explanation": "Human behavior is too complex to be explained by a single theory. The various approaches are not competing to be the one 'correct' theory; rather, they are different tools for analysis. Just as you can analyze a building from an architectural, engineering, or historical perspective, you can analyze a behavior from a biological, cognitive, or social viewpoint. Combining these perspectives provides a richer, more complete picture, as exemplified by the biopsychosocial model."
+          "short_explanation": "The lecture provides the 3 ECTS of theory that is complemented by a 3 ECTS practical seminar, making a 6 ECTS module.",
+          "long_explanation": "Slide 8 explicitly shows that the 'Introduction to Psychology and Human Behavior' module (6 ECTS) is composed of two parts: this 3 ECTS lecture, which provides the theoretical background, and a 3 ECTS seminar ('The Psychology of Teamwork'), which focuses on application. This question tests attention to the organizational details of the course."
         },
         {
           "id": 10,
-          "question": "The shift in psychology's definition from 'the science of mental life' to 'the scientific study of observable behavior' in the 1920s was prompted by the behaviorist argument that...",
+          "question": "The 'psychological' component of the biopsychosocial model would best explain a student's poor exam performance by pointing to:",
           "options": {
-            "A": "mental processes were too complex to be studied with the available technology.",
-            "B": "true science requires its subject matter to be directly observable and measurable.",
-            "C": "unconscious thoughts were more important than conscious mental life.",
-            "D": "behavior was ultimately more interesting and relevant to daily life than thoughts."
+            "A": "A cultural background that does not highly value academic achievement.",
+            "B": "A previously failed exam that led to a learned sense of helplessness.",
+            "C": "A chronic sleep disorder that impairs memory consolidation.",
+            "D": "The distraction caused by other students coughing in the exam hall."
           },
           "answer": "B",
-          "short_explanation": "Behaviorists argued that for psychology to be a true science, it must focus on what can be seen and measured: behavior.",
-          "long_explanation": "The behaviorist movement was a reaction against the introspective methods of early psychology, which they saw as subjective and unscientific. The core argument, advanced by figures like John B. Watson, was that science must deal with objective, publicly verifiable data. Since you cannot see or measure another person's thought, they contended that 'mental life' was not a proper subject for scientific inquiry. This led to a decades-long focus on observable behavior and how it is shaped by the environment."
+          "short_explanation": "The psychological level includes learned fears, emotional responses, and cognitive processing, such as learning to feel helpless after a past failure.",
+          "long_explanation": "This question requires differentiating the three levels of the biopsychosocial model. A learned sense of helplessness is a psychological phenomenon (a learned expectation). A and D are examples of social-cultural influences (culture and the presence of others). C is a biological influence (a physiological disorder)."
         },
         {
           "id": 11,
-          "question": "A manager notices that her team's productivity drops significantly when they work in an open-plan office compared to when they have private cubicles. A psychologist analyzing this situation through a behaviorist lens would most likely focus on...",
+          "question": "Why did the definition of psychology shift from 'the science of mental life' to 'the scientific study of observable behavior' in the early 20th century?",
           "options": {
-            "A": "the employees' internal feelings of being watched and judged.",
-            "B": "the environmental distractions (stimuli) in the open office that disrupt concentration.",
-            "C": "unconscious anxieties about social comparison triggered by the open space.",
-            "D": "the biological stress response (e.g., cortisol levels) caused by a noisy environment."
+            "A": "The cognitive revolution emphasized the importance of internal thought processes.",
+            "B": "New brain imaging technologies made a person's mental life directly observable.",
+            "C": "Psychoanalytic theories about the unconscious had become universally accepted.",
+            "D": "Behaviorists argued that internal mental events were too subjective for scientific study."
           },
-          "answer": "B",
-          "short_explanation": "A behaviorist would focus on the observable environmental stimuli (distractions) that are affecting the observable behavior (productivity).",
-          "long_explanation": "The behaviorist approach links environmental stimuli to behavioral responses. In this case, the open-plan office is the environment, filled with stimuli like noise and movement. These stimuli act as distractors that interfere with the desired behavior of working productively. A cognitive psychologist would focus on the internal feelings and thoughts (A), a psychoanalyst on unconscious anxieties (C), and a neurobiologist on the physiological stress response (D)."
+          "answer": "D",
+          "short_explanation": "Behaviorists championed a more 'scientific' psychology by insisting that study should be limited to what can be seen and measured: behavior.",
+          "long_explanation": "The behaviorist movement was a reaction against the introspective methods of early psychology and the untestable theories of psychoanalysis. Proponents like John B. Watson and B.F. Skinner argued that for psychology to be a legitimate science, it must focus on objective, observable phenomena (behavior), not subjective, internal states (mental life). A describes the later cognitive revolution, B refers to much more recent technology, and C is incorrect as psychoanalysis was highly debated."
         },
         {
           "id": 12,
-          "question": "Which of the following is a key component of the 'Psychological' level of the biopsychosocial approach?",
+          "question": "A student has two primary goals: to understand how their own thought patterns affect their motivation and how their team's culture influences collaboration. Which two course topics listed in the syllabus are most relevant to these goals, respectively?",
           "options": {
-            "A": "Peer and other group influences",
-            "B": "Genetic predispositions",
-            "C": "Learned fears and expectations",
-            "D": "Hormonal influences"
+            "A": "Learning; Research Methods",
+            "B": "Engineering Psychology; Work and Organizational Psychology",
+            "C": "Social Psychology; Learning",
+            "D": "Motivation and Emotion; Social Psychology"
           },
-          "answer": "C",
-          "short_explanation": "The psychological level includes internal factors like learned experiences, emotions, and cognitive processing.",
-          "long_explanation": "The biopsychosocial model has three distinct levels. The biological level includes genetics and hormones (B, D). The social-cultural level includes peer pressure and group influences (A). The psychological level encompasses the internal, non-biological factors that shape us, such as our past learning experiences (e.g., learned fears), our emotional responses, and how we interpret the world."
+          "answer": "D",
+          "short_explanation": "Motivation and Emotion covers internal drives and thoughts, while Social Psychology covers group and cultural influences.",
+          "long_explanation": "This question requires applying personal goals to the course topics outlined in Slide 5. The study of thought patterns affecting motivation falls directly under 'Motivation and Emotion.' The study of how team culture influences collaboration is a central theme of 'Social Psychology,' which examines how individuals are influenced by groups. The other pairings are less precise matches for both goals."
         },
         {
           "id": 13,
-          "question": "The course 'Introduction to Psychology and Human Behavior' aims to provide 'Tools for future leaders.' This objective is primarily based on the premise that effective leadership requires...",
+          "question": "The slight time delay Wundt observed in his second experimental group was psychologically significant because it was interpreted as the time required for:",
           "options": {
-            "A": "the ability to diagnose clinical psychological disorders in employees.",
-            "B": "a deep understanding of human motivation, communication, and group dynamics.",
-            "C": "mastery of statistical analysis and psychological research methods.",
-            "D": "knowledge of historical psychological theories from Freud to Wundt."
+            "A": "The physical sound wave to travel from the source to the ear.",
+            "B": "The nerve impulse to travel from the ear to the brain.",
+            "C": "The participant to process and become consciously aware of the perception.",
+            "D": "The participant to overcome the performance anxiety of the experiment."
           },
-          "answer": "B",
-          "short_explanation": "Effective leadership hinges on understanding people—what drives them, how they communicate, and how they behave in groups.",
-          "long_explanation": "While knowledge of research methods (C) and history (D) is part of a psychology education, the direct application for leaders lies in understanding the dynamics of human interaction. Leadership is fundamentally about influencing and guiding people. Therefore, understanding concepts like motivation (what makes people work hard), communication (how to give feedback effectively), and social psychology (how teams form and function) provides a practical toolkit for being a more effective leader."
+          "answer": "C",
+          "short_explanation": "Wundt was measuring the speed of a mental process: the act of becoming consciously aware of a stimulus.",
+          "long_explanation": "Wundt's genius was in isolating a purely mental event. The time for the sound to travel (A) or for the nerve impulse to fire (B) would be present in both experimental groups. The key difference was the instruction to the second group to report when they were *consciously aware* of the sound. That additional cognitive step is what took extra time, providing a measurement of a mental process. D is a plausible psychological factor but not what Wundt designed the experiment to measure."
         },
         {
           "id": 14,
-          "question": "What is the most significant implication of Wundt's 1879 experiment for the field of psychology?",
+          "question": "An employee's reluctance to speak up in meetings is being analyzed. Which of the following explanations falls under the 'social-cultural' level of the biopsychosocial model?",
           "options": {
-            "A": "It proved that consciousness is located in a specific region of the brain.",
-            "B": "It established that psychology could be a quantitative science of the mind.",
-            "C": "It demonstrated that reaction time is the most important measure of intelligence.",
-            "D": "It confirmed that introspection was an unreliable method for psychological study."
+            "A": "The employee has a naturally shy and introverted temperament.",
+            "B": "The employee believes their ideas are not valuable enough to share.",
+            "C": "The company culture implicitly discourages open dissent and challenges to authority.",
+            "D": "The employee had a panic attack during a public speaking event in college."
           },
-          "answer": "B",
-          "short_explanation": "Wundt's experiment showed that mental processes, though invisible, could be measured, establishing psychology as a science.",
-          "long_explanation": "The groundbreaking nature of Wundt's work was not the specific result, but the methodology. By measuring the time difference between hearing and being aware of hearing, he treated a mental process as a quantifiable event. This moved the study of the mind out of the realm of pure philosophy and into the realm of empirical science, paving the way for a century of research that sought to measure and understand the mind objectively. While it used introspection, it did so in a controlled way, so it didn't discredit it entirely (D)."
+          "answer": "C",
+          "short_explanation": "The social-cultural level examines influences from the broader environment, such as group norms and organizational culture.",
+          "long_explanation": "This question requires correctly categorizing different explanations. A (temperament) is a biological influence. B (beliefs) and D (a learned fear from a past event) are both psychological influences. C (company culture) is an external, group-level factor, which places it squarely in the social-cultural domain."
         },
         {
           "id": 15,
-          "question": "A key difference between the cognitive and psychoanalytic approaches is that the cognitive approach emphasizes _____, while the psychoanalytic approach emphasizes _____.",
+          "question": "A therapist suggests a client's fear of commitment is rooted in unresolved childhood attachment issues. Another therapist suggests the fear is maintained because being single allows the client to avoid the anxiety of potential conflict. The first therapist is likely a _____, and the second is likely a _____.",
           "options": {
-            "A": "conscious thoughts; unconscious conflicts",
-            "B": "observable behavior; biological predispositions",
-            "C": "cultural influences; learned behaviors",
-            "D": "unconscious processes; conscious choices"
+            "A": "Psychoanalyst; Behaviorist",
+            "B": "Behaviorist; Cognitive psychologist",
+            "C": "Cognitive psychologist; Neurobiologist",
+            "D": "Neurobiologist; Psychoanalyst"
           },
           "answer": "A",
-          "short_explanation": "The cognitive approach deals with conscious thought processes, whereas the psychoanalytic approach focuses on hidden, unconscious drives.",
-          "long_explanation": "This question tests the ability to differentiate two approaches that both deal with internal processes. The cognitive approach is primarily concerned with the conscious thought patterns, beliefs, and interpretations that we are aware of or can easily become aware of. In contrast, the psychoanalytic approach's central tenet is that our behavior is powerfully shaped by thoughts, memories, and desires that exist outside of our conscious awareness (the unconscious)."
+          "short_explanation": "The first focuses on early life (psychoanalytic), while the second focuses on how avoidance is reinforced by reducing anxiety (behaviorist).",
+          "long_explanation": "The first therapist's explanation points to early childhood experiences and attachment, which are hallmarks of the psychoanalytic and psychodynamic traditions. The second therapist's explanation is a classic behaviorist analysis: the behavior (staying single) is reinforced by the removal of an aversive stimulus (anxiety from potential conflict). This is negative reinforcement, a key concept in behaviorism."
         },
         {
           "id": 16,
-          "question": "According to the biopsychosocial model, which of the following would be considered a primarily 'Biological' influence on behavior?",
+          "question": "Which statement best encapsulates the dual focus of modern psychology as defined in the lecture?",
           "options": {
-            "A": "The way a person interprets a stressful event.",
-            "B": "The influence of family expectations on career choice.",
-            "C": "The effect of a brain injury on personality.",
-            "D": "A learned phobia of spiders after a bad experience."
+            "A": "It seeks to understand both individual differences and universal principles of behavior.",
+            "B": "It investigates both the normal functioning and the disordered states of the mind.",
+            "C": "It balances the scientific study of internal experiences with the study of external actions.",
+            "D": "It is concerned with both development across the lifespan and immediate situational behaviors."
           },
           "answer": "C",
-          "short_explanation": "A brain injury is a direct physical, biological factor that influences behavior and mental processes.",
-          "long_explanation": "The biological level of analysis refers to the body's direct impact on psychology. A brain injury (C) is a clear example of a physical change affecting personality. Interpreting an event (A) and a learned phobia (D) are psychological influences. Family expectations (B) are a social-cultural influence. This question requires correctly categorizing influences into the three levels of the model."
+          "short_explanation": "The modern definition of psychology is 'the science of behavior (external actions) and mental processes (internal experiences).'",
+          "long_explanation": "This question tests the precise definition provided in Slide 15. While A, B, and D are all true statements about the scope of psychology, C most accurately reflects the core definition that synthesizes the historical focus on mental life with the behaviorist focus on observable actions. It captures the essence of 'behavior and mental processes.'"
         },
         {
           "id": 17,
-          "question": "The 'cognitive revolution' in the 1960s was a significant turning point because it...",
+          "question": "The behaviorist approach is unique among the four presented in the lecture primarily because it historically:",
           "options": {
-            "A": "proved the behaviorist approach was entirely incorrect.",
-            "B": "re-established the scientific study of mental processes.",
-            "C": "introduced the use of medication in psychological treatment.",
-            "D": "merged psychology with computer science and engineering."
+            "A": "Placed primary importance on genetic factors in determining behavior.",
+            "B": "Was the only approach to use controlled experiments in its research.",
+            "C": "Relied heavily on patient self-reports of their feelings and thoughts.",
+            "D": "Attempted to explain all behavior without referencing internal mental states."
           },
-          "answer": "B",
-          "short_explanation": "The cognitive revolution brought the focus of psychology back to the mind, which had been sidelined by behaviorism.",
-          "long_explanation": "For several decades, behaviorism dominated American psychology, insisting that only observable behavior was a valid topic of study. The cognitive revolution, spurred by advances in computer science and linguistics, argued that it was impossible to understand behavior without understanding the mental processes (thinking, memory, perception) behind it. It made it scientifically respectable again to study 'the black box' of the mind, leading to the modern definition of psychology."
+          "answer": "D",
+          "short_explanation": "Strict behaviorism's defining feature was its rejection of the 'black box' of the mind, focusing only on observable stimulus and response.",
+          "long_explanation": "The most radical and defining feature of early, strict behaviorism was its insistence on explaining behavior solely through environmental stimuli and learned responses, completely ignoring thoughts, feelings, or consciousness. A is neurobiology. B is incorrect, as other approaches (like cognitive psychology) also use controlled experiments. C is the opposite of behaviorism and is more characteristic of the cognitive and psychoanalytic approaches."
         },
         {
           "id": 18,
-          "question": "A researcher studies how the presence of other people affects an individual's performance on a difficult task. This research topic falls most squarely within which subfield of psychology mentioned in the course outline?",
+          "question": "If a psychoanalytic therapist were working with Max, which question would be the LEAST relevant to their initial investigation?",
           "options": {
-            "A": "Engineering Psychology",
-            "B": "Learning",
-            "C": "Social Psychology",
-            "D": "Motivation and Emotion"
+            "A": "Tell me about your relationship with your parents during your childhood.",
+            "B": "What are your recurring dreams or nightmares?",
+            "C": "What specific, automatic thoughts pop into your head when you think about the exam?",
+            "D": "When you feel anxious, what earlier life events does the feeling remind you of?"
           },
           "answer": "C",
-          "short_explanation": "Social psychology is the study of how the presence and actions of others influence an individual's thoughts, feelings, and behavior.",
-          "long_explanation": "This is a classic social psychology experiment, exploring phenomena like social facilitation or social inhibition. Engineering Psychology (A) deals with human-machine interaction. Learning (B) focuses on how knowledge is acquired. Motivation and Emotion (D) focuses on the drives behind behavior. The key element here is the influence of 'the presence of others,' which is the central domain of social psychology."
+          "short_explanation": "Asking about 'automatic thoughts' is a hallmark technique of Cognitive-Behavioral Therapy (CBT), not psychoanalysis.",
+          "long_explanation": "A psychoanalytic therapist is interested in unconscious conflicts, early relationships (A), dreams as a 'royal road to the unconscious' (B), and links between present feelings and past events (D). In contrast, identifying specific, conscious, 'automatic thoughts' (C) is the primary technique used by cognitive therapists to uncover the irrational beliefs that are driving the anxiety."
         },
         {
           "id": 19,
-          "question": "In the case of Max's test anxiety, a behaviorist would argue that his avoidance of studying is maintained because it is...",
+          "question": "The psychoanalytic approach posits that problematic behaviors are often symptoms of:",
           "options": {
-            "A": "a logical consequence of his belief that he will fail anyway.",
-            "B": "a symbolic representation of an unconscious desire to rebel.",
-            "C": "negatively reinforced by the immediate reduction of anxiety.",
-            "D": "caused by a genetic predisposition towards high-stress reactivity."
+            "A": "A fundamental conflict between unconscious desires and societal rules.",
+            "B": "A dysfunctional pattern of rewards and punishments in the environment.",
+            "C": "A logical error in processing information about the likelihood of failure.",
+            "D": "An overactive sympathetic nervous system or hormonal imbalance."
           },
-          "answer": "C",
-          "short_explanation": "In behaviorism, negative reinforcement is when a behavior is strengthened by removing an unpleasant stimulus (in this case, anxiety).",
-          "long_explanation": "This is a subtle but critical concept in behaviorism. The term 'negative' does not mean 'bad.' Negative reinforcement means a behavior (avoiding studying) increases because it *removes* a negative state (the feeling of anxiety). This immediate relief is a powerful reinforcer that makes Max more likely to avoid studying in the future, even though it hurts him in the long run. The other options describe cognitive (A), psychoanalytic (B), and neurobiological (D) explanations."
+          "answer": "A",
+          "short_explanation": "Psychoanalysis sees psychological distress as the result of a battle between our primal, unconscious drives (the Id) and the constraints of reality and morality.",
+          "long_explanation": "This question gets at the core theoretical conflict in Freudian psychoanalysis. The theory suggests a constant tension between our unconscious drives (like aggression or sexuality) and the superego (internalized societal rules). Anxiety and other symptoms are seen as the ego's failure to mediate this conflict effectively. B is a behaviorist explanation, C is a cognitive explanation, and D is a neurobiological explanation."
         },
         {
           "id": 20,
-          "question": "Which of the following research questions is most representative of the field of Work and Organizational Psychology?",
+          "question": "The biopsychosocial model was developed primarily to overcome which limitation of earlier psychological approaches?",
           "options": {
-            "A": "How do neurotransmitters affect mood and concentration?",
-            "B": "How does early childhood attachment affect adult relationships?",
-            "C": "What style of leadership leads to the highest team morale and productivity?",
-            "D": "How can a user interface be designed to minimize human error?"
+            "A": "Their over-reliance on animal studies instead of human participants.",
+            "B": "Their general failure to employ rigorous, scientific methods.",
+            "C": "Their tendency to offer overly simplistic, single-cause explanations for complex behaviors.",
+            "D": "Their focus on abnormal behavior while ignoring positive human functioning."
           },
           "answer": "C",
-          "short_explanation": "Work and Organizational Psychology applies psychological principles to the workplace, including topics like leadership and team performance.",
-          "long_explanation": "Work and Organizational (W&O) Psychology focuses on human behavior in professional settings. Analyzing leadership styles and their impact on team outcomes (C) is a core topic in this field. Question (A) is neurobiological, (B) is developmental/psychoanalytic, and (D) is a classic question from Engineering Psychology (also known as Human Factors)."
-        },
-        {
-          "id": 21,
-          "question": "The biopsychosocial approach suggests that to fully understand a psychological issue like depression, one must...",
-          "options": {
-            "A": "prioritize the patient's subjective feelings and thoughts over all other factors.",
-            "B": "focus exclusively on finding the single root cause of the problem.",
-            "C": "consider the interacting influences of genetics, thought patterns, and social support.",
-            "D": "first rule out all possible biological causes before considering psychological ones."
-          },
-          "answer": "C",
-          "short_explanation": "The model emphasizes the interaction of biological, psychological, and social-cultural factors, not prioritizing one over the others.",
-          "long_explanation": "The central idea of the biopsychosocial approach is that these three levels are not just a checklist, but that they interact and influence one another. A full understanding of depression would involve looking at potential genetic predispositions (biological), negative thought patterns and learned helplessness (psychological), and factors like social isolation or stressful life events (social-cultural). The model rejects the idea of a single cause (B) and the hierarchical approach of ruling one level out before considering another (D)."
-        },
-        {
-          "id": 22,
-          "question": "A psychologist attributes a client's fear of public speaking to the client's internal belief that 'everyone is judging me.' The psychologist is operating from a primarily _____ perspective.",
-          "options": {
-            "A": "Behaviorist",
-            "B": "Cognitive",
-            "C": "Neurobiological",
-            "D": "Social-cultural"
-          },
-          "answer": "B",
-          "short_explanation": "This explanation focuses on the client's internal thought or belief ('cognition') as the cause of the fear.",
-          "long_explanation": "The cognitive approach posits that our emotional responses are driven by our interpretations of situations. The fear is not inherent in public speaking itself, but in the client's belief about being judged. A behaviorist would focus on past negative experiences with public speaking. A neurobiologist would look at the physiological stress response. A social-cultural psychologist might explore cultural norms around public performance."
-        },
-        {
-          "id": 23,
-          "question": "The lecture schedule shows that topics like 'Social Psychology' are covered over multiple sessions. The most likely reason for this is that...",
-          "options": {
-            "A": "these topics are considered more important than single-session topics like 'Research Methods'.",
-            "B": "the lecturers have more personal research interest in these specific topics.",
-            "C": "these topics are foundational and encompass a wide range of complex theories and studies.",
-            "D": "students typically find these topics more difficult and require more repetition."
-          },
-          "answer": "C",
-          "short_explanation": "Broad fields like Social Psychology cover many distinct, complex concepts that require more time to explore properly.",
-          "long_explanation": "This question tests inferential reasoning based on the course structure. Fields like Social Psychology, Learning, or Motivation are vast areas of study within psychology. They cover numerous theories (e.g., conformity, groupthink, attribution theory in social psychology) and landmark experiments. Allocating multiple sessions allows for a comprehensive and in-depth exploration, rather than a superficial overview. It reflects the breadth of the topic, not necessarily its relative importance or difficulty."
-        },
-        {
-          "id": 24,
-          "question": "Which statement accurately contrasts the psychoanalytic and behaviorist approaches?",
-          "options": {
-            "A": "Psychoanalysis focuses on internal processes, while behaviorism focuses exclusively on external actions.",
-            "B": "Psychoanalysis is focused on future goals, while behaviorism is focused on past reinforcement.",
-            "C": "Psychoanalysis uses controlled experiments, while behaviorism relies on case studies.",
-            "D": "Psychoanalysis emphasizes group influence, while behaviorism emphasizes individual learning."
-          },
-          "answer": "A",
-          "short_explanation": "The core distinction is that psychoanalysis looks inward (to the unconscious), while behaviorism looks outward (to observable behavior).",
-          "long_explanation": "This is a fundamental contrast in psychology. The psychoanalytic approach delves into the 'black box' of the mind, specifically the unconscious. Behaviorism, in its purest form, explicitly refuses to speculate about the black box and studies only the observable inputs (stimuli) and outputs (responses). Option B is incorrect as both are rooted in the past. Option C is reversed; behaviorism heavily uses controlled experiments. Option D is incorrect as neither primarily emphasizes group influence (that's social psychology)."
-        },
-        {
-          "id": 25,
-          "question": "According to the course organizational information, the 72 hours of 'Preparation and Follow-Up' are intended for activities such as...",
-          "options": {
-            "A": "attending additional mandatory tutorials and lab sessions.",
-            "B": "completing weekly graded assignments and group projects.",
-            "C": "reviewing lecture materials, doing assigned readings, and studying for the exam.",
-            "D": "participating in peer-tutoring sessions organized by the university."
-          },
-          "answer": "C",
-          "short_explanation": "This time, part of the ECTS calculation, represents the self-regulated learning expected of students outside of class hours.",
-          "long_explanation": "This question tests comprehension of university course structure, as explained on the organizational slide. ECTS credits represent total student workload, not just in-class time. The 'Preparation and Follow-Up' hours are the university's estimate of the time a typical student will need for self-study to succeed in the course. This includes reviewing slides, reading supplementary materials, and preparing for the final assessment. The slide mentions no mandatory tutorials (A) or graded weekly assignments (B)."
+          "short_explanation": "The biopsychosocial model was created to provide a more complete picture, acknowledging that behavior is too complex to be explained by just one factor.",
+          "long_explanation": "Early approaches were often reductionist. For example, a strict behaviorist might try to explain everything through conditioning, while a strict neurobiologist might look only at brain chemistry. The biopsychosocial model represents a move toward a more holistic and integrated understanding, acknowledging that biological, psychological, and social factors all interact to produce complex human behavior. A, B, and D represent other, different critiques or developments within the field of psychology."
         }
       ]
     }

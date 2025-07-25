@@ -5,176 +5,137 @@
       "questions": [
         {
           "id": 1,
-          "question": "A salesperson receives a bonus for every ten cars sold. However, the exact number of sales required for the next bonus is unknown to them, averaging around ten. This is an example of which reinforcement schedule?",
+          "question": "A team manager stops nagging an employee about their messy desk after the employee begins tidying it up every Friday. As a result, the employee continues to tidy their desk regularly. This is a clear example of:",
           "options": {
-            "A": "Fixed-ratio",
-            "B": "Variable-ratio",
-            "C": "Fixed-interval",
-            "D": "Variable-interval"
+            "A": "Positive reinforcement, because a desirable behavior was established.",
+            "B": "Negative reinforcement, because an aversive stimulus was removed to increase a behavior.",
+            "C": "Direct punishment, because nagging is an unpleasant consequence.",
+            "D": "Indirect punishment, because the manager's attention was withdrawn."
           },
           "answer": "B",
-          "short_explanation": "The reward is based on an unpredictable number of responses (sales), which defines a variable-ratio schedule.",
-          "long_explanation": "Reinforcement is tied to the number of sales (a ratio), not the passage of time (an interval). Because the exact number of sales needed for the bonus is unpredictable ('averaging around ten'), it is a variable schedule. This type of schedule is known to produce high and steady rates of behavior, as the salesperson is always motivated to make the 'next sale' which could be the one that triggers the bonus."
+          "short_explanation": "The removal of the unpleasant nagging (a negative thing) reinforces the tidying behavior.",
+          "long_explanation": "This is a classic example of negative reinforcement. The key is that a behavior (tidying the desk) is strengthened because it leads to the removal of an aversive or unpleasant stimulus (the manager's nagging). It is not punishment, as the goal is to increase, not decrease, the behavior. It is not positive reinforcement because nothing pleasant was added."
         },
         {
           "id": 2,
-          "question": "An architect mentally pictures the layout of a building, rotating the structure in their mind to check for design flaws. According to Baddeley and Hitch's model of working memory, which component is most heavily involved in this task?",
+          "question": "According to Baddeley and Hitch's working memory model, which component is primarily responsible for mentally rotating a complex 3D shape to see if it matches another shape?",
           "options": {
-            "A": "The phonological loop",
-            "B": "The central executive",
-            "C": "The episodic buffer",
-            "D": "The visual-spatial notepad"
+            "A": "The Phonological Loop",
+            "B": "The Central Executive",
+            "C": "The Visual-Spatial Notepad",
+            "D": "The Episodic Buffer"
           },
-          "answer": "D",
-          "short_explanation": "The visual-spatial notepad (or sketchpad) is responsible for processing and manipulating visual and spatial information.",
-          "long_explanation": "While the central executive directs the process, the actual mental manipulation of the building's image occurs within the visual-spatial notepad. The phonological loop deals with auditory information, and the episodic buffer integrates information into a coherent whole, but the core task of mentally 'seeing' and 'rotating' an object relies on the visual-spatial component of working memory."
+          "answer": "C",
+          "short_explanation": "The Visual-Spatial Notepad (or sketchpad) is specialized for handling visual and spatial information.",
+          "long_explanation": "While the Central Executive directs the overall task, the actual manipulation and temporary storage of the visual and spatial information of the 3D shape occurs in the Visual-Spatial Notepad. The Phonological Loop deals with auditory information, and the Episodic Buffer integrates information into a coherent event, but the core task of mental rotation is a function of the visual-spatial system."
         },
         {
           "id": 3,
-          "question": "A teenager learns several complex skateboarding tricks by watching online videos (acquisition). However, they only attempt these tricks at the skatepark when their friends are there to cheer them on (performance). This distinction between learning and doing best illustrates a key concept from:",
+          "question": "A child observes a sibling being scolded for drawing on the walls. Later, when given crayons, the child avoids drawing on the walls. According to Bandura's theory of model learning, this outcome is best explained by:",
           "options": {
-            "A": "Bandura's model learning theory",
-            "B": "Atkinson and Shiffrin's multi-store model",
-            "C": "Skinner's operant conditioning",
-            "D": "Baddeley and Hitch's working memory model"
+            "A": "Vicarious reinforcement",
+            "B": "Direct punishment",
+            "C": "Acquisition without performance",
+            "D": "Vicarious punishment"
           },
-          "answer": "A",
-          "short_explanation": "Model learning theory distinguishes between acquiring a behavior by observation and the motivation-dependent performance of it.",
-          "long_explanation": "Albert Bandura's Bobo doll experiments famously showed that children acquired aggressive behaviors just by watching, but their performance of those behaviors was influenced by the observed consequences (vicarious reinforcement). This scenario perfectly captures that distinction: the learning (acquisition) happened privately, but the action (performance) was dependent on the social context and potential for reinforcement (cheering)."
+          "answer": "D",
+          "short_explanation": "The child learned to avoid the behavior by observing their sibling being punished for it.",
+          "long_explanation": "This scenario illustrates vicarious punishment. The child learns the negative consequences of a behavior without having to experience the punishment directly. They observed the model (the sibling) being punished, which in turn suppressed the likelihood of them performing the same behavior. Vicarious reinforcement is the opposite, where observing a reward increases behavior."
         },
         {
           "id": 4,
-          "question": "The Peterson & Peterson (1959) experiment, where participants had to recall three-consonant trigrams after a distracting task (e.g., counting backwards), demonstrated rapid forgetting from short-term memory. This forgetting was primarily attributed to:",
+          "question": "A person enjoys fishing at a lake where they catch a fish on average once every 45 minutes, but the exact time is unpredictable. This pattern of catching fish represents which reinforcement schedule?",
           "options": {
-            "A": "The displacement of old information by new information",
-            "B": "The failure to transfer information to long-term memory",
-            "C": "The prevention of rehearsal, leading to decay",
-            "D": "The retroactive interference from the counting task"
+            "A": "Variable-interval",
+            "B": "Fixed-interval",
+            "C": "Variable-ratio",
+            "D": "Fixed-ratio"
           },
-          "answer": "C",
-          "short_explanation": "The distracting task's main purpose was to block rehearsal, showing that information in STM fades quickly without it.",
-          "long_explanation": "The core finding of the Peterson & Peterson study was that information in short-term memory has a very limited duration if it is not actively maintained. The counting task was specifically designed to prevent participants from using their phonological loop to rehearse the letters. This blockage of rehearsal allowed the natural process of decay to occur, leading to significant information loss in as little as 3-18 seconds."
+          "answer": "A",
+          "short_explanation": "The reward (catching a fish) is based on an unpredictable amount of time passing.",
+          "long_explanation": "This is a variable-interval schedule because the reinforcement (the catch) is contingent on the passage of an unpredictable, varying amount of time. It is not ratio-based because the number of casts (responses) does not guarantee a fish. It is not a fixed schedule because the time between catches is not constant. This type of schedule produces slow, steady responding."
         },
         {
           "id": 5,
-          "question": "A project manager starts a new project by creating a detailed timeline with specific, measurable, and time-bound milestones. According to the model of self-regulated learning, this activity is a prime example of which type of strategy?",
+          "question": "A project manager starts a new project by creating a detailed list of specific, measurable, attractive, realistic, and time-bound (SMART) goals. According to the model of self-regulated learning, this action is primarily an example of which strategy?",
           "options": {
-            "A": "Cognitive (Elaboration)",
-            "B": "Metacognitive (Planning)",
-            "C": "Motivational-Affective (Identification)",
-            "D": "Cognitive (Organisation)"
+            "A": "A metacognitive strategy (Planning)",
+            "B": "A cognitive strategy (Organisation)",
+            "C": "A motivational-affective strategy (Identification)",
+            "D": "A cognitive strategy (Elaboration)"
           },
-          "answer": "B",
-          "short_explanation": "Planning is a key metacognitive strategy that involves setting goals and outlining steps before starting a task.",
-          "long_explanation": "Self-regulated learning involves three types of strategies. Cognitive strategies deal with the information itself (e.g., organizing notes). Motivational-affective strategies manage emotions and drive. Metacognitive strategies involve 'thinking about thinking'—planning, monitoring, and evaluating one's own learning process. Setting SMART goals and creating a timeline is a classic example of the planning phase of metacognition."
+          "answer": "A",
+          "short_explanation": "Setting goals is a key part of the 'Planning' phase, which is a metacognitive (thinking about thinking) strategy.",
+          "long_explanation": "Setting SMART goals is a classic example of the metacognitive strategy of Planning. Metacognition involves higher-order thinking about the learning process itself—planning, monitoring, and evaluating. While organizing tasks is cognitive, the act of setting overarching goals to guide the entire process falls under the umbrella of metacognitive planning."
         },
         {
           "id": 6,
-          "question": "To discourage an employee from being consistently late, a manager revokes their privilege of choosing their own work shifts. This is an example of:",
+          "question": "An experiment shows that participants remember a list of 20 animals and minerals far better when they are grouped into categories (e.g., mammals, birds, precious metals, stones) than when presented in a random order. This demonstrates the memory-enhancing effect of:",
           "options": {
-            "A": "Direct punishment",
-            "B": "Negative reinforcement",
-            "C": "Positive reinforcement",
-            "D": "Indirect punishment"
+            "A": "Mnemonics",
+            "B": "Chunking",
+            "C": "Hierarchies",
+            "D": "The phonological loop"
           },
-          "answer": "D",
-          "short_explanation": "A desirable stimulus (choosing shifts) is removed to decrease a behavior (lateness), which defines indirect punishment.",
-          "long_explanation": "This is a classic example of indirect punishment (also known as negative punishment). The goal is to decrease a behavior (punishment). This is achieved by removing or taking away a pleasant or desirable stimulus (indirect/negative). It's often confused with negative reinforcement, but negative reinforcement *increases* a behavior by removing an *unpleasant* stimulus."
+          "answer": "C",
+          "short_explanation": "Organizing information from broad categories to specific examples is the definition of using hierarchies.",
+          "long_explanation": "This is a direct application of hierarchical organization. By structuring the information into a hierarchy (Animals -> Mammals/Birds; Minerals -> Metals/Stones), learners create a logical framework that significantly improves encoding and retrieval. While chunking involves grouping items, hierarchies imply a multi-level structure of broad concepts and specific details, which is what is described here."
         },
         {
           "id": 7,
-          "question": "A person can more easily remember the number string 191419451989 by thinking of it as three significant years in history. This memory-enhancing strategy is known as:",
+          "question": "According to psychological principles discussed in the lecture, which approach to punishment is generally most effective in changing behavior in the long term?",
           "options": {
-            "A": "Chunking",
-            "B": "The phonological loop",
-            "C": "A mnemonic device",
-            "D": "Hierarchical organization"
+            "A": "A severe penalty that is delivered with a significant delay.",
+            "B": "An unpredictable punishment that varies in intensity.",
+            "C": "A very severe penalty that is applied only for major infractions.",
+            "D": "A swift and targeted penalty that is applied consistently."
           },
-          "answer": "A",
-          "short_explanation": "Chunking involves grouping individual items into larger, meaningful units to overcome short-term memory limits.",
-          "long_explanation": "Short-term memory capacity is limited (around 7 +/- 2 items). By grouping the 12 individual digits into three meaningful 'chunks' (years), the cognitive load is reduced from 12 items to just 3. This leverages long-term memory (knowledge of history) to make the information in short-term memory more manageable and memorable. While it uses meaning, its primary mechanism is grouping, which is the definition of chunking."
+          "answer": "D",
+          "short_explanation": "For punishment to be effective, it should be immediate, consistent, and not necessarily severe.",
+          "long_explanation": "The lecture emphasizes that swift and targeted punishment is more effective than severe penalties. The key to effective punishment is the immediacy and certainty of the consequence, which creates a clear association between the behavior and the negative outcome. Delayed or overly severe punishment is often less effective and can lead to unwanted side effects like fear and aggression."
         },
         {
           "id": 8,
-          "question": "According to research on operant conditioning, which factor is most critical for punishment to be effective in suppressing a behavior?",
+          "question": "A junior surgeon has watched hundreds of hours of a complex surgical procedure and can perfectly describe every step. However, when they first attempt the procedure, they are clumsy and unable to perform it correctly. In the context of the four phases of model learning, where is the primary breakdown occurring?",
           "options": {
-            "A": "The severity of the punishing consequence",
-            "B": "The use of a variable-ratio punishment schedule",
-            "C": "The immediacy and consistency of the punishment",
-            "D": "The learner's understanding of why they are being punished"
+            "A": "Observation",
+            "B": "Reproduction",
+            "C": "Memorisation",
+            "D": "Motivation"
           },
-          "answer": "C",
-          "short_explanation": "Swift and certain (consistent) punishment is more effective than severe but delayed or inconsistent punishment.",
-          "long_explanation": "While severity can have an effect, research consistently shows that a mild punishment delivered immediately after the behavior, and every time the behavior occurs, is far more effective at shaping behavior than a harsh punishment that is delayed or applied inconsistently. The immediate association between the action and the negative consequence is key to learning."
+          "answer": "B",
+          "short_explanation": "The surgeon has observed and memorized the steps but lacks the physical capability to reproduce the action.",
+          "long_explanation": "The surgeon has successfully completed the Observation and Memorisation phases. The breakdown is in the Reproduction phase, which involves having the physical and cognitive ability to imitate the observed behavior. Knowing the steps intellectually is different from having the motor skills and practice to execute them. Motivation is likely high, so that is not the issue."
         },
         {
           "id": 9,
-          "question": "A history professor gives an exam with multiple-choice questions. This method of testing primarily measures which form of memory retrieval?",
+          "question": "In the Atkinson-Shiffrin multi-store model of memory, what is the critical process that determines whether information moves from sensory memory to short-term memory?",
           "options": {
-            "A": "Recognition",
-            "B": "Recall",
-            "C": "Relearning",
-            "D": "Procedural memory"
+            "A": "Attention",
+            "B": "Rehearsal",
+            "C": "Chunking",
+            "D": "Retrieval"
           },
           "answer": "A",
-          "short_explanation": "Multiple-choice questions require you to identify the correct information from a list of options, which is a test of recognition.",
-          "long_explanation": "Memory performance is measured in several ways. Recall requires reproducing information without cues (e.g., an essay question). Recognition involves identifying previously learned information when presented with it (e.g., multiple-choice). Relearning measures how much faster you learn material a second time. Multiple-choice is easier than an essay because recognition is a less demanding retrieval process than recall."
+          "short_explanation": "Attention acts as the gatekeeper, selecting which sensory information is important enough to be processed further.",
+          "long_explanation": "According to the model, we are bombarded with sensory information. Attention is the selective filter that determines which tiny fraction of this information is transferred from the fleeting sensory memory buffer into our conscious awareness (short-term memory). Rehearsal is what keeps information *in* short-term memory, but attention is what gets it there in the first place."
         },
         {
           "id": 10,
-          "question": "The idea that learners are not passive sponges but active agents who build their own understanding by integrating new experiences with prior knowledge is the central tenet of:",
+          "question": "A vending machine that has always worked perfectly (continuous reinforcement) suddenly breaks. Another machine has always been faulty, only working sometimes (partial reinforcement). If both stop working completely, which pattern of behavior would be expected?",
           "options": {
-            "A": "The information processing perspective",
-            "B": "The behaviorist perspective",
-            "C": "The psychoanalytic perspective",
-            "D": "The constructivist perspective"
+            "A": "People will give up on both machines at the same rate.",
+            "B": "People will give up on the faulty machine faster.",
+            "C": "People will give up on the perfect machine faster.",
+            "D": "People will try the perfect machine more times before giving up."
           },
-          "answer": "D",
-          "short_explanation": "Constructivism emphasizes that learners actively construct, rather than passively absorb, knowledge.",
-          "long_explanation": "While the information processing perspective models the cognitive steps, and behaviorism focuses on observable behaviors and their consequences, constructivism is uniquely focused on the learner's active role. It posits that learning is a process of building mental models, and a concept is only truly learned when it has been integrated into the learner's existing cognitive structure."
+          "answer": "C",
+          "short_explanation": "Behaviors learned through continuous reinforcement are extinguished more quickly (fast deletion) when reinforcement stops.",
+          "long_explanation": "This illustrates the principle of resistance to extinction. With the perfect machine (continuous reinforcement), the expectation is 100% reward. When that rule is broken, the behavior is quickly extinguished. With the faulty machine (partial reinforcement), the user is already accustomed to not being rewarded every time, so they will persist much longer, thinking the next try might work. This is called slow deletion."
         },
         {
           "id": 11,
-          "question": "Which statement best explains why variable-ratio schedules are so resistant to extinction?",
-          "options": {
-            "A": "The learner can easily predict when the next reward will occur, reducing frustration.",
-            "B": "The unpredictability of the reward makes the learner believe the next response could be the one that pays off.",
-            "C": "The schedule provides a reward after a set amount of time, which encourages patient behavior.",
-            "D": "The learner is rewarded for every response, which builds a very strong behavior."
-          },
-          "answer": "B",
-          "short_explanation": "The 'gambler's mindset'—where the next try could be the jackpot—is what makes behavior on a variable-ratio schedule so persistent.",
-          "long_explanation": "On a variable-ratio schedule (like a slot machine), the reinforcement is unpredictable. Because the learner doesn't know when the reward is coming, they remain hopeful and continue the behavior. After a string of non-rewarded responses, they think, 'I must be due for a win soon.' This contrasts with a fixed schedule, where the absence of a reward when it's 'supposed' to arrive is a clear signal that the rules have changed, leading to rapid extinction."
-        },
-        {
-          "id": 12,
-          "question": "According to the Atkinson-Shiffrin multi-store model, what is the primary purpose of sensory memory?",
-          "options": {
-            "A": "To process the meaning of incoming stimuli",
-            "B": "To perform complex cognitive tasks",
-            "C": "To briefly hold vast amounts of sensory information for selection",
-            "D": "To permanently store exact copies of our experiences"
-          },
-          "answer": "C",
-          "short_explanation": "Sensory memory acts as a very brief, high-capacity 'buffer' so the brain can select what to pay attention to.",
-          "long_explanation": "Sensory memory is not for processing meaning or performing tasks; that happens in working memory. Its function is to provide a fleeting, but accurate and detailed, representation of the sensory world (sights, sounds, etc.). This allows our attentional system a moment to scan the incoming data and select the relevant pieces to move into the more limited-capacity short-term/working memory for further processing."
-        },
-        {
-          "id": 13,
-          "question": "In Baddeley's model of working memory, which component acts as the 'manager' or 'CEO,' allocating attention and coordinating the other subsystems?",
-          "options": {
-            "A": "Central Executive",
-            "B": "Phonological Loop",
-            "C": "Episodic Buffer",
-            "D": "Visual-Spatial Notepad"
-          },
-          "answer": "A",
-          "short_explanation": "The Central Executive is the attentional control system that manages the entire working memory process.",
-          "long_explanation": "The phonological loop, visual-spatial notepad, and episodic buffer are considered 'slave systems' that hold specific types of information. The Central Executive is the master controller. It doesn't store information itself but directs focus, switches attention between tasks, and retrieves information from long-term memory, making it the 'CEO' of working memory."
-        },
-        {
-          "id": 14,
-          "question": "When studying for an exam, a student tries to connect a new psychological theory to a personal experience they've had. This is an example of which cognitive learning strategy?",
+          "question": "A student is learning about operant conditioning. Instead of just memorizing the definitions, they try to think of personal examples for each concept (e.g., 'My parents used positive reinforcement when they gave me dessert for finishing my vegetables'). Which specific cognitive learning strategy are they using?",
           "options": {
             "A": "Repetition",
             "B": "Elaboration",
@@ -182,64 +143,51 @@
             "D": "Regulation"
           },
           "answer": "B",
-          "short_explanation": "Elaboration involves deepening understanding by linking new information to existing knowledge or personal experiences.",
-          "long_explanation": "This is a powerful cognitive strategy that goes beyond simple memorization (repetition) or structuring (organisation). By connecting the abstract theory to a concrete, personal example, the student is creating more retrieval cues and building a richer, more integrated understanding of the material. This deep processing leads to better long-term retention."
+          "short_explanation": "Elaboration involves connecting new information to existing personal knowledge and experiences.",
+          "long_explanation": "This is a prime example of elaboration. The student is not merely repeating or organizing the information; they are actively integrating the new concepts into their pre-existing knowledge base (their own life experiences). This process of making information personally meaningful creates stronger memory traces and is a much deeper form of processing than simple repetition."
+        },
+        {
+          "id": 12,
+          "question": "A professor wants to measure students' memory of historical figures. One test asks students to 'List all the inventors from the 19th century you can think of.' Another test gives them a list of 50 names and asks them to 'Circle all the inventors.' The first test measures ________, while the second measures ________.",
+          "options": {
+            "A": "Recognition; Relearning",
+            "B": "Recall; Relearning",
+            "C": "Recognition; Recall",
+            "D": "Recall; Recognition"
+          },
+          "answer": "D",
+          "short_explanation": "The first test is free recall (no cues), while the second is recognition (identifying from a list).",
+          "long_explanation": "The first task, which requires students to reproduce information from memory without cues, is a measure of recall. The second task, which only requires them to identify previously learned information from a set of options, is a measure of recognition. Recognition is a less demanding memory task than recall, as the retrieval cues are provided."
+        },
+        {
+          "id": 13,
+          "question": "What is the most fundamental difference between classical conditioning and operant conditioning?",
+          "options": {
+            "A": "Classical conditioning involves involuntary responses, while operant conditioning involves voluntary behaviors.",
+            "B": "Operant conditioning uses reinforcement, while classical conditioning uses punishment.",
+            "C": "Classical conditioning is about learning from consequences, while operant conditioning is about associations.",
+            "D": "Operant conditioning applies only to animals, while classical conditioning applies to humans."
+          },
+          "answer": "A",
+          "short_explanation": "Classical conditioning links automatic, involuntary responses (like salivating) to new stimuli, whereas operant conditioning shapes voluntary choices based on consequences.",
+          "long_explanation": "The core distinction lies in the nature of the behavior being conditioned. Classical conditioning deals with associating a neutral stimulus with an unconditioned stimulus to elicit an involuntary, automatic response (e.g., Pavlov's dogs salivating). Operant conditioning deals with how the consequences of a voluntary, chosen behavior (e.g., pressing a lever) influence the likelihood of that behavior being repeated."
+        },
+        {
+          "id": 14,
+          "question": "A person is told a new phone number: 498928925401. To remember it, they group it as 49-89-289-25401. This strategy is effective because it:",
+          "options": {
+            "A": "Uses mnemonics to create a vivid image.",
+            "B": "Reduces the number of items in short-term memory through chunking.",
+            "C": "Engages the episodic buffer to create a story.",
+            "D": "Relies on procedural knowledge to automate the process."
+          },
+          "answer": "B",
+          "short_explanation": "Chunking organizes many individual items into a smaller number of meaningful units, overcoming the limits of short-term memory.",
+          "long_explanation": "This is a classic example of chunking. Instead of trying to hold 12 individual digits in short-term memory (which exceeds the typical capacity of 7 +/- 2), the person groups them into 5 manageable chunks. This reduces the cognitive load and makes the information easier to rehearse and transfer to long-term memory."
         },
         {
           "id": 15,
-          "question": "A child cleans their room to stop their parents from nagging them. The parents' nagging, in this case, is functioning as:",
-          "options": {
-            "A": "A negative reinforcer",
-            "B": "A direct punishment",
-            "C": "An indirect punishment",
-            "D": "A positive reinforcer"
-          },
-          "answer": "A",
-          "short_explanation": "The child's behavior (cleaning) is increased because it removes an unpleasant stimulus (nagging).",
-          "long_explanation": "This is a classic example of negative reinforcement. The key is that a behavior (cleaning the room) is being strengthened or made more likely. This strengthening occurs because the behavior leads to the removal of an aversive, or unpleasant, stimulus (the nagging). The removal of the negative thing acts as the reinforcement."
-        },
-        {
-          "id": 16,
-          "question": "The key takeaway from Bandura's Bobo Doll experiment regarding the three groups (reward, punishment, no consequence) is that observed consequences primarily influence:",
-          "options": {
-            "A": "The acquisition of new motor skills",
-            "B": "The capacity of long-term memory",
-            "C": "The initial attention paid to the model",
-            "D": "The likelihood of the behavior being performed"
-          },
-          "answer": "D",
-          "short_explanation": "All groups learned the behavior, but the consequences they saw determined whether they chose to perform it.",
-          "long_explanation": "The experiment cleverly demonstrated that learning (acquisition) and doing (performance) are separate processes. Children in all three conditions learned how to be aggressive towards the doll. However, the vicarious reinforcement (seeing the model rewarded) and vicarious punishment (seeing the model punished) directly impacted their motivation and thus the probability that they would perform the aggressive acts themselves."
-        },
-        {
-          "id": 17,
-          "question": "To remember the order of the planets, a student uses the sentence 'My Very Eager Mother Just Served Us Noodles.' This technique is best described as:",
-          "options": {
-            "A": "Chunking",
-            "B": "Hierarchical organization",
-            "C": "A mnemonic device",
-            "D": "Elaboration"
-          },
-          "answer": "C",
-          "short_explanation": "Mnemonics are memory aids that use patterns, letters, or associations to help remember information, like this acrostic.",
-          "long_explanation": "This is a specific type of mnemonic called an acrostic, where the first letter of each word in a memorable sentence corresponds to an item on a list. It's not chunking, which involves grouping items (e.g., phone numbers). It's also not a hierarchy, which involves organizing from broad to specific. It is a structured memory aid, which is the definition of a mnemonic."
-        },
-        {
-          "id": 18,
-          "question": "The 'word length effect' in short-term memory (where people remember more short words than long words) is best explained by:",
-          "options": {
-            "A": "The limited number of 'slots' in short-term memory",
-            "B": "The time it takes to rehearse items in the phonological loop",
-            "C": "The semantic complexity of longer words",
-            "D": "The interference from long-term memory for familiar long words"
-          },
-          "answer": "B",
-          "short_explanation": "Longer words take more time to say in your head, so fewer can be rehearsed before they start to decay.",
-          "long_explanation": "This finding was crucial in shifting the view of short-term memory from a set of simple 'slots' to a more dynamic system. The phonological loop has a time-limited capacity (about 2 seconds). You can fit more short words (e.g., 'cat', 'dog', 'sun') into that 2-second rehearsal window than long words (e.g., 'university', 'hippopotamus', 'organization'). Therefore, capacity is determined by rehearsal time, not just item count."
-        },
-        {
-          "id": 19,
-          "question": "After a team project succeeds, the leader facilitates a discussion where team members reflect on which specific actions led to their success, aiming to replicate them in the future. This is an example of which motivational-affective learning strategy?",
+          "question": "After a project fails, a team leader facilitates a discussion focused on 'What could we, as a team, have done differently?' rather than blaming external factors. This is an example of fostering which motivational-affective learning strategy?",
           "options": {
             "A": "Identification",
             "B": "Feedback",
@@ -247,86 +195,73 @@
             "D": "Regulation"
           },
           "answer": "C",
-          "short_explanation": "Attribution involves analyzing and understanding the causes of successes and failures to improve future performance.",
-          "long_explanation": "This strategy is about managing motivation by controlling how a team explains its outcomes. By attributing success to specific, controllable actions (e.g., 'we succeeded because of our detailed planning') rather than luck, the team feels a sense of agency and is motivated to repeat those successful behaviors. This is a core motivational-affective strategy."
+          "short_explanation": "Attribution is about reflecting on the causes of successes and failures to learn from them.",
+          "long_explanation": "This scenario directly relates to the concept of attribution. By encouraging the team to reflect on internal, controllable reasons for failure, the leader is promoting a healthy attributional style. This helps the team learn from their mistakes and feel a sense of agency, rather than helplessness. It is a key strategy for building resilience and improving future performance."
+        },
+        {
+          "id": 16,
+          "question": "Which of the following best explains why reinforcement by quota (ratio) is generally more effective at motivating high rates of behavior than reinforcement by interval?",
+          "options": {
+            "A": "Interval schedules are too predictable and lead to boredom.",
+            "B": "Quota schedules are easier for a person to understand.",
+            "C": "Interval schedules provide reinforcement even when no behavior occurs.",
+            "D": "Quota schedules create a direct link between effort and reward."
+          },
+          "answer": "D",
+          "short_explanation": "With quota/ratio schedules, the learner's own actions directly determine when they get a reward, giving them more control.",
+          "long_explanation": "Reinforcement by quota (e.g., getting paid per item produced) is more effective because it establishes a clear and direct contingency between the individual's rate of response and the delivery of the reward. More work equals more reward. With interval schedules (e.g., a weekly salary), the reward is tied to the passage of time, not the amount of effort exerted within that time, which can lead to lower and less consistent rates of behavior."
+        },
+        {
+          "id": 17,
+          "question": "The Peterson & Peterson (1959) experiment, in which participants tried to remember three-consonant trigrams while counting backward, demonstrated that:",
+          "options": {
+            "A": "Information in long-term memory decays within minutes.",
+            "B": "Information in short-term memory is lost rapidly without rehearsal.",
+            "C": "Chunking is an ineffective strategy for remembering letters.",
+            "D": "The capacity of short-term memory is about three elements."
+          },
+          "answer": "B",
+          "short_explanation": "The experiment showed that when rehearsal is prevented, information in STM fades in as little as 3-18 seconds.",
+          "long_explanation": "The crucial finding of the Peterson & Peterson study was the rapid decay of information from short-term memory when rehearsal is blocked. The distracting task of counting backward prevented participants from repeating the letters to themselves, leading to a dramatic drop in recall over a very short period. This highlighted the importance of active maintenance rehearsal for holding information in STM."
+        },
+        {
+          "id": 18,
+          "question": "A programmer sees a colleague get publicly reprimanded by a manager for using a deprecated coding library. The programmer immediately decides to stop using that library in their own projects. This change in behavior is a result of:",
+          "options": {
+            "A": "Model learning",
+            "B": "Operant conditioning",
+            "C": "Classical conditioning",
+            "D": "Self-regulated learning"
+          },
+          "answer": "A",
+          "short_explanation": "The programmer learned by observing the negative consequences experienced by a 'model' (their colleague).",
+          "long_explanation": "This is a clear case of model learning, specifically involving vicarious punishment. The programmer did not need to be personally punished (operant conditioning) to learn the rule. They learned the contingency by observing the negative outcome for their colleague. This observational learning is a powerful and efficient way that social and professional norms are transmitted."
+        },
+        {
+          "id": 19,
+          "question": "The ability to ride a bicycle, which is difficult to explain verbally but easy to perform, is stored in memory as what form of knowledge?",
+          "options": {
+            "A": "Declarative knowledge",
+            "B": "Conditional knowledge",
+            "C": "Procedural knowledge",
+            "D": "Episodic knowledge"
+          },
+          "answer": "C",
+          "short_explanation": "Procedural knowledge is the 'knowing how' memory for skills and actions.",
+          "long_explanation": "Skills like riding a bike, typing, or swimming are classic examples of procedural knowledge. This type of memory is often implicit and non-verbal; we can perform the action without being able to consciously articulate all the steps involved. This contrasts with declarative knowledge ('knowing that'), which involves facts and events that can be explicitly stated."
         },
         {
           "id": 20,
-          "question": "Which statement provides the most accurate distinction between classical and operant conditioning?",
+          "question": "A student is simultaneously listening to a lecture and trying to mentally sketch a diagram related to the lecture content. According to the working memory model, which component is working hardest to coordinate these two different tasks and allocate attentional resources?",
           "options": {
-            "A": "Classical conditioning involves rewards, while operant conditioning involves punishments.",
-            "B": "Operant conditioning is for simple behaviors, while classical is for complex ones.",
-            "C": "Classical conditioning applies only to animals, while operant applies to humans.",
-            "D": "Operant conditioning involves voluntary behaviors, while classical involves involuntary responses."
-          },
-          "answer": "D",
-          "short_explanation": "The core difference is control: operant conditioning shapes voluntary choices, while classical conditioning creates automatic associations.",
-          "long_explanation": "This is the fundamental distinction. In classical conditioning, the organism learns to associate two stimuli it does not control, leading to an automatic, involuntary response (e.g., Pavlov's dogs salivating). In operant conditioning, the organism learns to associate its own voluntary action with a consequence (a reward or punishment), which then influences its future choices."
-        },
-        {
-          "id": 21,
-          "question": "A biology student organizes their notes by starting with the broad category 'Kingdom,' then 'Phylum,' then 'Class,' and so on, down to 'Species.' This method of improving memory by structuring information is known as creating:",
-          "options": {
-            "A": "Hierarchies",
-            "B": "Chunks",
-            "C": "Mnemonics",
-            "D": "Schemas"
-          },
-          "answer": "A",
-          "short_explanation": "Hierarchies involve organizing information from broad, general concepts down to specific, detailed examples.",
-          "long_explanation": "This is a powerful memory strategy because it taps into our brain's natural preference for organized information. By creating a logical structure, the student creates a mental 'roadmap' that makes encoding and retrieval much more efficient. It is more than just grouping (chunking); it is grouping based on levels of specificity, which is the definition of a hierarchy."
-        },
-        {
-          "id": 22,
-          "question": "Within the working memory model, what is the unique and critical function of the episodic buffer?",
-          "options": {
-            "A": "To rehearse verbal information silently",
-            "B": "To direct and focus attention on relevant tasks",
-            "C": "To integrate information from multiple sources into a coherent episode",
-            "D": "To store visual and spatial information temporarily"
+            "A": "The Phonological Loop",
+            "B": "The Visual-Spatial Notepad",
+            "C": "The Central Executive",
+            "D": "The Episodic Buffer"
           },
           "answer": "C",
-          "short_explanation": "The episodic buffer is the 'binding' agent, combining visual, verbal, and long-term information into a single memory trace.",
-          "long_explanation": "The episodic buffer was added to the model to solve the problem of how different types of information are combined. For example, to remember a scene from a movie, you need to bind the visual information (from the visual-spatial notepad), the dialogue (from the phonological loop), and your knowledge of the characters (from long-term memory) into one unified, multi-modal 'episode.' This integration is the primary job of the episodic buffer."
-        },
-        {
-          "id": 23,
-          "question": "A worker at a bottling plant gets a short break after every 500 bottles they have capped. This reinforcement is being delivered on a:",
-          "options": {
-            "A": "Variable-interval schedule",
-            "B": "Fixed-ratio schedule",
-            "C": "Fixed-interval schedule",
-            "D": "Variable-ratio schedule"
-          },
-          "answer": "B",
-          "short_explanation": "The reward (break) is given after a specific, predictable number of responses (bottles capped), which is a fixed-ratio schedule.",
-          "long_explanation": "The key is to identify the basis for reinforcement. Is it time or number of actions? Here, it's the number of bottles capped, making it a ratio schedule. Is that number predictable or unpredictable? It's a specific number ('every 500'), making it a fixed schedule. Therefore, it is a fixed-ratio schedule, which tends to produce a high rate of response followed by a short pause after reinforcement."
-        },
-        {
-          "id": 24,
-          "question": "According to the multi-store model of memory, if you are given a phone number and are immediately distracted before you can write it down or repeat it, the information is most likely lost from short-term memory due to:",
-          "options": {
-            "A": "Retrieval failure",
-            "B": "Decay",
-            "C": "Repression",
-            "D": "Interference"
-          },
-          "answer": "B",
-          "short_explanation": "Without rehearsal, information in the short-term store fades or decays on its own over a very short period.",
-          "long_explanation": "In the context of the multi-store model, short-term memory has a very limited duration. The primary mechanism for holding information there is active rehearsal. If rehearsal is prevented (by a distraction), the memory trace simply fades away over time, a process known as decay. While interference (new information pushing out old) can also occur, decay is the fundamental process of loss from STM when rehearsal is blocked."
-        },
-        {
-          "id": 25,
-          "question": "During a complex task, a student pauses to ask themselves, 'Am I understanding this correctly, or do I need to re-read the last section?' This act of self-assessment is a core component of which metacognitive process?",
-          "options": {
-            "A": "Planning",
-            "B": "Regulation",
-            "C": "Monitoring",
-            "D": "Evaluation"
-          },
-          "answer": "C",
-          "short_explanation": "Monitoring is the process of checking one's own comprehension and progress during a task.",
-          "long_explanation": "Metacognition involves a cycle of planning (before), monitoring (during), and evaluation (after). This question describes an in-the-moment check of understanding, which is the definition of monitoring. If the student then decides to re-read the section, that subsequent action would be regulation. Evaluation would be looking back at their overall performance after the task is complete."
+          "short_explanation": "The Central Executive acts as the 'conductor,' managing and dividing attention between the different slave systems.",
+          "long_explanation": "This is the primary role of the Central Executive. It is the attentional controller that manages the two 'slave systems'—the Phonological Loop (processing the lecture audio) and the Visual-Spatial Notepad (creating the mental sketch). The Central Executive is responsible for dividing attention, switching between tasks, and coordinating the flow of information, making it the most taxed component in this multitasking scenario."
         }
       ]
     }
