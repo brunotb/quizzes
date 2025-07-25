@@ -1,0 +1,334 @@
+{
+  "chapters": [
+    {
+      "title": "2. Learning (1)",
+      "questions": [
+        {
+          "id": 1,
+          "question": "According to Zimbardo's definition, learning results in a 'relatively consistent change in behavior or behavioral potential.' Which scenario best illustrates the concept of 'behavioral potential'?",
+          "options": {
+            "A": "A chef consistently bakes a perfect cake after months of practice.",
+            "B": "A dog salivates every time it hears the sound of its food bag opening.",
+            "C": "A student learns the rules of chess but doesn't play a game for a year.",
+            "D": "A person temporarily speaks louder after attending a loud rock concert."
+          },
+          "answer": "C",
+          "short_explanation": "Behavioral potential is about acquiring knowledge or skill that isn't immediately performed.",
+          "long_explanation": "Learning isn't just about an immediate, observable change in behavior. It also includes acquiring knowledge or skills that create the *potential* for future behavior. The student has learned the rules (a consistent change in their knowledge) and has the potential to act on them, even if they don't. A is an example of a change in behavior, B is a conditioned response, and D is a temporary state, not learning."
+        },
+        {
+          "id": 2,
+          "question": "A psychologist studying how students organize information from a lecture into mental schemas and connect it with prior knowledge is most likely operating from which perspective on learning?",
+          "options": {
+            "A": "A behaviorist perspective",
+            "B": "An information processing perspective",
+            "C": "A constructivist perspective",
+            "D": "A classical conditioning perspective"
+          },
+          "answer": "B",
+          "short_explanation": "The information processing view likens the mind to a computer, focusing on how information is organized and stored.",
+          "long_explanation": "While constructivism also involves connecting to prior knowledge, the emphasis on 'organizing information into schemas' is a hallmark of the information processing (or cognitivist) perspective, which uses computer-like models for memory and thought. Behaviorism would ignore internal mental processes, and classical conditioning is a specific mechanism within behaviorism."
+        },
+        {
+          "id": 3,
+          "question": "A child used to love the smell of cinnamon. However, after getting a very bad stomach flu shortly after eating a cinnamon bun, the child now feels nauseous whenever they smell cinnamon. In this example of conditioned taste aversion, what is the cinnamon smell?",
+          "options": {
+            "A": "The Unconditioned Stimulus (US)",
+            "B": "The Unconditioned Response (UR)",
+            "C": "The Neutral Stimulus (NS)",
+            "D": "The Conditioned Stimulus (CS)"
+          },
+          "answer": "D",
+          "short_explanation": "The cinnamon smell started as neutral but became a trigger for nausea after being associated with the flu.",
+          "long_explanation": "Initially, the cinnamon smell was neutral or even pleasant. The stomach flu (US) naturally caused nausea (UR). By pairing the smell with the flu, the smell transformed from a neutral stimulus into a Conditioned Stimulus (CS) that now triggers the conditioned response of nausea (CR)."
+        },
+        {
+          "id": 4,
+          "question": "A manager notices that an employee works much faster to complete a tedious report on Friday afternoons to avoid having to finish it over the weekend. The employee's accelerated work pace is being influenced by:",
+          "options": {
+            "A": "Negative reinforcement",
+            "B": "Positive reinforcement",
+            "C": "Direct punishment",
+            "D": "Indirect punishment"
+          },
+          "answer": "A",
+          "short_explanation": "The employee's behavior (working faster) increases to remove an unpleasant stimulus (weekend work).",
+          "long_explanation": "This is a classic example of negative reinforcement. The behavior (working faster) is strengthened because it leads to the removal or avoidance of an aversive consequence (having to work on the weekend). It is not punishment, as the behavior is increasing, not decreasing. It's not positive reinforcement because nothing pleasant is being added."
+        },
+        {
+          "id": 5,
+          "question": "In the 'Little Albert' experiment conducted by Watson and Rayner, what served as the Unconditioned Stimulus (US)?",
+          "options": {
+            "A": "The white rat before conditioning",
+            "B": "Albert's fear response to the noise",
+            "C": "The loud noise of the steel bar",
+            "D": "Albert's generalized fear of furry objects"
+          },
+          "answer": "C",
+          "short_explanation": "The Unconditioned Stimulus is the thing that naturally and automatically triggers a reflex, which was the loud noise.",
+          "long_explanation": "The Unconditioned Stimulus (US) must be something that elicits a response without any prior learning. In this case, the loud, sudden noise of the steel bar naturally caused fear (the UR). The white rat was the Neutral Stimulus that became the Conditioned Stimulus, and the generalized fear was a result of the experiment, not a stimulus within it."
+        },
+        {
+          "id": 6,
+          "question": "A dog is trained to get excited and run to the door when it hears the specific jingle of its owner's keys. However, it does not react to the sound of other keys. This is a clear example of:",
+          "options": {
+            "A": "Stimulus generalization",
+            "B": "Stimulus discrimination",
+            "C": "Spontaneous recovery",
+            "D": "Operant conditioning"
+          },
+          "answer": "B",
+          "short_explanation": "The dog has learned to differentiate between a specific stimulus and other similar ones.",
+          "long_explanation": "Stimulus discrimination is the ability to distinguish between a conditioned stimulus and other stimuli that do not signal an unconditioned stimulus. The dog has learned that only one specific sound (the owner's keys) predicts the owner's arrival, and it ignores other similar sounds. Stimulus generalization would be the opposite: reacting to any sound of keys."
+        },
+        {
+          "id": 7,
+          "question": "Thorndike's 'Law of Effect' is a foundational concept for operant conditioning. It is most accurately described as the principle that:",
+          "options": {
+            "A": "All behaviors are a result of stimulus-response chains.",
+            "B": "A neutral stimulus can elicit a response after being paired with a reflex.",
+            "C": "Learning occurs by observing and imitating the behavior of others.",
+            "D": "Behaviors followed by satisfying outcomes are more likely to recur."
+          },
+          "answer": "D",
+          "short_explanation": "The Law of Effect states that consequences (satisfying or unsatisfying) determine if a behavior is repeated.",
+          "long_explanation": "Thorndike's Law of Effect is the core idea that behaviors are selected by their consequences. If an action leads to a 'satisfying state of affairs,' it is 'stamped in,' while actions leading to 'annoying' states are 'stamped out.' This focuses directly on the relationship between a voluntary behavior and its outcome, which is the cornerstone of operant conditioning. The other options describe general behaviorism (A), classical conditioning (B), and modeling (C)."
+        },
+        {
+          "id": 8,
+          "question": "A teenager who loves playing video games is told they will lose their gaming privileges for a week if they fail to complete their homework. The parents' strategy is an example of:",
+          "options": {
+            "A": "Indirect punishment",
+            "B": "Negative reinforcement",
+            "C": "Direct punishment",
+            "D": "Counter-conditioning"
+          },
+          "answer": "A",
+          "short_explanation": "A pleasant stimulus (gaming) is removed to decrease a behavior (not doing homework).",
+          "long_explanation": "This is a form of indirect punishment, also known as negative punishment or punishment by removal. The goal is to decrease an undesirable behavior (failing to do homework) by removing a desirable stimulus (video game privileges). It's not negative reinforcement, which would increase a behavior by removing something unpleasant. It's not direct punishment, as nothing unpleasant is being added."
+        },
+        {
+          "id": 9,
+          "question": "For operant conditioning to be most effective, the relationship where the consequence reliably follows the behavior is known as:",
+          "options": {
+            "A": "Contiguity",
+            "B": "Informativity",
+            "C": "Contingency",
+            "D": "Generalization"
+          },
+          "answer": "C",
+          "short_explanation": "Contingency means the consequence is dependent on, or conditional upon, the behavior occurring.",
+          "long_explanation": "Contingency refers to the reliability and predictability of the consequence following the behavior. A high contingency means the reward or punishment occurs if, and only if, the behavior is performed. Contiguity refers to the closeness in time and space, while informativity refers to how much the stimulus stands out. While all are important, contingency specifically describes the 'if-then' relationship."
+        },
+        {
+          "id": 10,
+          "question": "What is the most fundamental difference between the behaviors learned through classical conditioning and those learned through operant conditioning?",
+          "options": {
+            "A": "Classical conditioning involves cognition, while operant conditioning does not.",
+            "B": "Operant conditioning applies only to animals, while classical applies to humans.",
+            "C": "Operant conditioning involves pleasant outcomes, while classical involves unpleasant ones.",
+            "D": "Classical conditioning involves involuntary responses, while operant involves voluntary actions."
+          },
+          "answer": "D",
+          "short_explanation": "Classical conditioning modifies automatic reflexes, while operant conditioning shapes intentional behaviors.",
+          "long_explanation": "The core distinction lies in the nature of the behavior. Classical conditioning works with reflexive, involuntary responses that are automatically elicited by a stimulus (e.g., salivation, fear). Operant conditioning, on the other hand, deals with voluntary, goal-directed behaviors that an organism chooses to emit (e.g., pressing a lever, cleaning a room). The learner 'operates' on the environment."
+        },
+        {
+          "id": 11,
+          "question": "A therapist is helping a client overcome a fear of flying. The therapist teaches the client relaxation techniques and then has them imagine boarding a plane, then watch videos of planes, and finally visit an airport, all while maintaining a relaxed state. This technique is:",
+          "options": {
+            "A": "Counter-conditioning",
+            "B": "Systematic desensitization",
+            "C": "Negative reinforcement",
+            "D": "Stimulus generalization"
+          },
+          "answer": "B",
+          "short_explanation": "This is systematic desensitization because it pairs relaxation with a gradual, hierarchical exposure to the feared stimulus.",
+          "long_explanation": "Systematic desensitization, developed by Wolpe, involves three steps: learning relaxation, creating a fear hierarchy (from least to most scary), and gradual exposure to that hierarchy while relaxed. This is distinct from counter-conditioning, which would involve pairing the feared stimulus (flying) with a stimulus that elicits a competing positive response (like humor or delicious food), rather than just relaxation."
+        },
+        {
+          "id": 12,
+          "question": "As a manager aiming to improve team performance with long-term positive morale, which operant strategy is generally considered most effective and sustainable?",
+          "options": {
+            "A": "Positive reinforcement for meeting goals.",
+            "B": "Indirect punishment for failing to meet goals.",
+            "C": "Direct punishment for making mistakes.",
+            "D": "Negative reinforcement by removing tedious tasks."
+          },
+          "answer": "A",
+          "short_explanation": "Positive reinforcement builds motivation and good relationships without the negative side effects of punishment.",
+          "long_explanation": "While all operant principles can modify behavior, positive reinforcement (rewarding desired behaviors) is consistently shown to be more effective for long-term motivation and morale. It fosters a positive environment and strengthens the relationship between manager and employee. Punishment can lead to fear, anxiety, and resentment, and negative reinforcement can create a stressful environment where people work only to avoid something unpleasant."
+        },
+        {
+          "id": 13,
+          "question": "The lecture emphasizes that 'in classical conditioning, no new reaction is learnt.' What does this statement imply?",
+          "options": {
+            "A": "The learned response is always weaker than the original reflex.",
+            "B": "An existing behavior is simply triggered by a new stimulus.",
+            "C": "The learner does not consciously understand the connection.",
+            "D": "Classical conditioning cannot be used to teach complex skills."
+          },
+          "answer": "B",
+          "short_explanation": "It means learning connects a new trigger to a pre-existing response, rather than creating a novel behavior.",
+          "long_explanation": "This key principle highlights that classical conditioning doesn't invent new behaviors. The dog already knew how to salivate; Albert already knew how to feel fear. The learning process (conditioning) only created a new association, causing an old, existing response to be elicited by a new (formerly neutral) stimulus. This contrasts with operant conditioning, where entirely new and complex behavioral sequences can be shaped."
+        },
+        {
+          "id": 14,
+          "question": "The definition of learning specifies that it is based on 'experience.' This criterion is used to distinguish learning from behavioral changes that result from:",
+          "options": {
+            "A": "Solving a difficult problem",
+            "B": "Following a new recipe",
+            "C": "Observing a role model",
+            "D": "Biological maturation"
+          },
+          "answer": "D",
+          "short_explanation": "'Experience' separates learned changes from innate, developmental changes like maturation.",
+          "long_explanation": "The 'experience' clause is crucial for differentiating learning from other sources of change. Biological maturation refers to developmental changes that are genetically programmed, such as a baby learning to walk or a bird learning to fly. These are not based on specific experiences with the environment in the same way that learning to solve a problem (A), follow a recipe (B), or imitate a model (C) are. Those three are all forms of learning based on experience."
+        },
+        {
+          "id": 15,
+          "question": "In a Skinner box, a rat learns that pressing a lever only results in a food pellet when a green light is on, but not when a red light is on. In this scenario, the green light functions as a:",
+          "options": {
+            "A": "Positive reinforcer",
+            "B": "Conditioned stimulus",
+            "C": "Discriminative stimulus",
+            "D": "Unconditioned stimulus"
+          },
+          "answer": "C",
+          "short_explanation": "The green light is a discriminative stimulus because it signals that reinforcement is available.",
+          "long_explanation": "A discriminative stimulus is a cue or signal in the environment that indicates that a particular behavior will now be reinforced (or punished). The rat learns to 'discriminate' between conditions where pressing the lever pays off and conditions where it doesn't. The green light doesn't cause the behavior reflexively (like a CS) and it isn't the reward itself (the reinforcer); it's a signal about the availability of the reward."
+        },
+        {
+          "id": 16,
+          "question": "A person develops a fear of needles after a painful injection at a hospital. Later, they find themselves feeling anxious not just in hospitals, but also in dental offices and even science labs. This expansion of their fear is best explained by:",
+          "options": {
+            "A": "Stimulus generalization",
+            "B": "Higher-order conditioning",
+            "C": "Operant conditioning",
+            "D": "Systematic desensitization"
+          },
+          "answer": "A",
+          "short_explanation": "The fear response has generalized from the original context (hospital) to other similar contexts.",
+          "long_explanation": "Stimulus generalization occurs when a conditioned response is elicited by stimuli that are similar, but not identical, to the original conditioned stimulus. The initial conditioning happened at the hospital. The fear then 'spread' to other locations that share similar characteristics (clinical settings, white coats, etc.). This demonstrates how learned emotional responses can broaden their impact."
+        },
+        {
+          "id": 17,
+          "question": "A parent stops nagging their child about a messy room once the child finally cleans it. The child becomes more likely to clean their room in the future. This is an example of ________, which is often confused with ________.",
+          "options": {
+            "A": "Positive reinforcement; negative reinforcement",
+            "B": "Direct punishment; indirect punishment",
+            "C": "Positive reinforcement; direct punishment",
+            "D": "Negative reinforcement; direct punishment"
+          },
+          "answer": "D",
+          "short_explanation": "It's negative reinforcement (removing nagging to increase cleaning) which is often mistaken for punishment.",
+          "long_explanation": "The child's behavior (cleaning the room) is strengthened because it causes an aversive stimulus (the nagging) to be removed. This is the definition of negative reinforcement. It is one of the most commonly misunderstood concepts in psychology, frequently confused with direct (positive) punishment, which involves *adding* an aversive stimulus (like scolding) to *decrease* a behavior."
+        },
+        {
+          "id": 18,
+          "question": "A student actively decides to memorize a list of psychological terms for an upcoming exam. In contrast, they find they have effortlessly learned the layout of their new university campus just by walking around. These two processes exemplify:",
+          "options": {
+            "A": "Classical vs. operant learning",
+            "B": "Intentional vs. incidental learning",
+            "C": "Behaviorist vs. constructivist learning",
+            "D": "Acquisition vs. extinction learning"
+          },
+          "answer": "B",
+          "short_explanation": "Intentional learning is purposeful, while incidental learning happens without conscious effort.",
+          "long_explanation": "Intentional learning occurs when there is a deliberate goal to acquire new information, like studying for an exam. Incidental learning happens as a byproduct of another activity, without a specific intention to learn. Learning the campus layout happened unconsciously and incidentally through the experience of navigating it. This distinction highlights that not all learning is a result of focused effort."
+        },
+        {
+          "id": 19,
+          "question": "In Pavlov's experiments, if there was a long delay between the ringing of the bell and the presentation of the food, conditioning was less likely to occur. This highlights the importance of which factor in classical conditioning?",
+          "options": {
+            "A": "The time interval between the CS and US",
+            "B": "The intensity and quality of the US",
+            "C": "The number of conditioning passes",
+            "D": "The discrimination of the stimulus"
+          },
+          "answer": "A",
+          "short_explanation": "For a strong association to form, the conditioned and unconditioned stimuli must be presented close together in time.",
+          "long_explanation": "For the brain to form an association between two stimuli, they must occur in close temporal succession. This principle is related to contiguity. If the bell (CS) rings and the food (US) appears much later, the dog is unlikely to connect the two events. The brain will not learn that the bell predicts the food, and conditioning will fail. While intensity (B) and number of passes (C) are also important factors, this specific scenario points to the critical nature of the time interval."
+        },
+        {
+          "id": 20,
+          "question": "A manager wants to encourage employees to submit reports on time by offering a bonus. However, due to a complex payroll system, the bonus is not paid until two months after the report is submitted. The ineffectiveness of this bonus plan is best explained by a failure of:",
+          "options": {
+            "A": "Contingency",
+            "B": "Informativity",
+            "C": "Contiguity",
+            "D": "Reinforcement"
+          },
+          "answer": "C",
+          "short_explanation": "The long delay between the behavior (submission) and the reward (bonus) violates the principle of contiguity.",
+          "long_explanation": "Contiguity is the principle that the reinforcer must follow the target behavior closely in time and space. A two-month delay makes it very difficult for the employee to associate their specific action (timely submission) with the reward. The connection is too weak to effectively reinforce the behavior. While the plan does involve reinforcement (D) and may have contingency (A), its primary flaw is the lack of temporal contiguity."
+        },
+        {
+          "id": 21,
+          "question": "According to the 'three perspectives on learning' table, how would a teacher operating from a constructivist viewpoint see their role?",
+          "options": {
+            "A": "As a manager who demonstrates and supervises mechanical practice.",
+            "B": "As a provider of effective strategies and corrections for information processing.",
+            "C": "As an authority figure who delivers facts for learners to absorb.",
+            "D": "As a guide who supports the individual development of knowledge."
+          },
+          "answer": "D",
+          "short_explanation": "Constructivism sees the teacher as a 'guide on the side,' not a 'sage on the stage.'",
+          "long_explanation": "In the constructivist perspective, learning is an active process where individuals build their own understanding. The teacher's role is not to simply transmit information, but to facilitate this process by providing resources, guidance, and support. They help students build upon what they already know and discover knowledge for themselves. The other options describe the teacher's role in the behaviorist (A, C) and information processing (B) perspectives."
+        },
+        {
+          "id": 22,
+          "question": "In the example 'Whenever I meet friends, I have to smoke,' classical conditioning principles are at play. The act of meeting friends functions as the:",
+          "options": {
+            "A": "Unconditioned Response (UR)",
+            "B": "Conditioned Stimulus (CS)",
+            "C": "Unconditioned Stimulus (US)",
+            "D": "Conditioned Response (CR)"
+          },
+          "answer": "B",
+          "short_explanation": "Meeting friends is the learned trigger (CS) for the craving or act of smoking (CR).",
+          "long_explanation": "In this scenario, the craving for a cigarette (CR) is triggered by the environmental cue of meeting friends. This cue (CS) was likely paired repeatedly with the physiological effects of nicotine (the US), which produce a feeling of satisfaction (the UR). Over time, the social situation itself became a powerful trigger for the craving, demonstrating a classic conditioned association."
+        },
+        {
+          "id": 23,
+          "question": "Psychologists and modern managers often advocate for reinforcement over punishment to shape behavior. What is a primary psychological reason for this preference?",
+          "options": {
+            "A": "Punishment is unable to stop an undesirable behavior, even temporarily.",
+            "B": "Reinforcement is less expensive to implement in an organizational setting.",
+            "C": "Punishment can produce negative emotional side effects like fear and anger.",
+            "D": "Reinforcement works through involuntary reflexes, making it more powerful."
+          },
+          "answer": "C",
+          "short_explanation": "Punishment can stop a behavior but often creates unwanted emotional responses and damages relationships.",
+          "long_explanation": "While punishment can be effective at suppressing behavior, it often comes with significant drawbacks. It can create negative emotional responses such as anxiety, fear, and resentment, which can harm morale and the relationship between the punisher and the punished. It also doesn't teach the correct behavior, only what *not* to do. Reinforcement, by contrast, teaches the desired behavior while fostering a positive emotional climate."
+        },
+        {
+          "id": 24,
+          "question": "Which scenario best captures the essence of Thorndike's Law of Effect in action?",
+          "options": {
+            "A": "A cat in a puzzle box accidentally presses a lever, the door opens, and it is more likely to press the lever in the future.",
+            "B": "A student feels anxious during exams because they once failed an important test, and now the exam room is a trigger.",
+            "C": "A child learns to be polite by watching their parents interact politely with store clerks and imitating their behavior.",
+            "D": "A dog learns to sit when a light is on because that is the only time the sit command is followed by a treat."
+          },
+          "answer": "A",
+          "short_explanation": "The Law of Effect is about trial-and-error learning where a satisfying outcome strengthens a preceding behavior.",
+          "long_explanation": "Thorndike's experiment with cats in puzzle boxes is the quintessential example of the Law of Effect. The cat's random behavior (trial and error) leads to an accidental success (pressing the lever) which results in a satisfying consequence (escape and food). This consequence 'stamps in' the successful behavior, making it more probable in subsequent trials. B is classical conditioning, C is modeling, and D illustrates Skinner's concept of a discriminative stimulus."
+        },
+        {
+          "id": 25,
+          "question": "What key principle, demonstrated in the 'Little Peter' experiment (Jones, 1924), offered a direct therapeutic solution to the problem of conditioned fear raised by the 'Little Albert' study?",
+          "options": {
+            "A": "Systematic desensitization",
+            "B": "Negative reinforcement",
+            "C": "Stimulus discrimination",
+            "D": "Counter-conditioning"
+          },
+          "answer": "D",
+          "short_explanation": "Counter-conditioning was used to replace Peter's fear of a rabbit with a positive feeling by pairing the rabbit with food.",
+          "long_explanation": "The 'Little Peter' study is a classic demonstration of counter-conditioning. Mary Cover Jones worked to eliminate Peter's fear of a rabbit (which had generalized to other furry things) by pairing the rabbit with a pleasant stimulus—his favorite food. The positive emotional response elicited by the food was incompatible with the fear response, and eventually, the positive feeling replaced the fear. This provided a direct therapeutic answer to the conditioned fear shown in 'Little Albert'."
+        }
+      ]
+    }
+  ]
+}
