@@ -1,0 +1,269 @@
+{
+  "chapters": [
+    {
+      "title": "7. Social Psychology (1)",
+      "questions": [
+        {
+          "id": 1,
+          "question": "A manager observes an employee arriving late and immediately assumes the employee is lazy, without considering that a city-wide power outage had shut down public transport. This cognitive shortcut best illustrates:",
+          "options": {
+            "A": "Self-handicapping",
+            "B": "The fundamental attribution error",
+            "C": "Cognitive dissonance",
+            "D": "The Halo effect"
+          },
+          "answer": "B",
+          "short_explanation": "This is the FAE because the manager attributed the behavior to the person's character (internal) while ignoring the situation (external).",
+          "long_explanation": "The fundamental attribution error (FAE) is the tendency to overestimate dispositional (internal) factors and underestimate situational (external) factors when explaining others' behavior. Here, the manager defaults to an internal attribution ('lazy') instead of considering the powerful situational factor (traffic jam). Self-handicapping is creating excuses for one's own potential failure. Cognitive dissonance is the discomfort from conflicting beliefs. The Halo effect is when one positive trait influences the perception of all other traits."
+        },
+        {
+          "id": 2,
+          "question": "A person buys an expensive new smartphone they didn't need and feels a pang of guilt. To feel better, they begin avidly reading positive tech reviews and watching videos that praise the phone's features. This behavior is a strategy to reduce cognitive dissonance by:",
+          "options": {
+            "A": "Changing the dissonant behavior",
+            "B": "Changing an original cognition",
+            "C": "Adding new consonant cognitions",
+            "D": "Engaging in downward social comparison"
+          },
+          "answer": "C",
+          "short_explanation": "They are adding new, supportive thoughts ('this phone is highly rated') to outweigh the dissonant thought ('I shouldn't have bought this').",
+          "long_explanation": "Cognitive dissonance arises from the conflict between 'I made an unnecessary purchase' and 'I am a smart, frugal person.' Instead of changing the behavior (returning the phone) or the cognition ('being frugal isn't important'), the person adds new, consonant (harmonious) cognitions. These new thoughts ('experts love this phone,' 'it has amazing features') help justify the purchase and reduce the mental discomfort."
+        },
+        {
+          "id": 3,
+          "question": "According to Schachter and Singer's two-factor theory of emotion, the two essential ingredients required to experience a specific emotion like 'joy' or 'fear' are:",
+          "options": {
+            "A": "An external stimulus and a behavioral response",
+            "B": "Physiological arousal and a cognitive label",
+            "C": "A pre-existing belief and a social context",
+            "D": "An emotional expression and its social decoding"
+          },
+          "answer": "B",
+          "short_explanation": "The theory states emotion = arousal + label. You feel a physical change, then your brain labels it based on the context.",
+          "long_explanation": "The two-factor theory posits that emotions are not just raw feelings. First, we experience a general, undifferentiated state of physiological arousal (e.g., increased heart rate). Second, we search our environment for an explanation and apply a cognitive label to that arousal. The same arousal could be labeled as 'fear' if we see a bear or 'excitement' if we are on a first date. The other options describe related but distinct psychological processes."
+        },
+        {
+          "id": 4,
+          "question": "Before a challenging presentation, a student tells their professor, 'I'm not feeling my best today, I think I'm coming down with something.' This behavior is a classic example of:",
+          "options": {
+            "A": "Ingratiation",
+            "B": "The fundamental attribution error",
+            "C": "Downward social comparison",
+            "D": "Self-handicapping"
+          },
+          "answer": "D",
+          "short_explanation": "This is self-handicapping because the student is creating a pre-made excuse to protect their self-esteem in case of failure.",
+          "long_explanation": "Self-handicapping is a strategy in impression management where people create obstacles or excuses for themselves before a performance. If they perform poorly, they can blame the obstacle (the illness) rather than their own ability. If they succeed, they look even more competent for overcoming the handicap. Ingratiation involves flattery. FAE is about judging others. Downward social comparison is comparing oneself to those less fortunate."
+        },
+        {
+          "id": 5,
+          "question": "The 'forbidden toy' experiment by Aronson and Carlsmith (1963) provided strong evidence that to encourage long-term, internalized attitude change, it is most effective to use:",
+          "options": {
+            "A": "A mild threat, which provides insufficient external justification",
+            "B": "A severe threat, which creates a powerful external justification",
+            "C": "A significant reward, which makes the desired behavior more attractive",
+            "D": "No threat at all, allowing for natural attitude development"
+          },
+          "answer": "A",
+          "short_explanation": "A mild threat is not enough of an external reason, so the child must create an internal reason ('I guess I don't like that toy anyway').",
+          "long_explanation": "The experiment found that children threatened with mild punishment for playing with a desirable toy later devalued the toy. The mild threat was not a strong enough external reason to justify their non-behavior, creating dissonance. To resolve it, they changed their internal attitude. Children under severe threat had a clear external reason for not playing, so their internal attitude towards the toy remained highly positive. This demonstrates that insufficient external justification forces internal justification, leading to lasting change."
+        },
+        {
+          "id": 6,
+          "question": "The 'mere exposure effect' is the primary psychological mechanism used to explain why which factor is so influential in interpersonal attraction?",
+          "options": {
+            "A": "Proximity",
+            "B": "Similarity",
+            "C": "Reciprocal liking",
+            "D": "Physical attractiveness"
+          },
+          "answer": "A",
+          "short_explanation": "We tend to like things more just because we are exposed to them frequently, and proximity ensures frequent exposure to people.",
+          "long_explanation": "The mere exposure effect states that repeated exposure to a novel stimulus increases our liking of it. Proximity (physical closeness) ensures that we are repeatedly exposed to certain individuals (e.g., neighbors, classmates, coworkers). This increased familiarity, driven by mere exposure, often leads to liking and is a key reason why proximity is such a strong predictor of friendship and relationship formation."
+        },
+        {
+          "id": 7,
+          "question": "An individual who automatically assumes that a person who speaks eloquently is also intelligent, trustworthy, and kind is demonstrating the use of:",
+          "options": {
+            "A": "The fundamental attribution error",
+            "B": "An implicit personality theory",
+            "C": "A culture-specific display rule",
+            "D": "A downward social comparison"
+          },
+          "answer": "B",
+          "short_explanation": "This is an implicit theory because it involves a personal 'schema' or rule about which personality traits tend to cluster together.",
+          "long_explanation": "Implicit personality theories are our personal sets of assumptions about how different types of people, personality traits, and behaviors are related. In this case, the individual holds a theory that the trait 'eloquent' is linked to 'intelligent,' 'trustworthy,' and 'kind.' The Halo Effect is a specific type of implicit theory where one positive trait (like attractiveness) colors the perception of all others, but the broader concept here is the implicit theory itself."
+        },
+        {
+          "id": 8,
+          "question": "Which statement most accurately distinguishes cognitive dissonance from the fundamental attribution error (FAE)?",
+          "options": {
+            "A": "Dissonance is about explaining others' behavior, while FAE is about justifying our own.",
+            "B": "Dissonance is an emotional response to behavior, while FAE is a cognitive judgment.",
+            "C": "Dissonance is primarily an unconscious process, while FAE is a conscious one.",
+            "D": "Dissonance involves resolving our own internal conflict, while FAE is a bias in how we perceive others."
+          },
+          "answer": "D",
+          "short_explanation": "Dissonance is an internal struggle within one person. FAE is an external judgment error about another person.",
+          "long_explanation": "The core difference lies in the focus. Cognitive dissonance is an intra-personal process—it's the discomfort *you* feel when *your* beliefs and actions conflict. The goal is to restore internal consistency. The fundamental attribution error is an inter-personal process—it's a mental mistake *you* make when judging *why someone else* behaved as they did. The goal (unconscious) is to quickly explain their behavior."
+        },
+        {
+          "id": 9,
+          "question": "The 'lowballing' sales technique is effective primarily because it manipulates a customer's psychological need to:",
+          "options": {
+            "A": "Seek the most rational and cost-effective purchase",
+            "B": "Engage in downward social comparison with other buyers",
+            "C": "Remain consistent with an initial commitment",
+            "D": "Rely on the expertise of the salesperson"
+          },
+          "answer": "C",
+          "short_explanation": "Lowballing works by getting you to commit to a decision, making it psychologically uncomfortable to back out even when the terms change.",
+          "long_explanation": "Lowballing capitalizes on the principle of commitment and consistency. Once a person agrees to an initial attractive offer, they create a mental commitment. When the salesperson reveals the higher price, backing out would create cognitive dissonance ('I made a decision, but now I'm reversing it'). To avoid this discomfort, many people follow through with the purchase, justifying the new price to remain consistent with their initial choice."
+        },
+        {
+          "id": 10,
+          "question": "A medical student who is struggling with their studies feels a boost in self-esteem after talking with a friend who recently dropped out of the program. The student is most likely engaging in:",
+          "options": {
+            "A": "Upward social comparison",
+            "B": "Self-handicapping",
+            "C": "Impression management",
+            "D": "Downward social comparison"
+          },
+          "answer": "D",
+          "short_explanation": "They are comparing themselves to someone 'worse off' in a relevant domain to feel better about their own situation.",
+          "long_explanation": "Social comparison theory explains how we evaluate ourselves by comparing ourselves to others. Downward social comparison involves comparing ourselves to people who are worse off than we are on a particular trait or ability. This is a self-protective strategy used to enhance our self-esteem. The medical student feels better about their own struggles by seeing someone whose situation is, in this context, worse."
+        },
+        {
+          "id": 11,
+          "question": "The 'Dr. Fox effect,' where an actor delivered a charismatic but nonsensical lecture and received high praise, is a powerful real-world demonstration of:",
+          "options": {
+            "A": "The fundamental attribution error",
+            "B": "Cognitive dissonance reduction",
+            "C": "The Halo Effect",
+            "D": "Reciprocal liking"
+          },
+          "answer": "C",
+          "short_explanation": "The speaker's charisma (one positive trait) created a 'halo' that made the audience perceive his content (another trait) as brilliant.",
+          "long_explanation": "The Halo Effect is a cognitive bias where the perception of one positive trait (e.g., charisma, attractiveness) leads to a positive perception of other, unrelated traits (e.g., intelligence, competence). In the Dr. Fox study, the actor's confident and engaging delivery style created a powerful halo, causing the educated audience to overlook the meaningless content and judge the entire presentation positively."
+        },
+        {
+          "id": 12,
+          "question": "Terror Management Theory proposes that having high self-esteem is adaptive primarily because it functions as a:",
+          "options": {
+            "A": "Buffer against the anxiety associated with human mortality",
+            "B": "Mechanism for accurately assessing one's own abilities",
+            "C": "Tool for attracting mates and ensuring reproductive success",
+            "D": "Strategy for managing social impressions and gaining status"
+          },
+          "answer": "A",
+          "short_explanation": "This theory suggests self-esteem helps us manage the existential fear of death by making us feel like valuable parts of a meaningful world.",
+          "long_explanation": "According to Terror Management Theory, the awareness of our own inevitable death creates a potential for overwhelming anxiety. The theory posits that self-esteem—derived from believing we are meeting the standards of a valuable cultural worldview—serves as a psychological buffer that protects us from this existential terror. While self-esteem is related to the other options, its core function in this theory is managing death-related anxiety."
+        },
+        {
+          "id": 13,
+          "question": "The Dutton and Aron (1974) suspension bridge study, where men on a scary bridge were more likely to call an attractive researcher, is a classic demonstration of:",
+          "options": {
+            "A": "The power of similarity in forming initial attraction",
+            "B": "The process of encoding and decoding fear expressions",
+            "C": "The misattribution of arousal",
+            "D": "The use of ingratiation in romantic contexts"
+          },
+          "answer": "C",
+          "short_explanation": "The men mislabeled their physical arousal from fear as romantic attraction to the researcher.",
+          "long_explanation": "This study is the quintessential example of the misattribution of arousal, a concept linked to the two-factor theory of emotion. The men on the high, swaying bridge experienced physiological arousal (pounding heart, sweaty palms) due to fear. However, in the presence of an attractive researcher, they mistakenly attributed this arousal to romantic attraction, making them more likely to contact her later."
+        },
+        {
+          "id": 14,
+          "question": "In many Western cultures, it is generally more socially acceptable for women to cry in public than for men. This difference is a clear example of a culture-specific:",
+          "options": {
+            "A": "Affect blend",
+            "B": "Display rule",
+            "C": "Emotional encoding failure",
+            "D": "Implicit personality theory"
+          },
+          "answer": "B",
+          "short_explanation": "Display rules are a culture's specific, unwritten rules about which nonverbal emotional expressions are appropriate to show.",
+          "long_explanation": "While the basic emotions and their facial expressions are largely universal, each culture has its own display rules that dictate when, where, and how these emotions should be expressed. The example illustrates a gender-based display rule common in some cultures regarding the expression of sadness. An affect blend is showing two emotions at once. Encoding failure would mean being unable to express the emotion at all."
+        },
+        {
+          "id": 15,
+          "question": "To reduce post-decision dissonance after choosing between two equally attractive holiday destinations, a person is most likely to:",
+          "options": {
+            "A": "Question their decision and focus on the benefits of the rejected destination",
+            "B": "Feel indifferent, since both options were good and the choice is now over",
+            "C": "Emphasize the potential negative aspects of the chosen destination",
+            "D": "Mentally magnify the positive aspects of the chosen destination"
+          },
+          "answer": "D",
+          "short_explanation": "To justify their choice, they will 'spread the alternatives' apart by making their chosen option seem even better.",
+          "long_explanation": "Post-decision dissonance is the discomfort felt after making a difficult choice. To resolve this, people engage in mental work to justify their decision. A key strategy is to 'spread the alternatives': you re-evaluate the options, emphasizing the good points of your choice and the bad points of the one you rejected. This makes your decision feel more correct and reduces the dissonance of having given up the benefits of the other option."
+        },
+        {
+          "id": 16,
+          "question": "The definition of social psychology includes the influence of the 'imagined presence of others.' Which scenario best illustrates this 'imagined' influence?",
+          "options": {
+            "A": "A person decides not to speed because they remember their parent's lecture on safe driving",
+            "B": "A student studies harder when the librarian walks past their desk in the library",
+            "C": "A driver yields to another car that has the right-of-way at an intersection",
+            "D": "A public speaker feels nervous when looking out at a large, live audience"
+          },
+          "answer": "A",
+          "short_explanation": "The parent isn't physically present, but their internalized values and 'voice' are influencing the person's behavior.",
+          "long_explanation": "The 'imagined presence' refers to the influence of people who are not physically there, through our internalization of their values, expectations, and social norms. Remembering a parent's lecture and acting on it is a perfect example. The other options all describe the influence of the 'real presence' of others (the librarian, the other driver, the audience)."
+        },
+        {
+          "id": 17,
+          "question": "When considering the factors of interpersonal attraction, decades of research have found the strongest and most consistent support for which principle in the formation of successful long-term relationships?",
+          "options": {
+            "A": "Complementarity ('opposites attract')",
+            "B": "Similarity ('birds of a feather flock together')",
+            "C": "High initial physical attractiveness",
+            "D": "Proximity and the mere exposure effect"
+          },
+          "answer": "B",
+          "short_explanation": "While other factors matter initially, similarity in core values, attitudes, and personality is the strongest predictor of long-term success.",
+          "long_explanation": "Although proximity is crucial for meeting people and physical attractiveness is important initially, the most robust predictor of long-term relational satisfaction and stability is similarity. Sharing core beliefs, values, interests, and personality traits provides a foundation for understanding and validation. The idea that 'opposites attract' (complementarity) is largely a myth and applies only to minor, non-core traits."
+        },
+        {
+          "id": 18,
+          "question": "A person who goes through a grueling and difficult training program to become a marine later reports higher satisfaction and commitment to the corps than someone who had an easier entry. This phenomenon is best explained by:",
+          "options": {
+            "A": "The justification of effort",
+            "B": "The Halo Effect",
+            "C": "Terror Management Theory",
+            "D": "Upward social comparison"
+          },
+          "answer": "A",
+          "short_explanation": "To resolve the dissonance of 'I went through a terrible ordeal,' the person concludes 'it must have been worth it.'",
+          "long_explanation": "The justification of effort is a specific form of cognitive dissonance reduction. When a person voluntarily endures a difficult or unpleasant experience to achieve a goal, it creates dissonance. To resolve this discomfort, they increase their liking for the goal. The cognition 'I suffered to get into this group' is dissonant with 'this group is mediocre.' Therefore, the person changes their attitude to 'this group is fantastic' to justify the effort."
+        },
+        {
+          "id": 19,
+          "question": "A person who smiles and laughs while watching a funny movie is ________ joy, while a friend who sees the smile and concludes they are happy is ________ joy.",
+          "options": {
+            "A": "decoding; encoding",
+            "B": "attributing; justifying",
+            "C": "encoding; decoding",
+            "D": "managing; perceiving"
+          },
+          "answer": "C",
+          "short_explanation": "Encoding is expressing or sending an emotional signal. Decoding is interpreting or receiving that signal.",
+          "long_explanation": "These are the two key components of nonverbal communication. Encoding refers to the act of expressing or emitting nonverbal behavior, such as smiling when happy or frowning when angry. Decoding refers to the act of interpreting the meaning of the nonverbal behavior expressed by others. So, the person showing the emotion is encoding, and the person interpreting it is decoding."
+        },
+        {
+          "id": 20,
+          "question": "A lasting change in attitude is most likely to occur when a person's compliant behavior is induced with:",
+          "options": {
+            "A": "A strong external justification, which makes the new behavior memorable",
+            "B": "A situation that causes no cognitive dissonance for the individual",
+            "C": "A context where the behavior is attributed entirely to situational pressure",
+            "D": "A weak external justification, which forces the need for internal justification"
+          },
+          "answer": "D",
+          "short_explanation": "When there's no good external reason for our behavior, we must create an internal one, which leads to a genuine attitude shift.",
+          "long_explanation": "This is the central lesson from studies on insufficient justification (like the 'forbidden toy' experiment). When external justification (e.g., a large reward or a severe threat) is strong, people comply but do not change their underlying attitude. When external justification is weak or 'insufficient,' people feel dissonance because they cannot easily explain their own behavior. To resolve this, they must find an internal reason, leading them to change their attitude to align with their behavior."
+        }
+      ]
+    }
+  ]
+}

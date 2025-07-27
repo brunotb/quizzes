@@ -1,0 +1,269 @@
+{
+  "chapters": [
+    {
+      "title": "8. Social Psychology (2)",
+      "questions": [
+        {
+          "id": 1,
+          "question": "In variations of Milgram's obedience experiment, which of the following changes was found to be the MOST effective in reducing a participant's willingness to administer the maximum shock?",
+          "options": {
+            "A": "Moving the experiment from Yale University to a less prestigious location.",
+            "B": "Having the learner explicitly state they have a heart condition early on.",
+            "C": "Requiring the teacher to physically place the learner's hand on a shock plate.",
+            "D": "Having two other 'teachers' (confederates) in the room who refuse to continue."
+          },
+          "answer": "D",
+          "short_explanation": "The presence of a dissenting ally provides social proof that resistance is an option, dramatically reducing obedience.",
+          "long_explanation": "While all options influenced obedience to some degree, the presence of defiant peers was the most powerful factor. This demonstrates the power of having a social ally, which breaks the unanimity of the authority's influence and provides a model for disobedience. Obedience dropped to only 10% in this condition, a far greater reduction than that caused by changing the location or increasing the learner's proximity."
+        },
+        {
+          "id": 2,
+          "question": "The fundamental psychological difference between the conformity observed in Sherif's autokinetic effect study and Asch's line judgment study is that Sherif's study primarily demonstrated _______, while Asch's study demonstrated _______.",
+          "options": {
+            "A": "public compliance; private acceptance",
+            "B": "private acceptance; public compliance",
+            "C": "obedience to authority; normative influence",
+            "D": "informational influence; obedience to authority"
+          },
+          "answer": "B",
+          "short_explanation": "Sherif's participants truly believed the group's answer (private acceptance), whereas Asch's participants knew the group was wrong but conformed to fit in (public compliance).",
+          "long_explanation": "In Sherif's study, the stimulus (the moving light) was ambiguous, so participants relied on others for information, leading them to internalize the group's norm (private acceptance). In Asch's study, the stimulus was clear, so participants conformed not because they were unsure, but to avoid the social discomfort of disagreeing with the group (public compliance)."
+        },
+        {
+          "id": 3,
+          "question": "A person is in a foreign city and suddenly hears sirens and sees a crowd of people running down a street. The person is unsure what is happening but decides to run with the crowd. This behavior is the best example of informational social influence occurring under which condition?",
+          "options": {
+            "A": "When the situation is both ambiguous and a crisis.",
+            "B": "When the group is emotionally important to the individual.",
+            "C": "When the individual wants to avoid social disapproval.",
+            "D": "When the group consists of more than seven people."
+          },
+          "answer": "A",
+          "short_explanation": "In a confusing and urgent situation, we look to others for cues on how to act because we assume they know what's going on.",
+          "long_explanation": "This scenario perfectly combines two key conditions for informational social influence. The situation is ambiguous (the person doesn't know the cause of the commotion) and it's a crisis (sirens and running imply urgency and potential danger). This combination makes us highly likely to use the behavior of others as a source of information."
+        },
+        {
+          "id": 4,
+          "question": "According to the lecture, which factor is more critical for the success of long-term, serious relationships than the others listed?",
+          "options": {
+            "A": "High levels of physical attractiveness in both partners.",
+            "B": "Constant physical proximity to one another.",
+            "C": "The partners' belief that they share important values.",
+            "D": "An objective, measurable overlap in hobbies and interests."
+          },
+          "answer": "C",
+          "short_explanation": "Perceived similarity—the feeling that you 'get' each other—is a more powerful predictor of long-term success than actual similarity.",
+          "long_explanation": "The slides emphasize that 'perceived similarity' is more important for relationships than 'actual similarity.' This means the subjective belief and feeling of being alike in core values, goals, and personality is the crucial glue. While proximity is a door-opener and actual similarity helps, it's the shared perception that truly sustains a long-term bond."
+        },
+        {
+          "id": 5,
+          "question": "A participant in the Milgram experiment feels immense distress and says, 'He can't stand it! I'm not going to kill that man in there!' yet continues to administer shocks when the experimenter says, 'The experiment requires that you continue.' This internal conflict is a classic example of:",
+          "options": {
+            "A": "The autokinetic effect.",
+            "B": "Cognitive dissonance.",
+            "C": "Public compliance without private acceptance.",
+            "D": "The bystander effect."
+          },
+          "answer": "B",
+          "short_explanation": "The participant holds two conflicting cognitions: 'I am a good person' and 'I am inflicting pain,' creating intense psychological discomfort.",
+          "long_explanation": "Cognitive dissonance is the mental discomfort experienced when holding two or more contradictory beliefs, ideas, or values. Here, the participant's belief that they are a decent person who doesn't harm others clashes with their action of administering shocks. To reduce this dissonance, they might justify their behavior by deferring responsibility to the experimenter, thereby allowing them to continue."
+        },
+        {
+          "id": 6,
+          "question": "Normative social influence would be LEAST likely to produce conformity in which of the following situations?",
+          "options": {
+            "A": "A new employee deciding what to wear to the office party.",
+            "B": "A student in a small seminar with their most respected professor and peers.",
+            "C": "A teenager deciding whether to try a new trend their close friends are adopting.",
+            "D": "An individual voting on a controversial topic in an anonymous online poll."
+          },
+          "answer": "D",
+          "short_explanation": "Normative influence is driven by the fear of social judgment, which is minimized when your actions are anonymous.",
+          "long_explanation": "The core driver of normative social influence is the desire to be liked and accepted and to avoid social disapproval. This pressure is strongest when the group is important, physically present, and can observe your behavior. In an anonymous online poll, there is no social group to disappoint and no risk of personal rejection, making normative pressure virtually non-existent."
+        },
+        {
+          "id": 7,
+          "question": "A utility company successfully encourages energy conservation by sending homeowners letters that say, 'Your neighbors are using less energy than you are.' The psychological principle primarily being leveraged here is:",
+          "options": {
+            "A": "Informational social influence.",
+            "B": "Obedience to authority.",
+            "C": "Cognitive dissonance.",
+            "D": "Normative social influence."
+          },
+          "answer": "A",
+          "short_explanation": "The letter provides information about the social norm, suggesting that 'what neighbors do' is the correct or smart way to behave.",
+          "long_explanation": "While this has elements of normative influence (wanting to fit in), it is primarily informational. The amount of energy one 'should' use is an ambiguous concept. The letter provides a piece of data—a social norm—that informs the homeowner about the appropriate standard of behavior. They conform because they learn what the 'correct' behavior is from others."
+        },
+        {
+          "id": 8,
+          "question": "The ultimate conclusion drawn from Milgram's obedience studies was that:",
+          "options": {
+            "A": "People are inherently more sadistic than was previously believed.",
+            "B": "Emotional distress is not a reliable indicator of a person's future actions.",
+            "C": "The power of the situation can lead ordinary people to commit harmful acts.",
+            "D": "Obedience is primarily a result of a person's authoritarian personality type."
+          },
+          "answer": "C",
+          "short_explanation": "Milgram's work showed that the social situation, not individual character, was the primary determinant of behavior.",
+          "long_explanation": "Milgram's research was a powerful demonstration of the 'power of the situation.' He argued against dispositional explanations (i.e., that the participants were 'bad people') and showed how situational factors—such as the presence of a legitimate authority figure, the gradual escalation of commands, and the diffusion of responsibility—could compel ordinary individuals to act against their conscience."
+        },
+        {
+          "id": 9,
+          "question": "A group of friends are deciding where to eat. Everyone says they want pizza, so a member of the group who secretly wants sushi agrees to pizza to avoid making waves and being seen as difficult. This person's conformity is best explained by:",
+          "options": {
+            "A": "Informational social influence.",
+            "B": "Normative social influence.",
+            "C": "Obedience to authority.",
+            "D": "Private acceptance."
+          },
+          "answer": "B",
+          "short_explanation": "The person conforms to be liked and accepted by the group, not because they are unsure what to eat.",
+          "long_explanation": "This is a classic case of normative social influence. The situation is not ambiguous (the person knows their own preference), and there is no authority figure. The motivation for conforming is purely social: the desire to maintain group harmony and avoid the negative feeling of being the odd one out. This is public compliance, as they are not convinced that pizza is the better choice."
+        },
+        {
+          "id": 10,
+          "question": "The exercise about the military patrol in Mali highlights the central conflict in high-stakes environments between:",
+          "options": {
+            "A": "Informational influence and normative influence.",
+            "B": "Private acceptance and public compliance.",
+            "C": "The need for conformity and the desire for individuality.",
+            "D": "The need for effective obedience and the risk of blind obedience."
+          },
+          "answer": "D",
+          "short_explanation": "The scenario illustrates the challenge of maintaining order through obedience while also allowing for critical thinking that can prevent disaster.",
+          "long_explanation": "In organizations like the military, obedience to the chain of command is essential for coordination and effectiveness. However, as the Milgram studies show, unquestioning or 'blind' obedience can be dangerous. The dilemma for the soldier is whether to follow an order that ensures coordination (effective obedience) or to question it based on new information, thereby avoiding a potentially catastrophic outcome (resisting blind obedience)."
+        },
+        {
+          "id": 11,
+          "question": "Solomon Asch's line judgment experiment primarily demonstrated that people often conform due to:",
+          "options": {
+            "A": "A fear of social disapproval from a unanimous group.",
+            "B": "Genuine confusion about the correct answer.",
+            "C": "A pre-existing tendency to obey authority figures.",
+            "D": "The belief that the group possesses superior information."
+          },
+          "answer": "A",
+          "short_explanation": "Asch's study showed people will knowingly give a wrong answer to avoid the discomfort of being the lone dissenter.",
+          "long_explanation": "The key to Asch's study is that the correct answer was obvious. Therefore, conformity was not driven by informational needs (as in Sherif's study). Instead, it was driven by normative pressure—the intense social discomfort and fear of being judged or rejected for standing out from a unanimous majority. This highlights the powerful human need for social acceptance."
+        },
+        {
+          "id": 12,
+          "question": "The concept of 'proximity' in interpersonal attraction is best understood as a factor that:",
+          "options": {
+            "A": "Guarantees a long-term, stable relationship.",
+            "B": "Is more important for men than for women.",
+            "C": "Initiates opportunities for interaction and attraction.",
+            "D": "Ensures perceived similarity between individuals."
+          },
+          "answer": "C",
+          "short_explanation": "Proximity is the 'door-opener'; it doesn't build the house, but you can't build it without first getting through the door.",
+          "long_explanation": "The lecture describes proximity as the 'door-opener' but not sufficient for building close relationships. Its primary role is to increase the likelihood of encounters, which is a necessary precondition for any relationship to form. It creates the opportunity for other factors, like similarity and attractiveness, to come into play. It does not, however, guarantee the relationship's success."
+        },
+        {
+          "id": 13,
+          "question": "Based on Milgram's findings, which of the following actions from the 'learner' would have been LEAST likely to significantly decrease the 'teacher's' obedience?",
+          "options": {
+            "A": "Increasing the volume and intensity of their screamed complaints.",
+            "B": "Refusing to participate in the experiment from the very beginning.",
+            "C": "Being seated in the same room as the teacher.",
+            "D": "Demanding to be released after the first mild shock."
+          },
+          "answer": "A",
+          "short_explanation": "While distressing, simply increasing the screams did not stop participants who were already caught in the obedience trap.",
+          "long_explanation": "Milgram found that while the learners' protests caused extreme distress in the teachers, these protests alone were often not enough to make them defy the experimenter. In contrast, factors that changed the social structure of the situation—like increasing the learner's physical proximity (C) or having them establish a clear boundary early on (B, D)—were more effective at breaking the spell of obedience. The screams became part of the 'routine' that participants felt compelled to follow."
+        },
+        {
+          "id": 14,
+          "question": "The phenomenon that Muzafer Sherif leveraged to create an ambiguous situation in his 1935 conformity experiment is known as the:",
+          "options": {
+            "A": "Bystander effect.",
+            "B": "Fundamental attribution error.",
+            "C": "Cognitive dissonance effect.",
+            "D": "Autokinetic effect."
+          },
+          "answer": "D",
+          "short_explanation": "The autokinetic effect is the optical illusion where a stationary point of light in a dark room appears to move.",
+          "long_explanation": "Sherif needed a situation with no clear correct answer to study how a group norm would form. He used the autokinetic effect, a perceptual illusion, to create this ambiguity. Because participants had no external frame of reference to judge the light's movement, they were forced to rely on each other's judgments, which is the perfect setup for studying informational social influence."
+        },
+        {
+          "id": 15,
+          "question": "Regarding gender differences in attraction, the lecture suggests that, on average:",
+          "options": {
+            "A": "Women value similarity more, while men value attractiveness more in all stages.",
+            "B": "Men may place a greater initial emphasis on attractiveness than women do.",
+            "C": "There are no discernible differences in what men and women prioritize.",
+            "D": "Women prioritize proximity, while men prioritize perceived similarity."
+          },
+          "answer": "B",
+          "short_explanation": "The slide indicates that men tend to weigh attractiveness more heavily than similarity, while women show the opposite pattern, especially initially.",
+          "long_explanation": "The slide presents a diagram showing that for men, Attractiveness > Similarity, and for women, Attractiveness < Similarity. This suggests a general finding from research that, particularly in the initial stages of attraction, men may report physical attractiveness as being more important, whereas women may report weighing similarity in values and personality more heavily."
+        },
+        {
+          "id": 16,
+          "question": "One of the key psychological mechanisms that allowed participants in Milgram's study to continue administering shocks was the belief that the experimenter, not themselves, was ultimately accountable for the learner's welfare. This is best described as:",
+          "options": {
+            "A": "Normative social pressure.",
+            "B": "A slippery slope of commitment.",
+            "C": "Loss of personal responsibility.",
+            "D": "A need for private acceptance."
+          },
+          "answer": "C",
+          "short_explanation": "By deferring to the authority figure, participants could mentally shift the blame, making it easier to continue.",
+          "long_explanation": "The lecture explicitly mentions 'loss of personal responsibility' as a key factor. When the authoritative experimenter stated, 'I am responsible,' it allowed the participant (the 'teacher') to reframe their role as merely an instrument of the experimenter's will. This diffusion of responsibility is a powerful psychological mechanism that enables people to engage in actions they would otherwise find morally reprehensible."
+        },
+        {
+          "id": 17,
+          "question": "Research on normative social influence and group size, as discussed in relation to Asch's experiments, suggests that:",
+          "options": {
+            "A": "Conformity increases linearly with every person added to the group.",
+            "B": "The pressure to conform is highest with a group of two people.",
+            "C": "A single dissenting ally has little effect on the participant's conformity.",
+            "D": "The effect of group size on conformity levels off after the majority reaches a certain number."
+          },
+          "answer": "D",
+          "short_explanation": "Conformity pressure increases up to a group size of about 5-7, but adding more people beyond that has little additional effect.",
+          "long_explanation": "The lecture states that conformity is highest when the group consists of 5-7 people. This reflects Asch's findings that while conformity increases as the size of the unanimous majority grows from one to three or four, the pressure doesn't increase much beyond that point. This indicates a law of diminishing returns for normative pressure based on group size."
+        },
+        {
+          "id": 18,
+          "question": "A critical difference in the experimental design between Sherif's autokinetic study and Asch's line study was that:",
+          "options": {
+            "A": "Asch's study used confederates, while Sherif's did not.",
+            "B": "Sherif's task was ambiguous, while Asch's task was clear.",
+            "C": "Sherif's study measured obedience, while Asch's measured conformity.",
+            "D": "Asch's participants were rewarded for correct answers, while Sherif's were not."
+          },
+          "answer": "B",
+          "short_explanation": "The nature of the task—ambiguous vs. clear—is what allowed the researchers to isolate two different types of conformity.",
+          "long_explanation": "This is the core methodological distinction that makes the two studies so important. Sherif deliberately created an ambiguous task to see how people would rely on each other for information (informational influence). Asch deliberately created a clear, unambiguous task to see if people would conform to a wrong answer purely due to social pressure (normative influence). This difference in stimulus clarity is fundamental to their findings."
+        },
+        {
+          "id": 19,
+          "question": "Which of the following real-world scenarios is the clearest example of informational social influence?",
+          "options": {
+            "A": "A student laughs at a professor's joke only because everyone else is laughing.",
+            "B": "A person buys a specific brand of smartphone because it's popular with their friends.",
+            "C": "An airline passenger looks to the calm flight attendants during turbulence to decide it's not a serious problem.",
+            "D": "An employee works overtime without pay because they don't want their boss to be disappointed."
+          },
+          "answer": "C",
+          "short_explanation": "In an uncertain and potentially dangerous situation, we look to perceived experts for information on how to interpret events.",
+          "long_explanation": "This scenario fits the key conditions for informational social influence perfectly: the situation is ambiguous (most passengers don't know how to interpret turbulence) and the other people (flight attendants) are perceived as experts. The passenger uses the attendants' calm demeanor as a source of information to conclude that the situation is safe. The other options are better examples of normative influence (A, B) or obedience (D)."
+        },
+        {
+          "id": 20,
+          "question": "How does the concept of cognitive dissonance help explain why participants in Milgram's study found it so difficult to stop administering shocks midway through the experiment?",
+          "options": {
+            "A": "Justifying the initial, small shocks made it psychologically inconsistent to suddenly decide that later shocks were wrong.",
+            "B": "Participants felt a dissonance between the experimenter's instructions and the learner's screams.",
+            "C": "The desire to reduce the dissonance of being in a stressful situation led them to comply with the easiest path.",
+            "D": "The belief that they were a 'teacher' created dissonance with the act of 'punishing' a learner."
+          },
+          "answer": "A",
+          "short_explanation": "The 'slippery slope' works because once you justify one step, it becomes harder to justify stopping at the next, very similar step.",
+          "long_explanation": "This is a classic example of the 'foot-in-the-door' technique powered by cognitive dissonance. After administering a mild 15-volt shock, the participant might justify it ('It's for science'). To then refuse to give a 30-volt shock would create dissonance by implying the previous action was wrong. To maintain psychological consistency, the participant continues, justifying each small, incremental step, making it progressively harder to find a logical point to stop."
+        }
+      ]
+    }
+  ]
+}

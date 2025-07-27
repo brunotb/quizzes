@@ -1,0 +1,269 @@
+{
+  "chapters": [
+    {
+      "title": "9. Social Psychology (3)",
+      "questions": [
+        {
+          "id": 1,
+          "question": "A team leader wants to prevent groupthink during a critical project decision. Which of the following actions would be most effective based on social psychological principles?",
+          "options": {
+            "A": "Stating their own opinion first to provide a clear direction for the team.",
+            "B": "Encouraging the team to reach a consensus quickly to maintain high morale.",
+            "C": "Assigning a specific member the role of 'devil's advocate' to challenge ideas.",
+            "D": "Isolating the team from outside experts to avoid conflicting information."
+          },
+          "answer": "C",
+          "short_explanation": "Assigning a devil's advocate is a formal strategy to introduce dissent and combat premature consensus, which is the core of groupthink.",
+          "long_explanation": "Groupthink thrives when cohesiveness and consensus are prioritized over critical evaluation. Stating an opinion first (A) is a trait of a directive leader, a condition that causes groupthink. Pushing for quick consensus (B) is the definition of the problem. Isolating the team (D) is another antecedent condition for groupthink. Assigning a devil's advocate (C) directly inserts critical evaluation into the process, forcing the group to consider alternatives and weaknesses in their plan, thus actively preventing groupthink."
+        },
+        {
+          "id": 2,
+          "question": "In the Robbers Cave experiment, hostility between the 'Eagles' and 'Rattlers' was significantly reduced only when researchers introduced a specific condition. What was this condition?",
+          "options": {
+            "A": "Increased pleasant social contact between the two groups.",
+            "B": "A superordinate goal that required intergroup cooperation.",
+            "C": "Punishments for intergroup aggression and fighting.",
+            "D": "A charismatic leader who preached unity to both groups."
+          },
+          "answer": "B",
+          "short_explanation": "The key to resolving the conflict was forcing the groups to work together on a shared problem they couldn't solve alone (a superordinate goal).",
+          "long_explanation": "The Robbers Cave experiment famously showed that simple contact (A) was not enough to reduce deep-seated intergroup hostility; in fact, it sometimes provided more opportunities for conflict. While punishment (C) or a unifying leader (D) might have effects, the experiment's critical finding was the power of superordinate goals—like fixing the camp's water supply. These goals reframed the 'us vs. them' dynamic into a 'we' dynamic, as cooperation became necessary for mutual survival and success."
+        },
+        {
+          "id": 3,
+          "question": "Which scenario is the clearest example of the 'urban overload hypothesis' explaining a lack of helping behavior?",
+          "options": {
+            "A": "A person in a large crowd doesn't help an injured cyclist because they assume someone else will call 911.",
+            "B": "A city dweller, accustomed to constant noise and activity, fails to notice a person quietly sobbing on a park bench.",
+            "C": "A tourist in a busy city is hesitant to help a local for fear of being scammed.",
+            "D": "A person in a small town rushes to help a stranger who has fallen, knowing their reputation is at stake."
+          },
+          "answer": "B",
+          "short_explanation": "Urban overload is about tuning out stimuli to cope with a high-density environment, leading one to not even notice a person in need.",
+          "long_explanation": "The urban overload hypothesis is distinct from the bystander effect. While A describes diffusion of responsibility (a key part of the bystander effect), B specifically illustrates urban overload: the individual isn't necessarily choosing not to help, but their cognitive filter, developed to manage city life, prevents them from even processing the event as a situation requiring help. C is about mistrust, and D describes prosocial behavior in a small-town context, but not the mechanism of urban overload."
+        },
+        {
+          "id": 4,
+          "question": "A student excels at a simple, well-rehearsed piano piece when performing for an audience but makes more mistakes on a new, difficult piece under the same conditions. This phenomenon is best explained by:",
+          "options": {
+            "A": "Social Loafing",
+            "B": "Groupthink",
+            "C": "The Bystander Effect",
+            "D": "Social Facilitation"
+          },
+          "answer": "D",
+          "short_explanation": "Social facilitation theory states that the presence of others causes arousal, which improves performance on simple/mastered tasks but impairs performance on complex/new tasks.",
+          "long_explanation": "This is a classic demonstration of social facilitation. The presence of an audience increases physiological arousal. For a simple, well-learned task, this arousal provides a performance boost. For a complex, novel task that requires intense concentration, the same arousal becomes distracting and anxiety-provoking, leading to poorer performance. Social loafing (A) occurs when individual performance isn't evaluated. Groupthink (B) is about decision-making, and the bystander effect (C) is about helping behavior."
+        },
+        {
+          "id": 5,
+          "question": "According to the theory of catharsis, engaging in a mildly aggressive act (like punching a pillow) should reduce feelings of anger. What does modern psychological research suggest about this idea?",
+          "options": {
+            "A": "Catharsis is highly effective but only for individuals with high levels of trait aggression.",
+            "B": "Engaging in aggressive acts tends to increase, rather than decrease, subsequent aggression.",
+            "C": "Catharsis is effective only if the aggressive act is directed at the source of the frustration.",
+            "D": "The effectiveness of catharsis is a myth, but observing aggression in others is an effective release."
+          },
+          "answer": "B",
+          "short_explanation": "The idea of 'venting' anger is a myth; research shows that acting aggressively often reinforces the behavior and makes you more aggressive.",
+          "long_explanation": "Despite its popularity in folk psychology, the concept of catharsis has been largely refuted. Research consistently shows that acting on aggressive impulses (B) tends to make people more aggressive, not less. It's like practicing a behavior you want to reduce. The brain learns that aggression is an acceptable response. Distractors A and C suggest specific conditions where it might work, which is a common misconception. Distractor D correctly identifies catharsis as a myth but incorrectly suggests that observing aggression (e.g., in media) is a release, which is also generally not supported by evidence (see Bobo Doll experiment)."
+        },
+        {
+          "id": 6,
+          "question": "Which of the following is NOT considered a primary antecedent condition that makes a group vulnerable to groupthink?",
+          "options": {
+            "A": "The group is highly cohesive and values its membership.",
+            "B": "The group is composed of members with diverse viewpoints and expertise.",
+            "C": "The group is isolated from outside opinions and alternative views.",
+            "D": "The group is led by a strong, directive leader who makes their opinion known."
+          },
+          "answer": "B",
+          "short_explanation": "Diversity of viewpoints is a protective factor AGAINST groupthink, not a cause of it. The other options are all classic causes.",
+          "long_explanation": "The antecedent conditions for groupthink create a 'perfect storm' for poor decision-making. High cohesion (A), isolation (C), and a directive leader (D) all contribute to a dynamic where maintaining group harmony is prioritized over critical thinking. In contrast, having members with diverse viewpoints (B) is a key strategy for preventing groupthink, as it naturally introduces different perspectives and reduces the likelihood of a premature, unexamined consensus."
+        },
+        {
+          "id": 7,
+          "question": "The Stanford Prison Experiment is often cited as a powerful demonstration of how social roles can shape behavior. However, what is a major methodological criticism of the study?",
+          "options": {
+            "A": "The participants were not randomly assigned to the roles of 'prisoner' and 'guard'.",
+            "B": "The experiment was ended prematurely, so no valid conclusions could be drawn.",
+            "C": "The researchers, particularly Zimbardo, actively influenced the guards' behavior.",
+            "D": "The participants were aware of the study's hypothesis before it began."
+          },
+          "answer": "C",
+          "short_explanation": "A key flaw was that Zimbardo, acting as 'prison superintendent,' encouraged the guards' aggressive behavior, making it an experiment about obedience as much as roles.",
+          "long_explanation": "While the story of the Stanford Prison Experiment is powerful, its scientific validity is heavily debated. The most significant criticism is that the researchers were not neutral observers. Philip Zimbardo's instructions and encouragement to the 'guards' to be 'tough' created demand characteristics and influenced the outcome. This means the results weren't just a spontaneous expression of social roles but also a response to authority. The participants were randomly assigned (making A incorrect), and ending the experiment early (B) was an ethical necessity, not a methodological flaw in itself. While participants knew they were in a study, the active influence of the experimenter (C) is the most critical flaw."
+        },
+        {
+          "id": 8,
+          "question": "A group of students is assigned a project where the final grade is shared equally, and the professor cannot see individual contributions. According to social psychology, what is the most likely outcome?",
+          "options": {
+            "A": "Social facilitation will lead to better performance on complex parts of the project.",
+            "B": "Social loafing will occur, with individuals exerting less effort than they would alone.",
+            "C": "Groupthink will prevent the team from exploring creative solutions.",
+            "D": "The reciprocity norm will ensure that all members contribute their fair share."
+          },
+          "answer": "B",
+          "short_explanation": "When individual effort is not measurable in a group setting, social loafing is the likely result, as people feel less accountable.",
+          "long_explanation": "This scenario perfectly describes the conditions for social loafing: a group task where individual performance is not evaluated. This lack of accountability leads individuals to relax and exert less effort. Social facilitation (A) occurs when individual performance *is* evaluated. Groupthink (C) is about decision-making, not effort on a task. The reciprocity norm (D) is more about the expectation of future helping behavior, not effort in a current group project with no individual stakes."
+        },
+        {
+          "id": 9,
+          "question": "Evolutionary psychology suggests that altruism, which seems counterintuitive to 'survival of the fittest,' can be explained. Which concept is NOT a primary evolutionary explanation for altruistic behavior?",
+          "options": {
+            "A": "Kin Selection",
+            "B": "The Reciprocity Norm",
+            "C": "Group Selection",
+            "D": "Cognitive Dissonance"
+          },
+          "answer": "D",
+          "short_explanation": "Cognitive dissonance is a theory about resolving internal conflicts, not an evolutionary explanation for why we help others.",
+          "long_explanation": "Kin selection (A), the reciprocity norm (B), and group selection (C) are all theories used by evolutionary psychologists to explain how altruistic behaviors could have evolved because they ultimately confer a survival advantage (to one's genes, to oneself via future help, or to one's group). Cognitive dissonance (D), on the other hand, is a social-cognitive theory about the mental discomfort experienced when holding conflicting beliefs or when behavior contradicts beliefs. It is not an evolutionary theory explaining the origins of altruism."
+        },
+        {
+          "id": 10,
+          "question": "Which of the following scenarios best illustrates the 'illusion of unanimity' as a symptom of groupthink?",
+          "options": {
+            "A": "All members of the group genuinely agree on a course of action after a long debate.",
+            "B": "The group leader pressures a dissenting member into changing their mind.",
+            "C": "Several members have private doubts but remain silent, leading everyone to assume there is full agreement.",
+            "D": "The group believes their decision is morally right and ignores ethical concerns."
+          },
+          "answer": "C",
+          "short_explanation": "The 'illusion of unanimity' is when silence is mistaken for agreement because people with doubts don't speak up.",
+          "long_explanation": "The illusion of unanimity is a specific symptom of groupthink. It's not genuine agreement (A). While pressure on dissenters (B) and belief in moral rightness (D) are also symptoms of groupthink, the illusion of unanimity specifically refers to the false perception of consensus that arises from self-censorship. Members with doubts look around, see no one else objecting, and conclude they are the only one, thus reinforcing their silence and creating a spiral of perceived agreement."
+        },
+        {
+          "id": 11,
+          "question": "A person needs help in a crowded public space. To overcome the bystander effect, the most effective strategy is to:",
+          "options": {
+            "A": "Shout for help as loudly as possible to attract general attention.",
+            "B": "Make the situation seem as ambiguous as possible to intrigue people.",
+            "C": "Make direct eye contact with one person and assign them a specific task.",
+            "D": "Appeal to people's general sense of morality and civic duty."
+          },
+          "answer": "C",
+          "short_explanation": "Overcoming the bystander effect requires defeating ambiguity and diffusion of responsibility, which is best done by singling someone out.",
+          "long_explanation": "The bystander effect is caused by two main factors: diffusion of responsibility and pluralistic ignorance (ambiguity). A general shout (A) or appeal (D) does not solve the diffusion of responsibility—no single person feels accountable. Making the situation ambiguous (B) makes the problem worse. By singling out one person and giving them a direct command (e.g., 'You in the red coat, call 911!'), you eliminate both problems. The situation is no longer ambiguous for that person, and responsibility is no longer diffused; it is placed squarely on them."
+        },
+        {
+          "id": 12,
+          "question": "According to the Frustration-Aggression Theory, which situation is most likely to lead to an aggressive outburst?",
+          "options": {
+            "A": "A student receives a poor grade on an exam they knew was very difficult.",
+            "B": "A driver is stuck in a sudden, unexpected traffic jam when they are already late for an important meeting.",
+            "C": "An employee is passed over for a promotion but understands the person who got it was more qualified.",
+            "D": "A person feels general, non-specific anxiety about the future."
+          },
+          "answer": "B",
+          "short_explanation": "Frustration is strongest when you are close to a goal and your expectation of attaining it is blocked unexpectedly.",
+          "long_explanation": "The Frustration-Aggression Theory states that frustration—the perception that you are being prevented from attaining a goal—increases the probability of an aggressive response. This frustration is most intense when the goal is near and the expectation of achieving it is high, but progress is halted (B). In scenarios A and C, the outcome, while negative, is expected or perceived as fair, reducing frustration. General anxiety (D) is a different emotional state and not the specific trigger described by this theory."
+        },
+        {
+          "id": 13,
+          "question": "What is the key difference between social facilitation and social loafing?",
+          "options": {
+            "A": "Social facilitation involves simple tasks, while social loafing involves complex tasks.",
+            "B": "Social facilitation occurs in large groups, while social loafing occurs in small groups.",
+            "C": "Social facilitation is driven by evaluation anxiety, while social loafing is driven by a lack of accountability.",
+            "D": "Social facilitation improves performance, while social loafing always harms performance."
+          },
+          "answer": "C",
+          "short_explanation": "The critical factor is whether individual performance can be evaluated. If yes, facilitation occurs. If no, loafing occurs.",
+          "long_explanation": "The core distinction lies in the psychological mechanism. In social facilitation, the presence of others who can evaluate you causes arousal and evaluation anxiety. In social loafing, being in a group where your individual contribution is hidden or pooled removes this evaluation anxiety, leading to relaxation and reduced effort. A is incorrect because both phenomena can occur with both types of tasks. B is incorrect as group size is not the defining factor. D is incorrect because social facilitation can harm performance on complex tasks."
+        },
+        {
+          "id": 14,
+          "question": "A manager notices that two departments, Sales and Engineering, are openly hostile toward each other. Drawing from the Robbers Cave experiment, which of the following strategies would be most effective for resolving this conflict?",
+          "options": {
+            "A": "Organizing a company-wide social event where members of both teams can mingle.",
+            "B": "Implementing stricter rules and punishments for disrespectful inter-departmental communication.",
+            "C": "Creating a high-stakes project with a bonus that requires the skills of both departments to succeed.",
+            "D": "Hiring a mediator to facilitate a series of meetings where both teams can air their grievances."
+          },
+          "answer": "C",
+          "short_explanation": "The most effective way to resolve intergroup conflict is to create a superordinate goal that requires the hostile groups to cooperate for a shared benefit.",
+          "long_explanation": "This question asks for an application of the Robbers Cave findings. The experiment showed that mere contact (A) or communication (D) is often insufficient to resolve deep-seated conflict. While rules (B) might suppress overt hostility, they don't address the underlying prejudice. The key finding was the power of superordinate goals. Creating a project that requires the unique skills of both teams and offers a shared reward (C) forces them to work together, breaking down 'us vs. them' barriers and fostering a new, shared identity."
+        },
+        {
+          "id": 15,
+          "question": "The experiment by Dunn, Aknin, and Norton (2006), where students were given $20 to spend, provided strong evidence for which psychological principle?",
+          "options": {
+            "A": "The reciprocity norm, as students felt obligated to spend the money.",
+            "B": "Prosocial spending leads to greater happiness than personal spending.",
+            "C": "Cognitive dissonance arises when people spend money in ways they don't value.",
+            "D": "Altruism is primarily driven by the desire for social approval and recognition."
+          },
+          "answer": "B",
+          "short_explanation": "The study's main finding was that people who spent money on others reported being happier than those who spent it on themselves.",
+          "long_explanation": "The core finding of this experiment was a direct link between prosocial behavior and personal well-being. The group instructed to spend the money on someone else (prosocial spending) reported significantly higher levels of happiness than the group that spent it on themselves. This supports the idea that helping others is intrinsically rewarding. The other options are related concepts but do not represent the central conclusion of this specific study."
+        },
+        {
+          "id": 16,
+          "question": "Which of these is a 'symptom' of groupthink, rather than an 'antecedent condition' or a 'faulty outcome'?",
+          "options": {
+            "A": "High levels of group stress and external threat.",
+            "B": "Incomplete survey of alternatives and poor risk analysis.",
+            "C": "The presence of 'mindguards' who shield the group from dissenting information.",
+            "D": "A highly directive leader who controls the discussion."
+          },
+          "answer": "C",
+          "short_explanation": "Mindguards are a symptom of groupthink in action, where members actively protect the group's consensus, whereas the others are causes or results.",
+          "long_explanation": "The model of groupthink distinguishes between causes, symptoms, and outcomes. High stress (A) and a directive leader (D) are antecedent conditions that create the environment for groupthink. An incomplete survey of alternatives (B) is a faulty decision-making process, which is an outcome of groupthink. Mindguards (C), however, are a behavioral symptom that emerges within the group as it is happening—members actively filtering information to maintain cohesion."
+        },
+        {
+          "id": 17,
+          "question": "A person who chooses to help a sibling before helping a stranger is exhibiting behavior that is best explained by which evolutionary concept?",
+          "options": {
+            "A": "Group Selection",
+            "B": "Reciprocity Norm",
+            "C": "Kin Selection",
+            "D": "Social Exchange Theory"
+          },
+          "answer": "C",
+          "short_explanation": "Kin selection is the evolutionary strategy that favors the reproductive success of an organism's relatives, even at a cost to the organism's own survival.",
+          "long_explanation": "Kin selection theory posits that we are more likely to behave altruistically towards our genetic relatives because, by helping them survive and reproduce, we are indirectly promoting the survival of our own shared genes. Helping a sibling, who shares on average 50% of your genes, is a classic example. The reciprocity norm (B) is about mutual exchange, group selection (A) is about the group's survival, and social exchange theory (D) is a broader cost-benefit analysis of relationships, but kin selection provides the most direct evolutionary explanation for favoring relatives."
+        },
+        {
+          "id": 18,
+          "question": "Why is harsh punishment often ineffective at deterring aggression in the real world?",
+          "options": {
+            "A": "It fails to address the underlying evolutionary causes of aggression.",
+            "B": "It often increases frustration, which can lead to more aggression.",
+            "C": "It is rarely swift or certain enough to create a strong association.",
+            "D": "It models aggressive behavior, teaching the recipient that aggression is acceptable."
+          },
+          "answer": "C",
+          "short_explanation": "For punishment to work as a deterrent, it must be immediate and reliable. The real-world justice system is typically neither.",
+          "long_explanation": "For learning to occur through punishment, the consequence must follow the behavior quickly and consistently. In the real world (e.g., the legal system), there are often long delays between an aggressive act and its punishment, and many acts go unpunished entirely. This lack of swiftness and certainty (C) breaks the cognitive link needed for deterrence. While the other options can also be true to some extent (especially B and D), the primary reason for its ineffectiveness as a general deterrent strategy, as discussed in social psychology, is the failure to meet the conditions of immediacy and certainty."
+        },
+        {
+          "id": 19,
+          "question": "A company wants to boost creativity in its R&D team. Based on the principles of social loafing and social facilitation, which environment would be most conducive to generating novel, complex ideas?",
+          "options": {
+            "A": "A large group brainstorming session where all ideas are written on a shared whiteboard and not attributed to individuals.",
+            "B": "A series of one-on-one meetings where each member presents their best ideas directly to the CEO.",
+            "C": "A competitive process where the individual with the best idea gets a large bonus and public recognition.",
+            "D": "A system where individuals first work alone on the problem and then present their ideas to the group."
+          },
+          "answer": "A",
+          "short_explanation": "For complex tasks like creative brainstorming, the relaxation from a lack of individual evaluation (as in social loafing) can reduce anxiety and boost creativity.",
+          "long_explanation": "This is a tricky application question. While social loafing typically harms performance on simple tasks, the relaxation and reduced evaluation anxiety it creates can actually be beneficial for complex, creative tasks. High-pressure situations with individual evaluation (B, C) would trigger social facilitation, where the arousal could stifle creativity. A system of working alone then presenting (D) is good, but the anonymous group session (A) best captures the low-anxiety environment that can disinhibit creative thought, which is an interesting upside to the dynamics that cause social loafing."
+        },
+        {
+          "id": 20,
+          "question": "Which statement accurately distinguishes between prosocial behavior and altruism?",
+          "options": {
+            "A": "Prosocial behavior is motivated by empathy, while altruism is motivated by societal norms.",
+            "B": "Prosocial behavior encompasses any act that helps, while altruism is helping without expectation of personal gain.",
+            "C": "Prosocial behavior is always directed at kin, while altruism can be directed at anyone.",
+            "D": "Prosocial behavior is a uniquely human trait, while altruism is observed in many animal species."
+          },
+          "answer": "B",
+          "short_explanation": "Prosocial behavior is the broad category of any helpful act. Altruism is a specific type of prosocial behavior that is selfless.",
+          "long_explanation": "This question tests the precise definitions. Prosocial behavior is an umbrella term for any action intended to benefit another person. This action could be motivated by many things, including guilt, the hope of getting something in return, or genuine concern. Altruism is a purer, more specific form of prosocial behavior where the primary motivation is the other person's welfare, even if it comes at a cost to oneself. Therefore, all altruism is prosocial, but not all prosocial behavior is altruistic."
+        }
+      ]
+    }
+  ]
+}
