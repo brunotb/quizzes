@@ -1,0 +1,269 @@
+{
+  "chapters": [
+    {
+      "title": "10. Engineering Psychology",
+      "questions": [
+        {
+          "id": 1,
+          "question": "A pilot is flying through a storm and is highly focused on their altitude and airspeed indicators. A non-critical 'cabin temperature out of range' message appears in a bright, flashing color, but the pilot doesn't notice it for several minutes. According to the SEEV model, which factor best explains why the salient message was missed?",
+          "options": {
+            "A": "The message had low Salience due to the storm.",
+            "B": "The pilot's high Effort prevented them from seeing it.",
+            "C": "The pilot had a low Expectancy for this specific message.",
+            "D": "The message had low Value relative to the pilot's primary goal."
+          },
+          "answer": "D",
+          "short_explanation": "Value (importance to the goal) can override Salience (how much it stands out). The pilot ignored the bright light because it wasn't important for flying the plane.",
+          "long_explanation": "The SEEV model explains attention distribution through Salience, Expectancy, Effort, and Value. In this scenario, the message was highly salient (bright, flashing), so A is incorrect. While effort and expectancy play roles, the core reason it was ignored is Value. The pilot's top-down processing, driven by the goal of safely navigating the storm, assigned high value to flight instruments and low value to the cabin temperature, causing them to filter out the less important, albeit salient, information."
+        },
+        {
+          "id": 2,
+          "question": "A new stove top design places the control knobs in a single horizontal row, even though the four burners are arranged in a 2x2 square. This makes it difficult for users to intuitively know which knob controls which burner. This design primarily violates which principle of display design?",
+          "options": {
+            "A": "Principle of Pictorial Realism",
+            "B": "Principle of Redundancy Gain",
+            "C": "Principle of Consistency",
+            "D": "Principle of Moving Parts"
+          },
+          "answer": "A",
+          "short_explanation": "Pictorial Realism states a display should look like what it represents. The layout of the controls should mirror the layout of the burners.",
+          "long_explanation": "This is a classic failure of Pictorial Realism, a mental model principle. The layout of the controls does not correspond to the physical layout of the system components they operate. While it could also be seen as a violation of consistency (D) with other stoves, the most direct and specific principle violated is Pictorial Realism. Redundancy Gain (B) is about presenting information in multiple formats, and the Moving Part Principle (D) relates to the direction of movement on a display, neither of which is the primary issue here."
+        },
+        {
+          "id": 3,
+          "question": "A user clicks the 'save' icon in a word processor. The application saves the file correctly, but provides no visual feedback—the icon doesn't change, no loading bar appears, and no confirmation message is shown. The user, feeling uncertain, clicks 'save' again. This difficulty occurs within which of Norman's seven stages of action?",
+          "options": {
+            "A": "Specifying the Action Sequence",
+            "B": "Executing the Action",
+            "C": "Perceiving the System State",
+            "D": "Evaluating the Outcome"
+          },
+          "answer": "C",
+          "short_explanation": "The user's problem is an inability to perceive the system's new state (i.e., 'saved') due to a lack of feedback.",
+          "long_explanation": "Norman's model includes the Gulf of Evaluation, which consists of Perceiving the System State, Interpreting the State, and Evaluating the Outcome. The very first step in this gulf is Perceiving the State (Stage 5). Because the system provided no feedback, the user was unable to perceive that a change had occurred. This prevented them from moving on to interpretation and evaluation, leading to uncertainty and repeated action. The problem isn't in planning (A) or doing (B), but in checking the result."
+        },
+        {
+          "id": 4,
+          "question": "A designer is analyzing the task of 'ordering a pizza online.' They create a diagram that breaks the main goal into sub-goals like 'Select Pizza Size,' which is further broken down into steps like 'Click size dropdown' and 'Select Large.' They are not yet assigning time values or defining rules for choosing between different methods. Which task analysis method is being used?",
+          "options": {
+            "A": "GOMS Analysis",
+            "B": "Hierarchical Task Analysis (HTA)",
+            "C": "Requirements Analysis",
+            "D": "WIMP Interface Analysis"
+          },
+          "answer": "B",
+          "short_explanation": "HTA is the method of breaking down a high-level goal into a hierarchy of sub-goals and operations, which is exactly what is described.",
+          "long_explanation": "This is a textbook example of Hierarchical Task Analysis (HTA). HTA focuses on decomposing a task into a hierarchy of goals, sub-goals, and operations. GOMS (A) is more detailed, including specific Methods and Selection Rules, and is often used to predict execution time. Requirements Analysis (C) is a broader phase that includes HTA, but HTA is the specific method described. WIMP (D) is a type of interface, not a task analysis method."
+        },
+        {
+          "id": 5,
+          "question": "A hospital monitoring system is designed so that a critical 'cardiac arrest' alarm is a soft, low-frequency chime, while a non-urgent 'low battery' warning is a loud, piercing siren. This design is fundamentally flawed because it violates principles of:",
+          "options": {
+            "A": "Mapping signal properties to event urgency",
+            "B": "Using the principle of multiple resources",
+            "C": "Avoiding absolute sensory judgments",
+            "D": "Ensuring all alarms are easily localizable"
+          },
+          "answer": "A",
+          "short_explanation": "The alarm's characteristics (loudness, pitch) should directly correspond to the urgency of the event. Here, the mapping is inverted and dangerous.",
+          "long_explanation": "Effective alarm design requires that the physical properties of the signal (amplitude, frequency) map intuitively to the urgency and severity of the event. A critical event should have a highly salient alarm (loud, sharp, attention-grabbing). This design does the opposite, creating a dangerous situation where operators might ignore a critical event and overreact to a non-critical one. The other options are valid design principles but do not describe the core flaw in this specific scenario."
+        },
+        {
+          "id": 6,
+          "question": "A website requires users to remember a complex discount code from the homepage and enter it on the final checkout page three steps later. Which design principle could best be applied to improve this user experience?",
+          "options": {
+            "A": "Principle of Consistency",
+            "B": "Predictive Aiding",
+            "C": "Proximity Compatibility Principle",
+            "D": "Replace Memory with Visual Information"
+          },
+          "answer": "D",
+          "short_explanation": "This design burdens user memory. The solution is to display the information where it's needed, following the 'recognition over recall' rule.",
+          "long_explanation": "The core problem is an excessive memory load, forcing users to recall information. The 'Replace Memory with Visual Information' principle directly addresses this. A better design would automatically apply the code or display it clearly on the checkout page so the user can recognize it instead of recalling it. While consistency (A) and proximity (C) are important, they don't solve the fundamental memory problem. Predictive aiding (B) is about showing future states, which is not the issue here."
+        },
+        {
+          "id": 7,
+          "question": "A user presses a button on an old vending machine. They hear a faint internal whirring sound, but the button itself does not light up, click, or move. According to the hierarchy of action feedback, what is the most significant weakness in this interaction?",
+          "options": {
+            "A": "The transfer function is too slow.",
+            "B": "The lack of haptic and visual feedback.",
+            "C": "The operation is not intuitive.",
+            "D": "The system does not prevent errors."
+          },
+          "answer": "B",
+          "short_explanation": "The best feedback is haptic (touch/click), followed by acoustic, then visual. This system lacks the two most effective types of immediate feedback.",
+          "long_explanation": "Good control design requires immediate feedback. The hierarchy of effectiveness is generally considered to be haptic (tactile), acoustic (sound), and then visual. This machine provides only weak acoustic feedback. The lack of a physical click (haptic) or a light (visual) makes the interaction feel unresponsive and uncertain, which is a major design flaw. The other options are less relevant; the transfer function (A) might be fine, and intuitiveness (C) and error prevention (D) are not the primary issues described."
+        },
+        {
+          "id": 8,
+          "question": "An air traffic controller spots a single, small blip on their radar moving against the expected flow of all other aircraft. The blip is not brightly colored or flashing. What type of attentional processing most likely allowed the controller to spot this anomaly?",
+          "options": {
+            "A": "Salience-driven bottom-up processing",
+            "B": "Effort-based attentional filtering",
+            "C": "Expectancy-driven top-down processing",
+            "D": "Value-based information seeking"
+          },
+          "answer": "C",
+          "short_explanation": "The controller noticed the blip because it violated their expectation of how aircraft should behave, which is a form of top-down processing.",
+          "long_explanation": "This is an example of top-down processing. The stimulus itself was not salient (A), so bottom-up processing is not the primary driver. The controller's knowledge and expectations about normal flight patterns created a mental model. The anomalous blip violated this model (low expectancy for that behavior), which made it stand out. This is a key skill for experts, who use their deep knowledge to notice subtle deviations from the norm."
+        },
+        {
+          "id": 9,
+          "question": "During the development of a new mobile app, the design team creates a basic, clickable wireframe and asks five potential users to try and complete a core task with it. This activity is a hallmark of which stage of the product development lifecycle?",
+          "options": {
+            "A": "Iterative design (prototyping)",
+            "B": "Requirements analysis",
+            "C": "System operation and maintenance",
+            "D": "Implementation and production"
+          },
+          "answer": "A",
+          "short_explanation": "Using a prototype (like a clickable wireframe) to get user feedback is the core loop of the iterative design phase.",
+          "long_explanation": "The product lifecycle involves several stages. Requirements analysis (B) is about understanding user needs *before* designing. Implementation (D) is the actual coding. Maintenance (C) happens after launch. The activity described—building a low-fidelity version of the product and testing it with users to inform the next version—is the definition of iterative design and prototyping."
+        },
+        {
+          "id": 10,
+          "question": "The screen of a smart refrigerator displays the internal temperature, the ice maker's status, and the current weather forecast for the city. According to the classification of visual information, the weather forecast is an example of what?",
+          "options": {
+            "A": "System parameter information",
+            "B": "A call to action",
+            "C": "System condition information",
+            "D": "World information"
+          },
+          "answer": "D",
+          "short_explanation": "World information is data that is independent of the system's core function. The fridge doesn't need the weather to operate.",
+          "long_explanation": "Engineering psychology differentiates between System Information (data needed to understand and operate the system) and World Information (data the system merely displays). The temperature and ice maker status are System Information (A, C) because they relate to the fridge's function. The weather forecast is World Information because it's external data displayed for convenience and is not related to the system's primary task of refrigeration."
+        },
+        {
+          "id": 11,
+          "question": "A mobile app uses ten slightly different shades of green to indicate signal strength, making it very difficult for users to determine the exact level. This design fails primarily on which perceptual principle?",
+          "options": {
+            "A": "Discriminability",
+            "B": "Redundancy Gain",
+            "C": "Avoid Absolute Judgments",
+            "D": "Top-Down Processing"
+          },
+          "answer": "C",
+          "short_explanation": "Humans are poor at judging the absolute value of a single sensory variable (like shade of color). This principle advises using fewer, more distinct levels.",
+          "long_explanation": "The principle of 'Avoid Absolute Judgments' states that designs should not require users to make fine distinctions along a single sensory dimension (like color, size, or loudness). Our brains are much better at relative comparisons. Using many similar shades forces an absolute judgment and leads to confusion. While it also relates to Discriminability (A), the more specific and fundamental principle being violated is the avoidance of absolute judgments."
+        },
+        {
+          "id": 12,
+          "question": "After submitting an online form, a user receives the error message: 'Error #402: Invalid input.' This message most directly violates the principle of good system dialogs related to:",
+          "options": {
+            "A": "Controllability",
+            "B": "Fault tolerance and constructive error handling",
+            "C": "Customizability",
+            "D": "Conduciveness to learning"
+          },
+          "answer": "B",
+          "short_explanation": "A good system helps users recover from errors. This message fails because it is not descriptive and offers no solution.",
+          "long_explanation": "This error message is a classic example of poor fault tolerance. A good system dialog should not just state that an error occurred, but also explain the error in plain language and provide constructive advice on how to fix it (e.g., 'Error: Please enter a valid 10-digit phone number'). The message 'Error #402' is not self-descriptive and does not help the user correct their mistake, thus violating the principles of fault tolerance and effective error handling."
+        },
+        {
+          "id": 13,
+          "question": "An international airport decides to replace its universally recognized fire alarm siren with a voice-only alarm that says 'Fire detected' in the local language. What is the primary disadvantage of this change in a high-stakes environment?",
+          "options": {
+            "A": "It is less effective in a multilingual environment.",
+            "B": "A voice alarm cannot convey specific actions.",
+            "C": "It is more likely to cause a startle response.",
+            "D": "The meaning of a voice alarm must be learned."
+          },
+          "answer": "A",
+          "short_explanation": "Non-speech alarms (sirens) are language-independent, making them more suitable for international settings than a voice alarm in a single language.",
+          "long_explanation": "While voice alarms can be very effective because their meaning is clear (making D incorrect), their major drawback is that they are language-dependent. In a multilingual setting like an international airport, a significant portion of people will not understand the message, rendering it ineffective. A non-speech alarm, while its meaning must be learned, is often universally recognized and cuts through language barriers. B is incorrect as voice alarms are excellent at conveying specific actions."
+        },
+        {
+          "id": 14,
+          "question": "A company evaluates its new software by exclusively measuring how quickly users can complete five specific tasks and how many errors they make. While useful, this evaluation is primarily focused on which aspect of user experience, potentially neglecting others?",
+          "options": {
+            "A": "Joy of Use",
+            "B": "Usability",
+            "C": "User Stress",
+            "D": "System Understanding"
+          },
+          "answer": "B",
+          "short_explanation": "Measuring efficiency (speed) and effectiveness (error rate) are the core components of usability, but this ignores emotional and cognitive aspects.",
+          "long_explanation": "The evaluation described is a classic usability test, focusing on performance metrics like task completion time and error rate. Usability is a critical component of evaluation, but it's not the whole picture. This approach neglects other important aspects like Joy of Use (is it pleasant?), Stress (is it frustrating?), and System Understanding (do users feel in control?). A comprehensive evaluation would incorporate measures for these other factors as well."
+        },
+        {
+          "id": 15,
+          "question": "A car's dashboard design places the frequently checked speedometer and fuel gauge in the center of the instrument cluster, while the less-used clock and trip odometer controls are off to the side. This is a good application of which attention-based principle?",
+          "options": {
+            "A": "Proximity Compatibility Principle",
+            "B": "Principle of Multiple Resources",
+            "C": "Minimize Information Access Cost",
+            "D": "Redundancy Gain"
+          },
+          "answer": "C",
+          "short_explanation": "This principle states that frequently accessed information should require the least effort (time, eye movement) to view.",
+          "long_explanation": "The 'Minimize Information Access Cost' principle is about designing for efficiency. By placing the most critical and frequently needed information in the primary field of view, the design reduces the cognitive and physical effort required for the driver to monitor the car's state. Proximity Compatibility (A) is about grouping related items, which may also apply, but the primary driver for placing important items in the center is minimizing access cost."
+        },
+        {
+          "id": 16,
+          "question": "A user wants to crop a photo in a new software program. They know what they want to do but cannot find the crop tool because it is hidden inside a vaguely named menu called 'Image Transformations.' This difficulty represents a wide:",
+          "options": {
+            "A": "Gulf of Evaluation",
+            "B": "Memory-Execution Gap",
+            "C": "Perception-Action Mismatch",
+            "D": "Gulf of Execution"
+          },
+          "answer": "D",
+          "short_explanation": "The Gulf of Execution is the gap between the user's intention and the actions the system allows them to perform. The user can't execute their plan because the control is hidden.",
+          "long_explanation": "Don Norman defines the Gulf of Execution as the difficulty users have in translating their goals into the required actions and operations offered by a system. In this case, the user has a clear goal and intention but is blocked because the system's design makes it unclear how to perform the action. The Gulf of Evaluation (A) relates to difficulties in understanding the system's feedback *after* an action has been taken."
+        },
+        {
+          "id": 17,
+          "question": "A pedestrian crossing signal uses a visual 'walking person' symbol, an audible 'cuckoo' sound, and a vibrating button for visually impaired individuals to indicate it is safe to cross. This use of multiple, distinct cues to convey the same message is an example of:",
+          "options": {
+            "A": "Redundancy Gain",
+            "B": "Pictorial Realism",
+            "C": "Proximity Compatibility",
+            "D": "Predictive Aiding"
+          },
+          "answer": "A",
+          "short_explanation": "Redundancy Gain is the principle of conveying the same information through different sensory channels (visual, auditory, haptic) to increase the chance of it being perceived.",
+          "long_explanation": "This is a perfect example of Redundancy Gain. The critical information ('safe to cross') is presented in three different formats targeting three different senses. This increases the likelihood that the message will be received by all users, including those with sensory impairments, and provides a backup if one channel fails (e.g., a person can't hear the sound in a noisy environment but can see the light)."
+        },
+        {
+          "id": 18,
+          "question": "A user interacts with their smart home system by saying, 'Hey system, dim the living room lights to 50 percent.' This represents which form of human-computer interaction?",
+          "options": {
+            "A": "Direct manipulation",
+            "B": "Natural language",
+            "C": "Command language",
+            "D": "Question-answer fields"
+          },
+          "answer": "B",
+          "short_explanation": "Interacting with a system using everyday spoken language, as one would with a person, is defined as natural language interaction.",
+          "long_explanation": "This interaction style is Natural Language, as it uses conversational human language. It is distinct from Command Language (C), which requires precise, rigid syntax (e.g., 'set lights.livingroom.brightness=0.5'). It is not Direct Manipulation (A), which involves visually acting on objects (like dragging a slider), nor is it a Question-Answer field (D), where the system prompts the user."
+        },
+        {
+          "id": 19,
+          "question": "A software application uses a red 'X' icon to confirm a successful action and a green checkmark icon to cancel an operation. This design is most problematic because it violates the principle of:",
+          "options": {
+            "A": "Task appropriateness",
+            "B": "Self-descriptiveness",
+            "C": "Controllability",
+            "D": "Conformity to expectations"
+          },
+          "answer": "D",
+          "short_explanation": "Users have strong, learned expectations (conventions) that green means 'go/confirm' and red means 'stop/cancel'. This design violates that convention.",
+          "long_explanation": "The most significant flaw here is the violation of 'Conformity to expectations,' also known as consistency with user conventions. Across countless applications, users have learned that green/checkmark signifies confirmation and red/X signifies cancellation or error. By reversing this established convention, the design forces users to overcome their ingrained mental model, leading to confusion and a high likelihood of errors. The other principles are less directly violated."
+        },
+        {
+          "id": 20,
+          "question": "A study finds that accountants are significantly faster at entering numbers on a standard computer numeric keypad (7-8-9 at the top) than on a telephone keypad (1-2-3 at the top). This performance difference is best explained by which psychological concept?",
+          "options": {
+            "A": "Task-specific mental models",
+            "B": "Absolute sensory judgment",
+            "C": "The GOMS model",
+            "D": "The Gulf of Evaluation"
+          },
+          "answer": "A",
+          "short_explanation": "The accountants have a well-developed mental model for the computer keypad layout from extensive practice, making their interaction with it faster and more automatic.",
+          "long_explanation": "This phenomenon is best explained by the concept of mental models. Through repeated use in their professional tasks, the accountants have developed a highly practiced, automatic mental model of the computer keypad layout. When using that layout, their performance is fast and efficient. The telephone layout conflicts with this established model, requiring more conscious thought and slowing them down. While GOMS (C) could be used to model this difference, the underlying psychological reason *for* the difference is the user's mental model."
+        }
+      ]
+    }
+  ]
+}

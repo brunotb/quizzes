@@ -1,0 +1,269 @@
+{
+  "chapters": [
+    {
+      "title": "12. Research Methods",
+      "questions": [
+        {
+          "id": 1,
+          "question": "A researcher wants to test if a new mindfulness app reduces stress in office workers. They recruit two different companies for the study. Company A is given the app, and Company B is not. Stress levels are measured before and after the 3-month study. What is the primary limitation of this research design for making a causal claim?",
+          "options": {
+            "A": "The study lacks a pre-test measurement to establish a baseline.",
+            "B": "A longitudinal design is not suitable for testing causal effects.",
+            "C": "The lack of random assignment means the two companies might have differed initially.",
+            "D": "The dependent variable (stress) is not an objective measure."
+          },
+          "answer": "C",
+          "short_explanation": "This is a quasi-experiment; without random assignment, you can't be sure the groups were equal to begin with.",
+          "long_explanation": "This design is a quasi-experiment because it uses pre-existing groups (two different companies) rather than randomly assigning individuals. The primary threat to causality in such a design is selection bias—the employees at Company A might have been systematically different (e.g., more tech-savvy, higher initial stress) than those at Company B. While the pre-test helps, it cannot account for all the unmeasured differences between the groups, making it difficult to attribute any change solely to the app."
+        },
+        {
+          "id": 2,
+          "question": "A student proposes the hypothesis: 'It is morally wrong for leaders to be autocratic.' Why does this statement fail as a scientific hypothesis?",
+          "options": {
+            "A": "It is not theoretically justified.",
+            "B": "It is not empirically verifiable.",
+            "C": "It does not have a conditional 'if-then' structure.",
+            "D": "It makes a claim about a group rather than an individual."
+          },
+          "answer": "B",
+          "short_explanation": "Scientific hypotheses must be testable with data; 'morally wrong' is a value judgment, not a measurable concept.",
+          "long_explanation": "The core criterion that this statement fails is that it is not empirically verifiable. Science deals with observable and measurable phenomena. 'Morally wrong' is a subjective, philosophical concept that cannot be measured with objective data. While one could study people's *perceptions* of whether it is wrong, the statement itself is a value judgment and thus falls outside the realm of scientific inquiry."
+        },
+        {
+          "id": 3,
+          "question": "According to the Framework Model of Leadership presented in the lecture, a leader's personality (e.g., high extraversion) is best understood as:",
+          "options": {
+            "A": "A direct and sufficient cause of leadership success.",
+            "B": "A situational context variable that moderates employee performance.",
+            "C": "A leadership style that is independent of the managed employees.",
+            "D": "A factor that influences leadership behavior, which in turn affects outcomes."
+          },
+          "answer": "D",
+          "short_explanation": "The model shows personality influences a leader's actions, which then impact success through the team and context.",
+          "long_explanation": "The framework model illustrates a causal chain: Leader characteristics (like personality) → Leadership Behavior → Managed Employees → Leadership Success, all within a Situational Context. Therefore, personality is not a direct cause of success but an input that shapes the leader's actions (behavior). The success of those actions is then determined by how they interact with the employees and the situation."
+        },
+        {
+          "id": 4,
+          "question": "A researcher decides to publicly post their study's hypotheses and detailed analysis plan on a repository before collecting any data. This practice is a core component of Open Science primarily designed to prevent:",
+          "options": {
+            "A": "Ethical violations related to participant consent.",
+            "B": "The unintentional collection of flawed or noisy data.",
+            "C": "P-hacking and HARKing (Hypothesizing After the Results are Known).",
+            "D": "Difficulties in getting the research published in top journals."
+          },
+          "answer": "C",
+          "short_explanation": "Pre-registration locks in the hypothesis and analysis plan, preventing researchers from changing their story after seeing the data.",
+          "long_explanation": "This practice is called pre-registration. By committing to hypotheses and an analysis plan beforehand, researchers cannot selectively report positive findings (p-hacking) or formulate a new hypothesis that perfectly fits the data as if they had predicted it all along (HARKing). This increases the credibility and transparency of the research findings."
+        },
+        {
+          "id": 5,
+          "question": "A psychologist wants to understand the day-to-day experience of remote work. She conducts lengthy, in-depth interviews with 10 remote workers, asking open-ended questions about their challenges and successes. This study is best described as:",
+          "options": {
+            "A": "A quantitative, cross-sectional study.",
+            "B": "An experimental study.",
+            "C": "A qualitative study.",
+            "D": "A longitudinal study."
+          },
+          "answer": "C",
+          "short_explanation": "The use of in-depth interviews with a small sample to explore experiences is the hallmark of qualitative research.",
+          "long_explanation": "This research focuses on gaining a deep, rich understanding of a phenomenon from the perspective of the participants. The methods used—in-depth interviews and open-ended questions—are designed to gather non-numerical, descriptive data. This approach is characteristic of qualitative research, which prioritizes depth of understanding over the breadth of quantitative surveys or the causal control of experiments."
+        },
+        {
+          "id": 6,
+          "question": "A study finds a strong positive correlation (r = .80) between the number of hours students spend in the library and their final grades. Why is it inappropriate to conclude that spending more time in the library *causes* higher grades?",
+          "options": {
+            "A": "The study design should have been a longitudinal study to show causality.",
+            "B": "A third variable, such as student motivation, could be causing both.",
+            "C": "The correlation is not statistically significant.",
+            "D": "A negative correlation would be required to establish a causal link."
+          },
+          "answer": "B",
+          "short_explanation": "Correlation does not equal causation, often because a third, unmeasured variable is the true cause.",
+          "long_explanation": "This is a classic example of the 'third-variable problem.' While the two variables are related, it is plausible that another factor, like a student's level of motivation or good study habits, causes them to both spend more time in the library and achieve higher grades. The correlation itself cannot rule out such alternative explanations, which is why it cannot prove causation. Only a true experiment with random assignment could do so."
+        },
+        {
+          "id": 7,
+          "question": "In an experiment testing if caffeine improves reaction time, one group drinks caffeinated coffee and another drinks decaffeinated coffee. Both groups then complete a reaction time test. In this study, the reaction time test score is the:",
+          "options": {
+            "A": "Dependent variable.",
+            "B": "Independent variable.",
+            "C": "Confounding variable.",
+            "D": "Predictor variable."
+          },
+          "answer": "A",
+          "short_explanation": "The dependent variable is the outcome that is measured to see if the treatment had an effect.",
+          "long_explanation": "In an experiment, the Independent Variable (IV) is what the researcher manipulates (the type of coffee). The Dependent Variable (DV) is the outcome that is measured to assess the effect of the manipulation. Its value is expected to 'depend' on the condition the participant was in. Here, the researcher is measuring reaction time to see if it was affected by the caffeine."
+        },
+        {
+          "id": 8,
+          "question": "A researcher obtains a large, publicly available dataset from a national health survey conducted five years ago. They use this data to investigate a new hypothesis about the relationship between diet and sleep quality that was not explored by the original researchers. This is an example of:",
+          "options": {
+            "A": "A primary analysis.",
+            "B": "A meta-analysis.",
+            "C": "A longitudinal study.",
+            "D": "A secondary analysis."
+          },
+          "answer": "D",
+          "short_explanation": "Secondary analysis involves using existing data, collected by someone else, to answer a new research question.",
+          "long_explanation": "This method is defined by its data source. Since the researcher is not collecting new data (which would be a primary analysis) or statistically combining the results of multiple studies (a meta-analysis), but is instead re-analyzing an existing dataset for a new purpose, it is a secondary analysis. This is an efficient way to conduct research but is limited by the variables available in the original dataset."
+        },
+        {
+          "id": 9,
+          "question": "What key advantage does a longitudinal design have over a cross-sectional design when investigating the development of a skill over the lifespan?",
+          "options": {
+            "A": "It can definitively prove what factors cause the skill to develop.",
+            "B": "It is less expensive and time-consuming to conduct.",
+            "C": "It can track changes within the same individuals over time.",
+            "D": "It eliminates the problem of panel mortality (participant dropout)."
+          },
+          "answer": "C",
+          "short_explanation": "Longitudinal studies track the same people, allowing researchers to observe individual change, unlike a cross-sectional snapshot.",
+          "long_explanation": "A cross-sectional study compares different people at different ages at the same time, which can be misleading due to cohort effects (differences between generations). The unique strength of a longitudinal study is that it follows the *same* individuals, allowing researchers to observe actual developmental trajectories and changes within a person. While it cannot prove causation like an experiment, it is superior for describing development."
+        },
+        {
+          "id": 10,
+          "question": "An ethics committee is reviewing a research proposal involving deception. The committee's primary ethical consideration will be:",
+          "options": {
+            "A": "Ensuring the deception is clever enough that no participant will figure it out.",
+            "B": "Verifying that the statistical analysis plan can account for the deception.",
+            "C": "Determining if the study's potential value justifies the deception and that a debriefing is planned.",
+            "D": "Confirming that the deception will not affect the validity of the results."
+          },
+          "answer": "C",
+          "short_explanation": "The core ethical principle is the risk-benefit analysis: is the knowledge gained worth the potential harm of the deception?",
+          "long_explanation": "Deception in research is sometimes necessary but poses a significant ethical challenge. The ethics committee's main role is to perform a risk-benefit analysis. They must be convinced that the scientific knowledge to be gained is important enough to warrant the temporary deception. Furthermore, they will insist that any potential harm is minimized and that a thorough debriefing procedure is in place to explain the deception and its reasons to participants after the study is over."
+        },
+        {
+          "id": 11,
+          "question": "Research on the 'Big Five' personality traits and leadership success found that Agreeableness had a very weak correlation (r = .08). This finding suggests that:",
+          "options": {
+            "A": "Leaders who are disagreeable are significantly more successful than agreeable leaders.",
+            "B": "Traits like being warm and cooperative are less critical for leadership success than traits like extraversion or conscientiousness.",
+            "C": "Agreeableness is a temporary state, not a stable trait for leaders.",
+            "D": "Being compassionate and understanding is a strong predictor of becoming a successful leader."
+          },
+          "answer": "B",
+          "short_explanation": "A correlation near zero means the trait is not a strong predictor, especially when compared to other traits with stronger correlations.",
+          "long_explanation": "A correlation coefficient close to zero indicates a very weak relationship. Since the correlations for Extraversion (r=.31) and Conscientiousness (r=.28) are much stronger, this finding implies that Agreeableness is relatively less important in predicting leadership success. It does not mean being disagreeable is better (that would be a strong negative correlation), only that being agreeable is not a key differentiating factor compared to other traits."
+        },
+        {
+          "id": 12,
+          "question": "Which of the following statements is a non-falsifiable, and therefore unscientific, hypothesis?",
+          "options": {
+            "A": "All events in the universe are predetermined by an unobservable, undetectable force.",
+            "B": "Increasing sleep to 8 hours per night improves memory recall in students.",
+            "C": "There is a negative correlation between screen time and academic performance.",
+            "D": "Transformational leadership is more effective than transactional leadership in creative industries."
+          },
+          "answer": "A",
+          "short_explanation": "A hypothesis must be testable. A claim about an 'undetectable' force cannot be proven wrong, so it is not falsifiable.",
+          "long_explanation": "Falsifiability, a concept from Karl Popper, is a cornerstone of science. A statement is falsifiable if it is possible to conceive of an observation or an experiment that could prove the statement wrong. The claim about an 'unobservable, undetectable force' is constructed in a way that makes it impossible to test. The other options are all falsifiable: you could conduct studies and find results that contradict them."
+        },
+        {
+          "id": 13,
+          "question": "You want to investigate if a new teaching method improves student learning in a real classroom setting. You convince a teacher to use the new method for one semester and compare her students' final exam scores to the scores of her class from the previous year, who were taught with the old method. This design is best described as a:",
+          "options": {
+            "A": "True experiment, because it involves a treatment and a control group.",
+            "B": "Cross-sectional study, because data is collected at one point in time.",
+            "C": "Meta-analysis, because it compares results from two different time periods.",
+            "D": "Quasi-experiment, because it uses pre-existing groups without random assignment."
+          },
+          "answer": "D",
+          "short_explanation": "This is a quasi-experiment because the groups (this year's class vs. last year's class) were not formed by random assignment.",
+          "long_explanation": "This design includes a treatment (the new method) and a comparison group (the previous year's class), but it lacks random assignment. The students were not randomly assigned to receive the old or new method. The two classes might differ in many ways other than the teaching method (e.g., overall academic ability, different external events). This use of non-equivalent, pre-existing groups is the defining feature of a quasi-experiment."
+        },
+        {
+          "id": 14,
+          "question": "A valid declaration of consent must be 'voluntary.' This specifically means that:",
+          "options": {
+            "A": "Participants are offered a reasonable monetary compensation for their time.",
+            "B": "Participants feel no coercion and know they can withdraw at any time without penalty.",
+            "C": "The researcher has voluntarily decided to conduct the study in an ethical manner.",
+            "D": "The participant voluntarily provides answers to every single question in the survey."
+          },
+          "answer": "B",
+          "short_explanation": "Voluntary consent means the decision to participate is free from pressure and the participant knows they can leave anytime.",
+          "long_explanation": "The principle of voluntary participation is crucial for ethical research. It ensures that the participant's agreement is not the result of coercion, undue influence (e.g., an excessively large payment that is hard to refuse), or fear of negative consequences. A key part of this is informing participants that they have the right to withdraw from the study at any point, for any reason, without losing any benefits they were promised (like compensation for time already spent)."
+        },
+        {
+          "id": 15,
+          "question": "A researcher states: 'There is a relationship between a person's diet and their mood.' This is an example of:",
+          "options": {
+            "A": "A null hypothesis, because it does not propose a specific effect.",
+            "B": "A directional hypothesis, because it links two specific variables.",
+            "C": "An undirectional hypothesis, because it does not specify if the diet improves or worsens mood.",
+            "D": "A tautology, because it is a statement that is true by definition."
+          },
+          "answer": "C",
+          "short_explanation": "An undirectional (or non-directional) hypothesis predicts a relationship exists but not its specific direction.",
+          "long_explanation": "This hypothesis posits that a relationship exists between diet and mood, but it does not specify the nature of that relationship. A directional hypothesis would be more specific, such as 'A healthier diet is associated with an improved mood.' A null hypothesis would state the opposite: 'There is no relationship between diet and mood.' Because this statement predicts a relationship without a specific direction, it is undirectional."
+        },
+        {
+          "id": 16,
+          "question": "A manager sets clear goals for her team and provides bonuses for meeting targets and verbal warnings for failing to meet them. This approach is a classic example of which leadership style?",
+          "options": {
+            "A": "Transformational.",
+            "B": "Democratic.",
+            "C": "Autocratic.",
+            "D": "Transactional."
+          },
+          "answer": "D",
+          "short_explanation": "Transactional leadership is based on an exchange of rewards and punishments for meeting defined performance standards.",
+          "long_explanation": "This leadership style is defined by the 'transaction' between the leader and the follower. The leader clarifies expectations and uses a system of contingent rewards (bonuses) and punishments (warnings) to manage performance. This differs from transformational leadership (which focuses on inspiration), democratic leadership (shared decisions), and autocratic leadership (top-down commands)."
+        },
+        {
+          "id": 17,
+          "question": "What is the primary goal of conducting a meta-analysis?",
+          "options": {
+            "A": "To explore a new research question using a pre-existing dataset.",
+            "B": "To conduct a new experiment with a very large and diverse sample of participants.",
+            "C": "To statistically synthesize the results of many previous studies on the same topic.",
+            "D": "To conduct in-depth qualitative interviews to understand a phenomenon deeply."
+          },
+          "answer": "C",
+          "short_explanation": "A meta-analysis is a 'study of studies' that combines results to find an overall effect.",
+          "long_explanation": "The purpose of a meta-analysis is to move beyond the findings of a single study and provide a more robust, big-picture conclusion. By gathering all available studies on a specific question and using statistical methods to combine their effect sizes, a meta-analysis can estimate the true overall effect and identify reasons why results might vary across studies. It is a powerful quantitative tool for summarizing a field of research."
+        },
+        {
+          "id": 18,
+          "question": "In experimental design, what is the main purpose of randomly assigning participants to different conditions?",
+          "options": {
+            "A": "To ensure that the sample is representative of the broader population.",
+            "B": "To make the groups as equivalent as possible on all potential confounding variables.",
+            "C": "To guarantee that all participants have an equal chance of receiving the treatment.",
+            "D": "To simplify the statistical analysis required to test the hypothesis."
+          },
+          "answer": "B",
+          "short_explanation": "Randomization's magic is that it balances out pre-existing individual differences between groups.",
+          "long_explanation": "This is a critical concept. Random assignment is different from random sampling (which is about representativeness). The purpose of random assignment is to control for confounding variables by ensuring that, on average, the groups are comparable on all characteristics (e.g., age, IQ, personality, motivation) before the experiment begins. This allows the researcher to be more confident that any observed differences in the outcome are due to the experimental manipulation, not pre-existing group differences."
+        },
+        {
+          "id": 19,
+          "question": "According to the lecture on data protection, which of the following pieces of information is NOT a required component for creating a 'processing activity' record at TUM?",
+          "options": {
+            "A": "The full transcript of each participant's interview or survey responses.",
+            "B": "The contact information of the person responsible for the project.",
+            "C": "A plan for when and how the data will be deleted.",
+            "D": "The reason for collecting the data and where it will be stored."
+          },
+          "answer": "A",
+          "short_explanation": "The processing activity is a record *about* the data handling, not a storage place for the raw data itself.",
+          "long_explanation": "The 'processing activity' (Verarbeitungstätigkeit) is a form of metadata—data about data. It documents the who, what, where, when, and why of your data handling plan. It requires you to state who is responsible, why the data is being collected, what types of data are collected, where it's stored, and when it will be deleted. It does not, however, contain the raw data (like full transcripts) itself. The raw data would be stored separately in the secure location specified in the record."
+        },
+        {
+          "id": 20,
+          "question": "A cross-sectional study finds that people who report higher job satisfaction also report better physical health. This design fails to meet which critical condition(s) for establishing that job satisfaction *causes* better health?",
+          "options": {
+            "A": "It only fails to establish a correlation between the variables.",
+            "B": "It only fails to exclude plausible alternative explanations.",
+            "C": "It fails to establish both chronological sequence and the exclusion of alternative explanations.",
+            "D": "It meets all three conditions for causality, but with a low degree of confidence."
+          },
+          "answer": "C",
+          "short_explanation": "A snapshot in time (cross-sectional) cannot tell you what came first or rule out third variables.",
+          "long_explanation": "To establish causality, one must demonstrate 1) correlation, 2) time order (the cause precedes the effect), and 3) no plausible alternative explanations (no confounds). A cross-sectional study can successfully establish correlation (Condition 1). However, because all data is collected at once, it cannot establish time order (did satisfaction come first, or did good health lead to satisfaction?). It also cannot rule out third variables (e.g., an optimistic personality could cause both high job satisfaction and better health). Therefore, it fails conditions 2 and 3."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "chapters": [
+    {
+      "title": "11. Work- and Organizational Psychology",
+      "questions": [
+        {
+          "id": 1,
+          "question": "A manager wants to increase the 'experienced meaningfulness' of her team's work. According to the Job Characteristics Model, which set of actions would be most effective?",
+          "options": {
+            "A": "Broadening job roles to include more tasks and showing how their work impacts end-users.",
+            "B": "Increasing pay, providing regular bonuses, and offering more vacation time.",
+            "C": "Allowing employees to set their own hours and decide their work methods.",
+            "D": "Implementing a system for direct customer feedback and performance reports."
+          },
+          "answer": "A",
+          "short_explanation": "Meaningfulness comes from skill variety, task identity, and task significance, which this option directly addresses.",
+          "long_explanation": "The Job Characteristics Model links specific job features to psychological states. 'Experienced meaningfulness' is driven by three characteristics: Skill Variety (using different skills), Task Identity (seeing a whole piece of work), and Task Significance (understanding its impact). Broadening roles and showing impact directly target these three. Option C targets 'Autonomy', which leads to 'Experienced Responsibility'. Option D targets 'Feedback', leading to 'Knowledge of Results'. Option B involves extrinsic motivators, which are not part of the core job characteristics."
+        },
+        {
+          "id": 2,
+          "question": "A software developer on a large team notices that a colleague consistently contributes very little code but takes credit for the team's success. The developer, feeling frustrated, decides to reduce their own effort, thinking, 'Why should I work so hard if they don't?' This phenomenon is best described as:",
+          "options": {
+            "A": "The sucker effect.",
+            "B": "Social loafing.",
+            "C": "Free-riding.",
+            "D": "Soldiering."
+          },
+          "answer": "A",
+          "short_explanation": "The sucker effect is a conscious reaction to a 'free-rider' where a productive team member reduces their effort to avoid feeling exploited.",
+          "long_explanation": "This scenario involves distinguishing between different types of motivation loss in teams. 'Free-riding' describes the colleague's behavior (consciously doing less). 'Social loafing' is an unconscious reduction of effort. 'Soldiering' is a collective protest against excessive demands. The developer's conscious decision to reduce their own effort specifically in response to a free-rider is the classic definition of the 'sucker effect'."
+        },
+        {
+          "id": 3,
+          "question": "A marketing team is arguing. One group believes the new ad campaign should focus on social media influencers, while the other insists that traditional TV ads will have a greater impact. Both groups are passionate and provide data to support their view. This is a classic example of:",
+          "options": {
+            "A": "Relationship conflict.",
+            "B": "Conflict of judgement.",
+            "C": "Process conflict.",
+            "D": "Dominance games."
+          },
+          "answer": "B",
+          "short_explanation": "This is a 'conflict of judgement' because the team is disagreeing on the evaluation of different strategies to reach a goal.",
+          "long_explanation": "It is crucial to differentiate conflict types. This is not a 'relationship conflict' as there is no mention of personal dislike. It is not a 'process conflict' because the argument is about the 'what' (the strategy) rather than the 'how' (the workflow or delegation). It is a 'conflict of judgement' because it stems from different evaluations of interim results or approaches. This type of task-related conflict can be productive if managed well."
+        },
+        {
+          "id": 4,
+          "question": "According to Lazarus's Transactional Model of Stress, the initial determination of whether a situation is a threat, a challenge, or irrelevant is known as:",
+          "options": {
+            "A": "Primary Appraisal.",
+            "B": "Secondary Appraisal.",
+            "C": "Coping strategy selection.",
+            "D": "Reappraisal."
+          },
+          "answer": "A",
+          "short_explanation": "Primary Appraisal is the first step in the model, where we interpret the meaning of a potential stressor.",
+          "long_explanation": "Lazarus's model posits a two-step appraisal process. Primary Appraisal is the initial assessment: 'What does this mean to me? Is it stressful?' If deemed stressful, it's categorized as a threat, challenge, or harm/loss. Only after this does Secondary Appraisal occur, where one assesses their resources to cope ('Can I handle it?'). Coping and Reappraisal are later stages in the process."
+        },
+        {
+          "id": 5,
+          "question": "A social worker has been feeling drained for months. They have started to treat their clients with a cynical and detached attitude, referring to them by case number rather than name. According to the process model of burnout, this behavior is a key symptom of:",
+          "options": {
+            "A": "Role conflict.",
+            "B": "Depersonalisation.",
+            "C": "Reduced personal accomplishment.",
+            "D": "Emotional exhaustion."
+          },
+          "answer": "B",
+          "short_explanation": "Depersonalisation is the second stage of burnout, characterized by a cynical, detached, and dehumanized response to one's job and clients.",
+          "long_explanation": "Burnout unfolds in a sequence. The first stage is 'Emotional Exhaustion' (feeling drained). The behavior described—cynicism and detachment—is the core of 'Depersonalisation', which is often a psychological coping mechanism to deal with the exhaustion. The third stage is 'Reduced Personal Accomplishment' (feeling ineffective). 'Role conflict' is a potential cause (stressor) of burnout, not a symptom of the syndrome itself."
+        },
+        {
+          "id": 6,
+          "question": "A manager tells an employee, 'You're late again.' The employee hears this not as a factual statement but as a criticism of their reliability and a sign of disrespect. According to the Four-Sides Model, the employee is primarily decoding the message through which 'ear'?",
+          "options": {
+            "A": "The factual information ear.",
+            "B": "The self-revelation ear.",
+            "C": "The appeal ear.",
+            "D": "The relationship ear."
+          },
+          "answer": "D",
+          "short_explanation": "The employee is focused on what the message implies about their relationship with the manager, which is the 'relationship' side of the message.",
+          "long_explanation": "Schulz von Thun's Four-Sides Model explains that a message can be interpreted on four levels. The 'factual' ear would just hear the information about being late. The 'appeal' ear would hear the request to be on time. The 'self-revelation' ear would focus on what it says about the manager (e.g., 'they are annoyed'). The 'relationship' ear, which is what the employee is using, interprets what the message says about the sender's view of the receiver and their relationship (e.g., 'they think I'm unreliable')."
+        },
+        {
+          "id": 7,
+          "question": "A newly formed project team is experiencing significant disagreements and power struggles. Members are challenging the leader's authority and arguing over the project's direction. According to Tuckman's model, what is the most likely next stage for this team if they successfully navigate this phase?",
+          "options": {
+            "A": "Norming.",
+            "B": "Forming.",
+            "C": "Performing.",
+            "D": "Adjourning."
+          },
+          "answer": "A",
+          "short_explanation": "After the conflict-ridden 'Storming' phase, teams that resolve their issues enter the 'Norming' phase, where they establish rules and cohesion.",
+          "long_explanation": "Tuckman's model outlines the stages of group development: Forming (orientation), Storming (conflict), Norming (cohesion), and Performing (functionality). The scenario clearly describes the 'Storming' phase. The successful resolution of these conflicts leads the team into the 'Norming' stage, where they agree on norms, roles, and processes, setting the foundation for the final 'Performing' stage."
+        },
+        {
+          "id": 8,
+          "question": "The Job Demands-Resources (JD-R) model proposes two distinct psychological processes. A workplace that offers strong social support, autonomy, and regular feedback primarily strengthens the:",
+          "options": {
+            "A": "Stress process, by reducing job demands.",
+            "B": "Motivational process, by increasing job resources.",
+            "C": "Burnout process, by increasing emotional strain.",
+            "D": "Conflict process, by increasing task uncertainty."
+          },
+          "answer": "B",
+          "short_explanation": "Social support, autonomy, and feedback are classic job resources that fuel the motivational process, leading to engagement.",
+          "long_explanation": "The JD-R model has two paths. The 'stress process' path shows how Job Demands (like workload) lead to strain. The 'motivational process' path shows how Job Resources (like support, autonomy, feedback) lead to motivation and engagement. While resources can buffer the effects of demands, their primary role is to fuel the positive motivational pathway."
+        },
+        {
+          "id": 9,
+          "question": "Why is workplace ostracism considered a particularly damaging form of negative social interaction?",
+          "options": {
+            "A": "It is an overt act of aggression that is easy to report to HR.",
+            "B": "It primarily affects an employee's ability to complete their tasks.",
+            "C": "It is an ambiguous and invisible behavior, making the target feel helpless.",
+            "D": "It is a form of process conflict that disrupts team workflow."
+          },
+          "answer": "C",
+          "short_explanation": "The ambiguity and deniability of ostracism (the 'silent treatment') make it extremely difficult for the victim to address, leading to feelings of helplessness.",
+          "long_explanation": "Unlike overt aggression, ostracism is defined by the absence of behavior (not talking, not including). This makes it ambiguous ('Are they just busy, or are they ignoring me?') and gives the perpetrators plausible deniability. This ambiguity is psychologically taxing and makes the target feel powerless to confront or resolve the situation, which is why it can be more damaging than direct conflict."
+        },
+        {
+          "id": 10,
+          "question": "An employee learns that their company is downsizing, but the specific layoffs won't be announced for a month. The situation is completely out of their control. Which coping strategy would be most adaptive in this specific scenario?",
+          "options": {
+            "A": "Problem-focused coping, by working harder to prove their value.",
+            "B": "Avoidance coping, by pretending the downsizing isn't happening.",
+            "C": "Instrumental coping, by immediately searching for a new job.",
+            "D": "Emotion-focused coping, by practicing mindfulness and talking with friends."
+          },
+          "answer": "D",
+          "short_explanation": "When a stressor is uncontrollable, emotion-focused coping, which aims to manage the emotional reaction, is the most adaptive strategy.",
+          "long_explanation": "The effectiveness of a coping style depends on the controllability of the stressor. In this case, the uncertainty of the layoff is uncontrollable. Therefore, 'problem-focused' strategies aimed at changing the situation are less effective. 'Emotion-focused' strategies, like managing anxiety through mindfulness or seeking social support, are the most adaptive way to handle the emotional distress caused by the uncontrollable situation."
+        },
+        {
+          "id": 11,
+          "question": "In a conflict situation, an individual who has a high concern for their own interests but also a high concern for the other party's interests is most likely to adopt which conflict behavior style?",
+          "options": {
+            "A": "Fighting.",
+            "B": "Solving Problems (Collaborating).",
+            "C": "Compromising.",
+            "D": "Conforming."
+          },
+          "answer": "B",
+          "short_explanation": "Collaboration (or problem-solving) is the win-win style used by those who value both their own goals and the other party's goals highly.",
+          "long_explanation": "The dual-concern model of conflict behavior plots styles based on concern for self vs. concern for others. 'Fighting' is high self/low other. 'Conforming' is low self/high other. 'Compromising' is medium on both axes. 'Solving Problems' or 'Collaborating' is the only style that is high on both dimensions, seeking a creative solution that fully satisfies both parties."
+        },
+        {
+          "id": 12,
+          "question": "According to Selye's General Adaptation Syndrome (GAS), an individual who has been under intense, prolonged stress and is now experiencing health issues like chronic fatigue and a weakened immune system is most likely in which stage?",
+          "options": {
+            "A": "Alarm phase.",
+            "B": "Resistance phase.",
+            "C": "Exhaustion phase.",
+            "D": "Reappraisal phase."
+          },
+          "answer": "C",
+          "short_explanation": "The 'Exhaustion' phase is when the body's resources are depleted after prolonged resistance to stress, leading to illness.",
+          "long_explanation": "Selye's GAS describes the body's physiological response to stress. The 'Alarm' phase is the initial shock. The 'Resistance' phase is where the body actively copes, but this depletes resources. The 'Exhaustion' phase occurs when these resources are gone, leaving the body vulnerable to illness, burnout, and other long-term consequences of stress. 'Reappraisal' is a cognitive concept from Lazarus's model, not Selye's."
+        },
+        {
+          "id": 13,
+          "question": "A research and development team at a pharmaceutical company is tasked with creating a novel drug. In this context, why would team diversity (e.g., in scientific backgrounds, experience, and problem-solving styles) be considered a significant asset?",
+          "options": {
+            "A": "It ensures that team members will agree more quickly on a course of action.",
+            "B": "It reduces the likelihood of relationship conflicts between team members.",
+            "C": "It minimizes the need for a 'storming' phase in team development.",
+            "D": "It increases the potential for creative solutions and complex problem-solving."
+          },
+          "answer": "D",
+          "short_explanation": "For complex, non-routine tasks like innovation, diversity provides a wider range of perspectives, which fuels creativity and better problem-solving.",
+          "long_explanation": "The value of diversity is context-dependent. For simple, routine tasks, homogeneity can be more efficient. However, for complex, problem-solving, or creative tasks, diversity is a major advantage. Different viewpoints challenge assumptions, prevent groupthink, and lead to more robust and innovative solutions. The other options are incorrect, as diversity can often lead to slower initial decisions and a more intense 'storming' phase."
+        },
+        {
+          "id": 14,
+          "question": "An employee learns that their rival for a promotion made a significant error on a past project. They strategically share this information with their manager right before the promotion decisions are made. According to Mintzberg, this behavior is an example of which type of organisational 'game'?",
+          "options": {
+            "A": "Snitching game.",
+            "B": "Budget game.",
+            "C": "Sponsor-protégé game.",
+            "D": "Dominance game."
+          },
+          "answer": "A",
+          "short_explanation": "The 'snitching game' involves strategically passing on damaging information about a rival to sabotage their career for personal gain.",
+          "long_explanation": "Mintzberg identified several political 'games' people play in organizations. The 'budget game' is about securing resources. The 'sponsor-protégé game' is about building power through association. The 'dominance game' is about direct intimidation. The scenario described perfectly matches the 'snitching game', which is a game played to combat rivals by damaging their reputation."
+        },
+        {
+          "id": 15,
+          "question": "Research on the consequences of conflict suggests that not all conflict is equally detrimental to team performance. Which statement accurately reflects this nuance?",
+          "options": {
+            "A": "All types of conflict, including task and relationship conflict, consistently lower team performance.",
+            "B": "Relationship conflicts are more damaging to well-being, while process conflicts are more damaging to performance.",
+            "C": "Judgement conflicts can be positively correlated with performance, while relationship conflicts are negatively correlated.",
+            "D": "The intensity of a conflict is the only factor that determines its impact on performance, regardless of its type."
+          },
+          "answer": "C",
+          "short_explanation": "Constructive conflict about the task itself ('judgement conflict') can improve decision-making, whereas personal ('relationship') conflict is almost always harmful.",
+          "long_explanation": "This question tests the important distinction between constructive and destructive conflict. While 'relationship conflict' (personal clashes) and 'process conflict' (arguments about how to work) are generally bad for performance, 'judgement conflict' (disagreements about ideas and goals) can be beneficial. This 'constructive conflict' forces teams to explore options more deeply, leading to better outcomes. Therefore, the goal is not to eliminate all conflict, but to foster healthy debate while minimizing personal animosity."
+        },
+        {
+          "id": 16,
+          "question": "A call center manager wants to apply the Job Characteristics Model to improve motivation. The current job involves reading from a script to solve a narrow set of problems. Which change would best target the dimension of 'Autonomy'?",
+          "options": {
+            "A": "Giving employees a bonus for every 5-star customer review they receive.",
+            "B": "Allowing employees to handle a wider range of customer issues, not just one type.",
+            "C": "Empowering employees to deviate from the script and use their own judgement to solve customer issues.",
+            "D": "Showing employees data on how their work contributes to overall customer retention rates."
+          },
+          "answer": "C",
+          "short_explanation": "Autonomy is about having freedom and discretion in how you perform your work. Allowing deviation from a script directly increases this.",
+          "long_explanation": "This is an application question for the Job Characteristics Model. Option A is an extrinsic reward. Option B increases 'Skill Variety'. Option D increases 'Task Significance'. Option C is the only one that directly increases 'Autonomy' by giving employees control over the methods and procedures they use to do their job, which in turn fosters a sense of personal responsibility for the outcomes."
+        },
+        {
+          "id": 17,
+          "question": "In supervisor-subordinate communication, what is a primary problem associated with 'upward communication' (from subordinate to supervisor)?",
+          "options": {
+            "A": "It often takes a long time to travel through the organisational hierarchy.",
+            "B": "It primarily consists of instructions, regulations, and targets.",
+            "C": "It is generally ignored by managers who prefer to rely on formal reports.",
+            "D": "It is often distorted, with subordinates filtering information to present a positive image."
+          },
+          "answer": "D",
+          "short_explanation": "A key challenge of upward communication is that employees often filter or distort information, emphasizing successes and downplaying failures.",
+          "long_explanation": "While downward communication can be slow (A) and consists of instructions (B), the classic problem with upward communication is distortion. Subordinates may fear negative repercussions for sharing bad news (the 'shoot the messenger' effect) or may want to make themselves or their team look good. This filtering deprives managers of the accurate information they need to make good decisions."
+        },
+        {
+          "id": 18,
+          "question": "An organization wants to implement a primary prevention strategy for burnout. Which of the following initiatives is the best example of this approach?",
+          "options": {
+            "A": "Offering free counseling services to employees who are already showing signs of exhaustion.",
+            "B": "Training managers to recognize the early symptoms of burnout in their team members.",
+            "C": "Redesigning jobs to increase employee control and ensure workloads are manageable.",
+            "D": "Providing extended sick leave for employees diagnosed with burnout."
+          },
+          "answer": "C",
+          "short_explanation": "Primary prevention aims to eliminate the root causes of a problem. Redesigning the job itself to reduce stressors is a classic primary prevention strategy.",
+          "long_explanation": "This question assesses understanding of different levels of intervention. Primary prevention aims to stop the problem before it starts (e.g., removing stressors). Secondary prevention focuses on early detection and intervention (e.g., training managers to spot symptoms). Tertiary prevention focuses on treating the problem after it has fully developed (e.g., counseling or sick leave for burnout). Redesigning the job is the only option that addresses the root cause at a systemic level."
+        },
+        {
+          "id": 19,
+          "question": "During a team brainstorming session, a team member has a brilliant idea but remains silent because they are afraid of being judged or sounding foolish. This loss of team productivity is best explained by:",
+          "options": {
+            "A": "Free-riding.",
+            "B": "Social anxiety.",
+            "C": "Social loafing.",
+            "D": "The sucker effect."
+          },
+          "answer": "B",
+          "short_explanation": "Social anxiety in a group setting inhibits a person from contributing due to a fear of negative evaluation by others.",
+          "long_explanation": "This scenario highlights a specific reason for motivation loss. It is not 'free-riding' because the person is not consciously trying to get away with doing less work. It is not 'social loafing' because that is an unconscious reduction of effort, not a conscious withholding of an idea due to fear. It is a clear case of 'social anxiety', where the fear of social judgement prevents the individual from participating fully, leading to a loss of potentially valuable contributions for the team."
+        },
+        {
+          "id": 20,
+          "question": "Two employees are given the same high-pressure project. Employee A sees it as an exciting opportunity to showcase their skills (a challenge). Employee B sees it as an impossible task that will expose their weaknesses (a threat). According to the Transactional Model of Stress, this difference in perception is an example of:",
+          "options": {
+            "A": "Differing secondary appraisals of their available resources.",
+            "B": "Different choices of problem-focused versus emotion-focused coping.",
+            "C": "The influence of situational versus personal stress-reducing resources.",
+            "D": "Different primary appraisals of the same environmental stressor."
+          },
+          "answer": "D",
+          "short_explanation": "Primary appraisal is the initial interpretation of a situation's meaning. Perceiving the same event as either a 'challenge' or a 'threat' is the essence of this concept.",
+          "long_explanation": "This question goes to the heart of Lazarus's model. The core idea is that stress is not inherent in the event but in the transaction between the person and the event. The first step of this transaction is Primary Appraisal. The fact that two people interpret the exact same stressor in fundamentally different ways—one positive (challenge) and one negative (threat)—is the perfect illustration of different primary appraisals at work. Their secondary appraisals and coping strategies will follow from this initial interpretation."
+        }
+      ]
+    }
+  ]
+}
