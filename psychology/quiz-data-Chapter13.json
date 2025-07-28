@@ -1,0 +1,1309 @@
+{
+  "chapters": [
+    {
+      "title": "All",
+      "questions": [
+        {
+          "id": 1,
+          "question": "According to the modern definition, what does the field of psychology scientifically study?",
+          "options": {
+            "A": "Observable behavior exclusively.",
+            "B": "Unconscious drives and early childhood experiences.",
+            "C": "Behavior and mental processes.",
+            "D": "The biological basis of thought."
+          },
+          "answer": "C",
+          "short_explanation": "Modern psychology is defined as the scientific study of both observable behavior and internal mental processes.",
+          "long_explanation": "This comprehensive definition encompasses both external actions (behavior) and internal experiences like thoughts and feelings (mental processes). Option A reflects the narrower view of behaviorism. Option B describes the psychoanalytic approach specifically. Option D describes the neurobiological approach, which is only one part of the broader field."
+        },
+        {
+          "id": 2,
+          "question": "What was the main conclusion of Wilhelm Wundt's first psychological experiment in 1879?",
+          "options": {
+            "A": "People react faster when they are consciously aware of a sound.",
+            "B": "Complex mental processes like self-awareness take longer to occur than simple sensations.",
+            "C": "The speed of mental processes cannot be scientifically measured.",
+            "D": "All individuals perceive sound at the exact same speed."
+          },
+          "answer": "B",
+          "short_explanation": "Wundt's study found that it took longer to be consciously aware of perceiving a sound than to simply react to it.",
+          "long_explanation": "This experiment demonstrated that mental processes are not instantaneous and that their duration can be measured, laying the groundwork for psychology as an experimental science. Participants in the 'conscious awareness' group were slower, disproving option A. Options C and D are directly contradicted by the study's findings and purpose."
+        },
+        {
+          "id": 3,
+          "question": "A therapist helps a client identify and challenge their negative thought patterns, such as 'If I don't get this promotion, I am a total failure.' This therapist is most likely operating from which psychological approach?",
+          "options": {
+            "A": "Neurobiological",
+            "B": "Psychoanalytic",
+            "C": "Behaviorist",
+            "D": "Cognitive"
+          },
+          "answer": "D",
+          "short_explanation": "The cognitive approach focuses on how thoughts and interpretations influence emotions and behaviors.",
+          "long_explanation": "This scenario is a classic example of Cognitive-Behavioral Therapy (CBT), which is rooted in the cognitive approach. The therapist is directly addressing the client's dysfunctional thoughts. A neurobiological approach would focus on brain chemistry, a psychoanalytic approach on unconscious conflicts, and a behaviorist approach on modifying observable behaviors through conditioning."
+        },
+        {
+          "id": 4,
+          "question": "A manager wants to stop employees from being late. She decides to take away the privilege of listening to music at their desks for anyone who arrives more than 5 minutes late. This strategy is based on principles from which psychological approach?",
+          "options": {
+            "A": "Cognitive",
+            "B": "Behaviorist",
+            "C": "Psychoanalytic",
+            "D": "Neurobiological"
+          },
+          "answer": "B",
+          "short_explanation": "The behaviorist approach focuses on modifying observable behavior through consequences like reinforcement and punishment.",
+          "long_explanation": "This is an example of indirect (or negative) punishment, a core concept in operant conditioning, which is central to the behaviorist approach. The manager is shaping behavior (punctuality) by manipulating its environmental consequences. The other approaches are not concerned with this direct stimulus-response-consequence model."
+        },
+        {
+          "id": 5,
+          "question": "A researcher is studying why a student is struggling academically. They consider the student's family history of learning disabilities (biological), their low self-esteem and fear of failure (psychological), and the lack of educational resources in their community (social-cultural). This comprehensive approach is an example of:",
+          "options": {
+            "A": "The psychoanalytic model",
+            "B": "The biopsychosocial model",
+            "C": "The cognitive model",
+            "D": "The behaviorist model"
+          },
+          "answer": "B",
+          "short_explanation": "The biopsychosocial model explains behavior and mental processes through the interaction of biological, psychological, and social-cultural influences.",
+          "long_explanation": "By examining factors from all three domains, the researcher is using the biopsychosocial model to gain a holistic understanding of the student's struggles. The other models are narrower, focusing on only one primary area of influence (unconscious conflicts, thought patterns, or learned behaviors)."
+        },
+        {
+          "id": 6,
+          "question": "How does the neurobiological approach to explaining anxiety differ most from the psychoanalytic approach?",
+          "options": {
+            "A": "The neurobiological approach focuses on observable behaviors, while the psychoanalytic approach focuses on thoughts.",
+            "B": "The neurobiological approach emphasizes brain chemistry and genetics, while the psychoanalytic approach emphasizes unconscious conflicts from childhood.",
+            "C": "The neurobiological approach is not considered scientific, whereas the psychoanalytic approach is.",
+            "D": "The neurobiological approach focuses on learned fears, while the psychoanalytic approach focuses on cultural expectations."
+          },
+          "answer": "B",
+          "short_explanation": "The core difference lies in their proposed cause of anxiety: biological processes versus unconscious psychological conflicts.",
+          "long_explanation": "The neurobiological approach seeks causes in the physical body (e.g., neurotransmitter imbalances, genetic predispositions). In contrast, the psychoanalytic approach, developed by Freud, seeks causes in the mind's hidden depths, specifically unresolved conflicts and repressed memories from early life experiences."
+        },
+        {
+          "id": 7,
+          "question": "In the 1920s, the field of psychology, particularly under the influence of behaviorism, shifted its primary focus to:",
+          "options": {
+            "A": "The scientific study of observable behavior.",
+            "B": "The exploration of the unconscious mind.",
+            "C": "The measurement of mental processes like memory and perception.",
+            "D": "The integration of biological and social factors."
+          },
+          "answer": "A",
+          "short_explanation": "Behaviorism redefined psychology as the study of observable behavior, rejecting the focus on unobservable mental life.",
+          "long_explanation": "Influential behaviorists like John B. Watson argued that for psychology to be a true science, it must focus only on what can be directly seen and measured: behavior. This was a direct reaction against the introspection and focus on consciousness that characterized earlier psychological schools."
+        },
+        {
+          "id": 8,
+          "question": "In the lecture example, Max suffers from test anxiety, leading him to sleep poorly and avoid studying. A psychologist using a behaviorist approach would most likely investigate which aspect of Max's situation?",
+          "options": {
+            "A": "Max's unconscious fear of success stemming from his childhood.",
+            "B": "Whether Max has a genetic predisposition to anxiety.",
+            "C": "Max's negative self-talk and catastrophic thoughts about failing.",
+            "D": "Whether avoiding studying is reinforced by the temporary relief from anxiety it provides."
+          },
+          "answer": "D",
+          "short_explanation": "A behaviorist would analyze the environmental triggers and consequences that maintain the observable behavior of avoidance.",
+          "long_explanation": "The behaviorist perspective focuses on learned behaviors. In this case, the act of avoiding studying (the behavior) is likely maintained by negative reinforcement: it removes the unpleasant feeling of anxiety, making the avoidance behavior more likely to happen again. Option A is psychoanalytic, B is neurobiological, and C is cognitive."
+        },
+        {
+          "id": 9,
+          "question": "What was the key finding of the 'Little Albert' experiment by Watson and Rayner (1920)?",
+          "options": {
+            "A": "Fear is an innate, unlearned emotion.",
+            "B": "Complex emotional responses like fear can be learned through classical conditioning.",
+            "C": "Children are naturally afraid of white, furry objects.",
+            "D": "Learned fears can be easily extinguished through simple exposure."
+          },
+          "answer": "B",
+          "short_explanation": "The study demonstrated that fear could be conditioned by pairing a neutral stimulus (a white rat) with a fear-inducing stimulus (a loud noise).",
+          "long_explanation": "Little Albert was not initially afraid of the rat, showing fear is not always innate (A, C). The experiment successfully created a phobia, demonstrating that emotions can be learned associations. While fears can be extinguished, the study itself did not focus on this process (D)."
+        },
+        {
+          "id": 10,
+          "question": "Every time an employee submits a report on time, their manager stops nagging them about deadlines for the rest of the day. The employee becomes more punctual. This is an example of:",
+          "options": {
+            "A": "Positive reinforcement",
+            "B": "Negative reinforcement",
+            "C": "Positive punishment",
+            "D": "Negative punishment"
+          },
+          "answer": "B",
+          "short_explanation": "Negative reinforcement increases a behavior by removing an aversive (unpleasant) stimulus.",
+          "long_explanation": "The desired behavior (submitting the report on time) is strengthened because it leads to the removal of an unpleasant stimulus (the manager's nagging). It is reinforcement because the behavior increases, and it is negative because a stimulus is being taken away. Positive punishment would involve adding an unpleasant stimulus, like extra work."
+        },
+        {
+          "id": 11,
+          "question": "After getting food poisoning from eating shrimp, a person finds that the mere smell of any seafood now makes them feel nauseous. In this example of classical conditioning, the nausea felt in response to the smell of seafood is the:",
+          "options": {
+            "A": "Unconditioned Stimulus (US)",
+            "B": "Unconditioned Response (UR)",
+            "C": "Conditioned Stimulus (CS)",
+            "D": "Conditioned Response (CR)"
+          },
+          "answer": "D",
+          "short_explanation": "The nausea is a learned (conditioned) response to a previously neutral stimulus (the smell of seafood).",
+          "long_explanation": "The original food poisoning was the Unconditioned Stimulus (US) that naturally caused nausea (UR). The smell of seafood was initially neutral but became associated with the US. Now, the smell alone is a Conditioned Stimulus (CS) that triggers the learned nausea, which is the Conditioned Response (CR)."
+        },
+        {
+          "id": 12,
+          "question": "A dog that has been conditioned to salivate at the sound of a specific bell also begins to salivate at the sound of a similar-sounding doorbell. This phenomenon is known as:",
+          "options": {
+            "A": "Stimulus discrimination",
+            "B": "Extinction",
+            "C": "Spontaneous recovery",
+            "D": "Stimulus generalization"
+          },
+          "answer": "D",
+          "short_explanation": "Stimulus generalization is the tendency for stimuli similar to the conditioned stimulus to elicit a similar response.",
+          "long_explanation": "The dog is generalizing its learned response from the original bell (the CS) to a new, similar stimulus (the doorbell). Stimulus discrimination would be the opposite—the ability to tell the difference and only respond to the specific bell."
+        },
+        {
+          "id": 13,
+          "question": "A child keeps interrupting their parents during a meeting. To stop the behavior, the parent assigns the child an extra chore. This is an example of:",
+          "options": {
+            "A": "Negative reinforcement",
+            "B": "Negative punishment",
+            "C": "Positive punishment",
+            "D": "Positive reinforcement"
+          },
+          "answer": "C",
+          "short_explanation": "Positive punishment decreases a behavior by adding an aversive (unpleasant) stimulus.",
+          "long_explanation": "The goal is to decrease the interrupting behavior. This is achieved by adding an unpleasant consequence (the extra chore). It is 'positive' because a stimulus is being added, and 'punishment' because the goal is to reduce the frequency of the behavior."
+        },
+        {
+          "id": 14,
+          "question": "What is the most fundamental difference between classical conditioning and operant conditioning?",
+          "options": {
+            "A": "Classical conditioning involves rewards and punishments, while operant conditioning involves associations.",
+            "B": "Classical conditioning applies only to animals, while operant conditioning applies to humans.",
+            "C": "Classical conditioning involves learning associations between two stimuli, leading to involuntary responses, while operant conditioning involves learning associations between a voluntary behavior and its consequence.",
+            "D": "Classical conditioning results in permanent learning, while operant conditioning is temporary."
+          },
+          "answer": "C",
+          "short_explanation": "The key distinction lies in the type of behavior (involuntary vs. voluntary) and the nature of the association (stimulus-stimulus vs. behavior-consequence).",
+          "long_explanation": "Classical conditioning pairs two stimuli (e.g., bell and food) to produce an automatic, reflexive response (salivation). The learner is passive. Operant conditioning involves an active learner whose voluntary actions (e.g., pressing a lever) are strengthened or weakened by the consequences (e.g., receiving food)."
+        },
+        {
+          "id": 15,
+          "question": "Which statement best summarizes Thorndike's Law of Effect?",
+          "options": {
+            "A": "Any behavior that is observed is likely to be imitated.",
+            "B": "Behaviors followed by favorable consequences become more likely, while behaviors followed by unfavorable consequences become less likely.",
+            "C": "A neutral stimulus can elicit a response after being paired with a stimulus that naturally elicits that response.",
+            "D": "Learning can only occur if the learner is consciously aware of the process."
+          },
+          "answer": "B",
+          "short_explanation": "The Law of Effect is the core principle that consequences shape voluntary behavior, forming the basis of operant conditioning.",
+          "long_explanation": "Based on his experiments with cats in puzzle boxes, Thorndike concluded that satisfying outcomes 'stamp in' a behavior, making it more probable in the future. This principle was later elaborated upon by B.F. Skinner. Option C describes classical conditioning, and Option A describes observational learning."
+        },
+        {
+          "id": 16,
+          "question": "A dolphin trainer wants to teach a dolphin to jump through a hoop. The trainer only gives the dolphin a fish when a green light is on and the dolphin jumps. The green light, which signals that reinforcement is available, is known as a:",
+          "options": {
+            "A": "Conditioned response",
+            "B": "Discriminative stimulus",
+            "C": "Unconditioned stimulus",
+            "D": "Negative reinforcer"
+          },
+          "answer": "B",
+          "short_explanation": "A discriminative stimulus is a cue that indicates a particular response will be reinforced.",
+          "long_explanation": "The green light signals to the dolphin that the conditions are right for its jumping behavior to be rewarded with a fish. It helps the dolphin 'discriminate' between when to perform the action and when not to. This is a key concept in Skinner's experiments on operant conditioning."
+        },
+        {
+          "id": 17,
+          "question": "What did Bandura's Bobo Doll experiment reveal about the role of consequences in observational learning?",
+          "options": {
+            "A": "Children will imitate aggressive behavior regardless of the consequences for the model.",
+            "B": "Children are less likely to imitate a model's aggressive behavior if they see the model being punished for it.",
+            "C": "Observing punishment has no effect, but observing a reward increases imitation.",
+            "D": "Only boys imitate aggressive behavior, while girls do not."
+          },
+          "answer": "B",
+          "short_explanation": "The study showed that vicarious punishment decreases the likelihood that an observer will imitate a model's behavior.",
+          "long_explanation": "While all children in the experiment learned the aggressive behavior, those who saw the adult model being punished were significantly less likely to perform the actions themselves. This demonstrates that the observed consequences for the model are a critical factor in the 'Performance' phase of observational learning, influencing the observer's motivation."
+        },
+        {
+          "id": 18,
+          "question": "A slot machine in a casino pays out winnings after an unpredictable number of plays. This is a classic example of which reinforcement schedule?",
+          "options": {
+            "A": "Fixed-ratio",
+            "B": "Variable-ratio",
+            "C": "Fixed-interval",
+            "D": "Variable-interval"
+          },
+          "answer": "B",
+          "short_explanation": "A variable-ratio schedule provides reinforcement after a random and unpredictable number of responses.",
+          "long_explanation": "The player never knows which pull of the lever will be the winning one, which encourages a high and steady rate of responding. This makes the variable-ratio schedule extremely effective and highly resistant to extinction, which is why it is so commonly used in gambling."
+        },
+        {
+          "id": 19,
+          "question": "A new intern is learning to use a complex piece of lab equipment. She carefully watches a senior technician perform the procedure several times and tries to remember the sequence of steps. According to Bandura's model of observational learning, the intern is currently in the:",
+          "options": {
+            "A": "Performance phase",
+            "B": "Reproduction phase",
+            "C": "Motivation phase",
+            "D": "Acquisition phase"
+          },
+          "answer": "D",
+          "short_explanation": "The acquisition phase involves paying attention to and memorizing (retaining) the model's behavior.",
+          "long_explanation": "The acquisition phase consists of two steps: observation (attention) and memorization (retention). The intern is actively watching and trying to remember, which are the core activities of this initial phase. The performance phase, which includes reproduction and motivation, would occur later when she attempts to perform the procedure herself."
+        },
+        {
+          "id": 20,
+          "question": "Which statement correctly describes the difference between continuous and partial reinforcement in terms of learning and extinction?",
+          "options": {
+            "A": "Partial reinforcement leads to faster learning but also faster extinction.",
+            "B": "Continuous reinforcement leads to slower learning but is more resistant to extinction.",
+            "C": "Partial reinforcement leads to slower learning but is much more resistant to extinction.",
+            "D": "Continuous and partial reinforcement have the same effect on both learning speed and extinction."
+          },
+          "answer": "C",
+          "short_explanation": "Continuous reinforcement is fast for learning but weak against extinction, while partial reinforcement is slow for learning but strong against extinction.",
+          "long_explanation": "When a behavior is reinforced every single time (continuous), learning is rapid, but the behavior stops quickly once the reinforcement is removed. When a behavior is reinforced only sometimes (partial), it takes longer to learn, but the learner persists for a much longer time when reinforcement stops because they are used to not being rewarded every time."
+        },
+        {
+          "id": 21,
+          "question": "How does Bandura's model of observational learning serve as a bridge between the behaviorist and cognitive perspectives?",
+          "options": {
+            "A": "It focuses exclusively on external rewards and punishments, like behaviorism.",
+            "B": "It introduces cognitive processes like attention and memory as crucial for learning, which behaviorism ignores.",
+            "C": "It rejects the idea that behavior can be learned, which is central to behaviorism.",
+            "D": "It argues that all learning is based on unconscious processes, aligning with cognitive psychology."
+          },
+          "answer": "B",
+          "short_explanation": "Observational learning requires internal mental processes (attention, retention) that go beyond the simple stimulus-response framework of behaviorism.",
+          "long_explanation": "Strict behaviorism focuses only on observable behaviors and their direct consequences. Bandura's theory was revolutionary because it argued that learning could occur without direct reinforcement and depended on cognitive steps like paying attention, forming a mental representation (memory), and motivation. This incorporation of mental states connected the behavioral and cognitive schools of thought."
+        },
+        {
+          "id": 22,
+          "question": "A coffee shop offers a loyalty card where customers get their 10th coffee free after purchasing nine. This reward system operates on a:",
+          "options": {
+            "A": "Fixed-ratio schedule",
+            "B": "Variable-ratio schedule",
+            "C": "Fixed-interval schedule",
+            "D": "Variable-interval schedule"
+          },
+          "answer": "A",
+          "short_explanation": "A fixed-ratio schedule provides reinforcement after a specific, unchanging number of responses.",
+          "long_explanation": "The reinforcement (a free coffee) is delivered only after a fixed number of responses (nine purchases) have been made. This schedule typically produces a high rate of response with a brief pause after reinforcement is delivered."
+        },
+        {
+          "id": 23,
+          "question": "According to Albert Bandura, what are the four key processes required for observational learning to occur?",
+          "options": {
+            "A": "Stimulus, Response, Reinforcement, Punishment",
+            "B": "Attention, Retention, Reproduction, Motivation",
+            "C": "Sensing, Perceiving, Storing, Retrieving",
+            "D": "Forming, Storming, Norming, Performing"
+          },
+          "answer": "B",
+          "short_explanation": "Bandura's model posits four necessary cognitive steps: attention, retention (memory), reproduction (ability), and motivation.",
+          "long_explanation": "For an individual to learn and perform a behavior through observation, they must first pay attention to the model, then retain what they observed in memory. Next, they must be physically and mentally able to reproduce the behavior. Finally, they must be motivated to perform it, often based on the observed consequences."
+        },
+        {
+          "id": 24,
+          "question": "A manager walks by an employee's desk at unpredictable times to check if they are working, offering praise when they are on task. The employee learns to stay consistently busy. The manager's praise is delivered on a:",
+          "options": {
+            "A": "Fixed-ratio schedule",
+            "B": "Variable-ratio schedule",
+            "C": "Fixed-interval schedule",
+            "D": "Variable-interval schedule"
+          },
+          "answer": "D",
+          "short_explanation": "A variable-interval schedule provides reinforcement for a response at unpredictable time intervals.",
+          "long_explanation": "The reinforcement (praise) is contingent on the employee being on task, but the opportunity for reinforcement occurs at random time intervals (whenever the manager happens to walk by). This schedule tends to produce a slow, steady rate of responding."
+        },
+        {
+          "id": 25,
+          "question": "What was George Miller's (1956) famous finding regarding the capacity of short-term memory?",
+          "options": {
+            "A": "Short-term memory has an unlimited capacity.",
+            "B": "Information in short-term memory lasts for approximately 3 seconds.",
+            "C": "The capacity of short-term memory is approximately seven items, plus or minus two.",
+            "D": "Short-term memory capacity is determined by word length, not the number of items."
+          },
+          "answer": "C",
+          "short_explanation": "Miller proposed the 'magical number seven, plus or minus two' as the general limit for the number of items short-term memory can hold.",
+          "long_explanation": "Miller's influential paper suggested that most people can hold between 5 and 9 distinct items (chunks) of information in their short-term memory at one time. Option B refers to the duration, not capacity, as shown by Peterson & Peterson. Option D refers to Baddeley's later refinement of the model."
+        },
+        {
+          "id": 26,
+          "question": "To remember the number sequence 149217761989, a student thinks of it as three historical dates: 1492 (Columbus), 1776 (US Independence), and 1989 (Fall of the Berlin Wall). This memory strategy is known as:",
+          "options": {
+            "A": "Repetition",
+            "B": "The serial position effect",
+            "C": "Chunking",
+            "D": "Procedural memory"
+          },
+          "answer": "C",
+          "short_explanation": "Chunking involves organizing individual items into familiar, manageable units to make them easier to remember.",
+          "long_explanation": "By grouping the long string of 12 digits into three meaningful 'chunks,' the student reduces the load on short-term memory from twelve items to just three. This makes the information much easier to encode and recall. This is a powerful strategy to overcome the limits identified by Miller."
+        },
+        {
+          "id": 27,
+          "question": "What did the Peterson & Peterson (1959) study, which involved remembering three-consonant groups, demonstrate about short-term memory?",
+          "options": {
+            "A": "Without rehearsal, information in short-term memory decays very rapidly.",
+            "B": "Short-term memory can hold about seven pieces of information.",
+            "C": "Chunking can significantly increase short-term memory capacity.",
+            "D": "Visual information is stored longer than auditory information."
+          },
+          "answer": "A",
+          "short_explanation": "The study showed that when rehearsal was prevented by a distracting task, recall of information dropped dramatically within seconds.",
+          "long_explanation": "Participants' ability to recall the consonants fell by about 50% after just 3 seconds and was almost completely gone by 18 seconds. This experiment provided strong evidence for the very limited duration of information storage in short-term memory if it is not actively maintained through rehearsal."
+        },
+        {
+          "id": 28,
+          "question": "What is the primary conceptual advance of the Working Memory model (Baddeley & Hitch) over the earlier Multi-Store model (Atkinson & Shiffrin)?",
+          "options": {
+            "A": "It introduced the idea of long-term memory.",
+            "B": "It proved that short-term memory has a capacity of 7 +/- 2 items.",
+            "C": "It re-conceptualized short-term memory from a passive storage bin into an active workspace for processing and manipulating information.",
+            "D": "It was the first model to include sensory memory."
+          },
+          "answer": "C",
+          "short_explanation": "The Working Memory model sees short-term memory as an active, multi-component system, not just a simple, passive buffer.",
+          "long_explanation": "While the Multi-Store model treated short-term memory (STM) as a unitary, passive holding area, Baddeley and Hitch's model proposed a more dynamic 'working memory' with specialized subsystems (phonological loop, visuospatial sketchpad) managed by a central executive. This better explains how we can simultaneously store and manipulate information to perform complex cognitive tasks."
+        },
+        {
+          "id": 29,
+          "question": "A student is trying to solve a complex visual puzzle from a textbook while listening to a detailed history podcast. They find it extremely difficult to do both at once. According to Baddeley's Working Memory model, which component is likely being overloaded?",
+          "options": {
+            "A": "The Phonological Loop",
+            "B": "The Episodic Buffer",
+            "C": "The Central Executive",
+            "D": "Long-term memory"
+          },
+          "answer": "C",
+          "short_explanation": "The Central Executive is responsible for managing attention and coordinating between different tasks and memory subsystems.",
+          "long_explanation": "This scenario requires the student to allocate attention between two demanding and unrelated tasks—one visual-spatial and one auditory-verbal. The Central Executive is the 'manager' responsible for this attentional control. Trying to perform two complex tasks simultaneously overloads its capacity to distribute attention effectively, leading to poor performance on both."
+        },
+        {
+          "id": 30,
+          "question": "The ability to ride a bicycle without consciously thinking about the specific movements is an example of what type of knowledge stored in memory?",
+          "options": {
+            "A": "Declarative knowledge",
+            "B": "Conditional knowledge",
+            "C": "Episodic knowledge",
+            "D": "Procedural knowledge"
+          },
+          "answer": "D",
+          "short_explanation": "Procedural knowledge is the memory for skills and actions, often referred to as 'knowing how'.",
+          "long_explanation": "This type of memory involves the procedures for performing actions and is typically implicit, meaning we don't have to consciously retrieve the steps. Declarative knowledge ('knowing that') involves facts and events, while conditional knowledge ('knowing when and why') involves applying rules and strategies."
+        },
+        {
+          "id": 31,
+          "question": "An adult who has not spoken French since high school takes a university French course and finds that they learn the vocabulary much faster than students who have never been exposed to the language before. This demonstrates which measure of memory?",
+          "options": {
+            "A": "Recall",
+            "B": "Recognition",
+            "C": "Relearning",
+            "D": "Chunking"
+          },
+          "answer": "C",
+          "short_explanation": "Relearning measures memory by assessing how much faster information is learned a second time.",
+          "long_explanation": "Even if the adult cannot actively recall or recognize the old vocabulary, the fact that they can relearn it more quickly indicates that some memory trace still exists. This 'savings in learning time' is a sensitive measure of retention. Recall would be generating the words from memory, and recognition would be identifying them from a list."
+        },
+        {
+          "id": 32,
+          "question": "To remember the order of the planets, a student uses the sentence 'My Very Educated Mother Just Served Us Noodles.' This memory aid is an example of:",
+          "options": {
+            "A": "A mnemonic device",
+            "B": "Chunking",
+            "C": "The hierarchy principle",
+            "D": "Procedural memory"
+          },
+          "answer": "A",
+          "short_explanation": "A mnemonic is a memory aid that uses vivid imagery or organizational devices, like acronyms or acrostics.",
+          "long_explanation": "This specific type of mnemonic is an acrostic, where the first letter of each word in a new, easy-to-remember sentence corresponds to the first letter of the items to be memorized (Mercury, Venus, Earth, Mars, etc.). It provides a structure for retrieval that is easier to recall than the list itself."
+        },
+        {
+          "id": 33,
+          "question": "A project manager wants to increase her team's intrinsic motivation. According to Self-Determination Theory, which of the following actions would be most effective?",
+          "options": {
+            "A": "Offering a large bonus for the fastest completion of the project.",
+            "B": "Implementing a strict, top-down process for all tasks to ensure quality.",
+            "C": "Giving the team more choice over how they approach their tasks and providing constructive feedback on their progress.",
+            "D": "Having the team work in isolation to avoid distractions."
+          },
+          "answer": "C",
+          "short_explanation": "Fulfilling the needs for autonomy, competence, and relatedness is key to fostering intrinsic and autonomous motivation.",
+          "long_explanation": "Giving the team choice supports their need for autonomy. Providing constructive feedback supports their need for competence. This approach directly targets the basic psychological needs that Self-Determination Theory identifies as crucial for high-quality motivation. A bonus (A) is extrinsic, strict process (B) undermines autonomy, and isolation (D) undermines relatedness."
+        },
+        {
+          "id": 34,
+          "question": "According to Deci & Ryan's Self-Determination Theory, what are the three innate and universal psychological needs that support autonomous motivation and well-being?",
+          "options": {
+            "A": "Achievement, Power, and Affiliation",
+            "B": "Autonomy, Competence, and Relatedness",
+            "C": "Safety, Esteem, and Self-Actualization",
+            "D": "Expectancy, Value, and Cost"
+          },
+          "answer": "B",
+          "short_explanation": "Self-Determination Theory posits that autonomy, competence, and relatedness are the three essential needs for psychological growth.",
+          "long_explanation": "These three needs are considered fundamental to human flourishing. Option A refers to an older theory of needs by McClelland. Option C refers to levels in Maslow's Hierarchy. Option D refers to components of Expectancy-Value Theory."
+        },
+        {
+          "id": 35,
+          "question": "Which statement best distinguishes the concept of self-efficacy from self-concept?",
+          "options": {
+            "A": "Self-efficacy is a global assessment of one's worth, while self-concept is task-specific.",
+            "B": "Self-concept is about 'who I am,' while self-efficacy is about 'what I can do.'",
+            "C": "Self-efficacy is a stable personality trait, while self-concept changes frequently.",
+            "D": "There is no significant difference between the two concepts."
+          },
+          "answer": "B",
+          "short_explanation": "Self-concept is a broader belief about the self, whereas self-efficacy is a specific judgment of one's capability to perform a future task.",
+          "long_explanation": "Self-concept is a description and evaluation of oneself (e.g., 'I am a good student'). Self-efficacy is more specific, forward-looking, and action-oriented (e.g., 'I am confident I can pass this specific exam'). While related, self-efficacy is a more precise predictor of behavior in a given situation."
+        },
+        {
+          "id": 36,
+          "question": "A student is deciding whether to take a difficult but optional computer science course. She believes she has a high chance of passing (high expectancy). She also knows the course is essential for her desired career in software development. According to Expectancy-Value Theory, the fact that the course is essential for her career relates to its:",
+          "options": {
+            "A": "Intrinsic value",
+            "B": "Attainment value",
+            "C": "Cost",
+            "D": "Utility value"
+          },
+          "answer": "D",
+          "short_explanation": "Utility value refers to how a task fits into an individual's future plans and goals.",
+          "long_explanation": "In Expectancy-Value Theory, utility value captures the practical usefulness of a task. Since the course is a means to an end (her career), it has high utility value. Intrinsic value would be her enjoyment of the subject, and attainment value would be the personal importance she places on succeeding in computer science."
+        },
+        {
+          "id": 37,
+          "question": "According to Bandura, which of the following is the most powerful source for building a strong sense of self-efficacy?",
+          "options": {
+            "A": "Watching a skilled peer succeed at a task (vicarious experience).",
+            "B": "Receiving encouragement from a respected mentor (social persuasion).",
+            "C": "Successfully completing a challenging task yourself (mastery experience).",
+            "D": "Feeling calm and relaxed before attempting a task (physiological state)."
+          },
+          "answer": "C",
+          "short_explanation": "Mastery experiences, or direct personal successes, are the most influential source of self-efficacy information.",
+          "long_explanation": "While all four sources contribute, Bandura's theory posits that the most robust sense of efficacy comes from one's own direct accomplishments. Successfully overcoming obstacles through effort and persistence provides the most authentic evidence of one's capabilities."
+        },
+        {
+          "id": 38,
+          "question": "A talented student who was at the top of her class in a small high school now attends a highly competitive university where everyone is a top performer. She begins to doubt her academic abilities, even though her skills have not changed. This phenomenon is best described as:",
+          "options": {
+            "A": "The halo effect",
+            "B": "The 'Big-Fish-Little-Pond' effect",
+            "C": "Cognitive dissonance",
+            "D": "Self-handicapping"
+          },
+          "answer": "B",
+          "short_explanation": "The 'Big-Fish-Little-Pond' effect describes how self-concept is influenced by the abilities of one's reference group.",
+          "long_explanation": "The student's academic self-concept was high when she was a 'big fish' in a 'little pond' (her high school). When she moved to a 'big pond' (the competitive university), her relative standing changed, leading to a lower self-concept despite her objective abilities remaining the same. This highlights the role of social comparison in shaping self-concept."
+        },
+        {
+          "id": 39,
+          "question": "A software developer is so absorbed in coding a challenging new feature that she loses all track of time, feels her skills are perfectly matched to the task, and experiences a sense of effortless concentration. She is likely experiencing:",
+          "options": {
+            "A": "Burnout",
+            "B": "High self-efficacy",
+            "C": "Flow",
+            "D": "Extrinsic motivation"
+          },
+          "answer": "C",
+          "short_explanation": "Flow is a state of complete immersion in an activity, characterized by a perfect match between challenge and skill.",
+          "long_explanation": "This scenario describes the key characteristics of a flow state as defined by Csikszentmihalyi: a balance of challenge and skill, merging of action and awareness, intense concentration, and a distorted sense of time. It is a highly positive and intrinsically motivating experience."
+        },
+        {
+          "id": 40,
+          "question": "According to Weiner's two-dimensional model of causal attribution, the dimensions used to classify the reasons for success and failure are:",
+          "options": {
+            "A": "Internal vs. External and Stable vs. Variable",
+            "B": "Positive vs. Negative and Controllable vs. Uncontrollable",
+            "C": "Global vs. Specific and Temporary vs. Permanent",
+            "D": "Cognitive vs. Emotional and Simple vs. Complex"
+          },
+          "answer": "A",
+          "short_explanation": "Weiner's model categorizes attributions based on their locus of control (internal/external) and stability (stable/variable).",
+          "long_explanation": "These two dimensions create a 2x2 matrix for understanding attributions. For example, ability is internal and stable, effort is internal and variable, task difficulty is external and stable, and luck is external and variable. The type of attribution made significantly impacts future motivation."
+        },
+        {
+          "id": 41,
+          "question": "You are hiking in the woods and suddenly see a bear. Your heart starts pounding, you begin to tremble, and only after you notice these physical reactions do you conclude that you are afraid. This sequence of events is best explained by which theory of emotion?",
+          "options": {
+            "A": "Cannon-Bard Theory",
+            "B": "Schachter-Singer Two-Factor Theory",
+            "C": "James-Lange Theory",
+            "D": "Cognitive Appraisal Theory"
+          },
+          "answer": "C",
+          "short_explanation": "The James-Lange theory states that we experience emotion as a result of perceiving our own physiological responses to a stimulus.",
+          "long_explanation": "The specific sequence described—Stimulus (bear) -> Physiological Arousal (pounding heart) -> Emotion (fear)—is the hallmark of the James-Lange theory. It posits that the bodily changes come first, and the feeling is simply the brain's interpretation of those changes."
+        },
+        {
+          "id": 42,
+          "question": "You drink two cups of strong coffee, which makes your heart race. Shortly after, you receive an email with a job offer you've been hoping for. You feel an intense sense of elation and excitement, much stronger than you would have otherwise. This experience is best explained by:",
+          "options": {
+            "A": "The Cannon-Bard Theory",
+            "B": "The James-Lange Theory",
+            "C": "The Schachter-Singer Two-Factor Theory",
+            "D": "The universality of emotional expression"
+          },
+          "answer": "C",
+          "short_explanation": "The Two-Factor theory posits that emotion results from a combination of non-specific physiological arousal and a cognitive label for that arousal.",
+          "long_explanation": "According to this theory, you first experience physiological arousal (from the coffee). You then search the environment for an explanation and cognitively label that arousal based on the context (the job offer). The pre-existing arousal from the coffee intensifies the emotion you label as 'elation'."
+        },
+        {
+          "id": 43,
+          "question": "What was the main conclusion of the Dutton and Aron (1974) 'Creaky Bridge' study?",
+          "options": {
+            "A": "People are more helpful when they are in a state of high anxiety.",
+            "B": "Men can misattribute physiological arousal from fear as romantic attraction.",
+            "C": "Women are more attracted to men who display risk-taking behavior.",
+            "D": "Fear and attraction are processed in the same area of the brain."
+          },
+          "answer": "B",
+          "short_explanation": "The study demonstrated misattribution of arousal, where arousal from one source (fear) was incorrectly labeled as another emotion (attraction).",
+          "long_explanation": "Men on the high, frightening suspension bridge were in a state of physiological arousal due to fear. When approached by an attractive woman in this state, they misinterpreted their body's signals as attraction, leading them to be more likely to call her. This provides strong real-world support for the Schachter-Singer Two-Factor Theory."
+        },
+        {
+          "id": 44,
+          "question": "What is the primary point of disagreement between the Cannon-Bard theory and the James-Lange theory of emotion?",
+          "options": {
+            "A": "The role of cognitive appraisal in emotion.",
+            "B": "Whether emotions are universal or culturally specific.",
+            "C": "The sequence of physiological arousal and the subjective experience of emotion.",
+            "D": "Whether the thalamus is involved in emotional processing."
+          },
+          "answer": "C",
+          "short_explanation": "James-Lange proposed that arousal causes emotion, while Cannon-Bard argued that arousal and emotion occur simultaneously.",
+          "long_explanation": "The core debate is about timing and causality. The James-Lange theory posits a sequential process: Arousal -> Emotion. The Cannon-Bard theory argues for a parallel process, where a stimulus triggers both the physiological and subjective emotional experience at the same time, independently of each other."
+        },
+        {
+          "id": 45,
+          "question": "A student feels extremely anxious before giving a presentation. Instead of thinking 'I'm going to fail and everyone will laugh at me,' she tells herself, 'This is a chance to share what I've learned, and the feeling of nervousness is just my body getting ready to perform well.' This is an example of which emotion regulation strategy?",
+          "options": {
+            "A": "Suppression",
+            "B": "Cognitive Reappraisal",
+            "C": "Situation Selection",
+            "D": "Attention Deployment"
+          },
+          "answer": "B",
+          "short_explanation": "Cognitive reappraisal involves changing one's interpretation of a situation to alter its emotional impact.",
+          "long_explanation": "The student is actively changing her thought patterns—from a threatening interpretation to a challenging or even helpful one—before the emotional response has fully taken hold. This is a highly effective, antecedent-focused strategy for managing emotions. Suppression, in contrast, would involve simply trying to hide the outward signs of her anxiety."
+        },
+        {
+          "id": 46,
+          "question": "According to the definition used in the course, an emotion is a reaction of the whole organism that comprises which three components?",
+          "options": {
+            "A": "A stimulus, a response, and a consequence.",
+            "B": "A thought, a mood, and a behavior.",
+            "C": "Physiological arousal, conscious cognitive experience, and expressive behavior.",
+            "D": "Valence, arousal, and motivation."
+          },
+          "answer": "C",
+          "short_explanation": "Emotion is defined by the interplay of bodily arousal, the subjective cognitive experience, and outward expression.",
+          "long_explanation": "This three-component model is a standard definition in psychology. It captures the physical changes in our body (physiological arousal), our internal thoughts and feelings (cognitive experience), and how we show that emotion to the outside world (expressive behavior)."
+        },
+        {
+          "id": 47,
+          "question": "What did the research by Ekman and Friesen (1971) on facial expressions across different cultures conclude?",
+          "options": {
+            "A": "Facial expressions are entirely learned and vary significantly from culture to culture.",
+            "B": "The expression of basic emotions like happiness, anger, and fear is universal across human cultures.",
+            "C": "While expressions are universal, their interpretation is completely culture-dependent.",
+            "D": "Only positive emotions like happiness have universal facial expressions."
+          },
+          "answer": "B",
+          "short_explanation": "Their cross-cultural research provided strong evidence that the facial expressions for a core set of basic emotions are universal.",
+          "long_explanation": "By showing photographs of facial expressions to people in various literate and preliterate cultures (like the Fore tribe in New Guinea), Ekman and Friesen found a high degree of agreement in how these expressions were interpreted. This supported the evolutionary view that these expressions are innate rather than learned."
+        },
+        {
+          "id": 48,
+          "question": "A student's primary goal for a difficult course is to avoid looking stupid in front of their classmates and the professor. According to Achievement Goal Theory, this student is demonstrating:",
+          "options": {
+            "A": "Mastery-Approach Goals",
+            "B": "Performance-Approach Goals",
+            "C": "Mastery-Avoidance Goals",
+            "D": "Performance-Avoidance Goals"
+          },
+          "answer": "D",
+          "short_explanation": "Performance-avoidance goals are focused on avoiding the demonstration of incompetence relative to others.",
+          "long_explanation": "The student's motivation is defined by comparison to others (Performance orientation) and is focused on avoiding a negative outcome (Avoidance valence). Their goal is not to learn (Mastery) or to look good (Performance-Approach), but specifically to not look bad."
+        },
+        {
+          "id": 49,
+          "question": "When a colleague fails to deliver their part of a project on time, their manager immediately assumes the colleague is lazy and irresponsible, without considering that the colleague might be dealing with a family emergency. The manager's assumption is a classic example of:",
+          "options": {
+            "A": "Self-serving bias",
+            "B": "The halo effect",
+            "C": "The fundamental attribution error",
+            "D": "Cognitive dissonance"
+          },
+          "answer": "C",
+          "short_explanation": "The fundamental attribution error is the tendency to overestimate internal factors and underestimate situational factors when judging others' behavior.",
+          "long_explanation": "The manager is attributing the colleague's behavior to internal, dispositional factors (laziness) while ignoring potential external, situational factors (a family emergency). This common bias in social perception leads us to make quick judgments about others' character."
+        },
+        {
+          "id": 50,
+          "question": "What is the halo effect?",
+          "options": {
+            "A": "The tendency to attribute our successes to internal factors and our failures to external factors.",
+            "B": "The discomfort felt when our actions contradict our beliefs.",
+            "C": "The tendency to infer other positive personality traits from a single positive characteristic.",
+            "D": "The tendency to conform to a group to be liked and accepted."
+          },
+          "answer": "C",
+          "short_explanation": "The halo effect is a cognitive bias where one positive trait influences our perception of a person's other traits.",
+          "long_explanation": "For example, if we perceive someone as physically attractive, we are more likely to also rate them as intelligent, kind, and successful, even with no evidence. It's a form of an implicit personality theory where one trait creates a positive 'halo' over the entire person."
+        },
+        {
+          "id": 51,
+          "question": "A student is worried about an upcoming exam. The night before, instead of studying, they go out to a loud party with friends. They end up doing poorly on the exam but tell themselves, 'Of course I failed, I didn't even study because of that party.' This is an example of:",
+          "options": {
+            "A": "The fundamental attribution error",
+            "B": "Self-handicapping",
+            "C": "Ingratiation",
+            "D": "Post-decision dissonance"
+          },
+          "answer": "B",
+          "short_explanation": "Self-handicapping is the strategy of creating obstacles or excuses for oneself in advance of a performance.",
+          "long_explanation": "By creating a ready-made excuse (the party), the student protects their self-esteem. If they had studied and still failed, they would have to confront the possibility that they aren't smart enough. By self-handicapping, they can attribute the failure to the external obstacle they created, not their own ability."
+        },
+        {
+          "id": 52,
+          "question": "What was the key finding of the 'Dr. Fox effect' study by Naftulin et al. (1973), in which an actor gave a nonsensical lecture to an expert audience?",
+          "options": {
+            "A": "Experts are immune to persuasive but content-free presentations.",
+            "B": "An expressive and charismatic presentation style can lead an audience to perceive the speaker as competent, even if the content is meaningless.",
+            "C": "Audiences are more critical of speakers who use humor and joy in their lectures.",
+            "D": "Cognitive dissonance makes people believe what they hear from authority figures."
+          },
+          "answer": "B",
+          "short_explanation": "The study showed that style can triumph over substance, demonstrating a powerful halo effect based on presentation.",
+          "long_explanation": "The expert audience rated 'Dr. Fox' very highly on his teaching ability, despite his lecture being filled with jargon, contradictions, and irrelevant information. His distinguished appearance and authoritative, engaging delivery created a halo effect, leading the audience to infer competence and quality where there was none."
+        },
+        {
+          "id": 53,
+          "question": "How does the fundamental attribution error typically differ from the actor-observer bias (the way we attribute our own behavior)?",
+          "options": {
+            "A": "We attribute both our own and others' behavior primarily to situational factors.",
+            "B": "We attribute others' behavior to internal factors but are more likely to attribute our own behavior to external, situational factors.",
+            "C": "We attribute others' behavior to situational factors but are more likely to attribute our own behavior to internal, dispositional factors.",
+            "D": "There is no difference; the fundamental attribution error applies equally to judging ourselves and others."
+          },
+          "answer": "B",
+          "short_explanation": "We tend to see others' behavior as a reflection of their personality, but our own behavior as a response to the situation.",
+          "long_explanation": "This is the essence of the actor-observer bias. When we are the 'actor,' the situation is highly salient to us ('I was late because of traffic'). When we are the 'observer,' the person is the focus of our attention, so we make a dispositional attribution ('They were late because they are disorganized'). The fundamental attribution error specifically describes the bias when observing others."
+        },
+        {
+          "id": 54,
+          "question": "After receiving a poor grade on a paper, a student looks up the class average and feels better after discovering that their grade was still higher than most of their classmates' grades. The student has engaged in:",
+          "options": {
+            "A": "Upward social comparison",
+            "B": "Self-handicapping",
+            "C": "Downward social comparison",
+            "D": "The fundamental attribution error"
+          },
+          "answer": "C",
+          "short_explanation": "Downward social comparison involves comparing oneself to people who are worse off to feel better about oneself.",
+          "long_explanation": "According to social comparison theory, we can boost our self-esteem by comparing ourselves to others who performed more poorly. This is a common self-protective strategy. Upward social comparison, comparing oneself to someone better, is often used for motivation but can sometimes lead to feelings of inferiority."
+        },
+        {
+          "id": 55,
+          "question": "What are implicit personality theories?",
+          "options": {
+            "A": "Scientific theories that have not yet been empirically tested.",
+            "B": "A person's unconscious beliefs about what it means to have a personality.",
+            "C": "A type of mental schema used to group various kinds of personality traits together.",
+            "D": "A therapeutic technique for uncovering hidden personality traits."
+          },
+          "answer": "C",
+          "short_explanation": "Implicit personality theories are our personal, unstated assumptions about which personality traits go together.",
+          "long_explanation": "For example, if we learn that a person is kind, our implicit personality theory might lead us to automatically assume they are also generous and trustworthy. These 'theories' act as mental shortcuts, allowing us to form a full impression of someone from a small amount of information, but they can also lead to stereotypes and errors like the halo effect."
+        },
+        {
+          "id": 56,
+          "question": "Your project partner arrives an hour late to a crucial meeting. If you make an internal attribution for their behavior, what would you most likely think?",
+          "options": {
+            "A": "'The traffic must have been terrible this morning.'",
+            "B": "'Their earlier meeting probably ran over time.'",
+            "C": "'They are so disorganized and don't respect my time.'",
+            "D": "'There might have been an emergency with their family.'"
+          },
+          "answer": "C",
+          "short_explanation": "An internal attribution explains behavior as being caused by a person's disposition, personality, or character.",
+          "long_explanation": "Thinking your partner is 'disorganized' or 'disrespectful' attributes the cause of their lateness to their personal traits. All the other options (traffic, another meeting, an emergency) are external, situational factors, which would represent an external attribution."
+        },
+        {
+          "id": 57,
+          "question": "The process of forming impressions of and making inferences about other people based on cues like facial expressions and behavior is known as:",
+          "options": {
+            "A": "Social facilitation",
+            "B": "Social perception",
+            "C": "Social loafing",
+            "D": "Social comparison"
+          },
+          "answer": "B",
+          "short_explanation": "Social perception is the broad term for how we see and understand others in our social world.",
+          "long_explanation": "This fundamental process includes interpreting nonverbal communication, making attributions about behavior, and using schemas like implicit personality theories to form a coherent impression of another person. The other terms refer to specific group dynamics or self-evaluation processes."
+        },
+        {
+          "id": 58,
+          "question": "After choosing to buy an expensive but stylish car over a cheaper, more fuel-efficient one, a person starts to focus intensely on the cheap car's boring design while telling all their friends about their own car's amazing performance. This behavior is a classic attempt to reduce:",
+          "options": {
+            "A": "The fundamental attribution error",
+            "B": "Normative social influence",
+            "C": "Post-decision dissonance",
+            "D": "The bystander effect"
+          },
+          "answer": "C",
+          "short_explanation": "Post-decision dissonance is reduced by emphasizing the positives of the chosen option and the negatives of the rejected one.",
+          "long_explanation": "The decision created dissonance because the chosen car has negatives (expensive) and the rejected car had positives (fuel-efficient). To resolve this discomfort, the person mentally restructures their cognitions to make their choice seem unequivocally superior, thereby justifying their decision and feeling better about it."
+        },
+        {
+          "id": 59,
+          "question": "According to the theory of cognitive dissonance, what are the three primary ways an individual can reduce the discomfort caused by a discrepancy between their beliefs and actions?",
+          "options": {
+            "A": "Engage in upward, downward, and lateral social comparison.",
+            "B": "Experience alarm, resistance, and exhaustion.",
+            "C": "Change the behavior, change the cognition, or add a new cognition.",
+            "D": "Conform, obey, or dissent."
+          },
+          "answer": "C",
+          "short_explanation": "Dissonance can be resolved by changing the behavior, changing one of the dissonant thoughts, or adding a new thought to justify the discrepancy.",
+          "long_explanation": "A smoker who knows smoking is unhealthy can (1) quit smoking (change behavior), (2) decide smoking isn't that bad (change cognition), or (3) decide the relaxation benefits outweigh the risks (add a new, consonant cognition). These are the three fundamental pathways to restoring cognitive consistency."
+        },
+        {
+          "id": 60,
+          "question": "How does the Aronson & Carlsmith (1963) study with children and forbidden toys demonstrate the principle of internal justification?",
+          "options": {
+            "A": "It shows that a severe threat provides strong internal justification for not playing with a toy.",
+            "B": "It shows that when an external justification (a severe threat) is weak, people must create an internal justification (changing their attitude) to reduce dissonance.",
+            "C": "It proves that children are immune to cognitive dissonance.",
+            "D": "It shows that children will always value a toy more if it is forbidden, regardless of the threat."
+          },
+          "answer": "B",
+          "short_explanation": "The mild threat was insufficient external justification, forcing children to internally justify their obedience by deciding they didn't like the toy anyway.",
+          "long_explanation": "Children who received a severe threat had a clear external reason for not playing with the toy, so their attitude didn't need to change. Children with only a mild threat lacked this strong external reason, creating dissonance ('I'm not playing with this toy, but there's no good reason why not'). To resolve this, they convinced themselves they never wanted the toy in the first place, demonstrating a powerful and lasting attitude change through internal justification."
+        },
+        {
+          "id": 61,
+          "question": "An environmental activist who believes deeply in reducing carbon emissions buys a large, inefficient SUV. They then start to avidly read articles that question the severity of climate change and tell friends, 'Besides, I need a safe car for my family.' This is a clear example of:",
+          "options": {
+            "A": "Impression management",
+            "B": "Reducing cognitive dissonance",
+            "C": "The halo effect",
+            "D": "The bystander effect"
+          },
+          "answer": "B",
+          "short_explanation": "The activist is changing their cognitions and adding new ones to justify a behavior that contradicts their core values.",
+          "long_explanation": "The purchase of the SUV creates significant dissonance between the activist's belief (environmentalism) and their action. To reduce this discomfort, they are engaging in two classic strategies: changing a cognition (questioning climate change) and adding a new, consonant cognition (justifying the purchase based on safety)."
+        },
+        {
+          "id": 62,
+          "question": "What is the core proposition of Terror Management Theory?",
+          "options": {
+            "A": "Social groups form to manage the terror of external threats.",
+            "B": "Self-esteem serves as a psychological buffer against the anxiety of human mortality.",
+            "C": "Phobias are a result of mismanaged terror from traumatic events.",
+            "D": "Leaders who use terror as a management tactic are ultimately unsuccessful."
+          },
+          "answer": "B",
+          "short_explanation": "The theory posits that self-esteem protects us from the potentially paralyzing fear of death.",
+          "long_explanation": "According to Terror Management Theory, humans are unique in their awareness of their own mortality. To manage the anxiety this awareness creates, we adopt cultural worldviews that give life meaning and strive for self-esteem, which makes us feel like valuable individuals in a meaningful universe, thus buffering us from death-related anxiety."
+        },
+        {
+          "id": 63,
+          "question": "A car salesperson gets a customer to agree to buy a car for a very low price. After the customer has mentally committed and is excited about the purchase, the salesperson returns and says, 'My manager won't approve that price, we have to add another 500 euros for fees.' The customer, already committed, agrees to the higher price. This technique is called:",
+          "options": {
+            "A": "Lowballing",
+            "B": "Self-handicapping",
+            "C": "Post-decision dissonance",
+            "D": "The Dr. Fox effect"
+          },
+          "answer": "A",
+          "short_explanation": "Lowballing involves securing agreement with a request and then increasing the size of that request by revealing hidden costs.",
+          "long_explanation": "This persuasion strategy works because the initial commitment creates an illusion of irrevocability. The customer has already started to anticipate the happy event of owning the new car. When the cost increases, the dissonance of backing out feels greater than the dissonance of paying a little extra, so they often agree to the new, less favorable terms."
+        },
+        {
+          "id": 64,
+          "question": "An employee is initially neutral about a new software program their company adopts. After using it every day for a month, they find that they have grown to like it and prefer it over the old system. This change in attitude is best explained by:",
+          "options": {
+            "A": "Cognitive dissonance",
+            "B": "The reciprocity norm",
+            "C": "The mere exposure effect",
+            "D": "Social loafing"
+          },
+          "answer": "C",
+          "short_explanation": "The mere exposure effect states that repeated exposure to a stimulus increases our liking for it.",
+          "long_explanation": "Familiarity often breeds liking. As long as the initial exposure is not negative, repeated encounters with a person, object, or idea tend to increase positive feelings. The employee's daily use of the software made it more familiar, which in turn led to a more positive attitude."
+        },
+        {
+          "id": 65,
+          "question": "According to social psychological research on interpersonal attraction, which of the following factors is considered a 'door-opener' but is often not sufficient on its own to build a close relationship?",
+          "options": {
+            "A": "Similarity",
+            "B": "Proximity",
+            "C": "Attractiveness",
+            "D": "Sympathy"
+          },
+          "answer": "B",
+          "short_explanation": "Proximity, or physical closeness, is crucial for initiating a relationship but does not guarantee its development.",
+          "long_explanation": "You cannot form a relationship with someone you never meet, so proximity is the essential first step that allows other factors like similarity and sympathy to come into play. However, simply being near someone is not enough to build a lasting, close relationship if those other factors are not present."
+        },
+        {
+          "id": 66,
+          "question": "During a team-building exercise, a new employee privately disagrees with the group's proposed solution but goes along with it because they want their new colleagues to like and accept them. This is a clear example of:",
+          "options": {
+            "A": "Informational social influence",
+            "B": "Normative social influence",
+            "C": "Obedience to authority",
+            "D": "The bystander effect"
+          },
+          "answer": "B",
+          "short_explanation": "Normative social influence is conforming to be liked, accepted, and to fit in with a group.",
+          "long_explanation": "The employee's motivation is social; they are conforming to the group's norms to avoid rejection or ridicule. They are exhibiting public compliance without private acceptance, which is the hallmark of normative influence. Informational influence, in contrast, is driven by the desire to be correct in an ambiguous situation."
+        },
+        {
+          "id": 67,
+          "question": "You are visiting a foreign country for the first time and are unsure whether to tip your server at a restaurant. You observe other local patrons leaving a small amount of cash on the table, so you do the same. This is an example of:",
+          "options": {
+            "A": "Normative social influence",
+            "B": "Obedience to authority",
+            "C": "Informational social influence",
+            "D": "Groupthink"
+          },
+          "answer": "C",
+          "short_explanation": "Informational social influence is using others as a source of information in an ambiguous or novel situation.",
+          "long_explanation": "The situation is ambiguous because you don't know the local customs. You conform to the behavior of others because you believe they have accurate information about the correct way to act. Your goal is to be right, not just to be liked, which distinguishes this from normative influence."
+        },
+        {
+          "id": 68,
+          "question": "What was the primary finding of Solomon Asch's (1956) classic line-judgment studies?",
+          "options": {
+            "A": "People will obey an authority figure even if it means harming others.",
+            "B": "In ambiguous situations, people rely on others to define reality.",
+            "C": "A significant number of people will conform to a group's obviously incorrect answer to avoid social disapproval.",
+            "D": "Group decisions are almost always superior to individual decisions."
+          },
+          "answer": "C",
+          "short_explanation": "Asch's studies demonstrated the power of normative social influence, showing people will conform even when they know the group is wrong.",
+          "long_explanation": "Unlike Sherif's study, the task in Asch's experiment was clear and unambiguous. The fact that participants still went along with the wrong answer showed they were conforming not for information, but to avoid the discomfort of disagreeing with a unanimous group. This highlighted the human need for social acceptance."
+        },
+        {
+          "id": 69,
+          "question": "What was the main, and startling, conclusion from Stanley Milgram's (1963) experiments on obedience?",
+          "options": {
+            "A": "Only authoritarian personalities are capable of extreme obedience.",
+            "B": "Ordinary people are surprisingly likely to obey an authority figure, even when ordered to inflict severe pain on an innocent person.",
+            "C": "Obedience to authority has decreased significantly in modern times.",
+            "D": "People are more likely to obey orders from a peer than from a legitimate authority figure."
+          },
+          "answer": "B",
+          "short_explanation": "Milgram's studies showed that situational pressures from a legitimate authority could compel a majority of participants to act against their conscience.",
+          "long_explanation": "The most shocking finding was not that some people obeyed, but that a very high percentage (around two-thirds) of normal, everyday citizens continued to the maximum shock level. This suggested that the situation, not the person's individual character, was the primary driver of their destructive obedience."
+        },
+        {
+          "id": 70,
+          "question": "What is the key difference between the type of conformity demonstrated in Sherif's autokinetic effect study and the type shown in Asch's line-judgment study?",
+          "options": {
+            "A": "Sherif's study involved obedience, while Asch's involved conformity.",
+            "B": "Sherif's study demonstrated informational influence leading to private acceptance, while Asch's demonstrated normative influence leading to public compliance.",
+            "C": "Sherif's participants knew they were being deceived, while Asch's did not.",
+            "D": "Sherif's study showed that groups make poor decisions, while Asch's showed they make accurate ones."
+          },
+          "answer": "B",
+          "short_explanation": "The ambiguity of the stimulus in Sherif's study led to informational influence, whereas the clarity of the stimulus in Asch's study highlighted normative influence.",
+          "long_explanation": "In Sherif's dark room, the situation was genuinely ambiguous, so participants used the group as a source of information and privately accepted the group norm. In Asch's study, the answer was obvious, so participants conformed to avoid social pressure, complying publicly even though they privately knew the group was wrong."
+        },
+        {
+          "id": 71,
+          "question": "In a group project, a team is tasked with brainstorming as many ideas as possible. The final list will be submitted as a group effort, with no individual credit given. One member puts in very little effort, assuming the others will pick up the slack. This is an example of:",
+          "options": {
+            "A": "Social facilitation",
+            "B": "Groupthink",
+            "C": "Social loafing",
+            "D": "The sucker effect"
+          },
+          "answer": "C",
+          "short_explanation": "Social loafing is the tendency to exert less effort when individual performance cannot be evaluated in a group.",
+          "long_explanation": "When people are part of a group where their individual contribution is not identifiable, they feel less accountable and tend to relax. This leads to reduced effort on simple or additive tasks like brainstorming. The sucker effect is related but describes when a person reduces effort because they feel others are loafing and they don't want to be taken advantage of."
+        },
+        {
+          "id": 72,
+          "question": "An experienced cyclist finds that she rides much faster when she is cycling with a group than when she is cycling alone. This enhancement of performance on a well-learned task due to the presence of others is known as:",
+          "options": {
+            "A": "Social loafing",
+            "B": "Social facilitation",
+            "C": "The bystander effect",
+            "D": "Groupthink"
+          },
+          "answer": "B",
+          "short_explanation": "Social facilitation is the tendency to perform better on simple or well-learned tasks when others are present.",
+          "long_explanation": "The presence of others increases physiological arousal. For a simple or mastered task like cycling for an experienced rider, this arousal facilitates the dominant, correct response, leading to improved performance. If the task were complex or new, the same arousal would likely hinder performance."
+        },
+        {
+          "id": 73,
+          "question": "What is the bystander effect?",
+          "options": {
+            "A": "The tendency for people to perform better on tasks when being watched by others.",
+            "B": "The finding that the more people who witness an emergency, the less likely any one of them is to help.",
+            "C": "The tendency for group discussions to lead to more extreme decisions than individual ones.",
+            "D": "The phenomenon where individuals in a crowd lose their sense of personal identity."
+          },
+          "answer": "B",
+          "short_explanation": "The bystander effect is a social psychological phenomenon in which individuals are less likely to offer help to a victim when other people are present.",
+          "long_explanation": "This effect is driven by two main psychological mechanisms: the diffusion of responsibility (assuming someone else will help) and pluralistic ignorance (interpreting the situation as a non-emergency because no one else is acting). The presence of others paradoxically makes helping less likely."
+        },
+        {
+          "id": 74,
+          "question": "A company's executive board is highly cohesive and isolated from outside opinions. The powerful CEO has made it clear she favors a particular risky merger. During the final meeting, several board members who have serious doubts remain silent to avoid disrupting the group's apparent unity. This scenario contains several key antecedent conditions for:",
+          "options": {
+            "A": "Social loafing",
+            "B": "Groupthink",
+            "C": "The Robbers Cave experiment",
+            "D": "Social facilitation"
+          },
+          "answer": "B",
+          "short_explanation": "Groupthink is a decision-making flaw that occurs in cohesive groups when the desire for harmony overrides realistic appraisal of alternatives.",
+          "long_explanation": "The scenario describes classic conditions that lead to groupthink: high cohesion, group isolation, a directive leader, and high stress (implied by a risky merger). The resulting symptoms include self-censorship (members with doubts stay silent) and an illusion of unanimity, which can lead to a faulty decision-making process."
+        },
+        {
+          "id": 75,
+          "question": "An engineer is designing an alarm for a self-driving car's system failure. To ensure the driver notices the critical warning immediately, the engineer designs the system to show a large, red flashing icon on the dashboard while also playing a loud, urgent auditory tone. This design makes effective use of which principle?",
+          "options": {
+            "A": "The Principle of Multiple Resources",
+            "B": "The Pictorial Realism Principle",
+            "C": "The Consistency Principle",
+            "D": "The Predictive Aiding Principle"
+          },
+          "answer": "A",
+          "short_explanation": "The Principle of Multiple Resources advises using different sensory modalities (e.g., visual and auditory) to present information and avoid cognitive overload.",
+          "long_explanation": "By presenting the critical alarm information through both the visual channel (flashing icon) and the auditory channel (tone), the design reduces the load on any single channel and increases the likelihood that the message will be perceived quickly and effectively. This is a key attention-based principle in display design."
+        },
+        {
+          "id": 76,
+          "question": "According to the SEEV model, what are the four primary factors that determine how attention is distributed across a visual display?",
+          "options": {
+            "A": "Size, Shape, Color, and Brightness",
+            "B": "Windows, Icons, Menus, and Pointers",
+            "C": "Salience, Effort, Expectancy, and Value",
+            "D": "Perception, Cognition, Action, and Feedback"
+          },
+          "answer": "C",
+          "short_explanation": "The SEEV model proposes that attention is guided by the interplay of Salience, Effort, Expectancy, and Value.",
+          "long_explanation": "Salience and Effort are considered bottom-up factors driven by the stimulus itself, while Expectancy and Value are top-down factors driven by the user's knowledge and goals. A designer must consider how these four factors will interact and compete for the user's limited attentional resources."
+        },
+        {
+          "id": 77,
+          "question": "A user wants to save their document in a new software program. They click the 'File' menu, but there is no 'Save' or 'Save As' option. They are confused and cannot figure out how to complete their goal. This poor design creates a problem in which part of Norman's Seven Stages of Action?",
+          "options": {
+            "A": "Forming the Goal",
+            "B": "Evaluating the Outcome",
+            "C": "The Gulf of Execution (Specifying the Action Sequence)",
+            "D": "Perceiving the System State"
+          },
+          "answer": "C",
+          "short_explanation": "The Gulf of Execution refers to the difficulty of translating a user's intention into the correct action sequence required by the system.",
+          "long_explanation": "The user has a clear goal and intention ('save the file'), but the interface does not provide a clear way to specify the necessary actions. This gap between the user's psychological intention and the physical actions the system requires is known as the Gulf of Execution."
+        },
+        {
+          "id": 78,
+          "question": "How do the Memory Principles of display design, such as 'Replace Memory with Visual Information,' directly address the limitations of the human cognitive system as described by the Working Memory Model?",
+          "options": {
+            "A": "They increase the capacity of the phonological loop.",
+            "B": "They reduce the cognitive load on the Central Executive and limited-capacity buffers by making information externally available.",
+            "C": "They speed up the transfer of information from working memory to long-term memory.",
+            "D": "They ensure all information is processed through the visuospatial sketchpad."
+          },
+          "answer": "B",
+          "short_explanation": "Memory principles reduce the need for users to hold information in their limited working memory, thus lowering cognitive load.",
+          "long_explanation": "The Working Memory Model highlights that our ability to hold and manipulate information is severely limited. Design principles like using on-screen checklists or consistent icon placement offload the memory burden from the user's brain onto the interface itself. This frees up cognitive resources in the Central Executive and its subsystems for more critical tasks like decision-making and problem-solving."
+        },
+        {
+          "id": 79,
+          "question": "A software application consistently uses a red 'X' icon for deleting items and a green '+' icon for adding items across all its different screens and modules. This design adheres to which principle of display design?",
+          "options": {
+            "A": "Redundancy Gain",
+            "B": "Predictive Aiding",
+            "C": "Consistency",
+            "D": "Discriminability"
+          },
+          "answer": "C",
+          "short_explanation": "The Consistency principle states that design conventions should be kept the same throughout a system to support learning and avoid errors.",
+          "long_explanation": "By using the same symbols and colors for the same functions everywhere, the system leverages the user's past experiences within the application. This makes the interface predictable, reduces memory load, and minimizes the chance of user error, as users do not have to learn new conventions for each screen."
+        },
+        {
+          "id": 80,
+          "question": "The GOMS model, used for task analysis in human-computer interaction, is an acronym that stands for:",
+          "options": {
+            "A": "Graphics, Operations, Menus, and Selections",
+            "B": "Goals, Operators, Methods, and Selection Rules",
+            "C": "General, Objective, Measurable, and Specific",
+            "D": "Guidance, Observation, Manipulation, and System-response"
+          },
+          "answer": "B",
+          "short_explanation": "GOMS stands for Goals, Operators, Methods, and Selection Rules, which are the four components used to model user tasks.",
+          "long_explanation": "This model provides a formal way to describe the procedural knowledge a user needs to operate a system. It breaks down tasks into the user's high-level Goals, the specific Methods (procedures) to achieve them, the elementary Operators (actions like clicking), and the Selection Rules used to choose between different methods."
+        },
+        {
+          "id": 81,
+          "question": "A designer creates a weather app where the temperature, wind speed, precipitation chance, and UV index are all displayed in the same font size and color, scattered randomly around the screen. This design violates which attention-based principle?",
+          "options": {
+            "A": "Principle of Multiple Resources",
+            "B": "Minimize Information Access Cost",
+            "C": "Proximity Compatibility Principle",
+            "D": "Both B and C"
+          },
+          "answer": "D",
+          "short_explanation": "The design violates both the principle of grouping related items (Proximity Compatibility) and making them easy to find (Minimize Access Cost).",
+          "long_explanation": "The Proximity Compatibility Principle is violated because related information is not grouped together, forcing the user to scan the whole screen. The principle to Minimize Information Access Cost is violated because the random placement increases the effort required for the user to find the specific piece of information they are looking for."
+        },
+        {
+          "id": 82,
+          "question": "In the SEEV model, a bright, flashing warning light on a control panel is an example of a ____________ factor, while an operator's knowledge that a fault is likely to appear on a specific gauge is an example of a ____________ factor.",
+          "options": {
+            "A": "top-down; bottom-up",
+            "B": "bottom-up; top-down",
+            "C": "salience; value",
+            "D": "effort; expectancy"
+          },
+          "answer": "B",
+          "short_explanation": "Bottom-up factors are stimulus-driven (salience), while top-down factors are driven by the user's knowledge and goals (expectancy).",
+          "long_explanation": "The flashing light grabs attention because of its physical properties (it is salient), which is a bottom-up process. The operator's knowledge creates an expectation of where to look for information, which is a top-down, goal-driven process. The SEEV model describes how these two types of factors interact to guide attention."
+        },
+        {
+          "id": 83,
+          "question": "What is the primary aim of Engineering Psychology?",
+          "options": {
+            "A": "To study the psychological effects of engineering on society.",
+            "B": "To provide psychological counseling for engineers.",
+            "C": "To optimize the interaction between humans and technical systems.",
+            "D": "To design machines that can function without human intervention."
+          },
+          "answer": "C",
+          "short_explanation": "Engineering psychology applies knowledge of human capabilities and limitations to the design of systems, tasks, and environments.",
+          "long_explanation": "The focus is on making technology more effective, efficient, safe, and satisfying to use by designing the human-machine interface to be compatible with human psychology. It is about fitting the technology to the human, not the other way around."
+        },
+        {
+          "id": 84,
+          "question": "A factory manager redesigns an assembly line job. Instead of each worker tightening a single bolt, she creates small teams that are responsible for building, testing, and packaging an entire product. According to the Job Characteristics Model, this change is primarily intended to increase which core job characteristics?",
+          "options": {
+            "A": "Autonomy and Feedback",
+            "B": "Skill Variety, Task Identity, and Task Significance",
+            "C": "Need for Personal Growth",
+            "D": "Experienced Responsibility"
+          },
+          "answer": "B",
+          "short_explanation": "This job redesign increases the variety of skills used, the ability to see a whole piece of work (identity), and the understanding of its importance (significance).",
+          "long_explanation": "By moving from a single, repetitive action to building a complete product, the job now requires more skills (Skill Variety), involves a whole and identifiable piece of work (Task Identity), and has a more visible impact (Task Significance). According to the model, these three characteristics combine to increase the Experienced Meaningfulness of the work."
+        },
+        {
+          "id": 85,
+          "question": "According to research on workplace burnout, what are its three primary dimensions?",
+          "options": {
+            "A": "Low pay, long hours, and poor management.",
+            "B": "Anxiety, depression, and frustration.",
+            "C": "Role conflict, role overload, and high expectations.",
+            "D": "Emotional exhaustion, depersonalization, and a reduced sense of personal accomplishment."
+          },
+          "answer": "D",
+          "short_explanation": "Burnout is formally defined by these three key symptoms: exhaustion, cynicism (depersonalization), and feelings of inefficacy.",
+          "long_explanation": "These three dimensions capture the multifaceted nature of burnout. Emotional exhaustion is the feeling of being emotionally drained. Depersonalization refers to a detached, cynical attitude towards one's job and the people involved. Reduced personal accomplishment is the feeling that one is no longer effective or competent in their role."
+        },
+        {
+          "id": 86,
+          "question": "What is the critical difference between social facilitation and social loafing?",
+          "options": {
+            "A": "Social facilitation occurs in simple tasks, while social loafing occurs in complex tasks.",
+            "B": "Social facilitation is driven by arousal, while social loafing is driven by group cohesion.",
+            "C": "Social facilitation occurs when individual performance can be evaluated, while social loafing occurs when it cannot.",
+            "D": "Social facilitation improves performance, while social loafing always harms performance."
+          },
+          "answer": "C",
+          "short_explanation": "The possibility of individual evaluation is the key factor that determines whether the presence of others leads to facilitation or loafing.",
+          "long_explanation": "When individual efforts are identifiable, we experience evaluation apprehension, leading to arousal (social facilitation). When individual efforts are pooled and anonymous, we feel less accountable, leading to relaxation (social loafing). This distinction explains why the presence of others can sometimes help and sometimes hinder performance."
+        },
+        {
+          "id": 87,
+          "question": "A manager is frustrated with a project's slow progress and says to the team, 'Are you really going to wear that to the client meeting?' directed at one employee's casual attire. The employee feels personally attacked. The manager's intended message was likely on the Appeal side ('Dress more professionally'), but the employee reacted strongly to the:",
+          "options": {
+            "A": "Factual Information side",
+            "B": "Self-Revelation side",
+            "C": "Relationship side",
+            "D": "Appeal side"
+          },
+          "answer": "C",
+          "short_explanation": "The employee likely interpreted the message as a statement about their relationship, perceiving it as condescending or disrespectful.",
+          "long_explanation": "According to Schulz von Thun's Four-Sides Model, a message always contains information about the relationship between sender and receiver. In this case, the question, although seemingly about clothes (Factual) or a request (Appeal), was likely received as 'I see you as unprofessional and have the right to judge you,' which is a powerful and negative relationship message."
+        },
+        {
+          "id": 88,
+          "question": "According to Tuckman's model, what are the four stages of group development, in the correct order?",
+          "options": {
+            "A": "Forming, Norming, Storming, Performing",
+            "B": "Storming, Forming, Performing, Norming",
+            "C": "Forming, Storming, Norming, Performing",
+            "D": "Norming, Forming, Storming, Performing"
+          },
+          "answer": "C",
+          "short_explanation": "Tuckman's classic model proposes the sequence of Forming, Storming, Norming, and Performing.",
+          "long_explanation": "Groups first come together and get oriented (Forming). They then typically go through a period of conflict as roles and power are negotiated (Storming). If successful, they establish group norms and cohesion (Norming), which allows them to finally focus their energy on the task (Performing)."
+        },
+        {
+          "id": 89,
+          "question": "An employee has a very high workload and deals with emotionally difficult clients (high demands), but also has significant control over their schedule and strong support from their supervisor (high resources). According to the Job Demands-Resources (JD-R) model, what is the most likely outcome for this employee?",
+          "options": {
+            "A": "High strain and high motivation (an 'active' job)",
+            "B": "Low strain and low motivation (a 'passive' job)",
+            "C": "High strain and low motivation (a 'high-strain' job)",
+            "D": "Low strain and high motivation (a 'low-strain' job)"
+          },
+          "answer": "A",
+          "short_explanation": "The JD-R model predicts that high demands combined with high resources lead to an active, engaged state, though it may still be stressful.",
+          "long_explanation": "The high demands contribute to potential strain, but the high resources (autonomy and support) buffer against burnout and foster motivation and engagement. This combination often leads to a challenging but rewarding work environment where employees are actively involved and learning, though they may still experience stress."
+        },
+        {
+          "id": 90,
+          "question": "In a workplace context, what is ostracism?",
+          "options": {
+            "A": "The formal process of firing an employee for poor performance.",
+            "B": "A type of aggressive behavior involving direct verbal insults.",
+            "C": "The act of being excluded or ignored by colleagues in social interactions.",
+            "D": "A conflict resolution style based on avoidance."
+          },
+          "answer": "C",
+          "short_explanation": "Ostracism is social exclusion, where individuals are ignored or left out of group interactions.",
+          "long_explanation": "This can be a particularly damaging form of workplace mistreatment because it is often subtle and invisible, making it difficult for the target to address directly. Research shows that the social pain of ostracism can be as severe as physical pain."
+        },
+        {
+          "id": 91,
+          "question": "An employee is given a project with an impossibly tight deadline. To cope with the stress, they talk to a friend to vent their frustrations and then go for a run to clear their head. This is an example of:",
+          "options": {
+            "A": "Problem-focused coping",
+            "B": "Emotion-focused coping",
+            "C": "Reappraisal coping",
+            "D": "Avoidance coping"
+          },
+          "answer": "B",
+          "short_explanation": "Emotion-focused coping aims to manage the emotional reactions to stress rather than the source of the stress itself.",
+          "long_explanation": "The employee is not changing the deadline (the problem) but is instead taking steps to manage their feelings of frustration and stress. Venting and exercising are classic emotion-focused strategies. Problem-focused coping would involve actions like trying to renegotiate the deadline or creating a more efficient work plan."
+        },
+        {
+          "id": 92,
+          "question": "What are the three stages of the General Adaptation Syndrome (GAS) as described by Hans Selye?",
+          "options": {
+            "A": "Stressor, Appraisal, Coping",
+            "B": "Alarm, Resistance, Exhaustion",
+            "C": "Demand, Resource, Strain",
+            "D": "Forming, Storming, Norming"
+          },
+          "answer": "B",
+          "short_explanation": "Selye's model describes the body's physiological response to prolonged stress in three phases: alarm, resistance, and exhaustion.",
+          "long_explanation": "The Alarm phase is the initial fight-or-flight reaction. The Resistance phase is a period of adaptation where the body tries to cope with the ongoing stressor. If the stressor persists, the body's resources become depleted, leading to the Exhaustion phase, where vulnerability to illness increases."
+        },
+        {
+          "id": 93,
+          "question": "A research team wants to determine if a new software tutorial *causes* users to learn a program faster than the old tutorial. Which research design must they use to make a confident causal claim?",
+          "options": {
+            "A": "A cross-sectional study",
+            "B": "A longitudinal study",
+            "C": "An experiment",
+            "D": "A meta-analysis"
+          },
+          "answer": "C",
+          "short_explanation": "Only a true experiment, with manipulation of the independent variable and random assignment, can establish causality.",
+          "long_explanation": "To prove causation, the researchers must randomly assign participants to either the new tutorial (treatment group) or the old tutorial (control group) and then measure the difference in their learning speed. This process rules out alternative explanations, allowing for a causal conclusion. Correlational designs like cross-sectional or longitudinal studies can only show relationships, not cause-and-effect."
+        },
+        {
+          "id": 94,
+          "question": "What is the single most important difference between a true experiment and a quasi-experiment?",
+          "options": {
+            "A": "The use of a control group.",
+            "B": "The manipulation of an independent variable.",
+            "C": "The random assignment of participants to conditions.",
+            "D": "The measurement of a dependent variable."
+          },
+          "answer": "C",
+          "short_explanation": "True experiments use random assignment to create equivalent groups, whereas quasi-experiments do not.",
+          "long_explanation": "Both designs may involve manipulating an independent variable and using a control group. However, the lack of random assignment in a quasi-experiment means the groups may not be comparable at the start, which introduces potential confounding variables and makes it much more difficult to draw causal conclusions."
+        },
+        {
+          "id": 95,
+          "question": "A researcher surveys 500 adolescents, asking them to report their average daily social media use and their current level of well-being. All data is collected on the same day. This is an example of what type of study?",
+          "options": {
+            "A": "An experiment",
+            "B": "A longitudinal study",
+            "C": "A cross-sectional study",
+            "D": "A quasi-experiment"
+          },
+          "answer": "C",
+          "short_explanation": "A cross-sectional study measures different variables in a sample of people at a single point in time.",
+          "long_explanation": "This design provides a 'snapshot' of the relationship between variables (social media use and well-being) at one specific moment. It is efficient for identifying correlations but cannot determine the direction of the relationship or rule out third variables, thus it cannot establish causality."
+        },
+        {
+          "id": 96,
+          "question": "Why is it incorrect to infer causality from a correlation found in a cross-sectional study?",
+          "options": {
+            "A": "Because cross-sectional studies do not use statistical analysis.",
+            "B": "Because such studies lack a clear temporal sequence of variables and cannot rule out the influence of confounding variables.",
+            "C": "Because cross-sectional studies can only be used to study group differences, not relationships.",
+            "D": "Because the sample sizes are generally too small to make any valid conclusions."
+          },
+          "answer": "B",
+          "short_explanation": "Correlation does not equal causation because of the directionality problem and the third-variable problem.",
+          "long_explanation": "A cross-sectional study measures variables at the same time, so you don't know if X caused Y or Y caused X (directionality problem). Furthermore, an unmeasured third variable, Z, could be causing both X and Y (third-variable problem). Without the manipulation and control provided by an experiment, these alternative explanations cannot be excluded."
+        },
+        {
+          "id": 97,
+          "question": "What does it mean for a scientific hypothesis to be 'falsifiable'?",
+          "options": {
+            "A": "The hypothesis has been proven to be false.",
+            "B": "The hypothesis is based on a false theory.",
+            "C": "It is logically possible to make an observation that would contradict or disprove the hypothesis.",
+            "D": "The hypothesis is too complex to be tested."
+          },
+          "answer": "C",
+          "short_explanation": "Falsifiability, a key criterion of science, means that a hypothesis must be testable in a way that it could potentially be shown to be wrong.",
+          "long_explanation": "A statement that cannot be proven wrong under any circumstances (e.g., 'An invisible, undetectable dragon lives in my garage') is not a scientific hypothesis. Science progresses by subjecting hypotheses to rigorous tests that could potentially falsify them. A hypothesis that survives such tests gains credibility."
+        },
+        {
+          "id": 98,
+          "question": "In the hypothesis 'Implementing a four-day work week will lead to higher employee job satisfaction,' what are the independent variable (IV) and dependent variable (DV)?",
+          "options": {
+            "A": "IV: Job satisfaction; DV: The four-day work week",
+            "B": "IV: The four-day work week; DV: Job satisfaction",
+            "C": "IV: The employees; DV: The company",
+            "D": "IV: Higher satisfaction; DV: Implementation"
+          },
+          "answer": "B",
+          "short_explanation": "The independent variable is what is manipulated (the work week), and the dependent variable is what is measured (job satisfaction).",
+          "long_explanation": "The hypothesis proposes that changing the work week structure (the cause, or IV) will result in a change in the level of job satisfaction (the effect, or DV). The researcher would manipulate the IV to see its effect on the DV."
+        },
+        {
+          "id": 99,
+          "question": "What is a meta-analysis in scientific research?",
+          "options": {
+            "A": "A theoretical paper that proposes a new, overarching 'meta' theory.",
+            "B": "The first analysis conducted on a primary dataset.",
+            "C": "A statistical method for combining the results of multiple independent studies to determine an overall effect.",
+            "D": "A qualitative review where a researcher subjectively discusses the findings of previous studies."
+          },
+          "answer": "C",
+          "short_explanation": "A meta-analysis is a quantitative 'study of studies' that synthesizes findings across a body of research.",
+          "long_explanation": "Instead of collecting new data, a researcher conducting a meta-analysis gathers all available published studies on a specific topic (e.g., the effect of a certain therapy). They then use statistical techniques to combine the results from these studies to calculate an overall average effect size, providing a more robust conclusion than any single study alone."
+        },
+        {
+          "id": 100,
+          "question": "A researcher states that their ambition is 'To improve the energy efficiency of wireless sensor networks in smart homes.' This statement is best described as what part of the research process?",
+          "options": {
+            "A": "A falsifiable hypothesis",
+            "B": "A specific research question",
+            "C": "A research design",
+            "D": "A broad research goal"
+          },
+          "answer": "D",
+          "short_explanation": "This is a broad, high-level aim that sets the direction for research but is not yet a specific, testable question.",
+          "long_explanation": "A broad research goal is the starting point of the research process. From this goal, the researcher would need to narrow their focus to formulate specific research questions (e.g., 'Does protocol X use less energy than protocol Y?') and then generate testable hypotheses (e.g., 'Protocol X will consume 20% less energy than protocol Y under specific conditions')."
+        }
+      ]
+    }
+  ]
+}
